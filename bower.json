@@ -1,0 +1,17 @@
+{
+  "name": "mikesmobile",
+  "description": "chimney and screen repair",
+  "main": "",
+  "authors": [
+    "Sebastian <sebasgomez24@gmail.com>"
+  ],
+  "license": "MIT",
+  "homepage": "",
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "test",
+    "tests"
+  ]
+}
