@@ -1,8 +1,8 @@
 <nav class="side-nav" id="sideNav">
 	<ul class="navbar-nav mr-auto">
 		<logo>
-        <img title="Mike’s Mobile Screen & Chimney Service" alt="Mike’s Mobile Screen & Chimney Service" src="/assets/images/MMBlue-AllWhiteLogo-640.png" style="max-height: 50px;">
-    </logo>
+            <a routerLink="/"><img title="Mike’s Mobile Screen & Chimney Service" alt="Mike’s Mobile Screen & Chimney Service" src="/assets/images/MMBlue-AllWhiteLogo-640.png" style="max-height: 50px;"></a>
+        </logo>
 
 
 		<h3 class="text-right white-text">Screens</h3>
@@ -39,24 +39,24 @@
 
 <mdb-navbar SideClass="navbar navbar-expand-lg navbar-dark main-menu">
     <logo>
-        <img title="Mike’s Mobile Screen & Chimney Service" alt="Mike’s Mobile Screen & Chimney Service" src="/assets/images/MMBlue-AllWhiteLogo-640.png" style="max-height: 50px;">
+        <a routerLink="/"><img title="Mike’s Mobile Screen & Chimney Service" alt="Mike’s Mobile Screen & Chimney Service" src="/assets/images/MMBlue-AllWhiteLogo-640.png" style="max-height: 50px;"></a>
     </logo>
     <links>
         <ul class="navbar-nav mr-auto pt-3">
             <li class="nav-item active">
-                <a class="nav-link waves-light" href="#" mdbRippleRadius><i class="fa fa-home"></i> &nbsp; Home <span class="sr-only">(current)</span> <i class="fa fa-angle-right" aria-hidden="true" style="float: right;"></i></a>
+                <a class="nav-link waves-light" routerLink="/" mdbRippleRadius><i class="fa fa-home"></i> &nbsp; Home <span class="sr-only">(current)</span> <i class="fa fa-angle-right" aria-hidden="true" style="float: right;"></i></a>
             </li>
             <li class="nav-item">
-                <a class="nav-link waves-light" href="#" mdbRippleRadius (click)="openSideNav()" ><i class="fa fa-globe"></i> &nbsp; Services <i class="fa fa-angle-right" aria-hidden="true" style="float: right;"></i></a>
+                <a class="nav-link waves-light" mdbRippleRadius (click)="openSideNav()" ><i class="fa fa-globe"></i> &nbsp; Services <i class="fa fa-angle-right" aria-hidden="true" style="float: right;"></i></a>
             </li>
             <li class="nav-item">
-                <a class="nav-link waves-light" href="#" mdbRippleRadius><i class="fa fa-users"></i> &nbsp; About <i class="fa fa-angle-right" aria-hidden="true" style="float: right;"></i></a>
+                <a class="nav-link waves-light" routerLink="/about" mdbRippleRadius><i class="fa fa-users"></i> &nbsp; About <i class="fa fa-angle-right" aria-hidden="true" style="float: right;"></i></a>
             </li>
             <li class="nav-item">
-                <a class="nav-link waves-light" href="#" mdbRippleRadius><i class="fa fa-envelope"></i> &nbsp; Contact <i class="fa fa-angle-right" aria-hidden="true" style="float: right;"></i></a>
+                <a class="nav-link waves-light" pageScroll href="#contact" mdbRippleRadius><i class="fa fa-envelope"></i> &nbsp; Contact <i class="fa fa-angle-right" aria-hidden="true" style="float: right;"></i></a>
             </li>
             <li class="nav-item">
-                <a class="nav-link waves-light" href="#" mdbRippleRadius><i class="fa fa-sticky-note"></i> &nbsp; Blog <i class="fa fa-angle-right" aria-hidden="true" style="float: right;"></i></a>
+                <a class="nav-link waves-light" routerLink="/blog" mdbRippleRadius><i class="fa fa-sticky-note"></i> &nbsp; Blog <i class="fa fa-angle-right" aria-hidden="true" style="float: right;"></i></a>
             </li>
             <li class="nav-item">
                 <a class="nav-link waves-light" href="#" mdbRippleRadius><i class="fa fa-shopping-bag"></i> &nbsp; Store <i class="fa fa-angle-right" aria-hidden="true" style="float: right;"></i></a>
@@ -69,9 +69,7 @@
 				    <i class="fa fa-search prefix"></i>
 				    <input mdbActive type="text" id="form2" class="form-control">
 				    <label for="form2">Search</label>
-				</div>
-
-            	
+				</div>            	
 		    </li>
         </ul>
         <!-- <span class="navbar-text ">

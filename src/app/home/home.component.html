@@ -1,36 +1,20 @@
 <app-navigation></app-navigation>
 
-
 <!--Jumbotron-->
 <div class="row">
     <div class="col-md-12">
-        <div class="card card-image" style="background-image: url(https://mdbootstrap.com/img/Photos/Others/forest2.jpg);">
-            <div class="text-white text-center d-flex align-items-center rgba-stylish-strong py-5 px-4">
+        <div class="card card-image" style="background-image: url(assets/images/chimney-unsplash.jpg); background-size: cover;">
+            <div class="text-white text-center d-flex align-items-center rgba-stylish-strong px-4">
                 <div class="py-5">
 
                     <!--Content-->
-                        <h6 class="text-white font-bold"><i class="fa fa-camera-retro"></i> Photography</h6>
-                        <h2 class="card-title pt-3 mb-5 font-bold">Jumbotron with image overlay</h2>
-                        <p class="px-5 pb-4">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Repellat
-                            fugiat, laboriosam, voluptatem, optio vero odio nam sit officia
-                            accusamus minus error nisi architecto nulla ipsum dignissimos.
-                            Odit sed qui, dolorum!</p>
+                        <h6 class="text-white font-bold" style="margin-bottom: -50px"><i class="fa fa-home" aria-hidden="true"></i> Chimney and Screen Repair</h6>
+                        <img src="assets/images/MMBlue-WhiteSmallLogo.png" style="max-height: 250px;"/>
+                        
+                        <!-- <h2 class="card-title pt-3 mb-5 font-bold">Chimney and Screen Services made simple.</h2> -->
+                        <p class="px-5 pb-4" style="margin-top: -50px">Find out why we are #1. Our CSIA trained technicians will make sure that your chimney and fireplace are safe!</p>
                         <a class="btn orange-accent"><i class="fa fa-clone left"></i> Get your free quote today!</a>
                     <!--Content-->
-
-
-                    <!-- <form class="example-form">
-					  <mat-form-field class="example-full-width">
-					    <input type="text" placeholder="Pick one" aria-label="Number" matInput [formControl]="myControl" [matAutocomplete]="auto">
-					    <mat-autocomplete #auto="matAutocomplete">
-					      <mat-option *ngFor="let option of options" [value]="option">
-					        {{ option }}
-					      </mat-option>
-					    </mat-autocomplete>
-					  </mat-form-field>
-					</form>
-					-->
-
 					
                 </div>
             </div>
@@ -38,11 +22,108 @@
     </div>
 </div>
 
+<!--Jumbotron
+<div class="jumbotron jumbotron-fluid mb-0">
+
+    <div class="container">
+        <h2 class="h1-reponsive">We'll get the job done</h2>
+        
+        <p class="lead">This is a modified jumbotron that occupies the entire horizontal space of its parent.</p>
+    </div>
+
+</div>
+Jumbotron-->
+
+<!--Jumbotron-->
+<div class="jumbotron text-center mb-0">
+
+    <!--Title-->
+    <h1 class="card-title h2-responsive mt-2"><strong>Material Design for Bootstrap</strong></h1>
+    <!--Subtitle-->
+    <!-- <p class="blue-text mb-4 font-bold">Powerful and free Material Design UI KIT</p> -->
+
+    <!--Text-->
+    <div class="d-flex justify-content-center">
+        <p class="card-text mb-3" style="max-width: 43rem;">Sed ut perspiciatis unde omnis iste natus sit voluptatem accusantium doloremque laudantium,
+            totam rem aperiam. Sed ut perspiciatis unde omnis iste natus sit voluptatem accusantium
+            doloremque laudantium, totam rem aperiam.
+        </p>
+    </div>
+
+    <hr class="my-4">
+
+    <!-- <button type="button" class="btn btn-blue waves-effect">Buy now <span class="fa fa-diamond ml-1"></span></button>
+    <button type="button" class="btn btn-outline-primary waves-effect">Download <i class="fa fa-download ml-1"></i></button> -->
+
+</div>
+<!--Jumbotron-->
+
+<!--Carousel Wrapper-->
+<mdb-carousel [isControls]="true" class="carousel slide carousel-fade" [animation]="'fade'">
+    <!--First slide-->
+    <mdb-slide>
+        <div class="view hm-black-strong">
+            <img class="d-block w-100" src="assets/images/Masonry-Services-Home.jpeg" alt="First slide" style="min-height: 300px;">
+            <div class="mask waves-light" mdbRippleRadius></div>
+        </div>
+        <div class="carousel-caption">
+            <h3 class="h3-responsive">Call us today and get great pricing on window screen replacements. We specialize in all kinds of window screens and Solar Screens.</h3>
+            <p class="orange-text">Get your Free Quote Today!</p>
+        </div>
+    </mdb-slide>
+    <!--/First slide-->
+    <!--Second slide-->
+    <mdb-slide>
+        <div class="view hm-black-strong">
+            <img class="d-block w-100" src="assets/images/roof_chimneys.preview.jpg" alt="Second slide" style="min-height: 300px;">
+            <div class="mask waves-light" mdbRippleRadius></div>
+        </div>
+        <div class="carousel-caption">
+            <h3 class="h3-responsive">Protect your patio areas with Sliding Security Doors. Leave your door open at night safely.</h3>
+            <p class="red-text">Find out more</p>
+        </div>
+    </mdb-slide>
+    <!--/Second slide-->
+    <!--Third slide-->
+    <mdb-slide>
+        <div class="view hm-black-strong">
+            <img class="d-block w-100" src="assets/images/groton-chimney.jpg" alt="Third slide" style="min-height: 300px;">
+            <div class="mask waves-light" mdbRippleRadius></div>
+        </div>
+        <div class="carousel-caption">
+            <h3 class="h3-responsive">Call today and ask about our Monthly Promotion. Save a few bucks and let us do the work. Now that's win-win!</h3>
+            <p class="blue-text">Call Now!</p>
+        </div>
+    </mdb-slide>
+    <!--/Third slide-->
+</mdb-carousel>
+<!--/.Carousel Wrapper-->
+
+
+<!--Jumbotron-->
+<div class="jumbotron text-center mb-0">
+
+    <!--Title-->
+    <h1 class="card-title h2-responsive mt-2"><strong>Material Design for Bootstrap</strong></h1>
+    <!--Subtitle-->
+    <!-- <p class="blue-text mb-4 font-bold">Powerful and free Material Design UI KIT</p> -->
+
+    <!--Text-->
+    <div class="d-flex justify-content-center">
+        <p class="card-text mb-3" style="max-width: 43rem;">Sed ut perspiciatis unde omnis iste natus sit voluptatem accusantium doloremque laudantium,
+            totam rem aperiam. Sed ut perspiciatis unde omnis iste natus sit voluptatem accusantium
+            doloremque laudantium, totam rem aperiam.
+        </p>
+    </div>
+
+    <hr class="my-4">
+
+    <!-- <button type="button" class="btn btn-blue waves-effect">Buy now <span class="fa fa-diamond ml-1"></span></button>
+    <button type="button" class="btn btn-outline-primary waves-effect">Download <i class="fa fa-download ml-1"></i></button> -->
+
+</div>
+<!--Jumbotron-->
 
 
 
-
-
-
-                
-            
+<app-footer></app-footer>

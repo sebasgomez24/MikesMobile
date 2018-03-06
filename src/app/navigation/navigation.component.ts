@@ -13,12 +13,12 @@ export class NavigationComponent implements OnInit {
   }
 
   openSideNav(){
-    var divToChange = document.getElementById('sideNav');
+    var sideNav = document.getElementById('sideNav');
+
     var closed = 'closed';
     var open = 'open';
 
-    divToChange.classList.toggle("open");
-    
+    sideNav.classList.toggle("open");
 
   }
 
