@@ -1,38 +1,39 @@
 <nav class="side-nav" id="sideNav">
-	<ul class="navbar-nav mr-auto">
-		<!-- <logo>
-            <a routerLink="/"><img title="Mike’s Mobile Screen & Chimney Service" alt="Mike’s Mobile Screen & Chimney Service" src="/assets/images/MMBlue-AllWhiteLogo-640.png" style="max-height: 50px;"></a>
-        </logo> -->
-        <div class="" (click)="closeSideNav()">Close</div>
-		<h3 class="text-right white-text">Screens</h3>
-        <div class="divider dropdown-divider"></div>
+	<ul class="navbar-nav mr-auto pb-5">
+        <div class="grey-text text-right" (click)="closeSideNav()"><i class="fa fa-chevron-left" aria-hidden="true"></i> &nbsp; Close</div>
+		<h3 class="black-text mt-4">Screens</h3>
+        <div class="divider dropdown-divider pt-0 mt-0"></div>
 
-        <h5>Windows</h5>
-        <a class="nav-link waves-dark" href="#" mdbRippleRadius>Screen Repair</a>
-        <a class="nav-link waves-light" href="#" mdbRippleRadius>Solar Screens</a>
+        <h5 class="mt-2 mb-0 pb-0">Windows</h5>
+        <a class="nav-link grey-text waves-dark" href="#" mdbRippleRadius>Screen Repair</a>
+        <a class="nav-link grey-text waves-dark" href="#" mdbRippleRadius>Solar Screens</a>
         
-        <h5>Doors</h5>
-        <a class="nav-link waves-light" href="#" mdbRippleRadius>Sliding Screen Door</a>
-        <a class="nav-link waves-light" href="#" mdbRippleRadius>Retractable Screen Door</a>
-        <a class="nav-link waves-light" href="#" mdbRippleRadius>Swinging Screen Door</a>
-        <a class="nav-link waves-light" href="#" mdbRippleRadius>Pet Doors</a>
+        <h5 class="mt-2 mb-0 pb-0">Doors</h5>
+        <a class="nav-link grey-text waves-dark" href="#" mdbRippleRadius>Sliding Screen Door</a>
+        <a class="nav-link grey-text waves-dark" href="#" mdbRippleRadius>Retractable Screen Door</a>
+        <a class="nav-link grey-text waves-dark" href="#" mdbRippleRadius>Swinging Screen Door</a>
+        <a class="nav-link grey-text waves-dark" href="#" mdbRippleRadius>Pet Doors</a>
 
-        <h3 class="text-right white-text">Chimney</h3>
-        <div class="divider dropdown-divider"></div>
-        <a class="nav-link waves-light" href="#" mdbRippleRadius>Inspection</a>
-        <a class="nav-link waves-light" href="#" mdbRippleRadius>Cleaning</a>
-        <a class="nav-link waves-light" href="#" mdbRippleRadius>Repairs</a>
-        <a class="nav-link waves-light" href="#" mdbRippleRadius>Accessories</a>
-        <a class="nav-link waves-light" href="#" mdbRippleRadius>Resources</a>
-        <a class="nav-link waves-light" href="#" mdbRippleRadius>Masonry Services</a>
+        <h3 class="black-text mt-4">Chimney</h3>
+        <div class="divider dropdown-divider pt-0 mt-0"></div>
+        <a class="nav-link grey-text waves-dark" href="#" mdbRippleRadius>Inspection</a>
+        <a class="nav-link grey-text waves-dark" href="#" mdbRippleRadius>Cleaning</a>
+        <a class="nav-link grey-text waves-dark" href="#" mdbRippleRadius>Repairs</a>
+        <a class="nav-link grey-text waves-dark" href="#" mdbRippleRadius>Accessories</a>
+        <a class="nav-link grey-text waves-dark" href="#" mdbRippleRadius>Resources</a>
+        <a class="nav-link grey-text waves-dark" href="#" mdbRippleRadius>Masonry Services</a>
 
-        <h3 class="text-right white-text">Security</h3>
-        <div class="divider dropdown-divider"></div>
-        <h5>Doors</h5>
+        <h3 class="black-text mt-4">Security</h3>
+        <div class="divider dropdown-divider pt-0 mt-0"></div>
+        <h5 class="mt-2 mb-0 pb-0">Doors</h5>
+        <a class="nav-link grey-text waves-dark" href="#" mdbRippleRadius>Steel Security Doors</a>
+        <a class="nav-link grey-text waves-dark" href="#" mdbRippleRadius>Viewguard Security Doors</a>
+        <a class="nav-link grey-text waves-dark" href="#" mdbRippleRadius>True-View Security Door</a>
+        <h5 class="mt-2 mb-0 pb-0">Windows</h5>
 
-        <h3 class="text-right white-text">Home Improvement</h3>
-        <div class="divider dropdown-divider"></div>
-        <h5>Windowns</h5>
+        <h3 class="black-text mt-4">Home Improvement</h3>
+        <div class="divider dropdown-divider pt-0 mt-0"></div>
+        <h5 class="mt-2 mb-0 pb-0">Windows</h5>
 	</ul>
 </nav>
 
@@ -49,10 +50,10 @@
                 <a class="nav-link waves-light" mdbRippleRadius (click)="openSideNav()" ><i class="fa fa-globe"></i> &nbsp; Services <i class="fa fa-angle-right" aria-hidden="true" style="float: right;"></i></a>
             </li>
             <li class="nav-item">
-                <a class="nav-link waves-light" pageScroll href="#about" mdbRippleRadius><i class="fa fa-users"></i> &nbsp; About <i class="fa fa-angle-right" aria-hidden="true" style="float: right;"></i></a>
+                <a class="nav-link waves-light" routerLink="/" pageScroll href="#about" mdbRippleRadius><i class="fa fa-users"></i> &nbsp; About <i class="fa fa-angle-right" aria-hidden="true" style="float: right;"></i></a>
             </li>
             <li class="nav-item">
-                <a class="nav-link waves-light" pageScroll href="#contact" mdbRippleRadius><i class="fa fa-envelope"></i> &nbsp; Contact <i class="fa fa-angle-right" aria-hidden="true" style="float: right;"></i></a>
+                <a class="nav-link waves-light" routerLink="/" pageScroll href="#contact" mdbRippleRadius><i class="fa fa-envelope"></i> &nbsp; Contact <i class="fa fa-angle-right" aria-hidden="true" style="float: right;"></i></a>
             </li>
             <li class="nav-item">
                 <a class="nav-link waves-light" routerLink="/blog" mdbRippleRadius><i class="fa fa-sticky-note"></i> &nbsp; Blog <i class="fa fa-angle-right" aria-hidden="true" style="float: right;"></i></a>
@@ -72,7 +73,7 @@
 		    </li> -->
         </ul>
         <!-- Search form -->
-        <form class="form-inline  waves-light" mdbRippleRadius>
+        <form class="form-inline  waves-light pb-2" mdbRippleRadius>
             <input class="form-control mr-sm-2" type="text" placeholder="Search">
         </form>
         <!-- <span class="navbar-text ">

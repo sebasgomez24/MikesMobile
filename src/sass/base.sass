@@ -18,12 +18,13 @@ html, body
 	background: $orange-accent
 
 .side-nav
-	position: absolute
 	z-index: 1000
-	width: 100%
-	background: $gray-6
-	padding: 10px
+	position: absolute
 	right: 100%
+	width: 100%
+	background: #fff
+	padding: 10px
+	transition: right .5s ease-in
 	a
 		color: #fff
 	h5
@@ -32,4 +33,7 @@ html, body
 .open
 	display: inline
 	right: 0
-	transition: right 1s
+	transition: right .5s ease-out
+
+.gray-text
+	color: $gray-1
