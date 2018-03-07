@@ -1,7 +1,7 @@
 <app-navigation></app-navigation>
 
 <!--Jumbotron-->
-<div class="row">
+<div class="row" id="freeQuote">
     <div class="col-md-12">
         <div class="card card-image" style="background-image: url(assets/images/chimney-unsplash.jpg); background-size: cover;">
             <div class="text-white text-center d-flex align-items-center rgba-stylish-strong px-4">
@@ -13,32 +13,78 @@
                         
                         <!-- <h2 class="card-title pt-3 mb-5 font-bold">Chimney and Screen Services made simple.</h2> -->
                         <p class="px-5 pb-4" style="margin-top: -50px">Find out why we are #1. Our CSIA trained technicians will make sure that your chimney and fireplace are safe!</p>
-                        <a class="btn orange-accent"><i class="fa fa-clone left"></i> Get your free quote today!</a>
+                        <button type="button" class="btn orange-accent relative waves-light" (click)="basicModal.show()" mdbRippleRadius><i class="fa fa-clone left"></i> Get your free quote today!</button>
                     <!--Content-->
-					
                 </div>
             </div>
         </div>
     </div>
 </div>
 
-<!--Jumbotron
-<div class="jumbotron jumbotron-fluid mb-0">
+<!-- MODAL CONTENT -->      
+<div mdbModal #basicModal="mdb-modal" class="modal fade" tabindex="-1" role="dialog" aria-labelledby="myBasicModalLabel" aria-hidden="true" [config]="{backdrop: false, ignoreBackdropClick: true}">
+    <div class="modal-dialog" role="document">
+        <div class="modal-content">
+            <div class="modal-header">
+                <button type="button" class="close pull-right" aria-label="Close" (click)="basicModal.hide()">
+                    <span aria-hidden="true">×</span>
+                </button>
+                <h4 class="modal-title w-100" id="myModalLabel">Get Your Free Quote!</h4>
+            </div>
+            <div class="modal-body">
+                
+                <!--Contact Form-->
+                <form>
+                    <div class="md-form form-sm">
+                        <i class="fa fa-user prefix grey-text"></i>
+                        <input type="text" id="form1" class="form-control" mdbActive>
+                        <label for="form1">Your name</label>
+                    </div>
 
-    <div class="container">
-        <h2 class="h1-reponsive">We'll get the job done</h2>
+                    <div class="md-form form-sm">
+                        <i class="fa fa-globe prefix grey-text"></i>
+                        <input type="text" id="form2" class="form-control" mdbActive>
+                        <label for="form2">City</label>
+                    </div>
+                    
+                    <div class="md-form form-sm">
+                        <i class="fa fa-tag prefix grey-text"></i>
+                        <input type="text" id="form3" class="form-control" mdbActive>
+                        <label for="form3">Phone</label>
+                    </div>
+
+                    <div class="md-form form-sm">
+                        <i class="fa fa-envelope prefix grey-text"></i>
+                        <input type="text" id="form4" class="form-control" mdbActive>
+                        <label for="form4">Your email</label>
+                    </div>
+
+                    
+
+                    <div class="md-form form-sm">
+                        <i class="fa fa-pencil prefix grey-text"></i>
+                        <textarea type="text" id="form8" class="md-textarea" style="height: 100px" mdbActive></textarea>
+                        <label for="form8">Your message</label>
+                    </div>
+
+                </form>
+                <!--Contact Form-->
         
-        <p class="lead">This is a modified jumbotron that occupies the entire horizontal space of its parent.</p>
+            </div>
+            <div class="modal-footer">
+                <button type="button" class="btn main-menu waves-light" aria-label="Close" (click)="basicModal.hide()" mdbRippleRadius>Close</button>
+                <button type="button" class="btn orange-accent relative waves-light" mdbRippleRadius>Get Quote</button>
+            </div>
+        </div>
     </div>
-
 </div>
-Jumbotron-->
-
+<!-- /MODAL -->          
+                                        
 <!--Jumbotron-->
 <div class="jumbotron text-center mb-0">
 
     <!--Title-->
-    <h1 class="card-title h2-responsive mt-2"><strong>Material Design for Bootstrap</strong></h1>
+    <h1 class="card-title h2-responsive mt-2"><strong>Top Quality Home Improvement Solutions</strong></h1>
     <!--Subtitle-->
     <!-- <p class="blue-text mb-4 font-bold">Powerful and free Material Design UI KIT</p> -->
 
@@ -52,11 +98,70 @@ Jumbotron-->
 
     <hr class="my-4">
 
-    <!-- <button type="button" class="btn btn-blue waves-effect">Buy now <span class="fa fa-diamond ml-1"></span></button>
-    <button type="button" class="btn btn-outline-primary waves-effect">Download <i class="fa fa-download ml-1"></i></button> -->
+    <!--Card Light-->
+    <div class="card">
+        <!--Card image-->
+        <div class="view hm-white-slight waves-light" mdbRippleRadius>
+            <img src="assets/images/chimney-sunset.jpg" class="img-fluid" alt="">
+            <a>
+                <div class="mask"></div>
+            </a>
+        </div>
+        <!--/.Card image-->
+        <!--Card content-->
+        <div class="card-body">
+            <!--Social shares button-->
+            <a class="activator"><i class="fa fa-share-alt"></i></a>
+            <!--Title-->
+            <h4 class="card-title">Chimney Services</h4>
+            <hr>
+            <!--Text-->
+            <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+            <a href="#" class="black-text d-flex flex-row-reverse">
+                <h5 class="waves-effect p-2" mdbRippleRadius>Read more <i class="fa fa-chevron-right"></i></h5>
+            </a>
+        </div>
+        <!--/.Card content-->
+    </div>
+    <!--/.Card Light-->   
+    
+    <hr class="my-4">
+
+    <!--Card Light-->
+    <div class="card">
+        <!--Card image-->
+        <div class="view hm-white-slight waves-light" mdbRippleRadius>
+            <img src="assets/images/screen.jpg" class="img-fluid" alt="">
+            <a>
+                <div class="mask"></div>
+            </a>
+        </div>
+        <!--/.Card image-->
+        <!--Card content-->
+        <div class="card-body">
+            <!--Social shares button-->
+            <a class="activator"><i class="fa fa-share-alt"></i></a>
+            <!--Title-->
+            <h4 class="card-title">Screen Services</h4>
+            <hr>
+            <!--Text-->
+            <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+            <a href="#" class="black-text d-flex flex-row-reverse">
+                <h5 class="waves-effect p-2" mdbRippleRadius>Read more <i class="fa fa-chevron-right"></i></h5>
+            </a>
+        </div>
+        <!--/.Card content-->
+    </div>
+    <!--/.Card Light-->
+
+    <hr class="my-4">
+    
+    <button type="button" class="btn main-menu waves-effect">Find out more <span class="fa fa-diamond ml-1"></span></button>
+    <!-- <button type="button" class="btn btn-outline-primary waves-effect">Download <i class="fa fa-download ml-1"></i></button> -->
 
 </div>
 <!--Jumbotron-->
+
 
 <!--Carousel Wrapper-->
 <mdb-carousel [isControls]="true" class="carousel slide carousel-fade" [animation]="'fade'">
@@ -68,7 +173,7 @@ Jumbotron-->
         </div>
         <div class="carousel-caption">
             <h3 class="h3-responsive">Call us today and get great pricing on window screen replacements. We specialize in all kinds of window screens and Solar Screens.</h3>
-            <p class="orange-text">Get your Free Quote Today!</p>
+            <p class="orange-text" (click)="basicModal.show()">Get your Free Quote Today!</p>
         </div>
     </mdb-slide>
     <!--/First slide-->
@@ -99,31 +204,6 @@ Jumbotron-->
 </mdb-carousel>
 <!--/.Carousel Wrapper-->
 
-
-<!--Jumbotron-->
-<div class="jumbotron text-center mb-0">
-
-    <!--Title-->
-    <h1 class="card-title h2-responsive mt-2"><strong>Material Design for Bootstrap</strong></h1>
-    <!--Subtitle-->
-    <!-- <p class="blue-text mb-4 font-bold">Powerful and free Material Design UI KIT</p> -->
-
-    <!--Text-->
-    <div class="d-flex justify-content-center">
-        <p class="card-text mb-3" style="max-width: 43rem;">Sed ut perspiciatis unde omnis iste natus sit voluptatem accusantium doloremque laudantium,
-            totam rem aperiam. Sed ut perspiciatis unde omnis iste natus sit voluptatem accusantium
-            doloremque laudantium, totam rem aperiam.
-        </p>
-    </div>
-
-    <hr class="my-4">
-
-    <!-- <button type="button" class="btn btn-blue waves-effect">Buy now <span class="fa fa-diamond ml-1"></span></button>
-    <button type="button" class="btn btn-outline-primary waves-effect">Download <i class="fa fa-download ml-1"></i></button> -->
-
-</div>
-<!--Jumbotron-->
-
-
+<app-about></app-about>
 
 <app-footer></app-footer>
