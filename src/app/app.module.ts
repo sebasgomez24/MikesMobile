@@ -16,7 +16,8 @@ import { ContactComponent } from './contact/contact.component';
 import { FooterComponent } from './footer/footer.component';
 import { HomeComponent } from './home/home.component';
 import { NavigationComponent } from './navigation/navigation.component';
-import { ServicesComponent } from './services/services.component';
+import { ServiceListComponent } from './service-list/service-list.component';
+import { ServiceDetailComponent } from './service-detail/service-detail.component';
 
 
 
@@ -30,7 +31,8 @@ import { ServicesComponent } from './services/services.component';
     FooterComponent,
     HomeComponent,
     NavigationComponent,
-    ServicesComponent,
+    ServiceListComponent,
+    ServiceDetailComponent,
   ],
   imports: [
     AppRoutingModule,
