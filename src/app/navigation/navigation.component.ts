@@ -5,28 +5,24 @@ import { Component, OnInit } from '@angular/core';
   templateUrl: './navigation.component.html',
   styleUrls: ['./navigation.component.sass']
 })
+
 export class NavigationComponent implements OnInit {
 
   constructor() { }
 
-  ngOnInit() {
+  ngOnInit() {}
+
+  openDropdown(){
+    var dropdown = document.getElementById('dropdown');
+
+    if(screen.width > 992){
+      dropdown.classList.add('show'); 
+    }
+    
+  }
+  closeDropdown(){
+    var dropdown = document.getElementById('dropdown');
+    dropdown.classList.remove('show'); 
   }
 
-  openSideNav(){
-    var sideNav = document.getElementById('sideNav');
-
-    var closed = 'closed';
-    var open = 'open';
-
-    sideNav.classList.toggle("open");
-
-  }
-  closeSideNav(){
-    var sideNav = document.getElementById('sideNav');
-
-    var closed = 'closed';
-    var open = 'open';
-
-    sideNav.classList.toggle("open");
-  }
 }

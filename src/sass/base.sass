@@ -1,43 +1,33 @@
+@import 'modules/_mixins.sass'
 @import 'modules/_variables.sass'
 
 html, body
 	overflow-x: hidden !important
+	font-family: Roboto, sans-serif
 
+.blue
+	background: $blue
+.blue-text
+	color: $blue !important
 
+.orange
+	background: $orange
+.orange-text
+	color: $orange
 
-.main-menu
-	background: $main-menu
-
-.mmblue-outline
-	border: 2px solid #00aeef
-
-.peach-gradient 
-	background: $peach-gradient-bg
-
-.red-accent-text
-	color: $red-accent
-
-.orange-accent
-	background: $orange-accent
-
-.side-nav
-	z-index: 1000
-	position: absolute
-	right: 100%
-	width: 100%
-	background: #fff
-	padding: 10px
-	transition: right .5s ease-in
-	box-shadow: 0 4px 2px -2px #e3e3e3
-	a
-		color: #fff
-	h5
-		color: $main-menu
-
-.open
-	display: inline
-	right: 0
-	transition: right .5s ease-out
-
+.gray
+	background: $gray
 .gray-text
-	color: $gray-1
+	color: $gray
+
+#desktop-disappear
+	@include breakpoint(md)
+		display: none
+
+#tablet-disappear
+	@include breakpoint(sm)
+		display: none
+
+#mobile-disappear
+	@include breakpoint(xs)
+		display: none

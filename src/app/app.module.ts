@@ -18,6 +18,8 @@ import { HomeComponent } from './home/home.component';
 import { NavigationComponent } from './navigation/navigation.component';
 import { ServiceListComponent } from './service-list/service-list.component';
 import { ServiceDetailComponent } from './service-detail/service-detail.component';
+import { SearchComponent } from './search/search.component';
+import { SearchDetailComponent } from './search-detail/search-detail.component';
 
 
 
@@ -33,6 +35,8 @@ import { ServiceDetailComponent } from './service-detail/service-detail.componen
     NavigationComponent,
     ServiceListComponent,
     ServiceDetailComponent,
+    SearchComponent,
+    SearchDetailComponent,
   ],
   imports: [
     AppRoutingModule,
