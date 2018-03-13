@@ -1,0 +1,17 @@
+@import '~sass/modules/_mixins.sass'
+@import '~sass/modules/_variables.sass'
+    
+footer
+    a
+        //FOOTER-ACCENT-DARK color: $light-gray
+        color: $lightest-gray // FOOTER-LIGHT
+    p
+        //FOOTER-ACCENT-DARK color: $light-gray
+        color: $lightest-gray // FOOTER-LIGHT
+        font-weight: 400
+        font-size: .75em
+
+footer #footerAbout
+    line-height: 2
+    @include breakpoint(md)
+        font-size: .95em

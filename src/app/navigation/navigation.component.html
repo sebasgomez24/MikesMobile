@@ -1,92 +1,105 @@
-<mdb-navbar SideClass="navbar navbar-expand-lg navbar-light">
-    <logo>
-        <a routerLink="/"><img title="Mike’s Mobile Screen & Chimney Service" alt="Mike’s Mobile Screen & Chimney Service" src="/assets/images/logo-black.jpg" style="max-height: 45px;"></a>
-    </logo>
-    <links>
-        <ul class="navbar-nav ml-auto">
-            <div class="m-2" id="desktop-disappear"></div>
-            <li class="nav-item px-1 active">
-                <a dropdownToggle type="button" class="nav-link waves-dark blue-text nav-text" (mouseenter)="openDropdown()" (mouseleave)="closeDropdown()" mdbRippleRadius> <i class="fa fa-globe pr-3" id="desktop-disappear" aria-hidden="true"></i>  services <span class="sr-only">(current)</span> <i class="fa fa-angle-right" id="desktop-disappear" aria-hidden="true" style="float: right; padding-top: 4px;"></i></a>
-            </li>
-            
-            <div class="btn-group" id="mobile-disappear" dropdown>                        
-                <div class="dropdown-menu megamenu p-3" id="dropdown" (mouseenter)="openDropdown()" (mouseleave)="closeDropdown()">
-                    
-                        <div class="container">
-                            <div class="row">
-                                <div class="col">
-                                    <a class="dropdown-item waves-dark pb-0 mb-0" mdbRippleRadius href="#"><h5>SCREENS</h5></a>
-                                    <div class="divider dropdown-divider pt-0 mt-0"></div>
-                                    
-                                    <h6 class="pt-1"><strong>DOORS</strong></h6>
-                                    <a class="dropdown-item waves-dark blue-text" mdbRippleRadius href="#">Sliding Screen Door</a>
-                                    <a class="dropdown-item waves-dark blue-text" mdbRippleRadius href="#">Retractable Screen Door</a>
-                                    <a class="dropdown-item waves-dark blue-text" mdbRippleRadius href="#">Swinging Screen Door</a>
-                                    <a class="dropdown-item waves-dark blue-text" mdbRippleRadius href="#">Pet Door</a>
-                                    
-                                    <h6 class="pt-3">WINDOWS</h6>                                    
-                                    <a class="dropdown-item waves-dark blue-text" mdbRippleRadius href="#">Screen Repair</a>
-                                    <a class="dropdown-item waves-dark blue-text" mdbRippleRadius href="#">Solar Screens</a>
+<nav>
 
-                                </div>
-                                <div class="col">
-                                    <a class="dropdown-item waves-dark pb-0 mb-0" mdbRippleRadius href="#"><h5>CHIMNEYS</h5></a>
-                                    <div class="divider dropdown-divider pt-0 mt-0"></div>
-                                    <a class="dropdown-item waves-dark blue-text" mdbRippleRadius href="#">Inspections</a>
-                                    <a class="dropdown-item waves-dark blue-text" mdbRippleRadius href="#">Cleanings</a>
-                                    <a class="dropdown-item waves-dark blue-text" mdbRippleRadius href="#">Repair</a>
-                                    <a class="dropdown-item waves-dark blue-text" mdbRippleRadius href="#">Accessories</a>
-                                    <a class="dropdown-item waves-dark blue-text" mdbRippleRadius href="#">Resources</a>
-                                    <a class="dropdown-item waves-dark blue-text" mdbRippleRadius href="#">Masonry Services</a>
-                                </div>
-                                <div class="col">
-                                    <a class="dropdown-item waves-dark pb-0 mb-0" mdbRippleRadius href="#"><h5>SECURITY</h5></a>
-                                    <div class="divider dropdown-divider pt-0 mt-0"></div>
-                                    
-                                    <h6 class="pt-1">DOORS</h6>                                    
-                                    <a class="dropdown-item waves-dark blue-text" mdbRippleRadius href="#">Steel Security Doors</a>
-                                    <a class="dropdown-item waves-dark blue-text" mdbRippleRadius href="#">Viewguard</a>
-                                    <a class="dropdown-item waves-dark blue-text" mdbRippleRadius href="#">TRU-View</a>
-                                    <a class="dropdown-item waves-dark blue-text" mdbRippleRadius href="#">TRU-Frame</a>
-                                    <a class="dropdown-item waves-dark blue-text" mdbRippleRadius href="#">Sliding Security Door</a>
-                                    
-                                    <h6 class="pt-3">WINDOWS</h6>
-                                    <a class="dropdown-item waves-dark blue-text" mdbRippleRadius href="#">CRL Guarda Quick Escape</a>
-                                    <a class="dropdown-item waves-dark blue-text" mdbRippleRadius href="#">CRL Guarda Fixed</a>
-                                    <a class="dropdown-item waves-dark blue-text" mdbRippleRadius href="#">CRL Guarda Casement</a>
+    <mdb-navbar SideClass="navbar navbar-expand-lg navbar-light" id="backToTop">
+        <logo>
+            <a routerLink="/"><img title="Mike’s Mobile Screen & Chimney Service" alt="Mike’s Mobile Screen & Chimney Service" src="/assets/images/logo-black.jpg" style="max-height: 45px;"></a>
+        </logo>
+        <links>
+            <ul class="navbar-nav ml-auto">
+                <div class="m-2" id="desktop-disappear"></div>
+                <li class="nav-item px-1 active">
+                    <a dropdownToggle type="button" class="nav-link waves-dark blue-text nav-text" (mouseenter)="openDropdown()" (mouseleave)="closeDropdown()" mdbRippleRadius> 
+                        <i class="fa fa-globe pr-3" id="desktop-disappear" aria-hidden="true"></i>services<span class="sr-only">(current)</span><i class="fa fa-angle-right float-right mt-1" id="desktop-disappear" aria-hidden="true"></i>
+                    </a>
+                </li>
+                
+                <div class="btn-group" id="mobile-disappear" dropdown>                        
+                    <div class="dropdown-menu megamenu p-3" id="dropdown" (mouseenter)="openDropdown()" (mouseleave)="closeDropdown()">
+                        
+                            <div class="container">
+                                <div class="row">
+                                    <div class="col">
+                                        <a class="dropdown-item waves-dark pb-0 mb-0" mdbRippleRadius href="#"><h5>SCREENS</h5></a>
+                                        <div class="divider dropdown-divider pt-0 mt-0"></div>
+                                        
+                                        <h6 class="pt-1"><strong>DOORS</strong></h6>
+                                        <a class="dropdown-item waves-dark blue-text" mdbRippleRadius href="#">Sliding Screen Door</a>
+                                        <a class="dropdown-item waves-dark blue-text" mdbRippleRadius href="#">Retractable Screen Door</a>
+                                        <a class="dropdown-item waves-dark blue-text" mdbRippleRadius href="#">Swinging Screen Door</a>
+                                        <a class="dropdown-item waves-dark blue-text" mdbRippleRadius href="#">Pet Door</a>
+                                        
+                                        <h6 class="pt-3">WINDOWS</h6>                                    
+                                        <a class="dropdown-item waves-dark blue-text" mdbRippleRadius href="#">Screen Repair</a>
+                                        <a class="dropdown-item waves-dark blue-text" mdbRippleRadius href="#">Solar Screens</a>
+
+                                    </div>
+                                    <div class="col">
+                                        <a class="dropdown-item waves-dark pb-0 mb-0" mdbRippleRadius href="#"><h5>CHIMNEYS</h5></a>
+                                        <div class="divider dropdown-divider pt-0 mt-0"></div>
+                                        <a class="dropdown-item waves-dark blue-text" mdbRippleRadius href="#">Inspections</a>
+                                        <a class="dropdown-item waves-dark blue-text" mdbRippleRadius href="#">Cleanings</a>
+                                        <a class="dropdown-item waves-dark blue-text" mdbRippleRadius href="#">Repair</a>
+                                        <a class="dropdown-item waves-dark blue-text" mdbRippleRadius href="#">Accessories</a>
+                                        <a class="dropdown-item waves-dark blue-text" mdbRippleRadius href="#">Resources</a>
+                                        <a class="dropdown-item waves-dark blue-text" mdbRippleRadius href="#">Masonry Services</a>
+                                    </div>
+                                    <div class="col">
+                                        <a class="dropdown-item waves-dark pb-0 mb-0" mdbRippleRadius href="#"><h5>SECURITY</h5></a>
+                                        <div class="divider dropdown-divider pt-0 mt-0"></div>
+                                        
+                                        <h6 class="pt-1">DOORS</h6>                                    
+                                        <a class="dropdown-item waves-dark blue-text" mdbRippleRadius href="#">Steel Security Doors</a>
+                                        <a class="dropdown-item waves-dark blue-text" mdbRippleRadius href="#">Viewguard</a>
+                                        <a class="dropdown-item waves-dark blue-text" mdbRippleRadius href="#">TRU-View</a>
+                                        <a class="dropdown-item waves-dark blue-text" mdbRippleRadius href="#">TRU-Frame</a>
+                                        <a class="dropdown-item waves-dark blue-text" mdbRippleRadius href="#">Sliding Security Door</a>
+                                        
+                                        <h6 class="pt-3">WINDOWS</h6>
+                                        <a class="dropdown-item waves-dark blue-text" mdbRippleRadius href="#">CRL Guarda Quick Escape</a>
+                                        <a class="dropdown-item waves-dark blue-text" mdbRippleRadius href="#">CRL Guarda Fixed</a>
+                                        <a class="dropdown-item waves-dark blue-text" mdbRippleRadius href="#">CRL Guarda Casement</a>
 
 
-                                </div>                                
-                                <div class="col">
-                                    <a class="dropdown-item waves-dark pb-0 mb-0" mdbRippleRadius href="#"><h5>HOME IMPROVEMENT</h5></a>
-                                    <div class="divider dropdown-divider pt-0 mt-0"></div>
-                                    <a class="dropdown-item waves-dark blue-text" mdbRippleRadius href="#">Dryer Vent Cleaning</a>
-                                    <a class="dropdown-item waves-dark blue-text" mdbRippleRadius href="#">Gutter Cleaning</a>
-                                    <a class="dropdown-item waves-dark blue-text" mdbRippleRadius href="#">Window Washing</a>
+                                    </div>                                
+                                    <div class="col">
+                                        <a class="dropdown-item waves-dark pb-0 mb-0" mdbRippleRadius href="#"><h5>HOME IMPROVEMENT</h5></a>
+                                        <div class="divider dropdown-divider pt-0 mt-0"></div>
+                                        <a class="dropdown-item waves-dark blue-text" mdbRippleRadius href="#">Dryer Vent Cleaning</a>
+                                        <a class="dropdown-item waves-dark blue-text" mdbRippleRadius href="#">Gutter Cleaning</a>
+                                        <a class="dropdown-item waves-dark blue-text" mdbRippleRadius href="#">Window Washing</a>
 
-                                    <a class="dropdown-item waves-dark mt-4 pb-0 mb-0" mdbRippleRadius href="#"><h5>AWNINGS</h5></a>
-                                    <div class="divider dropdown-divider pt-0 mt-0"></div>
-                                    <a class="dropdown-item waves-dark blue-text" mdbRippleRadius href="#">Doors and Windows</a>
+                                        <a class="dropdown-item waves-dark mt-4 pb-0 mb-0" mdbRippleRadius href="#"><h5>AWNINGS</h5></a>
+                                        <div class="divider dropdown-divider pt-0 mt-0"></div>
+                                        <a class="dropdown-item waves-dark blue-text" mdbRippleRadius href="#">Doors and Windows</a>
+                                    </div>
                                 </div>
                             </div>
-                        </div>
-                    
+                        
+                    </div>
                 </div>
-            </div>
-                    
-            <li class="nav-item px-1">
-                <a class="nav-link waves-dark blue-text nav-text" pageScroll [routerLink]="['/']" href="#aboutMM" mdbRippleRadius><i class="fa fa-users pr-3" id="desktop-disappear" aria-hidden="true"></i>  about <i class="fa fa-angle-right" id="desktop-disappear" aria-hidden="true" style="float: right; padding-top: 4px;"></i></a>
-            </li>
-            <li class="nav-item px-1">
-                <a class="nav-link waves-dark blue-text nav-text" pageScroll [routerLink]="['/']" href="#contact" mdbRippleRadius><i class="fa fa-envelope-o pr-3" id="desktop-disappear" aria-hidden="true"></i> contact <i class="fa fa-angle-right" id="desktop-disappear" aria-hidden="true" style="float: right; padding-top: 4px;"></i></a>
-            </li>
-            <li class="nav-item px-1">
-                <a class="nav-link waves-dark blue-text nav-text" routerLink="/blog" mdbRippleRadius><i class="fa fa-share-alt pr-3" id="desktop-disappear" aria-hidden="true"></i>  blog <i class="fa fa-angle-right" id="desktop-disappear" aria-hidden="true" style="float: right; padding-top: 4px;"></i></a>
-            </li>
-            <li class="nav-item px-1">
-                <a class="nav-link waves-dark blue-text nav-text" href="#" (click)="showInfo()" mdbRippleRadius><i class="fa fa-shopping-cart pr-3" id="desktop-disappear" aria-hidden="true"></i>  store <i class="fa fa-angle-right" id="desktop-disappear" aria-hidden="true" style="float: right; padding-top: 4px;"></i></a>
-            </li>
-            <div class="m-1" id="desktop-disappear"></div>
-        </ul>
-    </links>
-</mdb-navbar>
+                        
+                <li class="nav-item px-1">
+                    <a class="nav-link waves-dark blue-text nav-text" pageScroll [routerLink]="['/']" href="#aboutMM" mdbRippleRadius>
+                        <i class="fa fa-users pr-3" id="desktop-disappear" aria-hidden="true"></i>about<i class="fa fa-angle-right float-right mt-1" id="desktop-disappear" aria-hidden="true"></i>
+                    </a>
+                </li>
+                <li class="nav-item px-1">
+                    <a class="nav-link waves-dark blue-text nav-text" pageScroll [routerLink]="['/']" href="#contact" mdbRippleRadius>
+                        <i class="fa fa-envelope pr-3" id="desktop-disappear" aria-hidden="true"></i>contact<i class="fa fa-angle-right float-right mt-1" id="desktop-disappear" aria-hidden="true"></i>
+                    </a>
+                </li>
+                <li class="nav-item px-1">
+                    <a class="nav-link waves-dark blue-text nav-text" routerLink="/blog" mdbRippleRadius>
+                        <i class="fa fa-share-alt pr-3" id="desktop-disappear" aria-hidden="true"></i>blog<i class="fa fa-angle-right float-right mt-1" id="desktop-disappear" aria-hidden="true"></i>
+                    </a>
+                </li>
+                <li class="nav-item px-1">
+                    <a class="nav-link waves-dark blue-text nav-text" href="#" (click)="showInfo()" mdbRippleRadius>
+                        <i class="fa fa-shopping-cart pr-3" id="desktop-disappear" aria-hidden="true"></i>store<i class="fa fa-angle-right float-right mt-1" id="desktop-disappear" aria-hidden="true"></i>
+                    </a>
+                </li>
+                <div class="m-1" id="desktop-disappear"></div>
+            </ul>
+        </links>
+    </mdb-navbar>
+</nav>
