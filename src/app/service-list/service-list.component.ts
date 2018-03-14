@@ -10,9 +10,12 @@ import { ServiceService } from '../services/service.service';
 })
 export class ServiceListComponent implements OnInit, OnDestroy {
 
-  title = 'Services List'
+  title = 'View Our Top Selling Services'
   private req:any
   serviceList:[ServiceItem]
+  categories = ['Screens', 'Chimneys', 'Security', 'Awnings', 'Home Improvement']
+  subcategories = ['Window', 'Door']
+  screenServices = ['Screen Repair', 'Solar Screens', 'Sliding Screen Door', 'Retractable Screen Door', 'Swinging Screen Door', 'Pet Doors', ]
 
   constructor(private _service:ServiceService) { }
 

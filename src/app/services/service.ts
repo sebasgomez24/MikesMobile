@@ -5,8 +5,7 @@ export class ServiceItem{
     subcategory?:string
     description:string
     video?:string
-    infoGraphic0?:string
-    infoGraphic1?:string
+    infoGraphic?:string
+    image?:string
     thumbnail?:string
-    mainimage?:string
 }

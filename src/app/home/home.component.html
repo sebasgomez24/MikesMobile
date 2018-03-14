@@ -1,61 +1,180 @@
 <app-navigation></app-navigation>
 
 
-<div class="container my-4">
+<div class="container mt-4 mb-4 slideshow" id="slideshow">
     <!--Carousel Wrapper-->
     <mdb-carousel [isControls]="true" class="carousel slide carousel-fade" [animation]="'fade'">
         <!--First slide-->
         <mdb-slide>
-            <div class="view hm-black-light">
-                <img class="d-block w-100" src="https://mdbootstrap.com/img/Photos/Slides/img%20(68).jpg" alt="First slide">
+            <div class="view">
+                <img class="d-block w-100 img-fluid" src="assets/images/red-screen.jpg" alt="First slide">
                 <div class="mask waves-light" mdbRippleRadius></div>
             </div>
-            <div class="carousel-caption">
-                <h3 class="h3-responsive">Light mask</h3>
-                <p>First text</p>
+            
+            <div class="carousel-caption text-md-left">
+                <div class="transparent-gray pt-4 pb-1">
+                    <h2 class="h2-responsive px-4">Custom Security Doors</h2>
+                    <ul>
+                        <li>Custom Mount Options</li>
+                        <li>Custom Colors</li>
+                        <li>Custom <i class="orange-text">You</i></li>
+                    </ul>
+                </div>
+                <button type="button" class="btn blue waves-light" mdbRippleRadius>Get Started</button>
             </div>
         </mdb-slide>
         <!--/First slide-->
         <!--Second slide-->
         <mdb-slide>
-            <div class="view hm-black-strong">
-                <img class="d-block w-100" src="https://mdbootstrap.com/img/Photos/Slides/img%20(6).jpg" alt="Second slide">
+            <div class="view">
+                <img class="d-block w-100 img-fluid" src="assets/images/chimney-red-brick.jpg" alt="Second slide">
                 <div class="mask waves-light" mdbRippleRadius></div>
             </div>
-            <div class="carousel-caption">
-                <h3 class="h3-responsive">Strong mask</h3>
-                <p>Secondary text</p>
+            <div class="carousel-caption text-md-left">
+                <div class="transparent-gray pt-4 pb-3">
+                    <h2 class="h2-responsive px-4">View our many Chimney Services</h2>
+                    <!-- <p class="px-4">Secondary text</p> -->
+                </div>
+                <button type="button" class="btn blue waves-light" mdbRippleRadius>Learn More</button>
             </div>
         </mdb-slide>
         <!--/Second slide-->
         <!--Third slide-->
         <mdb-slide>
-            <div class="view hm-black-slight">
-                <img class="d-block w-100" src="https://mdbootstrap.com/img/Photos/Slides/img%20(9).jpg" alt="Third slide">
+            <div class="view">
+                <img class="d-block w-100 img-fluid" src="assets/images/door.jpg" alt="Third slide">
                 <div class="mask waves-light" mdbRippleRadius></div>
             </div>
-            <div class="carousel-caption">
-                <h3 class="h3-responsive">Slight mask</h3>
-                <p>Third text</p>
+            <div class="carousel-caption text-md-left">
+                <div class="transparent-gray pt-4 pb-1">
+                    <h2 class="h2-responsive px-4">Home Improvement</h2>
+                    <p class="px-4">Keep your home in tip-top shape</p>
+                </div>
+                <button type="button" class="btn blue waves-light" mdbRippleRadius>Free Quote</button>
             </div>
         </mdb-slide>
         <!--/Third slide-->
+        <!--Fourth slide-->
+        <mdb-slide>
+            <div class="view">
+                <img class="d-block w-100 img-fluid" src="assets/images/screen.jpg" alt="Third slide">
+                <div class="mask waves-light" mdbRippleRadius></div>
+            </div>
+            <div class="carousel-caption text-md-left">
+                <div class="transparent-gray pt-4 pb-1">
+                    <h2 class="h2-responsive px-4">1-877-520-3595</h2>
+                    <p class="px-4">Call us Today!</p>
+                </div>
+                <button type="button" class="btn blue waves-light" href="tel:+1-916-372-8783" mdbRippleRadius>Call Now</button>
+            </div>
+        </mdb-slide>
+        <!--/Fourth slide-->
     </mdb-carousel>
     <!--/.Carousel Wrapper-->
 </div>
                 
-                    
+<div class="container action-btns">
+    <div class="row">
+        <div class="col-6">
+            <div class="view hm-black-strong">
+                <img class="d-block w-100" src="assets/images/gutter_cleaningmikesmobile.png">
+                <div class="mask flex-center waves-light" type="button" (click)="basicModal.show()" mdbRippleRadius>
+                    <div class="blue w-100">
+                        <h4 class="h4-responsive text-center white-text pt-2">GET YOUR FREE QUOTE!</h4>
+                    </div>                        
+                </div>
+            </div>
+        </div>
+        <div class="col-6">
+            <div class="view hm-black-strong">
+                <img class="d-block w-100" src="assets/images/gutter_cleaningmikesmobile.png">
+                <a href="tel:+1-916-372-8783">
+                    <div class="mask flex-center waves-light" mdbRippleRadius>
+                        <div class="blue w-100">
+                            <h4 class="h4-responsive text-center white-text pt-2">1-877-520-3595</h4>
+                        </div>
+                    </div>
+                </a>
+            </div>
+        </div>
+    </div>
+</div>
+
+<app-service-list></app-service-list>
+
+<!--QuoteForm Modal-->
+<div class="container">
+    <div mdbModal #basicModal="mdb-modal" class="modal fade" tabindex="-1" role="dialog" aria-labelledby="myBasicModalLabel" aria-hidden="true">
+        <div class="modal-dialog" role="document">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <button type="button" class="close pull-right" aria-label="Close" (click)="basicModal.hide()">
+                        <span aria-hidden="true">×</span>
+                    </button>
+                    <h4 class="modal-title w-100" id="myModalLabel">Get a Free Quote Now!</h4>
+                </div>
+                <div class="modal-body">
+                    <div class="md-form form-sm">
+                        <p class="pb-0 mb-0">What service are you inquiring about?</p>
+                        <select class="form-control" id="serviceSelect">
+                            <option>Window Screen Repair</option>
+                            <option>Solar Screens</option>
+                            <option>Sliding Screen Door</option>
+                            <option>Swinging Screen Door</option>
+                            <option>Retractable Screen Door</option>
+                            <option>Screen Doors</option>
+                            <option>Pet Doors</option>
+                            
+                            <option>Chimney Inspection</option>
+                            <option>Chimney Cleaning</option>
+                            <option>Chimney Repair</option>
+                            <option>Chimney Accessories</option>
+                            <option>Chimney Resources</option>
+                            <option>Masonry Services</option>
+
+                            <option>Steel Security Door</option>
+                            <option>Viewguard Security Door</option>
+                            <option>TRU-view Security Door</option>
+                            <option>TRU-Frame Security Door</option>
+                            <option>Sliding Security Doors</option>
+
+                            <option>CRL Guarda™ Quick Escape Window Screen</option>
+                            <option>CRL Guarda™ Fixed Window Screen</option>
+                            <option>CRL Guarda™ Casement Window Screen</option>
 
 
-
-
-
-
-
-
-
-
-
-
+                        </select>
+                    </div>
+                    <div class="md-form form-sm">
+                        <input mdbActive type="text" id="form1" class="form-control">
+                        <label for="fullName" class="">Full Name</label>
+                    </div>
+                    <div class="md-form form-sm">
+                        <input mdbActive type="text" id="form1" class="form-control">
+                        <label for="city" class="">City</label>
+                    </div>
+                    <div class="md-form form-sm">
+                        <input mdbActive type="text" id="form1" class="form-control">
+                        <label for="phone" class="">Phone</label>
+                    </div>
+                    <div class="md-form form-sm">
+                        <input mdbActive type="text" id="form1" class="form-control">
+                        <label for="email" class="">Email</label>
+                    </div>
+                    <div class="md-form">
+                        <textarea mdbActive type="text" id="form7" class="md-textarea"></textarea>
+                        <label for="form7">How can we help</label>
+                    </div>
+                </div>
+                <div class="modal-footer">
+                    <button type="button" class="btn gray waves-light" aria-label="Close" (click)="basicModal.hide()" mdbRippleRadius>Close</button>
+                    <button type="button" class="btn blue relative waves-light" mdbRippleRadius>Save changes</button>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+<!--/QuoteForm Modal-->
 
 <app-footer></app-footer>
+

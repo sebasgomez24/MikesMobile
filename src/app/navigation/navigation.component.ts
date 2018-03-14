@@ -10,7 +10,9 @@ export class NavigationComponent implements OnInit {
 
   constructor() { }
 
-  ngOnInit() {}
+  ngOnInit() {
+    
+  }
 
   openDropdown(){
     var dropdown = document.getElementById('dropdown');

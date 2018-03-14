@@ -1,45 +1,23 @@
-<app-navigation></app-navigation>
-
-<div class="container">
-  <br/><h2 class="text-center">{{title}}</h2><br/>
-  
-  <div class="input-group mb-3 waves-light" mdbRippleRadius>    
-        <input type="text" class="form-control" placeholder="Search" aria-label="Search" aria-describedby="basic-addon2" style="height:1em;">
-        <div class="input-group-append">
-          <button class="btn mmblue-outline btn-sm my-0 waves-light" type="submit" mdbRippleRadius>Search</button>
-        </div>
-    
-  </div>
-  
-  
+<div class="container pt-5">
+  <h2 class="text-center">{{title}}</h2>
 </div>
 
+<div class="divider dropdown-divider pb-2 mb-2"></div>
 
-<div class="divider dropdown-divider"></div><br/>
-
-<div *ngFor='let service of serviceList' class="col-md-4 pb-4">    
-  <!--Card-->
-  <div class="card">
-
-      <!--Card image-->
-      <div class="view hm-white-slight waves-light" mdbRippleRadius>
-          <img src="https://mdbootstrap.com/img/Mockups/Lightbox/Thumbnail/img%20(67).jpg" class="img-fluid" alt="Card image with a tree in a middle of a lake.">
-          <a>
-              <div class="mask"></div>
-          </a>
-      </div>
-
-      <!--Card content-->
-      <div class="card-body">
-          <!--Title-->
-          <h4 class="card-title">{{service.title}}</h4>
-          <!--Text-->
-          <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
-          <a class="btn btn-primary waves-light" mdbRippleRadius>Button</a>
-      </div>
-
-  </div>
-  <!--/.Card-->
+<div class="container service-list">
+    <div class="row">
+        <div *ngFor='let service of serviceList' class="col-lg-4 col-md-6 col-sm-6 pb-4">    
+        
+            <div class="view hm-white-slight waves-light" mdbRippleRadius>
+                <img src="{{service.image}}" class="img-fluid w-100" alt="Card image with a tree in a middle of a lake.">
+                <a>
+                    <div class="mask flex-center waves-light" mdbRippleRadius>
+                        <p>{{service.title}}</p>
+                    </div>
+                </a>
+            </div>
+        </div>
+    </div>
 </div>
 
 <!-- {{service.slug}}<br/>

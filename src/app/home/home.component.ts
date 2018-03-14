@@ -10,6 +10,15 @@ export class HomeComponent implements OnInit {
   constructor() { }
 
   ngOnInit() {
+    this.growSlideshow();
   }
 
+  growSlideshow(){
+    if(screen.width < 992){
+      var slideshow = document.getElementById('slideshow');
+
+      slideshow.classList.remove('container', 'mt-4');
+      slideshow.classList.add('row');
+    }
+  }
 }

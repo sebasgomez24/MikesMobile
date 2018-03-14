@@ -6,16 +6,74 @@
         "subcategory":"Window",
         "description":"",
         "video":"",
-        "infoGraphic0":"",
-        "infoGraphic1":"",
-        "thumbnail":"/assets/images/",
-        "mainimage":""
+        "infoGraphic":"",
+        "image":"/assets/images/red-screen.jpg",
+        "thumbnail":"/assets/images/red-screen.jpg"
     },
     {
-        "title":"Solar Screens"
-
+        "title":"Solar Screens",
+        "slug":"solar-screens",        
+        "category":"Screen",
+        "subcategory":"Window",
+        "description":"",
+        "video":"",
+        "infoGraphic":"",
+        "image":"/assets/images/screen.jpg",
+        "thumbnail":"/assets/images/red-screen.jpg"
     },
     {
-        "title":"Screen Doors"
+        "title":"Screen Doors",
+        "slug":"screen-doors",        
+        "category":"Screen",
+        "subcategory":"Window",
+        "description":"",
+        "video":"",
+        "infoGraphic":"",
+        "image":"/assets/images/security-door.jpg",
+        "thumbnail":"/assets/images/red-screen.jpg"
+    },
+    {
+        "title":"Solar Screens",
+        "slug":"solar-screens",        
+        "category":"Screen",
+        "subcategory":"Window",
+        "description":"",
+        "video":"",
+        "infoGraphic":"",
+        "image":"/assets/images/screen.jpg",
+        "thumbnail":"/assets/images/red-screen.jpg"
+    },
+    {
+        "title":"Screen Doors",
+        "slug":"screen-doors",        
+        "category":"Screen",
+        "subcategory":"Window",
+        "description":"",
+        "video":"",
+        "infoGraphic":"",
+        "image":"/assets/images/security-door.jpg",
+        "thumbnail":"/assets/images/red-screen.jpg"
+    },
+    {
+        "title":"Solar Screens",
+        "slug":"solar-screens",        
+        "category":"Screen",
+        "subcategory":"Window",
+        "description":"",
+        "video":"",
+        "infoGraphic":"",
+        "image":"/assets/images/screen.jpg",
+        "thumbnail":"/assets/images/red-screen.jpg"
+    },
+    {
+        "title":"Screen Doors",
+        "slug":"screen-doors",        
+        "category":"Screen",
+        "subcategory":"Window",
+        "description":"",
+        "video":"",
+        "infoGraphic":"",
+        "image":"/assets/images/security-door.jpg",
+        "thumbnail":"/assets/images/red-screen.jpg"
     }
 ]
