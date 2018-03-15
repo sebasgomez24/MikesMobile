@@ -1,26 +1,64 @@
+<!-- Title -->
 <div class="container pt-5">
-  <h2 class="text-center">{{title}}</h2>
+  <h2 class="text-center light-gray-text"><strong>{{title}}</strong></h2>
 </div>
-
 <div class="divider dropdown-divider pb-2 mb-2"></div>
+<!-- /Title -->
+
 
 <div class="container service-list">
+    <!-- ServiceItem row -->
     <div class="row">
-        <div *ngFor='let service of serviceList' class="col-lg-4 col-md-6 col-sm-6 pb-4">    
-        
-            <div class="view hm-white-slight waves-light" mdbRippleRadius>
-                <img src="{{service.image}}" class="img-fluid w-100" alt="Card image with a tree in a middle of a lake.">
-                <a>
-                    <div class="mask flex-center waves-light" mdbRippleRadius>
-                        <p>{{service.title}}</p>
+
+        <ng-container *ngFor='let service of serviceList'>
+            <ng-container [ngSwitch]="service.category">    
+                <div *ngSwitchCase="'Screens'" class="col-lg-3 col-md-6 col-sm-6 pb-4">
+                <!-- ServiceItem -->
+                    <h2>{{service.category}}</h2>
+                    <!-- Tiles -->
+                    <div class="view hm-zoom waves-light service-item" mdbRippleRadius>
+                        <img src="{{service.image}}" class="img-fluid w-100" alt="Image of {{service.title}}">
+                        <a>
+                            <div class="mask flex-center waves-light" mdbRippleRadius>
+                                <div class="transparent-gray w-100">
+                                    <h4 class="h4-responsive white-text p-2 pt-3">{{service.title}}</h4>
+                                    
+                                </div>
+                            </div>
+                        </a>
                     </div>
-                </a>
-            </div>
-        </div>
+                    <!-- /Tiles -->
+
+                <!-- /ServiceItem -->
+                </div>
+
+                <div *ngSwitchCase="'Chimney'" class="col-lg-3 col-md-6 col-sm-6 pb-4">
+                <!-- ServiceItem -->
+                    <h2>Chimney</h2>
+                    <!-- Tiles -->
+                    <div class="view hm-zoom waves-light service-item" mdbRippleRadius>
+                        <img src="{{service.image}}" class="img-fluid w-100" alt="Image of {{service.title}}">
+                        <a>
+                            <div class="mask flex-center waves-light" mdbRippleRadius>
+                                <div class="transparent-gray w-100">
+                                    <h4 class="h4-responsive white-text p-2 pt-3">{{service.title}}</h4>
+                                    
+                                </div>
+                            </div>
+                        </a>
+                    </div>
+                    <!-- /Tiles -->
+
+                <!-- /ServiceItem -->
+                </div>
+
+
+            </ng-container>
+        </ng-container>
+
     </div>
+    <!-- /ServiceItem row -->
 </div>
 
-<!-- {{service.slug}}<br/>
-{{service.category}}<br/>
-{{service.subcategory}}<br/>
-{{service.description}}<br/> -->
+
+    

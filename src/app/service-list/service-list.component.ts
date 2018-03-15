@@ -1,32 +1,38 @@
 import { Component, OnInit, OnDestroy } from '@angular/core';
 import { ServiceItem } from '../services/service';
-import { ServiceService } from '../services/service.service';
+import { ServicesService } from '../services/service.service';
 
 @Component({
-  selector: 'app-service-list',
-  templateUrl: './service-list.component.html',
-  styleUrls: ['./service-list.component.sass'],
-  providers: [ServiceService]
+	selector: 'app-service-list',
+	templateUrl: './service-list.component.html',
+	styleUrls: ['./service-list.component.sass'],
+	providers: [ServicesService]
 })
 export class ServiceListComponent implements OnInit, OnDestroy {
 
-  title = 'View Our Top Selling Services'
-  private req:any
-  serviceList:[ServiceItem]
-  categories = ['Screens', 'Chimneys', 'Security', 'Awnings', 'Home Improvement']
-  subcategories = ['Window', 'Door']
-  screenServices = ['Screen Repair', 'Solar Screens', 'Sliding Screen Door', 'Retractable Screen Door', 'Swinging Screen Door', 'Pet Doors', ]
+	title = 'View Our Top Selling Services'
+	categories = ['Screens', 'Chimneys', 'Security', 'Awnings', 'Home Improvement']
 
-  constructor(private _service:ServiceService) { }
+	private req:any
+	serviceList:[ServiceItem]
+	
+	constructor(private _service:ServicesService) { }
 
-  ngOnInit() {
-    this.req = this._service.list().subscribe(data=>{
-      this.serviceList = data as [ServiceItem];
-    })
-  }
+	ngOnInit() {
+		this.req = this._service.list().subscribe(data=>{
+			this.serviceList = data as [ServiceItem];
+		})
+	}
 
-  ngOnDestroy(){
-    this.req.unsubscribe();
-  }
+	ngOnDestroy(){
+		this.req.unsubscribe();
+	}
+
+	checkCategory(){
+		this.categories.forEach(element => {
+			
+		});
+		this.serviceList
+	}
 
 }

@@ -2,78 +2,45 @@
     {
         "title":"Window Screen Repair",
         "slug":"screen-repair",        
-        "category":"Screen",
+        "category":"Screens",
         "subcategory":"Window",
-        "description":"",
+        "description":"We do replacement window screen frames. Our custom window screen frames are All-aluminum constructed with mitered inside corners- no cheap plastic corners like the other guys use along with pull tabs and springs.",
         "video":"",
         "infoGraphic":"",
-        "image":"/assets/images/red-screen.jpg",
-        "thumbnail":"/assets/images/red-screen.jpg"
+        "image":"/assets/images/screens/window-screen1.jpg",
+        "thumbnail":""
     },
     {
         "title":"Solar Screens",
         "slug":"solar-screens",        
-        "category":"Screen",
+        "category":"Screens",
         "subcategory":"Window",
         "description":"",
         "video":"",
         "infoGraphic":"",
-        "image":"/assets/images/screen.jpg",
-        "thumbnail":"/assets/images/red-screen.jpg"
+        "image":"/assets/images/screens/solar-screen.jpg",
+        "thumbnail":""
     },
     {
         "title":"Screen Doors",
         "slug":"screen-doors",        
-        "category":"Screen",
-        "subcategory":"Window",
+        "category":"Screens",
+        "subcategory":"Door",
         "description":"",
         "video":"",
         "infoGraphic":"",
-        "image":"/assets/images/security-door.jpg",
-        "thumbnail":"/assets/images/red-screen.jpg"
+        "image":"/assets/images/screens/screen-door.jpg",
+        "thumbnail":""
     },
     {
-        "title":"Solar Screens",
-        "slug":"solar-screens",        
-        "category":"Screen",
-        "subcategory":"Window",
+        "title":"Retractable Screen Door",
+        "slug":"retractable-screen-door",        
+        "category":"Chimney",
+        "subcategory":"Door",
         "description":"",
         "video":"",
         "infoGraphic":"",
-        "image":"/assets/images/screen.jpg",
-        "thumbnail":"/assets/images/red-screen.jpg"
-    },
-    {
-        "title":"Screen Doors",
-        "slug":"screen-doors",        
-        "category":"Screen",
-        "subcategory":"Window",
-        "description":"",
-        "video":"",
-        "infoGraphic":"",
-        "image":"/assets/images/security-door.jpg",
-        "thumbnail":"/assets/images/red-screen.jpg"
-    },
-    {
-        "title":"Solar Screens",
-        "slug":"solar-screens",        
-        "category":"Screen",
-        "subcategory":"Window",
-        "description":"",
-        "video":"",
-        "infoGraphic":"",
-        "image":"/assets/images/screen.jpg",
-        "thumbnail":"/assets/images/red-screen.jpg"
-    },
-    {
-        "title":"Screen Doors",
-        "slug":"screen-doors",        
-        "category":"Screen",
-        "subcategory":"Window",
-        "description":"",
-        "video":"",
-        "infoGraphic":"",
-        "image":"/assets/images/security-door.jpg",
-        "thumbnail":"/assets/images/red-screen.jpg"
+        "image":"/assets/images/screens/sliding-mesh.png",
+        "thumbnail":""
     }
 ]

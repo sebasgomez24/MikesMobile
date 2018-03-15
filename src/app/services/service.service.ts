@@ -7,7 +7,7 @@ import 'rxjs/add/operator/catch';
 const endpoint = '/assets/json/services.json'
 
 @Injectable()
-export class ServiceService {
+export class ServicesService {
 
   constructor(private http:Http) { }
 
