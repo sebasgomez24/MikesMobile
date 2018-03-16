@@ -1,46 +1,342 @@
 [
     {
+        "title":"Pet Door",
+        "slug":"pet-door",        
+        "category":"Screens",
+        "subcategory":"Door",
+        "type":"Product",
+        "thumbnail":"/assets/images/screens/pet2.jpg",
+        "quick_description":"",
+        "image":"",
+        "description":"",
+        "video":"",
+        "infoGraphic":""
+    },
+    {
+        "title":"Retractable Screen Door",
+        "slug":"retractable-screen-door",        
+        "category":"Screens",
+        "subcategory":"Door",
+        "type":"Product",
+        "thumbnail":"/assets/images/screens/retractable.jpg",
+        "quick_description":"",
+        "image":"",
+        "description":"",
+        "video":"",
+        "infoGraphic":""
+    },
+    {
+        "title":"Sliding Screen Door",
+        "slug":"sliding-screen-door",        
+        "category":"Screens",
+        "subcategory":"Door",
+        "type":"Product",
+        "thumbnail":"/assets/images/screens/sliding-screen.jpg",
+        "quick_description":"",
+        "image":"",
+        "description":"",
+        "video":"",
+        "infoGraphic":""
+    },
+    {
+        "title":"Swinging Screen Door",
+        "slug":"swinging-screen-door",        
+        "category":"Screens",
+        "subcategory":"Door",
+        "type":"Product",
+        "thumbnail":"/assets/images/screens/swinging-door.jpg",
+        "quick_description":"",
+        "image":"",
+        "description":"",
+        "video":"",
+        "infoGraphic":""
+    },
+    {
         "title":"Window Screen Repair",
         "slug":"screen-repair",        
         "category":"Screens",
         "subcategory":"Window",
-        "description":"We do replacement window screen frames. Our custom window screen frames are All-aluminum constructed with mitered inside corners- no cheap plastic corners like the other guys use along with pull tabs and springs.",
+        "type":"Product",
+        "thumbnail":"/assets/images/screens/window-screen1.jpg",
+        "quick_description":"",
+        "image":"",
+        "description":"Fast, friendly, and affordable window screen & frame replacement!",
         "video":"",
-        "infoGraphic":"",
-        "image":"/assets/images/screens/window-screen1.jpg",
-        "thumbnail":""
+        "infoGraphic":""        
     },
     {
         "title":"Solar Screens",
         "slug":"solar-screens",        
         "category":"Screens",
         "subcategory":"Window",
-        "description":"",
+        "type":"Product",
+        "thumbnail":"/assets/images/screens/solar-screen3.jpg",
+        "quick_description":"Save up to 30% on your Energy Bill",
+        "image":"",
+        "description":"Fast, friendly, and affordable window screen & frame replacement!",
         "video":"",
-        "infoGraphic":"",
-        "image":"/assets/images/screens/solar-screen.jpg",
-        "thumbnail":""
+        "infoGraphic":""
     },
+
+
     {
-        "title":"Screen Doors",
-        "slug":"screen-doors",        
-        "category":"Screens",
-        "subcategory":"Door",
-        "description":"",
-        "video":"",
-        "infoGraphic":"",
-        "image":"/assets/images/screens/screen-door.jpg",
-        "thumbnail":""
-    },
-    {
-        "title":"Retractable Screen Door",
-        "slug":"retractable-screen-door",        
+        "title":"Inspections",
+        "slug":"inspections",        
         "category":"Chimney",
-        "subcategory":"Door",
+        "type":"Service",
+        "thumbnail":"/assets/images/chimneys/groton-chimney.jpg",
+        "quick_description":"",
+        "image":"",
         "description":"",
         "video":"",
-        "infoGraphic":"",
-        "image":"/assets/images/screens/sliding-mesh.png",
-        "thumbnail":""
+        "infoGraphic":""
+    },
+    {
+        "title":"Cleaning",
+        "slug":"cleaning",        
+        "category":"Chimney",
+        "type":"Service",
+        "thumbnail":"/assets/images/chimneys/chimney-red-brick.jpg",
+        "quick_description":"",
+        "image":"",
+        "description":"",
+        "video":"",
+        "infoGraphic":""
+    },
+    {
+        "title":"Repair",
+        "slug":"repair",        
+        "category":"Chimney",
+        "type":"Service",
+        "thumbnail":"/assets/images/chimneys/chimney-unsplash.jpg",
+        "quick_description":"",
+        "image":"",
+        "description":"",
+        "video":"",
+        "infoGraphic":""
+    },
+    {
+        "title":"Accessories",
+        "slug":"accessories",        
+        "category":"Chimney",
+        "type":"Product",
+        "thumbnail":"/assets/images/chimneys/fireplace-screen.jpg",
+        "quick_description":"",
+        "image":"",
+        "description":"",
+        "video":"",
+        "infoGraphic":""
+    },
+    {
+        "title":"Resources",
+        "slug":"resources",        
+        "category":"Chimney",
+        "type":"Service",
+        "thumbnail":"/assets/images/chimneys/resources3.jpg",
+        "quick_description":"",
+        "image":"",
+        "description":"",
+        "video":"",
+        "infoGraphic":""
+    },
+    {
+        "title":"Masonry Services",
+        "slug":"masonry-services",        
+        "category":"Chimney",
+        "type":"Service",
+        "thumbnail":"/assets/images/chimneys/masonry.jpeg",
+        "quick_description":"",
+        "image":"",
+        "description":"",
+        "video":"",
+        "infoGraphic":""
+    },
+
+
+
+
+    {
+        "title":"Steel Security Doors",
+        "slug":"steel-security-doors",        
+        "category":"Security",
+        "subcategory":"Door",
+        "type":"Product",
+        "thumbnail":"/assets/images/security/door.jpg",
+        "quick_description":"",
+        "image":"",
+        "description":"",
+        "video":"",
+        "infoGraphic":""
+    },
+    {
+        "title":"Viewguard Security Doors",
+        "slug":"viewguard-security-doors",        
+        "category":"Security",
+        "subcategory":"Door",
+        "type":"Product",
+        "thumbnail":"/assets/images/security/standard-screen.png",
+        "quick_description":"",
+        "image":"",
+        "description":"",
+        "video":"",
+        "infoGraphic":""
+    },
+    {
+        "title":"TRU-View Security Doors",
+        "slug":"viewguard-security-doors",        
+        "category":"Security",
+        "subcategory":"Door",
+        "type":"Product",
+        "thumbnail":"/assets/images/security/security-door.jpg",
+        "quick_description":"",
+        "image":"",
+        "description":"",
+        "video":"",
+        "infoGraphic":""
+    },
+    {
+        "title":"TRU-Frame Security Doors",
+        "slug":"viewguard-security-doors",        
+        "category":"Security",
+        "subcategory":"Door",
+        "type":"Product",
+        "thumbnail":"/assets/images/security/security-door.jpg",
+        "quick_description":"",
+        "image":"",
+        "description":"",
+        "video":"",
+        "infoGraphic":""
+    },
+    {
+        "title":"Sliding Security Doors",
+        "slug":"viewguard-security-doors",        
+        "category":"Security",
+        "subcategory":"Door",
+        "type":"Product",
+        "thumbnail":"/assets/images/security/door.jpg",
+        "quick_description":"",
+        "image":"",
+        "description":"",
+        "video":"",
+        "infoGraphic":""
+    },
+    {
+        "title":"CRL Guarda™ Quick Escape",
+        "slug":"crl-guarda-quick-escape",        
+        "category":"Security",
+        "subcategory":"Window",
+        "type":"Product",
+        "thumbnail":"/assets/images/security/guarda-security-window.jpg",
+        "quick_description":"",
+        "image":"",
+        "description":"",
+        "video":"",
+        "infoGraphic":""
+    },
+    {
+        "title":"CRL Guarda™ Fixed",
+        "slug":"crl-guarda-fixed",        
+        "category":"Security",
+        "subcategory":"Window",
+        "type":"Product",
+        "thumbnail":"/assets/images/security/door.jpg",
+        "quick_description":"",
+        "image":"",
+        "description":"",
+        "video":"",
+        "infoGraphic":""
+    },
+    {
+        "title":"CRL Guarda™ Casement",
+        "slug":"crl-guarda-casement",        
+        "category":"Security",
+        "subcategory":"Window",
+        "type":"Product",
+        "thumbnail":"/assets/images/security/door.jpg",
+        "quick_description":"",
+        "image":"",
+        "description":"",
+        "video":"",
+        "infoGraphic":""
+    },
+
+
+
+
+    {
+        "title":"Retractable",
+        "slug":"awnings",        
+        "category":"Awnings",
+        "type":"Product",
+        "thumbnail":"/assets/images/awnings/folding-arm-awning.jpg",
+        "quick_description":"",
+        "image":"",
+        "description":"",
+        "video":"",
+        "infoGraphic":""
+    },
+    {
+        "title":"Drop Roll",
+        "slug":"drop-roll",        
+        "category":"Awnings",
+        "type":"Product",
+        "thumbnail":"/assets/images/awnings/droproll.jpg",
+        "quick_description":"",
+        "image":"",
+        "description":"",
+        "video":"",
+        "infoGraphic":""
+    },
+    {
+        "title":"Door and Window",
+        "slug":"door-and-window",        
+        "category":"Awnings",
+        "type":"Product",
+        "thumbnail":"/assets/images/awnings/wet.jpg",
+        "quick_description":"",
+        "image":"",
+        "description":"",
+        "video":"",
+        "infoGraphic":""
+    },
+
+
+
+
+    {
+        "title":"Dryer Vent Cleaning",
+        "slug":"dryer-vent-cleaning",        
+        "category":"Home Improvement",
+        "type":"Service",
+        "thumbnail":"/assets/images/home-improvement/dryer-vent.jpg",
+        "quick_description":"",
+        "image":"",
+        "description":"",
+        "video":"",
+        "infoGraphic":""
+    },
+    {
+        "title":"Gutter Cleaning",
+        "slug":"gutter-cleaning",        
+        "category":"Home Improvement",
+        "type":"Service",
+        "thumbnail":"/assets/images/home-improvement/gutter1.jpg",
+        "quick_description":"",
+        "image":"",
+        "description":"",
+        "video":"",
+        "infoGraphic":""
+    },
+    {
+        "title":"Window Washing",
+        "slug":"window-washing",        
+        "category":"Home Improvement",
+        "type":"Service",
+        "thumbnail":"/assets/images/home-improvement/window.jpg",
+        "quick_description":"",
+        "image":"",
+        "description":"",
+        "video":"",
+        "infoGraphic":""
     }
 ]

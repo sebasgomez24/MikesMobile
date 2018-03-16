@@ -1,13 +1,61 @@
 @import '~sass/modules/_mixins.sass'
 @import '~sass/modules/_variables.sass'
-    
+
+h2
+    font-size: 1.5em
+    @include breakpoint(sm)
+        font-size: 2em
+
+h4
+    font-size: .85em
+    @include breakpoint(sm)
+        font-size: 1.25em
+
+
+.well
+    box-shadow: -2px 0 5px 2px #d3d3d3
+    img
+        margin: 25px
+        height: 75px
+
+.card
+	border-radius: 1px
+
 .service-list
     img
         height: 150px
         @include breakpoint(sm)
             height: 200px
 
+.scrolling-wrapper
+	display: flex
+	flex-wrap: nowrap
+	overflow-x: auto
+	.scrolling-card
+		flex: 0 0 auto
+		width: 250px
+		margin: 0 15px
+		.scrolling-card:hover
+			animation: moveSlideshow 3s linear
+			animation-fill-mode: forwards
+
+.transparent-gray#transparent1
+	background: rgba(224, 224, 224, .90)
+
+.transparent-gray#transparent2
+	background: rgba(250, 250, 250, .85)
+
+.transparent-gray
+    h4
+        opacity: 1
+        font-size: .85em
+        @include breakpoint(sm)
+            font-size: 1.25em		
+
 .service-item:hover
-    .transparent-gray
-        background: rgba(102, 102, 102, .85)
+    .transparent-gray#transparent1,#transparent2
+        background: rgba(250, 250, 250, 0)
         transition: all .5s ease
+        h4
+            opacity: 0
+            transition: all .5s ease

@@ -1,64 +1,199 @@
 <!-- Title -->
-<div class="container pt-5">
-  <h2 class="text-center light-gray-text"><strong>{{title}}</strong></h2>
+<div class="row white my-5 pt-4 pb-2 well">
+    <div class="container">
+        <h2 class="text-center light-gray-text">Popular Projects at <img src="assets/images/main/logo-black.jpg" style="height: 50px; margin-top: 5px" alt="Mikes Mobile Screen and Chimney Services"/></h2>
+        <!-- <div class="divider dropdown-divider pb-2 mb-2"></div> -->
+        <!-- <div class="d-flex justify-content-center">
+            
+            <img src="assets/images/main/NFI_Certified-color.png" alt="Chimney Sweep Certification"/>
+            <img src="assets/images/main/certified-chimney-sweep.png" alt="Chimney Sweep Certification"/>
+            <img src="assets/images/main/state_license.png" alt="Chimney Sweep Certification"/>
+        </div> -->
+    </div>
 </div>
-<div class="divider dropdown-divider pb-2 mb-2"></div>
 <!-- /Title -->
 
 
 <div class="container service-list">
     <!-- ServiceItem row -->
     <div class="row">
+        <div class="col-lg-2 pb-4">
+            <h2 class="light-gray-text">Screens</h2>
+        </div>
+    
+        <div class="scrolling-wrapper">
 
+            <ng-container *ngFor='let service of serviceList'>
+                <ng-container *ngIf="service.category === 'Screens'">
+                
+                
+                    <div class="pb-4 scrolling-card">
+                    <!-- ServiceItem -->
+                        <!-- Tiles -->
+                        <div class="view hm-zoom waves-light service-item animated wow fadeIn" mdbRippleRadius>
+                            <img src="{{service.thumbnail}}" class="img-fluid w-100" data-wow-delay="0.6s" alt="Image of {{service.title}}">
+                            <a>
+                                <div class="mask flex-center waves-light" mdbRippleRadius>
+                                    <div class="transparent-gray" id="transparent1">
+                                        <h4 class="h4-responsive gray-text center-text p-2 pt-3"><strong>{{service.title}}</strong></h4>
+                                    </div>
+                                </div>
+                            </a>
+                        </div>
+                        <!-- /Tiles -->
+                    <!-- /ServiceItem -->
+                    </div>
+
+
+                </ng-container>
+            </ng-container>
+        
+        </div>
+    <!-- /ServiceItem row -->
+    </div>
+</div>
+
+<div class="container service-list">
+    <h2 class="py-3 light-gray-text">Chimney</h2>
+    <!-- ServiceItem row -->
+    <div class="row">
         <ng-container *ngFor='let service of serviceList'>
-            <ng-container [ngSwitch]="service.category">    
-                <div *ngSwitchCase="'Screens'" class="col-lg-3 col-md-6 col-sm-6 pb-4">
+            <ng-container *ngIf="service.category === 'Chimney'">               
+                <div class="col-lg-3 col-6 pb-4">
                 <!-- ServiceItem -->
-                    <h2>{{service.category}}</h2>
-                    <!-- Tiles -->
-                    <div class="view hm-zoom waves-light service-item" mdbRippleRadius>
-                        <img src="{{service.image}}" class="img-fluid w-100" alt="Image of {{service.title}}">
-                        <a>
-                            <div class="mask flex-center waves-light" mdbRippleRadius>
-                                <div class="transparent-gray w-100">
-                                    <h4 class="h4-responsive white-text p-2 pt-3">{{service.title}}</h4>
-                                    
-                                </div>
-                            </div>
-                        </a>
+
+
+
+                    <!--Card-->
+                    <div class="card">
+                        <!--Card image-->
+                        <div class="view hm-zoom waves-light" mdbRippleRadius>
+                            <img src="{{service.thumbnail}}" class="img-fluid w-100" alt="Card image with a tree in a middle of a lake.">
+                            <a>
+                                <div class="mask"></div>
+                            </a>
+                        </div>
+                        <!--Card content-->
+                        <!--Title-->
+                        <h4 class="card-title pt-2 px-2">{{service.title}}</h4>
+                        
                     </div>
-                    <!-- /Tiles -->
+                    <!--/.Card-->
+    
+
+
 
                 <!-- /ServiceItem -->
                 </div>
-
-                <div *ngSwitchCase="'Chimney'" class="col-lg-3 col-md-6 col-sm-6 pb-4">
-                <!-- ServiceItem -->
-                    <h2>Chimney</h2>
-                    <!-- Tiles -->
-                    <div class="view hm-zoom waves-light service-item" mdbRippleRadius>
-                        <img src="{{service.image}}" class="img-fluid w-100" alt="Image of {{service.title}}">
-                        <a>
-                            <div class="mask flex-center waves-light" mdbRippleRadius>
-                                <div class="transparent-gray w-100">
-                                    <h4 class="h4-responsive white-text p-2 pt-3">{{service.title}}</h4>
-                                    
-                                </div>
-                            </div>
-                        </a>
-                    </div>
-                    <!-- /Tiles -->
-
-                <!-- /ServiceItem -->
-                </div>
-
-
             </ng-container>
         </ng-container>
-
     </div>
-    <!-- /ServiceItem row -->
+</div>
+
+<div class="container service-list">
+    <h2 class="py-3 light-gray-text">Security</h2>
+    <!-- ServiceItem row -->
+    <div class="row">
+        <ng-container *ngFor='let service of serviceList'>
+            <ng-container *ngIf="service.category === 'Security'">               
+                <div class="col-lg-3 col-6 pb-4">
+                <!-- ServiceItem -->
+
+
+
+                    <!-- Tile2 -->
+                    <div class="view hm-zoom waves-light service-item" mdbRippleRadius>
+                        <img src="{{service.thumbnail}}" class="img-fluid w-100" alt="Image of {{service.title}}">
+                        <a>
+                            <div class="mask flex-center waves-light" mdbRippleRadius>
+                                <div class="transparent-gray w-100" id="transparent2">
+                                    <h4 class="h4-responsive light-gray-text p-2 pt-3">{{service.title}}</h4>
+                                    
+                                </div>
+                            </div>
+                        </a>
+                    </div>
+                    <!-- /Tile2 -->
+
+
+
+                <!-- /ServiceItem -->
+                </div>
+            </ng-container>
+        </ng-container>
+    </div>
 </div>
 
 
+<div class="container service-list">
+    <h2 class="py-3 light-gray-text">Awnings</h2>
+    <!-- ServiceItem row -->
+    <div class="row">
+        <ng-container *ngFor='let service of serviceList'>
+            <ng-container *ngIf="service.category === 'Awnings'">               
+                <div class="col-lg-3 col-6 pb-4">
+                <!-- ServiceItem -->    
+                
+                    <!--Card-->
+                    <div class="card">
+                        <!--Card image-->
+                        <div class="view hm-zoom waves-light" mdbRippleRadius>
+                            <img src="{{service.thumbnail}}" class="img-fluid w-100" alt="Card image with a tree in a middle of a lake.">
+                            <a>
+                                <div class="mask"></div>
+                            </a>
+                        </div>
+                        <!--Card content-->
+                        <div class="card-body">
+                            <!--Title-->
+                            <h4 class="card-title">{{service.title}}</h4>
+                            <!--Text-->
+                            <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+                            <a class="btn btn-primary waves-light" mdbRippleRadius>Button</a>
+                        </div>
+                    </div>
+                    <!--/.Card-->
+
+
+                <!-- /ServiceItem -->
+                </div>
+            </ng-container>
+        </ng-container>
+    </div>
+</div>
+
+<div class="container service-list">
+    <!-- ServiceItem row -->
+    <div class="row">
+        <div class="col-12 pb-4">
+            <h2 class="light-gray-text">Home Improvement</h2>
+        </div>
     
+        <div class="scrolling-wrapper">
+
+            <ng-container *ngFor='let service of serviceList'>
+                <ng-container *ngIf="service.category === 'Home Improvement'">
+                
+                
+                    <div class="pb-4 scrolling-card">
+                    <!-- ServiceItem -->
+                        <!-- Tiles -->
+                        <div class="view hm-zoom waves-light service-item" mdbRippleRadius>
+                            <img src="{{service.thumbnail}}" class="img-fluid w-100" alt="Image of {{service.title}}">
+                            <a>
+                                <div class="mask flex-center waves-light" mdbRippleRadius></div>
+                            </a>
+                        </div>
+                        <h4 class="h4-responsive light-gray-text pt-3">{{service.title}}</h4>
+                        <!-- /Tiles -->
+                    <!-- /ServiceItem -->
+                    </div>
+
+
+                </ng-container>
+            </ng-container>
+        
+        </div>
+    <!-- /ServiceItem row -->
+    </div>
+</div>

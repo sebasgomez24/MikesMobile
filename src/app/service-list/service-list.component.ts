@@ -34,5 +34,4 @@ export class ServiceListComponent implements OnInit, OnDestroy {
 		});
 		this.serviceList
 	}
-
 }
