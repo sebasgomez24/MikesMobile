@@ -7,8 +7,9 @@ import { ContactComponent } from './contact/contact.component';
 import { ProductDetailComponent } from './product-detail/product-detail.component';
 import { ServiceDetailComponent } from './service-detail/service-detail.component';
 import { ServiceListComponent } from './service-list/service-list.component';
+import { SearchDetailComponent } from './search-detail/search-detail.component';
 // import { PageNotFoundComponent } from './page-not-found/page-not-found.component';
-// import { SearchDetailComponent } from './search-detail/search-detail.component';
+
 
  
 const appRoutes: Routes = [
@@ -17,7 +18,7 @@ const appRoutes: Routes = [
   { path: 'services', component: ServiceListComponent },
   { path: 'products/:slug', component: ProductDetailComponent },
   { path: 'services/:slug', component: ServiceDetailComponent },
-  // { path: 'search', component: SearchDetailComponent },
+  { path: 'search', component: SearchDetailComponent },
   { path: '', component: HomeComponent, pathMatch: 'full' },
   // { path: '**', component: PageNotFoundComponent }
 ];

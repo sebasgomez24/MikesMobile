@@ -1,3 +1,25 @@
-<p>
-  search-detail works!
-</p>
+<app-navigation></app-navigation>
+<app-action-buttons></app-action-buttons>
+
+<div class="container search-detail my-4">
+  <p *ngIf='query' class="accent">
+    Searched for <strong>{{ query }}</strong>
+  </p>
+  <div class="row">
+    <div *ngFor='let service of serviceList' class="col-sm-3">
+      <a routerLink="/{{service.type}}/{{service.slug}}">
+        <!-- Tiles -->
+        <div class="view hm-zoom waves-light service-item" mdbRippleRadius>
+            <img src="{{service.thumbnail}}" class="img-fluid w-100" alt="Image of {{service.title}}">
+            <a>
+                <div class="mask flex-center waves-light" mdbRippleRadius></div>
+            </a>
+        </div>
+        <h4 class="h4-responsive light-gray-text pt-2 pb-4">{{service.title}}</h4>
+        <!-- /Tiles -->
+      </a>
+    </div>
+  </div>
+
+
+</div>

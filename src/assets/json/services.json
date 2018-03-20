@@ -5,12 +5,14 @@
         "category":"Screens",
         "subcategory":"Door",
         "type":"products",
-        "thumbnail":"/assets/images/screens/retractable.jpg",
-        "quick_description":"",
-        "image":"/assets/images/screens/retractable.jpg",
-        "description":"",
-        "video":"",
-        "infoGraphic":""
+        "bullet0":"",
+        "bullet1":"",
+        "bullet2":"",
+        "tileImage":"/assets/images/screens/retractable.jpg",
+        "image0":"string",
+        "image1":"",
+        "image2":"",
+        "video":""
     },
     {
         "title":"Sliding Screen Door",
@@ -18,12 +20,14 @@
         "category":"Screens",
         "subcategory":"Door",
         "type":"products",
-        "thumbnail":"/assets/images/screens/sliding-screen.jpg",
-        "quick_description":"",
-        "image":"",
-        "description":"",
-        "video":"",
-        "infoGraphic":""
+        "bullet0":"",
+        "bullet1":"",
+        "bullet2":"",
+        "tileImage":"/assets/images/screens/sliding-screen.jpg",
+        "image0":"string",
+        "image1":"",
+        "image2":"",
+        "video":""
     },
     {
         "title":"Swinging Screen Door",
@@ -31,12 +35,15 @@
         "category":"Screens",
         "subcategory":"Door",
         "type":"products",
-        "thumbnail":"/assets/images/screens/swinging-door.jpg",
-        "quick_description":"",
-        "image":"",
-        "description":"",
-        "video":"",
-        "infoGraphic":""
+        "bullet0":"",
+        "bullet1":"",
+        "bullet2":"",
+        "tileImage":"/assets/images/screens/swinging-door.jpg",
+        "image0":"",
+        "image1":"",
+        "image2":"",
+        "video":""
+        
     },
     {
         "title":"Window Screen Repair",
@@ -44,12 +51,14 @@
         "category":"Screens",
         "subcategory":"Window",
         "type":"products",
-        "thumbnail":"/assets/images/screens/window-screen.jpg",
-        "quick_description":"",
-        "image":"",
-        "description":"Fast, friendly, and affordable window screen & frame replacement!",
-        "video":"",
-        "infoGraphic":""        
+        "bullet0":"",
+        "bullet1":"",
+        "bullet2":"",
+        "tileImage":"/assets/images/screens/window-screen.jpg",
+        "image0":"string",
+        "image1":"",
+        "image2":"",
+        "video":""
     },
     {
         "title":"Solar Screens",
@@ -57,12 +66,14 @@
         "category":"Screens",
         "subcategory":"Window",
         "type":"products",
-        "thumbnail":"/assets/images/screens/solar-screen3.jpg",
-        "quick_description":"Save up to 30% on your Energy Bill",
-        "image":"",
-        "description":"Fast, friendly, and affordable window screen & frame replacement!",
-        "video":"",
-        "infoGraphic":""
+        "bullet0":"",
+        "bullet1":"",
+        "bullet2":"",
+        "tileImage":"/assets/images/screens/solar-screen3.jpg",
+        "image0":"string",
+        "image1":"",
+        "image2":"",
+        "video":""
     },
     {
         "title":"Pet Door",
@@ -174,12 +185,14 @@
         "category":"Security",
         "subcategory":"Door",
         "type":"products",
-        "thumbnail":"/assets/images/security/screen-door-2.jpg",
-        "quick_description":"",
-        "image":"/assets/images/security/screen-door-2.jpg",
-        "description":"When you go out of the house on weekends and vacations, your security screen door will be the first point of protection for keeping your home safe and secure. The Viewguard looks like a screen door but is actually high tensile strength stainless steel woven into a fine mesh. It provides secure protection and gives you a clear view of the outdoors without compromising the style or appearance of your home.",
-        "video":"",
-        "infoGraphic":""
+        "bullet0":"The Viewguard looks like a screen door but is actually high tensile strength stainless steel woven into a fine mesh.",
+        "bullet1":"Your security screen door will be the first point of protection for keeping your home safe and secure.",
+        "bullet2":"It provides secure protection and gives you a clear view of the outdoors without compromising the style or appearance of your home.",
+        "tileImage":"/assets/images/security/viewguard/viewguard_main.png",
+        "image0":"/assets/images/security/viewguard/viewguard-diagram-medium.png",
+        "image1":"/assets/images/security/viewguard/viewguard-bottom-medium.png",
+        "image2":"/assets/images/security/viewguard/viewguard-height-guide-medium.png",
+        "video":""
     },
     {
         "title":"TRU-View Security Doors",
@@ -264,8 +277,8 @@
 
 
     {
-        "title":"Retractable",
-        "slug":"awnings",        
+        "title":"Retractable Patio Awning",
+        "slug":"retractable-patio-awning",        
         "category":"Awnings",
         "type":"products",
         "thumbnail":"/assets/images/awnings/folding-arm-awning.jpg",
@@ -276,26 +289,26 @@
         "infoGraphic":""
     },
     {
-        "title":"Drop Roll",
-        "slug":"drop-roll",        
+        "title":"Drop Roll Sunscreens",
+        "slug":"drop-roll-sunscreens",        
         "category":"Awnings",
         "type":"products",
         "thumbnail":"/assets/images/awnings/droproll.jpg",
-        "quick_description":"",
+        "quick_description":"drop roll sunscreens",
         "image":"",
-        "description":"",
+        "description":"drop roll sunscreens",
         "video":"",
         "infoGraphic":""
     },
     {
-        "title":"Door and Window",
-        "slug":"door-and-window",        
+        "title":"Door and Window Awnings",
+        "slug":"door-and-window-awnings",        
         "category":"Awnings",
         "type":"products",
         "thumbnail":"/assets/images/awnings/wet.jpg",
-        "quick_description":"",
+        "quick_description":"door and window awnings",
         "image":"",
-        "description":"",
+        "description":"door and window awnings",
         "video":"",
         "infoGraphic":""
     },
@@ -309,9 +322,9 @@
         "category":"Home Improvement",
         "type":"services",
         "thumbnail":"/assets/images/home-improvement/dryer-vent.jpg",
-        "quick_description":"",
+        "quick_description":"dryer vent cleaning",
         "image":"",
-        "description":"",
+        "description":"dryer vent cleaning",
         "video":"",
         "infoGraphic":""
     },
@@ -321,9 +334,9 @@
         "category":"Home Improvement",
         "type":"services",
         "thumbnail":"/assets/images/home-improvement/gutter1.jpg",
-        "quick_description":"",
+        "quick_description":"gutter cleaning",
         "image":"",
-        "description":"",
+        "description":"gutter cleaning",
         "video":"",
         "infoGraphic":""
     },
@@ -333,9 +346,9 @@
         "category":"Home Improvement",
         "type":"services",
         "thumbnail":"/assets/images/home-improvement/window.jpg",
-        "quick_description":"",
+        "quick_description":"window washing",
         "image":"",
-        "description":"",
+        "description":"window washing",
         "video":"",
         "infoGraphic":""
     }

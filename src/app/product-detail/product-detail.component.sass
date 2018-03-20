@@ -1,11 +1,69 @@
+@import '~sass/modules/_mixins.sass'
+@import '~sass/modules/_variables.sass'
+
 #productInfo
     h5
         font-family: 'Open Sans', sans-serif
         font-weight: bold
-    h3
+    h3, h4
         font-family: 'Open Sans', sans-serif
         font-weight: lighter
     ul
         padding-left: 25px
         li
             padding: 10px 0
+
+.breadcrumb
+    background: none
+    a
+        color: #4083BB
+        &:hover
+            color: $orange
+
+.thumbnails img, .main-image img
+    max-width: 100%
+    padding: 5px
+    height: auto
+    // border: 1px solid #ccc
+    // background: #fff
+    // box-shadow: 1px 1px 7px rgba(0,0,0,0.1)
+
+.main-image
+    width: 100%
+    margin-bottom: 0.75em
+    img
+        position: relative
+        max-height: 400px
+        left: 50%
+        transform: translate(-50%,0)
+
+.thumbnails li
+      display: inline
+      margin: 5px 0
+      width: 100%
+
+.thumbnails li img
+    width: 100%
+    height: 100px
+
+.thumbnails
+
+.square
+    height: 50px
+    width: 50px
+    background: $light-gray
+    margin: 5px
+    &:first-of-type
+        background: #2D3017
+    &:nth-of-type(2)
+        background: #fff
+    &:nth-of-type(3)
+        background: #FAF9ED
+    &:nth-of-type(4)
+        background: #F4EDCA
+    &:nth-of-type(5)
+        background: #3F2823
+    &:nth-of-type(6)
+        background: #103427
+    &:nth-of-type(7)
+        background: #928A6F

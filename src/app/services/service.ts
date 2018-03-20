@@ -4,11 +4,21 @@ export class ServiceItem{
     category:string
     subcategory?:string
     type:string
-    thumbnail?:string
-    quick_description:string
-    image?:string
-    description:string
-    video?:string
-    infoGraphic?:string
-    
+    bullet0:string
+    bullet1:string
+    bullet2?:string
+    bullet3?:string
+    bullet4?:string
+    tileImage:string
+    image0:string
+    image1?:string
+    image2?:string
+    image3?:string
+    image4?:string
+    image5?:string
+    image6?:string
+    image7?:string
+    image8?:string
+    image9?:string
+    video?:string    
 }

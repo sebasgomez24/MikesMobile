@@ -9,7 +9,7 @@ import { ServicesService } from '../services/service.service';
   styleUrls: ['./service-detail.component.sass'],
   providers: [ServicesService]
 })
-export class ServiceDetailComponent implements OnInit {
+export class ServiceDetailComponent implements OnInit, OnDestroy {
 
   private req:any;
   private routeSub:any;
