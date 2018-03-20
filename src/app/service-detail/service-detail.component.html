@@ -1,3 +1,44 @@
-<p>
-  service-detail works!
-</p>
+<app-navigation></app-navigation>
+
+<app-action-buttons></app-action-buttons>
+
+<ng-container *ngIf="service">
+	<div class="container">
+		<nav class="breadcrumb mt-4">
+			<a class="breadcrumb-item" routerLink="/">Home</a>
+			<a *ngIf="service.subcategory" class="breadcrumb-item" routerLink="">{{service.category}}</a>
+			<span class="breadcrumb-item active">{{service.title}}</span>
+		</nav>
+
+		<div class="row">
+			<div class="col-12 col-md-7">
+				<div class="row">
+					<div class="col-3"></div>
+					<div class="col-9">
+						<img class="img-fluid w-100" src="{{service.image}}"/>
+					</div>
+				</div>
+			</div>
+			<div class="col-12 col-md-5">
+				<h4>{{service.title}}</h4>
+				<p>{{service.quick_description}}</p>
+			</div>
+		</div>
+
+
+
+
+
+
+
+
+
+
+
+	</div>
+
+
+</ng-container>
+<app-footer></app-footer>
+
+<app-quote-modal></app-quote-modal>

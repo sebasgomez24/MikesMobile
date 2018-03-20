@@ -6,7 +6,6 @@ import { NgModule, NO_ERRORS_SCHEMA } from '@angular/core';
 import { MDBBootstrapModule } from 'angular-bootstrap-md';
 import { Ng2PageScrollModule } from 'ng2-page-scroll';
 
-
 import { AppRoutingModule } from './app-routing.module';
 import { AppComponent } from './app.component';
 
@@ -20,13 +19,15 @@ import { ServiceListComponent } from './service-list/service-list.component';
 import { ServiceDetailComponent } from './service-detail/service-detail.component';
 import { SearchComponent } from './search/search.component';
 import { SearchDetailComponent } from './search-detail/search-detail.component';
+import { ActionButtonsComponent } from './action-buttons/action-buttons.component';
+import { ProductDetailComponent } from './product-detail/product-detail.component';
 
 
 
 @NgModule({
   declarations: [
     AppComponent,
-    
+    // myComponents
     AboutComponent,
     BlogComponent,
     ContactComponent,
@@ -37,6 +38,8 @@ import { SearchDetailComponent } from './search-detail/search-detail.component';
     ServiceDetailComponent,
     SearchComponent,
     SearchDetailComponent,
+    ActionButtonsComponent,
+    ProductDetailComponent,
   ],
   imports: [
     AppRoutingModule,

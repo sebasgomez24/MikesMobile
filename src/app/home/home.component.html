@@ -1,7 +1,7 @@
 <app-navigation></app-navigation>
 
 
-<div class="container mt-4 mb-4 slideshow" id="slideshow">
+<div class="container slideshow mt-4" id="slideshow">
     <!--Carousel Wrapper-->
     <mdb-carousel [isControls]="true" class="carousel slide carousel-fade" [animation]="'fade'">
         <!--First slide-->
@@ -72,109 +72,12 @@
     </mdb-carousel>
     <!--/.Carousel Wrapper-->
 </div>
-                
-<div class="container action-btns">
-    <div class="row">
-        <div class="col-6">
-            <div class="view hm-black-strong">
-                <img class="d-block w-100" src="assets/images/main/gutter1.jpg">
-                <div class="mask flex-center waves-light" type="button" (click)="basicModal.show()" mdbRippleRadius>
-                    <div class="blue w-100">
-                        <h4 class="h4-responsive text-center white-text pt-2 animated pulse">GET YOUR FREE QUOTE!</h4>
-                    </div>                        
-                </div>
-            </div>
-        </div>
-        <div class="col-6">
-            <div class="view hm-black-strong">
-                <img class="d-block w-100" src="assets/images/main/chimney-service.jpg">
-                <a href="tel:+1-916-372-8783">
-                    <div class="mask flex-center waves-light" mdbRippleRadius>
-                        <div class="blue w-100">
-                            <h4 class="h4-responsive text-center white-text pt-2 animated wow fadeInUp" data-wow-delay="0.6s">1-877-520-3595</h4>
-                        </div>
-                    </div>
-                </a>
-            </div>
-        </div>
-    </div>
-</div>
+
+<app-action-buttons></app-action-buttons>
 
 <app-service-list></app-service-list>
 
-<!--QuoteForm Modal-->
-<div class="container">
-    <div mdbModal #basicModal="mdb-modal" class="modal fade" tabindex="-1" role="dialog" aria-labelledby="myBasicModalLabel" aria-hidden="true">
-        <div class="modal-dialog" role="document">
-            <div class="modal-content">
-                <div class="modal-header">
-                    <button type="button" class="close pull-right" aria-label="Close" (click)="basicModal.hide()">
-                        <span aria-hidden="true">×</span>
-                    </button>
-                    <h4 class="modal-title w-100" id="myModalLabel">Get a Free Quote Now!</h4>
-                </div>
-                <div class="modal-body">
-                    <div class="md-form form-sm">
-                        <p class="pb-0 mb-0">What service are you inquiring about?</p>
-                        <select class="form-control" id="serviceSelect">
-                            <option>Window Screen Repair</option>
-                            <option>Solar Screens</option>
-                            <option>Sliding Screen Door</option>
-                            <option>Swinging Screen Door</option>
-                            <option>Retractable Screen Door</option>
-                            <option>Screen Doors</option>
-                            <option>Pet Doors</option>
-                            
-                            <option>Chimney Inspection</option>
-                            <option>Chimney Cleaning</option>
-                            <option>Chimney Repair</option>
-                            <option>Chimney Accessories</option>
-                            <option>Chimney Resources</option>
-                            <option>Masonry Services</option>
-
-                            <option>Steel Security Door</option>
-                            <option>Viewguard Security Door</option>
-                            <option>TRU-view Security Door</option>
-                            <option>TRU-Frame Security Door</option>
-                            <option>Sliding Security Doors</option>
-
-                            <option>CRL Guarda™ Quick Escape Window Screen</option>
-                            <option>CRL Guarda™ Fixed Window Screen</option>
-                            <option>CRL Guarda™ Casement Window Screen</option>
-
-
-                        </select>
-                    </div>
-                    <div class="md-form form-sm">
-                        <input mdbActive type="text" id="form1" class="form-control">
-                        <label for="fullName" class="">Full Name</label>
-                    </div>
-                    <div class="md-form form-sm">
-                        <input mdbActive type="text" id="form1" class="form-control">
-                        <label for="city" class="">City</label>
-                    </div>
-                    <div class="md-form form-sm">
-                        <input mdbActive type="text" id="form1" class="form-control">
-                        <label for="phone" class="">Phone</label>
-                    </div>
-                    <div class="md-form form-sm">
-                        <input mdbActive type="text" id="form1" class="form-control">
-                        <label for="email" class="">Email</label>
-                    </div>
-                    <div class="md-form">
-                        <textarea mdbActive type="text" id="form7" class="md-textarea"></textarea>
-                        <label for="form7">How can we help</label>
-                    </div>
-                </div>
-                <div class="modal-footer">
-                    <button type="button" class="btn gray waves-light" aria-label="Close" (click)="basicModal.hide()" mdbRippleRadius>Close</button>
-                    <button type="button" class="btn blue relative waves-light" mdbRippleRadius>Save changes</button>
-                </div>
-            </div>
-        </div>
-    </div>
-</div>
-<!--/QuoteForm Modal-->
+<app-quote-modal></app-quote-modal>
 
 <app-footer></app-footer>
 
