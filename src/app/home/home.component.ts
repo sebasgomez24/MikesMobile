@@ -29,21 +29,21 @@ export class HomeComponent implements OnInit {
 
 var stateManager = (function () {
   var state = null;
-  
+
   var resizePage = function () {
     if (screen.width < 768) {
-      if (state !== "mobile") { 
-        displayMobile(); 
+      if (state !== "mobile") {
+        displayMobile();
       }
       resizeMobile();
     }
     else {
-      if (state !== "desktop") { 
-        displayDesktop(); 
+      if (state !== "desktop") {
+        displayDesktop();
       }
       resizeDesktop();
     }
-  }; 
+  };
   var displayMobile = function () {
     state = "mobile";
     console.log("enter mobile");

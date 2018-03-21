@@ -13,11 +13,11 @@ import * as $ from 'jquery';
 export class ServiceListComponent implements OnInit, OnDestroy {
 
 	title = 'View Our Top Selling Services'
-	categories = ['Screens', 'Chimneys', 'Security', 'Awnings', 'Home Improvement']
+	categories = ['Screens', 'Chimney', 'Security', 'Awnings', 'Home Improvement']
 
 	private req:any
 	serviceList:[ServiceItem]
-	
+
 	constructor(private _service:ServicesService) { }
 
 	ngOnInit() {

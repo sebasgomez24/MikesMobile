@@ -1,22 +1,7 @@
 <!-- Action Buttons -->
-<!-- <div class="container action-buttons pt-3">
-    <div class="row">
-        <div class="col-5">
-            <button class="btn blue waves-light w-100" (click)="basicModal.show()" mdbRippleRadius><span id="mobile-disappear">GET YOUR </span>FREE QUOTE!</button>
-        </div>
-        <div class="col-5">
-            <button class="btn blue waves-light w-100" mdbRippleRadius><a class="white-text" href="tel:+1-916-372-8783">1-877-520-3595</a></button>
-        </div>
-        <div class="col-2"> -->
-            <!-- <button id="search-button" class="btn light-gray waves-light w-100" mdbRippleRadius><i class="fa fa-search" aria-hidden="true"></i></button> -->
-            <!-- <app-search></app-search>
-        </div>
-    </div>
-</div> -->
-
-<div class="d-flex flex-row">
+<div class="d-flex flex-row pb-4">
     <div class="container action-buttons">
-        <button class="btn blue waves-light" (click)="basicModal.show()" id="quoteBtn" mdbRippleRadius><span id="desktop-only">GET YOUR </span>FREE QUOTE!</button>
+        <button class="btn blue waves-light" (click)="basicModal.show()" id="quoteBtn" mdbRippleRadius><span id="desktop-only">Get Your</span> Free Quote!</button>
         <button class="btn blue waves-light" id="telBtn" mdbRippleRadius><a class="white-text" href="tel:+1-916-372-8783">1-877-520-3595</a></button>
         <app-search id="search-input" style="display: none"></app-search>
         <button id="search-button" class="btn light-gray waves-light" (click)="resizeActionBtns()" mdbRippleRadius><i class="fa fa-search" aria-hidden="true"></i></button>
@@ -92,10 +77,11 @@
                         <label for="form7">How can we help</label>
                     </div>
                 </div>
-                
-                    <button type="button" class="btn gray waves-light" aria-label="Close" (click)="basicModal.hide()" mdbRippleRadius>Close</button>
-                    <button type="button" class="btn blue relative waves-light" mdbRippleRadius>Save changes</button>
-                
+
+                <div class="d-flex flex-row">
+                    <button type="button" class="btn gray waves-light w-100" aria-label="Close" (click)="basicModal.hide()" mdbRippleRadius>Close</button>
+                    <button type="button" class="btn blue relative waves-light w-100" mdbRippleRadius>Save changes</button>
+                </div>
             </div>
         </div>
     </div>

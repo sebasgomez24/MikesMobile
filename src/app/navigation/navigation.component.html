@@ -7,27 +7,27 @@
             <ul class="navbar-nav ml-auto">
                 <div class="m-2" id="desktop-disappear"></div>
                 <li class="nav-item px-1 active">
-                    <a dropdownToggle type="button" class="nav-link waves-dark blue-text nav-text" (mouseenter)="openDropdown()" (mouseleave)="closeDropdown()" pageScroll href="#service-list" mdbRippleRadius> 
+                    <a dropdownToggle type="button" class="nav-link waves-dark blue-text nav-text" (mouseenter)="openDropdown()" (mouseleave)="closeDropdown()" pageScroll routerLink="/" href="#service-list" mdbRippleRadius> 
                         <i class="fa fa-globe pr-3" id="desktop-disappear" aria-hidden="true"></i>services<span class="sr-only">(current)</span><i class="fa fa-angle-right float-right mt-1" id="desktop-disappear" aria-hidden="true"></i>
                     </a>
                 </li>
-                
-                <div class="btn-group" dropdown>                        
+
+                <div class="btn-group" dropdown>
                     <div class="dropdown-menu megamenu p-3" id="dropdown" (mouseenter)="openDropdown()" (mouseleave)="closeDropdown()">
-                        
+
                             <div class="container">
                                 <div class="row">
                                     <div class="col">
                                         <a class="dropdown-item waves-dark pb-0 mb-0" mdbRippleRadius href="#"><h5>SCREENS</h5></a>
                                         <div class="divider dropdown-divider pt-0 mt-0"></div>
-                                        
+
                                         <h6 class="pt-1"><strong>DOORS</strong></h6>
                                         <a class="dropdown-item waves-dark blue-text" mdbRippleRadius pageScroll [routerLink]="['/products/sliding-screen-door']">Sliding Screen Door</a>
                                         <a class="dropdown-item waves-dark blue-text" mdbRippleRadius pageScroll [routerLink]="['/products/retractable-screen-door']">Retractable Screen Door</a>
                                         <a class="dropdown-item waves-dark blue-text" mdbRippleRadius pageScroll [routerLink]="['/products/swinging-screen-door']">Swinging Screen Door</a>
                                         <a class="dropdown-item waves-dark blue-text" mdbRippleRadius pageScroll [routerLink]="['/products/pet-door']">Pet Doors</a>
-                                        
-                                        <h6 class="pt-3">WINDOWS</h6>                                    
+
+                                        <h6 class="pt-3">WINDOWS</h6>
                                         <a class="dropdown-item waves-dark blue-text" mdbRippleRadius pageScroll [routerLink]="['/products/screen-repair']">Screen Repair</a>
                                         <a class="dropdown-item waves-dark blue-text" mdbRippleRadius pageScroll [routerLink]="['/products/solar-screens']">Solar Screens</a>
 
@@ -45,21 +45,21 @@
                                     <div class="col">
                                         <a class="dropdown-item waves-dark pb-0 mb-0" mdbRippleRadius href="#"><h5>SECURITY</h5></a>
                                         <div class="divider dropdown-divider pt-0 mt-0"></div>
-                                        
-                                        <h6 class="pt-1">DOORS</h6>                                    
+
+                                        <h6 class="pt-1">DOORS</h6>
                                         <a class="dropdown-item waves-dark blue-text" mdbRippleRadius pageScroll [routerLink]="['/products/steel-security-doors']">Steel Security Doors</a>
                                         <a class="dropdown-item waves-dark blue-text" mdbRippleRadius pageScroll [routerLink]="['/products/viewguard-security-doors']">Viewguard Security Door</a>
                                         <a class="dropdown-item waves-dark blue-text" mdbRippleRadius pageScroll [routerLink]="['/products/tru-view-security-doors']">TRU-View Security Door</a>
                                         <a class="dropdown-item waves-dark blue-text" mdbRippleRadius pageScroll [routerLink]="['/products/tru-frame-security-doors']">TRU-Frame Security Door</a>
                                         <a class="dropdown-item waves-dark blue-text" mdbRippleRadius pageScroll [routerLink]="['/products/sliding-security-doors']">Sliding Security Door</a>
-                                        
+
                                         <h6 class="pt-3">WINDOWS</h6>
                                         <a class="dropdown-item waves-dark blue-text" mdbRippleRadius pageScroll [routerLink]="['/products/crl-guarda-quick-escape']">CRL Guarda™ Quick Escape</a>
                                         <a class="dropdown-item waves-dark blue-text" mdbRippleRadius pageScroll [routerLink]="['/products/crl-guarda-fixed']">CRL Guarda™ Fixed</a>
                                         <a class="dropdown-item waves-dark blue-text" mdbRippleRadius pageScroll [routerLink]="['/products/crl-guarda-casement']">CRL Guarda™ Casement</a>
 
 
-                                    </div>                                
+                                    </div>
                                     <div class="col">
                                         <a class="dropdown-item waves-dark pb-0 mb-0" mdbRippleRadius href="#"><h5>HOME IMPROVEMENT</h5></a>
                                         <div class="divider dropdown-divider pt-0 mt-0"></div>
@@ -75,10 +75,10 @@
                                     </div>
                                 </div>
                             </div>
-                        
+
                     </div>
                 </div>
-                        
+
                 <li class="nav-item px-1">
                     <a class="nav-link waves-dark blue-text nav-text" pageScroll [routerLink]="['/']" href="#aboutMM" mdbRippleRadius>
                         <i class="fa fa-users pr-3" id="desktop-disappear" aria-hidden="true"></i>about<i class="fa fa-angle-right float-right mt-1" id="desktop-disappear" aria-hidden="true"></i>

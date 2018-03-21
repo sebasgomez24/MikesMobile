@@ -5,12 +5,12 @@ export class ServiceItem{
     subcategory?:string
     type:string
     bullet0:string
-    bullet1:string
+    bullet1?:string
     bullet2?:string
     bullet3?:string
     bullet4?:string
     tileImage:string
-    image0:string
+    image0?:string
     image1?:string
     image2?:string
     image3?:string
@@ -20,5 +20,6 @@ export class ServiceItem{
     image7?:string
     image8?:string
     image9?:string
-    video?:string    
+    video?:string
+    description?:string
 }

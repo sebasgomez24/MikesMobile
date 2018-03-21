@@ -21,6 +21,7 @@ import { SearchComponent } from './search/search.component';
 import { SearchDetailComponent } from './search-detail/search-detail.component';
 import { ActionButtonsComponent } from './action-buttons/action-buttons.component';
 import { ProductDetailComponent } from './product-detail/product-detail.component';
+import { LightboxGalleryComponent } from './lightbox-gallery/lightbox-gallery.component';
 
 
 
@@ -40,6 +41,7 @@ import { ProductDetailComponent } from './product-detail/product-detail.componen
     SearchDetailComponent,
     ActionButtonsComponent,
     ProductDetailComponent,
+    LightboxGalleryComponent,
   ],
   imports: [
     AppRoutingModule,

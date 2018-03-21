@@ -1,29 +1,178 @@
 <app-navigation></app-navigation>
-
 <app-action-buttons></app-action-buttons>
 
 <ng-container *ngIf="service">
-	<div class="container">
+	<div class="container pb-4">
+    	<!-- Breadcrumb Navigation -->
 		<nav class="breadcrumb mt-4">
 			<a class="breadcrumb-item" routerLink="/">Home</a>
 			<a class="breadcrumb-item" routerLink="">{{service.category}}</a>
 			<span class="breadcrumb-item active">{{service.title}}</span>
 		</nav>
+    	<!-- /Breadcrumb Navigation -->
 
-		<div class="row">
-			<div class="col-12 col-md-7">
-				<div class="row">
-					<div class="col-3"></div>
-					<div class="col-9">
-						<img class="img-fluid w-100" src="{{service.image}}"/>
-					</div>
-				</div>
-			</div>
-			<div class="col-12 col-md-5">
-				<h4>{{service.title}}</h4>
-				<p>{{service.quick_description}}</p>
-			</div>
-		</div>
+		<section class="section extra-margins">
+		    <!--Grid row-->
+		    <div class="row">
+		        <!--Grid column-->
+		        <div class="col-lg-6 col-xl-5 pr-lg-5 pb-5">
+		            <img src="{{service.tileImage}}" alt="Sample project image" class="img-fluid z-depth-2">
+		        </div>
+		        <!--Grid column-->
+
+		        <!--Grid column-->
+		        <div class="col-lg-6 col-xl-7 pl-lg-5 pb-4">
+		            <!--Grid row-->
+		            <div class="row mb-3">
+		                <div class="col-1 mr-1">
+		                    <i class="fa fa-bank fa-lg cyan-text"></i>
+		                </div>
+		                <div class="col-10">
+		                    <h5 class="feature-title font-bold">Level One Chimney Inspection – FREE with a cleaning</h5>
+		                    <p class="grey-text">If your chimney performance, appliance or venting system has not changed and you simply want to be confident in the continued safe use of the system, you will need the Level 1 chimney inspection done on an annual schedule. We usually combine this service with the annual cleaning and sweeping that should be scheduled to guarantee continued safe use of your stove, chimney or furnace.</p>
+		                </div>
+		            </div>
+		            <!--Grid row-->
+
+		            <!--Grid row-->
+		            <div class="row mb-3">
+		                <div class="col-1 mr-1">
+		                    <i class="fa fa-code fa-lg red-text"></i>
+		                </div>
+		                <div class="col-10 ">
+		                    <h5 class="feature-title font-bold">Importance</h5>
+		                    <p class="grey-text">{{service.bullet1}}</p>
+		                </div>
+		            </div>
+		            <!--Grid row-->
+
+		            <!--Third row-->
+		            <div class="row">
+		                <div class="col-1 mr-1">
+		                    <i class="fa fa-money fa-lg brown-text"></i>
+		                </div>
+		                <div class="col-10">
+		                    <h5 class="feature-title font-bold">Cost</h5>
+		                    <p class="grey-text">{{service.bullet3}}</p>
+		                </div>
+		            </div>
+		            <!--/Third row-->
+		        </div>
+		        <!--Grid column-->
+		    </div>
+		    <!--Grid row-->
+		    <hr>
+
+
+<!--Section: Features v.2-->
+<section class="section feature-box">
+
+    <!--Section heading-->
+    <h1 class="section-heading pt-4">Why is it so great?</h1>
+    <!--Section description-->
+    <p class="section-description lead grey-text">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Fugit, error amet numquam iure provident voluptate esse quasi, veritatis totam voluptas nostrum quisquam eum.</p>
+
+    <!--Grid row-->
+    <div class="row features-small">
+
+        <!--Grid column-->
+        <div class="col-md-4 mb-r">
+            <div class="col-1 col-md-2 float-left">
+                <i class="fa fa-bullhorn blue-text"></i>
+            </div>
+            <div class="col-10 col-md-9 col-lg-10 float-right">
+                <h4 class="feature-title">Quality</h4>
+                <p class="grey-text">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Reprehenderit maiores nam, aperiam minima assumenda.</p>
+                <a class="btn btn-primary btn-sm ml-0 waves-light" mdbRippleRadius>Learn more</a>
+            </div>
+        </div>
+        <!--Grid column-->
+
+        <!--Grid column-->
+        <div class="col-md-4 mb-r">
+            <div class="col-1 col-md-2 float-left">
+                <i class="fa fa-cogs pink-text"></i>
+            </div>
+            <div class="col-10 col-md-9 col-lg-10 float-right">
+                <h4 class="feature-title">Customization</h4>
+                <p class="grey-text">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Reprehenderit maiores nam, aperiam minima assumenda.</p>
+                <a class="btn btn-pink btn-sm ml-0 waves-light" mdbRippleRadius>Learn more</a>
+            </div>
+        </div>
+        <!--Grid column-->
+
+        <!--Grid column-->
+        <div class="col-md-4 mb-r">
+            <div class="col-1 col-md-2 float-left">
+                <i class="fa fa-dashboard purple-text"></i>
+            </div>
+            <div class="col-10 col-md-9 col-lg-10 float-right">
+                <h4 class="feature-title">Support</h4>
+                <p class="grey-text">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Reprehenderit maiores nam, aperiam minima assumenda.</p>
+                <a class="btn btn-secondary btn-sm ml-0 waves-light" mdbRippleRadius>Learn more</a>
+            </div>
+        </div>
+        <!--Grid column-->
+
+    </div>
+    <!--Grid row-->
+
+</section>
+<!--Section: Features v.2-->
+            <hr/>
+
+		    <!--Grid row-->
+		    <div class="row pt-5">
+		        <!--Grid column-->
+		        <div class="col-lg-6 col-xl-7 mb-3">
+		            <!--Grid row-->
+		            <div class="row mb-3">
+		                <div class="col-1 mr-1">
+		                    <i class="fa fa-eye fa-lg light-green-text"></i>
+		                </div>
+		                <div class="col-10">
+		                    <h5 class="feature-title font-bold">Followers</h5>
+		                    <p class="grey-text">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Reprehenderit maiores nam, aperiam minima assumenda voluptate velit.</p>
+		                </div>
+		            </div>
+		            <!--Grid row-->
+
+		            <!--Grid row-->
+		            <div class="row mb-3">
+		                <div class="col-1 mr-1">
+		                    <i class="fa fa-heart-o fa-lg pink-text"></i>
+		                </div>
+		                <div class="col-10">
+		                    <h5 class="feature-title font-bold">Entertainment</h5>
+		                    <p class="grey-text">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Reprehenderit maiores nam, aperiam minima assumenda voluptate velit.</p>
+		                </div>
+		            </div>
+		            <!--Grid row-->
+
+		            <!--Third row-->
+		            <div class="row mb-3">
+		                <div class="col-1 mr-1">
+		                    <i class="fa fa-smile-o fa-lg amber-text"></i>
+		                </div>
+		                <div class="col-10">
+		                    <h5 class="feature-title font-bold">Communication</h5>
+		                    <p class="grey-text">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Reprehenderit maiores nam, aperiam minima assumenda voluptate velit.</p>
+		                </div>
+		            </div>
+		            <!--/Third row-->
+		        </div>
+		        <!--Grid column-->
+		        <!--Grid column-->
+		        <div class="col-lg-6 col-xl-5 mb-3">
+		            <!--Image-->
+		            <img src="https://mdbootstrap.com/img/Photos/Others/img (30).jpg" alt="Sample project image" class="img-fluid z-depth-2">
+		        </div>
+		        <!--Grid column-->
+		    </div>
+		    <!--Grid row-->
+		</section>
+
+
 
 
 
@@ -36,9 +185,6 @@
 
 
 	</div>
-
-
 </ng-container>
-<app-footer></app-footer>
 
-<app-quote-modal></app-quote-modal>
+<app-footer></app-footer>
