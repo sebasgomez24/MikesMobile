@@ -4,22 +4,55 @@ export class ServiceItem{
     category:string
     subcategory?:string
     type:string
+    tileImage:string
+    tileText:string
+    recentInstallImg0?:string
+    recentInstallImg1?:string
+    recentInstallImg2?:string
+    recentInstallImg3?:string
+    recentInstallImg4?:string
+    recentInstallImg5?:string
+    recentInstallImg6?:string
+    recentInstallImg7?:string
+    recentInstallImg8?:string
+    recentInstallImg9?:string
+    // For Products Only
     bullet0:string
     bullet1?:string
     bullet2?:string
-    bullet3?:string
-    bullet4?:string
-    tileImage:string
-    image0?:string
-    image1?:string
-    image2?:string
-    image3?:string
-    image4?:string
-    image5?:string
-    image6?:string
-    image7?:string
-    image8?:string
-    image9?:string
+    thumbImg0?:string
+    thumbImg1?:string
+    thumbImg2?:string
+    thumbImg3?:string
+    thumbImg4?:string
+    thumbImg5?:string
+    thumbImg6?:string
+    thumbImg7?:string
+    thumbImg8?:string
+    thumbImg9?:string
+    productOverview?:string
+    technicalSpecs?:string
+    options?:string
+    relatedProducts?:string
+    warranty?:string
+    // For Services Only
+    textBlockTitle0?:string
+    textBlock0?:string
+    textBlockTitle1?:string
+    textBlock1?:string
+    textBlockTitle2?:string
+    textBlock2?:string
+    textBlockTitle3?:string
+    textBlock3?:string
+    textBlockTitle4?:string
+    textBlock4?:string
+    textBlockTitle5?:string
+    textBlock5?:string
+    galleryImg0?:string
+    galleryImg1?:string
+    galleryImg2?:string
+    galleryImg3?:string
+    galleryImg4?:string
     video?:string
-    description?:string
+    practiceArray?: string[]
 }

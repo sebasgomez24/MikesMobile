@@ -5,14 +5,19 @@
         "category":"Screens",
         "subcategory":"Door",
         "type":"products",
+        "tileText":"",
         "bullet0":"",
         "bullet1":"",
         "bullet2":"",
         "tileImage":"/assets/images/screens/retractable.jpg",
-        "image0":"string",
-        "image1":"",
-        "image2":"",
-        "video":""
+        "thumbImg0":"",
+        "thumbImg1":"",
+        "thumbImg2":"",
+        "productOverview":"We are one of the only independent disappearing screen door installers in Northern California. Have outward opening doors? Our door can fit inside your home with minimal intrusion- most people will never know they are there until you use them! We sell our doors with an industry leading 10 Year Warranty <br/><br/> Our Retractable screen doors are an “inside mount” style which offers superior aesthetics and durability when compared to “surface mount” (protrudes 5+ inches outside your door frame) doors which most other manufacturers sell. Our installers have the combined knowledge of thousands of disappearing screen door installations and we would be happy to come out and show you a display of an actual door. We offer color matching all the way around the door (often your threshold is a different color than your door frame) so the finished product blends in seamlessly with your house. <br/><br/> Our door can fit inside your home with minimal intrusion- most people will never know they are there until you use them!we have examined every door on the market and only offer the best. We sell our doors with an industry leading 10 Year Warranty* so it is in our best interest to sell the best door on the market. The door we offer is called the Rollaway, manufactured by the R.Lang Company here in California. <br/><br/> Rollaway doors are completely powder coated and offer springs and rollers on the door slides to ensure a lifetime of trouble free operation.",
+        "technicalSpecs":"<li>Concealed Clean Installation Hinge Our installation hinge hides mounting screws</li><li>Low Profile Designer Housing Spring system and impact bumper provide trouble free operation</li><li>Smooth Gliding Roller System Patented spring loaded roller keeps the Roll-Away door in adjustment for a lifetime even in out-of-square openings</li><li>Secure Latch or Magnetic Closure Locking latch provides safety and assurance or full length magnetic closure allows ease of use</li><li>Click here for the parts list of the Rollaway Retractable Screen Door</li><li>Click here for a diagram of the retractable screen door from R. Lang</li>",
+        "options":"<li>Choose from 6 popular colors (See below)</li><li>Available in inside and surface mount</li><li>Latch Series</li><li>Magnetic Series</li><li>French Doors</li>",
+        "relatedProducts":"<li>Swinging Screen Doors</li><li>Window Screens</li><li>Sliding Security Doors</li>",
+        "warranty":"<strong>10 Year Limited Warranty<br/><br/></strong><p>All warranties cover materials, manufacturing defects and hardware for the periods listed below but will not cover normal wear and tear of the product. Screen mesh is not covered beyond the initial installation of products. Defective items must be reported within 5 days of receipt for validation. Improper installation of the product will not be covered under the warranties listed. Warranty periods begin from the date of purchase.</p>"
     },
     {
         "title":"Sliding Screen Door",
@@ -24,10 +29,9 @@
         "bullet1":"",
         "bullet2":"",
         "tileImage":"/assets/images/screens/sliding-screen.jpg",
-        "image0":"string",
-        "image1":"",
-        "image2":"",
-        "video":""
+        "thumbImg0":"",
+        "thumbImg1":"",
+        "thumbImg2":""
     },
     {
         "title":"Swinging Screen Door",
@@ -39,10 +43,9 @@
         "bullet1":"",
         "bullet2":"",
         "tileImage":"/assets/images/screens/swinging-door.jpg",
-        "image0":"",
-        "image1":"",
-        "image2":"",
-        "video":""
+        "thumbImg0":"",
+        "thumbImg1":"",
+        "thumbImg2":""
 
     },
     {
@@ -55,9 +58,6 @@
         "bullet1":"",
         "bullet2":"",
         "tileImage":"/assets/images/screens/window-screen.jpg",
-        "image0":"string",
-        "image1":"",
-        "image2":"",
         "video":""
     },
     {
@@ -70,9 +70,9 @@
         "bullet1":"",
         "bullet2":"",
         "tileImage":"/assets/images/screens/solar-screen3.jpg",
-        "image0":"string",
-        "image1":"",
-        "image2":"",
+        "thumbImg0":"string",
+        "thumbImg1":"",
+        "thumbImg2":"",
         "video":""
     },
     {
@@ -85,9 +85,9 @@
         "bullet1":"",
         "bullet2":"",
         "tileImage":"/assets/images/screens/pet-door-main.png",
-        "image0":"string",
-        "image1":"",
-        "image2":"",
+        "thumbImg0":"string",
+        "thumbImg1":"",
+        "thumbImg2":"",
         "video":""
     },
 
@@ -97,14 +97,16 @@
         "slug":"inspections",
         "category":"Chimney",
         "type":"services",
-        "bullet0":"Make sure to have a chimney cleaning and inspection before you burn!",
-        "bullet1":"Have our chimney professionals clean and inspect your chimney. ",
-        "bullet2":"",
-        "tileImage":"/assets/images/chimneys/groton-chimney.jpg",
-        "image0":"",
-        "image1":"",
-        "image2":"",
-        "video":""
+        "tileImage":"assets/images/chimneys/inspections/chimney-inspections.png",
+        "textBlockTitle0":"Level One Chimney Inspection – FREE with a cleaning",
+        "textBlock0":"If your chimney performance, appliance or venting system has not changed and you simply want to be confident in the continued safe use of the system, you will need the Level 1 chimney inspection done on an annual schedule. We usually combine this service with the annual cleaning and sweeping that should be scheduled to guarantee continued safe use of your stove, chimney or furnace.",
+        "textBlockTitle1":"Level Two Chimney Inspection",
+        "textBlock1":"A Level 2 chimney inspection is recommended when you have had any changes done to your system. If you have changed fuel type, or had the chimney relined, if you have replaced your furnace or appliance -especially if the rating or efficiency differs from what was there prior. If you recently bought the home and are not familiar with the system performance, plan to do modifications to your chimney, stove or heating system or have had a chimney fire recently a Level 2 chimney inspection is in order.",
+        "textBlockTitle2":"Level Three Chimney Inspection",
+        "textBlock2":"Level 1 and 2 methods are included with Level 3 chimney inspections, but with this type of chimney inspection, portions of the structure or chimney will be required to fully investigate the deficiencies that exist. Many areas that are concealed from visual examination may need to be opened up by removing bricks, masonry, metal flue pipes, interior chimney walls, chimney crowns or other components of your system. These chimney inspections are only required when the earlier chimney inspection Level 1 or 2 reveals a serious problem and we need to gain access to the problem areas hidden from view. Level 3 chimney inspections are needed on less than 2% of all chimney inspections when serious problems are suspected that require immediate action.",
+        "galleryImg0":"assets/images/chimneys/inspections/chimney-inspections.png",
+        "galleryImg1":"",
+        "galleryImg2":""
     },
     {
         "title":"Cleaning",
@@ -115,9 +117,9 @@
         "bullet1":"",
         "bullet2":"",
         "tileImage":"/assets/images/chimneys/chimney-red-brick.jpg",
-        "image0":"string",
-        "image1":"",
-        "image2":"",
+        "thumbImg0":"string",
+        "thumbImg1":"",
+        "thumbImg2":"",
         "video":""
     },
     {
@@ -129,9 +131,9 @@
         "bullet1":"",
         "bullet2":"",
         "tileImage":"/assets/images/chimneys/chimney-unsplash.jpg",
-        "image0":"string",
-        "image1":"",
-        "image2":"",
+        "thumbImg0":"string",
+        "thumbImg1":"",
+        "thumbImg2":"",
         "video":""
     },
     {
@@ -143,9 +145,9 @@
         "bullet1":"",
         "bullet2":"",
         "tileImage":"/assets/images/chimneys/fireplace-screen.jpg",
-        "image0":"string",
-        "image1":"",
-        "image2":"",
+        "thumbImg0":"string",
+        "thumbImg1":"",
+        "thumbImg2":"",
         "video":""
     },
     {
@@ -157,9 +159,9 @@
         "bullet1":"",
         "bullet2":"",
         "tileImage":"/assets/images/chimneys/resources3.jpg",
-        "image0":"string",
-        "image1":"",
-        "image2":"",
+        "thumbImg0":"string",
+        "thumbImg1":"",
+        "thumbImg2":"",
         "video":""
     },
     {
@@ -171,9 +173,9 @@
         "bullet1":"",
         "bullet2":"",
         "tileImage":"/assets/images/chimneys/masonry.jpeg",
-        "image0":"string",
-        "image1":"",
-        "image2":"",
+        "thumbImg0":"string",
+        "thumbImg1":"",
+        "thumbImg2":"",
         "video":""
     },
 
@@ -190,9 +192,9 @@
         "bullet1":"",
         "bullet2":"",
         "tileImage":"/assets/images/security/custom-steel-security-door-vineyard.png",
-        "image0":"string",
-        "image1":"",
-        "image2":"",
+        "thumbImg0":"string",
+        "thumbImg1":"",
+        "thumbImg2":"",
         "video":""
     },
     {
@@ -205,9 +207,9 @@
         "bullet1":"Your security screen door will be the first point of protection for keeping your home safe and secure.",
         "bullet2":"It provides secure protection and gives you a clear view of the outdoors without compromising the style or appearance of your home.",
         "tileImage":"/assets/images/security/viewguard/viewguard_main.png",
-        "image0":"/assets/images/security/viewguard/viewguard-diagram-medium.png",
-        "image1":"/assets/images/security/viewguard/viewguard-bottom-medium.png",
-        "image2":"/assets/images/security/viewguard/viewguard-height-guide-medium.png",
+        "thumbImg0":"/assets/images/security/viewguard/viewguard-diagram-medium.png",
+        "thumbImg1":"/assets/images/security/viewguard/viewguard-bottom-medium.png",
+        "thumbImg2":"/assets/images/security/viewguard/viewguard-height-guide-medium.png",
         "video":""
     },
     {
@@ -220,9 +222,9 @@
         "bullet1":"",
         "bullet2":"",
         "tileImage":"/assets/images/security/custom-steel-security-paradise-french.png",
-        "image0":"",
-        "image1":"",
-        "image2":"",
+        "thumbImg0":"",
+        "thumbImg1":"",
+        "thumbImg2":"",
         "video":""
     },
     {
@@ -235,9 +237,9 @@
         "bullet1":"",
         "bullet2":"",
         "tileImage":"/assets/images/security/truframe-red-edit.jpg",
-        "image0":"",
-        "image1":"",
-        "image2":"",
+        "thumbImg0":"",
+        "thumbImg1":"",
+        "thumbImg2":"",
         "video":""
     },
     {
@@ -250,9 +252,9 @@
         "bullet1":"",
         "bullet2":"",
         "tileImage":"/assets/images/security/slidingsecuritydoor.jpg",
-        "image0":"",
-        "image1":"",
-        "image2":"",
+        "thumbImg0":"",
+        "thumbImg1":"",
+        "thumbImg2":"",
         "video":""
     },
     {
@@ -265,9 +267,9 @@
         "bullet1":"",
         "bullet2":"",
         "tileImage":"/assets/images/security/security-window.jpg",
-        "image0":"",
-        "image1":"",
-        "image2":"",
+        "thumbImg0":"",
+        "thumbImg1":"",
+        "thumbImg2":"",
         "video":""
     },
     {
@@ -280,9 +282,9 @@
         "bullet1":"",
         "bullet2":"",
         "tileImage":"/assets/images/security/door.jpg",
-        "image0":"",
-        "image1":"",
-        "image2":"",
+        "thumbImg0":"",
+        "thumbImg1":"",
+        "thumbImg2":"",
         "video":""
     },
     {
@@ -295,9 +297,9 @@
         "bullet1":"",
         "bullet2":"",
         "tileImage":"/assets/images/security/guarda-security-window.png",
-        "image0":"",
-        "image1":"",
-        "image2":"",
+        "thumbImg0":"",
+        "thumbImg1":"",
+        "thumbImg2":"",
         "video":""
     },
 
@@ -313,9 +315,9 @@
         "bullet1":"",
         "bullet2":"",
         "tileImage":"/assets/images/awnings/folding-arm-awning.jpg",
-        "image0":"",
-        "image1":"",
-        "image2":"",
+        "thumbImg0":"",
+        "thumbImg1":"",
+        "thumbImg2":"",
         "video":""
     },
     {
@@ -327,9 +329,9 @@
         "bullet1":"",
         "bullet2":"",
         "tileImage":"/assets/images/awnings/droproll.jpg",
-        "image0":"",
-        "image1":"",
-        "image2":"",
+        "thumbImg0":"",
+        "thumbImg1":"",
+        "thumbImg2":"",
         "video":""
     },
     {
@@ -341,9 +343,9 @@
         "bullet1":"",
         "bullet2":"",
         "tileImage":"/assets/images/awnings/wet.jpg",
-        "image0":"",
-        "image1":"",
-        "image2":"",
+        "thumbImg0":"",
+        "thumbImg1":"",
+        "thumbImg2":"",
         "video":""
     },
 
@@ -359,9 +361,9 @@
         "bullet1":"",
         "bullet2":"",
         "tileImage":"/assets/images/home-improvement/dryer-vent.jpg",
-        "image0":"",
-        "image1":"",
-        "image2":"",
+        "thumbImg0":"",
+        "thumbImg1":"",
+        "thumbImg2":"",
         "video":""
     },
     {
@@ -373,9 +375,9 @@
         "bullet1":"",
         "bullet2":"",
         "tileImage":"/assets/images/home-improvement/gutter1.jpg",
-        "image0":"",
-        "image1":"",
-        "image2":"",
+        "thumbImg0":"",
+        "thumbImg1":"",
+        "thumbImg2":"",
         "video":""
     },
     {
@@ -387,9 +389,9 @@
         "bullet1":"",
         "bullet2":"",
         "tileImage":"/assets/images/home-improvement/window.jpg",
-        "image0":"",
-        "image1":"",
-        "image2":"",
+        "thumbImg0":"",
+        "thumbImg1":"",
+        "thumbImg2":"",
         "video":""
     }
 ]
