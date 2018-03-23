@@ -6,16 +6,31 @@ export class ServiceItem{
     type:string
     tileImage:string
     tileText:string
-    recentInstallImg0?:string
-    recentInstallImg1?:string
-    recentInstallImg2?:string
-    recentInstallImg3?:string
-    recentInstallImg4?:string
-    recentInstallImg5?:string
-    recentInstallImg6?:string
-    recentInstallImg7?:string
-    recentInstallImg8?:string
-    recentInstallImg9?:string
+    galleryImg0?:string
+    galleryImg1?:string
+    galleryImg2?:string
+    galleryImg3?:string
+    galleryImg4?:string
+    galleryImg5?:string
+    galleryImg6?:string
+    galleryImg7?:string
+    galleryImg8?:string
+    galleryImg9?:string
+    galleryImg10?:string
+    galleryImg11?:string
+    galleryImg12?:string
+    galleryImg13?:string
+    galleryImg14?:string
+    galleryImg15?:string
+    galleryImg16?:string
+    galleryImg17?:string
+    galleryImg18?:string
+    galleryImg19?:string
+    galleryImg20?:string
+    galleryImg21?:string
+    galleryImg22?:string
+    galleryImg23?:string
+    galleryImg24?:string
     // For Products Only
     bullet0:string
     bullet1?:string
@@ -30,29 +45,28 @@ export class ServiceItem{
     thumbImg7?:string
     thumbImg8?:string
     thumbImg9?:string
+    thumbImg10?:string
+    thumbImg11?:string
+    thumbImg12?:string
+    thumbImg13?:string
+    thumbImg14?:string
+    thumbImg15?:string
+    thumbImg16?:string
+    thumbImg17?:string
+    thumbImg18?:string
+    thumbImg19?:string
     productOverview?:string
     technicalSpecs?:string
     options?:string
     relatedProducts?:string
     warranty?:string
     // For Services Only
-    textBlockTitle0?:string
+    serviceImgCaption?:string
     textBlock0?:string
-    textBlockTitle1?:string
     textBlock1?:string
-    textBlockTitle2?:string
     textBlock2?:string
-    textBlockTitle3?:string
     textBlock3?:string
-    textBlockTitle4?:string
     textBlock4?:string
-    textBlockTitle5?:string
     textBlock5?:string
-    galleryImg0?:string
-    galleryImg1?:string
-    galleryImg2?:string
-    galleryImg3?:string
-    galleryImg4?:string
     video?:string
-    practiceArray?: string[]
 }

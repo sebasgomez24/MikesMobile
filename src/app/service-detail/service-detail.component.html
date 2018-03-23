@@ -19,7 +19,10 @@
 		    <div class="row">
 		        <!--Grid column-->
 		        <div class="col-lg-6 col-xl-5 pr-lg-5 pb-5">
+					<h4 *ngIf="service.serviceImgCaption" class="pb-3 text-center light-gray-text">{{service.serviceImgCaption}}</h4>
 		            <img src="{{service.tileImage}}" alt="Sample project image" class="img-fluid z-depth-2">
+					<!-- <iframe *ngIf="service.video" width="100%" height="300px" src="{{service.video}}" frameborder="0" allowfullscreen></iframe> -->
+					<h2 class="py-4 text-center animated pulse infinite"><a class="orange-text" href="tel: 1 877 520 3595">Get started today!</a></h2>
 		        </div>
 		        <!--Grid column-->
 
@@ -28,11 +31,10 @@
 		            <!--Grid row-->
 		            <div class="row mb-3">
 		                <div class="col-1 mr-1">
-		                    <i class="fa fa-bank fa-lg cyan-text"></i>
+		                    <i class="fa fa-star fa-lg cyan-text"></i>
 		                </div>
 		                <div class="col-10">
-		                    <h5 class="feature-title font-bold">{{service.textBlockTitle0}}</h5>
-		                    <p class="grey-text">{{service.textBlock0}}</p>
+		                    <div [innerHTML]="service.textBlock0"></div>
 		                </div>
 		            </div>
 		            <!--Grid row-->
@@ -40,11 +42,10 @@
 		            <!--Grid row-->
 		            <div class="row mb-3">
 		                <div class="col-1 mr-1">
-		                    <i class="fa fa-code fa-lg red-text"></i>
+		                    <i class="fa fa-thumbs-up fa-lg red-text"></i>
 		                </div>
 		                <div class="col-10 ">
-		                    <h5 class="feature-title font-bold">{{service.textBlockTitle1}}</h5>
-		                    <p class="grey-text">{{service.textBlock1}}</p>
+		                    <div [innerHTML]="service.textBlock1"></div>
 		                </div>
 		            </div>
 		            <!--Grid row-->
@@ -52,11 +53,10 @@
 		            <!--Third row-->
 		            <div class="row">
 		                <div class="col-1 mr-1">
-		                    <i class="fa fa-money fa-lg brown-text"></i>
+		                    <i class="fa fa-asterisk fa-lg brown-text"></i>
 		                </div>
 		                <div class="col-10">
-		                    <h5 class="feature-title font-bold">{{service.textBlockTitle2}}</h5>
-		                    <p class="grey-text">{{service.textBlock2}}</p>
+		                    <div [innerHTML]="service.textBlock2"></div>
 		                </div>
 		            </div>
 		            <!--/Third row-->
@@ -64,44 +64,46 @@
 		        <!--Grid column-->
 		    </div>
 		    <!--Grid row-->
-		    <hr>
+		    <!-- <hr>
+
+			<section class="section">
+				<h2 class="text-md-left">Color Options</h2>
 
 
-	<!--Section: Features v.2-->
-	<section class="section feature-box">
+			</section> -->
 
-	    <!--Section heading-->
-	    <h1 class="section-heading pt-4">View our recent installs</h1>
-	    <!--Section description-->
-	    <p class="section-description lead grey-text pb-2">Have our chimney professionals clean and inspect your chimney and be sure to have a chimney cleaning and inspection before you burn!</p>
+			<!--Section: Features v.2-->
+			<section *ngIf="service.galleryImg0" class="section feature-box">
+			    <!--Section heading-->
+			    <h2 class="text-center pt-3">View some of our recent installs</h2>
+				<hr/>
+			    <!--Grid row-->
+			    <div class="row features-small pt-4">
 
-	    <!--Grid row-->
-	    <div *ngIf="service.galleryImg0" class="row features-small">
+					<!--Carousel Wrapper-->
+					<mdb-carousel [isControls]="true" class="carousel slide carousel-fade" [type]="'carousel-thumbnails'" [animation]="'fade'" id="centered-gallery">
+					    <!--First slide-->
+					    <mdb-slide>
+					        <img class="d-block w-100" src="{{service.galleryImg0}}" alt="First slide">
+					    </mdb-slide>
+					    <!--/First slide-->
+					    <!--Second slide-->
+					    <mdb-slide *ngIf="service.galleryImg1">
+					        <img class="d-block w-100" src="{{service.galleryImg1}}" alt="Second slide">
+					    </mdb-slide>
+					    <!--/Second slide-->
+					    <!--Third slide-->
+					    <mdb-slide *ngIf="service.galleryImg2">
+					        <img class="d-block w-100" src="{{service.galleryImg2}}" alt="Third slide">
+					    </mdb-slide>
+					    <!--/Third slide-->
+					</mdb-carousel>
+					<!--/.Carousel Wrapper-->
 
-			<!--Carousel Wrapper-->
-			<mdb-carousel [isControls]="true" class="carousel slide carousel-fade" [type]="'carousel-thumbnails'" [animation]="'fade'">
-			    <!--First slide-->
-			    <mdb-slide>
-			        <img class="d-block w-100" src="{{service.galleryImg0}}" alt="First slide">
-			    </mdb-slide>
-			    <!--/First slide-->
-			    <!--Second slide-->
-			    <mdb-slide *ngIf="service.galleryImg1">
-			        <img class="d-block w-100" src="https://mdbootstrap.com/img/Photos/Slides/img%20(121).jpg" alt="Second slide">
-			    </mdb-slide>
-			    <!--/Second slide-->
-			    <!--Third slide-->
-			    <mdb-slide *ngIf="service.galleryImg2">
-			        <img class="d-block w-100" src="https://mdbootstrap.com/img/Photos/Slides/img%20(31).jpg" alt="Third slide">
-			    </mdb-slide>
-			    <!--/Third slide-->
-			</mdb-carousel>
-			<!--/.Carousel Wrapper-->
-
-	    </div>
-	    <!--Grid row-->
-	</section>
-</section>
+			    </div>
+			    <!--Grid row-->
+			</section>
+		</section>
 
 
 
