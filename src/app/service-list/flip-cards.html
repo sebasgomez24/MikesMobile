@@ -1,241 +1,26 @@
-<div class="container service-list">
-    <!-- ServiceItem row -->
-    <div class="row">
-        <div class="col-12 pb-4">
-            <h2 class="light-gray-text">Chimney</h2>
-        </div>
-
-        <!-- <div class="scrolling-wrapper"> -->
-
-            <div *ngFor='let service of serviceList' class="col-6 col-sm-3">
-                <ng-container *ngIf="service.category === 'Chimney'">
-
-                    <a routerLink="/{{service.type}}/{{service.slug}}">
-
-                        <!-- ServiceItem -->
-
-                            <div class="flip-container">
-                                <div class="flipper">
-                                    <!-- front content -->
-                                    <div class="front card w-100">
-                                        <!--Card image-->
-                                        <div class="view hm-zoom waves-light" mdbRippleRadius>
-                                            <img src="{{service.thumbnail}}" class="img-fluid w-100" alt="Card image with a tree in a middle of a lake.">
-                                            <a>
-                                                <div class="mask"></div>
-                                            </a>
-                                        </div>
-                                        <!--Title-->
-                                        <h4 class="card-title pt-2 px-2">{{service.title}}</h4>
-                                    </div>
-                                    <!--/.Card-->
-                                    <!--/ front content -->
-
-                                    <!-- back content -->
-                                    <div class="back card w-100">
-                                        <h4 class="card-title pt-2 px-2 text-center">{{service.title}}</h4>
-                                        <div class="divider dropdown-divider pt-0 mt-0"></div>
-                                        <p class="p-2">{{service.quick_description}}</p>
-                                    </div>
-                                    <!--/ back content -->
-                                </div>
-                            </div>
-
-
-                        <!-- /ServiceItem -->
-                        </a>
-                </ng-container>
-            </div>
-        <!-- </div> -->
+<!-- Flip Card -->
+<div class="flip-container">
+  <div class="flipper">
+    <!-- front content -->
+    <div class="front">
+      <!--Card image-->
+      <div class="view waves-light" mdbRippleRadius>
+          <img src="{{service.tileImage}}" class="img-fluid" alt="{{service.title}}">
+      </div>
+      <!--Title-->
+      <h4 class="card-title">{{service.title}}</h4>
     </div>
+    <!--/ front content -->
+
+    <!-- back content -->
+    <a routerLink="/{{service.type}}/{{service.slug}}">
+      <div class="back">
+        <h4 class="text-center">{{service.title}}</h4>
+        <div class="divider dropdown-divider pt-0 mt-0"></div>
+        <p class="p-1 mb-0 text-center">{{service.bullet0}}</p>
+      </div>
+    </a>
+    <!--/ back content -->
+  </div>
 </div>
-
-
-
-
-
-
-
-
-
-
-
-
-<div class="container service-list">
-<!-- ServiceItem row -->
-	<div class="row">
-	<div class="col-12 pb-4">
-		<h2 class="light-gray-text">Chimney</h2>
-	</div>
-
-	<div class="scrolling-wrapper">
-		<ng-container *ngFor='let service of serviceList'>
-			<ng-container *ngIf="service.category === categories[2]">
-				<a routerLink="/{{service.type}}/{{service.slug}}">
-					<div class="pb-4 scrolling-card">
-					<!-- ServiceItem -->
-
-					<div class="flip-container">
-							<div class="flipper">
-								<!-- front content -->
-									<!--Card-->
-									<div class="front card">
-										<!--Card image-->
-										<div class="view hm-zoom waves-light" mdbRippleRadius>
-											<img src="{{service.tileImage}}" class="img-fluid w-100" alt="Card image with a tree in a middle of a lake.">
-											<a>
-												<div class="mask"></div>
-											</a>
-										</div>
-										<!--Title-->
-										<h4 class="card-title pt-2 px-2">{{service.title}}</h4>
-									</div>
-									<!--/.Card-->
-									<!--/ front content -->
-
-									<!-- back content -->
-									<div class="back card w-100">
-										<h4 class="card-title pt-2 px-2 text-center">{{service.title}}</h4>
-										<div class="divider dropdown-divider pt-0 mt-0"></div>
-										<p class="p-2">{{service.quick_description}}</p>
-									</div>
-										<!--/ back content -->
-								</div>
-							</div>
-
-
-						<!-- /ServiceItem -->
-						</div>
-					</a>
-				</ng-container>
-			</ng-container>
-		</div>
-	</div>
-</div>
-
-<div class="container service-list">
-		<div class="row">
-				<div class="col-12 pb-4">
-						<h2 class="light-gray-text">Security</h2>
-				</div>
-
-				<!-- <div class="scrolling-wrapper"> -->
-						<ng-container *ngFor='let service of serviceList'>
-								<div class="col-6 col-md-4 col-lg-3">
-								<ng-container *ngIf="service.category === 'Security'">
-										<a routerLink="/{{service.type}}/{{service.slug}}">
-												<!-- <div class="pb-4 scrolling-card"> -->
-												<!-- ServiceItem -->
-
-
-
-														<!-- Tile2 -->
-														<div class="view hm-zoom waves-light service-item pb-4" mdbRippleRadius>
-																<img src="{{service.tileImage}}" class="img-fluid w-100" alt="Image of {{service.title}}">
-																<a>
-																		<div class="mask flex-center waves-light" mdbRippleRadius>
-																				<div class="transparent-gray w-100" id="transparent2">
-																						<h4 class="h4-responsive light-gray-text p-2 pt-3">{{service.title}}</h4>
-
-																				</div>
-																		</div>
-																</a>
-														</div>
-														<!-- /Tile2 -->
-
-
-
-												<!-- /ServiceItem -->
-												<!-- </div> -->
-										</a>
-								</ng-container>
-								</div>
-						</ng-container>
-				<!-- </div> -->
-		</div>
-</div>
-
-
-<div class="container service-list">
-		<div class="row">
-				<div class="col-12 pb-4">
-						<h2 class="light-gray-text">Awnings</h2>
-				</div>
-
-				<div class="scrolling-wrapper">
-						<ng-container *ngFor='let service of serviceList'>
-								<ng-container *ngIf="service.category === 'Awnings'">
-										<a routerLink="/{{service.type}}/{{service.slug}}">
-												<div class="pb-4 scrolling-card">
-												<!-- ServiceItem -->
-
-														<!--Card-->
-														<div class="card hoverable">
-																<!--Card image-->
-																<div class="view waves-light" mdbRippleRadius>
-																		<img src="{{service.tileImage}}" class="img-fluid w-100" alt="Card image with a tree in a middle of a lake.">
-																		<a>
-																				<div class="mask"></div>
-																		</a>
-																</div>
-																<!--Card content-->
-																<div class="card-body">
-																		<!--Title-->
-																		<h4 class="card-title">{{service.title}}</h4>
-																		<!--Text-->
-																		<p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
-																		<!-- <a class="btn btn-primary waves-light" mdbRippleRadius>Button</a> -->
-																</div>
-														</div>
-														<!--/.Card-->
-
-
-												<!-- /ServiceItem -->
-												</div>
-										</a>
-								</ng-container>
-						</ng-container>
-				</div>
-		</div>
-</div>
-
-<div class="container service-list">
-		<!-- ServiceItem row -->
-		<div class="row">
-				<div class="col-12 pb-4">
-						<h2 class="light-gray-text">Home Improvement</h2>
-				</div>
-
-				<div class="scrolling-wrapper">
-
-						<ng-container *ngFor='let service of serviceList'>
-								<ng-container *ngIf="service.category === 'Home Improvement'">
-										<a routerLink="/{{service.type}}/{{service.slug}}">
-												<div class="pb-4 scrolling-card">
-												<!-- ServiceItem -->
-
-
-														<!-- Tiles -->
-														<div class="view hm-zoom waves-light service-item animated wow fadeIn" mdbRippleRadius>
-																<img src="{{service.tileImage}}" class="img-fluid w-100" data-wow-delay="0.6s" alt="Image of {{service.title}}">
-																<a>
-																		<div class="mask flex-center waves-light" mdbRippleRadius>
-																				<div class="transparent-gray" id="transparent1">
-																						<h4 class="h4-responsive gray-text center-text p-2 pt-3"><strong>{{service.title}}</strong></h4>
-																				</div>
-																		</div>
-																</a>
-														</div>
-														<!-- /Tiles -->
-
-
-												<!-- /ServiceItem -->
-												</div>
-										</a>
-								</ng-container>
-						</ng-container>
-
-				</div>
-		<!-- /ServiceItem row -->
-		</div>
-</div>
+<!-- /Flip Card -->
