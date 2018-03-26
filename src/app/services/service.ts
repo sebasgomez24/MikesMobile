@@ -6,6 +6,7 @@ export class ServiceItem{
     type:string
     tileImage:string
     tileText:string
+    images?: string[]
     galleryImg0?:string
     galleryImg1?:string
     galleryImg2?:string
@@ -62,11 +63,17 @@ export class ServiceItem{
     warranty?:string
     // For Services Only
     serviceImgCaption?:string
+    textBlockTitle0?:string
     textBlock0?:string
+    textBlockTitle1?:string
     textBlock1?:string
+    textBlockTitle2?:string
     textBlock2?:string
+    textBlockTitle3?:string
     textBlock3?:string
+    textBlockTitle4?:string
     textBlock4?:string
+    textBlockTitle5?:string
     textBlock5?:string
     video?:string
 }

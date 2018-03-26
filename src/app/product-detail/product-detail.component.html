@@ -15,17 +15,14 @@
 			<div class="col-12 col-md-6 pb-3">
 				<div class="row">
 					<ul class="col-3 d-flex flex-column thumbnails">
-						<li><a href="{{product.tileImage}}"><img src="{{product.tileImage}}" alt="Thumbnails"></a></li>
-						<li><a href="{{product.thumbImg0}}"><img src="{{product.thumbImg0}}" alt="Thumbnails"></a></li>
-						<li *ngIf="product.thumbImg1"><a href="{{product.thumbImg1}}"><img class="view hm-zoom" src="{{product.thumbImg1}}" alt="Thumbnails"></a></li>
-						<li *ngIf="product.thumbImg2"><a href="{{product.thumbImg2}}"><img src="{{product.thumbImg2}}" alt="Thumbnails"></a></li>
-						<li *ngIf="product.thumbImg3"><a href="{{product.thumbImg3}}"><img src="{{product.thumbImg3}}" alt="Thumbnails"></a></li>
-						<li *ngIf="product.thumbImg4"><a href="{{product.thumbImg4}}"><img src="{{product.thumbImg4}}" alt="Thumbnails"></a></li>
-						<li *ngIf="product.thumbImg5"><a href="{{product.thumbImg5}}"><img src="{{product.thumbImg5}}" alt="Thumbnails"></a></li>
-						<li *ngIf="product.thumbImg6"><a href="{{product.thumbImg6}}"><img src="{{product.thumbImg6}}" alt="Thumbnails"></a></li>
-						<li *ngIf="product.thumbImg7"><a href="{{product.thumbImg7}}"><img src="{{product.thumbImg7}}" alt="Thumbnails"></a></li>
-						<li *ngIf="product.thumbImg8"><a href="{{product.thumbImg8}}"><img src="{{product.thumbImg8}}" alt="Thumbnails"></a></li>
-						<li *ngIf="product.thumbImg9"><a href="{{product.thumbImg9}}"><img src="{{product.thumbImg9}}" alt="Thumbnails"></a></li>
+						<ng-container *ngFor="let image of product.images">
+							<ng-container >
+								<li><a href="{{image}}"><img src="{{image}}" alt="Thumbnails"></a></li>
+							</ng-container>
+							<div class="imageScrollBox">
+
+							</div>
+						</ng-container>
 					</ul>
 					<div class="col-9">
 						<div class="main-image">
@@ -49,37 +46,83 @@
 					<div class="col-12">
 						<h4>Color Selection</h4>
 						<p class="mb-0 mt-2 ml-1" style="font-weight:bold">Standard Colors</p>
-						<div class="d-flex flex-row">
-							<div class="p-2 square" id="std-color-1" mdbTooltip="Bronze Anodized" placement="bottom"></div>
-							<div class="p-2 square" id="std-color-2" mdbTooltip="White" placement="bottom"></div>
+						<div class="row">
+							<div class="col-2" *ngFor="let color of stdSet">
+								<div class="square" mdbTooltip="Bronze Anodized" placement="bottom" id="{{color[0]}}"></div>
+								<p class="pl-2">{{color[0]}}</p>
+							</div>
 						</div>
-
+<!--
 						<p class="mb-0 mt-2 ml-1" style="font-weight:bold">Custom Colors</p>
-						<div class="d-flex flex-row">
-							<div class="p-2 square" id="color-1" mdbTooltip="Alabaster" placement="bottom"></div>
-							<div class="p-2 square" id="color-2" mdbTooltip="Almond Cream" placement="bottom"></div>
-							<div class="p-2 square" id="color-3" mdbTooltip="Autumn Brown" placement="bottom"></div>
-							<div class="p-2 square" id="color-4" mdbTooltip="Bear Green" placement="bottom"></div>
-							<div class="p-2 square" id="color-5" mdbTooltip="Champagne Beige" placement="bottom"></div>
-							<div class="p-2 square" id="color-6" mdbTooltip="Champagne Beige" placement="bottom"></div>
-							<div class="p-2 square" id="color-7" mdbTooltip="Country Blue" placement="bottom"></div>
-							<div class="p-2 square" id="color-8" mdbTooltip="Desert Sand" placement="bottom"></div>
-						</div>
-						<div class="d-flex flex-row">
-							<div class="p-2 square" id="color-9" mdbTooltip="Flat Black" placement="bottom"></div>
-							<div class="p-2 square" id="color-10" mdbTooltip="New England Grey" placement="bottom"></div>
-							<div class="p-2 square" id="color-11" mdbTooltip="Post Office Blue" placement="bottom"></div>
-							<div class="p-2 square" id="color-12" mdbTooltip="Terra Cotta" placement="bottom"></div>
-							<div class="p-2 square" id="color-13" mdbTooltip="Chrome" placement="bottom"></div>
-							<div class="p-2 square" id="color-14" mdbTooltip="Evening Blue" placement="bottom"></div>
-							<div class="p-2 square" id="color-15" mdbTooltip="Forest Green" placement="bottom"></div>
-							<div class="p-2 square" id="color-16" mdbTooltip="Green Patina" placement="bottom"></div>
-						</div>
-						<div class="d-flex flex-row">
-							<div class="p-2 square" id="color-17" mdbTooltip="New Bronze" placement="bottom"></div>
-							<div class="p-2 square" id="color-18" mdbTooltip="Pacific Granite" placement="bottom"></div>
-							<div class="p-2 square" id="color-19" mdbTooltip="Statuary Bronze" placement="bottom"></div>
-						</div>
+						<div class="row">
+							<div class="col-2">
+								<div class="square" id="color-1" mdbTooltip="Alabaster" placement="bottom"></div>
+								<p class="pl-2">White</p>
+							</div>
+							<div class="col-2">
+								<div class="square" id="color-2" mdbTooltip="Almond Cream" placement="bottom"></div>
+								<p class="pl-2">White</p>
+							</div>
+							<div class="col-2">
+								<div class="square" id="color-3" mdbTooltip="Autumn Brown" placement="bottom"></div>
+								<p class="pl-2">White</p>
+							</div>
+							<div class="col-2">
+								<div class="square" id="color-4" mdbTooltip="Bear Green" placement="bottom"></div>
+								<p class="pl-2">White</p>
+							</div>
+							<div class="col-2">
+								<div class="square" id="color-5" mdbTooltip="Champagne Beige" placement="bottom"></div>
+								<p class="pl-2">White</p>
+							</div>
+							<div class="col-2">
+								<div class="square" id="color-6" mdbTooltip="Champagne Beige" placement="bottom"></div>
+								<p class="pl-2">White</p>
+							</div>
+							<div class="col-2">
+								<div class="square" id="color-7" mdbTooltip="Country Blue" placement="bottom"></div>
+								<p class="pl-2">White</p>
+							</div>
+							<div class="col-2">
+								<div class="square" id="color-8" mdbTooltip="Desert Sand" placement="bottom"></div>
+								<p class="pl-2">White</p>
+							</div>
+							<div class="col-2">
+								<div class="square" id="color-9" mdbTooltip="Flat Black" placement="bottom"></div>
+								<p class="pl-2">White</p>
+							</div>
+							<div class="col-2">
+								<div class="square" id="color-10" mdbTooltip="New England Grey" placement="bottom"></div>
+							</div>
+							<div class="col-2">
+								<div class="square" id="color-11" mdbTooltip="Post Office Blue" placement="bottom"></div>
+							</div>
+							<div class="col-2">
+								<div class="square" id="color-12" mdbTooltip="Terra Cotta" placement="bottom"></div>
+							</div>
+							<div class="col-2">
+								<div class="square" id="color-13" mdbTooltip="Chrome" placement="bottom"></div>
+							</div>
+							<div class="col-2">
+								<div class="square" id="color-14" mdbTooltip="Evening Blue" placement="bottom"></div>
+							</div>
+							<div class="col-2">
+								<div class="square" id="color-15" mdbTooltip="Forest Green" placement="bottom"></div>
+							</div>
+							<div class="col-2">
+								<div class="square" id="color-16" mdbTooltip="Green Patina" placement="bottom"></div>
+							</div>
+							<div class="col-2">
+								<div class="square" id="color-17" mdbTooltip="New Bronze" placement="bottom"></div>
+							</div>
+							<div class="col-2">
+								<div class="square" id="color-18" mdbTooltip="Pacific Granite" placement="bottom"></div>
+							</div>
+							<div class="col-2">
+								<div class="square" id="color-19" mdbTooltip="Statuary Bronze" placement="bottom"></div>
+							</div>
+						</div> -->
+
 					</div>
 				</div>
 			</div>

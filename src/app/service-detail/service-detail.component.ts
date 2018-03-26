@@ -25,7 +25,7 @@ export class ServiceDetailComponent implements OnInit, OnDestroy {
       this.req = this._service.list().subscribe(data => {
         data.filter(item => {
           if(item.slug == this.slug){
-            this.service = item as ServiceItem;
+              this.service = item as ServiceItem;
           }
         })
       })

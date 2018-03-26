@@ -28,38 +28,13 @@
 
 		        <!--Grid column-->
 		        <div class="col-lg-6 col-xl-7 pl-lg-5 pb-4">
-		            <!--Grid row-->
-		            <div class="row mb-3">
-		                <div class="col-1 mr-1">
-		                    <i class="fa fa-star fa-lg cyan-text"></i>
-		                </div>
-		                <div class="col-10">
-		                    <div [innerHTML]="service.textBlock0"></div>
-		                </div>
-		            </div>
-		            <!--Grid row-->
-
-		            <!--Grid row-->
-		            <div class="row mb-3">
-		                <div class="col-1 mr-1">
-		                    <i class="fa fa-thumbs-up fa-lg red-text"></i>
-		                </div>
-		                <div class="col-10 ">
-		                    <div [innerHTML]="service.textBlock1"></div>
-		                </div>
-		            </div>
-		            <!--Grid row-->
-
-		            <!--Third row-->
-		            <div class="row">
-		                <div class="col-1 mr-1">
-		                    <i class="fa fa-asterisk fa-lg brown-text"></i>
-		                </div>
-		                <div class="col-10">
-		                    <div [innerHTML]="service.textBlock2"></div>
-		                </div>
-		            </div>
-		            <!--/Third row-->
+					<!--Accordion wrapper-->
+					<mdb-squeezebox [multiple]="false" aria-multiselectable="true">
+						<mdb-item  *ngFor="let image of service.images">
+					        <mdb-item-head> {{ image }} </mdb-item-head>
+					    </mdb-item>
+					</mdb-squeezebox>
+					<!--/.Accordion wrapper-->
 		        </div>
 		        <!--Grid column-->
 		    </div>
