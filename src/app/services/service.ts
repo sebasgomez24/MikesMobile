@@ -7,55 +7,12 @@ export class ServiceItem{
     tileImage:string
     tileText:string
     images?: string[]
-    galleryImg0?:string
-    galleryImg1?:string
-    galleryImg2?:string
-    galleryImg3?:string
-    galleryImg4?:string
-    galleryImg5?:string
-    galleryImg6?:string
-    galleryImg7?:string
-    galleryImg8?:string
-    galleryImg9?:string
-    galleryImg10?:string
-    galleryImg11?:string
-    galleryImg12?:string
-    galleryImg13?:string
-    galleryImg14?:string
-    galleryImg15?:string
-    galleryImg16?:string
-    galleryImg17?:string
-    galleryImg18?:string
-    galleryImg19?:string
-    galleryImg20?:string
-    galleryImg21?:string
-    galleryImg22?:string
-    galleryImg23?:string
-    galleryImg24?:string
+    recentInstallImages?: string[]
+    video?:string
+    colorSet?: string[]
     // For Products Only
-    bullet0:string
-    bullet1?:string
-    bullet2?:string
-    thumbImg0?:string
-    thumbImg1?:string
-    thumbImg2?:string
-    thumbImg3?:string
-    thumbImg4?:string
-    thumbImg5?:string
-    thumbImg6?:string
-    thumbImg7?:string
-    thumbImg8?:string
-    thumbImg9?:string
-    thumbImg10?:string
-    thumbImg11?:string
-    thumbImg12?:string
-    thumbImg13?:string
-    thumbImg14?:string
-    thumbImg15?:string
-    thumbImg16?:string
-    thumbImg17?:string
-    thumbImg18?:string
-    thumbImg19?:string
+    bullets?: string[]
+    thumbImages?: string[]
     productOverview?:string
     technicalSpecs?:string
     options?:string
@@ -63,17 +20,5 @@ export class ServiceItem{
     warranty?:string
     // For Services Only
     serviceImgCaption?:string
-    textBlockTitle0?:string
-    textBlock0?:string
-    textBlockTitle1?:string
-    textBlock1?:string
-    textBlockTitle2?:string
-    textBlock2?:string
-    textBlockTitle3?:string
-    textBlock3?:string
-    textBlockTitle4?:string
-    textBlock4?:string
-    textBlockTitle5?:string
-    textBlock5?:string
-    video?:string
+    textList?:string[]
 }

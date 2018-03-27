@@ -15,7 +15,7 @@
 			<div class="col-12 col-md-6 pb-3">
 				<div class="row">
 					<ul class="col-3 d-flex flex-column thumbnails">
-						<ng-container *ngFor="let image of product.images">
+						<ng-container *ngFor="let image of product.thumbImages">
 							<ng-container >
 								<li><a href="{{image}}"><img src="{{image}}" alt="Thumbnails"></a></li>
 							</ng-container>
@@ -36,93 +36,45 @@
 				<h5 class="text-left">{{product.category}}</h5>
 				<h3 class="text-left">{{product.title}}</h3>
 				<ul class="pb-3">
-					<li>{{product.bullet0}}</li>
-					<li>{{product.bullet1}}</li>
-					<li *ngIf="product.bullet2">{{product.bullet2}}</li>
-					<li *ngIf="product.bullet3">{{product.bullet3}}</li>
-					<li *ngIf="product.bullet4">{{product.bullet4}}</li>
+					<li *ngFor="let bullet of product.bullets">{{bullet}}</li>
 				</ul>
 				<div class="row">
 					<div class="col-12">
 						<h4>Color Selection</h4>
 						<p class="mb-0 mt-2 ml-1" style="font-weight:bold">Standard Colors</p>
 						<div class="row">
-							<div class="col-2" *ngFor="let color of stdSet">
-								<div class="square" mdbTooltip="Bronze Anodized" placement="bottom" id="{{color[0]}}"></div>
-								<p class="pl-2">{{color[0]}}</p>
+							<div class="col-2" *ngFor="let color of stdColors | keys">
+								<div class="square" mdbTooltip="{{color.key}}" [ngStyle]="{'background': color.value}" placement="bottom"></div>
+								<p class="pl-2">{{color.key}}</p>
 							</div>
 						</div>
-<!--
 						<p class="mb-0 mt-2 ml-1" style="font-weight:bold">Custom Colors</p>
-						<div class="row">
-							<div class="col-2">
-								<div class="square" id="color-1" mdbTooltip="Alabaster" placement="bottom"></div>
-								<p class="pl-2">White</p>
-							</div>
-							<div class="col-2">
-								<div class="square" id="color-2" mdbTooltip="Almond Cream" placement="bottom"></div>
-								<p class="pl-2">White</p>
-							</div>
-							<div class="col-2">
-								<div class="square" id="color-3" mdbTooltip="Autumn Brown" placement="bottom"></div>
-								<p class="pl-2">White</p>
-							</div>
-							<div class="col-2">
-								<div class="square" id="color-4" mdbTooltip="Bear Green" placement="bottom"></div>
-								<p class="pl-2">White</p>
-							</div>
-							<div class="col-2">
-								<div class="square" id="color-5" mdbTooltip="Champagne Beige" placement="bottom"></div>
-								<p class="pl-2">White</p>
-							</div>
-							<div class="col-2">
-								<div class="square" id="color-6" mdbTooltip="Champagne Beige" placement="bottom"></div>
-								<p class="pl-2">White</p>
-							</div>
-							<div class="col-2">
-								<div class="square" id="color-7" mdbTooltip="Country Blue" placement="bottom"></div>
-								<p class="pl-2">White</p>
-							</div>
-							<div class="col-2">
-								<div class="square" id="color-8" mdbTooltip="Desert Sand" placement="bottom"></div>
-								<p class="pl-2">White</p>
-							</div>
-							<div class="col-2">
-								<div class="square" id="color-9" mdbTooltip="Flat Black" placement="bottom"></div>
-								<p class="pl-2">White</p>
-							</div>
-							<div class="col-2">
-								<div class="square" id="color-10" mdbTooltip="New England Grey" placement="bottom"></div>
-							</div>
-							<div class="col-2">
-								<div class="square" id="color-11" mdbTooltip="Post Office Blue" placement="bottom"></div>
-							</div>
-							<div class="col-2">
-								<div class="square" id="color-12" mdbTooltip="Terra Cotta" placement="bottom"></div>
-							</div>
-							<div class="col-2">
-								<div class="square" id="color-13" mdbTooltip="Chrome" placement="bottom"></div>
-							</div>
-							<div class="col-2">
-								<div class="square" id="color-14" mdbTooltip="Evening Blue" placement="bottom"></div>
-							</div>
-							<div class="col-2">
-								<div class="square" id="color-15" mdbTooltip="Forest Green" placement="bottom"></div>
-							</div>
-							<div class="col-2">
-								<div class="square" id="color-16" mdbTooltip="Green Patina" placement="bottom"></div>
-							</div>
-							<div class="col-2">
-								<div class="square" id="color-17" mdbTooltip="New Bronze" placement="bottom"></div>
-							</div>
-							<div class="col-2">
-								<div class="square" id="color-18" mdbTooltip="Pacific Granite" placement="bottom"></div>
-							</div>
-							<div class="col-2">
-								<div class="square" id="color-19" mdbTooltip="Statuary Bronze" placement="bottom"></div>
-							</div>
-						</div> -->
-
+						<div class="row" *ngFor="let colors of product.colorSet">
+							<ng-container *ngIf="colors === 'colorSetx4'">
+								<div class="col-2" *ngFor="let c of colorSetx4 | keys">
+									<div class="square" mdbTooltip="{{c.key}}" [ngStyle]="{'background': c.value}" placement="bottom"></div>
+									<p id="p-colors" class="pl-2">{{c.key}}</p>
+								</div>
+							</ng-container>
+							<ng-container *ngIf="colors === 'colorSetx6'">
+								<div class="col-2" *ngFor="let c of colorSetx6 | keys">
+									<div class="square" mdbTooltip="{{c.key}}" [ngStyle]="{'background': c.value}" placement="bottom"></div>
+									<p id="p-colors" class="pl-2">{{c.key}}</p>
+								</div>
+							</ng-container>
+							<ng-container *ngIf="colors === 'swingingDoorColors'">
+								<div class="col-2" *ngFor="let c of swingingDoorColors | keys">
+									<div class="square" mdbTooltip="{{c.key}}" [ngStyle]="{'background': c.value}" placement="bottom"></div>
+									<p id="p-colors" class="pl-2">{{c.key}}</p>
+								</div>
+							</ng-container>
+							<ng-container *ngIf="colors === 'securityDoorColors'">
+								<div class="col-2" *ngFor="let c of securityDoorColors | keys">
+									<div class="square" mdbTooltip="{{c.key}}" [ngStyle]="{'background': c.value}" placement="bottom"></div>
+									<p id="p-colors" class="pl-2">{{c.key}}</p>
+								</div>
+							</ng-container>
+						</div>
 					</div>
 				</div>
 			</div>
@@ -133,7 +85,7 @@
 		<div class="row">
 			<div class="col-md-12">
 				<nav>
-					<div class="nav nav-tabs" id="nav-tab" role="tablist">
+					<div class="nav blue nav-tabs" id="nav-tab" role="tablist">
 						<a class="nav-item nav-link active" id="nav-overview-tab" data-toggle="tab" href="#nav-overview" role="tab" aria-controls="nav-overview" aria-selected="true">Product Overview</a>
 						<a class="nav-item nav-link" id="nav-specs-tab" data-toggle="tab" href="#nav-specs" role="tab" aria-controls="nav-specs" aria-selected="false">Technical Specs</a>
 						<a class="nav-item nav-link" id="nav-options-tab" data-toggle="tab" href="#nav-options" role="tab" aria-controls="nav-options" aria-selected="false">Options</a>
@@ -162,60 +114,28 @@
 		</div>
 	</div>
 
-	<div class="container" *ngIf="product.galleryImg0">
-	    <hr/>
-	    <!--Carousel Wrapper-->
-	    <h2 class="pb-2">View some of our recent installs</h2>
-
-	    <mdb-carousel [isControls]="true" class="carousel slide carousel-fade w-50" [type]="'carousel-thumbnails'" [animation]="'fade'">
-
-	        <mdb-slide>
-	            <img class="d-block w-100" src="{{product.galleryImg0}}" alt="First slide">
-	        </mdb-slide>
-
-			<mdb-slide *ngIf="product.galleryImg1">
-	            <img class="d-block w-100" src="{{product.galleryImg1}}" alt="Second slide">
-	        </mdb-slide>
-
-			<mdb-slide *ngIf="product.galleryImg2">
-	            <img class="d-block w-100" src="{{product.galleryImg2}}" alt="Third slide">
-	        </mdb-slide>
-
-			<mdb-slide *ngIf="product.galleryImg3">
-				<img class="d-block w-100" src="{{product.galleryImg3}}" alt="Third slide">
-			</mdb-slide>
-
-			<mdb-slide *ngIf="product.galleryImg4">
-	            <img class="d-block w-100" src="{{product.galleryImg4}}" alt="Third slide">
-	        </mdb-slide>
-
-			<mdb-slide *ngIf="product.galleryImg5">
-	            <img class="d-block w-100" src="{{product.galleryImg5}}" alt="Third slide">
-	        </mdb-slide>
-
-			<mdb-slide *ngIf="product.galleryImg6">
-	            <img class="d-block w-100" src="{{product.galleryImg6}}" alt="Third slide">
-	        </mdb-slide>
-
-			<mdb-slide *ngIf="product.galleryImg7">
-	            <img class="d-block w-100" src="{{product.galleryImg7}}" alt="Third slide">
-	        </mdb-slide>
-
-			<mdb-slide *ngIf="product.galleryImg8">
-	            <img class="d-block w-100" src="{{product.galleryImg8}}" alt="Third slide">
-	        </mdb-slide>
-
-			<mdb-slide *ngIf="product.galleryImg9">
-	            <img class="d-block w-100" src="{{product.galleryImg9}}" alt="Third slide">
-	        </mdb-slide>
-
-			<mdb-slide *ngIf="product.galleryImg10">
-	            <img class="d-block w-100" src="{{product.galleryImg10}}" alt="Third slide">
-	        </mdb-slide>
-
-	    </mdb-carousel>
-	    <!--/.Carousel Wrapper-->
+	<div class="container">
+		<!--Section: Features v.2-->
+		<section class="section feature-box" *ngIf="product.recentInstallImages">
+		    <!--Section heading-->
+		    <h2 class="text-center pt-3">View some of our recent installs</h2>
+			<hr/>
+		    <!--Grid row-->
+		    <div class="row features-small pt-4">
+				<!--Carousel Wrapper-->
+				<mdb-carousel [isControls]="true" class="carousel slide carousel-fade" [type]="'carousel-thumbnails'" [animation]="'fade'" id="centered-gallery">
+				    <!--First slide-->
+				    <mdb-slide *ngFor="let recentInstall of product.recentInstallImages">
+				        <img class="d-block w-100" src="{{recentInstall}}" alt="First slide">
+				    </mdb-slide>
+				    <!--/First slide-->
+				</mdb-carousel>
+				<!--/.Carousel Wrapper-->
+		    </div>
+		    <!--Grid row-->
+		</section>
 	</div>
+
 </ng-container>
 
 <app-footer></app-footer>

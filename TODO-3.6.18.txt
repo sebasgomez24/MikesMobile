@@ -5,3 +5,8 @@ Photoshop Img
 Code custom alert function
 
 FIX SASS IMPORTS !!!!!!!!!!!
+
+Personal Access Token MDB
+---------------------
+jtXvEgfhXJaU5toFpdji
+---------------------

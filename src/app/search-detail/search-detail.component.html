@@ -11,16 +11,9 @@
 		<!-- ServiceItem row -->
 		<div class="row">
 			<!-- Angular For Loop -->
-            <!-- ServiceList Title -->
-            <div class="col-12 pb-2">
-
-                    <h2 *ngIf="query === categories[i]" class="light-gray-text">{{category}}</h2>
-
-			</div>
-			<!-- /ServiceList Title -->
-			<ng-container *ngFor='let service of serviceList'>
+			<ng-container *ngFor='let item of searchList'>
 				<!-- Ensure only those in 'Screens' Category -->
-				<ng-container *ngIf="service.category === categories[i]">
+				<ng-container *ngIf="item.category === categories[i]">
 					<!-- ServiceItem -->
 					<div class="col-6 col-md-4 col-lg-3">
 						<!-- Flip Card -->
@@ -30,20 +23,20 @@
                                 <div class="front">
                                     <!--Card image-->
                                     <div class="view waves-light" mdbRippleRadius>
-                                        <img src="{{service.tileImage}}" class="img-fluid" alt="{{service.title}}">
+                                        <img src="{{item.tileImage}}" class="img-fluid" alt="{{item.title}}">
                                     </div>
                                     <!--Title-->
-                                    <h4 class="card-title">{{service.title}}</h4>
+                                    <h4 class="card-title">{{item.title}}</h4>
                                 </div>
                                 <!--/ front content -->
 
                                 <!-- back content -->
                                 <div class="back">
-                                    <h4 class="text-center">{{service.title}}</h4>
+                                    <h4 class="text-center">{{item.title}}</h4>
                                     <div class="divider dropdown-divider pt-0 mt-0"></div>
-                                    <p class="p-1 mb-0 text-center">{{service.bullet0}}</p>
+                                    <p class="p-1 mb-0 text-center">{{item.bullet0}}</p>
 									<div class="d-flex flex-column">
-										<button routerLink="/{{service.type}}/{{service.slug}}" class="btn blue-outline waves-dark" mdbRippleRadius>View</button>
+										<button routerLink="/{{item.type}}/{{item.slug}}" class="btn blue-outline waves-dark" mdbRippleRadius>View</button>
 									</div>
                                 </div>
                                 <!--/ back content -->

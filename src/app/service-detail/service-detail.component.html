@@ -20,79 +20,175 @@
 		        <!--Grid column-->
 		        <div class="col-lg-6 col-xl-5 pr-lg-5 pb-5">
 					<h4 *ngIf="service.serviceImgCaption" class="pb-3 text-center light-gray-text">{{service.serviceImgCaption}}</h4>
-		            <img src="{{service.tileImage}}" alt="Sample project image" class="img-fluid z-depth-2">
-					<!-- <iframe *ngIf="service.video" width="100%" height="300px" src="{{service.video}}" frameborder="0" allowfullscreen></iframe> -->
-					<h2 class="py-4 text-center animated pulse infinite"><a class="orange-text" href="tel: 1 877 520 3595">Get started today!</a></h2>
+					<iframe *ngIf="service.video; else tileImg" width="100%" height="300px" [src]="getEmbedUrl(service.video)" frameborder="0" allowfullscreen></iframe>
+					<ng-template #tileImg>
+						<img src="{{service.tileImage}}" alt="Sample project image" class="img-fluid z-depth-2">
+					</ng-template>
+					<h2 class="py-4 text-center animated pulse infinite orange-text" (click)="basicModal.show()">Get started today!</h2>
 		        </div>
 		        <!--Grid column-->
 
 		        <!--Grid column-->
 		        <div class="col-lg-6 col-xl-7 pl-lg-5 pb-4">
-					<!--Accordion wrapper-->
-					<mdb-squeezebox [multiple]="false" aria-multiselectable="true">
-						<mdb-item  *ngFor="let image of service.images">
-					        <mdb-item-head> {{ image }} </mdb-item-head>
-					    </mdb-item>
-					</mdb-squeezebox>
-					<!--/.Accordion wrapper-->
+
+					<div class="row mb-4">
+						<div class="col-12">
+							<h4 class="p-2">More Information</h4>
+							<!--Accordion wrapper-->
+							<mdb-squeezebox [multiple]="false" aria-multiselectable="true">
+							    <mdb-item  *ngFor="let item of service.textList">
+							        <mdb-item-head>{{ item.title }}</mdb-item-head>
+							        <mdb-item-body>{{ item.description }}</mdb-item-body>
+							    </mdb-item>
+							</mdb-squeezebox>
+							<!--/.Accordion wrapper-->
+						</div>
+					</div>
+
+					<div class="row" *ngIf="service.colorSet">
+						<div class="col-12">
+							<h4 class="p-2">Color Selection</h4>
+							<p class="mb-0 mt-2 ml-1" style="font-weight:bold">Standard Colors</p>
+							<div class="row">
+								<div class="col-2" *ngFor="let color of stdColors | keys">
+									<div class="square" mdbTooltip="{{color.key}}" [ngStyle]="{'background': color.value}" placement="bottom"></div>
+									<p class="pl-2">{{color.key}}</p>
+								</div>
+							</div>
+							<p class="mb-0 mt-2 ml-1" style="font-weight:bold">Custom Colors</p>
+							<div class="row" *ngFor="let colors of product.colorSet">
+								<ng-container *ngIf="colors === 'colorSetx4'">
+									<div class="col-2" *ngFor="let c of colorSetx4 | keys">
+										<div class="square" mdbTooltip="{{c.key}}" [ngStyle]="{'background': c.value}" placement="bottom"></div>
+										<p id="p-colors" class="pl-2">{{c.key}}</p>
+									</div>
+								</ng-container>
+								<ng-container *ngIf="colors === 'colorSetx6'">
+									<div class="col-2" *ngFor="let c of colorSetx6 | keys">
+										<div class="square" mdbTooltip="{{c.key}}" [ngStyle]="{'background': c.value}" placement="bottom"></div>
+										<p id="p-colors" class="pl-2">{{c.key}}</p>
+									</div>
+								</ng-container>
+								<ng-container *ngIf="colors === 'swingingDoorColors'">
+									<div class="col-2" *ngFor="let c of swingingDoorColors | keys">
+										<div class="square" mdbTooltip="{{c.key}}" [ngStyle]="{'background': c.value}" placement="bottom"></div>
+										<p id="p-colors" class="pl-2">{{c.key}}</p>
+									</div>
+								</ng-container>
+								<ng-container *ngIf="colors === 'securityDoorColors'">
+									<div class="col-2" *ngFor="let c of securityDoorColors | keys">
+										<div class="square" mdbTooltip="{{c.key}}" [ngStyle]="{'background': c.value}" placement="bottom"></div>
+										<p id="p-colors" class="pl-2">{{c.key}}</p>
+									</div>
+								</ng-container>
+							</div>
+						</div>
+					</div>
+
 		        </div>
 		        <!--Grid column-->
 		    </div>
 		    <!--Grid row-->
-		    <!-- <hr>
-
-			<section class="section">
-				<h2 class="text-md-left">Color Options</h2>
-
-
-			</section> -->
-
-			<!--Section: Features v.2-->
-			<section *ngIf="service.galleryImg0" class="section feature-box">
-			    <!--Section heading-->
-			    <h2 class="text-center pt-3">View some of our recent installs</h2>
-				<hr/>
-			    <!--Grid row-->
-			    <div class="row features-small pt-4">
-
-					<!--Carousel Wrapper-->
-					<mdb-carousel [isControls]="true" class="carousel slide carousel-fade" [type]="'carousel-thumbnails'" [animation]="'fade'" id="centered-gallery">
-					    <!--First slide-->
-					    <mdb-slide>
-					        <img class="d-block w-100" src="{{service.galleryImg0}}" alt="First slide">
-					    </mdb-slide>
-					    <!--/First slide-->
-					    <!--Second slide-->
-					    <mdb-slide *ngIf="service.galleryImg1">
-					        <img class="d-block w-100" src="{{service.galleryImg1}}" alt="Second slide">
-					    </mdb-slide>
-					    <!--/Second slide-->
-					    <!--Third slide-->
-					    <mdb-slide *ngIf="service.galleryImg2">
-					        <img class="d-block w-100" src="{{service.galleryImg2}}" alt="Third slide">
-					    </mdb-slide>
-					    <!--/Third slide-->
-					</mdb-carousel>
-					<!--/.Carousel Wrapper-->
-
-			    </div>
-			    <!--Grid row-->
-			</section>
 		</section>
 
-
-
-
-
-
-
-
-
-
-
-
-
+		<!--Section: Features v.2-->
+		<section class="section feature-box" *ngIf="service.recentInstallImages">
+		    <!--Section heading-->
+		    <h2 class="text-center pt-3">View some of our recent installs</h2>
+			<hr/>
+		    <!--Grid row-->
+		    <div class="row features-small pt-4">
+				<!--Carousel Wrapper-->
+				<mdb-carousel [isControls]="true" class="carousel slide carousel-fade" [type]="'carousel-thumbnails'" [animation]="'fade'" id="centered-gallery">
+				    <!--First slide-->
+				    <mdb-slide *ngFor="let recentInstall of service.recentInstallImages">
+				        <img class="d-block w-100" src="{{recentInstall}}" alt="First slide">
+				    </mdb-slide>
+				    <!--/First slide-->
+				</mdb-carousel>
+				<!--/.Carousel Wrapper-->
+		    </div>
+		    <!--Grid row-->
+		</section>
 	</div>
 </ng-container>
 
 <app-footer></app-footer>
+
+<!--QuoteForm Modal-->
+<div class="container">
+    <div mdbModal #basicModal="mdb-modal" class="modal fade" tabindex="-1" role="dialog" aria-labelledby="myBasicModalLabel" aria-hidden="true">
+        <div class="modal-dialog" role="document">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <button type="button" class="close pull-right" aria-label="Close" (click)="basicModal.hide()">
+                        <span aria-hidden="true">×</span>
+                    </button>
+					<h4 class="modal-title" id="myModalLabel">Get a Free Quote Now! <span class="orange-text pl-4">1-877-520-3595</span></h4>
+                </div>
+                <div class="modal-body">
+                    <div class="md-form form-sm">
+                        <p class="pb-0 mb-0">What service are you inquiring about?</p>
+                        <select class="form-control" id="serviceSelect">
+                            <option>Window Screen Repair</option>
+                            <option>Solar Screens</option>
+                            <option>Sliding Screen Door</option>
+                            <option>Swinging Screen Door</option>
+                            <option>Retractable Screen Door</option>
+                            <option>Screen Doors</option>
+                            <option>Pet Doors</option>
+                            <option disabled>__________________________</option>
+                            <option>Chimney Inspection</option>
+                            <option>Chimney Cleaning</option>
+                            <option>Chimney Repair</option>
+                            <option>Chimney Accessories</option>
+                            <option>Chimney Resources</option>
+                            <option>Masonry Services</option>
+                            <option disabled>__________________________</option>
+                            <option>Steel Security Door</option>
+                            <option>Viewguard Security Door</option>
+                            <option>TRU-view Security Door</option>
+                            <option>TRU-Frame Security Door</option>
+                            <option>Sliding Security Doors</option>
+                            <option disabled>__________________________</option>
+                            <option>CRL Guarda™ Quick Escape Window Screen</option>
+                            <option>CRL Guarda™ Fixed Window Screen</option>
+                            <option>CRL Guarda™ Casement Window Screen</option>
+                            <option disabled>__________________________</option>
+                            <option>Retractable Patio Awnings</option>
+                            <option>Drop Roll Sunscreens</option>
+                            <option>Door and Window Awnings</option>
+                        </select>
+                    </div>
+                    <div class="md-form form-sm">
+                        <input mdbActive type="text" id="form1" class="form-control">
+                        <label for="fullName" class="">Full Name</label>
+                    </div>
+                    <div class="md-form form-sm">
+                        <input mdbActive type="text" id="form1" class="form-control">
+                        <label for="city" class="">City</label>
+                    </div>
+                    <div class="md-form form-sm">
+                        <input mdbActive type="text" id="form1" class="form-control">
+                        <label for="phone" class="">Phone</label>
+                    </div>
+                    <div class="md-form form-sm">
+                        <input mdbActive type="text" id="form1" class="form-control">
+                        <label for="email" class="">Email</label>
+                    </div>
+                    <div class="md-form">
+                        <textarea mdbActive type="text" id="form7" class="md-textarea"></textarea>
+                        <label for="form7">How can we help</label>
+                    </div>
+                </div>
+
+                <div class="d-flex flex-row">
+                    <button type="button" class="btn gray waves-light w-100" aria-label="Close" (click)="basicModal.hide()" mdbRippleRadius>Close</button>
+                    <button type="button" class="btn blue relative waves-light w-100" mdbRippleRadius>Save changes</button>
+                </div>
+				<!-- <div class="g-recaptcha" data-sitekey="6LcuVE8UAAAAANjXntZdTLaVVXI0vBbv8yk8jdTw"></div> -->
+            </div>
+        </div>
+    </div>
+</div>
+<!--/QuoteForm Modal-->

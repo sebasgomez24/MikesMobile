@@ -13,16 +13,16 @@ export class SearchDetailComponent implements OnInit, OnDestroy {
   private routeSub:any
   private req:any
   query:string
-  serviceList:[ServiceItem]
+  searchList:[ServiceItem]
   categories = ['Screens', 'Chimney', 'Security', 'Awnings', 'Home Improvement']
-  
+
   constructor(private route: ActivatedRoute, private _service:ServicesService) { }
 
   ngOnInit() {
     this.routeSub = this.route.params.subscribe(params=>{
       this.query = params['q']
       this.req = this._service.search(this.query).subscribe(data=>{
-        this.serviceList = data as [ServiceItem];
+        this.searchList = data as [ServiceItem];
       })
     })
   }
