@@ -14,7 +14,8 @@ export class SearchDetailComponent implements OnInit, OnDestroy {
   private req:any
   query:string
   searchList:[ServiceItem]
-  categories = ['Screens', 'Chimney', 'Security', 'Awnings', 'Home Improvement']
+  categories = ['Screens', 'Chimney', 'Security', 'Awnings']
+  categoryList=[]
 
   constructor(private route: ActivatedRoute, private _service:ServicesService) { }
 

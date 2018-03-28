@@ -5,7 +5,10 @@ h2
     font-family: 'Open Sans', sans-serif
     span
         font-family: 'Didact Gothic', sans-serif
-        
+
+a
+    color: $light-gray
+
 .service-list
     overflow: hidden
     img
@@ -43,7 +46,7 @@ h2
 
     .flip-container, .front, .back
         width: 100%
-        height: 150px
+        height: 140px
         margin-bottom: 15px
         @include breakpoint(xs)
             height: 200px
@@ -72,7 +75,7 @@ h2
     /* back, initially hidden pane */
     .back
         padding: 5px
-        border: 1px solid #e3e3e3
+        // border: 1px solid #e3e3e3
         transform: rotateY(180deg)
 
     .flip-container:hover .flipper, .flip-container.hover .flipper, .flip-container.flip .flipper

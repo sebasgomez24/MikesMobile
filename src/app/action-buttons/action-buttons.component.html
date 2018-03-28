@@ -1,11 +1,15 @@
 <!-- Action Buttons -->
-<div class="d-flex flex-row pb-4">
-    <div class="container action-buttons">
-        <button class="btn blue waves-light" (click)="basicModal.show()" id="quoteBtn" mdbRippleRadius><span id="desktop-only">Get Your</span> Free Quote!</button>
-        <button class="btn blue waves-light" id="telBtn" mdbRippleRadius><a class="white-text" href="tel:+1-916-372-8783">1-877-520-3595</a></button>
-        <app-search id="search-input" style="display: none"></app-search>
-        <button id="search-button" class="btn light-gray waves-light" (click)="resizeActionBtns()" mdbRippleRadius><i class="fa fa-search" aria-hidden="true"></i></button>
+<div class="container" id="action-buttons-container">
+    <div class="quote">
+        <button class="btn blue waves-light w-100" (click)="basicModal.show()" id="quoteBtn" mdbRippleRadius><span id="desktop-only">Get Your</span> Free Quote!</button>
     </div>
+    <div class="tel">
+        <button class="btn blue waves-light w-100" id="telBtn" mdbRippleRadius><a class="white-text" href="tel:+1-916-372-8783">1-877-520-3595</a></button>
+    </div>
+    <div class="search">
+        <button id="search-button" class="btn orange waves-light w-100" (click)="hideShowSearch()" mdbRippleRadius><i class="fa fa-search" aria-hidden="true"></i></button>
+    </div>
+    <app-search id="search-input" style="display: none"></app-search>
 </div>
 <!--/ Action Buttons -->
 
@@ -18,41 +22,11 @@
                     <button type="button" class="close pull-right" aria-label="Close" (click)="basicModal.hide()">
                         <span aria-hidden="true">×</span>
                     </button>
-                    <h4 class="modal-title" id="myModalLabel">Get a Free Quote Now! <span class="orange-text pl-4">1-877-520-3595</span></h4>
+                    <h4 class="modal-title" id="myModalLabel">Get a Free Quote Now! <br/><span class="orange-text">1-877-520-3595</span></h4>
                 </div>
                 <div class="modal-body">
                     <div class="md-form form-sm">
-                        <p class="pb-0 mb-0">What service are you inquiring about?</p>
-                        <select class="form-control" id="serviceSelect">
-                            <option>Window Screen Repair</option>
-                            <option>Solar Screens</option>
-                            <option>Sliding Screen Door</option>
-                            <option>Swinging Screen Door</option>
-                            <option>Retractable Screen Door</option>
-                            <option>Screen Doors</option>
-                            <option>Pet Doors</option>
-                            <option disabled>__________________________</option>
-                            <option>Chimney Inspection</option>
-                            <option>Chimney Cleaning</option>
-                            <option>Chimney Repair</option>
-                            <option>Chimney Accessories</option>
-                            <option>Chimney Resources</option>
-                            <option>Masonry Services</option>
-                            <option disabled>__________________________</option>
-                            <option>Steel Security Door</option>
-                            <option>Viewguard Security Door</option>
-                            <option>TRU-view Security Door</option>
-                            <option>TRU-Frame Security Door</option>
-                            <option>Sliding Security Doors</option>
-                            <option disabled>__________________________</option>
-                            <option>CRL Guarda™ Quick Escape Window Screen</option>
-                            <option>CRL Guarda™ Fixed Window Screen</option>
-                            <option>CRL Guarda™ Casement Window Screen</option>
-                            <option disabled>__________________________</option>
-                            <option>Retractable Patio Awnings</option>
-                            <option>Drop Roll Sunscreens</option>
-                            <option>Door and Window Awnings</option>
-                        </select>
+                        <mdb-select [options]="optionsSelect" [multiple]="true" placeholder="Choose a service"></mdb-select>
                     </div>
                     <div class="md-form form-sm">
                         <input mdbActive type="text" id="form1" class="form-control">

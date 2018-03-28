@@ -119,38 +119,7 @@
                 </div>
                 <div class="modal-body">
                     <div class="md-form form-sm">
-                        <p class="pb-0 mb-0">What service are you inquiring about?</p>
-                        <select class="form-control" id="serviceSelect">
-                            <option>Window Screen Repair</option>
-                            <option>Solar Screens</option>
-                            <option>Sliding Screen Door</option>
-                            <option>Swinging Screen Door</option>
-                            <option>Retractable Screen Door</option>
-                            <option>Screen Doors</option>
-                            <option>Pet Doors</option>
-                            <option disabled>__________________________</option>
-                            <option>Chimney Inspection</option>
-                            <option>Chimney Cleaning</option>
-                            <option>Chimney Repair</option>
-                            <option>Chimney Accessories</option>
-                            <option>Chimney Resources</option>
-                            <option>Masonry Services</option>
-                            <option disabled>__________________________</option>
-                            <option>Steel Security Door</option>
-                            <option>Viewguard Security Door</option>
-                            <option>TRU-view Security Door</option>
-                            <option>TRU-Frame Security Door</option>
-                            <option>Sliding Security Doors</option>
-                            <option disabled>__________________________</option>
-                            <option>CRL Guarda™ Quick Escape Window Screen</option>
-                            <option>CRL Guarda™ Fixed Window Screen</option>
-                            <option>CRL Guarda™ Casement Window Screen</option>
-                            <option disabled>__________________________</option>
-                            <option>Retractable Patio Awnings</option>
-                            <option>Drop Roll Sunscreens</option>
-                            <option>Door and Window Awnings</option>
-
-                        </select>
+                        <mdb-select [options]="optionsSelect" [multiple]="true" placeholder="Choose a service"></mdb-select>
                     </div>
                     <div class="md-form form-sm">
                         <input mdbActive type="text" id="form1" class="form-control">

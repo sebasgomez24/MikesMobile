@@ -6,22 +6,20 @@ import { Component, OnInit } from '@angular/core';
   styleUrls: ['./home.component.sass']
 })
 export class HomeComponent implements OnInit {
+    constructor() { }
 
-  constructor() { }
-
-  ngOnInit() {
-    this.growSlideshow();
-    stateManager.init();
-  }
-
-  growSlideshow(){
-    if(screen.width < 992){
-      var slideshow = document.getElementById('slideshow');
-
-      slideshow.classList.remove('container', 'mt-3');
-      slideshow.classList.add('row');
+    ngOnInit() {
+        this.growSlideshow();
+        stateManager.init();
     }
-  }
+
+    growSlideshow(){
+        if(screen.width < 992){
+          var slideshow = document.getElementById('slideshow');
+          slideshow.classList.remove('container', 'mt-3');
+          slideshow.classList.add('row');
+        }
+    }
 }
 
 

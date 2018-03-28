@@ -1,148 +1,6 @@
 @import '~sass/modules/_mixins.sass'
 @import '~sass/modules/_variables.sass'
 
-//
-// .grid
-// 	position: relative
-// 	margin: 0 auto
-// 	max-width: 100%
-// 	list-style: none
-// 	text-align: center
-//
-//
-// /* Common style */
-// .grid figure
-//   height: 225px
-//   position: relative
-//   float: left
-//   overflow: hidden
-//   text-align: center
-//   cursor: pointer
-//   background: #3085a3
-//
-// .grid figure img
-// 	position: relative
-// 	display: block
-// 	min-height: 100%
-// 	max-width: 100%
-// 	opacity: 0.5
-//
-//
-// .grid figure figcaption
-// 	padding: 2em
-// 	color: #fff
-// 	text-transform: uppercase
-// 	font-size: 1.25em
-// 	-webkit-backface-visibility: hidden
-// 	backface-visibility: hidden
-//
-//
-// .grid figure figcaption::before,
-// .grid figure figcaption::after
-// 	pointer-events: none
-//
-//
-// .grid figure figcaption,
-// .grid figure figcaption > a
-// 	position: absolute
-// 	top: 0
-// 	left: 0
-// 	width: 100%
-// 	height: 100%
-//
-//
-// /* Anchor will cover the whole item by default */
-// /* For some effects it will show as a button */
-// .grid figure figcaption > a
-// 	z-index: 1000
-// 	text-indent: 200%
-// 	white-space: nowrap
-// 	font-size: 0
-// 	opacity: 0
-//
-//
-// .grid figure h3
-// 	word-spacing: -0.15em
-// 	font-weight: 300
-//
-// .grid figure h3 span
-// 	font-weight: 800
-//
-//
-// .grid figure h3,
-// .grid figure p
-// 	margin: 0
-//
-//
-// .grid figure p
-// 	letter-spacing: 1px
-// 	font-size: 68.5%
-//
-// /*---------------*/
-// /***** Marley *****/
-// /*---------------*/
-//
-// figure.effect-marley figcaption
-// 	text-align: right
-//
-//
-// figure.effect-marley h3,
-// figure.effect-marley p
-// 	position: absolute
-// 	right: 10px
-//   left: 10px
-//
-//
-//
-// figure.effect-marley p
-// 	bottom: 0
-// 	line-height: 1.5
-// 	-webkit-transform: translate3d(0,100%,0)
-// 	transform: translate3d(0,100%,0)
-//
-//
-// figure.effect-marley h3
-// 	top: 10px
-// 	-webkit-transition: -webkit-transform 0.35s
-// 	transition: transform 0.35s
-// 	-webkit-transform: translate3d(0,20px,0)
-// 	transform: translate3d(0,20px,0)
-//
-//
-// figure.effect-marley:hover h3
-// 	-webkit-transform: translate3d(0,0,0)
-// 	transform: translate3d(0,0,0)
-//
-// figure.effect-marley:hover
-//   background: black
-//   transition: all .5s linear
-//
-// figure.effect-marley h3::after
-// 	position: absolute
-// 	top: 100%
-// 	left: 0
-// 	width: 100%
-// 	height: 4px
-// 	background: #fff
-// 	content: ''
-// 	-webkit-transform: translate3d(0,40px,0)
-// 	transform: translate3d(0,40px,0)
-//
-//
-// figure.effect-marley h3::after,
-// figure.effect-marley p
-// 	opacity: 0
-// 	-webkit-transition: opacity 0.35s, -webkit-transform 0.35s
-// 	transition: opacity 0.35s, transform 0.35s
-//
-//
-// figure.effect-marley:hover h3::after,
-// figure.effect-marley:hover p
-// 	opacity: 1
-// 	-webkit-transform: translate3d(0,0,0)
-	transform: translate3d(0,0,0)
-
-
 a
     color: $light-gray
 
@@ -183,7 +41,7 @@ a
 
     .flip-container, .front, .back
         width: 100%
-        height: 150px
+        height: 140px
         margin-bottom: 15px
         @include breakpoint(xs)
             height: 200px
@@ -212,7 +70,7 @@ a
     /* back, initially hidden pane */
     .back
         padding: 5px
-        border: 1px solid #e3e3e3
+        // border: 1px solid #e3e3e3
         transform: rotateY(180deg)
 
     .flip-container:hover .flipper, .flip-container.hover .flipper, .flip-container.flip .flipper

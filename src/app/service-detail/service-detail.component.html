@@ -3,9 +3,6 @@
 
 <ng-container *ngIf="service">
 	<div class="container pb-4">
-		<h5 class="text-center">{{service.category}}</h5>
-		<h3 class="text-center" id="serviceInfo">{{service.title}}</h3>
-		<hr/>
     	<!-- Breadcrumb Navigation -->
 		<nav class="breadcrumb mt-2">
 			<a class="breadcrumb-item" routerLink="/">Home</a>
@@ -19,21 +16,21 @@
 		    <div class="row">
 		        <!--Grid column-->
 		        <div class="col-lg-6 col-xl-5 pr-lg-5 pb-5">
-					<h4 *ngIf="service.serviceImgCaption" class="pb-3 text-center light-gray-text">{{service.serviceImgCaption}}</h4>
+					<h2 class="pb-3 text-center animated pulse infinite orange-text" (click)="basicModal.show()">Get started today!</h2>
 					<iframe *ngIf="service.video; else tileImg" width="100%" height="300px" [src]="getEmbedUrl(service.video)" frameborder="0" allowfullscreen></iframe>
 					<ng-template #tileImg>
 						<img src="{{service.tileImage}}" alt="Sample project image" class="img-fluid z-depth-2">
 					</ng-template>
-					<h2 class="py-4 text-center animated pulse infinite orange-text" (click)="basicModal.show()">Get started today!</h2>
+					<h4 *ngIf="service.serviceImgCaption" class="p-2 text-center light-gray-text">{{service.serviceImgCaption}}</h4>
 		        </div>
 		        <!--Grid column-->
 
 		        <!--Grid column-->
 		        <div class="col-lg-6 col-xl-7 pl-lg-5 pb-4">
-
 					<div class="row mb-4">
 						<div class="col-12">
-							<h4 class="p-2">More Information</h4>
+							<h5 class="text-center">{{service.category}}</h5>
+							<h3 class="text-center mb-3" id="serviceInfo">{{service.title}}</h3>
 							<!--Accordion wrapper-->
 							<mdb-squeezebox [multiple]="false" aria-multiselectable="true">
 							    <mdb-item  *ngFor="let item of service.textList">
@@ -44,6 +41,8 @@
 							<!--/.Accordion wrapper-->
 						</div>
 					</div>
+
+
 
 					<div class="row" *ngIf="service.colorSet">
 						<div class="col-12">
@@ -127,38 +126,8 @@
 					<h4 class="modal-title" id="myModalLabel">Get a Free Quote Now! <span class="orange-text pl-4">1-877-520-3595</span></h4>
                 </div>
                 <div class="modal-body">
-                    <div class="md-form form-sm">
-                        <p class="pb-0 mb-0">What service are you inquiring about?</p>
-                        <select class="form-control" id="serviceSelect">
-                            <option>Window Screen Repair</option>
-                            <option>Solar Screens</option>
-                            <option>Sliding Screen Door</option>
-                            <option>Swinging Screen Door</option>
-                            <option>Retractable Screen Door</option>
-                            <option>Screen Doors</option>
-                            <option>Pet Doors</option>
-                            <option disabled>__________________________</option>
-                            <option>Chimney Inspection</option>
-                            <option>Chimney Cleaning</option>
-                            <option>Chimney Repair</option>
-                            <option>Chimney Accessories</option>
-                            <option>Chimney Resources</option>
-                            <option>Masonry Services</option>
-                            <option disabled>__________________________</option>
-                            <option>Steel Security Door</option>
-                            <option>Viewguard Security Door</option>
-                            <option>TRU-view Security Door</option>
-                            <option>TRU-Frame Security Door</option>
-                            <option>Sliding Security Doors</option>
-                            <option disabled>__________________________</option>
-                            <option>CRL Guarda™ Quick Escape Window Screen</option>
-                            <option>CRL Guarda™ Fixed Window Screen</option>
-                            <option>CRL Guarda™ Casement Window Screen</option>
-                            <option disabled>__________________________</option>
-                            <option>Retractable Patio Awnings</option>
-                            <option>Drop Roll Sunscreens</option>
-                            <option>Door and Window Awnings</option>
-                        </select>
+					<div class="md-form form-sm">
+                        <mdb-select [options]="optionsSelect" [multiple]="true" placeholder="Choose a service"></mdb-select>
                     </div>
                     <div class="md-form form-sm">
                         <input mdbActive type="text" id="form1" class="form-control">

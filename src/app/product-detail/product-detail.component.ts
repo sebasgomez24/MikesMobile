@@ -16,10 +16,10 @@ export class ProductDetailComponent implements OnInit, OnDestroy {
   private req:any;
   private routeSub:any;
 
-  slug:string
-  product:ServiceItem
+  slug:string;
+  product:ServiceItem;
 
-  colorList = ['stdColors', 'colorSetx4', 'colorSetx6', 'swingingDoorColors', 'securityDoorColors']
+  colorList = ['stdColors', 'colorSetx4', 'colorSetx6', 'swingingDoorColors', 'securityDoorColors'];
 
   stdColors = {
       "Anodized Bronze":"#2D3017",
@@ -62,43 +62,41 @@ export class ProductDetailComponent implements OnInit, OnDestroy {
       "New England Grey":"#B0BBB7",
       "Post Office Blue":"#182F4D",
       "Terra Cotta":"#671218",
-      "Chrome":"#EFEFEF",
       "Evening Blue":"#1F4769",
-      "Forest Green":"#0E251B",
+      "Chrome":"#EFEFEF",
       "Green Patina":"#435E57",
       "New Bronze":"#40372D",
       "Pacific Granite":"#707070",
+      "Forest Green":"#0E251B",
       "Statuary Bronze":"#42372F"
   }
 
   constructor(private route: ActivatedRoute, private _service:ServicesService) { }
 
-  ngOnInit() {
-    this.routeSub = this.route.params.subscribe(params => {
-      this.slug = params['slug']
-      this.req = this._service.list().subscribe(data => {
-        data.filter(item => {
-          if(item.slug == this.slug){
-            this.product = item as ServiceItem;
-          }
+    ngOnInit() {
+        this.routeSub = this.route.params.subscribe(params => {
+            this.slug = params['slug']
+            this.req = this._service.list().subscribe(data => {
+                data.filter(item => {
+                    if(item.slug == this.slug){
+                        this.product = item as ServiceItem;
+                    }
+                })
+            })
         })
-      })
-    })
-  }
 
-  ngOnDestroy(){
-    this.routeSub.unsubscribe();
-    this.req.unsubscribe();
-  }
+    };
 
+    ngOnDestroy(){
+      this.routeSub.unsubscribe();
+      this.req.unsubscribe();
+    }
 }
 
 !function(a){
   a.fn.extend({
     simpleGal:function(b){
-      var c = {
-        mainImage:".placeholder"
-      };
+      var c = { mainImage:".placeholder" };
       return b = a.extend(c,b),
         this.each(function(){
           var c = a(this).find("a"), d = a(this).siblings().find(b.mainImage);
@@ -107,7 +105,7 @@ export class ProductDetailComponent implements OnInit, OnDestroy {
             var c = a(this).attr("href");
             d.attr("src",c)
           })
-      })
+        })
     }
   })
 }($);

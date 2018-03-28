@@ -2,6 +2,7 @@ import { BrowserModule } from '@angular/platform-browser';
 import { FormsModule } from '@angular/forms';
 import { HttpModule } from '@angular/http';
 import { NgModule, NO_ERRORS_SCHEMA } from '@angular/core';
+
 import { MDBBootstrapModules } from 'ng-mdb-pro';
 import { MDBSpinningPreloader } from 'ng-mdb-pro';
 import { Ng2PageScrollModule } from 'ng2-page-scroll';
@@ -23,9 +24,6 @@ import { SearchDetailComponent } from './search-detail/search-detail.component';
 import { ActionButtonsComponent } from './action-buttons/action-buttons.component';
 import { ProductDetailComponent } from './product-detail/product-detail.component';
 import { LightboxGalleryComponent } from './lightbox-gallery/lightbox-gallery.component';
-
-
-
 
 @NgModule({
   declarations: [

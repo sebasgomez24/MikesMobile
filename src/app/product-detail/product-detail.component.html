@@ -14,14 +14,23 @@
 		<div class="row">
 			<div class="col-12 col-md-6 pb-3">
 				<div class="row">
+
+					<!--Carousel Wrapper-->
+					<!-- <mdb-carousel [isControls]="true" class="carousel slide carousel-fade" [type]="'carousel-thumbnails'" [animation]="'fade'" [interval]="2500">
+						<ng-container *ngFor="let image of product.thumbImages">
+						    <mdb-slide>
+						        <img class="d-block" src="{{image}}" alt="First slide">
+						    </mdb-slide>
+						</ng-container>
+					</mdb-carousel> -->
+					<!--/.Carousel Wrapper-->
+
+
 					<ul class="col-3 d-flex flex-column thumbnails">
 						<ng-container *ngFor="let image of product.thumbImages">
 							<ng-container >
 								<li><a href="{{image}}"><img src="{{image}}" alt="Thumbnails"></a></li>
 							</ng-container>
-							<div class="imageScrollBox">
-
-							</div>
 						</ng-container>
 					</ul>
 					<div class="col-9">
@@ -43,33 +52,33 @@
 						<h4>Color Selection</h4>
 						<p class="mb-0 mt-2 ml-1" style="font-weight:bold">Standard Colors</p>
 						<div class="row">
-							<div class="col-2" *ngFor="let color of stdColors | keys">
+							<div class="col-3 col-md-2" *ngFor="let color of stdColors | keys">
 								<div class="square" mdbTooltip="{{color.key}}" [ngStyle]="{'background': color.value}" placement="bottom"></div>
-								<p class="pl-2">{{color.key}}</p>
+								<p id="p-colors" class="pl-2">{{color.key}}</p>
 							</div>
 						</div>
 						<p class="mb-0 mt-2 ml-1" style="font-weight:bold">Custom Colors</p>
 						<div class="row" *ngFor="let colors of product.colorSet">
 							<ng-container *ngIf="colors === 'colorSetx4'">
-								<div class="col-2" *ngFor="let c of colorSetx4 | keys">
+								<div class="col-3 col-md-2" *ngFor="let c of colorSetx4 | keys">
 									<div class="square" mdbTooltip="{{c.key}}" [ngStyle]="{'background': c.value}" placement="bottom"></div>
 									<p id="p-colors" class="pl-2">{{c.key}}</p>
 								</div>
 							</ng-container>
 							<ng-container *ngIf="colors === 'colorSetx6'">
-								<div class="col-2" *ngFor="let c of colorSetx6 | keys">
+								<div class="col-3 col-md-2" *ngFor="let c of colorSetx6 | keys">
 									<div class="square" mdbTooltip="{{c.key}}" [ngStyle]="{'background': c.value}" placement="bottom"></div>
 									<p id="p-colors" class="pl-2">{{c.key}}</p>
 								</div>
 							</ng-container>
 							<ng-container *ngIf="colors === 'swingingDoorColors'">
-								<div class="col-2" *ngFor="let c of swingingDoorColors | keys">
+								<div class="col-3 col-md-2" *ngFor="let c of swingingDoorColors | keys">
 									<div class="square" mdbTooltip="{{c.key}}" [ngStyle]="{'background': c.value}" placement="bottom"></div>
 									<p id="p-colors" class="pl-2">{{c.key}}</p>
 								</div>
 							</ng-container>
 							<ng-container *ngIf="colors === 'securityDoorColors'">
-								<div class="col-2" *ngFor="let c of securityDoorColors | keys">
+								<div class="col-3 col-md-2" *ngFor="let c of securityDoorColors | keys">
 									<div class="square" mdbTooltip="{{c.key}}" [ngStyle]="{'background': c.value}" placement="bottom"></div>
 									<p id="p-colors" class="pl-2">{{c.key}}</p>
 								</div>
@@ -81,7 +90,7 @@
 		</div>
 	</div>
 
-	<div class="container py-4">
+	<div class="container py-4" id="tab-section">
 		<div class="row">
 			<div class="col-md-12">
 				<nav>
