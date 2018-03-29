@@ -9,40 +9,46 @@ import { Ng2PageScrollModule } from 'ng2-page-scroll';
 
 import { AppRoutingModule } from './app-routing.module';
 import { AppComponent } from './app.component';
-import { KeysPipe } from './utility/keys.pipe';
 
 import { AboutComponent } from './about/about.component';
+import { ActionButtonsComponent } from './action-buttons/action-buttons.component';
 import { BlogComponent } from './blog/blog.component';
 import { ContactComponent } from './contact/contact.component';
 import { FooterComponent } from './footer/footer.component';
+import { GridComponent } from './grid/grid.component';
 import { HomeComponent } from './home/home.component';
+import { LightboxGalleryComponent } from './lightbox-gallery/lightbox-gallery.component';
 import { NavigationComponent } from './navigation/navigation.component';
-import { ServiceListComponent } from './service-list/service-list.component';
-import { ServiceDetailComponent } from './service-detail/service-detail.component';
+import { PageNotFoundComponent } from './page-not-found/page-not-found.component';
+import { ProductDetailComponent } from './product-detail/product-detail.component';
 import { SearchComponent } from './search/search.component';
 import { SearchDetailComponent } from './search-detail/search-detail.component';
-import { ActionButtonsComponent } from './action-buttons/action-buttons.component';
-import { ProductDetailComponent } from './product-detail/product-detail.component';
-import { LightboxGalleryComponent } from './lightbox-gallery/lightbox-gallery.component';
+import { ServiceListComponent } from './service-list/service-list.component';
+import { ServiceDetailComponent } from './service-detail/service-detail.component';
+
+import { KeysPipe } from './utility/keys.pipe';
 
 @NgModule({
   declarations: [
     AppComponent,
     // myComponents
     AboutComponent,
+    ActionButtonsComponent,
     BlogComponent,
     ContactComponent,
     FooterComponent,
+    GridComponent,
     HomeComponent,
+    LightboxGalleryComponent,
     NavigationComponent,
-    ServiceListComponent,
-    ServiceDetailComponent,
+    PageNotFoundComponent,
+    ProductDetailComponent,
     SearchComponent,
     SearchDetailComponent,
-    ActionButtonsComponent,
-    ProductDetailComponent,
-    LightboxGalleryComponent,
-    KeysPipe,
+    ServiceListComponent,
+    ServiceDetailComponent,
+    // myPipes
+    KeysPipe
   ],
   imports: [
     AppRoutingModule,

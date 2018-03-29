@@ -8,47 +8,21 @@ import { Component, OnInit } from '@angular/core';
 export class LightboxGalleryComponent implements OnInit {
 
   constructor() { }
+  images = []
 
-  ngOnInit() {}
+  ngOnInit() {
+      this.images = [
+          { img: "https://mdbootstrap.com/img/Photos/Lightbox/Original/img%20(145).jpg", thumb: "https://mdbootstrap.com/img/Photos/Lightbox/Original/img%20(145).jpg", description: "Image 1" },
+          { img: "https://mdbootstrap.com/img/Photos/Lightbox/Original/img%20(150).jpg", thumb: "https://mdbootstrap.com/img/Photos/Lightbox/Original/img%20(150).jpg", description: "Image 2" },
+          { img: "https://mdbootstrap.com/img/Photos/Lightbox/Original/img%20(152).jpg", thumb: "https://mdbootstrap.com/img/Photos/Lightbox/Original/img%20(152).jpg", description: "Image 3" },
+          { img: "https://mdbootstrap.com/img/Photos/Lightbox/Original/img%20(42).jpg", thumb: "https://mdbootstrap.com/img/Photos/Lightbox/Original/img%20(42).jpg", description: "Image 4" },
+          { img: "https://mdbootstrap.com/img/Photos/Lightbox/Original/img%20(151).jpg", thumb: "https://mdbootstrap.com/img/Photos/Lightbox/Original/img%20(151).jpg", description: "Image 5" },
+          { img: "https://mdbootstrap.com/img/Photos/Lightbox/Original/img%20(40).jpg", thumb: "https://mdbootstrap.com/img/Photos/Lightbox/Original/img%20(40).jpg", description: "Image 6" },
+          { img: "https://mdbootstrap.com/img/Photos/Lightbox/Original/img%20(148).jpg", thumb: "https://mdbootstrap.com/img/Photos/Lightbox/Original/img%20(148).jpg", description: "Image 7" },
+          { img: "https://mdbootstrap.com/img/Photos/Lightbox/Original/img%20(147).jpg", thumb: "https://mdbootstrap.com/img/Photos/Lightbox/Original/img%20(147).jpg", description: "Image 8" },
+          { img: "https://mdbootstrap.com/img/Photos/Lightbox/Original/img%20(149).jpg", thumb: "https://mdbootstrap.com/img/Photos/Lightbox/Original/img%20(149).jpg", description: "Image 9" }
+      ]
+  }
 
-  // Open the Modal
-  openModal(){
-    document.getElementById('myModal').style.display="block";
-  }
-  // Close the Modal
-  closeModal() {
-    document.getElementById('myModal').style.display="none";
-  }
-  slideIndex:number = 1;
 
-  // Next/previous controls
-  plusSlides(n:number){
-    this.showSlides(this.slideIndex += n);
-  }
-  // Thumbnail image controls
-  currentSlide(n) {
-    this.showSlides(this.slideIndex = n);
-  }
-  showSlides(n) {
-    var i;
-    var slides = document.getElementsByClassName('mySlides');
-    var dots = document.getElementsByClassName('demo');
-    var captionText = document.getElementById('caption');
-    if (n > slides.length){
-        this.slideIndex = 1
-    }
-    if (n < 1){
-        this.slideIndex = slides.length
-    }
-    for (i = 0; i < slides.length; i++) {
-      // slides[i].style.display = "none";
-    }
-    for (i = 0; i < dots.length; i++) {
-      dots[i].className = dots[i].className.replace(" active", "");
-    }
-    // slides[this.slideIndex-1].style.display="block";
-    dots[this.slideIndex-1].className+=" active";
-    // captionText.innerHTML = dots[this.slideIndex-1].alt;
-  }
-  // showSlides(slideIndex);
 }
