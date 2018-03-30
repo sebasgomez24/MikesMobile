@@ -27,6 +27,9 @@ import { ServiceListComponent } from './service-list/service-list.component';
 import { ServiceDetailComponent } from './service-detail/service-detail.component';
 
 import { KeysPipe } from './utility/keys.pipe';
+import { SwingingDoorsListComponent } from './swinging-doors-list/swinging-doors-list.component';
+import { ChimneyAccessoriesListComponent } from './chimney-accessories-list/chimney-accessories-list.component';
+import { ChimneyRepairsListComponent } from './chimney-repairs-list/chimney-repairs-list.component';
 
 @NgModule({
   declarations: [
@@ -48,7 +51,10 @@ import { KeysPipe } from './utility/keys.pipe';
     ServiceListComponent,
     ServiceDetailComponent,
     // myPipes
-    KeysPipe
+    KeysPipe,
+    SwingingDoorsListComponent,
+    ChimneyAccessoriesListComponent,
+    ChimneyRepairsListComponent
   ],
   imports: [
     AppRoutingModule,

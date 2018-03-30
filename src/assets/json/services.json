@@ -34,16 +34,147 @@
         "colorSet":["colorSetx4"]
     },
     {
-        "title":"Swinging Screen Door",
-        "slug":"swinging-screen-door",
+        "title":"Swinging Screen Doors",
+        "slug":"swinging-screen-doors",
         "category":"Screens",
         "subcategory":"Door",
-        "type":"products",
+        "type":"grid",
         "bullets":[],
         "tileImage":"/assets/images/screens/swinging-door.jpg",
-        "tileText":"Looking for that old-fashioned simplicity of a swinging screen door? We have many styles and colors to choose from. These are the best swinging screen doors on the market and we can fit them to virtually any door- completely custom doors and French sets are no problem!",
-        "thumbImages":[]
+        "tileText":"Looking for that old-fashioned simplicity of a swinging screen door? We have many styles and colors to choose from."
     },
+    {
+        "title":"Brighton",
+        "slug":"brighton-swinging-screen-door",
+        "category":"Swinging Screen Door",
+        "subcategory":"Door",
+        "type":"products",
+        "bullets":["The Brighton style Swinging Screen Door mixes an elegant and open design.","It offers two horizontal bars and two vertical bars inside of the extruded aluminum frame.","Standard and custom sizes are available and comes with charcoal fiberglass bug mesh.","You can add Solar Screen to the door to make even more durable!"],
+        "tileImage":"/assets/images/screens/swinging-screen-doors/brighton/brighton.png",
+        "tileText":"Call us today and get great pricing on window screen replacements. We specialize in all kinds of window screens and Solar Screens.",
+        "productOverview":"Mike's Mobile Screen & Chimney Service offers high quality Swinging Screen doors. The Brighton Swinging Screen Doors offers a 1in. Wide Sculptured 9 Lite marginal grid pattern which combines elegance and openess to this door design. Our prices include installation. Call today to find out more!",
+        "technicalSpecs":"<li>2-1/8in. x 3/4in. .050 Extruded Aluminum Frame</li><li>Available in Standard Sizes</li><li>2ft 6in. x 6ft 8in. (29-1/4in. x 79-1/4in.)</li><li>2ft 8in. x 6ft 8in. (31-1/4in. x 79-1/4in.)</li><li>3ft 0in x 6ft 8in. (35-1/4in. x 79-1/4in.)</li><li>Custom Widths 24in. - 47in., Heights up to 96in.</li><li>1in. Wide Sculptured 9 Lite Marginal Grid Pattern</li><li>Charcoal Fiberglass Insect Screening</li><li>Standard Push Button Handle</li><li>1-7/8in Side Adjustable .050 Channel with 3 Hinges</li><li>1-7/8in Bottom Adjustment .050 Channel</li><li>Precision SAFEGUARD Packaging - Complete with Hardware.</li>",
+        "options":"<li>Double Door Option</li><li>Hinge Expader or Pre Hung Frame</li><li>Frame Colors Available: Adobe, Almond, Bronze, Weathered Brown, and White</li><li>Solar Screen</li><li>9in. Kick Plate</li>",
+        "relatedProducts":"<li>Sliding Screen Doors</li><li>Rollaway Screen Doors</li><li>Window Screens</li><li>Security Doors</li><li>Swinging Screen Doors</li>",
+        "warranty":"Warranty covers workmanship of door. This includes hardware not working properly, corners coming apart, handle not functioning, and any other workmanship issues not listed here that are determined to be the fault of the manufacturer. Not covered under the warranty is any damage to the screen (Solar Screen has a warranty, Bugscreen does not.) or intentional damage including tampering with the door, damaged caused by brute, or intentional, force, damage from a pet or any other intentional act not deemed a workmanship flaw.",
+        "colorSet":["swingingDoorColors"]
+    },
+    {
+        "title":"Clearview",
+        "slug":"clearview-swinging-screen-door",
+        "category":"Swinging Screen Door",
+        "subcategory":"Door",
+        "type":"products",
+        "bullets":["The Clearview Swinging Screen Door is open design that maximizes visibility and ventilation.","This door comes in standard and custom sizes.","Customize your door today and add a pet door or Solar Screen today!"],
+        "tileImage":"/assets/images/screens/swinging-screen-doors/clearview/clearview.png",
+        "tileText":"Call us today and get great pricing on window screen replacements. We specialize in all kinds of window screens and Solar Screens.",
+        "productOverview":"Mike's Mobile Screen & Chimney Service offers high quality Swinging Screen doors. The Brighton Swinging Screen Doors offers a 1in. Wide Sculptured 9 Lite marginal grid pattern which combines elegance and openess to this door design. Our prices include installation. Call today to find out more!",
+        "technicalSpecs":"<li>2-1/8in. x 3/4in. .050 Extruded Aluminum Frame</li><li>Available in Standard Sizes</li><li>2ft 6in. x 6ft 8in. (29-1/4in. x 79-1/4in.)</li><li>2ft 8in. x 6ft 8in. (31-1/4in. x 79-1/4in.)</li><li>3ft 0in x 6ft 8in. (35-1/4in. x 79-1/4in.)</li><li>Custom Widths 24in. - 47in., Heights up to 96in.</li><li>1in. Wide Sculptured 9 Lite Marginal Grid Pattern</li><li>Charcoal Fiberglass Insect Screening</li><li>Standard Push Button Handle</li><li>1-7/8in Side Adjustable .050 Channel with 3 Hinges</li><li>1-7/8in Bottom Adjustment .050 Channel</li><li>Precision SAFEGUARD Packaging - Complete with Hardware.</li>",
+        "options":"<li>Double Door Option</li><li>Hinge Expader or Pre Hung Frame</li><li>Frame Colors Available: Adobe, Almond, Bronze, Weathered Brown, and White</li><li>Solar Screen</li><li>9in. Kick Plate</li>",
+        "relatedProducts":"<li>Sliding Screen Doors</li><li>Rollaway Screen Doors</li><li>Window Screens</li><li>Security Doors</li><li>Swinging Screen Doors</li>",
+        "warranty":"Warranty covers workmanship of door. This includes hardware not working properly, corners coming apart, handle not functioning, and any other workmanship issues not listed here that are determined to be the fault of the manufacturer. Not covered under the warranty is any damage to the screen (Solar Screen has a warranty, Bugscreen does not.) or intentional damage including tampering with the door, damaged caused by brute, or intentional, force, damage from a pet or any other intentional act not deemed a workmanship flaw.",
+        "colorSet":["swingingDoorColors"]
+    },
+    {
+        "title":"Colonade",
+        "slug":"colonade-swinging-screen-door",
+        "category":"Swinging Screen Door",
+        "subcategory":"Door",
+        "type":"products",
+        "bullets":["The Clearview Swinging Screen Door is open design that maximizes visibility and ventilation.","This door comes in standard and custom sizes.","Customize your door today and add a pet door or Solar Screen today!"],
+        "tileImage":"/assets/images/screens/swinging-screen-doors/colonade/colonade.png",
+        "tileText":"Call us today and get great pricing on window screen replacements. We specialize in all kinds of window screens and Solar Screens.",
+        "productOverview":"Mike's Mobile Screen & Chimney Service offers high quality Swinging Screen doors. The Brighton Swinging Screen Doors offers a 1in. Wide Sculptured 9 Lite marginal grid pattern which combines elegance and openess to this door design. Our prices include installation. Call today to find out more!",
+        "technicalSpecs":"<li>2-1/8in. x 3/4in. .050 Extruded Aluminum Frame</li><li>Available in Standard Sizes</li><li>2ft 6in. x 6ft 8in. (29-1/4in. x 79-1/4in.)</li><li>2ft 8in. x 6ft 8in. (31-1/4in. x 79-1/4in.)</li><li>3ft 0in x 6ft 8in. (35-1/4in. x 79-1/4in.)</li><li>Custom Widths 24in. - 47in., Heights up to 96in.</li><li>1in. Wide Sculptured 9 Lite Marginal Grid Pattern</li><li>Charcoal Fiberglass Insect Screening</li><li>Standard Push Button Handle</li><li>1-7/8in Side Adjustable .050 Channel with 3 Hinges</li><li>1-7/8in Bottom Adjustment .050 Channel</li><li>Precision SAFEGUARD Packaging - Complete with Hardware.</li>",
+        "options":"<li>Double Door Option</li><li>Hinge Expader or Pre Hung Frame</li><li>Frame Colors Available: Adobe, Almond, Bronze, Weathered Brown, and White</li><li>Solar Screen</li><li>9in. Kick Plate</li>",
+        "relatedProducts":"<li>Sliding Screen Doors</li><li>Rollaway Screen Doors</li><li>Window Screens</li><li>Security Doors</li><li>Swinging Screen Doors</li>",
+        "warranty":"Warranty covers workmanship of door. This includes hardware not working properly, corners coming apart, handle not functioning, and any other workmanship issues not listed here that are determined to be the fault of the manufacturer. Not covered under the warranty is any damage to the screen (Solar Screen has a warranty, Bugscreen does not.) or intentional damage including tampering with the door, damaged caused by brute, or intentional, force, damage from a pet or any other intentional act not deemed a workmanship flaw.",
+        "colorSet":["swingingDoorColors"]
+    },
+    {
+        "title":"Craftsman",
+        "slug":"craftsman-swinging-screen-door",
+        "category":"Swinging Screen Door",
+        "subcategory":"Door",
+        "type":"products",
+        "bullets":["The Clearview Swinging Screen Door is open design that maximizes visibility and ventilation.","This door comes in standard and custom sizes.","Customize your door today and add a pet door or Solar Screen today!"],
+        "tileImage":"/assets/images/screens/swinging-screen-doors/craftsman/craftsman.png",
+        "tileText":"Call us today and get great pricing on window screen replacements. We specialize in all kinds of window screens and Solar Screens.",
+        "productOverview":"Mike's Mobile Screen & Chimney Service offers high quality Swinging Screen doors. The Brighton Swinging Screen Doors offers a 1in. Wide Sculptured 9 Lite marginal grid pattern which combines elegance and openess to this door design. Our prices include installation. Call today to find out more!",
+        "technicalSpecs":"<li>2-1/8in. x 3/4in. .050 Extruded Aluminum Frame</li><li>Available in Standard Sizes</li><li>2ft 6in. x 6ft 8in. (29-1/4in. x 79-1/4in.)</li><li>2ft 8in. x 6ft 8in. (31-1/4in. x 79-1/4in.)</li><li>3ft 0in x 6ft 8in. (35-1/4in. x 79-1/4in.)</li><li>Custom Widths 24in. - 47in., Heights up to 96in.</li><li>1in. Wide Sculptured 9 Lite Marginal Grid Pattern</li><li>Charcoal Fiberglass Insect Screening</li><li>Standard Push Button Handle</li><li>1-7/8in Side Adjustable .050 Channel with 3 Hinges</li><li>1-7/8in Bottom Adjustment .050 Channel</li><li>Precision SAFEGUARD Packaging - Complete with Hardware.</li>",
+        "options":"<li>Double Door Option</li><li>Hinge Expader or Pre Hung Frame</li><li>Frame Colors Available: Adobe, Almond, Bronze, Weathered Brown, and White</li><li>Solar Screen</li><li>9in. Kick Plate</li>",
+        "relatedProducts":"<li>Sliding Screen Doors</li><li>Rollaway Screen Doors</li><li>Window Screens</li><li>Security Doors</li><li>Swinging Screen Doors</li>",
+        "warranty":"Warranty covers workmanship of door. This includes hardware not working properly, corners coming apart, handle not functioning, and any other workmanship issues not listed here that are determined to be the fault of the manufacturer. Not covered under the warranty is any damage to the screen (Solar Screen has a warranty, Bugscreen does not.) or intentional damage including tampering with the door, damaged caused by brute, or intentional, force, damage from a pet or any other intentional act not deemed a workmanship flaw.",
+        "colorSet":["swingingDoorColors"]
+    },
+    {
+        "title":"El Dorado",
+        "slug":"el-dorado-swinging-screen-door",
+        "category":"Swinging Screen Door",
+        "subcategory":"Door",
+        "type":"products",
+        "bullets":["The Clearview Swinging Screen Door is open design that maximizes visibility and ventilation.","This door comes in standard and custom sizes.","Customize your door today and add a pet door or Solar Screen today!"],
+        "tileImage":"/assets/images/screens/swinging-screen-doors/el-dorado/el-dorado.png",
+        "tileText":"Call us today and get great pricing on window screen replacements. We specialize in all kinds of window screens and Solar Screens.",
+        "productOverview":"Mike's Mobile Screen & Chimney Service offers high quality Swinging Screen doors. The Brighton Swinging Screen Doors offers a 1in. Wide Sculptured 9 Lite marginal grid pattern which combines elegance and openess to this door design. Our prices include installation. Call today to find out more!",
+        "technicalSpecs":"<li>2-1/8in. x 3/4in. .050 Extruded Aluminum Frame</li><li>Available in Standard Sizes</li><li>2ft 6in. x 6ft 8in. (29-1/4in. x 79-1/4in.)</li><li>2ft 8in. x 6ft 8in. (31-1/4in. x 79-1/4in.)</li><li>3ft 0in x 6ft 8in. (35-1/4in. x 79-1/4in.)</li><li>Custom Widths 24in. - 47in., Heights up to 96in.</li><li>1in. Wide Sculptured 9 Lite Marginal Grid Pattern</li><li>Charcoal Fiberglass Insect Screening</li><li>Standard Push Button Handle</li><li>1-7/8in Side Adjustable .050 Channel with 3 Hinges</li><li>1-7/8in Bottom Adjustment .050 Channel</li><li>Precision SAFEGUARD Packaging - Complete with Hardware.</li>",
+        "options":"<li>Double Door Option</li><li>Hinge Expader or Pre Hung Frame</li><li>Frame Colors Available: Adobe, Almond, Bronze, Weathered Brown, and White</li><li>Solar Screen</li><li>9in. Kick Plate</li>",
+        "relatedProducts":"<li>Sliding Screen Doors</li><li>Rollaway Screen Doors</li><li>Window Screens</li><li>Security Doors</li><li>Swinging Screen Doors</li>",
+        "warranty":"Warranty covers workmanship of door. This includes hardware not working properly, corners coming apart, handle not functioning, and any other workmanship issues not listed here that are determined to be the fault of the manufacturer. Not covered under the warranty is any damage to the screen (Solar Screen has a warranty, Bugscreen does not.) or intentional damage including tampering with the door, damaged caused by brute, or intentional, force, damage from a pet or any other intentional act not deemed a workmanship flaw.",
+        "colorSet":["swingingDoorColors"]
+    },
+    {
+        "title":"Fiesta",
+        "slug":"fiesta-swinging-screen-door",
+        "category":"Swinging Screen Door",
+        "subcategory":"Door",
+        "type":"products",
+        "bullets":["The Clearview Swinging Screen Door is open design that maximizes visibility and ventilation.","This door comes in standard and custom sizes.","Customize your door today and add a pet door or Solar Screen today!"],
+        "tileImage":"/assets/images/screens/swinging-screen-doors/fiesta/fiesta.png",
+        "tileText":"Call us today and get great pricing on window screen replacements. We specialize in all kinds of window screens and Solar Screens.",
+        "productOverview":"Mike's Mobile Screen & Chimney Service offers high quality Swinging Screen doors. The Brighton Swinging Screen Doors offers a 1in. Wide Sculptured 9 Lite marginal grid pattern which combines elegance and openess to this door design. Our prices include installation. Call today to find out more!",
+        "technicalSpecs":"<li>2-1/8in. x 3/4in. .050 Extruded Aluminum Frame</li><li>Available in Standard Sizes</li><li>2ft 6in. x 6ft 8in. (29-1/4in. x 79-1/4in.)</li><li>2ft 8in. x 6ft 8in. (31-1/4in. x 79-1/4in.)</li><li>3ft 0in x 6ft 8in. (35-1/4in. x 79-1/4in.)</li><li>Custom Widths 24in. - 47in., Heights up to 96in.</li><li>1in. Wide Sculptured 9 Lite Marginal Grid Pattern</li><li>Charcoal Fiberglass Insect Screening</li><li>Standard Push Button Handle</li><li>1-7/8in Side Adjustable .050 Channel with 3 Hinges</li><li>1-7/8in Bottom Adjustment .050 Channel</li><li>Precision SAFEGUARD Packaging - Complete with Hardware.</li>",
+        "options":"<li>Double Door Option</li><li>Hinge Expader or Pre Hung Frame</li><li>Frame Colors Available: Adobe, Almond, Bronze, Weathered Brown, and White</li><li>Solar Screen</li><li>9in. Kick Plate</li>",
+        "relatedProducts":"<li>Sliding Screen Doors</li><li>Rollaway Screen Doors</li><li>Window Screens</li><li>Security Doors</li><li>Swinging Screen Doors</li>",
+        "warranty":"Warranty covers workmanship of door. This includes hardware not working properly, corners coming apart, handle not functioning, and any other workmanship issues not listed here that are determined to be the fault of the manufacturer. Not covered under the warranty is any damage to the screen (Solar Screen has a warranty, Bugscreen does not.) or intentional damage including tampering with the door, damaged caused by brute, or intentional, force, damage from a pet or any other intentional act not deemed a workmanship flaw.",
+        "colorSet":["swingingDoorColors"]
+    },
+    {
+        "title":"Safeguard",
+        "slug":"safeguard-swinging-screen-door",
+        "category":"Swinging Screen Door",
+        "subcategory":"Door",
+        "type":"products",
+        "bullets":["The Clearview Swinging Screen Door is open design that maximizes visibility and ventilation.","This door comes in standard and custom sizes.","Customize your door today and add a pet door or Solar Screen today!"],
+        "tileImage":"/assets/images/screens/swinging-screen-doors/safeguard/safeguard.png",
+        "tileText":"Call us today and get great pricing on window screen replacements. We specialize in all kinds of window screens and Solar Screens.",
+        "productOverview":"Mike's Mobile Screen & Chimney Service offers high quality Swinging Screen doors. The Brighton Swinging Screen Doors offers a 1in. Wide Sculptured 9 Lite marginal grid pattern which combines elegance and openess to this door design. Our prices include installation. Call today to find out more!",
+        "technicalSpecs":"<li>2-1/8in. x 3/4in. .050 Extruded Aluminum Frame</li><li>Available in Standard Sizes</li><li>2ft 6in. x 6ft 8in. (29-1/4in. x 79-1/4in.)</li><li>2ft 8in. x 6ft 8in. (31-1/4in. x 79-1/4in.)</li><li>3ft 0in x 6ft 8in. (35-1/4in. x 79-1/4in.)</li><li>Custom Widths 24in. - 47in., Heights up to 96in.</li><li>1in. Wide Sculptured 9 Lite Marginal Grid Pattern</li><li>Charcoal Fiberglass Insect Screening</li><li>Standard Push Button Handle</li><li>1-7/8in Side Adjustable .050 Channel with 3 Hinges</li><li>1-7/8in Bottom Adjustment .050 Channel</li><li>Precision SAFEGUARD Packaging - Complete with Hardware.</li>",
+        "options":"<li>Double Door Option</li><li>Hinge Expader or Pre Hung Frame</li><li>Frame Colors Available: Adobe, Almond, Bronze, Weathered Brown, and White</li><li>Solar Screen</li><li>9in. Kick Plate</li>",
+        "relatedProducts":"<li>Sliding Screen Doors</li><li>Rollaway Screen Doors</li><li>Window Screens</li><li>Security Doors</li><li>Swinging Screen Doors</li>",
+        "warranty":"Warranty covers workmanship of door. This includes hardware not working properly, corners coming apart, handle not functioning, and any other workmanship issues not listed here that are determined to be the fault of the manufacturer. Not covered under the warranty is any damage to the screen (Solar Screen has a warranty, Bugscreen does not.) or intentional damage including tampering with the door, damaged caused by brute, or intentional, force, damage from a pet or any other intentional act not deemed a workmanship flaw.",
+        "colorSet":["swingingDoorColors"]
+    },
+    {
+        "title":"Santa Cruz",
+        "slug":"santa-cruz-swinging-screen-door",
+        "category":"Swinging Screen Door",
+        "subcategory":"Door",
+        "type":"products",
+        "bullets":["The Santa Cruz Swinging Screen Door is a classic style screen door with a bottom half grille.","This grille is an extruded aluminum amplimesh style grille that adds character and charm to this awesome screen door.","This door comes in standard and custom sizes. Customize your door today and add a pet door!"],
+        "tileImage":"/assets/images/screens/swinging-screen-doors/santa-cruz/santa-cruz.png",
+        "tileText":"Looking for that old-fashioned simplicity of a swinging screen door? We have many styles and colors to choose from.",
+        "productOverview":"Mike's Mobile Screen & Chimney Service offers high quality Swinging Screen doors. The Santa Cruz Swinging Screen Door is another option for customers searching for the perfect screen door. The screen door comes standard with a charcoal fiberglass bug mesh. Try adding a Pet Door or Solar Screen!",
+        "technicalSpecs":"<li>2-1/8in. x 3/4in. .050 Extruded Aluminum Frame</li><li>Standard 12in. Embossed .024 Aluminum Kickplate</li><li>Available in Standard Sizes</li><li>2ft 6in. x 6ft 8in. (29-1/4in. x 79-1/4in.)</li><li>2ft 8in. x 6ft 8in. (31-1/4in. x 79-1/4in.)</li><li>3ft 0in. x 6ft 8in. (35-1/4in. x 79-1/4in.)</li><li>Custom Widths 24in. - 42in., Heights up to 96in.</li><li>Charcoal Fiberglass Insect Screening</li><li>Standard Push Button Handle</li><li>1-7/8in. Side Adjustable .050 Channel with 3 Hinges</li><li>1-7/8in. Bottom Adjustment .050 Channel</li><li>Precision SAFEGUARD Packaging - Complete with Hardware.</li><li>Extruded Amplimesh 3/16in. Aluminum Grille</li><li>NOTE: Grille Turned Sideways on Doors</li><li>Over 35-1/4in. Wide</li>",
+        "options":"<li>Double Door Option</li><li>Hinge Expader or Pre Hung Frame</li><li>Frame Colors Available: Available in all colors except Mill</li><li>Solar Screen</li><li>Pet Door</li><li>Kick Plate</li>",
+        "relatedProducts":"<li>Sliding Screen Doors</li><li>Rollaway Screen Doors</li><li>Window Screens</li><li>Security Doors</li><li>Swinging Screen Doors</li>",
+        "warranty":"Warranty covers workmanship of door. This includes hardware not working properly, corners coming apart, handle not functioning, and any other workmanship issues not listed here that are determined to be the fault of the manufacturer. Not covered under the warranty is any damage to the screen (Solar Screen has a warranty, Bugscreen does not.) or intentional damage including tampering with the door, damaged caused by brute, or intentional, force, damage from a pet or any other intentional act not deemed a workmanship flaw.",
+        "colorSet":["swingingDoorColors"]
+    },
+
+
+
+
     {
         "title":"Window Screen Repair",
         "slug":"screen-repair",
@@ -92,7 +223,7 @@
         "subcategory":"Door",
         "type":"services",
         "bullets":[],
-        "tileImage":"/assets/images/screens/pet-door-main.png",
+        "tileImage":"/assets/images/screens/pet-door-main.jpg",
         "tileText":"Not your average pet door! These doors are made to LAST, unlike those flimsy plastic kits from the hardware store that are just going to cause you problems.",
         "images":["https://mdbootstrap.com/img/Photos/Slides/img%20(134).jpg", "image2"],
         "serviceImgCaption":"Not your average pet door!",
@@ -104,6 +235,17 @@
         "textBlock2":"The locking cover (not shown) is particle board enameled bright white on one side for greater visibility to the pet. This cover should be used on the same side as the pet. However, It is designed to be breakable as a safety precaution in case the pet crashes into it from the wrong side."
     },
 
+    {
+        "title":"Accessories",
+        "slug":"accessories",
+        "category":"Chimney",
+        "type":"grid",
+        "bullets":[],
+        "tileImage":"/assets/images/chimneys/fireplace-screen.jpg",
+        "tileText":"Is your fireplace too plain or not quite working right? Mike’s Mobile offers a wide range of chimney accessories. From caps to keep out rain to grates to help wood more efficiently, we have it all!",
+        "thumbImages":[],
+        "video":""
+    },
     {
         "title":"Cleaning",
         "slug":"cleaning",
@@ -121,7 +263,7 @@
         "slug":"inspections",
         "category":"Chimney",
         "type":"services",
-        "tileImage":"assets/images/chimneys/inspections/chimney-inspections.png",
+        "tileImage":"assets/images/chimneys/inspections/inspections.jpg",
         "tileText":"Keep your chimney safe and in great shape. Schedule a certified chimney inspection before you burn.",
         "textList":[
             {
@@ -139,10 +281,10 @@
         ]
     },
     {
-        "title":"Repair",
-        "slug":"repair",
+        "title":"Repairs",
+        "slug":"repairs",
         "category":"Chimney",
-        "type":"services",
+        "type":"grid",
         "tileImage":"/assets/images/chimneys/chimney-unsplash.jpg",
         "tileText":"When it comes to chimney repairs, our chimney professionals are your go-to for crown seals, heat damage, masonry repair, chimney liners, refractory panels, chimney de-glazing, and more!",
         "serviceImgCaption":"Have our chimney professionals clean and inspect your chimney.",
@@ -151,21 +293,145 @@
         "textBlock2":"<h5 class='feature-title font-bold'></h5><p class='gray-text'>How often should you have your chimney cleaned? Both the CSIA (Chimney Safety Institute of America) and the National Fire Protection Association recommend yearly chimney inspections. With our chimney cleaning service, we provide an annual inspection along with the assurance of a clean chimney while you burn. Even if you don’t use your chimney often, it is possible to have debris or animals make your chimney unsafe without you even knowing. Animal nests pose a hazard to any chimney by providing combustible materials towards the roof or inside the chimney itself.</p>"
     },
     {
-        "title":"Accessories",
-        "slug":"accessories",
-        "category":"Chimney",
-        "type":"products",
-        "bullets":[],
-        "tileImage":"/assets/images/chimneys/fireplace-screen.jpg",
-        "tileText":"Is your fireplace too plain or not quite working right? Mike’s Mobile offers a wide range of chimney accessories. From caps to keep out rain to grates to help wood more efficiently, we have it all!",
-        "thumbImages":[],
-        "video":""
+        "title":"Crown Seal",
+        "slug":"crown-seal",
+        "category":"repairs",
+        "type":"services",
+        "tileImage":"assets/images/chimneys/repairs/crown-seal/crown-seal.jpg",
+        "tileText":"Protect your chimney from water damage. Get a crown seal for your chimney now!",
+        "textList":[
+            {
+                "title":"A chimney crown seal protects the chimney crown from damage over time.",
+                "description":"Your chimney crown is the area that is around the top of the chimney (not to be confused with the chimney cap that is an attachment that is added to the top of the flue pipe). A chimney crown seal protects the chimney crown from damage over time. The chimney crown tops off the masonry walls of the chimney, usually with a wider masonry or cement area. This solid covering stops moisture from filtering down through your brick or stone work in your chimney. The crown is vital to protecting the mortar that holds everything together."
+            },
+            {
+                "title":"Chimney Lifetime",
+                "description":"There are chimney crown sealants that are able to be applied to a chimney crown that still has structural integrity but needs to be waterproofed. Larger cracks are filled with high bond patching material and then the crown seal is applied over the top of the whole chimney crown. The sealant forms a waterproof membrane between the elements and your chimney.When properly applied, these solutions can add up to 15 years to the life of a chimney crown that has begun to wear."
+            },
+            {
+                "title":"Call us today and repair your chimney crown",
+                "description":"If your chimney crown is showing its age, it may be time to replace it with a new concrete chimney cap before it is too late. Some masons will simply use mortar mix to create a new top for the chimney. The problem with that is, mortar mix will crack and leak very quickly and is not a weather resistant material. A cement chimney crown that is properly designed to overhang the outside dimensions of the chimney structure is the best solution. When your chimney crown becomes cracked or has lost pieces of its original shape it no longer is doing the job that it needs to. Once your chimney crown begins deteriorating and falling apart, it won’t be long before serious damage will set in to your entire chimney. It may be worth a visit to your roof once in a while to do your own inspection of the chimney crown. Don’t take our word for it – just take a quick drive around downtown and look up at the older masonry chimneys. Most of them are literally falling apart from the top down. The last thing someone needs is bricks falling down or costly repairs. When we service our customers with their annual inspection and chimney cleaning, the chimney crown is a key area that we look at. If there are any defects at all, we suggest an immediate crown seal to prevent more damage."
+            }
+        ]
     },
+    {
+        "title":"Rear Firewall Heat Damage",
+        "slug":"rear-firewall-heat-damage",
+        "category":"repairs",
+        "type":"services",
+        "tileImage":"assets/images/chimneys/repairs/rear-firewall-heat-damage/rear-firewall-heat-damage.jpg",
+        "tileText":"Protect your chimney from water damage. Get a crown seal for your chimney now!",
+        "textList":[
+            {
+                "title":"A chimney crown seal protects the chimney crown from damage over time.",
+                "description":"Your chimney crown is the area that is around the top of the chimney (not to be confused with the chimney cap that is an attachment that is added to the top of the flue pipe). A chimney crown seal protects the chimney crown from damage over time. The chimney crown tops off the masonry walls of the chimney, usually with a wider masonry or cement area. This solid covering stops moisture from filtering down through your brick or stone work in your chimney. The crown is vital to protecting the mortar that holds everything together."
+            },
+            {
+                "title":"Chimney Lifetime",
+                "description":"There are chimney crown sealants that are able to be applied to a chimney crown that still has structural integrity but needs to be waterproofed. Larger cracks are filled with high bond patching material and then the crown seal is applied over the top of the whole chimney crown. The sealant forms a waterproof membrane between the elements and your chimney.When properly applied, these solutions can add up to 15 years to the life of a chimney crown that has begun to wear."
+            },
+            {
+                "title":"Call us today and repair your chimney crown",
+                "description":"If your chimney crown is showing its age, it may be time to replace it with a new concrete chimney cap before it is too late. Some masons will simply use mortar mix to create a new top for the chimney. The problem with that is, mortar mix will crack and leak very quickly and is not a weather resistant material. A cement chimney crown that is properly designed to overhang the outside dimensions of the chimney structure is the best solution. When your chimney crown becomes cracked or has lost pieces of its original shape it no longer is doing the job that it needs to. Once your chimney crown begins deteriorating and falling apart, it won’t be long before serious damage will set in to your entire chimney. It may be worth a visit to your roof once in a while to do your own inspection of the chimney crown. Don’t take our word for it – just take a quick drive around downtown and look up at the older masonry chimneys. Most of them are literally falling apart from the top down. The last thing someone needs is bricks falling down or costly repairs. When we service our customers with their annual inspection and chimney cleaning, the chimney crown is a key area that we look at. If there are any defects at all, we suggest an immediate crown seal to prevent more damage."
+            }
+        ]
+    },
+    {
+        "title":"Masonry Repair",
+        "slug":"masonry-repair",
+        "category":"repairs",
+        "type":"services",
+        "tileImage":"assets/images/chimneys/repairs/masonry-repair/masonry-repair.jpg",
+        "tileText":"Protect your chimney from water damage. Get a crown seal for your chimney now!",
+        "textList":[
+            {
+                "title":"A chimney crown seal protects the chimney crown from damage over time.",
+                "description":"Your chimney crown is the area that is around the top of the chimney (not to be confused with the chimney cap that is an attachment that is added to the top of the flue pipe). A chimney crown seal protects the chimney crown from damage over time. The chimney crown tops off the masonry walls of the chimney, usually with a wider masonry or cement area. This solid covering stops moisture from filtering down through your brick or stone work in your chimney. The crown is vital to protecting the mortar that holds everything together."
+            },
+            {
+                "title":"Chimney Lifetime",
+                "description":"There are chimney crown sealants that are able to be applied to a chimney crown that still has structural integrity but needs to be waterproofed. Larger cracks are filled with high bond patching material and then the crown seal is applied over the top of the whole chimney crown. The sealant forms a waterproof membrane between the elements and your chimney.When properly applied, these solutions can add up to 15 years to the life of a chimney crown that has begun to wear."
+            },
+            {
+                "title":"Call us today and repair your chimney crown",
+                "description":"If your chimney crown is showing its age, it may be time to replace it with a new concrete chimney cap before it is too late. Some masons will simply use mortar mix to create a new top for the chimney. The problem with that is, mortar mix will crack and leak very quickly and is not a weather resistant material. A cement chimney crown that is properly designed to overhang the outside dimensions of the chimney structure is the best solution. When your chimney crown becomes cracked or has lost pieces of its original shape it no longer is doing the job that it needs to. Once your chimney crown begins deteriorating and falling apart, it won’t be long before serious damage will set in to your entire chimney. It may be worth a visit to your roof once in a while to do your own inspection of the chimney crown. Don’t take our word for it – just take a quick drive around downtown and look up at the older masonry chimneys. Most of them are literally falling apart from the top down. The last thing someone needs is bricks falling down or costly repairs. When we service our customers with their annual inspection and chimney cleaning, the chimney crown is a key area that we look at. If there are any defects at all, we suggest an immediate crown seal to prevent more damage."
+            }
+        ]
+    },
+    {
+        "title":"Chimney Liner",
+        "slug":"chimney-liner",
+        "category":"repairs",
+        "type":"services",
+        "tileImage":"assets/images/chimneys/repairs/chimney-liner/chimney-liner.jpg",
+        "tileText":"Protect your chimney from water damage. Get a crown seal for your chimney now!",
+        "textList":[
+            {
+                "title":"A chimney crown seal protects the chimney crown from damage over time.",
+                "description":"Your chimney crown is the area that is around the top of the chimney (not to be confused with the chimney cap that is an attachment that is added to the top of the flue pipe). A chimney crown seal protects the chimney crown from damage over time. The chimney crown tops off the masonry walls of the chimney, usually with a wider masonry or cement area. This solid covering stops moisture from filtering down through your brick or stone work in your chimney. The crown is vital to protecting the mortar that holds everything together."
+            },
+            {
+                "title":"Chimney Lifetime",
+                "description":"There are chimney crown sealants that are able to be applied to a chimney crown that still has structural integrity but needs to be waterproofed. Larger cracks are filled with high bond patching material and then the crown seal is applied over the top of the whole chimney crown. The sealant forms a waterproof membrane between the elements and your chimney.When properly applied, these solutions can add up to 15 years to the life of a chimney crown that has begun to wear."
+            },
+            {
+                "title":"Call us today and repair your chimney crown",
+                "description":"If your chimney crown is showing its age, it may be time to replace it with a new concrete chimney cap before it is too late. Some masons will simply use mortar mix to create a new top for the chimney. The problem with that is, mortar mix will crack and leak very quickly and is not a weather resistant material. A cement chimney crown that is properly designed to overhang the outside dimensions of the chimney structure is the best solution. When your chimney crown becomes cracked or has lost pieces of its original shape it no longer is doing the job that it needs to. Once your chimney crown begins deteriorating and falling apart, it won’t be long before serious damage will set in to your entire chimney. It may be worth a visit to your roof once in a while to do your own inspection of the chimney crown. Don’t take our word for it – just take a quick drive around downtown and look up at the older masonry chimneys. Most of them are literally falling apart from the top down. The last thing someone needs is bricks falling down or costly repairs. When we service our customers with their annual inspection and chimney cleaning, the chimney crown is a key area that we look at. If there are any defects at all, we suggest an immediate crown seal to prevent more damage."
+            }
+        ]
+    },
+    {
+        "title":"Refractory Panels",
+        "slug":"refractory-panels",
+        "category":"repairs",
+        "type":"services",
+        "tileImage":"assets/images/chimneys/repairs/refractory-panels/refractory-panels.jpg",
+        "tileText":"Protect your chimney from water damage. Get a crown seal for your chimney now!",
+        "textList":[
+            {
+                "title":"A chimney crown seal protects the chimney crown from damage over time.",
+                "description":"Your chimney crown is the area that is around the top of the chimney (not to be confused with the chimney cap that is an attachment that is added to the top of the flue pipe). A chimney crown seal protects the chimney crown from damage over time. The chimney crown tops off the masonry walls of the chimney, usually with a wider masonry or cement area. This solid covering stops moisture from filtering down through your brick or stone work in your chimney. The crown is vital to protecting the mortar that holds everything together."
+            },
+            {
+                "title":"Chimney Lifetime",
+                "description":"There are chimney crown sealants that are able to be applied to a chimney crown that still has structural integrity but needs to be waterproofed. Larger cracks are filled with high bond patching material and then the crown seal is applied over the top of the whole chimney crown. The sealant forms a waterproof membrane between the elements and your chimney.When properly applied, these solutions can add up to 15 years to the life of a chimney crown that has begun to wear."
+            },
+            {
+                "title":"Call us today and repair your chimney crown",
+                "description":"If your chimney crown is showing its age, it may be time to replace it with a new concrete chimney cap before it is too late. Some masons will simply use mortar mix to create a new top for the chimney. The problem with that is, mortar mix will crack and leak very quickly and is not a weather resistant material. A cement chimney crown that is properly designed to overhang the outside dimensions of the chimney structure is the best solution. When your chimney crown becomes cracked or has lost pieces of its original shape it no longer is doing the job that it needs to. Once your chimney crown begins deteriorating and falling apart, it won’t be long before serious damage will set in to your entire chimney. It may be worth a visit to your roof once in a while to do your own inspection of the chimney crown. Don’t take our word for it – just take a quick drive around downtown and look up at the older masonry chimneys. Most of them are literally falling apart from the top down. The last thing someone needs is bricks falling down or costly repairs. When we service our customers with their annual inspection and chimney cleaning, the chimney crown is a key area that we look at. If there are any defects at all, we suggest an immediate crown seal to prevent more damage."
+            }
+        ]
+    },
+    {
+        "title":"Chimney De-Glazing",
+        "slug":"chimney-de-glazing",
+        "category":"repairs",
+        "type":"services",
+        "tileImage":"assets/images/chimneys/repairs/de-glazing/de-glazing.png",
+        "tileText":"Protect your chimney from water damage. Get a crown seal for your chimney now!",
+        "textList":[
+            {
+                "title":"A chimney crown seal protects the chimney crown from damage over time.",
+                "description":"Your chimney crown is the area that is around the top of the chimney (not to be confused with the chimney cap that is an attachment that is added to the top of the flue pipe). A chimney crown seal protects the chimney crown from damage over time. The chimney crown tops off the masonry walls of the chimney, usually with a wider masonry or cement area. This solid covering stops moisture from filtering down through your brick or stone work in your chimney. The crown is vital to protecting the mortar that holds everything together."
+            },
+            {
+                "title":"Chimney Lifetime",
+                "description":"There are chimney crown sealants that are able to be applied to a chimney crown that still has structural integrity but needs to be waterproofed. Larger cracks are filled with high bond patching material and then the crown seal is applied over the top of the whole chimney crown. The sealant forms a waterproof membrane between the elements and your chimney.When properly applied, these solutions can add up to 15 years to the life of a chimney crown that has begun to wear."
+            },
+            {
+                "title":"Call us today and repair your chimney crown",
+                "description":"If your chimney crown is showing its age, it may be time to replace it with a new concrete chimney cap before it is too late. Some masons will simply use mortar mix to create a new top for the chimney. The problem with that is, mortar mix will crack and leak very quickly and is not a weather resistant material. A cement chimney crown that is properly designed to overhang the outside dimensions of the chimney structure is the best solution. When your chimney crown becomes cracked or has lost pieces of its original shape it no longer is doing the job that it needs to. Once your chimney crown begins deteriorating and falling apart, it won’t be long before serious damage will set in to your entire chimney. It may be worth a visit to your roof once in a while to do your own inspection of the chimney crown. Don’t take our word for it – just take a quick drive around downtown and look up at the older masonry chimneys. Most of them are literally falling apart from the top down. The last thing someone needs is bricks falling down or costly repairs. When we service our customers with their annual inspection and chimney cleaning, the chimney crown is a key area that we look at. If there are any defects at all, we suggest an immediate crown seal to prevent more damage."
+            }
+        ]
+    },
+
+
+
     {
         "title":"Resources",
         "slug":"resources",
         "category":"Chimney",
-        "type":"services",
+        "type":"grid",
         "tileImage":"/assets/images/chimneys/resources3.jpg",
         "tileText":"Masonry is a very popular material that gives home owners and builders flexibility. It is beautiful, versatile, resistant to fires, and earthquakes. Masonry is very durable. It can transform a home into looking as if it has stood for centuries, or give some depth and focus to a portion of the home.",
         "textBlock0":"<h5 class='feature-title font-bold'></h5><p class='gray-text'></p>",
@@ -176,12 +442,157 @@
         "title":"Masonry Services",
         "slug":"masonry-services",
         "category":"Chimney",
-        "type":"services",
+        "type":"grid",
         "tileImage":"/assets/images/chimneys/masonry.jpeg",
         "textBlock0":"<h5 class='feature-title font-bold'></h5><p class='gray-text'></p>",
         "textBlock1":"<h5 class='feature-title font-bold'></h5><p class='gray-text'></p>",
         "textBlock2":"<h5 class='feature-title font-bold'></h5><p class='gray-text'></p>"
     },
+    {
+        "title":"Brick/Block/Stone Veneer",
+        "slug":"brick-block-stone-veneer",
+        "category":"masonry-services",
+        "type":"services",
+        "tileImage":"assets/images/chimneys/masonry-services/veneers/bluffstone.jpg",
+        "tileText":"Protect your chimney from water damage. Get a crown seal for your chimney now!",
+        "textList":[
+            {
+                "title":"A chimney crown seal protects the chimney crown from damage over time.",
+                "description":"Your chimney crown is the area that is around the top of the chimney (not to be confused with the chimney cap that is an attachment that is added to the top of the flue pipe). A chimney crown seal protects the chimney crown from damage over time. The chimney crown tops off the masonry walls of the chimney, usually with a wider masonry or cement area. This solid covering stops moisture from filtering down through your brick or stone work in your chimney. The crown is vital to protecting the mortar that holds everything together."
+            },
+            {
+                "title":"Chimney Lifetime",
+                "description":"There are chimney crown sealants that are able to be applied to a chimney crown that still has structural integrity but needs to be waterproofed. Larger cracks are filled with high bond patching material and then the crown seal is applied over the top of the whole chimney crown. The sealant forms a waterproof membrane between the elements and your chimney.When properly applied, these solutions can add up to 15 years to the life of a chimney crown that has begun to wear."
+            },
+            {
+                "title":"Call us today and repair your chimney crown",
+                "description":"If your chimney crown is showing its age, it may be time to replace it with a new concrete chimney cap before it is too late. Some masons will simply use mortar mix to create a new top for the chimney. The problem with that is, mortar mix will crack and leak very quickly and is not a weather resistant material. A cement chimney crown that is properly designed to overhang the outside dimensions of the chimney structure is the best solution. When your chimney crown becomes cracked or has lost pieces of its original shape it no longer is doing the job that it needs to. Once your chimney crown begins deteriorating and falling apart, it won’t be long before serious damage will set in to your entire chimney. It may be worth a visit to your roof once in a while to do your own inspection of the chimney crown. Don’t take our word for it – just take a quick drive around downtown and look up at the older masonry chimneys. Most of them are literally falling apart from the top down. The last thing someone needs is bricks falling down or costly repairs. When we service our customers with their annual inspection and chimney cleaning, the chimney crown is a key area that we look at. If there are any defects at all, we suggest an immediate crown seal to prevent more damage."
+            }
+        ]
+    },
+    {
+        "title":"Fireplace Hearth",
+        "slug":"fireplace-hearth",
+        "category":"masonry-services",
+        "type":"services",
+        "tileImage":"assets/images/chimneys/masonry-services/fireplace-hearth/fireplace-hearth.jpg",
+        "tileText":"Protect your chimney from water damage. Get a crown seal for your chimney now!",
+        "textList":[
+            {
+                "title":"A chimney crown seal protects the chimney crown from damage over time.",
+                "description":"Your chimney crown is the area that is around the top of the chimney (not to be confused with the chimney cap that is an attachment that is added to the top of the flue pipe). A chimney crown seal protects the chimney crown from damage over time. The chimney crown tops off the masonry walls of the chimney, usually with a wider masonry or cement area. This solid covering stops moisture from filtering down through your brick or stone work in your chimney. The crown is vital to protecting the mortar that holds everything together."
+            },
+            {
+                "title":"Chimney Lifetime",
+                "description":"There are chimney crown sealants that are able to be applied to a chimney crown that still has structural integrity but needs to be waterproofed. Larger cracks are filled with high bond patching material and then the crown seal is applied over the top of the whole chimney crown. The sealant forms a waterproof membrane between the elements and your chimney.When properly applied, these solutions can add up to 15 years to the life of a chimney crown that has begun to wear."
+            },
+            {
+                "title":"Call us today and repair your chimney crown",
+                "description":"If your chimney crown is showing its age, it may be time to replace it with a new concrete chimney cap before it is too late. Some masons will simply use mortar mix to create a new top for the chimney. The problem with that is, mortar mix will crack and leak very quickly and is not a weather resistant material. A cement chimney crown that is properly designed to overhang the outside dimensions of the chimney structure is the best solution. When your chimney crown becomes cracked or has lost pieces of its original shape it no longer is doing the job that it needs to. Once your chimney crown begins deteriorating and falling apart, it won’t be long before serious damage will set in to your entire chimney. It may be worth a visit to your roof once in a while to do your own inspection of the chimney crown. Don’t take our word for it – just take a quick drive around downtown and look up at the older masonry chimneys. Most of them are literally falling apart from the top down. The last thing someone needs is bricks falling down or costly repairs. When we service our customers with their annual inspection and chimney cleaning, the chimney crown is a key area that we look at. If there are any defects at all, we suggest an immediate crown seal to prevent more damage."
+            }
+        ]
+    },
+    {
+        "title":"Chimney Rebuild",
+        "slug":"chimney-rebuild",
+        "category":"masonry-services",
+        "type":"services",
+        "tileImage":"assets/images/chimneys/masonry-services/chimney-rebuild/chimney-rebuild.jpg",
+        "tileText":"Protect your chimney from water damage. Get a crown seal for your chimney now!",
+        "textList":[
+            {
+                "title":"A chimney crown seal protects the chimney crown from damage over time.",
+                "description":"Your chimney crown is the area that is around the top of the chimney (not to be confused with the chimney cap that is an attachment that is added to the top of the flue pipe). A chimney crown seal protects the chimney crown from damage over time. The chimney crown tops off the masonry walls of the chimney, usually with a wider masonry or cement area. This solid covering stops moisture from filtering down through your brick or stone work in your chimney. The crown is vital to protecting the mortar that holds everything together."
+            },
+            {
+                "title":"Chimney Lifetime",
+                "description":"There are chimney crown sealants that are able to be applied to a chimney crown that still has structural integrity but needs to be waterproofed. Larger cracks are filled with high bond patching material and then the crown seal is applied over the top of the whole chimney crown. The sealant forms a waterproof membrane between the elements and your chimney.When properly applied, these solutions can add up to 15 years to the life of a chimney crown that has begun to wear."
+            },
+            {
+                "title":"Call us today and repair your chimney crown",
+                "description":"If your chimney crown is showing its age, it may be time to replace it with a new concrete chimney cap before it is too late. Some masons will simply use mortar mix to create a new top for the chimney. The problem with that is, mortar mix will crack and leak very quickly and is not a weather resistant material. A cement chimney crown that is properly designed to overhang the outside dimensions of the chimney structure is the best solution. When your chimney crown becomes cracked or has lost pieces of its original shape it no longer is doing the job that it needs to. Once your chimney crown begins deteriorating and falling apart, it won’t be long before serious damage will set in to your entire chimney. It may be worth a visit to your roof once in a while to do your own inspection of the chimney crown. Don’t take our word for it – just take a quick drive around downtown and look up at the older masonry chimneys. Most of them are literally falling apart from the top down. The last thing someone needs is bricks falling down or costly repairs. When we service our customers with their annual inspection and chimney cleaning, the chimney crown is a key area that we look at. If there are any defects at all, we suggest an immediate crown seal to prevent more damage."
+            }
+        ]
+    },
+    {
+        "title":"Hardscape",
+        "slug":"hardscape",
+        "category":"masonry-services",
+        "type":"services",
+        "tileImage":"assets/images/chimneys/masonry-services/hardscape/hardscape.jpg",
+        "tileText":"Protect your chimney from water damage. Get a crown seal for your chimney now!",
+        "textList":[
+            {
+                "title":"A chimney crown seal protects the chimney crown from damage over time.",
+                "description":"Your chimney crown is the area that is around the top of the chimney (not to be confused with the chimney cap that is an attachment that is added to the top of the flue pipe). A chimney crown seal protects the chimney crown from damage over time. The chimney crown tops off the masonry walls of the chimney, usually with a wider masonry or cement area. This solid covering stops moisture from filtering down through your brick or stone work in your chimney. The crown is vital to protecting the mortar that holds everything together."
+            },
+            {
+                "title":"Chimney Lifetime",
+                "description":"There are chimney crown sealants that are able to be applied to a chimney crown that still has structural integrity but needs to be waterproofed. Larger cracks are filled with high bond patching material and then the crown seal is applied over the top of the whole chimney crown. The sealant forms a waterproof membrane between the elements and your chimney.When properly applied, these solutions can add up to 15 years to the life of a chimney crown that has begun to wear."
+            },
+            {
+                "title":"Call us today and repair your chimney crown",
+                "description":"If your chimney crown is showing its age, it may be time to replace it with a new concrete chimney cap before it is too late. Some masons will simply use mortar mix to create a new top for the chimney. The problem with that is, mortar mix will crack and leak very quickly and is not a weather resistant material. A cement chimney crown that is properly designed to overhang the outside dimensions of the chimney structure is the best solution. When your chimney crown becomes cracked or has lost pieces of its original shape it no longer is doing the job that it needs to. Once your chimney crown begins deteriorating and falling apart, it won’t be long before serious damage will set in to your entire chimney. It may be worth a visit to your roof once in a while to do your own inspection of the chimney crown. Don’t take our word for it – just take a quick drive around downtown and look up at the older masonry chimneys. Most of them are literally falling apart from the top down. The last thing someone needs is bricks falling down or costly repairs. When we service our customers with their annual inspection and chimney cleaning, the chimney crown is a key area that we look at. If there are any defects at all, we suggest an immediate crown seal to prevent more damage."
+            }
+        ]
+    },
+    {
+        "title":"Tuckpointing",
+        "slug":"tuckpointing",
+        "category":"masonry-services",
+        "type":"services",
+        "tileImage":"assets/images/chimneys/masonry-services/tuckpointing/tuckpointing.jpg",
+        "tileText":"Protect your chimney from water damage. Get a crown seal for your chimney now!",
+        "textList":[
+            {
+                "title":"A chimney crown seal protects the chimney crown from damage over time.",
+                "description":"Your chimney crown is the area that is around the top of the chimney (not to be confused with the chimney cap that is an attachment that is added to the top of the flue pipe). A chimney crown seal protects the chimney crown from damage over time. The chimney crown tops off the masonry walls of the chimney, usually with a wider masonry or cement area. This solid covering stops moisture from filtering down through your brick or stone work in your chimney. The crown is vital to protecting the mortar that holds everything together."
+            },
+            {
+                "title":"Chimney Lifetime",
+                "description":"There are chimney crown sealants that are able to be applied to a chimney crown that still has structural integrity but needs to be waterproofed. Larger cracks are filled with high bond patching material and then the crown seal is applied over the top of the whole chimney crown. The sealant forms a waterproof membrane between the elements and your chimney.When properly applied, these solutions can add up to 15 years to the life of a chimney crown that has begun to wear."
+            },
+            {
+                "title":"Call us today and repair your chimney crown",
+                "description":"If your chimney crown is showing its age, it may be time to replace it with a new concrete chimney cap before it is too late. Some masons will simply use mortar mix to create a new top for the chimney. The problem with that is, mortar mix will crack and leak very quickly and is not a weather resistant material. A cement chimney crown that is properly designed to overhang the outside dimensions of the chimney structure is the best solution. When your chimney crown becomes cracked or has lost pieces of its original shape it no longer is doing the job that it needs to. Once your chimney crown begins deteriorating and falling apart, it won’t be long before serious damage will set in to your entire chimney. It may be worth a visit to your roof once in a while to do your own inspection of the chimney crown. Don’t take our word for it – just take a quick drive around downtown and look up at the older masonry chimneys. Most of them are literally falling apart from the top down. The last thing someone needs is bricks falling down or costly repairs. When we service our customers with their annual inspection and chimney cleaning, the chimney crown is a key area that we look at. If there are any defects at all, we suggest an immediate crown seal to prevent more damage."
+            }
+        ]
+    },
+    {
+        "title":"waterproofing",
+        "slug":"waterproofing",
+        "category":"masonry-services",
+        "type":"services",
+        "tileImage":"assets/images/chimneys/masonry-services/waterproofing/waterproofing.jpg",
+        "tileText":"Protect your chimney from water damage. Get a crown seal for your chimney now!",
+        "textList":[
+            {
+                "title":"A chimney crown seal protects the chimney crown from damage over time.",
+                "description":"Your chimney crown is the area that is around the top of the chimney (not to be confused with the chimney cap that is an attachment that is added to the top of the flue pipe). A chimney crown seal protects the chimney crown from damage over time. The chimney crown tops off the masonry walls of the chimney, usually with a wider masonry or cement area. This solid covering stops moisture from filtering down through your brick or stone work in your chimney. The crown is vital to protecting the mortar that holds everything together."
+            },
+            {
+                "title":"Chimney Lifetime",
+                "description":"There are chimney crown sealants that are able to be applied to a chimney crown that still has structural integrity but needs to be waterproofed. Larger cracks are filled with high bond patching material and then the crown seal is applied over the top of the whole chimney crown. The sealant forms a waterproof membrane between the elements and your chimney.When properly applied, these solutions can add up to 15 years to the life of a chimney crown that has begun to wear."
+            },
+            {
+                "title":"Call us today and repair your chimney crown",
+                "description":"If your chimney crown is showing its age, it may be time to replace it with a new concrete chimney cap before it is too late. Some masons will simply use mortar mix to create a new top for the chimney. The problem with that is, mortar mix will crack and leak very quickly and is not a weather resistant material. A cement chimney crown that is properly designed to overhang the outside dimensions of the chimney structure is the best solution. When your chimney crown becomes cracked or has lost pieces of its original shape it no longer is doing the job that it needs to. Once your chimney crown begins deteriorating and falling apart, it won’t be long before serious damage will set in to your entire chimney. It may be worth a visit to your roof once in a while to do your own inspection of the chimney crown. Don’t take our word for it – just take a quick drive around downtown and look up at the older masonry chimneys. Most of them are literally falling apart from the top down. The last thing someone needs is bricks falling down or costly repairs. When we service our customers with their annual inspection and chimney cleaning, the chimney crown is a key area that we look at. If there are any defects at all, we suggest an immediate crown seal to prevent more damage."
+            }
+        ]
+    },
+    {
+        "title":"Dryer Vent Cleaning",
+        "slug":"dryer-vent-cleaning",
+        "category":"Chimney",
+        "type":"services",
+        "tileImage":"/assets/images/home-improvement/dryer-vent.jpg",
+        "textBlock0":"<h5 class='feature-title font-bold'></h5><p class='gray-text'></p>",
+        "textBlock1":"<h5 class='feature-title font-bold'></h5><p class='gray-text'></p>",
+        "textBlock2":"<h5 class='feature-title font-bold'></h5><p class='gray-text'></p>"
+    },
+
+
+
 
 
 
@@ -191,12 +602,241 @@
         "slug":"steel-security-doors",
         "category":"Security",
         "subcategory":"Door",
-        "type":"products",
+        "type":"grid",
         "tileImage":"/assets/images/security/custom-steel-security-door-vineyard.png",
         "textBlock0":"<h5 class='feature-title font-bold'></h5><p class='gray-text'></p>",
         "textBlock1":"<h5 class='feature-title font-bold'></h5><p class='gray-text'></p>",
         "textBlock2":"<h5 class='feature-title font-bold'></h5><p class='gray-text'></p>"
     },
+    {
+        "title":"Artisan",
+        "slug":"artisan",
+        "category":"steel-security-doors",
+        "type":"products",
+        "bullets":["The Clearview Swinging Screen Door is open design that maximizes visibility and ventilation.","This door comes in standard and custom sizes.","Customize your door today and add a pet door or Solar Screen today!"],
+        "tileImage":"assets/images/security/steel-security-doors/artisan/artisan.jpg",
+        "tileText":"Call us today and get great pricing on window screen replacements. We specialize in all kinds of window screens and Solar Screens.",
+        "productOverview":"Mike's Mobile Screen & Chimney Service offers high quality Swinging Screen doors. The Brighton Swinging Screen Doors offers a 1in. Wide Sculptured 9 Lite marginal grid pattern which combines elegance and openess to this door design. Our prices include installation. Call today to find out more!",
+        "technicalSpecs":"<li>2-1/8in. x 3/4in. .050 Extruded Aluminum Frame</li><li>Available in Standard Sizes</li><li>2ft 6in. x 6ft 8in. (29-1/4in. x 79-1/4in.)</li><li>2ft 8in. x 6ft 8in. (31-1/4in. x 79-1/4in.)</li><li>3ft 0in x 6ft 8in. (35-1/4in. x 79-1/4in.)</li><li>Custom Widths 24in. - 47in., Heights up to 96in.</li><li>1in. Wide Sculptured 9 Lite Marginal Grid Pattern</li><li>Charcoal Fiberglass Insect Screening</li><li>Standard Push Button Handle</li><li>1-7/8in Side Adjustable .050 Channel with 3 Hinges</li><li>1-7/8in Bottom Adjustment .050 Channel</li><li>Precision SAFEGUARD Packaging - Complete with Hardware.</li>",
+        "options":"<li>Double Door Option</li><li>Hinge Expader or Pre Hung Frame</li><li>Frame Colors Available: Adobe, Almond, Bronze, Weathered Brown, and White</li><li>Solar Screen</li><li>9in. Kick Plate</li>",
+        "relatedProducts":"<li>Sliding Screen Doors</li><li>Rollaway Screen Doors</li><li>Window Screens</li><li>Security Doors</li><li>Swinging Screen Doors</li>",
+        "warranty":"Warranty covers workmanship of door. This includes hardware not working properly, corners coming apart, handle not functioning, and any other workmanship issues not listed here that are determined to be the fault of the manufacturer. Not covered under the warranty is any damage to the screen (Solar Screen has a warranty, Bugscreen does not.) or intentional damage including tampering with the door, damaged caused by brute, or intentional, force, damage from a pet or any other intentional act not deemed a workmanship flaw.",
+        "colorSet":["securityDoorColors"]
+    },
+    {
+        "title":"Garden",
+        "slug":"garden",
+        "category":"steel-security-doors",
+        "type":"products",
+        "bullets":["The Clearview Swinging Screen Door is open design that maximizes visibility and ventilation.","This door comes in standard and custom sizes.","Customize your door today and add a pet door or Solar Screen today!"],
+        "tileImage":"assets/images/security/steel-security-doors/garden/garden.jpg",
+        "tileText":"Call us today and get great pricing on window screen replacements. We specialize in all kinds of window screens and Solar Screens.",
+        "productOverview":"Mike's Mobile Screen & Chimney Service offers high quality Swinging Screen doors. The Brighton Swinging Screen Doors offers a 1in. Wide Sculptured 9 Lite marginal grid pattern which combines elegance and openess to this door design. Our prices include installation. Call today to find out more!",
+        "technicalSpecs":"<li>2-1/8in. x 3/4in. .050 Extruded Aluminum Frame</li><li>Available in Standard Sizes</li><li>2ft 6in. x 6ft 8in. (29-1/4in. x 79-1/4in.)</li><li>2ft 8in. x 6ft 8in. (31-1/4in. x 79-1/4in.)</li><li>3ft 0in x 6ft 8in. (35-1/4in. x 79-1/4in.)</li><li>Custom Widths 24in. - 47in., Heights up to 96in.</li><li>1in. Wide Sculptured 9 Lite Marginal Grid Pattern</li><li>Charcoal Fiberglass Insect Screening</li><li>Standard Push Button Handle</li><li>1-7/8in Side Adjustable .050 Channel with 3 Hinges</li><li>1-7/8in Bottom Adjustment .050 Channel</li><li>Precision SAFEGUARD Packaging - Complete with Hardware.</li>",
+        "options":"<li>Double Door Option</li><li>Hinge Expader or Pre Hung Frame</li><li>Frame Colors Available: Adobe, Almond, Bronze, Weathered Brown, and White</li><li>Solar Screen</li><li>9in. Kick Plate</li>",
+        "relatedProducts":"<li>Sliding Screen Doors</li><li>Rollaway Screen Doors</li><li>Window Screens</li><li>Security Doors</li><li>Swinging Screen Doors</li>",
+        "warranty":"Warranty covers workmanship of door. This includes hardware not working properly, corners coming apart, handle not functioning, and any other workmanship issues not listed here that are determined to be the fault of the manufacturer. Not covered under the warranty is any damage to the screen (Solar Screen has a warranty, Bugscreen does not.) or intentional damage including tampering with the door, damaged caused by brute, or intentional, force, damage from a pet or any other intentional act not deemed a workmanship flaw.",
+        "colorSet":["securityDoorColors"]
+    },
+    {
+        "title":"Artisan View",
+        "slug":"artisan-view",
+        "category":"steel-security-doors",
+        "type":"products",
+        "bullets":["The Clearview Swinging Screen Door is open design that maximizes visibility and ventilation.","This door comes in standard and custom sizes.","Customize your door today and add a pet door or Solar Screen today!"],
+        "tileImage":"assets/images/security/steel-security-doors/artisan-view/artisan-view.jpg",
+        "tileText":"Call us today and get great pricing on window screen replacements. We specialize in all kinds of window screens and Solar Screens.",
+        "productOverview":"Mike's Mobile Screen & Chimney Service offers high quality Swinging Screen doors. The Brighton Swinging Screen Doors offers a 1in. Wide Sculptured 9 Lite marginal grid pattern which combines elegance and openess to this door design. Our prices include installation. Call today to find out more!",
+        "technicalSpecs":"<li>2-1/8in. x 3/4in. .050 Extruded Aluminum Frame</li><li>Available in Standard Sizes</li><li>2ft 6in. x 6ft 8in. (29-1/4in. x 79-1/4in.)</li><li>2ft 8in. x 6ft 8in. (31-1/4in. x 79-1/4in.)</li><li>3ft 0in x 6ft 8in. (35-1/4in. x 79-1/4in.)</li><li>Custom Widths 24in. - 47in., Heights up to 96in.</li><li>1in. Wide Sculptured 9 Lite Marginal Grid Pattern</li><li>Charcoal Fiberglass Insect Screening</li><li>Standard Push Button Handle</li><li>1-7/8in Side Adjustable .050 Channel with 3 Hinges</li><li>1-7/8in Bottom Adjustment .050 Channel</li><li>Precision SAFEGUARD Packaging - Complete with Hardware.</li>",
+        "options":"<li>Double Door Option</li><li>Hinge Expader or Pre Hung Frame</li><li>Frame Colors Available: Adobe, Almond, Bronze, Weathered Brown, and White</li><li>Solar Screen</li><li>9in. Kick Plate</li>",
+        "relatedProducts":"<li>Sliding Screen Doors</li><li>Rollaway Screen Doors</li><li>Window Screens</li><li>Security Doors</li><li>Swinging Screen Doors</li>",
+        "warranty":"Warranty covers workmanship of door. This includes hardware not working properly, corners coming apart, handle not functioning, and any other workmanship issues not listed here that are determined to be the fault of the manufacturer. Not covered under the warranty is any damage to the screen (Solar Screen has a warranty, Bugscreen does not.) or intentional damage including tampering with the door, damaged caused by brute, or intentional, force, damage from a pet or any other intentional act not deemed a workmanship flaw.",
+        "colorSet":["securityDoorColors"]
+    },
+    {
+        "title":"Vino",
+        "slug":"vino",
+        "category":"steel-security-doors",
+        "type":"products",
+        "bullets":["The Clearview Swinging Screen Door is open design that maximizes visibility and ventilation.","This door comes in standard and custom sizes.","Customize your door today and add a pet door or Solar Screen today!"],
+        "tileImage":"assets/images/security/steel-security-doors/vino/vino.jpg",
+        "tileText":"Call us today and get great pricing on window screen replacements. We specialize in all kinds of window screens and Solar Screens.",
+        "productOverview":"Mike's Mobile Screen & Chimney Service offers high quality Swinging Screen doors. The Brighton Swinging Screen Doors offers a 1in. Wide Sculptured 9 Lite marginal grid pattern which combines elegance and openess to this door design. Our prices include installation. Call today to find out more!",
+        "technicalSpecs":"<li>2-1/8in. x 3/4in. .050 Extruded Aluminum Frame</li><li>Available in Standard Sizes</li><li>2ft 6in. x 6ft 8in. (29-1/4in. x 79-1/4in.)</li><li>2ft 8in. x 6ft 8in. (31-1/4in. x 79-1/4in.)</li><li>3ft 0in x 6ft 8in. (35-1/4in. x 79-1/4in.)</li><li>Custom Widths 24in. - 47in., Heights up to 96in.</li><li>1in. Wide Sculptured 9 Lite Marginal Grid Pattern</li><li>Charcoal Fiberglass Insect Screening</li><li>Standard Push Button Handle</li><li>1-7/8in Side Adjustable .050 Channel with 3 Hinges</li><li>1-7/8in Bottom Adjustment .050 Channel</li><li>Precision SAFEGUARD Packaging - Complete with Hardware.</li>",
+        "options":"<li>Double Door Option</li><li>Hinge Expader or Pre Hung Frame</li><li>Frame Colors Available: Adobe, Almond, Bronze, Weathered Brown, and White</li><li>Solar Screen</li><li>9in. Kick Plate</li>",
+        "relatedProducts":"<li>Sliding Screen Doors</li><li>Rollaway Screen Doors</li><li>Window Screens</li><li>Security Doors</li><li>Swinging Screen Doors</li>",
+        "warranty":"Warranty covers workmanship of door. This includes hardware not working properly, corners coming apart, handle not functioning, and any other workmanship issues not listed here that are determined to be the fault of the manufacturer. Not covered under the warranty is any damage to the screen (Solar Screen has a warranty, Bugscreen does not.) or intentional damage including tampering with the door, damaged caused by brute, or intentional, force, damage from a pet or any other intentional act not deemed a workmanship flaw.",
+        "colorSet":["securityDoorColors"]
+    },
+    {
+        "title":"Lanai",
+        "slug":"lanai",
+        "category":"steel-security-doors",
+        "type":"products",
+        "bullets":["The Clearview Swinging Screen Door is open design that maximizes visibility and ventilation.","This door comes in standard and custom sizes.","Customize your door today and add a pet door or Solar Screen today!"],
+        "tileImage":"assets/images/security/steel-security-doors/lanai/lanai.jpg",
+        "tileText":"Call us today and get great pricing on window screen replacements. We specialize in all kinds of window screens and Solar Screens.",
+        "productOverview":"Mike's Mobile Screen & Chimney Service offers high quality Swinging Screen doors. The Brighton Swinging Screen Doors offers a 1in. Wide Sculptured 9 Lite marginal grid pattern which combines elegance and openess to this door design. Our prices include installation. Call today to find out more!",
+        "technicalSpecs":"<li>2-1/8in. x 3/4in. .050 Extruded Aluminum Frame</li><li>Available in Standard Sizes</li><li>2ft 6in. x 6ft 8in. (29-1/4in. x 79-1/4in.)</li><li>2ft 8in. x 6ft 8in. (31-1/4in. x 79-1/4in.)</li><li>3ft 0in x 6ft 8in. (35-1/4in. x 79-1/4in.)</li><li>Custom Widths 24in. - 47in., Heights up to 96in.</li><li>1in. Wide Sculptured 9 Lite Marginal Grid Pattern</li><li>Charcoal Fiberglass Insect Screening</li><li>Standard Push Button Handle</li><li>1-7/8in Side Adjustable .050 Channel with 3 Hinges</li><li>1-7/8in Bottom Adjustment .050 Channel</li><li>Precision SAFEGUARD Packaging - Complete with Hardware.</li>",
+        "options":"<li>Double Door Option</li><li>Hinge Expader or Pre Hung Frame</li><li>Frame Colors Available: Adobe, Almond, Bronze, Weathered Brown, and White</li><li>Solar Screen</li><li>9in. Kick Plate</li>",
+        "relatedProducts":"<li>Sliding Screen Doors</li><li>Rollaway Screen Doors</li><li>Window Screens</li><li>Security Doors</li><li>Swinging Screen Doors</li>",
+        "warranty":"Warranty covers workmanship of door. This includes hardware not working properly, corners coming apart, handle not functioning, and any other workmanship issues not listed here that are determined to be the fault of the manufacturer. Not covered under the warranty is any damage to the screen (Solar Screen has a warranty, Bugscreen does not.) or intentional damage including tampering with the door, damaged caused by brute, or intentional, force, damage from a pet or any other intentional act not deemed a workmanship flaw.",
+        "colorSet":["securityDoorColors"]
+    },
+    {
+        "title":"Vino Welcome",
+        "slug":"vino-welcome",
+        "category":"steel-security-doors",
+        "type":"products",
+        "tileImage":"assets/images/security/steel-security-doors/lanai/lanai.jpg",
+        "bullets":["The Clearview Swinging Screen Door is open design that maximizes visibility and ventilation.","This door comes in standard and custom sizes.","Customize your door today and add a pet door or Solar Screen today!"],
+        "tileText":"Call us today and get great pricing on window screen replacements. We specialize in all kinds of window screens and Solar Screens.",
+        "productOverview":"Mike's Mobile Screen & Chimney Service offers high quality Swinging Screen doors. The Brighton Swinging Screen Doors offers a 1in. Wide Sculptured 9 Lite marginal grid pattern which combines elegance and openess to this door design. Our prices include installation. Call today to find out more!",
+        "technicalSpecs":"<li>2-1/8in. x 3/4in. .050 Extruded Aluminum Frame</li><li>Available in Standard Sizes</li><li>2ft 6in. x 6ft 8in. (29-1/4in. x 79-1/4in.)</li><li>2ft 8in. x 6ft 8in. (31-1/4in. x 79-1/4in.)</li><li>3ft 0in x 6ft 8in. (35-1/4in. x 79-1/4in.)</li><li>Custom Widths 24in. - 47in., Heights up to 96in.</li><li>1in. Wide Sculptured 9 Lite Marginal Grid Pattern</li><li>Charcoal Fiberglass Insect Screening</li><li>Standard Push Button Handle</li><li>1-7/8in Side Adjustable .050 Channel with 3 Hinges</li><li>1-7/8in Bottom Adjustment .050 Channel</li><li>Precision SAFEGUARD Packaging - Complete with Hardware.</li>",
+        "options":"<li>Double Door Option</li><li>Hinge Expader or Pre Hung Frame</li><li>Frame Colors Available: Adobe, Almond, Bronze, Weathered Brown, and White</li><li>Solar Screen</li><li>9in. Kick Plate</li>",
+        "relatedProducts":"<li>Sliding Screen Doors</li><li>Rollaway Screen Doors</li><li>Window Screens</li><li>Security Doors</li><li>Swinging Screen Doors</li>",
+        "warranty":"Warranty covers workmanship of door. This includes hardware not working properly, corners coming apart, handle not functioning, and any other workmanship issues not listed here that are determined to be the fault of the manufacturer. Not covered under the warranty is any damage to the screen (Solar Screen has a warranty, Bugscreen does not.) or intentional damage including tampering with the door, damaged caused by brute, or intentional, force, damage from a pet or any other intentional act not deemed a workmanship flaw.",
+        "colorSet":["securityDoorColors"]
+    },
+    {
+        "title":"Park Avenue",
+        "slug":"park-avenue",
+        "category":"steel-security-doors",
+        "type":"products",
+        "bullets":["The Clearview Swinging Screen Door is open design that maximizes visibility and ventilation.","This door comes in standard and custom sizes.","Customize your door today and add a pet door or Solar Screen today!"],
+        "tileImage":"assets/images/security/steel-security-doors/park-avenue/park-avenue.png",
+        "tileText":"Call us today and get great pricing on window screen replacements. We specialize in all kinds of window screens and Solar Screens.",
+        "productOverview":"Mike's Mobile Screen & Chimney Service offers high quality Swinging Screen doors. The Brighton Swinging Screen Doors offers a 1in. Wide Sculptured 9 Lite marginal grid pattern which combines elegance and openess to this door design. Our prices include installation. Call today to find out more!",
+        "technicalSpecs":"<li>2-1/8in. x 3/4in. .050 Extruded Aluminum Frame</li><li>Available in Standard Sizes</li><li>2ft 6in. x 6ft 8in. (29-1/4in. x 79-1/4in.)</li><li>2ft 8in. x 6ft 8in. (31-1/4in. x 79-1/4in.)</li><li>3ft 0in x 6ft 8in. (35-1/4in. x 79-1/4in.)</li><li>Custom Widths 24in. - 47in., Heights up to 96in.</li><li>1in. Wide Sculptured 9 Lite Marginal Grid Pattern</li><li>Charcoal Fiberglass Insect Screening</li><li>Standard Push Button Handle</li><li>1-7/8in Side Adjustable .050 Channel with 3 Hinges</li><li>1-7/8in Bottom Adjustment .050 Channel</li><li>Precision SAFEGUARD Packaging - Complete with Hardware.</li>",
+        "options":"<li>Double Door Option</li><li>Hinge Expader or Pre Hung Frame</li><li>Frame Colors Available: Adobe, Almond, Bronze, Weathered Brown, and White</li><li>Solar Screen</li><li>9in. Kick Plate</li>",
+        "relatedProducts":"<li>Sliding Screen Doors</li><li>Rollaway Screen Doors</li><li>Window Screens</li><li>Security Doors</li><li>Swinging Screen Doors</li>",
+        "warranty":"Warranty covers workmanship of door. This includes hardware not working properly, corners coming apart, handle not functioning, and any other workmanship issues not listed here that are determined to be the fault of the manufacturer. Not covered under the warranty is any damage to the screen (Solar Screen has a warranty, Bugscreen does not.) or intentional damage including tampering with the door, damaged caused by brute, or intentional, force, damage from a pet or any other intentional act not deemed a workmanship flaw.",
+        "colorSet":["securityDoorColors"]
+    },
+    {
+        "title":"Sunrise",
+        "slug":"sunrise",
+        "category":"steel-security-doors",
+        "type":"products",
+        "tileImage":"assets/images/security/steel-security-doors/sunrise/sunrise.jpg",
+        "bullets":["The Clearview Swinging Screen Door is open design that maximizes visibility and ventilation.","This door comes in standard and custom sizes.","Customize your door today and add a pet door or Solar Screen today!"],
+        "tileText":"Call us today and get great pricing on window screen replacements. We specialize in all kinds of window screens and Solar Screens.",
+        "productOverview":"Mike's Mobile Screen & Chimney Service offers high quality Swinging Screen doors. The Brighton Swinging Screen Doors offers a 1in. Wide Sculptured 9 Lite marginal grid pattern which combines elegance and openess to this door design. Our prices include installation. Call today to find out more!",
+        "technicalSpecs":"<li>2-1/8in. x 3/4in. .050 Extruded Aluminum Frame</li><li>Available in Standard Sizes</li><li>2ft 6in. x 6ft 8in. (29-1/4in. x 79-1/4in.)</li><li>2ft 8in. x 6ft 8in. (31-1/4in. x 79-1/4in.)</li><li>3ft 0in x 6ft 8in. (35-1/4in. x 79-1/4in.)</li><li>Custom Widths 24in. - 47in., Heights up to 96in.</li><li>1in. Wide Sculptured 9 Lite Marginal Grid Pattern</li><li>Charcoal Fiberglass Insect Screening</li><li>Standard Push Button Handle</li><li>1-7/8in Side Adjustable .050 Channel with 3 Hinges</li><li>1-7/8in Bottom Adjustment .050 Channel</li><li>Precision SAFEGUARD Packaging - Complete with Hardware.</li>",
+        "options":"<li>Double Door Option</li><li>Hinge Expader or Pre Hung Frame</li><li>Frame Colors Available: Adobe, Almond, Bronze, Weathered Brown, and White</li><li>Solar Screen</li><li>9in. Kick Plate</li>",
+        "relatedProducts":"<li>Sliding Screen Doors</li><li>Rollaway Screen Doors</li><li>Window Screens</li><li>Security Doors</li><li>Swinging Screen Doors</li>",
+        "warranty":"Warranty covers workmanship of door. This includes hardware not working properly, corners coming apart, handle not functioning, and any other workmanship issues not listed here that are determined to be the fault of the manufacturer. Not covered under the warranty is any damage to the screen (Solar Screen has a warranty, Bugscreen does not.) or intentional damage including tampering with the door, damaged caused by brute, or intentional, force, damage from a pet or any other intentional act not deemed a workmanship flaw.",
+        "colorSet":["securityDoorColors"]
+    },
+    {
+        "title":"Arbor",
+        "slug":"arbor",
+        "category":"steel-security-doors",
+        "type":"products",
+        "tileImage":"assets/images/security/steel-security-doors/arbor/arbor.jpg",
+        "bullets":["The Clearview Swinging Screen Door is open design that maximizes visibility and ventilation.","This door comes in standard and custom sizes.","Customize your door today and add a pet door or Solar Screen today!"],
+        "tileText":"Call us today and get great pricing on window screen replacements. We specialize in all kinds of window screens and Solar Screens.",
+        "productOverview":"Mike's Mobile Screen & Chimney Service offers high quality Swinging Screen doors. The Brighton Swinging Screen Doors offers a 1in. Wide Sculptured 9 Lite marginal grid pattern which combines elegance and openess to this door design. Our prices include installation. Call today to find out more!",
+        "technicalSpecs":"<li>2-1/8in. x 3/4in. .050 Extruded Aluminum Frame</li><li>Available in Standard Sizes</li><li>2ft 6in. x 6ft 8in. (29-1/4in. x 79-1/4in.)</li><li>2ft 8in. x 6ft 8in. (31-1/4in. x 79-1/4in.)</li><li>3ft 0in x 6ft 8in. (35-1/4in. x 79-1/4in.)</li><li>Custom Widths 24in. - 47in., Heights up to 96in.</li><li>1in. Wide Sculptured 9 Lite Marginal Grid Pattern</li><li>Charcoal Fiberglass Insect Screening</li><li>Standard Push Button Handle</li><li>1-7/8in Side Adjustable .050 Channel with 3 Hinges</li><li>1-7/8in Bottom Adjustment .050 Channel</li><li>Precision SAFEGUARD Packaging - Complete with Hardware.</li>",
+        "options":"<li>Double Door Option</li><li>Hinge Expader or Pre Hung Frame</li><li>Frame Colors Available: Adobe, Almond, Bronze, Weathered Brown, and White</li><li>Solar Screen</li><li>9in. Kick Plate</li>",
+        "relatedProducts":"<li>Sliding Screen Doors</li><li>Rollaway Screen Doors</li><li>Window Screens</li><li>Security Doors</li><li>Swinging Screen Doors</li>",
+        "warranty":"Warranty covers workmanship of door. This includes hardware not working properly, corners coming apart, handle not functioning, and any other workmanship issues not listed here that are determined to be the fault of the manufacturer. Not covered under the warranty is any damage to the screen (Solar Screen has a warranty, Bugscreen does not.) or intentional damage including tampering with the door, damaged caused by brute, or intentional, force, damage from a pet or any other intentional act not deemed a workmanship flaw.",
+        "colorSet":["securityDoorColors"]
+    },
+    {
+        "title":"Zen",
+        "slug":"zen",
+        "category":"steel-security-doors",
+        "type":"products",
+        "tileImage":"assets/images/security/steel-security-doors/zen/zen.jpg",
+        "bullets":["The Clearview Swinging Screen Door is open design that maximizes visibility and ventilation.","This door comes in standard and custom sizes.","Customize your door today and add a pet door or Solar Screen today!"],
+        "tileText":"Call us today and get great pricing on window screen replacements. We specialize in all kinds of window screens and Solar Screens.",
+        "productOverview":"Mike's Mobile Screen & Chimney Service offers high quality Swinging Screen doors. The Brighton Swinging Screen Doors offers a 1in. Wide Sculptured 9 Lite marginal grid pattern which combines elegance and openess to this door design. Our prices include installation. Call today to find out more!",
+        "technicalSpecs":"<li>2-1/8in. x 3/4in. .050 Extruded Aluminum Frame</li><li>Available in Standard Sizes</li><li>2ft 6in. x 6ft 8in. (29-1/4in. x 79-1/4in.)</li><li>2ft 8in. x 6ft 8in. (31-1/4in. x 79-1/4in.)</li><li>3ft 0in x 6ft 8in. (35-1/4in. x 79-1/4in.)</li><li>Custom Widths 24in. - 47in., Heights up to 96in.</li><li>1in. Wide Sculptured 9 Lite Marginal Grid Pattern</li><li>Charcoal Fiberglass Insect Screening</li><li>Standard Push Button Handle</li><li>1-7/8in Side Adjustable .050 Channel with 3 Hinges</li><li>1-7/8in Bottom Adjustment .050 Channel</li><li>Precision SAFEGUARD Packaging - Complete with Hardware.</li>",
+        "options":"<li>Double Door Option</li><li>Hinge Expader or Pre Hung Frame</li><li>Frame Colors Available: Adobe, Almond, Bronze, Weathered Brown, and White</li><li>Solar Screen</li><li>9in. Kick Plate</li>",
+        "relatedProducts":"<li>Sliding Screen Doors</li><li>Rollaway Screen Doors</li><li>Window Screens</li><li>Security Doors</li><li>Swinging Screen Doors</li>",
+        "warranty":"Warranty covers workmanship of door. This includes hardware not working properly, corners coming apart, handle not functioning, and any other workmanship issues not listed here that are determined to be the fault of the manufacturer. Not covered under the warranty is any damage to the screen (Solar Screen has a warranty, Bugscreen does not.) or intentional damage including tampering with the door, damaged caused by brute, or intentional, force, damage from a pet or any other intentional act not deemed a workmanship flaw.",
+        "colorSet":["securityDoorColors"]
+    },
+    {
+        "title":"Palladio",
+        "slug":"palladio",
+        "category":"steel-security-doors",
+        "type":"products",
+        "tileImage":"assets/images/security/steel-security-doors/palladio/palladio.jpg",
+        "bullets":["The Clearview Swinging Screen Door is open design that maximizes visibility and ventilation.","This door comes in standard and custom sizes.","Customize your door today and add a pet door or Solar Screen today!"],
+        "tileText":"Call us today and get great pricing on window screen replacements. We specialize in all kinds of window screens and Solar Screens.",
+        "productOverview":"Mike's Mobile Screen & Chimney Service offers high quality Swinging Screen doors. The Brighton Swinging Screen Doors offers a 1in. Wide Sculptured 9 Lite marginal grid pattern which combines elegance and openess to this door design. Our prices include installation. Call today to find out more!",
+        "technicalSpecs":"<li>2-1/8in. x 3/4in. .050 Extruded Aluminum Frame</li><li>Available in Standard Sizes</li><li>2ft 6in. x 6ft 8in. (29-1/4in. x 79-1/4in.)</li><li>2ft 8in. x 6ft 8in. (31-1/4in. x 79-1/4in.)</li><li>3ft 0in x 6ft 8in. (35-1/4in. x 79-1/4in.)</li><li>Custom Widths 24in. - 47in., Heights up to 96in.</li><li>1in. Wide Sculptured 9 Lite Marginal Grid Pattern</li><li>Charcoal Fiberglass Insect Screening</li><li>Standard Push Button Handle</li><li>1-7/8in Side Adjustable .050 Channel with 3 Hinges</li><li>1-7/8in Bottom Adjustment .050 Channel</li><li>Precision SAFEGUARD Packaging - Complete with Hardware.</li>",
+        "options":"<li>Double Door Option</li><li>Hinge Expader or Pre Hung Frame</li><li>Frame Colors Available: Adobe, Almond, Bronze, Weathered Brown, and White</li><li>Solar Screen</li><li>9in. Kick Plate</li>",
+        "relatedProducts":"<li>Sliding Screen Doors</li><li>Rollaway Screen Doors</li><li>Window Screens</li><li>Security Doors</li><li>Swinging Screen Doors</li>",
+        "warranty":"Warranty covers workmanship of door. This includes hardware not working properly, corners coming apart, handle not functioning, and any other workmanship issues not listed here that are determined to be the fault of the manufacturer. Not covered under the warranty is any damage to the screen (Solar Screen has a warranty, Bugscreen does not.) or intentional damage including tampering with the door, damaged caused by brute, or intentional, force, damage from a pet or any other intentional act not deemed a workmanship flaw.",
+        "colorSet":["securityDoorColors"]
+    },
+    {
+        "title":"Estate",
+        "slug":"estate",
+        "category":"steel-security-doors",
+        "type":"products",
+        "tileImage":"assets/images/security/steel-security-doors/estate/estate.jpg",
+        "bullets":["The Clearview Swinging Screen Door is open design that maximizes visibility and ventilation.","This door comes in standard and custom sizes.","Customize your door today and add a pet door or Solar Screen today!"],
+        "tileText":"Call us today and get great pricing on window screen replacements. We specialize in all kinds of window screens and Solar Screens.",
+        "productOverview":"Mike's Mobile Screen & Chimney Service offers high quality Swinging Screen doors. The Brighton Swinging Screen Doors offers a 1in. Wide Sculptured 9 Lite marginal grid pattern which combines elegance and openess to this door design. Our prices include installation. Call today to find out more!",
+        "technicalSpecs":"<li>2-1/8in. x 3/4in. .050 Extruded Aluminum Frame</li><li>Available in Standard Sizes</li><li>2ft 6in. x 6ft 8in. (29-1/4in. x 79-1/4in.)</li><li>2ft 8in. x 6ft 8in. (31-1/4in. x 79-1/4in.)</li><li>3ft 0in x 6ft 8in. (35-1/4in. x 79-1/4in.)</li><li>Custom Widths 24in. - 47in., Heights up to 96in.</li><li>1in. Wide Sculptured 9 Lite Marginal Grid Pattern</li><li>Charcoal Fiberglass Insect Screening</li><li>Standard Push Button Handle</li><li>1-7/8in Side Adjustable .050 Channel with 3 Hinges</li><li>1-7/8in Bottom Adjustment .050 Channel</li><li>Precision SAFEGUARD Packaging - Complete with Hardware.</li>",
+        "options":"<li>Double Door Option</li><li>Hinge Expader or Pre Hung Frame</li><li>Frame Colors Available: Adobe, Almond, Bronze, Weathered Brown, and White</li><li>Solar Screen</li><li>9in. Kick Plate</li>",
+        "relatedProducts":"<li>Sliding Screen Doors</li><li>Rollaway Screen Doors</li><li>Window Screens</li><li>Security Doors</li><li>Swinging Screen Doors</li>",
+        "warranty":"Warranty covers workmanship of door. This includes hardware not working properly, corners coming apart, handle not functioning, and any other workmanship issues not listed here that are determined to be the fault of the manufacturer. Not covered under the warranty is any damage to the screen (Solar Screen has a warranty, Bugscreen does not.) or intentional damage including tampering with the door, damaged caused by brute, or intentional, force, damage from a pet or any other intentional act not deemed a workmanship flaw.",
+        "colorSet":["securityDoorColors"]
+    },
+    {
+        "title":"Plantation",
+        "slug":"plantation",
+        "category":"steel-security-doors",
+        "type":"products",
+        "tileImage":"assets/images/security/steel-security-doors/plantation/plantation.jpg",
+        "bullets":["The Clearview Swinging Screen Door is open design that maximizes visibility and ventilation.","This door comes in standard and custom sizes.","Customize your door today and add a pet door or Solar Screen today!"],
+        "tileText":"Call us today and get great pricing on window screen replacements. We specialize in all kinds of window screens and Solar Screens.",
+        "productOverview":"Mike's Mobile Screen & Chimney Service offers high quality Swinging Screen doors. The Brighton Swinging Screen Doors offers a 1in. Wide Sculptured 9 Lite marginal grid pattern which combines elegance and openess to this door design. Our prices include installation. Call today to find out more!",
+        "technicalSpecs":"<li>2-1/8in. x 3/4in. .050 Extruded Aluminum Frame</li><li>Available in Standard Sizes</li><li>2ft 6in. x 6ft 8in. (29-1/4in. x 79-1/4in.)</li><li>2ft 8in. x 6ft 8in. (31-1/4in. x 79-1/4in.)</li><li>3ft 0in x 6ft 8in. (35-1/4in. x 79-1/4in.)</li><li>Custom Widths 24in. - 47in., Heights up to 96in.</li><li>1in. Wide Sculptured 9 Lite Marginal Grid Pattern</li><li>Charcoal Fiberglass Insect Screening</li><li>Standard Push Button Handle</li><li>1-7/8in Side Adjustable .050 Channel with 3 Hinges</li><li>1-7/8in Bottom Adjustment .050 Channel</li><li>Precision SAFEGUARD Packaging - Complete with Hardware.</li>",
+        "options":"<li>Double Door Option</li><li>Hinge Expader or Pre Hung Frame</li><li>Frame Colors Available: Adobe, Almond, Bronze, Weathered Brown, and White</li><li>Solar Screen</li><li>9in. Kick Plate</li>",
+        "relatedProducts":"<li>Sliding Screen Doors</li><li>Rollaway Screen Doors</li><li>Window Screens</li><li>Security Doors</li><li>Swinging Screen Doors</li>",
+        "warranty":"Warranty covers workmanship of door. This includes hardware not working properly, corners coming apart, handle not functioning, and any other workmanship issues not listed here that are determined to be the fault of the manufacturer. Not covered under the warranty is any damage to the screen (Solar Screen has a warranty, Bugscreen does not.) or intentional damage including tampering with the door, damaged caused by brute, or intentional, force, damage from a pet or any other intentional act not deemed a workmanship flaw.",
+        "colorSet":["securityDoorColors"]
+    },
+    {
+        "title":"Villa",
+        "slug":"villa",
+        "category":"steel-security-doors",
+        "type":"products",
+        "tileImage":"assets/images/security/steel-security-doors/villa/villa.jpg",
+        "bullets":["The Clearview Swinging Screen Door is open design that maximizes visibility and ventilation.","This door comes in standard and custom sizes.","Customize your door today and add a pet door or Solar Screen today!"],
+        "tileText":"Call us today and get great pricing on window screen replacements. We specialize in all kinds of window screens and Solar Screens.",
+        "productOverview":"Mike's Mobile Screen & Chimney Service offers high quality Swinging Screen doors. The Brighton Swinging Screen Doors offers a 1in. Wide Sculptured 9 Lite marginal grid pattern which combines elegance and openess to this door design. Our prices include installation. Call today to find out more!",
+        "technicalSpecs":"<li>2-1/8in. x 3/4in. .050 Extruded Aluminum Frame</li><li>Available in Standard Sizes</li><li>2ft 6in. x 6ft 8in. (29-1/4in. x 79-1/4in.)</li><li>2ft 8in. x 6ft 8in. (31-1/4in. x 79-1/4in.)</li><li>3ft 0in x 6ft 8in. (35-1/4in. x 79-1/4in.)</li><li>Custom Widths 24in. - 47in., Heights up to 96in.</li><li>1in. Wide Sculptured 9 Lite Marginal Grid Pattern</li><li>Charcoal Fiberglass Insect Screening</li><li>Standard Push Button Handle</li><li>1-7/8in Side Adjustable .050 Channel with 3 Hinges</li><li>1-7/8in Bottom Adjustment .050 Channel</li><li>Precision SAFEGUARD Packaging - Complete with Hardware.</li>",
+        "options":"<li>Double Door Option</li><li>Hinge Expader or Pre Hung Frame</li><li>Frame Colors Available: Adobe, Almond, Bronze, Weathered Brown, and White</li><li>Solar Screen</li><li>9in. Kick Plate</li>",
+        "relatedProducts":"<li>Sliding Screen Doors</li><li>Rollaway Screen Doors</li><li>Window Screens</li><li>Security Doors</li><li>Swinging Screen Doors</li>",
+        "warranty":"Warranty covers workmanship of door. This includes hardware not working properly, corners coming apart, handle not functioning, and any other workmanship issues not listed here that are determined to be the fault of the manufacturer. Not covered under the warranty is any damage to the screen (Solar Screen has a warranty, Bugscreen does not.) or intentional damage including tampering with the door, damaged caused by brute, or intentional, force, damage from a pet or any other intentional act not deemed a workmanship flaw.",
+        "colorSet":["securityDoorColors"]
+    },
+    {
+        "title":"Santa Fe",
+        "slug":"santa-fe",
+        "category":"steel-security-doors",
+        "type":"products",
+        "tileImage":"assets/images/security/steel-security-doors/santa-fe/santa-fe.jpg",
+        "bullets":["The Clearview Swinging Screen Door is open design that maximizes visibility and ventilation.","This door comes in standard and custom sizes.","Customize your door today and add a pet door or Solar Screen today!"],
+        "tileText":"Call us today and get great pricing on window screen replacements. We specialize in all kinds of window screens and Solar Screens.",
+        "productOverview":"Mike's Mobile Screen & Chimney Service offers high quality Swinging Screen doors. The Brighton Swinging Screen Doors offers a 1in. Wide Sculptured 9 Lite marginal grid pattern which combines elegance and openess to this door design. Our prices include installation. Call today to find out more!",
+        "technicalSpecs":"<li>2-1/8in. x 3/4in. .050 Extruded Aluminum Frame</li><li>Available in Standard Sizes</li><li>2ft 6in. x 6ft 8in. (29-1/4in. x 79-1/4in.)</li><li>2ft 8in. x 6ft 8in. (31-1/4in. x 79-1/4in.)</li><li>3ft 0in x 6ft 8in. (35-1/4in. x 79-1/4in.)</li><li>Custom Widths 24in. - 47in., Heights up to 96in.</li><li>1in. Wide Sculptured 9 Lite Marginal Grid Pattern</li><li>Charcoal Fiberglass Insect Screening</li><li>Standard Push Button Handle</li><li>1-7/8in Side Adjustable .050 Channel with 3 Hinges</li><li>1-7/8in Bottom Adjustment .050 Channel</li><li>Precision SAFEGUARD Packaging - Complete with Hardware.</li>",
+        "options":"<li>Double Door Option</li><li>Hinge Expader or Pre Hung Frame</li><li>Frame Colors Available: Adobe, Almond, Bronze, Weathered Brown, and White</li><li>Solar Screen</li><li>9in. Kick Plate</li>",
+        "relatedProducts":"<li>Sliding Screen Doors</li><li>Rollaway Screen Doors</li><li>Window Screens</li><li>Security Doors</li><li>Swinging Screen Doors</li>",
+        "warranty":"Warranty covers workmanship of door. This includes hardware not working properly, corners coming apart, handle not functioning, and any other workmanship issues not listed here that are determined to be the fault of the manufacturer. Not covered under the warranty is any damage to the screen (Solar Screen has a warranty, Bugscreen does not.) or intentional damage including tampering with the door, damaged caused by brute, or intentional, force, damage from a pet or any other intentional act not deemed a workmanship flaw.",
+        "colorSet":["securityDoorColors"]
+    },
+
+
+
+
     {
         "title":"Viewguard Security Doors",
         "slug":"viewguard-security-doors",
@@ -204,7 +844,7 @@
         "subcategory":"Door",
         "type":"products",
         "bullets":["The Viewguard looks like a screen door but is actually high tensile strength stainless steel woven into a fine mesh.","Your security screen door will be the first point of protection for keeping your home safe and secure.","It provides secure protection and gives you a clear view of the outdoors without compromising the style or appearance of your home."],
-        "tileImage":"/assets/images/security/viewguard/viewguard_main.png",
+        "tileImage":"/assets/images/security/viewguard/viewguard.jpg",
         "thumbImages":["/assets/images/security/viewguard/viewguard_main.png","/assets/images/security/viewguard/viewguard-diagram-medium.png","/assets/images/security/viewguard/viewguard-bottom-medium.png","/assets/images/security/viewguard/viewguard-height-guide-medium.png"],
         "productOverview":"REST EASY<br/>Now you can let the cool breeze in and keep intruders out without compromising the appearance of your home. Finally you can experience total security without resorting to bars or unsightly steel grills.<br/><br/>HIGHER SECURITY<br/>Viewguard screens incorporate the latest advances in high tensile strength materials and construction.<br/><br/>LOWER COST<br/>When compared to alternative solutions for security, Viewguard™ security screen doors are built to last and are corrosion resistant.<br/><br/>GREATER AIRFLOW<br/>Stainless steel marine grade mesh screen optimizes airflow, and maximizes security. Strength and beauty in perfect harmony.<br/><br/>SAVE ENERGY - FEEL SAFE<br/>Opening your window in the evening reduces air conditioning costs in hot weather.<br/><br/>SUPERIOR STYLE<br/>Compare our security window screens with anything else on the market today, and we think you'll agree, Guarda has a lock on security and style.<br/><br/>COLORS AVAILABLE<br/>Bronze Anodized or White Paint. Custom special colors are available. Contact the factory for more details.",
         "technicalSpecs":"STANDARD SIZES: 36in. x 80in. - 32in. x 80in. - 30in. x 80in.<br/><br/>SCREENING: 316 Series Stainless Steel, .032 wire diameter woven in a 12 x 12 mesh & epoxy coated for additional corrosion protection.<br/><br/>HARDWARE: Hardware shall be aluminum, stainless steel, or other non-corrosive material compatible with aluminum.<br/><br/>MEASURING GUIDE: Click here<br/><br/>FINISHES: Bronze Anodized, White Paint. Additional color choices are listed below. Note: The stainless steel security mesh can NOT be painted. Call for pricing.<br/><br/>SECURITY DOOR SPECIFICATION:<br/><br/><p class='px-2'>Door Members: Tubular door stile shall be extruded aluminum, and exposed face width shall be at least 4 5/8in. x 1 3/8in. thick with 0.093 nominal walls. Tubular door surround shall be extruded aluminum 1 7/8in. x 1 9/16 with 0.093 nominal walls. The bottom expander expose face width shall be at least 1 3/4in. x 1 1/2in. thick with 0.060 nominal wall thickness.<br/><br/><p class='px-2'>Hardware: The optional heavy duty pneumatic door closer shall have a 1 1/2in. tube diameter and 12 1/8in. between mounting holes.</p>",
@@ -301,7 +941,7 @@
         "subcategory":"Window",
         "type":"products",
         "bullets":["Your security window screens will be one of the first points of protection for keeping your home safe and secure.","Our security window screens looks like a normal window screen but is actually high tensile strength stainless steel oven into a fine mesh called 'meshtec'.","It provides secure protection and gives you a clear view of the outdoors without compromising the style or appearance of your home."],
-        "tileImage":"/assets/images/security/guarda-security-window.png",
+        "tileImage":"/assets/images/security/guarda-casement/1.png",
         "thumbImages":["/assets/images/security/guarda-casement/1.png","/assets/images/security/guarda-casement/2.png","/assets/images/security/guarda-casement/3.png"],
         "productOverview":"REST EASY<br/>Now you can let the cool breeze in and keep intruders out without compromising the appearance of your home. Finally you can experience total security without resorting to bars or unsightly steel grills.<br/><br/>HIGHER SECURITY<br/>Guarda security window screens incorporate the latest advances in high tensile strength materials and construction.<br/><br/>LOWER COST<br/>When compared to alternative solutions for security, our security window screens are built to last and are corrosion resistant.<br/><br/>GREATER AIRFLOW<br/>Stainless steel marine grade mesh screen optimizes airflow, and maximizes security. Strength and beauty in perfect harmony.<br/><br/>SAVE ENERGY - FEEL SAFE<br/>Opening your window in the evening reduces air conditioning costs in hot weather.<br/><br/>SUPERIOR STYLE<br/>Compare our security window screens with anything else on the market today, and we think you'll agree, Guarda has a lock on security and style.<br/><br/>COLORS AVAILABLE<br/>Bronze Anodized or White Paint. Custom special colors are available. Contact the factory for more details.",
         "technicalSpecs":"<li>SCREENING: Certified Meshtec</li><li>HARDWARE: Hardware shall be aluminum, stainless steel, or other non-corrosive material compatible with aluminum.</li><li>FINISHES: Traffic Black, brown, sahara brown metallic, sahara gray metallic, light gray, paper beige, white, silver metallic, and bronze. Note: The stainless steel security mesh can NOT be painted. Call for pricing.</li>",
@@ -342,49 +982,5 @@
         "tileImage":"/assets/images/awnings/wet.jpg",
         "thumbImages":[],
         "video":""
-    },
-
-
-
-
-    {
-        "title":"Dryer Vent Cleaning",
-        "slug":"dryer-vent-cleaning",
-        "category":"Home Improvement",
-        "type":"services",
-        "tileImage":"/assets/images/home-improvement/dryer-vent.jpg",
-        "textBlock0":"<h5 class='feature-title font-bold'></h5><p class='gray-text'></p>",
-        "textBlock1":"<h5 class='feature-title font-bold'></h5><p class='gray-text'></p>",
-        "textBlock2":"<h5 class='feature-title font-bold'></h5><p class='gray-text'></p>"
-    },
-    {
-        "title":"Gutter Cleaning",
-        "slug":"gutter-cleaning",
-        "category":"Home Improvement",
-        "type":"services",
-        "tileImage":"/assets/images/home-improvement/gutter1.jpg",
-        "textBlock0":"<h5 class='feature-title font-bold'></h5><p class='gray-text'></p>",
-        "textBlock1":"<h5 class='feature-title font-bold'></h5><p class='gray-text'></p>",
-        "textBlock2":"<h5 class='feature-title font-bold'></h5><p class='gray-text'></p>"
-    },
-    {
-        "title":"Window Washing",
-        "slug":"window-washing",
-        "category":"Home Improvement",
-        "type":"services",
-        "tileImage":"/assets/images/home-improvement/window.jpg",
-        "textBlock0":"<h5 class='feature-title font-bold'></h5><p class='gray-text'></p>",
-        "textBlock1":"<h5 class='feature-title font-bold'></h5><p class='gray-text'></p>",
-        "textBlock2":"<h5 class='feature-title font-bold'></h5><p class='gray-text'></p>"
-    },
-    {
-        "title":"Window Washing",
-        "slug":"window-washing",
-        "category":"Home Improvement",
-        "type":"services",
-        "tileImage":"/assets/images/home-improvement/window.jpg",
-        "textBlock0":"<h5 class='feature-title font-bold'></h5><p class='gray-text'></p>",
-        "textBlock1":"<h5 class='feature-title font-bold'></h5><p class='gray-text'></p>",
-        "textBlock2":"<h5 class='feature-title font-bold'></h5><p class='gray-text'></p>"
     }
 ]

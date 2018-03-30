@@ -31,7 +31,7 @@ export class ServicesService {
 	})
 	.catch(this.handleError)
   }
-  
+
   search(query){
 	  return this.http.get(endpoint).map(response=>{
 		let data = []
@@ -49,4 +49,3 @@ export class ServicesService {
 	  console.log(error, caught)
   }
 }
-

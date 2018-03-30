@@ -1,108 +1,228 @@
 <app-navigation></app-navigation>
 <app-action-buttons></app-action-buttons>
 
-<div class="container">
-    <!--Projects section v.1-->
-    <section class="section pb-3">
+<ng-container *ngIf="service">
+    <ng-container [ngSwitch]="service.slug">
+        <!-- ngSwitch to display the correct grid -->
+        <ng-container *ngSwitchCase="'swinging-screen-doors'">
+            <div class="container">
+                <!--Projects section v.1-->
+                <section class="section pb-3">
+                    <!--Section heading-->
+                    <h2 class="section-heading h1 pt-4 orange-text"><strong>{{service.title}}</strong></h2>
+                    <!--Grid row-->
+                    <div class="row text-center">
+                        <!--Grid column-->
+                        <ng-container *ngFor="let item of serviceList">
+                            <ng-container *ngIf="item.category === 'Swinging Screen Door'">
+                                <!-- ServiceItem -->
+            					<div class="col-6 col-md-4 col-lg-3 my-4">
 
-        <!--Section heading-->
-        <h2 class="section-heading h1 pt-4"><strong>Our best projects</strong></h2>
+            						<!-- Flip Card -->
+            						<div class="flip-container">
+            						  <div class="flipper">
+            						    <!-- front content -->
+            						    <div class="front">
+            						      <!--Card image-->
+            						      <div class="view waves-light" mdbRippleRadius>
+            						          <img src="{{item.tileImage}}" class="img-fluid" alt="{{item.title}}">
+            						      </div>
+            						      <!--Title-->
+            						      <h5 class="card-title px-4 py-2">{{item.title}}</h5>
+            						    </div>
+            						    <!--/ front content -->
 
-        <!--Section description-->
-        <p class="section-description">Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur
-            sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
+            						    <!-- back content -->
+            						    <a routerLink="/{{item.type}}/{{item.slug}}">
+            						      <div class="back">
+            						        <h4 class="text-center">{{item.title}}</h4>
+            						        <div class="divider dropdown-divider pt-0 mt-0"></div>
+            						        <p class="p-1 mb-0 text-center">{{item.tileText}}</p>
+            						      </div>
+            						    </a>
+            						    <!--/ back content -->
+            						  </div>
+            						</div>
+            						<!-- /Flip Card -->
 
-        <!--Grid row-->
-        <div class="row text-center">
-
-            <!--Grid column-->
-            <div class="col-lg-4 col-md-12 mb-r">
-
-                <!--Featured image-->
-                <div class="view overlay hm-white-slight z-depth-2 waves-light" mdbRippleRadius>
-
-                    <img src="https://mdbootstrap.com/img/Photos/Others/food.jpg" alt="Sample project image">
-
-                    <a>
-                        <div class="mask"></div>
-                    </a>
-                </div>
-
-                <!--Excerpt-->
-                <div class="card-body mt-1">
-                    <a href="" class="pink-text">
-                        <h5><i class="fa fa-coffee"></i> Culinary</h5>
-                    </a>
-                    <h4>Title of the news</h4>
-                    <p>At vero eos et accusamus et iusto odio dignissimos ducimus qui blanditiis praesentium voluptatum
-                        deleniti atque.</p>
-                    <a class="btn btn-indigo btn-sm waves-light" mdbRippleRadius><i class="fa fa-clone left"></i> View project</a>
-                </div>
-
+            					</div>
+            					<!-- /ServiceItem -->
+                            </ng-container>
+                        </ng-container>
+                        <!--Grid column-->
+                    </div>
+                    <!--Grid row-->
+                </section>
+                <!--/Projects section v.1-->
             </div>
-            <!--Grid column-->
+        </ng-container>
+        <!-- Switch to next Grid -->
+        <ng-container *ngSwitchCase="'repairs'">
+            <div class="container">
+                <!--Projects section v.1-->
+                <section class="section pb-3">
+                    <!--Section heading-->
+                    <h2 class="section-heading h1 pt-4 orange-text">{{service.title}}</h2>
+                    <!--Grid row-->
+                    <div class="row text-center">
+                        <!--Grid column-->
+                        <ng-container *ngFor="let item of serviceList">
+                            <ng-container *ngIf="item.category === 'repairs'">
+                                <!-- ServiceItem -->
+            					<div class="col-6 col-md-4 col-lg-3 my-3">
 
-            <!--Grid column-->
-            <div class="col-lg-4 col-md-6 mb-r">
+            						<!-- Flip Card -->
+            						<div class="flip-container">
+            						  <div class="flipper">
+            						    <!-- front content -->
+            						    <div class="front">
+            						      <!--Card image-->
+            						      <div class="view waves-light" mdbRippleRadius>
+            						          <img src="{{item.tileImage}}" class="img-fluid" alt="{{item.title}}">
+            						      </div>
+            						      <!--Title-->
+            						      <h5 class="card-title px-4 py-2">{{item.title}}</h5>
+            						    </div>
+            						    <!--/ front content -->
 
-                <!--Featured image-->
-                <div class="view overlay hm-white-slight z-depth-2 waves-light" mdbRippleRadius>
+            						    <!-- back content -->
+            						    <a routerLink="/{{item.type}}/{{item.slug}}">
+            						      <div class="back">
+            						        <h4 class="text-center">{{item.title}}</h4>
+            						        <div class="divider dropdown-divider pt-0 mt-0"></div>
+            						        <p class="p-1 mb-0 text-center">{{item.tileText}}</p>
+            						      </div>
+            						    </a>
+            						    <!--/ back content -->
+            						  </div>
+            						</div>
+            						<!-- /Flip Card -->
 
-                    <img src="https://mdbootstrap.com/img/Photos/Others/project4.jpg" alt="Sample project image">
-
-                    <a>
-                        <div class="mask"></div>
-                    </a>
-                </div>
-
-                <!--Excerpt-->
-                <div class="card-body mt-1">
-                    <a href="" class="blue-text">
-                        <h5><i class="fa fa-camera"></i> Business</h5>
-                    </a>
-                    <h4>Title of the news</h4>
-                    <p>Nam libero tempore, cum soluta nobis est eligendi optio cumque nihil impedit quo minus id quod maxime
-                        facere possimus.</p>
-                    <a class="btn btn-indigo btn-sm waves-light" mdbRippleRadius><i class="fa fa-clone left"></i> View project</a>
-                </div>
-
+            					</div>
+            					<!-- /ServiceItem -->
+                            </ng-container>
+                        </ng-container>
+                        <!--Grid column-->
+                    </div>
+                    <!--Grid row-->
+                </section>
+                <!--/Projects section v.1-->
             </div>
-            <!--Grid column-->
+        </ng-container>
+        <!-- Switch to next Grid -->
+        <ng-container *ngSwitchCase="'masonry-services'">
+            <div class="container">
+                <!--Projects section v.1-->
+                <section class="section pb-3">
+                    <!--Section heading-->
+                    <h2 class="section-heading h1 pt-4 orange-text">{{service.title}}</h2>
+                    <!--Grid row-->
+                    <div class="row text-center">
+                        <!--Grid column-->
+                        <ng-container *ngFor="let item of serviceList">
+                            <ng-container *ngIf="item.category === 'masonry-services'">
+                                <!-- ServiceItem -->
+            					<div class="col-6 col-md-4 col-lg-3 my-3">
 
-            <!--Grid column-->
-            <div class="col-lg-4 col-md-6 mb-r">
+            						<!-- Flip Card -->
+            						<div class="flip-container">
+            						  <div class="flipper">
+            						    <!-- front content -->
+            						    <div class="front">
+            						      <!--Card image-->
+            						      <div class="view waves-light" mdbRippleRadius>
+            						          <img src="{{item.tileImage}}" class="img-fluid" alt="{{item.title}}">
+            						      </div>
+            						      <!--Title-->
+            						      <h5 class="card-title px-4 py-2">{{item.title}}</h5>
+            						    </div>
+            						    <!--/ front content -->
 
-                <!--Featured image-->
-                <div class="view overlay hm-white-slight z-depth-2 waves-light" mdbRippleRadius>
+            						    <!-- back content -->
+            						    <a routerLink="/{{item.type}}/{{item.slug}}">
+            						      <div class="back">
+            						        <h4 class="text-center">{{item.title}}</h4>
+            						        <div class="divider dropdown-divider pt-0 mt-0"></div>
+            						        <p class="p-1 mb-0 text-center">{{item.tileText}}</p>
+            						      </div>
+            						    </a>
+            						    <!--/ back content -->
+            						  </div>
+            						</div>
+            						<!-- /Flip Card -->
 
-                    <img src="https://mdbootstrap.com/img/Photos/Horizontal/Nature/4-col/img (73).jpg" alt="Sample project image">
-
-                    <a>
-                        <div class="mask"></div>
-                    </a>
-                </div>
-
-                <!--Excerpt-->
-                <div class="card-body mt-1">
-                    <a href="" class="purple-text">
-                        <h5><i class="fa fa-plane"></i> Travels</h5>
-                    </a>
-                    <h4>Title of the news</h4>
-                    <p>Temporibus autem quibusdam et aut officiis debitis aut rerum necessitatibus saepe eveniet ut et voluptates
-                        repudiandae.</p>
-                    <a class="btn btn-indigo btn-sm waves-light" mdbRippleRadius><i class="fa fa-clone left"></i> View project</a>
-                </div>
-
+            					</div>
+            					<!-- /ServiceItem -->
+                            </ng-container>
+                        </ng-container>
+                        <!--Grid column-->
+                    </div>
+                    <!--Grid row-->
+                </section>
+                <!--/Projects section v.1-->
             </div>
-            <!--Grid column-->
+        </ng-container>
+        <!-- Switch to next Grid -->
+        <ng-container *ngSwitchCase="'steel-security-doors'">
+            <div class="container">
+                <!--Projects section v.1-->
+                <section class="section pb-3">
+                    <!--Section heading-->
+                    <h2 class="section-heading h1 pt-4 orange-text">{{service.title}}</h2>
+                    <!--Grid row-->
+                    <div class="row text-center">
+                        <!--Grid column-->
+                        <ng-container *ngFor="let item of serviceList">
+                            <ng-container *ngIf="item.category === 'steel-security-doors'">
+                                <!-- ServiceItem -->
+            					<div class="col-6 col-md-4 col-lg-3 my-3">
 
-        </div>
-        <!--Grid row-->
+            						<!-- Flip Card -->
+            						<div class="flip-container">
+            						  <div class="flipper">
+            						    <!-- front content -->
+            						    <div class="front">
+            						      <!--Card image-->
+            						      <div class="view waves-light" mdbRippleRadius>
+            						          <img src="{{item.tileImage}}" class="img-fluid" alt="{{item.title}}">
+            						      </div>
+            						      <!--Title-->
+            						      <h5 class="card-title px-4 py-2">{{item.title}}</h5>
+            						    </div>
+            						    <!--/ front content -->
 
-    </section>
-    <!--/Projects section v.1-->
-</div>
+            						    <!-- back content -->
+            						    <a routerLink="/{{item.type}}/{{item.slug}}">
+            						      <div class="back">
+            						        <h4 class="text-center">{{item.title}}</h4>
+            						        <div class="divider dropdown-divider pt-0 mt-0"></div>
+            						        <p class="p-1 mb-0 text-center">{{item.tileText}}</p>
+            						      </div>
+            						    </a>
+            						    <!--/ back content -->
+            						  </div>
+            						</div>
+            						<!-- /Flip Card -->
+
+            					</div>
+            					<!-- /ServiceItem -->
+                            </ng-container>
+                        </ng-container>
+                        <!--Grid column-->
+                    </div>
+                    <!--Grid row-->
+                </section>
+                <!--/Projects section v.1-->
+            </div>
+        </ng-container>
+        <!-- Switch to next Grid -->
 
 
+
+
+
+
+    </ng-container>
+<ng-container>
 
 <app-footer></app-footer>

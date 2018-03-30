@@ -15,7 +15,7 @@ const appRoutes: Routes = [
   { path: 'blog', component: BlogComponent },
   { path: 'contact', component: ContactComponent },
   { path: 'services', component: ServiceListComponent },
-  { path: 'grid', component: GridComponent },
+  { path: 'grid/:slug', component: GridComponent },
   { path: 'products/:slug', component: ProductDetailComponent },
   { path: 'services/:slug', component: ServiceDetailComponent },
   // { path: 'other/:slug', component: OtherDetailComponent },
