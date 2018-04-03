@@ -21,6 +21,7 @@ import { LightboxGalleryComponent } from './lightbox-gallery/lightbox-gallery.co
 import { NavigationComponent } from './navigation/navigation.component';
 import { PageNotFoundComponent } from './page-not-found/page-not-found.component';
 import { ProductDetailComponent } from './product-detail/product-detail.component';
+import { QuoteFormComponent } from './quote-form/quote-form.component';
 import { SearchComponent } from './search/search.component';
 import { SearchDetailComponent } from './search-detail/search-detail.component';
 import { ServiceListComponent } from './service-list/service-list.component';
@@ -30,6 +31,7 @@ import { KeysPipe } from './utility/keys.pipe';
 import { SwingingDoorsListComponent } from './swinging-doors-list/swinging-doors-list.component';
 import { ChimneyAccessoriesListComponent } from './chimney-accessories-list/chimney-accessories-list.component';
 import { ChimneyRepairsListComponent } from './chimney-repairs-list/chimney-repairs-list.component';
+
 
 @NgModule({
   declarations: [
@@ -46,6 +48,7 @@ import { ChimneyRepairsListComponent } from './chimney-repairs-list/chimney-repa
     NavigationComponent,
     PageNotFoundComponent,
     ProductDetailComponent,
+    QuoteFormComponent,
     SearchComponent,
     SearchDetailComponent,
     ServiceListComponent,
@@ -54,7 +57,7 @@ import { ChimneyRepairsListComponent } from './chimney-repairs-list/chimney-repa
     KeysPipe,
     SwingingDoorsListComponent,
     ChimneyAccessoriesListComponent,
-    ChimneyRepairsListComponent
+    ChimneyRepairsListComponent,
   ],
   imports: [
     AppRoutingModule,

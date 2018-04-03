@@ -51,14 +51,14 @@
 					<div class="col-12">
 						<h4>Color Selection</h4>
 						<p class="mb-0 mt-2 ml-1" style="font-weight:bold">Standard Colors</p>
-						<div class="row">
+						<div class="row no-gutters">
 							<div class="col-3 col-md-2" *ngFor="let color of stdColors | keys">
 								<div class="square" mdbTooltip="{{color.key}}" [ngStyle]="{'background': color.value}" placement="bottom"></div>
 								<p id="p-colors" class="pl-2">{{color.key}}</p>
 							</div>
 						</div>
 						<p class="mb-0 mt-2 ml-1" style="font-weight:bold">Custom Colors</p>
-						<div class="row" *ngFor="let colors of product.colorSet">
+						<div class="row no-gutters" *ngFor="let colors of product.colorSet">
 							<ng-container *ngIf="colors === 'colorSetx4'">
 								<div class="col-3 col-md-2" *ngFor="let c of colorSetx4 | keys">
 									<div class="square" mdbTooltip="{{c.key}}" [ngStyle]="{'background': c.value}" placement="bottom"></div>
@@ -72,18 +72,19 @@
 								</div>
 							</ng-container>
 							<ng-container *ngIf="colors === 'swingingDoorColors'">
-								<div class="col-3 col-md-2" *ngFor="let c of swingingDoorColors | keys">
-									<div class="square" mdbTooltip="{{c.key}}" [ngStyle]="{'background': c.value}" placement="bottom"></div>
+								<div class="col-3 col-md-2" *ngFor="let c of swingingDoorColors | keys; index as i">
+									<div class="square" id="square-{{i}}" mdbTooltip="{{c.key}}" [ngStyle]="{'background': c.value}" placement="bottom"></div>
 									<p id="p-colors" class="pl-2">{{c.key}}</p>
 								</div>
 							</ng-container>
 							<ng-container *ngIf="colors === 'securityDoorColors'">
-								<div class="col-3 col-md-2" *ngFor="let c of securityDoorColors | keys">
-									<div class="square" mdbTooltip="{{c.key}}" [ngStyle]="{'background': c.value}" placement="bottom"></div>
-									<p id="p-colors" class="pl-2">{{c.key}}</p>
-								</div>
+								<div class="col-3 col-md-2" *ngFor="let c of securityDoorColors | keys; index as i">
+									<div class="square square-{{i}}" id="square-{{i}}" mdbTooltip="{{c.key}}" [ngStyle]="{'background': c.value}" placement="bottom"></div>
+									<p id="square-p-{{i}}" class="pl-2 p-colors square-p-{{i}}">{{c.key}}</p>
+								</div>								
 							</ng-container>
 						</div>
+						<p class="orange-text" id="more-colors" (click)="viewMoreColors()"> &nbsp; Click to view more colors &nbsp; <i class="fa fa-angle-down" aria-hidden="true"></i></p>
 					</div>
 				</div>
 			</div>
@@ -123,7 +124,27 @@
 		</div>
 	</div>
 
-	<app-lightbox-gallery></app-lightbox-gallery>
+	<div class="container" *ngIf="product.recentInstallImages || product.extraImages">
+		<!--Section: Features v.2-->
+		<section class="section feature-box" *ngIf="product.recentInstallImages">
+			<!--Section heading-->
+			<h2 class="text-center pt-3">View some of our recent installs</h2>
+			<hr/>
+			<!--Grid row-->
+			<div class="row features-small pt-4" *ngIf="product.recentInstallImages">
+				<mdb-image-modal [modalImages]="recent_install_images" type="margin"></mdb-image-modal>
+			</div>
+		</section>
+		<section class="section feature-box" *ngIf="product.extraImages">
+			<!--Section heading-->
+			<h2 class="text-center pt-3">More Images</h2>
+			<hr/>			
+			<!--Grid row-->
+			<div class="row features-small pt-4" *ngIf="product.extraImages">
+				<mdb-image-modal [modalImages]="extra_images" type="margin"></mdb-image-modal>
+			</div>
+		</section>
+	</div>
 
 
 </ng-container>

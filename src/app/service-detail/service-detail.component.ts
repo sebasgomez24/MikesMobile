@@ -12,12 +12,6 @@ import { DomSanitizer } from '@angular/platform-browser';
 })
 export class ServiceDetailComponent implements OnInit, OnDestroy {
 
-  private req:any;
-  private routeSub:any;
-
-  slug:string
-  service:ServiceItem
-  colorSquares = ['stdColors', 'colorSetx4', 'colorSetx6', 'swingingDoorColors', 'securityDoorColors']
   stdColors = {
       "Anodized Bronze":"#2D3017",
       "White":"#ffffff"
@@ -67,8 +61,19 @@ export class ServiceDetailComponent implements OnInit, OnDestroy {
       "Pacific Granite":"#707070",
       "Statuary Bronze":"#42372F"
   }
+  private req:any;
+  private routeSub:any;
 
+  slug:string
+  service:ServiceItem
+  
+  colorSquares = ['stdColors', 'colorSetx4', 'colorSetx6', 'swingingDoorColors', 'securityDoorColors']
+  recent_install_images=[]
+  extra_images=[]
+  info_graphics=[]  
   optionsSelect = []
+
+  petImages = {}
   
   constructor(private route: ActivatedRoute, private _service:ServicesService, private sanitizer:DomSanitizer) { }
 
@@ -94,17 +99,22 @@ export class ServiceDetailComponent implements OnInit, OnDestroy {
             { value: '18', label: 'Sliding Security Doors' },
             { value: '19', label: 'CRL Guarda™ Quick Escape Window Screen' },
             { value: '20', label: 'CRL Guarda™ Fixed Window Screen' },
-            { value: '20', label: 'CRL Guarda™ Casement Window Screen' },
-            { value: '20', label: 'Retractable Patio Awnings' },
-            { value: '20', label: 'Drop Roll Sunscreens' },
-            { value: '20', label: 'Door and Window Awnings' },
+            { value: '21', label: 'CRL Guarda™ Casement Window Screen' },
+            { value: '22', label: 'Retractable Patio Awnings' },
+            { value: '23', label: 'Drop Roll Sunscreens' },
+            { value: '24', label: 'Door and Window Awnings' },
+            { value: '25', label: 'Dryer Vent Cleaning' }
         ];
+
     this.routeSub = this.route.params.subscribe(params => {
       this.slug = params['slug']
       this.req = this._service.list().subscribe(data => {
         data.filter(item => {
           if(item.slug == this.slug){
               this.service = item as ServiceItem;
+              this.recent_install_images = this.service.recentInstallImages;
+              this.extra_images = this.service.extraImages;
+              this.petImages = this.service.images;
           }
         })
       })

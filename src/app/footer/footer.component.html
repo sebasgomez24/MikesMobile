@@ -72,7 +72,7 @@
             <div class="col-6 col-lg-3 col-xl-3 mx-auto mb-4">
                 <h6 class="text-uppercase font-weight-bold"><strong>Useful links</strong></h6>
                 <hr class="blue mb-3 mt-0 d-inline-block mx-auto" style="width: 60px;">
-                <p><a (click)="basicModal.show()" class="orange-text">Get a Free Quote !</a></p>
+                <p><a (click)="basicModal.show()" class="orange-text" mdbRippleRadius>Get a Free Quote</a></p>
                 <p><a href="#!">About Us</a></p>
                 <p><a href="#!">Contact Us</a></p>
                 <p><a href="#!">SiteMap</a></p>
@@ -105,7 +105,6 @@
 </footer>
 <!--/.Footer-->
 
-
 <!--QuoteForm Modal-->
 <div class="container">
     <div mdbModal #basicModal="mdb-modal" class="modal fade" tabindex="-1" role="dialog" aria-labelledby="myBasicModalLabel" aria-hidden="true">
@@ -115,11 +114,11 @@
                     <button type="button" class="close pull-right" aria-label="Close" (click)="basicModal.hide()">
                         <span aria-hidden="true">×</span>
                     </button>
-                    <h4 class="modal-title w-100" id="myModalLabel">Get a Free Quote Now!</h4>
+                    <h4 class="modal-title" id="myModalLabel">Get a Free Quote Now! <br/><span class="orange-text">1-877-520-3595</span></h4>
                 </div>
                 <div class="modal-body">
                     <div class="md-form form-sm">
-                        <mdb-select [options]="optionsSelect" [multiple]="true" placeholder="Choose a service"></mdb-select>
+                        <mdb-select [options]="optionsSelect" [multiple]="true" placeholder="What service were you interested in?"></mdb-select>
                     </div>
                     <div class="md-form form-sm">
                         <input mdbActive type="text" id="form1" class="form-control">
@@ -142,6 +141,7 @@
                         <label for="form7">How can we help</label>
                     </div>
                 </div>
+
                 <div class="d-flex flex-row">
                     <button type="button" class="btn gray waves-light w-100" aria-label="Close" (click)="basicModal.hide()" mdbRippleRadius>Close</button>
                     <button type="button" class="btn blue relative waves-light w-100" mdbRippleRadius>Save changes</button>

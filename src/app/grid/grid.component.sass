@@ -1,9 +1,30 @@
 @import '~sass/modules/_mixins.sass'
 @import '~sass/modules/_variables.sass'
 
-img
+
+
+img#doorImages
+    height: 400px
+    position: relative
+    left: 50%
+    transform: translate(-50%, 0)
+    padding-top: 20px
+
+.card
+    border-radius: 2.5px
+    background: none
+    box-shadow: none
+    &:hover
+        background: white
+        box-shadow: 0 2px 5px 0 rgba(0, 0, 0, 0.16), 0 2px 10px 0 rgba(0, 0, 0, 0.12)
+
+/*  --------------------------------------------
+    THIS IS FOR FLIP CARD STYLING AND ANIMATIONS 
+    --------------------------------------------*/
+img#servicesImages
     position: relative
     height: 125px
+    width: 100%
     left: 50%
     transform: translate(-50%, 0)
     @include breakpoint(xs)

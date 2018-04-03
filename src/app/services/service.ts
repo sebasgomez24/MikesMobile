@@ -21,4 +21,7 @@ export class ServiceItem{
     // For Services Only
     serviceImgCaption?:string
     textList?:string[]
+    extraImages?:string[]
+    // For Grid Only
+    description?:string
 }

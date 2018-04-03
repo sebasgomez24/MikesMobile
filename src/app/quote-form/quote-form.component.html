@@ -1,18 +1,4 @@
-<!-- Action Buttons -->
-<div class="container" id="action-buttons-container">
-    <div class="quote">
-        <button class="btn blue waves-light w-100" (click)="basicModal.show()" id="quoteBtn" mdbRippleRadius><span id="desktop-only">Get Your</span> Free Quote!</button>
-    </div>
-    <div class="tel">
-        <button class="btn blue waves-light w-100" id="telBtn" mdbRippleRadius><a class="white-text" href="tel:+1-916-372-8783">1-877-520-3595</a></button>
-    </div>
-    <div class="search">
-        <button id="search-button" class="btn orange waves-light w-100" (click)="hideShowSearch()" mdbRippleRadius><i class="fa fa-search" aria-hidden="true"></i></button>
-    </div>
-    <app-search id="search-input" style="display: none"></app-search>
-</div>
-<!--/ Action Buttons -->
-<div class="row"><br/><br/></div>
+<div (click)="basicModal.show()"></div>
 
 <!--QuoteForm Modal-->
 <div class="container">

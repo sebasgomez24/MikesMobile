@@ -55,7 +55,7 @@ img
     overflow-x: hidden
 
 .square
-    height: 70px
+    height: 100px
     width: 100%
     background: $light-gray
     margin: 5px
@@ -63,13 +63,26 @@ img
         width: 75px
         height: 75px
 
-#p-colors
-    @include breakpoint(md)
-        display: none
+#more-colors
+    &:hover
+        color: $mmblue !important
 
+#square-6,#square-7,
+#square-8,#square-9,
+#square-10,#square-11,
+#square-12,#square-13,
+#square-14,#square-15,
+#square-16,#square-17,
+#square-18
+    display: none
 
-#p-colors
+#square-p-6,#square-p-7,#square-p-8,#square-p-9,#square-p-10,#square-p-11,#square-p-12,#square-p-13,#square-p-14,#square-p-15,#square-p-16,#square-p-17,#square-p-18
+    display: none
+
+.p-colors
     font-size: .75em
+    @include breakpoint(md)
+        display: none    
 
 #std-color-1
     background: #2D3017

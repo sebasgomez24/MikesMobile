@@ -14,7 +14,15 @@
         "options":"<li>Choose from 6 popular colors (See below)</li><li>Available in inside and surface mount</li><li>Latch Series</li><li>Magnetic Series</li><li>French Doors</li>",
         "relatedProducts":"<li>Swinging Screen Doors</li><li>Window Screens</li><li>Sliding Security Doors</li>",
         "warranty":"<strong>10 Year Limited Warranty<br/><br/></strong><p>All warranties cover materials, manufacturing defects and hardware for the periods listed below but will not cover normal wear and tear of the product. Screen mesh is not covered beyond the initial installation of products. Defective items must be reported within 5 days of receipt for validation. Improper installation of the product will not be covered under the warranties listed. Warranty periods begin from the date of purchase.</p>",
-        "recentInstallImages":["/assets/images/screens/retractable/1.jpg","/assets/images/screens/retractable/2.jpg","/assets/images/screens/retractable/3.jpg","/assets/images/screens/retractable/4.jpg","/assets/images/screens/retractable/5.jpg","/assets/images/screens/retractable/6.jpg","/assets/images/screens/retractable/7.jpg"]
+        "recentInstallImages":[
+            {"img":"/assets/images/screens/retractable/1.jpg"},
+            {"img":"/assets/images/screens/retractable/2.jpg"},
+            {"img":"/assets/images/screens/retractable/3.jpg"},
+            {"img":"/assets/images/screens/retractable/4.jpg"},
+            {"img":"/assets/images/screens/retractable/5.jpg"},
+            {"img":"/assets/images/screens/retractable/6.jpg"},
+            {"img":"/assets/images/screens/retractable/7.jpg"}
+        ]
     },
     {
         "title":"Sliding Screen Door",
@@ -39,9 +47,9 @@
         "category":"Screens",
         "subcategory":"Door",
         "type":"grid",
-        "bullets":[],
         "tileImage":"/assets/images/screens/swinging-door.jpg",
-        "tileText":"Looking for that old-fashioned simplicity of a swinging screen door? We have many styles and colors to choose from."
+        "tileText":"Looking for that old-fashioned simplicity of a swinging screen door? We have many styles and colors to choose from.",
+        "description":"Looking for that old-fashioned simplicity of a swinging screen door? We have many styles and colors to choose from. These are the best swinging screen doors on the market and we can fit them to virtually any door!"
     },
     {
         "title":"Brighton",
@@ -198,7 +206,6 @@
         "tileImage":"/assets/images/screens/solar-screen3.jpg",
         "tileText":"Suntex Solar Screen is a unique, heavy-duty woven mesh that blocks 80-90% of the sun’s hot rays before they enter your windows and doors.",
         "serviceImgCaption":"Suntex Solar Screen is a unique, heavy-duty woven mesh that blocks 80-90% of the sun’s hot rays before they enter your windows and doors.",
-        "recentInstallImages":["assets/images/screens/solar-screens/1.jpg","assets/images/screens/solar-screens/2.jpg","assets/images/screens/solar-screens/3.jpg","assets/images/screens/solar-screens/4.jpg","assets/images/screens/solar-screens/5.jpg","assets/images/screens/solar-screens/6.jpg","assets/images/screens/solar-screens/7.jpg","assets/images/screens/solar-screens/8.jpg","assets/images/screens/solar-screens/9.jpg","assets/images/screens/solar-screens/10.jpg","assets/images/screens/solar-screens/11.jpg"],
         "video":"WtENSdKQL5k",
         "colorSet":["colorSetx4"],
         "textList":[
@@ -214,6 +221,32 @@
                 "title":"Solar Screens offer daytime privacy",
                 "description":"Suntex solar screen affords full vision from the inside looking out. Suntex solar screen comes in two grades of sun protection and 5 colors to enhance the aesthetic values of any exterior. Custom shapes and arches are no problem for us! Can lower the inside temperature in the summer 15-20 degrees."
             }
+        ],
+        "extraImages": {
+            "img":"/assets/images/screens/solar-screens/solar-screens-infographic.png"
+        },
+        "recentInstallImages":[
+            {"img":"/assets/images/screens/solar-screens/1.jpg","thumb":"/assets/images/screens/solar-screens/1.jpg"},
+            {"img":"/assets/images/screens/solar-screens/2.jpg","thumb":"/assets/images/screens/solar-screens/2.jpg"},
+            {"img":"/assets/images/screens/solar-screens/3.jpg","thumb":"/assets/images/screens/solar-screens/3.jpg"},
+            {"img":"/assets/images/screens/solar-screens/4.jpg","thumb":"/assets/images/screens/solar-screens/4.jpg"},
+            {"img":"/assets/images/screens/solar-screens/5.jpg","thumb":"/assets/images/screens/solar-screens/5.jpg"},
+            {"img":"/assets/images/screens/solar-screens/6.jpg","thumb":"/assets/images/screens/solar-screens/6.jpg"},
+            {"img":"/assets/images/screens/solar-screens/7.jpg","thumb":"/assets/images/screens/solar-screens/7.jpg"},
+            {"img":"/assets/images/screens/solar-screens/8.jpg","thumb":"/assets/images/screens/solar-screens/8.jpg"},
+            {"img":"/assets/images/screens/solar-screens/9.jpg","thumb":"/assets/images/screens/solar-screens/9.jpg"},
+            {"img":"/assets/images/screens/solar-screens/10.jpg","thumb":"/assets/images/screens/solar-screens/10.jpg"},
+            {"img":"/assets/images/screens/solar-screens/11.jpg","thumb":"/assets/images/screens/solar-screens/11.jpg"},
+            {"img":"/assets/images/screens/solar-screens/12.jpg","thumb":"/assets/images/screens/solar-screens/12.jpg"},
+            {"img":"/assets/images/screens/solar-screens/13.jpg","thumb":"/assets/images/screens/solar-screens/13.jpg"},
+            {"img":"/assets/images/screens/solar-screens/14.jpg","thumb":"/assets/images/screens/solar-screens/14.jpg"},
+            {"img":"/assets/images/screens/solar-screens/15.jpg","thumb":"/assets/images/screens/solar-screens/15.jpg"},
+            {"img":"/assets/images/screens/solar-screens/16.jpg","thumb":"/assets/images/screens/solar-screens/16.jpg"},
+            {"img":"/assets/images/screens/solar-screens/17.jpg","thumb":"/assets/images/screens/solar-screens/17.jpg"},
+            {"img":"/assets/images/screens/solar-screens/18.jpg","thumb":"/assets/images/screens/solar-screens/18.jpg"},
+            {"img":"/assets/images/screens/solar-screens/19.jpg","thumb":"/assets/images/screens/solar-screens/19.jpg"},
+            {"img":"/assets/images/screens/solar-screens/20.jpg","thumb":"/assets/images/screens/solar-screens/20.jpg"},
+            {"img":"/assets/images/screens/solar-screens/21.jpg","thumb":"/assets/images/screens/solar-screens/21.jpg"}
         ]
     },
     {
@@ -222,17 +255,29 @@
         "category":"Screens",
         "subcategory":"Door",
         "type":"services",
-        "bullets":[],
         "tileImage":"/assets/images/screens/pet-door-main.jpg",
         "tileText":"Not your average pet door! These doors are made to LAST, unlike those flimsy plastic kits from the hardware store that are just going to cause you problems.",
-        "images":["https://mdbootstrap.com/img/Photos/Slides/img%20(134).jpg", "image2"],
+        "images":{
+            "Almond":"/assets/images/screens/pet-door/almond-frame.jpg",
+            "Bronze":"/assets/images/screens/pet-door/bronze-frame.jpg",
+            "Mill":"/assets/images/screens/pet-door/mill-frame.jpg",
+            "White":"/assets/images/screens/pet-door/white-frame.jpg"
+        },
         "serviceImgCaption":"Not your average pet door!",
-        "textBlockTitle0":"Quick Install",
-        "textBlock0":"Installs directly into your sliding door- no need for a separate panel. These doors are made to LAST, unlike those flimsy plastic kits from the hardware store that are just going to cause you problems.",
-        "textBlockTitle1":"Top Quality",
-        "textBlock1":"Flexible heavy duty rubber will not crack in winter or warp in summer. Magnets are imbedded into the rubber for energy savings.",
-        "textBlockTitle2":"Safety First",
-        "textBlock2":"The locking cover (not shown) is particle board enameled bright white on one side for greater visibility to the pet. This cover should be used on the same side as the pet. However, It is designed to be breakable as a safety precaution in case the pet crashes into it from the wrong side."
+        "textList":[
+            {
+                "title":"Quick Install",
+                "description":"Installs directly into your sliding door- no need for a separate panel. These doors are made to LAST, unlike those flimsy plastic kits from the hardware store that are just going to cause you problems."
+            },
+            {
+                "title":"Top Quality",
+                "description":"Flexible heavy duty rubber will not crack in winter or warp in summer. Magnets are imbedded into the rubber for energy savings."
+            },
+            {
+                "title":"Safety First",
+                "description":"The locking cover (not shown) is particle board enameled bright white on one side for greater visibility to the pet. This cover should be used on the same side as the pet. However, It is designed to be breakable as a safety precaution in case the pet crashes into it from the wrong side."
+            }
+        ]
     },
 
     {
@@ -246,6 +291,101 @@
         "thumbImages":[],
         "video":""
     },
+    {
+        "title":"Chimney Caps and Spark Arrestor",
+        "slug":"chimney-caps-and-spark-arrestor",
+        "category":"Accessories",
+        "type":"services",
+        "tileImage":"/assets/images/chimneys/accessories/chimney-cap/chimney-cap.jpg",
+        "tileText":"Not your average pet door! These doors are made to LAST, unlike those flimsy plastic kits from the hardware store that are just going to cause you problems.",
+        "serviceImgCaption":"Not your average pet door!",
+        "textList":[
+            {
+                "title":"Quick Install",
+                "description":"Installs directly into your sliding door- no need for a separate panel. These doors are made to LAST, unlike those flimsy plastic kits from the hardware store that are just going to cause you problems."
+            },
+            {
+                "title":"Top Quality",
+                "description":"Flexible heavy duty rubber will not crack in winter or warp in summer. Magnets are imbedded into the rubber for energy savings."
+            },
+            {
+                "title":"Safety First",
+                "description":"The locking cover (not shown) is particle board enameled bright white on one side for greater visibility to the pet. This cover should be used on the same side as the pet. However, It is designed to be breakable as a safety precaution in case the pet crashes into it from the wrong side."
+            }
+        ]
+    },
+    {
+        "title":"Fireplace Grate",
+        "slug":"fireplace-grate",
+        "category":"Accessories",
+        "type":"services",
+        "tileImage":"/assets/images/chimneys/accessories/fireplace-grate/1.jpg",
+        "tileText":"Not your average pet door! These doors are made to LAST, unlike those flimsy plastic kits from the hardware store that are just going to cause you problems.",
+        "serviceImgCaption":"Not your average pet door!",
+        "textList":[
+            {
+                "title":"Quick Install",
+                "description":"Installs directly into your sliding door- no need for a separate panel. These doors are made to LAST, unlike those flimsy plastic kits from the hardware store that are just going to cause you problems."
+            },
+            {
+                "title":"Top Quality",
+                "description":"Flexible heavy duty rubber will not crack in winter or warp in summer. Magnets are imbedded into the rubber for energy savings."
+            },
+            {
+                "title":"Safety First",
+                "description":"The locking cover (not shown) is particle board enameled bright white on one side for greater visibility to the pet. This cover should be used on the same side as the pet. However, It is designed to be breakable as a safety precaution in case the pet crashes into it from the wrong side."
+            }
+        ]
+    },
+    {
+        "title":"Fireplace Glass Doors",
+        "slug":"fireplace-glass-doors",
+        "category":"Accessories",
+        "type":"services",
+        "tileImage":"/assets/images/chimneys/accessories/fireplace-glass-doors/black.png",
+        "tileText":"Not your average pet door! These doors are made to LAST, unlike those flimsy plastic kits from the hardware store that are just going to cause you problems.",
+        "serviceImgCaption":"Not your average pet door!",
+        "textList":[
+            {
+                "title":"Quick Install",
+                "description":"Installs directly into your sliding door- no need for a separate panel. These doors are made to LAST, unlike those flimsy plastic kits from the hardware store that are just going to cause you problems."
+            },
+            {
+                "title":"Top Quality",
+                "description":"Flexible heavy duty rubber will not crack in winter or warp in summer. Magnets are imbedded into the rubber for energy savings."
+            },
+            {
+                "title":"Safety First",
+                "description":"The locking cover (not shown) is particle board enameled bright white on one side for greater visibility to the pet. This cover should be used on the same side as the pet. However, It is designed to be breakable as a safety precaution in case the pet crashes into it from the wrong side."
+            }
+        ]
+    },
+    {
+        "title":"Radiant Fireback",
+        "slug":"radiant-fireback",
+        "category":"Accessories",
+        "type":"services",
+        "tileImage":"/assets/images/chimneys/accessories/radiant-firebacks/radiant-fireback.jpg",
+        "tileText":"Not your average pet door! These doors are made to LAST, unlike those flimsy plastic kits from the hardware store that are just going to cause you problems.",
+        "serviceImgCaption":"Not your average pet door!",
+        "textList":[
+            {
+                "title":"Quick Install",
+                "description":"Installs directly into your sliding door- no need for a separate panel. These doors are made to LAST, unlike those flimsy plastic kits from the hardware store that are just going to cause you problems."
+            },
+            {
+                "title":"Top Quality",
+                "description":"Flexible heavy duty rubber will not crack in winter or warp in summer. Magnets are imbedded into the rubber for energy savings."
+            },
+            {
+                "title":"Safety First",
+                "description":"The locking cover (not shown) is particle board enameled bright white on one side for greater visibility to the pet. This cover should be used on the same side as the pet. However, It is designed to be breakable as a safety precaution in case the pet crashes into it from the wrong side."
+            }
+        ]
+    },
+
+
+
     {
         "title":"Cleaning",
         "slug":"cleaning",
@@ -286,16 +426,12 @@
         "category":"Chimney",
         "type":"grid",
         "tileImage":"/assets/images/chimneys/chimney-unsplash.jpg",
-        "tileText":"When it comes to chimney repairs, our chimney professionals are your go-to for crown seals, heat damage, masonry repair, chimney liners, refractory panels, chimney de-glazing, and more!",
-        "serviceImgCaption":"Have our chimney professionals clean and inspect your chimney.",
-        "textBlock0":"<h5 class='feature-title font-bold'></h5><p class='gray-text'>A clean sweep of your chimney will remove soot, creosote and blockages from your flue liner, smoke chamber and shelf, firebox and damper. Our chimney sweep technicians will make sure your home does not get soiled or messy around the areas we work in. We pride ourselves in “no mess” top notch service by doing a great job with minimal interruption to you and your family. Here at Mike’s Mobile Screen and Chimney Service, we take pride in providing the best possible customer experience so that you can go about your winter without worry when you burn!</p>",
-        "textBlock1":"<h5 class='feature-title font-bold'></h5><p class='gray-text'>We only send fully trained chimney cleaning professionals to your home that will live up to the guidelines of the CSIA (Chimney Safety Institute of America) and NFI (National Fireplace Association). Every chimney sweep from us will include a full Level 1 Inspection report which will inform you of the status of your chimney and fireplace which may be affecting performance and safety.</p>",
-        "textBlock2":"<h5 class='feature-title font-bold'></h5><p class='gray-text'>How often should you have your chimney cleaned? Both the CSIA (Chimney Safety Institute of America) and the National Fire Protection Association recommend yearly chimney inspections. With our chimney cleaning service, we provide an annual inspection along with the assurance of a clean chimney while you burn. Even if you don’t use your chimney often, it is possible to have debris or animals make your chimney unsafe without you even knowing. Animal nests pose a hazard to any chimney by providing combustible materials towards the roof or inside the chimney itself.</p>"
+        "tileText":"When it comes to chimney repairs, our chimney professionals are your go-to for crown seals, heat damage, masonry repair, chimney liners, refractory panels, chimney de-glazing, and more!"
     },
     {
         "title":"Crown Seal",
         "slug":"crown-seal",
-        "category":"repairs",
+        "category":"Repair",
         "type":"services",
         "tileImage":"assets/images/chimneys/repairs/crown-seal/crown-seal.jpg",
         "tileText":"Protect your chimney from water damage. Get a crown seal for your chimney now!",
@@ -317,7 +453,7 @@
     {
         "title":"Rear Firewall Heat Damage",
         "slug":"rear-firewall-heat-damage",
-        "category":"repairs",
+        "category":"Repair",
         "type":"services",
         "tileImage":"assets/images/chimneys/repairs/rear-firewall-heat-damage/rear-firewall-heat-damage.jpg",
         "tileText":"Protect your chimney from water damage. Get a crown seal for your chimney now!",
@@ -339,7 +475,7 @@
     {
         "title":"Masonry Repair",
         "slug":"masonry-repair",
-        "category":"repairs",
+        "category":"Repair",
         "type":"services",
         "tileImage":"assets/images/chimneys/repairs/masonry-repair/masonry-repair.jpg",
         "tileText":"Protect your chimney from water damage. Get a crown seal for your chimney now!",
@@ -361,7 +497,7 @@
     {
         "title":"Chimney Liner",
         "slug":"chimney-liner",
-        "category":"repairs",
+        "category":"Repair",
         "type":"services",
         "tileImage":"assets/images/chimneys/repairs/chimney-liner/chimney-liner.jpg",
         "tileText":"Protect your chimney from water damage. Get a crown seal for your chimney now!",
@@ -383,7 +519,7 @@
     {
         "title":"Refractory Panels",
         "slug":"refractory-panels",
-        "category":"repairs",
+        "category":"Repair",
         "type":"services",
         "tileImage":"assets/images/chimneys/repairs/refractory-panels/refractory-panels.jpg",
         "tileText":"Protect your chimney from water damage. Get a crown seal for your chimney now!",
@@ -405,7 +541,7 @@
     {
         "title":"Chimney De-Glazing",
         "slug":"chimney-de-glazing",
-        "category":"repairs",
+        "category":"Repair",
         "type":"services",
         "tileImage":"assets/images/chimneys/repairs/de-glazing/de-glazing.png",
         "tileText":"Protect your chimney from water damage. Get a crown seal for your chimney now!",
@@ -451,7 +587,7 @@
     {
         "title":"Brick/Block/Stone Veneer",
         "slug":"brick-block-stone-veneer",
-        "category":"masonry-services",
+        "category":"Masonry",
         "type":"services",
         "tileImage":"assets/images/chimneys/masonry-services/veneers/bluffstone.jpg",
         "tileText":"Protect your chimney from water damage. Get a crown seal for your chimney now!",
@@ -473,7 +609,7 @@
     {
         "title":"Fireplace Hearth",
         "slug":"fireplace-hearth",
-        "category":"masonry-services",
+        "category":"Masonry",
         "type":"services",
         "tileImage":"assets/images/chimneys/masonry-services/fireplace-hearth/fireplace-hearth.jpg",
         "tileText":"Protect your chimney from water damage. Get a crown seal for your chimney now!",
@@ -495,7 +631,7 @@
     {
         "title":"Chimney Rebuild",
         "slug":"chimney-rebuild",
-        "category":"masonry-services",
+        "category":"Masonry",
         "type":"services",
         "tileImage":"assets/images/chimneys/masonry-services/chimney-rebuild/chimney-rebuild.jpg",
         "tileText":"Protect your chimney from water damage. Get a crown seal for your chimney now!",
@@ -517,7 +653,7 @@
     {
         "title":"Hardscape",
         "slug":"hardscape",
-        "category":"masonry-services",
+        "category":"Masonry",
         "type":"services",
         "tileImage":"assets/images/chimneys/masonry-services/hardscape/hardscape.jpg",
         "tileText":"Protect your chimney from water damage. Get a crown seal for your chimney now!",
@@ -539,7 +675,7 @@
     {
         "title":"Tuckpointing",
         "slug":"tuckpointing",
-        "category":"masonry-services",
+        "category":"Masonry",
         "type":"services",
         "tileImage":"assets/images/chimneys/masonry-services/tuckpointing/tuckpointing.jpg",
         "tileText":"Protect your chimney from water damage. Get a crown seal for your chimney now!",
@@ -561,7 +697,7 @@
     {
         "title":"waterproofing",
         "slug":"waterproofing",
-        "category":"masonry-services",
+        "category":"Masonry",
         "type":"services",
         "tileImage":"assets/images/chimneys/masonry-services/waterproofing/waterproofing.jpg",
         "tileText":"Protect your chimney from water damage. Get a crown seal for your chimney now!",
@@ -611,7 +747,7 @@
     {
         "title":"Artisan",
         "slug":"artisan",
-        "category":"steel-security-doors",
+        "category":"Steel Security Doors",
         "type":"products",
         "bullets":["The Clearview Swinging Screen Door is open design that maximizes visibility and ventilation.","This door comes in standard and custom sizes.","Customize your door today and add a pet door or Solar Screen today!"],
         "tileImage":"assets/images/security/steel-security-doors/artisan/artisan.jpg",
@@ -626,7 +762,7 @@
     {
         "title":"Garden",
         "slug":"garden",
-        "category":"steel-security-doors",
+        "category":"Steel Security Doors",
         "type":"products",
         "bullets":["The Clearview Swinging Screen Door is open design that maximizes visibility and ventilation.","This door comes in standard and custom sizes.","Customize your door today and add a pet door or Solar Screen today!"],
         "tileImage":"assets/images/security/steel-security-doors/garden/garden.jpg",
@@ -641,7 +777,7 @@
     {
         "title":"Artisan View",
         "slug":"artisan-view",
-        "category":"steel-security-doors",
+        "category":"Steel Security Doors",
         "type":"products",
         "bullets":["The Clearview Swinging Screen Door is open design that maximizes visibility and ventilation.","This door comes in standard and custom sizes.","Customize your door today and add a pet door or Solar Screen today!"],
         "tileImage":"assets/images/security/steel-security-doors/artisan-view/artisan-view.jpg",
@@ -656,7 +792,7 @@
     {
         "title":"Vino",
         "slug":"vino",
-        "category":"steel-security-doors",
+        "category":"Steel Security Doors",
         "type":"products",
         "bullets":["The Clearview Swinging Screen Door is open design that maximizes visibility and ventilation.","This door comes in standard and custom sizes.","Customize your door today and add a pet door or Solar Screen today!"],
         "tileImage":"assets/images/security/steel-security-doors/vino/vino.jpg",
@@ -671,7 +807,7 @@
     {
         "title":"Lanai",
         "slug":"lanai",
-        "category":"steel-security-doors",
+        "category":"Steel Security Doors",
         "type":"products",
         "bullets":["The Clearview Swinging Screen Door is open design that maximizes visibility and ventilation.","This door comes in standard and custom sizes.","Customize your door today and add a pet door or Solar Screen today!"],
         "tileImage":"assets/images/security/steel-security-doors/lanai/lanai.jpg",
@@ -686,7 +822,7 @@
     {
         "title":"Vino Welcome",
         "slug":"vino-welcome",
-        "category":"steel-security-doors",
+        "category":"Steel Security Doors",
         "type":"products",
         "tileImage":"assets/images/security/steel-security-doors/lanai/lanai.jpg",
         "bullets":["The Clearview Swinging Screen Door is open design that maximizes visibility and ventilation.","This door comes in standard and custom sizes.","Customize your door today and add a pet door or Solar Screen today!"],
@@ -701,7 +837,7 @@
     {
         "title":"Park Avenue",
         "slug":"park-avenue",
-        "category":"steel-security-doors",
+        "category":"Steel Security Doors",
         "type":"products",
         "bullets":["The Clearview Swinging Screen Door is open design that maximizes visibility and ventilation.","This door comes in standard and custom sizes.","Customize your door today and add a pet door or Solar Screen today!"],
         "tileImage":"assets/images/security/steel-security-doors/park-avenue/park-avenue.png",
@@ -716,7 +852,7 @@
     {
         "title":"Sunrise",
         "slug":"sunrise",
-        "category":"steel-security-doors",
+        "category":"Steel Security Doors",
         "type":"products",
         "tileImage":"assets/images/security/steel-security-doors/sunrise/sunrise.jpg",
         "bullets":["The Clearview Swinging Screen Door is open design that maximizes visibility and ventilation.","This door comes in standard and custom sizes.","Customize your door today and add a pet door or Solar Screen today!"],
@@ -731,7 +867,7 @@
     {
         "title":"Arbor",
         "slug":"arbor",
-        "category":"steel-security-doors",
+        "category":"Steel Security Doors",
         "type":"products",
         "tileImage":"assets/images/security/steel-security-doors/arbor/arbor.jpg",
         "bullets":["The Clearview Swinging Screen Door is open design that maximizes visibility and ventilation.","This door comes in standard and custom sizes.","Customize your door today and add a pet door or Solar Screen today!"],
@@ -746,7 +882,7 @@
     {
         "title":"Zen",
         "slug":"zen",
-        "category":"steel-security-doors",
+        "category":"Steel Security Doors",
         "type":"products",
         "tileImage":"assets/images/security/steel-security-doors/zen/zen.jpg",
         "bullets":["The Clearview Swinging Screen Door is open design that maximizes visibility and ventilation.","This door comes in standard and custom sizes.","Customize your door today and add a pet door or Solar Screen today!"],
@@ -761,7 +897,7 @@
     {
         "title":"Palladio",
         "slug":"palladio",
-        "category":"steel-security-doors",
+        "category":"Steel Security Doors",
         "type":"products",
         "tileImage":"assets/images/security/steel-security-doors/palladio/palladio.jpg",
         "bullets":["The Clearview Swinging Screen Door is open design that maximizes visibility and ventilation.","This door comes in standard and custom sizes.","Customize your door today and add a pet door or Solar Screen today!"],
@@ -776,7 +912,7 @@
     {
         "title":"Estate",
         "slug":"estate",
-        "category":"steel-security-doors",
+        "category":"Steel Security Doors",
         "type":"products",
         "tileImage":"assets/images/security/steel-security-doors/estate/estate.jpg",
         "bullets":["The Clearview Swinging Screen Door is open design that maximizes visibility and ventilation.","This door comes in standard and custom sizes.","Customize your door today and add a pet door or Solar Screen today!"],
@@ -791,7 +927,7 @@
     {
         "title":"Plantation",
         "slug":"plantation",
-        "category":"steel-security-doors",
+        "category":"Steel Security Doors",
         "type":"products",
         "tileImage":"assets/images/security/steel-security-doors/plantation/plantation.jpg",
         "bullets":["The Clearview Swinging Screen Door is open design that maximizes visibility and ventilation.","This door comes in standard and custom sizes.","Customize your door today and add a pet door or Solar Screen today!"],
@@ -806,7 +942,7 @@
     {
         "title":"Villa",
         "slug":"villa",
-        "category":"steel-security-doors",
+        "category":"Steel Security Doors",
         "type":"products",
         "tileImage":"assets/images/security/steel-security-doors/villa/villa.jpg",
         "bullets":["The Clearview Swinging Screen Door is open design that maximizes visibility and ventilation.","This door comes in standard and custom sizes.","Customize your door today and add a pet door or Solar Screen today!"],
@@ -821,7 +957,7 @@
     {
         "title":"Santa Fe",
         "slug":"santa-fe",
-        "category":"steel-security-doors",
+        "category":"Steel Security Doors",
         "type":"products",
         "tileImage":"assets/images/security/steel-security-doors/santa-fe/santa-fe.jpg",
         "bullets":["The Clearview Swinging Screen Door is open design that maximizes visibility and ventilation.","This door comes in standard and custom sizes.","Customize your door today and add a pet door or Solar Screen today!"],
@@ -867,7 +1003,10 @@
         "options":"FRENCH DOOR OPTION<br/>Tru-View security screen doors are also available with a French Door kit for double doors, and include all installation hardware.<br/><br/>THRESHOLD EXTENDER:<br/>Available in white, bronze, or mill. Threshold extenders are sometimes needed to retrofit your existing door to make the Viewguard bug proof when your threshold is too short.<br/><br/>HINGE EXPANDER DETAIL: Click here<br/><br/>PRE-HUNG DETAIL: Click here<br/><br/>COLORS AVAILABLE<br/>Bronze Anodized or White Paint. Custom special colors are available. See below for samples.<br/><br/>HARDWARE:<br/>Hardware includes deluxe security lock with keyed deadbolt, thumb-turn cylinder, pneumatic closer, wind safety chain and installation screws.",
         "relatedProducts":"<li>Tru Frame</li><li>Tru View</li><li>Steel Security Doors</li><li>Tru Frame Security Sliding Doors</li>",
         "warranty":"All warranties cover materials, manufacturing defects and hardware for the periods listed below but will not cover normal wear and tear of the product. Screen mesh is not covered beyond the initial installation of products. Defective items must be reported within 5 days of receipt for validation. Improper installation of the product will not be covered under the warranties listed. Warranty periods begin from the date of purchase to our dealers.<br/><br/>Contact the factory for details on specific product lines listed below and for any warranty claim.<br/><br/>Maximum liability for R. Lang Company will be limited to replacement of product only.<br/><br/>5 Year Limited Warranty<br/><br/><br/>Security Doors<br/>WARRANTY SERVICE REQUESTS<br/><br/>Warranty periods begin from date of purchase from the R. Lang Company.<br/>All warranty service requests must be submitted by the original dealer/customer for validation purposes. You must provide an original invoice number for verification.<br/>Contact our Customer Service Department at (800) 677-5264 for the Service Request form to be emailed or faxed to you.<br/>R. Lang Company will not accept warranty requests directly from homeowners.<br/>Under no circumstance will R. Lang Company be responsible for repair bills submitted by homeowners or dealers/customers without prior approval from the Sales or Warranty Manager.<br/>Warranty requests received outside of our California service area will be processed by our Warranty Manager for fair resolution. Replacement parts will be sent as necessary to correct a problem or defect. Insulated glass failures/defects can be replaced locally but will require pre-authorization from the Sales Warranty Manager for fair credit amount reimbursement.<br/>Any dealer/customer rework or screen replacement must be pre-approved. We recommend that the product be returned for correction in our facility.<br/>R. Lang Company will cover cost for authorized replacements for material only. Dealer/customer will be responsible for any labor incurred for their shop or field expenses.<br/><br/>GENERAL WARRANTY POLICY<br/>R. Lang Company will repair or provide replacement product, at it’s election, free of charge, any product proven to have a manufacturing defect during the applicable warranty period up to a maximum liability which shall be equal to the cost of replacement of the defective product. R. Lang Company shall in no event be liable for labor charges or other expenses whatsoever in connection with removal or installation of either the original or replacement product. However, in lieu of replacement of repair, R. Lang Company, at it’s sole discretion, reserves the right to refund up to the amount paid by the original purchaser of the product but not including the installation cost. This warranty is intended to cover individual homeowners and does not apply to products installed in commercial construction. In the event of repair or replacement pursuant to terms of this warranty, the original warranty shall apply to the repaired or replacement product and will extend for the balance of the warranty period in effect at the time the product proved defective.",
-        "recentInstallImages":["/assets/images/security/tru-view/8.png","/assets/images/security/tru-view/9.png"],
+        "recentInstallImages":[
+            {"img": "/assets/images/security/tru-view/8.png", "thumb":"/assets/images/security/tru-view/8.png", "description":"Something"},
+            {"img": "/assets/images/security/tru-view/9.png", "thumb":"/assets/images/security/tru-view/9.png", "description":"somethiingelse"}
+        ],
         "colorSet":["stdColors", "securityDoorColors"]
     },
     {

@@ -35,14 +35,12 @@
 							<mdb-squeezebox [multiple]="false" aria-multiselectable="true">
 							    <mdb-item  *ngFor="let item of service.textList">
 							        <mdb-item-head>{{ item.title }}</mdb-item-head>
-							        <mdb-item-body>{{ item.description }}</mdb-item-body>
+									<mdb-item-body>{{ item.description }}</mdb-item-body>
 							    </mdb-item>
 							</mdb-squeezebox>
 							<!--/.Accordion wrapper-->
 						</div>
 					</div>
-
-
 
 					<div class="row" *ngIf="service.colorSet">
 						<div class="col-12">
@@ -84,31 +82,40 @@
 						</div>
 					</div>
 
+					<h4 class="p-2" *ngIf="service.slug === 'pet-door' && service.images">Pet Door Frames</h4>
+					<div class="row" *ngIf="service.slug === 'pet-door' && service.images">
+						<div class="col-3" *ngFor="let img of petImages | keys">
+							<img src="{{img.value}}" class="img-fluid" alt="{{img.value}}"/>
+							<p class="text-center">{{img.key}}</p>
+						</div>
+					</div>
+					
+					<h4 class="p-2" *ngIf="service.extraImages">Informational Graphics</h4>
+					<div class="row" *ngIf="service.extraImages">
+						<div class="col-9" *ngFor="let img of extra_images | keys">
+							<img src="{{img.value}}" class="img-fluid" alt="{{img.value}}"/>							
+						</div>
+					</div>
 		        </div>
 		        <!--Grid column-->
 		    </div>
 		    <!--Grid row-->
 		</section>
 
-		<!--Section: Features v.2-->
-		<section class="section feature-box" *ngIf="service.recentInstallImages">
-		    <!--Section heading-->
-		    <h2 class="text-center pt-3">View some of our recent installs</h2>
-			<hr/>
-		    <!--Grid row-->
-		    <div class="row features-small pt-4">
-				<!--Carousel Wrapper-->
-				<mdb-carousel [isControls]="true" class="carousel slide carousel-fade" [type]="'carousel-thumbnails'" [animation]="'fade'" id="centered-gallery">
-				    <!--First slide-->
-				    <mdb-slide *ngFor="let recentInstall of service.recentInstallImages">
-				        <img class="d-block w-100" src="{{recentInstall}}" alt="First slide">
-				    </mdb-slide>
-				    <!--/First slide-->
-				</mdb-carousel>
-				<!--/.Carousel Wrapper-->
-		    </div>
-		    <!--Grid row-->
-		</section>
+		<div class="container" *ngIf="service.recentInstallImages">
+			<!--Section: Features v.2-->
+			<section class="section feature-box">
+				<!--Section heading-->
+				<h2 class="text-center pt-3">View some of our recent installs</h2>
+				<hr/>
+				<!--Grid row-->
+				<div class="row features-small pt-4">
+					<mdb-image-modal [modalImages]="recent_install_images" type="margin"></mdb-image-modal>
+				</div>
+			</section>
+		</div>
+		
+
 	</div>
 </ng-container>
 
@@ -127,7 +134,7 @@
                 </div>
                 <div class="modal-body">
 					<div class="md-form form-sm">
-                        <mdb-select [options]="optionsSelect" [multiple]="true" placeholder="Choose a service"></mdb-select>
+                        <mdb-select [options]="optionsSelect" [multiple]="true" placeholder="What service were you interested in?"></mdb-select>
                     </div>
                     <div class="md-form form-sm">
                         <input mdbActive type="text" id="form1" class="form-control">
