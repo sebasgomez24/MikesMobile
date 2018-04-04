@@ -12,35 +12,12 @@
     	<!-- /Breadcrumb Navigation -->
 
 		<div class="row">
-			<div class="col-12 col-md-6 pb-3">
-				<div class="row">
-
-					<!--Carousel Wrapper-->
-					<!-- <mdb-carousel [isControls]="true" class="carousel slide carousel-fade" [type]="'carousel-thumbnails'" [animation]="'fade'" [interval]="2500">
-						<ng-container *ngFor="let image of product.thumbImages">
-						    <mdb-slide>
-						        <img class="d-block" src="{{image}}" alt="First slide">
-						    </mdb-slide>
-						</ng-container>
-					</mdb-carousel> -->
-					<!--/.Carousel Wrapper-->
-
-
-					<ul class="col-3 d-flex flex-column thumbnails">
-						<ng-container *ngFor="let image of product.thumbImages">
-							<ng-container >
-								<li><a href="{{image}}"><img src="{{image}}" alt="Thumbnails"></a></li>
-							</ng-container>
-						</ng-container>
-					</ul>
-					<div class="col-9">
-						<div class="main-image">
-							<img src="{{product.tileImage}}" alt="Placeholder" class="custom">
-						</div>
-					</div>
-				</div>
+			<!-- GALLERY SECTION -->
+			<div class="col-12 col-md-7">
+				<ngx-gallery [options]="galleryOptions" [images]="galleryImages"></ngx-gallery>				
 			</div>
-			<div class="col-1"></div>
+			<!-- /GALLERY SECTION -->
+
 			<div class="col-12 col-md-5" id="productInfo">
 				<h5 class="text-left">{{product.category}}</h5>
 				<h3 class="text-left">{{product.title}}</h3>
@@ -54,7 +31,7 @@
 						<div class="row no-gutters">
 							<div class="col-3 col-md-2" *ngFor="let color of stdColors | keys">
 								<div class="square" mdbTooltip="{{color.key}}" [ngStyle]="{'background': color.value}" placement="bottom"></div>
-								<p id="p-colors" class="pl-2">{{color.key}}</p>
+								<p id="" class="pl-2 p-colors">{{color.key}}</p>
 							</div>
 						</div>
 						<p class="mb-0 mt-2 ml-1" style="font-weight:bold">Custom Colors</p>
@@ -62,29 +39,30 @@
 							<ng-container *ngIf="colors === 'colorSetx4'">
 								<div class="col-3 col-md-2" *ngFor="let c of colorSetx4 | keys">
 									<div class="square" mdbTooltip="{{c.key}}" [ngStyle]="{'background': c.value}" placement="bottom"></div>
-									<p id="p-colors" class="pl-2">{{c.key}}</p>
+									<p id="" class="pl-2 p-colors">{{c.key}}</p>
 								</div>
 							</ng-container>
 							<ng-container *ngIf="colors === 'colorSetx6'">
 								<div class="col-3 col-md-2" *ngFor="let c of colorSetx6 | keys">
 									<div class="square" mdbTooltip="{{c.key}}" [ngStyle]="{'background': c.value}" placement="bottom"></div>
-									<p id="p-colors" class="pl-2">{{c.key}}</p>
+									<p id="" class="pl-2 p-colors">{{c.key}}</p>
 								</div>
 							</ng-container>
 							<ng-container *ngIf="colors === 'swingingDoorColors'">
 								<div class="col-3 col-md-2" *ngFor="let c of swingingDoorColors | keys; index as i">
-									<div class="square" id="square-{{i}}" mdbTooltip="{{c.key}}" [ngStyle]="{'background': c.value}" placement="bottom"></div>
-									<p id="p-colors" class="pl-2">{{c.key}}</p>
+									<div class="square hidden-square" id="square-{{i}}" mdbTooltip="{{c.key}}" [ngStyle]="{'background': c.value}" placement="bottom"></div>
+									<p id="square-p-{{i}}" class="pl-2 p-colors hidden-p">{{c.key}}</p>
 								</div>
 							</ng-container>
 							<ng-container *ngIf="colors === 'securityDoorColors'">
 								<div class="col-3 col-md-2" *ngFor="let c of securityDoorColors | keys; index as i">
-									<div class="square square-{{i}}" id="square-{{i}}" mdbTooltip="{{c.key}}" [ngStyle]="{'background': c.value}" placement="bottom"></div>
-									<p id="square-p-{{i}}" class="pl-2 p-colors square-p-{{i}}">{{c.key}}</p>
+									<div class="square hidden-square" id="square-{{i}}" mdbTooltip="{{c.key}}" [ngStyle]="{'background': c.value}" placement="bottom"></div>
+									<p id="square-p-{{i}}" class="pl-2 p-colors hidden-p">{{c.key}}</p>
 								</div>								
 							</ng-container>
 						</div>
-						<p class="orange-text" id="more-colors" (click)="viewMoreColors()"> &nbsp; Click to view more colors &nbsp; <i class="fa fa-angle-down" aria-hidden="true"></i></p>
+						<p class="orange-text" id="more-colors" (click)="viewMoreColors()"> Click to view more colors &nbsp; <i class="fa fa-angle-down" aria-hidden="true"></i></p>
+						<p id="less-colors" (click)="viewLessColors()">Less Colors &nbsp; <i class="fa fa-angle-up" aria-hidden="true"></i></p>
 					</div>
 				</div>
 			</div>

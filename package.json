@@ -36,6 +36,7 @@
     "moment": "^2.21.0",
     "ng-mdb-pro": "git+https://oauth2:jtXvEgfhXJaU5toFpdji@git.mdbootstrap.com/mdb/angular/ng-pro.git",
     "ng2-page-scroll": "^4.0.0-beta.12",
+    "ngx-gallery": "^5.3.0",
     "npm": "^5.7.1",
     "rxjs": "^5.5.6",
     "screenfull": "^3.3.0",

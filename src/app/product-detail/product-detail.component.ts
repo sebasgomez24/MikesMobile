@@ -2,6 +2,7 @@ import { Component, OnInit, OnDestroy } from '@angular/core';
 import { ActivatedRoute } from '@angular/router';
 import { ServiceItem } from '../services/service';
 import { ServicesService } from '../services/service.service';
+import { NgxGalleryOptions, NgxGalleryImage, NgxGalleryAnimation, NgxGalleryImageSize } from 'ngx-gallery';
 
 import * as $ from 'jquery';
 
@@ -12,8 +13,9 @@ import * as $ from 'jquery';
   providers: [ServicesService]
 })
 export class ProductDetailComponent implements OnInit, OnDestroy {
-    
-    constructor(private route: ActivatedRoute, private _service:ServicesService) { }
+
+    galleryOptions: NgxGalleryOptions[];
+    galleryImages: NgxGalleryImage[];
 
     private req:any;
     private routeSub:any;
@@ -74,6 +76,8 @@ export class ProductDetailComponent implements OnInit, OnDestroy {
         "Statuary Bronze":"#42372F"
     }
 
+    constructor(private route: ActivatedRoute, private _service:ServicesService) { }
+    
     ngOnInit() {
         this.routeSub = this.route.params.subscribe(params => {
             this.slug = params['slug']
@@ -82,10 +86,52 @@ export class ProductDetailComponent implements OnInit, OnDestroy {
                     if(item.slug == this.slug){
                         this.product = item as ServiceItem;
                         this.recent_install_images = this.product.recentInstallImages;
+                        this.galleryImages = this.product.thumbImages;
                     }
                 })
             })
         })
+
+        this.galleryOptions = [
+            {
+                width: '550px',
+                height: '450px',
+                thumbnailsColumns: 4,
+                thumbnailsRemainingCount: true,
+                imageArrowsAutoHide: true,
+                thumbnailsArrowsAutoHide: true,
+                imageSize: NgxGalleryImageSize.Contain,
+                imageAnimation: NgxGalleryAnimation.Slide,
+                previewCloseOnClick: true, 
+                previewCloseOnEsc: true
+            },
+            // max-width 800
+            {
+                breakpoint: 800,
+                width: '100%',
+                height: '600px',
+                imagePercent: 80,
+                thumbnailsPercent: 20,
+                thumbnailsMargin: 20,
+                thumbnailMargin: 20
+            },
+            // max-width 400
+            {
+                breakpoint: 400,
+                preview: false
+            }
+        ];
+
+
+        var ngxGalImg = document.getElementsByClassName('ngx-gallery-image') as HTMLCollectionOf<HTMLElement>;
+        var ngxGalActive = document.getElementsByClassName('ngx-gallery-active') as HTMLCollectionOf<HTMLElement>;
+        var ngxGalClick = document.getElementsByClassName('ngx-gallery-clickable') as HTMLCollectionOf<HTMLElement>;
+
+        for(var i in ngxGalImg) {
+            ngxGalImg[0].style.zIndex = "0";
+            ngxGalActive[0].style.zIndex = "0";
+            ngxGalClick[0].style.zIndex = "0";
+        }
     }
     ngOnDestroy(){
       this.routeSub.unsubscribe();
@@ -93,35 +139,31 @@ export class ProductDetailComponent implements OnInit, OnDestroy {
     }
 
     viewMoreColors(){
-        var viewMoreBtn = document.getElementById('more-colors');
-        var hiddenSquare = document.getElementById('hidden-square');
-        var hiddenP = document.getElementById('hidden-p');
+        var viewMoreBtn = document.getElementById('more-colors').style.display="none";
+        var viewLessBtn = document.getElementById('less-colors').style.display="block";
 
-        viewMoreBtn.style.display="none";
-        hiddenSquare.style.display="block";
-        hiddenP.style.display="block";
+        for (var i=6; i<19; i++){
+            var el = document.getElementById("square-" + i);            
+            el.style.display = 'block';
+            if (screen.width < 992){
+                var ello = document.getElementById("square-p-" + i);
+                ello.style.display = 'block';
+            }            
+        }        
+        
+    }
+    viewLessColors(){
+        var viewLessBtn = document.getElementById('less-colors').style.display="none";
+        var viewMoreBtn = document.getElementById('more-colors').style.display="block";
+
+        for (var i=6; i<19; i++){
+            var el = document.getElementById("square-" + i);            
+            el.style.display = 'none';
+            if (screen.width < 992){
+                var ello = document.getElementById("square-p-" + i);
+                ello.style.display = 'none';
+            }            
+        }     
+
     }
 }
-
-!function(a){
-  a.fn.extend({
-    simpleGal:function(b){
-      var c = { mainImage:".placeholder" };
-      return b = a.extend(c,b),
-        this.each(function(){
-          var c = a(this).find("a"), d = a(this).siblings().find(b.mainImage);
-          c.on("click", function(b){
-            b.preventDefault();
-            var c = a(this).attr("href");
-            d.attr("src",c)
-          })
-        })
-    }
-  })
-}($);
-
-$(document).ready(function () {
-  $('.thumbnails').simpleGal({
-    mainImage: '.custom'
-  });
-});

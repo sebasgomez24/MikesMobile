@@ -6,6 +6,7 @@ import { NgModule, NO_ERRORS_SCHEMA } from '@angular/core';
 import { MDBBootstrapModules } from 'ng-mdb-pro';
 import { MDBSpinningPreloader } from 'ng-mdb-pro';
 import { Ng2PageScrollModule } from 'ng2-page-scroll';
+import { NgxGalleryModule } from 'ngx-gallery';
 
 import { AppRoutingModule } from './app-routing.module';
 import { AppComponent } from './app.component';
@@ -17,7 +18,6 @@ import { ContactComponent } from './contact/contact.component';
 import { FooterComponent } from './footer/footer.component';
 import { GridComponent } from './grid/grid.component';
 import { HomeComponent } from './home/home.component';
-import { LightboxGalleryComponent } from './lightbox-gallery/lightbox-gallery.component';
 import { NavigationComponent } from './navigation/navigation.component';
 import { PageNotFoundComponent } from './page-not-found/page-not-found.component';
 import { ProductDetailComponent } from './product-detail/product-detail.component';
@@ -28,9 +28,6 @@ import { ServiceListComponent } from './service-list/service-list.component';
 import { ServiceDetailComponent } from './service-detail/service-detail.component';
 
 import { KeysPipe } from './utility/keys.pipe';
-import { SwingingDoorsListComponent } from './swinging-doors-list/swinging-doors-list.component';
-import { ChimneyAccessoriesListComponent } from './chimney-accessories-list/chimney-accessories-list.component';
-import { ChimneyRepairsListComponent } from './chimney-repairs-list/chimney-repairs-list.component';
 
 
 @NgModule({
@@ -44,7 +41,6 @@ import { ChimneyRepairsListComponent } from './chimney-repairs-list/chimney-repa
     FooterComponent,
     GridComponent,
     HomeComponent,
-    LightboxGalleryComponent,
     NavigationComponent,
     PageNotFoundComponent,
     ProductDetailComponent,
@@ -55,9 +51,6 @@ import { ChimneyRepairsListComponent } from './chimney-repairs-list/chimney-repa
     ServiceDetailComponent,
     // myPipes
     KeysPipe,
-    SwingingDoorsListComponent,
-    ChimneyAccessoriesListComponent,
-    ChimneyRepairsListComponent,
   ],
   imports: [
     AppRoutingModule,
@@ -66,6 +59,7 @@ import { ChimneyRepairsListComponent } from './chimney-repairs-list/chimney-repa
     HttpModule,
     MDBBootstrapModules.forRoot(),
     Ng2PageScrollModule,
+    NgxGalleryModule,
   ],
   providers: [
       MDBSpinningPreloader,
