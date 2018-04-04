@@ -13,8 +13,8 @@
 
 		<div class="row">
 			<!-- GALLERY SECTION -->
-			<div class="col-12 col-md-7">
-				<ngx-gallery [options]="galleryOptions" [images]="galleryImages"></ngx-gallery>				
+			<div class="col-12 col-md-7 pb-3">
+				<ngx-gallery [options]="galleryOptions" [images]="galleryImages"></ngx-gallery>
 			</div>
 			<!-- /GALLERY SECTION -->
 
@@ -61,8 +61,8 @@
 								</div>								
 							</ng-container>
 						</div>
-						<p class="orange-text" id="more-colors" (click)="viewMoreColors()"> Click to view more colors &nbsp; <i class="fa fa-angle-down" aria-hidden="true"></i></p>
-						<p id="less-colors" (click)="viewLessColors()">Less Colors &nbsp; <i class="fa fa-angle-up" aria-hidden="true"></i></p>
+						<p *ngIf="colors === 'swingingDoorColors' || colors === 'securityDoorColors'" class="orange-text" id="more-colors" (click)="viewMoreColors()"> Click to view more colors &nbsp; <i class="fa fa-angle-down" aria-hidden="true"></i></p>
+						<p *ngIf="colors === 'swingingDoorColors' || colors === 'securityDoorColors'" id="less-colors" (click)="viewLessColors()">Less Colors &nbsp; <i class="fa fa-angle-up" aria-hidden="true"></i></p>
 					</div>
 				</div>
 			</div>
@@ -103,25 +103,7 @@
 	</div>
 
 	<div class="container" *ngIf="product.recentInstallImages || product.extraImages">
-		<!--Section: Features v.2-->
-		<section class="section feature-box" *ngIf="product.recentInstallImages">
-			<!--Section heading-->
-			<h2 class="text-center pt-3">View some of our recent installs</h2>
-			<hr/>
-			<!--Grid row-->
-			<div class="row features-small pt-4" *ngIf="product.recentInstallImages">
-				<mdb-image-modal [modalImages]="recent_install_images" type="margin"></mdb-image-modal>
-			</div>
-		</section>
-		<section class="section feature-box" *ngIf="product.extraImages">
-			<!--Section heading-->
-			<h2 class="text-center pt-3">More Images</h2>
-			<hr/>			
-			<!--Grid row-->
-			<div class="row features-small pt-4" *ngIf="product.extraImages">
-				<mdb-image-modal [modalImages]="extra_images" type="margin"></mdb-image-modal>
-			</div>
-		</section>
+		<ngx-gallery [options]="galleryOptions" [images]="recent_install_images"></ngx-gallery>
 	</div>
 
 

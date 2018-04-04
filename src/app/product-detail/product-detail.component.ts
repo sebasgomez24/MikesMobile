@@ -121,17 +121,6 @@ export class ProductDetailComponent implements OnInit, OnDestroy {
                 preview: false
             }
         ];
-
-
-        var ngxGalImg = document.getElementsByClassName('ngx-gallery-image') as HTMLCollectionOf<HTMLElement>;
-        var ngxGalActive = document.getElementsByClassName('ngx-gallery-active') as HTMLCollectionOf<HTMLElement>;
-        var ngxGalClick = document.getElementsByClassName('ngx-gallery-clickable') as HTMLCollectionOf<HTMLElement>;
-
-        for(var i in ngxGalImg) {
-            ngxGalImg[0].style.zIndex = "0";
-            ngxGalActive[0].style.zIndex = "0";
-            ngxGalClick[0].style.zIndex = "0";
-        }
     }
     ngOnDestroy(){
       this.routeSub.unsubscribe();
@@ -149,7 +138,7 @@ export class ProductDetailComponent implements OnInit, OnDestroy {
                 var ello = document.getElementById("square-p-" + i);
                 ello.style.display = 'block';
             }            
-        }        
+        }
         
     }
     viewLessColors(){
