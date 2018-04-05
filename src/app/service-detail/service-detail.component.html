@@ -42,43 +42,68 @@
 						</div>
 					</div>
 
-					<div class="row" *ngIf="service.colorSet">
+					<div class="row">
 						<div class="col-12">
-							<h4 class="p-2">Color Selection</h4>
-							<p *ngIf="service.colorSet[0] === 'stdColors'" class="mb-0 mt-2 ml-1" style="font-weight:bold">Standard Colors</p>
-							<div class="row" *ngIf="service.colorSet[0] === 'stdColors'" >
-								<div class="col-2" *ngFor="let color of stdColors | keys">
-									<div class="square" mdbTooltip="{{color.key}}" [ngStyle]="{'background': color.value}" placement="bottom"></div>
-									<p class="pl-2">{{color.key}}</p>
+							<h4>Color Selection</h4>
+							
+							<ng-container *ngFor="let i of service.colorSet">
+								<p class="mb-0 mt-2 ml-1" style="font-weight:bold" *ngIf="i === 'stdColors'">Standard Colors</p>
+								<div class="row no-gutters" *ngIf="i === 'stdColors'">
+
+									
+									<mdb-image-modal [modalImages]="images_basic" type="no-margin"></mdb-image-modal>
+									
+
+									<!-- <div class="col-3 col-md-2" *ngFor="let color of stdColors | keys">
+										<div class="square" mdbTooltip="{{color.key}}" [ngStyle]="{'background': color.value}" placement="bottom"></div>
+										<p id="" class="pl-2 p-colors">{{color.key}}</p>
+									</div> -->
 								</div>
-							</div>
-							<p class="mb-0 mt-2 ml-2" style="font-weight:bold">Custom Colors</p>
-							<div class="row" *ngFor="let colors of service.colorSet">
+							</ng-container>
+							
+							<ng-container *ngFor="let i of service.colorSet">
+								<p class="mb-0 mt-2 ml-1" style="font-weight:bold" *ngIf="i === 'screenFrameColors'">Solar Screen Colors</p>
+								<div class="row no-gutters" *ngIf="i === 'screenFrameColors'">
+									<div class="col-3 col-md-2" *ngFor="let color of screenFrameColors | keys">
+										<div class="square" mdbTooltip="{{color.key}}" placement="bottom">
+											<img src="{{color.value}}" />
+										</div>
+										<p id="" class="pl-2 p-colors">{{color.key}}</p>
+									</div>
+								</div>
+							</ng-container>
+	
+							<p class="mb-0 mt-2 ml-1" style="font-weight:bold">Frame Colors</p>
+							<div class="row no-gutters" *ngFor="let colors of service.colorSet">
 								<ng-container *ngIf="colors === 'colorSetx4'">
-									<div class="col-2" *ngFor="let c of colorSetx4 | keys">
+									<div class="col-3 col-md-2" *ngFor="let c of colorSetx4 | keys">
 										<div class="square" mdbTooltip="{{c.key}}" [ngStyle]="{'background': c.value}" placement="bottom"></div>
-										<p id="p-colors" class="pl-2">{{c.key}}</p>
+										<p id="" class="pl-2 p-colors">{{c.key}}</p>
 									</div>
 								</ng-container>
 								<ng-container *ngIf="colors === 'colorSetx6'">
-									<div class="col-2" *ngFor="let c of colorSetx6 | keys">
+									<div class="col-3 col-md-2" *ngFor="let c of colorSetx6 | keys">
 										<div class="square" mdbTooltip="{{c.key}}" [ngStyle]="{'background': c.value}" placement="bottom"></div>
-										<p id="p-colors" class="pl-2">{{c.key}}</p>
+										<p id="" class="pl-2 p-colors">{{c.key}}</p>
 									</div>
 								</ng-container>
 								<ng-container *ngIf="colors === 'swingingDoorColors'">
-									<div class="col-2" *ngFor="let c of swingingDoorColors | keys">
-										<div class="square" mdbTooltip="{{c.key}}" [ngStyle]="{'background': c.value}" placement="bottom"></div>
-										<p id="p-colors" class="pl-2">{{c.key}}</p>
+									<div class="col-3 col-md-2" *ngFor="let c of swingingDoorColors | keys; index as i">
+										<div class="square hidden-square" id="square-{{i}}" mdbTooltip="{{c.key}}" [ngStyle]="{'background': c.value}" placement="bottom"></div>
+										<p id="square-p-{{i}}" class="pl-2 p-colors hidden-p">{{c.key}}</p>
 									</div>
 								</ng-container>
 								<ng-container *ngIf="colors === 'securityDoorColors'">
-									<div class="col-2" *ngFor="let c of securityDoorColors | keys">
-										<div class="square" mdbTooltip="{{c.key}}" [ngStyle]="{'background': c.value}" placement="bottom"></div>
-										<p id="p-colors" class="pl-2">{{c.key}}</p>
-									</div>
+									<div class="col-3 col-md-2" *ngFor="let c of securityDoorColors | keys; index as i">
+										<div class="square hidden-square" id="square-{{i}}" mdbTooltip="{{c.key}}" [ngStyle]="{'background': c.value}" placement="bottom"></div>
+										<p id="square-p-{{i}}" class="pl-2 p-colors hidden-p">{{c.key}}</p>
+									</div>								
 								</ng-container>
 							</div>
+							<ng-container *ngFor="let colors of service.colorSet">
+								<p *ngIf="colors === 'swingingDoorColors' || colors === 'securityDoorColors'" class="orange-text" id="more-colors" (click)="viewMoreColors()"> Click to view more colors &nbsp; <i class="fa fa-angle-down" aria-hidden="true"></i></p>
+								<p *ngIf="colors === 'swingingDoorColors' || colors === 'securityDoorColors'" id="less-colors" (click)="viewLessColors()">Less Colors &nbsp; <i class="fa fa-angle-up" aria-hidden="true"></i></p>
+							</ng-container>
 						</div>
 					</div>
 

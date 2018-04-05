@@ -17,6 +17,12 @@ export class ServiceDetailComponent implements OnInit, OnDestroy {
       "Anodized Bronze":"#2D3017",
       "White":"#ffffff"
   }
+    screenFrameColors = {
+        Black:"/assets/images/colors/suntex-black.png",
+        Brown:"/assets/images/colors/suntex-brown.png",
+        Gray:"/assets/images/colors/suntex-grey.png",
+        Stucco:"/assets/images/colors/suntex-stucco.png"
+    }
   colorSetx4 = {
       "Almond":"#F3E7D3",
       "Anodized Bronze":"#2D3017",

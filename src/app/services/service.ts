@@ -18,6 +18,7 @@ export class ServiceItem{
     options?:string
     relatedProducts?:string
     warranty?:string
+    line?:string
     // For Services Only
     serviceImgCaption?:string
     textList?:string[]

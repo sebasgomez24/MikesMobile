@@ -20,7 +20,9 @@ export class GridComponent implements OnInit {
 
     slug:string
     service:ServiceItem
-	serviceList:[ServiceItem]
+    serviceList:[ServiceItem]
+    
+    line_type:string[];
 
     constructor(private route: ActivatedRoute, private _service:ServicesService) { }
 
@@ -38,7 +40,9 @@ export class GridComponent implements OnInit {
 
         this.listReq = this._service.list().subscribe(data=>{
 			this.serviceList = data as [ServiceItem];
-		})
+        })
+        
+        this.line_type = ["Signature", "Premier", "Standard"]
     }
 
     ngOnDestroy(){

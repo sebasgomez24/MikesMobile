@@ -18,28 +18,26 @@
                         <!--Grid column-->
                         <ng-container *ngFor="let item of serviceList">
                             <ng-container *ngIf="item.category === 'Swinging Screen Door'">
-                                <!-- ServiceItem -->
+								<!-- ServiceItem -->
             					<div class="col-6 col-md-4 col-lg-3 my-4">			
-
 									<!--Card-->
 									<div class="card">
 										<!--Card image-->
-										<div class="view overlay hm-white-slight">
-											<img src="{{item.tileImage}}" class="img-fluid" alt="{{item.title}}" id="doorImages">
-											<a routerLink="/{{item.type}}/{{item.slug}}">
-												<div class="mask waves-effect waves-light" mdbRippleRadius></div>
-											</a>
-										</div>
-										<!--/.Card image-->
+										<a routerLink="/{{item.type}}/{{item.slug}}">
+											<div class="view overlay hm-grey-light">
+												<img src="{{item.tileImage}}" class="img-fluid" alt="{{item.title}}" id="doorImages1">
+												<div class="mask"></div>
+											</div>
+										</a>
+										<!--/.Card image-->						
 										<!--Card content-->
 										<div class="card-body text-center">
 											<!--Category & Title-->											
-											<h4 class="card-title"><strong><a routerLink="/{{item.type}}/{{item.slug}}">{{item.title}}</a></strong></h4>						
+											<h4 class="card-title"><strong><a routerLink="/{{item.type}}/{{item.slug}}">{{item.title}}</a></strong></h4>
 										</div>
 										<!--/.Card content-->						
 									</div>
 									<!--/.Card-->
-
             					</div>
             					<!-- /ServiceItem -->
                             </ng-container>
@@ -173,40 +171,104 @@
 					<h1 class="section-heading h1 pt-4">{{service.title}}</h1>
 					<!--Section description-->
 					<p class="section-description">{{service.description}}</p>
-                    <!--Grid row-->
-                    <div class="row text-center">
-                        <!--Grid column-->
-                        <ng-container *ngFor="let item of serviceList">
-                            <ng-container *ngIf="item.category === 'Steel Security Doors'">
-                                <!-- ServiceItem -->
-            					<div class="col-6 col-md-4 col-lg-3 my-3">
-
-            						<!--Card-->
-									<div class="card">
-										<!--Card image-->
-										<div class="view overlay hm-white-slight">
-											<img src="{{item.tileImage}}" class="img-fluid" alt="{{item.title}}" id="doorImages">
+					
+						<!--Grid row-->						
+						<h2 class="text-md-left">Signature Line - 4" Frame</h2>
+						<hr/>
+						<div class="row">
+							<ng-container *ngFor="let item of serviceList">							
+								<ng-container *ngIf="item.category === 'Steel Security Doors' && item.line === 'Signature'">		
+									<!-- ServiceItem -->
+									<div class="col-6 col-md-4 col-lg-2">
+										<!--Card-->
+										<div class="card">
+											<!--Card image-->
 											<a routerLink="/{{item.type}}/{{item.slug}}">
-												<div class="mask waves-effect waves-light" mdbRippleRadius></div>
+												<div class="view overlay hm-white-light">
+													<img src="{{item.tileImage}}" class="img-fluid" alt="{{item.title}}" id="doorImages2">
+													<div class="mask"></div>
+												</div>
 											</a>
+											<!--/.Card image-->						
+											<!--Card content-->
+											<div class="card-body text-center">
+												<!--Category & Title-->											
+												<h4 class="card-title"><strong><a routerLink="/{{item.type}}/{{item.slug}}">{{item.title}}</a></strong></h4>
+											</div>
+											<!--/.Card content-->						
 										</div>
-										<!--/.Card image-->						
-										<!--Card content-->
-										<div class="card-body text-center">
-											<!--Category & Title-->											
-											<h4 class="card-title"><strong><a routerLink="/{{item.type}}/{{item.slug}}">{{item.title}}</a></strong></h4>															
-										</div>
-										<!--/.Card content-->						
+										<!--/.Card-->
 									</div>
-									<!--/.Card-->
+								</ng-container>
+							</ng-container>
+						</div>
+						<!-- /Grid row-->
 
-            					</div>
-            					<!-- /ServiceItem -->
-                            </ng-container>
-                        </ng-container>
-                        <!--Grid column-->
-                    </div>
-                    <!--Grid row-->
+						<!--Grid row-->						
+						<h2 class="text-md-left">Premier Line - 2" Frame</h2>
+						<hr/>
+						<div class="row">
+							<ng-container *ngFor="let item of serviceList">							
+								<ng-container *ngIf="item.category === 'Steel Security Doors' && item.line === 'Premier'">		
+									<!-- ServiceItem -->
+
+										<div class="col-6 col-md-4 col-lg-3">
+											<!--Card-->
+											<div class="card">
+												<!--Card image-->
+												<a routerLink="/{{item.type}}/{{item.slug}}">
+													<div class="view overlay hm-white-light">
+														<img src="{{item.tileImage}}" class="img-fluid" alt="{{item.title}}" id="doorImages1">
+														<div class="mask"></div>
+													</div>
+												</a>
+												<!--/.Card image-->						
+												<!--Card content-->
+												<div class="card-body text-center">
+													<!--Category & Title-->											
+													<h4 class="card-title"><strong><a routerLink="/{{item.type}}/{{item.slug}}">{{item.title}}</a></strong></h4>
+												</div>
+												<!--/.Card content-->						
+											</div>
+											<!--/.Card-->
+										</div>
+								</ng-container>
+							</ng-container>
+						</div>
+						<!-- /Grid row-->
+						
+						<!--Grid row-->						
+						<h2 class="text-md-left">Standard Line - 1 1/4" Frame</h2>
+						<hr/>
+						<div class="row">
+							<ng-container *ngFor="let item of serviceList">							
+								<ng-container *ngIf="item.category === 'Steel Security Doors' && item.line === 'Standard'">		
+									<!-- ServiceItem -->
+
+										<div class="col-6 col-md-4 col-lg">
+											<!--Card-->
+											<div class="card">
+												<!--Card image-->
+												<a routerLink="/{{item.type}}/{{item.slug}}">
+													<div class="view overlay hm-white-light">
+														<img src="{{item.tileImage}}" class="img-fluid" alt="{{item.title}}" id="doorImages">
+														<div class="mask"></div>
+													</div>
+												</a>
+												<!--/.Card image-->						
+												<!--Card content-->
+												<div class="card-body text-center">
+													<!--Category & Title-->											
+													<h4 class="card-title"><strong><a routerLink="/{{item.type}}/{{item.slug}}">{{item.title}}</a></strong></h4>
+												</div>
+												<!--/.Card content-->						
+											</div>
+											<!--/.Card-->
+										</div>
+								</ng-container>
+							</ng-container>
+						</div>
+						<!-- /Grid row-->				
                 </section>
                 <!--/Projects section v.1-->
             </div>

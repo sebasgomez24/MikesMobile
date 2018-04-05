@@ -20,29 +20,6 @@
 						
 						<!-- Nav tabs -->
 						<mdb-tabset #staticTabs [buttonClass]="'nav-tabs tabs-2 blue'" [contentClass]="''">
-							<!--Panel 1-->
-							<mdb-tab heading="Single Amplimesh">
-								<div class="row"> 
-									<div class="col-12">
-										<img src="/assets/images/security/sliding/single-amplimesh.jpg" class="img-fluid"/>
-									</div> 
-								</div>
-							</mdb-tab>
-							<!--Panel 2-->
-							<mdb-tab heading="Double Amplimesh">
-								<div class="row"> 
-									<div class="col-12">
-										<img src="/assets/images/security/sliding/double-amplimesh.jpg" />
-									</div> 
-								</div>
-							</mdb-tab>
-						</mdb-tabset>
-													
-					</div>
-
-					<div class="col-12">
-						<!-- Nav tabs -->
-						<mdb-tabset #staticTabs [buttonClass]="'nav-tabs tabs-2 blue'" [contentClass]="''">
 								<!--Panel 1-->
 								<mdb-tab heading="Single Stainless Steel Mesh">
 									<div class="row"> 
@@ -60,6 +37,30 @@
 									</div>
 								</mdb-tab>
 							</mdb-tabset>
+													
+					</div>
+
+					<div class="col-12">
+						<!-- Nav tabs -->
+						<mdb-tabset #staticTabs [buttonClass]="'nav-tabs tabs-2 blue'" [contentClass]="''">
+								<!--Panel 1-->
+								<mdb-tab heading="Single Amplimesh">
+									<div class="row"> 
+										<div class="col-12">
+											<img src="/assets/images/security/sliding/single-amplimesh.jpg" class="img-fluid"/>
+										</div> 
+									</div>
+								</mdb-tab>
+								<!--Panel 2-->
+								<mdb-tab heading="Double Amplimesh">
+									<div class="row"> 
+										<div class="col-12">
+											<img src="/assets/images/security/sliding/double-amplimesh.jpg" />
+										</div> 
+									</div>
+								</mdb-tab>
+							</mdb-tabset>
+						
 
 					</div>
 
@@ -80,13 +81,27 @@
 				<div class="row">
 					<div class="col-12">
 						<h4>Color Selection</h4>
-						<p class="mb-0 mt-2 ml-1" style="font-weight:bold">Standard Colors</p>
-						<div class="row no-gutters">
-							<div class="col-3 col-md-2" *ngFor="let color of stdColors | keys">
-								<div class="square" mdbTooltip="{{color.key}}" [ngStyle]="{'background': color.value}" placement="bottom"></div>
-								<p id="" class="pl-2 p-colors">{{color.key}}</p>
+						
+						<ng-container *ngFor="let i of product.colorSet">
+							<p class="mb-0 mt-2 ml-1" style="font-weight:bold" *ngIf="i === 'stdColors'">Standard Colors</p>
+							<div class="row no-gutters" *ngIf="i === 'stdColors'">
+								<div class="col-3 col-md-2" *ngFor="let color of stdColors | keys">
+									<div class="square" mdbTooltip="{{color.key}}" [ngStyle]="{'background': color.value}" placement="bottom"></div>
+									<p id="" class="pl-2 p-colors">{{color.key}}</p>
+								</div>
 							</div>
-						</div>
+						</ng-container>
+						
+						<ng-container *ngFor="let i of product.colorSet">
+							<p class="mb-0 mt-2 ml-1" style="font-weight:bold" *ngIf="i === 'screenFrameColors'">Screen Frame Colors</p>
+							<div class="row no-gutters" *ngIf="i === 'screenFrameColors'">
+								<div class="col-3 col-md-2" *ngFor="let color of screenFrameColors | keys">
+									<div class="square" mdbTooltip="{{color.key}}" [ngStyle]="{'background': url(color.value)}" placement="bottom"></div>
+									<p id="" class="pl-2 p-colors">{{color.key}}</p>
+								</div>
+							</div>
+						</ng-container>
+
 						<p class="mb-0 mt-2 ml-1" style="font-weight:bold">Custom Colors</p>
 						<div class="row no-gutters" *ngFor="let colors of product.colorSet">
 							<ng-container *ngIf="colors === 'colorSetx4'">

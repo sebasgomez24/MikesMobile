@@ -31,6 +31,12 @@ export class ProductDetailComponent implements OnInit, OnDestroy {
         "Anodized Bronze":"#2D3017",
         "White":"#ffffff"
     }
+    screenFrameColors = {
+        black:"/assets/images/colors/suntex-black.png",
+        brown:"/assets/images/colors/suntex-brown.png",
+        gray:"/assets/images/colors/suntex-gray.png",
+        stucco:"/assets/images/colors/suntex-stucco.png"
+    }
     colorSetx4 = {
         "Almond":"#F3E7D3",
         "Anodized Bronze":"#2D3017",
