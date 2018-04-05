@@ -5,7 +5,7 @@
         "category":"Screens",
         "subcategory":"Door",
         "type":"products",
-        "tileText":"Call us today and get great pricing on window screen replacements. We specialize in all kinds of window screens and Solar Screens.",
+        "tileText":"Disappearing or retractable screen doors are the contemporary alternative to that old wooden swinging screen door you had growing up.",
         "bullets":["Disappearing or retractable screen doors are the contemporary alternative to that old wooden swinging screen door you had growing up.","The retractable screen door we offer is called the Rollaway and is manufactured by the R. Lang Company right here in California.","Imagine a screen door that’s only there when you need it! The Rollaway mounts inside the door frame for minimal intrusion and most people don’t notice it until you are using it!"],
         "tileImage":"/assets/images/screens/retractable/retractable.jpg",
         "thumbImages":[
@@ -27,14 +27,14 @@
         "warranty":"<strong>10 Year Limited Warranty<br/><br/></strong><p>All warranties cover materials, manufacturing defects and hardware for the periods listed below but will not cover normal wear and tear of the product. Screen mesh is not covered beyond the initial installation of products. Defective items must be reported within 5 days of receipt for validation. Improper installation of the product will not be covered under the warranties listed. Warranty periods begin from the date of purchase.</p>",
         "recentInstallImages":[
             {
-                "small":"/assets/images/screens/retractable/1.png",
-                "medium":"/assets/images/screens/retractable/1.png",
-                "big":"/assets/images/screens/retractable/1.png"
+                "small":"/assets/images/screens/retractable/1.jpg",
+                "medium":"/assets/images/screens/retractable/1.jpg",
+                "big":"/assets/images/screens/retractable/1.jpg"
             },
             {
-                "small":"/assets/images/screens/retractable/2.png",
-                "medium":"/assets/images/screens/retractable/2.png",
-                "big":"/assets/images/screens/retractable/2.png"
+                "small":"/assets/images/screens/retractable/2.jpg",
+                "medium":"/assets/images/screens/retractable/2.jpg",
+                "big":"/assets/images/screens/retractable/2.jpg"
             },
             {
                 "small":"/assets/images/screens/retractable/3.jpg",
@@ -42,24 +42,24 @@
                 "big":"/assets/images/screens/retractable/3.jpg"
             },
             {
-                "small":"/assets/images/screens/retractable/4.png",
-                "medium":"/assets/images/screens/retractable/4.png",
-                "big":"/assets/images/screens/retractable/4.png"
+                "small":"/assets/images/screens/retractable/4.jpg",
+                "medium":"/assets/images/screens/retractable/4.jpg",
+                "big":"/assets/images/screens/retractable/4.jpg"
             },
             {
-                "small":"/assets/images/screens/retractable/5.png",
-                "medium":"/assets/images/screens/retractable/5.png",
-                "big":"/assets/images/screens/retractable/5.png"
+                "small":"/assets/images/screens/retractable/5.jpg",
+                "medium":"/assets/images/screens/retractable/5.jpg",
+                "big":"/assets/images/screens/retractable/5.jpg"
             },
             {
-                "small":"/assets/images/screens/retractable/6.png",
-                "medium":"/assets/images/screens/retractable/6.png",
-                "big":"/assets/images/screens/retractable/6.png"
+                "small":"/assets/images/screens/retractable/6.jpg",
+                "medium":"/assets/images/screens/retractable/6.jpg",
+                "big":"/assets/images/screens/retractable/6.jpg"
             },
             {
-                "small":"/assets/images/screens/retractable/7.png",
-                "medium":"/assets/images/screens/retractable/7.png",
-                "big":"/assets/images/screens/retractable/7.png"
+                "small":"/assets/images/screens/retractable/7.jpg",
+                "medium":"/assets/images/screens/retractable/7.jpg",
+                "big":"/assets/images/screens/retractable/7.jpg"
             }
         ]
     },
@@ -71,8 +71,13 @@
         "type":"products",
         "bullets":["Sick and tired of that old, flimsy door with the broken wheels always falling off the track?","Don’t waste your time with a one-size fits all door with plastic wheels from the hardware store.","Every one of our doors is custom made to fit your doorway."],
         "tileImage":"/assets/images/screens/sliding/sliding-screen2.jpg",
-        "tileText":"Don’t waste your time with a one-size fits all door with plastic wheels from the hardware store.  Every one of our doors is custom made to fit your doorway.",
+        "tileText":"Don’t waste your time with a one-size fits all door with plastic wheels from the hardware store. Every one of our doors is custom made to fit your doorway.",
         "thumbImages":[
+            {
+                "small": "/assets/images/screens/sliding/4.png",
+                "medium":"/assets/images/screens/sliding/4.png",
+                "big":"/assets/images/screens/sliding/4.png"
+            },
             {
                 "small":"/assets/images/screens/sliding/1.png",
                 "medium":"/assets/images/screens/sliding/1.png",
@@ -87,7 +92,7 @@
                 "small": "/assets/images/screens/sliding/3.png",
                 "medium":"/assets/images/screens/sliding/3.png",
                 "big":"/assets/images/screens/sliding/3.png"
-            },
+            },            
             {
                 "small":"/assets/images/screens/sliding/5.png",
                 "medium":"/assets/images/screens/sliding/5.png",
@@ -311,9 +316,20 @@
         "subcategory":"Window",
         "type":"services",
         "serviceImgCaption":"Fast, friendly, and affordable window screen & frame replacement!",
-        "textBlock0":"We are a mobile screen company dedicated to providing our customers with a fast and affordable way to have their screens replaced. We offer mobile-on-site service in most areas and have our own in-house shop in other areas so our turn-around is always fast and efficient. We charge flat rates, so getting a solid estimate with no hidden fees is easy and hassle free!",
-        "textBlock1":"Why replace the frame if the screen is just torn? We offer fast on-site re-screening. We offer window screen repair and replacement. Many of our customers opt to re-screen their sliding screen doors with Solar Screen due to its durability. Solar Screen material has a 10 year warranty*. Great durability for children or pets!",
-        "textBlock2":"We also do replacement window screen frames! Our custom window screen frames are All-aluminum constructed with mitered inside corners- no cheap plastic corners like the other guys use along with pull tabs and springs.",
+        "textList":[
+            {
+                "title":"Fast",
+                "description":"We are a mobile screen company dedicated to providing our customers with a fast and affordable way to have their screens replaced. We offer mobile-on-site service in most areas and have our own in-house shop in other areas so our turn-around is always fast and efficient. We charge flat rates, so getting a solid estimate with no hidden fees is easy and hassle free!"
+            },
+            {
+                "title":"Friendly",
+                "description":"Why replace the frame if the screen is just torn? We offer fast on-site re-screening. We offer window screen repair and replacement. Many of our customers opt to re-screen their sliding screen doors with Solar Screen due to its durability. Solar Screen material has a 10 year warranty*. Great durability for children or pets!"
+            },
+            {
+                "title":"Affordable",
+                "description":"We also do replacement window screen frames! Our custom window screen frames are all-aluminum constructed with mitered inside corners- no cheap plastic corners like the other guys use along with pull tabs and springs."
+            }
+        ],
         "tileImage":"/assets/images/screens/window-screen-repair/car-logo-2.jpg",
         "tileText":"We are a mobile screen company dedicated to providing our customers with a fast and affordable way to have their screens replaced.",
         "video":""
@@ -347,27 +363,27 @@
             "img":"/assets/images/screens/solar-screens/solar-screens-infographic.png"
         },
         "recentInstallImages":[
-            {"img":"/assets/images/screens/solar-screens/1.jpg","thumb":"/assets/images/screens/solar-screens/1.jpg"},
-            {"img":"/assets/images/screens/solar-screens/2.jpg","thumb":"/assets/images/screens/solar-screens/2.jpg"},
-            {"img":"/assets/images/screens/solar-screens/3.jpg","thumb":"/assets/images/screens/solar-screens/3.jpg"},
-            {"img":"/assets/images/screens/solar-screens/4.jpg","thumb":"/assets/images/screens/solar-screens/4.jpg"},
-            {"img":"/assets/images/screens/solar-screens/5.jpg","thumb":"/assets/images/screens/solar-screens/5.jpg"},
-            {"img":"/assets/images/screens/solar-screens/6.jpg","thumb":"/assets/images/screens/solar-screens/6.jpg"},
-            {"img":"/assets/images/screens/solar-screens/7.jpg","thumb":"/assets/images/screens/solar-screens/7.jpg"},
-            {"img":"/assets/images/screens/solar-screens/8.jpg","thumb":"/assets/images/screens/solar-screens/8.jpg"},
-            {"img":"/assets/images/screens/solar-screens/9.jpg","thumb":"/assets/images/screens/solar-screens/9.jpg"},
-            {"img":"/assets/images/screens/solar-screens/10.jpg","thumb":"/assets/images/screens/solar-screens/10.jpg"},
-            {"img":"/assets/images/screens/solar-screens/11.jpg","thumb":"/assets/images/screens/solar-screens/11.jpg"},
-            {"img":"/assets/images/screens/solar-screens/12.jpg","thumb":"/assets/images/screens/solar-screens/12.jpg"},
-            {"img":"/assets/images/screens/solar-screens/13.jpg","thumb":"/assets/images/screens/solar-screens/13.jpg"},
-            {"img":"/assets/images/screens/solar-screens/14.jpg","thumb":"/assets/images/screens/solar-screens/14.jpg"},
-            {"img":"/assets/images/screens/solar-screens/15.jpg","thumb":"/assets/images/screens/solar-screens/15.jpg"},
-            {"img":"/assets/images/screens/solar-screens/16.jpg","thumb":"/assets/images/screens/solar-screens/16.jpg"},
-            {"img":"/assets/images/screens/solar-screens/17.jpg","thumb":"/assets/images/screens/solar-screens/17.jpg"},
-            {"img":"/assets/images/screens/solar-screens/18.jpg","thumb":"/assets/images/screens/solar-screens/18.jpg"},
-            {"img":"/assets/images/screens/solar-screens/19.jpg","thumb":"/assets/images/screens/solar-screens/19.jpg"},
-            {"img":"/assets/images/screens/solar-screens/20.jpg","thumb":"/assets/images/screens/solar-screens/20.jpg"},
-            {"img":"/assets/images/screens/solar-screens/21.jpg","thumb":"/assets/images/screens/solar-screens/21.jpg"}
+            {"small":"/assets/images/screens/solar-screens/1.jpg","medium":"/assets/images/screens/solar-screens/1.jpg","big":"/assets/images/screens/solar-screens/1.jpg"},
+            {"small":"/assets/images/screens/solar-screens/2.jpg","medium":"/assets/images/screens/solar-screens/2.jpg","big":"/assets/images/screens/solar-screens/2.jpg"},
+            {"small":"/assets/images/screens/solar-screens/3.jpg","medium":"/assets/images/screens/solar-screens/3.jpg","big":"/assets/images/screens/solar-screens/3.jpg"},
+            {"small":"/assets/images/screens/solar-screens/4.jpg","medium":"/assets/images/screens/solar-screens/4.jpg","big":"/assets/images/screens/solar-screens/4.jpg"},
+            {"small":"/assets/images/screens/solar-screens/5.jpg","medium":"/assets/images/screens/solar-screens/5.jpg","big":"/assets/images/screens/solar-screens/5.jpg"},
+            {"small":"/assets/images/screens/solar-screens/6.jpg","medium":"/assets/images/screens/solar-screens/6.jpg","big":"/assets/images/screens/solar-screens/6.jpg"},
+            {"small":"/assets/images/screens/solar-screens/7.jpg","medium":"/assets/images/screens/solar-screens/7.jpg","big":"/assets/images/screens/solar-screens/7.jpg"},
+            {"small":"/assets/images/screens/solar-screens/8.jpg","medium":"/assets/images/screens/solar-screens/8.jpg","big":"/assets/images/screens/solar-screens/8.jpg"},
+            {"small":"/assets/images/screens/solar-screens/9.jpg","medium":"/assets/images/screens/solar-screens/9.jpg","big":"/assets/images/screens/solar-screens/9.jpg"},
+            {"small":"/assets/images/screens/solar-screens/10.jpg","medium":"/assets/images/screens/solar-screens/10.jpg","big":"/assets/images/screens/solar-screens/10.jpg"},
+            {"small":"/assets/images/screens/solar-screens/11.jpg","medium":"/assets/images/screens/solar-screens/11.jpg","big":"/assets/images/screens/solar-screens/11.jpg"},
+            {"small":"/assets/images/screens/solar-screens/12.jpg","medium":"/assets/images/screens/solar-screens/12.jpg","big":"/assets/images/screens/solar-screens/12.jpg"},
+            {"small":"/assets/images/screens/solar-screens/13.jpg","medium":"/assets/images/screens/solar-screens/13.jpg","big":"/assets/images/screens/solar-screens/13.jpg"},
+            {"small":"/assets/images/screens/solar-screens/14.jpg","medium":"/assets/images/screens/solar-screens/14.jpg","big":"/assets/images/screens/solar-screens/14.jpg"},
+            {"small":"/assets/images/screens/solar-screens/15.jpg","medium":"/assets/images/screens/solar-screens/15.jpg","big":"/assets/images/screens/solar-screens/15.jpg"},
+            {"small":"/assets/images/screens/solar-screens/16.jpg","medium":"/assets/images/screens/solar-screens/16.jpg","big":"/assets/images/screens/solar-screens/16.jpg"},
+            {"small":"/assets/images/screens/solar-screens/17.jpg","medium":"/assets/images/screens/solar-screens/17.jpg","big":"/assets/images/screens/solar-screens/17.jpg"},
+            {"small":"/assets/images/screens/solar-screens/18.jpg","medium":"/assets/images/screens/solar-screens/18.jpg","big":"/assets/images/screens/solar-screens/18.jpg"},
+            {"small":"/assets/images/screens/solar-screens/19.jpg","medium":"/assets/images/screens/solar-screens/19.jpg","big":"/assets/images/screens/solar-screens/19.jpg"},
+            {"small":"/assets/images/screens/solar-screens/20.jpg","medium":"/assets/images/screens/solar-screens/20.jpg","big":"/assets/images/screens/solar-screens/20.jpg"},
+            {"small":"/assets/images/screens/solar-screens/21.jpg","medium":"/assets/images/screens/solar-screens/21.jpg","big":"/assets/images/screens/solar-screens/21.jpg"}
         ]
     },
     {
@@ -397,6 +413,10 @@
             {
                 "title":"Safety First",
                 "description":"The locking cover (not shown) is particle board enameled bright white on one side for greater visibility to the pet. This cover should be used on the same side as the pet. However, It is designed to be breakable as a safety precaution in case the pet crashes into it from the wrong side."
+            },
+            {
+                "title":"Measuring Guide",
+                "description":"Open sliding glass door to the opening measurement of the pet door model nearest to your breed. If the dog can pass through the opening, that’s your size. For pet Safety and Door Durability, Do Not Buy Larger than Necessary"
             }
         ]
     },
@@ -414,8 +434,7 @@
                 "medium":"",
                 "big":""
             }
-        ],
-        "video":""
+        ]
     },
     {
         "title":"Chimney Caps and Spark Arrestor",
@@ -520,9 +539,20 @@
         "tileImage":"/assets/images/chimneys/cleaning/1.jpg",
         "tileText":"Whether you have a masonry open fireplace, zero-clearance, wood-burning insert, freestanding stove or pellet stove, a chimney cleaning will help keep your family safe and your chimney working smoothly.",
         "serviceImgCaption":"Have our chimney professionals clean and inspect your chimney.",
-        "textBlock0":"<h5 class='feature-title font-bold'>Our chimney sweep technicians will make sure your home does not get soiled or messy around the areas we work in.</h5><p class='grey-text'>A clean sweep of your chimney will remove soot, creosote and blockages from your flue liner, smoke chamber and shelf, firebox and damper. We pride ourselves in “no mess” top notch service by doing a great job with minimal interruption to you and your family. Here at Mike’s Mobile Screen and Chimney Service, we take pride in providing the best possible customer experience so that you can go about your winter without worry when you burn!</p>",
-        "textBlock1":"<h5 class='feature-title font-bold'>Every chimney sweep from us will include a full Level 1 Inspection report</h5><p class='grey-text'>We only send fully trained chimney cleaning professionals to your home that will live up to the guidelines of the CSIA (Chimney Safety Institute of America) and NFI (National Fireplace Association). Every chimney sweep from us will include a full Level 1 Inspection report which will inform you of the status of your chimney and fireplace which may be affecting performance and safety.</p>",
-        "textBlock2":"<h5 class='feature-title font-bold'>How often should you have your chimney cleaned?</h5><p class='grey-text'>Both the CSIA (Chimney Safety Institute of America) and the National Fire Protection Association recommend yearly chimney inspections. With our chimney cleaning service, we provide an annual inspection along with the assurance of a clean chimney while you burn. Even if you don’t use your chimney often, it is possible to have debris or animals make your chimney unsafe without you even knowing. Animal nests pose a hazard to any chimney by providing combustible materials towards the roof or inside the chimney itself.</p>"
+        "textList":[
+            {
+                "title":"Our chimney sweep technicians keep clean work areas.",
+                "description":"A clean sweep of your chimney will remove soot, creosote and blockages from your flue liner, smoke chamber and shelf, firebox and damper. We pride ourselves in “no mess” top notch service by doing a great job with minimal interruption to you and your family. Here at Mike’s Mobile Screen and Chimney Service, we take pride in providing the best possible customer experience so that you can go about your winter without worry when you burn!"
+            },
+            {
+                "title":"Every chimney sweep will include a full Level 1 Inspection report",
+                "description":"We only send fully trained chimney cleaning professionals to your home that will live up to the guidelines of the CSIA (Chimney Safety Institute of America) and NFI (National Fireplace Association). Every chimney sweep from us will include a full Level 1 Inspection report which will inform you of the status of your chimney and fireplace which may be affecting performance and safety."
+            },
+            {
+                "title":"How often should you have your chimney cleaned?",
+                "description":"Both the CSIA (Chimney Safety Institute of America) and the National Fire Protection Association recommend yearly chimney inspections. With our chimney cleaning service, we provide an annual inspection along with the assurance of a clean chimney while you burn. Even if you don’t use your chimney often, it is possible to have debris or animals make your chimney unsafe without you even knowing. Animal nests pose a hazard to any chimney by providing combustible materials towards the roof or inside the chimney itself."
+            }
+        ]
     },
     {
         "title":"Inspections",
@@ -585,16 +615,12 @@
         "tileText":"Protect your chimney from water damage. Get a crown seal for your chimney now!",
         "textList":[
             {
-                "title":"A chimney crown seal protects the chimney crown from damage over time.",
-                "description":"Your chimney crown is the area that is around the top of the chimney (not to be confused with the chimney cap that is an attachment that is added to the top of the flue pipe). A chimney crown seal protects the chimney crown from damage over time. The chimney crown tops off the masonry walls of the chimney, usually with a wider masonry or cement area. This solid covering stops moisture from filtering down through your brick or stone work in your chimney. The crown is vital to protecting the mortar that holds everything together."
+                "title":"Protect your rear firewall from further heat damage",
+                "description":"As the air is drawn into the firebox, it pushes the heat and flame towards the rear firebricks of your firebox. This causes an immense amount of expansion of the firewall. Then, as the fire dies out, your firebricks begin to contract. This process is repeated every time you use your fireplace. In an unprotected fireplace, heat is absorbed into the firebox back wall which causes the firebricks to crack and the fireplace mortar that holds the firebricks together to breakdown, leading to expensive fireplace chimney repairs.Even the best built masonry chimney can be susceptible to heat damage over time."
             },
             {
-                "title":"Chimney Lifetime",
-                "description":"There are chimney crown sealants that are able to be applied to a chimney crown that still has structural integrity but needs to be waterproofed. Larger cracks are filled with high bond patching material and then the crown seal is applied over the top of the whole chimney crown. The sealant forms a waterproof membrane between the elements and your chimney.When properly applied, these solutions can add up to 15 years to the life of a chimney crown that has begun to wear."
-            },
-            {
-                "title":"Call us today and repair your chimney crown",
-                "description":"If your chimney crown is showing its age, it may be time to replace it with a new concrete chimney cap before it is too late. Some masons will simply use mortar mix to create a new top for the chimney. The problem with that is, mortar mix will crack and leak very quickly and is not a weather resistant material. A cement chimney crown that is properly designed to overhang the outside dimensions of the chimney structure is the best solution. When your chimney crown becomes cracked or has lost pieces of its original shape it no longer is doing the job that it needs to. Once your chimney crown begins deteriorating and falling apart, it won’t be long before serious damage will set in to your entire chimney. It may be worth a visit to your roof once in a while to do your own inspection of the chimney crown. Don’t take our word for it – just take a quick drive around downtown and look up at the older masonry chimneys. Most of them are literally falling apart from the top down. The last thing someone needs is bricks falling down or costly repairs. When we service our customers with their annual inspection and chimney cleaning, the chimney crown is a key area that we look at. If there are any defects at all, we suggest an immediate crown seal to prevent more damage."
+                "title":"Don't wait until you need your chimney rebuilt",
+                "description":"80% of the heat generated by most fires gets absorbed into the rear firewall. Over time, cracks and deterioration can form. This used to mean that a firewall rebuild was needed to prevent a serious fire hazard. Now, for a fraction of the price of a rebuild, we can usually patch these cracks and install a radiant fireback which radiates heat into your home making your fireplace more efficient while at the same time protecting your home from further damage. Another source of damage to the rear firewall is when water leaks come down from the top of the fireplace chimney. Firewalls and firebrick are very porous as they are intended to withstand the very high temperatures of combustion."
             }
         ]
     },
@@ -607,16 +633,16 @@
         "tileText":"Protect your chimney from water damage. Get a crown seal for your chimney now!",
         "textList":[
             {
-                "title":"A chimney crown seal protects the chimney crown from damage over time.",
-                "description":"Your chimney crown is the area that is around the top of the chimney (not to be confused with the chimney cap that is an attachment that is added to the top of the flue pipe). A chimney crown seal protects the chimney crown from damage over time. The chimney crown tops off the masonry walls of the chimney, usually with a wider masonry or cement area. This solid covering stops moisture from filtering down through your brick or stone work in your chimney. The crown is vital to protecting the mortar that holds everything together."
+                "title":"With every masonry chimney comes deterioration over time",
+                "description":"Damaged mortar joints are one of the most types of  masonry repair needed to keep a chimney in top shape. Failing mortar joints can mean accelerated damage to the chimney, since the condition exposes the bricks to greater amounts of moisture.  When water gets into small cracks in the masonry, they can turn into large cracks, particularly as a result of freezing and thawing. Ultimately, if the problem isn’t addressed, the chimney could collapse."
             },
             {
-                "title":"Chimney Lifetime",
-                "description":"There are chimney crown sealants that are able to be applied to a chimney crown that still has structural integrity but needs to be waterproofed. Larger cracks are filled with high bond patching material and then the crown seal is applied over the top of the whole chimney crown. The sealant forms a waterproof membrane between the elements and your chimney.When properly applied, these solutions can add up to 15 years to the life of a chimney crown that has begun to wear."
+                "title":"When it comes to chimneys, prevention is the key to reducing costly masonry repairs",
+                "description":"One of the easiest parts of a chimney to take a look at now and then is the firebox. This is the portion of the chimney where you’d have your fireplace grate and logs. Before burning make sure to briefly inspect the brick for any small cracks. While small cracks a firebox can be repaired easily, letting these cracks go unrepaired could mean an entire firebox re-build to safely burn in your chimney again!"
             },
             {
-                "title":"Call us today and repair your chimney crown",
-                "description":"If your chimney crown is showing its age, it may be time to replace it with a new concrete chimney cap before it is too late. Some masons will simply use mortar mix to create a new top for the chimney. The problem with that is, mortar mix will crack and leak very quickly and is not a weather resistant material. A cement chimney crown that is properly designed to overhang the outside dimensions of the chimney structure is the best solution. When your chimney crown becomes cracked or has lost pieces of its original shape it no longer is doing the job that it needs to. Once your chimney crown begins deteriorating and falling apart, it won’t be long before serious damage will set in to your entire chimney. It may be worth a visit to your roof once in a while to do your own inspection of the chimney crown. Don’t take our word for it – just take a quick drive around downtown and look up at the older masonry chimneys. Most of them are literally falling apart from the top down. The last thing someone needs is bricks falling down or costly repairs. When we service our customers with their annual inspection and chimney cleaning, the chimney crown is a key area that we look at. If there are any defects at all, we suggest an immediate crown seal to prevent more damage."
+                "title":"Call us today and get started",
+                "description":"Towards the top of the chimney you should make sure to have your stack inspected. A leaning or damaged chimney stack could mean tons of brick falling on your home potentially damaging your home or injuring everyone inside. As with the firebox, the chimney stack is something that should be looked at and if anything seems off, its better safe than sorry so have it checked out! If you are thinking about switching to a wood-burning insert for your masonry chimney we highly recommend giving us a call so that we can make sure your chimney is ready to burn. Make sure when you decide on who you go with for your masonry repairs that they are licensed, bonded, and insured. Any amateur can promise you low prices, but it takes a professional to get the job done right."
             }
         ]
     },
@@ -629,16 +655,12 @@
         "tileText":"Protect your chimney from water damage. Get a crown seal for your chimney now!",
         "textList":[
             {
-                "title":"A chimney crown seal protects the chimney crown from damage over time.",
-                "description":"Your chimney crown is the area that is around the top of the chimney (not to be confused with the chimney cap that is an attachment that is added to the top of the flue pipe). A chimney crown seal protects the chimney crown from damage over time. The chimney crown tops off the masonry walls of the chimney, usually with a wider masonry or cement area. This solid covering stops moisture from filtering down through your brick or stone work in your chimney. The crown is vital to protecting the mortar that holds everything together."
+                "title":"Keep your chimney burning properly and home safe!",
+                "description":"One of the most important components of your whole chimney and heating system is the flue and the chimney liner. Any time our technicians examine your chimney during an inspection we look closely at the condition of the chimney liner. The liner moves all the gases and smoke out of your home and allows extremely hot and toxic gases to exit your home safely. Any breaks or openings in the chimney liner can lead to serious problems, potentially allowing a spark or floating ember to escape into the area between the lining and the chimney. The chimney needs a non-combustible lining that allows complete and efficient venting of the smoke, gases and particulate matter that drafts out of your chimney. Chimney liners can be made of many materials like clay tiles, cast masonry mix, aluminum or stainless steel. Any small cracks, breeches or deterioration can affect the way your entire system performs. If gases or combustible materials escape into attics, walls or ceiling spaces that are next to the chimney a fire may start or smolder causing damage and life-threatening conditions."
             },
             {
-                "title":"Chimney Lifetime",
-                "description":"There are chimney crown sealants that are able to be applied to a chimney crown that still has structural integrity but needs to be waterproofed. Larger cracks are filled with high bond patching material and then the crown seal is applied over the top of the whole chimney crown. The sealant forms a waterproof membrane between the elements and your chimney.When properly applied, these solutions can add up to 15 years to the life of a chimney crown that has begun to wear."
-            },
-            {
-                "title":"Call us today and repair your chimney crown",
-                "description":"If your chimney crown is showing its age, it may be time to replace it with a new concrete chimney cap before it is too late. Some masons will simply use mortar mix to create a new top for the chimney. The problem with that is, mortar mix will crack and leak very quickly and is not a weather resistant material. A cement chimney crown that is properly designed to overhang the outside dimensions of the chimney structure is the best solution. When your chimney crown becomes cracked or has lost pieces of its original shape it no longer is doing the job that it needs to. Once your chimney crown begins deteriorating and falling apart, it won’t be long before serious damage will set in to your entire chimney. It may be worth a visit to your roof once in a while to do your own inspection of the chimney crown. Don’t take our word for it – just take a quick drive around downtown and look up at the older masonry chimneys. Most of them are literally falling apart from the top down. The last thing someone needs is bricks falling down or costly repairs. When we service our customers with their annual inspection and chimney cleaning, the chimney crown is a key area that we look at. If there are any defects at all, we suggest an immediate crown seal to prevent more damage."
+                "title":"How Do I Know If I May Need A New Chimney Lining?",
+                "description":"If your chimney is not pulling smoke up and out of your home, you may have problems with the chimney lining. Smelly fireplaces can also mean that your creosote and soot is building up quickly and may indicate other problems with chimney liners. The inside of your chimney needs to be cleaned regularly and a qualified chimney sweep may see potential chimney lining problems during routine cleaning. Sulfur in smoke when mixed with moisture can cause a corrosive reaction and eat small holes in metal liners over time. Clay tile liners always deteriorate and develop cracks that open up the chimney to moisture and will eventually create structural problems that require expensive repairs or even rebuilding. If you see pieces or chips of your clay tiles in your firebox, you can be sure that you need to have your liner inspected for serious defects. Any time that a customer converts to a new type of heating system, installs a new wood stove, fireplace insert or other heating appliance they need to make sure that the chimney liner matches the output requirements of the new system. Wind, snow and rain combined with freeze and thaw cycles can take a toll on your chimney. Make sure things are buttoned up and tight when it comes to your chimney lining on the inside, and you will have much longer life of the chimney structure on the outside. The number one reason for chimney fires is because of a faulty chimney liner. Actually many older homes had chimneys built with no chimney liner at all! There are ways to upgrade these historic homes by adding chimney liners that will add years to the life of the chimney and make for a much safer operation. Today the NFPA (National Fire Protection Association) requires in their code that all masonry chimneys have a liner."
             }
         ]
     },
@@ -651,16 +673,12 @@
         "tileText":"Protect your chimney from water damage. Get a crown seal for your chimney now!",
         "textList":[
             {
-                "title":"A chimney crown seal protects the chimney crown from damage over time.",
-                "description":"Your chimney crown is the area that is around the top of the chimney (not to be confused with the chimney cap that is an attachment that is added to the top of the flue pipe). A chimney crown seal protects the chimney crown from damage over time. The chimney crown tops off the masonry walls of the chimney, usually with a wider masonry or cement area. This solid covering stops moisture from filtering down through your brick or stone work in your chimney. The crown is vital to protecting the mortar that holds everything together."
+                "title":"About Refractory Panels",
+                "description":"Cement panels: Our replacement panels are generally thicker and if cured correctly should last much longer than original panels. Pre Fab or Zero Clearance Fireplaces (ZC’s) are different from masonry fireplaces in that they are not made of brick and mortar. Instead, ZC’s are made out of very thin sheet metal and refractory cement panels. ZC’s get their name for two simple reasons; “Pre Fab” because they are a sheet metal fireplace “pre-fabricated” in a factory. “Zero Clearance” because there’s very little “clearance” between the flammable 2X4 wood framing of your home and the metal box. Often flammable 2X4’s are located within ½ inch of the sheet metal! If you were to light a fire in this box with damaged or missing refractory panels, two things could happen. First, the metal could get really hot and warp, thus permanently damaging the fireplace itself. Secondly, and worst of all, as the metal got hot, you chance having the heat transfer onto the nearby flammable 2X4 studs, thus catching the house on fire! To keep this from happening, the Pre Fab Fireplaces have refractory cement insulating panels in the box which keep the metal cooler. Like any other household appliance, with use, these panels eventually wear out and need to be replaced. Radiant Firebacks can significantly increase the lifespan of your refractory panels and at the same time make your fireplace more efficient."
             },
             {
-                "title":"Chimney Lifetime",
-                "description":"There are chimney crown sealants that are able to be applied to a chimney crown that still has structural integrity but needs to be waterproofed. Larger cracks are filled with high bond patching material and then the crown seal is applied over the top of the whole chimney crown. The sealant forms a waterproof membrane between the elements and your chimney.When properly applied, these solutions can add up to 15 years to the life of a chimney crown that has begun to wear."
-            },
-            {
-                "title":"Call us today and repair your chimney crown",
-                "description":"If your chimney crown is showing its age, it may be time to replace it with a new concrete chimney cap before it is too late. Some masons will simply use mortar mix to create a new top for the chimney. The problem with that is, mortar mix will crack and leak very quickly and is not a weather resistant material. A cement chimney crown that is properly designed to overhang the outside dimensions of the chimney structure is the best solution. When your chimney crown becomes cracked or has lost pieces of its original shape it no longer is doing the job that it needs to. Once your chimney crown begins deteriorating and falling apart, it won’t be long before serious damage will set in to your entire chimney. It may be worth a visit to your roof once in a while to do your own inspection of the chimney crown. Don’t take our word for it – just take a quick drive around downtown and look up at the older masonry chimneys. Most of them are literally falling apart from the top down. The last thing someone needs is bricks falling down or costly repairs. When we service our customers with their annual inspection and chimney cleaning, the chimney crown is a key area that we look at. If there are any defects at all, we suggest an immediate crown seal to prevent more damage."
+                "title":"Replacing Refractory Panels",
+                "description":"How do you know when replacement is necessary? The rule of thumb (suggested by most manufacturers) is that once you can either get the edge of a credit card into the crack or once the panel is cracked all the way through (it flexes when you press on it lightly), it must be replaced. Also, if no cracks are visible, but chunks of the cement have fallen off (spalling) picture, it should be replaced, as well. Continued fires with damaged panels is risky business, so don’t risk it! If your panels need replacement, do not continue to burn fires until damaged panels have been replaced by a qualified professional."
             }
         ]
     },
@@ -673,16 +691,16 @@
         "tileText":"Protect your chimney from water damage. Get a crown seal for your chimney now!",
         "textList":[
             {
-                "title":"A chimney crown seal protects the chimney crown from damage over time.",
-                "description":"Your chimney crown is the area that is around the top of the chimney (not to be confused with the chimney cap that is an attachment that is added to the top of the flue pipe). A chimney crown seal protects the chimney crown from damage over time. The chimney crown tops off the masonry walls of the chimney, usually with a wider masonry or cement area. This solid covering stops moisture from filtering down through your brick or stone work in your chimney. The crown is vital to protecting the mortar that holds everything together."
+                "title":"About Chimney De-Glazing",
+                "description":"Glazed creosote is impossible to remove with standard cleaning. It requires a comprehensive chimney de-glazing solution that allows the glaze to be removed without damaging your chimney stack. Once creosote dries, it gradually hardens into a build-up that is denser and harder than brick. This build-up sticks to the inside of your chimney walls which if left allowed to continue, will only be able to be removed by chimney de-glazing."
             },
             {
-                "title":"Chimney Lifetime",
-                "description":"There are chimney crown sealants that are able to be applied to a chimney crown that still has structural integrity but needs to be waterproofed. Larger cracks are filled with high bond patching material and then the crown seal is applied over the top of the whole chimney crown. The sealant forms a waterproof membrane between the elements and your chimney.When properly applied, these solutions can add up to 15 years to the life of a chimney crown that has begun to wear."
+                "title":"Have our professional team de-glaze your chimney",
+                "description":"During repeated burning, fresh layers of creosote rapidly accumulate. With each undried layer, these new layers are insulated to where they can build up with sticky creosote and solidify. This stone-solid substance is known as chimney glaze and can only be removed by professional chimney de-glazing."
             },
             {
-                "title":"Call us today and repair your chimney crown",
-                "description":"If your chimney crown is showing its age, it may be time to replace it with a new concrete chimney cap before it is too late. Some masons will simply use mortar mix to create a new top for the chimney. The problem with that is, mortar mix will crack and leak very quickly and is not a weather resistant material. A cement chimney crown that is properly designed to overhang the outside dimensions of the chimney structure is the best solution. When your chimney crown becomes cracked or has lost pieces of its original shape it no longer is doing the job that it needs to. Once your chimney crown begins deteriorating and falling apart, it won’t be long before serious damage will set in to your entire chimney. It may be worth a visit to your roof once in a while to do your own inspection of the chimney crown. Don’t take our word for it – just take a quick drive around downtown and look up at the older masonry chimneys. Most of them are literally falling apart from the top down. The last thing someone needs is bricks falling down or costly repairs. When we service our customers with their annual inspection and chimney cleaning, the chimney crown is a key area that we look at. If there are any defects at all, we suggest an immediate crown seal to prevent more damage."
+                "title":"The best way to avoid needing a chimney de-glazing is proper burning",
+                "description":"If you have an attached stove, make sure the vent opening on the appliance is the same size as the chimney and your draft control is not set too low or else the fire will smolder. Make sure to also burn with dry and seasoned wood only! Any pieces that are wet or unseasoned typically create more creosote. Our approach to chimney de-glazing begins with assessing the situation. Once we have found evidence of chimney glazing we will leave you with the proper chemicals needed to begin the de-glazing process. After an application of this chemical, we have you burn while using this for the next 1-2 weeks before we return to sweep out the broken-down glaze. Any remaining glaze will be attended to with either chemical or physical agitation with some requiring both. Once the chimney de-glazing process is complete we will instruct you on the probable cause of the glaze and further prevention."
             }
         ]
     },
@@ -695,20 +713,41 @@
         "category":"Chimney",
         "type":"grid",
         "tileImage":"/assets/images/chimneys/resources3.jpg",
-        "tileText":"Masonry is a very popular material that gives home owners and builders flexibility. It is beautiful, versatile, resistant to fires, and earthquakes. Masonry is very durable. It can transform a home into looking as if it has stood for centuries, or give some depth and focus to a portion of the home.",
-        "textBlock0":"<h5 class='feature-title font-bold'></h5><p class='gray-text'></p>",
-        "textBlock1":"<h5 class='feature-title font-bold'></h5><p class='gray-text'></p>",
-        "textBlock2":"<h5 class='feature-title font-bold'></h5><p class='gray-text'></p>"
+        "tileText":"Take a look at some of our resources for more references."
     },
+    {
+        "title":"Chimney Glossary Terms",
+        "slug":"chimney-glossary-terms",
+        "category":"Resources",
+        "type":"resource",
+        "tileImage":"assets/images/chimneys/masonry-services/veneers/bluffstone.jpg",
+        "tileText":"Protect your chimney from water damage. Get a crown seal for your chimney now!"
+    },
+    {
+        "title":"Chimney FAQs",
+        "slug":"chimney-faqs",
+        "category":"Resources",
+        "type":"resource",
+        "tileImage":"assets/images/chimneys/masonry-services/veneers/bluffstone.jpg",
+        "tileText":"Protect your chimney from water damage. Get a crown seal for your chimney now!"
+    },
+    {
+        "title":"Fireplace Manuals",
+        "slug":"fireplace-manuals",
+        "category":"Resources",
+        "type":"resource",
+        "tileImage":"assets/images/chimneys/masonry-services/veneers/bluffstone.jpg",
+        "tileText":"Protect your chimney from water damage. Get a crown seal for your chimney now!"
+    },
+
+
     {
         "title":"Masonry Services",
         "slug":"masonry-services",
         "category":"Chimney",
         "type":"grid",
         "tileImage":"/assets/images/chimneys/masonry.jpeg",
-        "textBlock0":"<h5 class='feature-title font-bold'></h5><p class='gray-text'></p>",
-        "textBlock1":"<h5 class='feature-title font-bold'></h5><p class='gray-text'></p>",
-        "textBlock2":"<h5 class='feature-title font-bold'></h5><p class='gray-text'></p>"
+        "tileText":"Masonry is a very popular material that gives home owners and builders flexibility. It is beautiful, versatile, resistant to fires, and earthquakes."
     },
     {
         "title":"Brick/Block/Stone Veneer",
@@ -848,9 +887,21 @@
         "category":"Chimney",
         "type":"services",
         "tileImage":"/assets/images/home-improvement/dryer-vent.jpg",
-        "textBlock0":"<h5 class='feature-title font-bold'></h5><p class='gray-text'></p>",
-        "textBlock1":"<h5 class='feature-title font-bold'></h5><p class='gray-text'></p>",
-        "textBlock2":"<h5 class='feature-title font-bold'></h5><p class='gray-text'></p>"
+        "tileText":"Have your dryer vent system cleaned and inspected yearly by a dryer vent cleaning professional.",
+        "textList":[
+            {
+                "title":"Why you should have your vent cleaned",
+                "description":"According to the Consumer Product Safety Commission there are over 16,700 Dryer Vent fires per year and the number continues to rise. Why? Most people don’t know their dryer vents need to be cleaned. They clean out their lint filter now and then and think that’s it. But the dryer vent duct is where lint can really build up and get clogged. Lint is highly flammable, accounting for most dryer vent fires. In addition to lint buildup, improper installation of your dryer vent system can also pose a serious danger to you. Our dryer vent cleaning professionals will detect potential hazards such as the presence of flammable vinyl duct or a duct run that is improperly routed. So ensure your family’s safety with a professional inspection."
+            },
+            {
+                "title":"Another reason to clean your vent",
+                "description":"Lint buildup takes more energy (and money) to dry your clothes. If your dryer isn’t drying your clothes like it used to, you may not need a new dryer! A dryer vent clogged with lint reduces airflow so your dryer doesn’t dry as efficiently as it used to. An inefficient dryer also uses more energy, thereby costing you more money."
+            },
+            {
+                "title":"The Solution",
+                "description":"Have your dryer vent system cleaned and inspected yearly by a dryer vent cleaning professional. A standard cleaning will involve unhooking the dryer, cleaning the vent duct with special tools and checking connections. A professional can also service all venting situations, including today’s extremely long vent ducts in contemporary construction. These ducts are especially susceptible to lint buildup. So don’t take a chance – put your family’s safety in the hands of a professional. It will protect them against potential fire and save you money as well – two great reasons why you should think about your dryer vent."
+            }
+        ]
     },
 
 
@@ -866,9 +917,7 @@
         "subcategory":"Door",
         "type":"grid",
         "tileImage":"/assets/images/security/custom-steel-security-door-vineyard.png",
-        "textBlock0":"<h5 class='feature-title font-bold'></h5><p class='gray-text'></p>",
-        "textBlock1":"<h5 class='feature-title font-bold'></h5><p class='gray-text'></p>",
-        "textBlock2":"<h5 class='feature-title font-bold'></h5><p class='gray-text'></p>"
+        "tileText":"Custom Steel Security Doors can take your home to the next level of style and security."
     },
     {
         "title":"Artisan",
@@ -877,6 +926,13 @@
         "type":"products",
         "bullets":["The Clearview Swinging Screen Door is open design that maximizes visibility and ventilation.","This door comes in standard and custom sizes.","Customize your door today and add a pet door or Solar Screen today!"],
         "tileImage":"assets/images/security/steel-security-doors/artisan/artisan.jpg",
+        "thumbImages":[
+            {
+                "small":"assets/images/security/steel-security-doors/artisan/artisan.jpg",
+                "medium":"assets/images/security/steel-security-doors/artisan/artisan.jpg",
+                "big":"assets/images/security/steel-security-doors/artisan/artisan.jpg"
+            }
+        ],
         "tileText":"Call us today and get great pricing on window screen replacements. We specialize in all kinds of window screens and Solar Screens.",
         "productOverview":"Mike's Mobile Screen & Chimney Service offers high quality Swinging Screen doors. The Brighton Swinging Screen Doors offers a 1in. Wide Sculptured 9 Lite marginal grid pattern which combines elegance and openess to this door design. Our prices include installation. Call today to find out more!",
         "technicalSpecs":"<li>2-1/8in. x 3/4in. .050 Extruded Aluminum Frame</li><li>Available in Standard Sizes</li><li>2ft 6in. x 6ft 8in. (29-1/4in. x 79-1/4in.)</li><li>2ft 8in. x 6ft 8in. (31-1/4in. x 79-1/4in.)</li><li>3ft 0in x 6ft 8in. (35-1/4in. x 79-1/4in.)</li><li>Custom Widths 24in. - 47in., Heights up to 96in.</li><li>1in. Wide Sculptured 9 Lite Marginal Grid Pattern</li><li>Charcoal Fiberglass Insect Screening</li><li>Standard Push Button Handle</li><li>1-7/8in Side Adjustable .050 Channel with 3 Hinges</li><li>1-7/8in Bottom Adjustment .050 Channel</li><li>Precision SAFEGUARD Packaging - Complete with Hardware.</li>",
@@ -892,6 +948,13 @@
         "type":"products",
         "bullets":["The Clearview Swinging Screen Door is open design that maximizes visibility and ventilation.","This door comes in standard and custom sizes.","Customize your door today and add a pet door or Solar Screen today!"],
         "tileImage":"assets/images/security/steel-security-doors/garden/garden.jpg",
+        "thumbImages":[
+            {
+                "small":"assets/images/security/steel-security-doors/garden/garden.jpg",
+                "medium":"assets/images/security/steel-security-doors/garden/garden.jpg",
+                "big":"assets/images/security/steel-security-doors/garden/garden.jpg"
+            }
+        ],
         "tileText":"Call us today and get great pricing on window screen replacements. We specialize in all kinds of window screens and Solar Screens.",
         "productOverview":"Mike's Mobile Screen & Chimney Service offers high quality Swinging Screen doors. The Brighton Swinging Screen Doors offers a 1in. Wide Sculptured 9 Lite marginal grid pattern which combines elegance and openess to this door design. Our prices include installation. Call today to find out more!",
         "technicalSpecs":"<li>2-1/8in. x 3/4in. .050 Extruded Aluminum Frame</li><li>Available in Standard Sizes</li><li>2ft 6in. x 6ft 8in. (29-1/4in. x 79-1/4in.)</li><li>2ft 8in. x 6ft 8in. (31-1/4in. x 79-1/4in.)</li><li>3ft 0in x 6ft 8in. (35-1/4in. x 79-1/4in.)</li><li>Custom Widths 24in. - 47in., Heights up to 96in.</li><li>1in. Wide Sculptured 9 Lite Marginal Grid Pattern</li><li>Charcoal Fiberglass Insect Screening</li><li>Standard Push Button Handle</li><li>1-7/8in Side Adjustable .050 Channel with 3 Hinges</li><li>1-7/8in Bottom Adjustment .050 Channel</li><li>Precision SAFEGUARD Packaging - Complete with Hardware.</li>",
@@ -907,6 +970,13 @@
         "type":"products",
         "bullets":["The Clearview Swinging Screen Door is open design that maximizes visibility and ventilation.","This door comes in standard and custom sizes.","Customize your door today and add a pet door or Solar Screen today!"],
         "tileImage":"assets/images/security/steel-security-doors/artisan-view/artisan-view.jpg",
+        "thumbImages":[
+            {
+                "small":"assets/images/security/steel-security-doors/artisan-view/artisan-view.jpg",
+                "medium":"assets/images/security/steel-security-doors/artisan-view/artisan-view.jpg",
+                "big":"assets/images/security/steel-security-doors/artisan-view/artisan-view.jpg"
+            }
+        ],
         "tileText":"Call us today and get great pricing on window screen replacements. We specialize in all kinds of window screens and Solar Screens.",
         "productOverview":"Mike's Mobile Screen & Chimney Service offers high quality Swinging Screen doors. The Brighton Swinging Screen Doors offers a 1in. Wide Sculptured 9 Lite marginal grid pattern which combines elegance and openess to this door design. Our prices include installation. Call today to find out more!",
         "technicalSpecs":"<li>2-1/8in. x 3/4in. .050 Extruded Aluminum Frame</li><li>Available in Standard Sizes</li><li>2ft 6in. x 6ft 8in. (29-1/4in. x 79-1/4in.)</li><li>2ft 8in. x 6ft 8in. (31-1/4in. x 79-1/4in.)</li><li>3ft 0in x 6ft 8in. (35-1/4in. x 79-1/4in.)</li><li>Custom Widths 24in. - 47in., Heights up to 96in.</li><li>1in. Wide Sculptured 9 Lite Marginal Grid Pattern</li><li>Charcoal Fiberglass Insect Screening</li><li>Standard Push Button Handle</li><li>1-7/8in Side Adjustable .050 Channel with 3 Hinges</li><li>1-7/8in Bottom Adjustment .050 Channel</li><li>Precision SAFEGUARD Packaging - Complete with Hardware.</li>",
@@ -944,6 +1014,13 @@
         "type":"products",
         "bullets":["The Clearview Swinging Screen Door is open design that maximizes visibility and ventilation.","This door comes in standard and custom sizes.","Customize your door today and add a pet door or Solar Screen today!"],
         "tileImage":"assets/images/security/steel-security-doors/lanai/lanai.jpg",
+        "thumbImages":[
+            {
+                "small":"assets/images/security/steel-security-doors/lanai/lanai.jpg",
+                "medium":"assets/images/security/steel-security-doors/lanai/lanai.jpg",
+                "big":"assets/images/security/steel-security-doors/lanai/lanai.jpg"
+            }
+        ],
         "tileText":"Call us today and get great pricing on window screen replacements. We specialize in all kinds of window screens and Solar Screens.",
         "productOverview":"Mike's Mobile Screen & Chimney Service offers high quality Swinging Screen doors. The Brighton Swinging Screen Doors offers a 1in. Wide Sculptured 9 Lite marginal grid pattern which combines elegance and openess to this door design. Our prices include installation. Call today to find out more!",
         "technicalSpecs":"<li>2-1/8in. x 3/4in. .050 Extruded Aluminum Frame</li><li>Available in Standard Sizes</li><li>2ft 6in. x 6ft 8in. (29-1/4in. x 79-1/4in.)</li><li>2ft 8in. x 6ft 8in. (31-1/4in. x 79-1/4in.)</li><li>3ft 0in x 6ft 8in. (35-1/4in. x 79-1/4in.)</li><li>Custom Widths 24in. - 47in., Heights up to 96in.</li><li>1in. Wide Sculptured 9 Lite Marginal Grid Pattern</li><li>Charcoal Fiberglass Insect Screening</li><li>Standard Push Button Handle</li><li>1-7/8in Side Adjustable .050 Channel with 3 Hinges</li><li>1-7/8in Bottom Adjustment .050 Channel</li><li>Precision SAFEGUARD Packaging - Complete with Hardware.</li>",
@@ -958,6 +1035,13 @@
         "category":"Steel Security Doors",
         "type":"products",
         "tileImage":"assets/images/security/steel-security-doors/lanai/lanai.jpg",
+        "thumbImages":[
+            {
+                "small":"assets/images/security/steel-security-doors/lanai/lanai.jpg",
+                "medium":"assets/images/security/steel-security-doors/lanai/lanai.jpg",
+                "big":"assets/images/security/steel-security-doors/lanai/lanai.jpg"
+            }
+        ],
         "bullets":["The Clearview Swinging Screen Door is open design that maximizes visibility and ventilation.","This door comes in standard and custom sizes.","Customize your door today and add a pet door or Solar Screen today!"],
         "tileText":"Call us today and get great pricing on window screen replacements. We specialize in all kinds of window screens and Solar Screens.",
         "productOverview":"Mike's Mobile Screen & Chimney Service offers high quality Swinging Screen doors. The Brighton Swinging Screen Doors offers a 1in. Wide Sculptured 9 Lite marginal grid pattern which combines elegance and openess to this door design. Our prices include installation. Call today to find out more!",
@@ -974,6 +1058,13 @@
         "type":"products",
         "bullets":["The Clearview Swinging Screen Door is open design that maximizes visibility and ventilation.","This door comes in standard and custom sizes.","Customize your door today and add a pet door or Solar Screen today!"],
         "tileImage":"assets/images/security/steel-security-doors/park-avenue/park-avenue.png",
+        "thumbImages":[
+            {
+                "small":"assets/images/security/steel-security-doors/park-avenue/park-avenue.png",
+                "medium":"assets/images/security/steel-security-doors/park-avenue/park-avenue.png",
+                "big":"assets/images/security/steel-security-doors/park-avenue/park-avenue.png"
+            }
+        ],
         "tileText":"Call us today and get great pricing on window screen replacements. We specialize in all kinds of window screens and Solar Screens.",
         "productOverview":"Mike's Mobile Screen & Chimney Service offers high quality Swinging Screen doors. The Brighton Swinging Screen Doors offers a 1in. Wide Sculptured 9 Lite marginal grid pattern which combines elegance and openess to this door design. Our prices include installation. Call today to find out more!",
         "technicalSpecs":"<li>2-1/8in. x 3/4in. .050 Extruded Aluminum Frame</li><li>Available in Standard Sizes</li><li>2ft 6in. x 6ft 8in. (29-1/4in. x 79-1/4in.)</li><li>2ft 8in. x 6ft 8in. (31-1/4in. x 79-1/4in.)</li><li>3ft 0in x 6ft 8in. (35-1/4in. x 79-1/4in.)</li><li>Custom Widths 24in. - 47in., Heights up to 96in.</li><li>1in. Wide Sculptured 9 Lite Marginal Grid Pattern</li><li>Charcoal Fiberglass Insect Screening</li><li>Standard Push Button Handle</li><li>1-7/8in Side Adjustable .050 Channel with 3 Hinges</li><li>1-7/8in Bottom Adjustment .050 Channel</li><li>Precision SAFEGUARD Packaging - Complete with Hardware.</li>",
@@ -988,6 +1079,13 @@
         "category":"Steel Security Doors",
         "type":"products",
         "tileImage":"assets/images/security/steel-security-doors/sunrise/sunrise.jpg",
+        "thumbImages":[
+            {
+                "small":"assets/images/security/steel-security-doors/sunrise/sunrise.jpg",
+                "medium":"assets/images/security/steel-security-doors/sunrise/sunrise.jpg",
+                "big":"assets/images/security/steel-security-doors/sunrise/sunrise.jpg"
+            }
+        ],
         "bullets":["The Clearview Swinging Screen Door is open design that maximizes visibility and ventilation.","This door comes in standard and custom sizes.","Customize your door today and add a pet door or Solar Screen today!"],
         "tileText":"Call us today and get great pricing on window screen replacements. We specialize in all kinds of window screens and Solar Screens.",
         "productOverview":"Mike's Mobile Screen & Chimney Service offers high quality Swinging Screen doors. The Brighton Swinging Screen Doors offers a 1in. Wide Sculptured 9 Lite marginal grid pattern which combines elegance and openess to this door design. Our prices include installation. Call today to find out more!",
@@ -1003,6 +1101,13 @@
         "category":"Steel Security Doors",
         "type":"products",
         "tileImage":"assets/images/security/steel-security-doors/arbor/arbor.jpg",
+        "thumbImages":[
+            {
+                "small":"assets/images/security/steel-security-doors/arbor/arbor.jpg",
+                "medium":"assets/images/security/steel-security-doors/arbor/arbor.jpg",
+                "big":"assets/images/security/steel-security-doors/arbor/arbor.jpg"
+            }
+        ],
         "bullets":["The Clearview Swinging Screen Door is open design that maximizes visibility and ventilation.","This door comes in standard and custom sizes.","Customize your door today and add a pet door or Solar Screen today!"],
         "tileText":"Call us today and get great pricing on window screen replacements. We specialize in all kinds of window screens and Solar Screens.",
         "productOverview":"Mike's Mobile Screen & Chimney Service offers high quality Swinging Screen doors. The Brighton Swinging Screen Doors offers a 1in. Wide Sculptured 9 Lite marginal grid pattern which combines elegance and openess to this door design. Our prices include installation. Call today to find out more!",
@@ -1018,6 +1123,13 @@
         "category":"Steel Security Doors",
         "type":"products",
         "tileImage":"assets/images/security/steel-security-doors/zen/zen.jpg",
+        "thumbImages":[
+            {
+                "small":"assets/images/security/steel-security-doors/zen/zen.jpg",
+                "medium":"assets/images/security/steel-security-doors/zen/zen.jpg",
+                "big":"assets/images/security/steel-security-doors/zen/zen.jpg"
+            }
+        ],
         "bullets":["The Clearview Swinging Screen Door is open design that maximizes visibility and ventilation.","This door comes in standard and custom sizes.","Customize your door today and add a pet door or Solar Screen today!"],
         "tileText":"Call us today and get great pricing on window screen replacements. We specialize in all kinds of window screens and Solar Screens.",
         "productOverview":"Mike's Mobile Screen & Chimney Service offers high quality Swinging Screen doors. The Brighton Swinging Screen Doors offers a 1in. Wide Sculptured 9 Lite marginal grid pattern which combines elegance and openess to this door design. Our prices include installation. Call today to find out more!",
@@ -1033,6 +1145,13 @@
         "category":"Steel Security Doors",
         "type":"products",
         "tileImage":"assets/images/security/steel-security-doors/palladio/palladio.jpg",
+        "thumbImages":[
+            {
+                "small":"assets/images/security/steel-security-doors/palladio/palladio.jpg",
+                "medium":"assets/images/security/steel-security-doors/palladio/palladio.jpg",
+                "big":"assets/images/security/steel-security-doors/palladio/palladio.jpg"
+            }
+        ],
         "bullets":["The Clearview Swinging Screen Door is open design that maximizes visibility and ventilation.","This door comes in standard and custom sizes.","Customize your door today and add a pet door or Solar Screen today!"],
         "tileText":"Call us today and get great pricing on window screen replacements. We specialize in all kinds of window screens and Solar Screens.",
         "productOverview":"Mike's Mobile Screen & Chimney Service offers high quality Swinging Screen doors. The Brighton Swinging Screen Doors offers a 1in. Wide Sculptured 9 Lite marginal grid pattern which combines elegance and openess to this door design. Our prices include installation. Call today to find out more!",
@@ -1048,6 +1167,13 @@
         "category":"Steel Security Doors",
         "type":"products",
         "tileImage":"assets/images/security/steel-security-doors/estate/estate.jpg",
+        "thumbImages":[
+            {
+                "small":"assets/images/security/steel-security-doors/estate/estate.jpg",
+                "medium":"assets/images/security/steel-security-doors/estate/estate.jpg",
+                "big":"assets/images/security/steel-security-doors/estate/estate.jpg"
+            }
+        ],
         "bullets":["The Clearview Swinging Screen Door is open design that maximizes visibility and ventilation.","This door comes in standard and custom sizes.","Customize your door today and add a pet door or Solar Screen today!"],
         "tileText":"Call us today and get great pricing on window screen replacements. We specialize in all kinds of window screens and Solar Screens.",
         "productOverview":"Mike's Mobile Screen & Chimney Service offers high quality Swinging Screen doors. The Brighton Swinging Screen Doors offers a 1in. Wide Sculptured 9 Lite marginal grid pattern which combines elegance and openess to this door design. Our prices include installation. Call today to find out more!",
@@ -1063,6 +1189,13 @@
         "category":"Steel Security Doors",
         "type":"products",
         "tileImage":"assets/images/security/steel-security-doors/plantation/plantation.jpg",
+        "thumbImages":[
+            {
+                "small":"assets/images/security/steel-security-doors/plantation/plantation.jpg",
+                "medium":"assets/images/security/steel-security-doors/plantation/plantation.jpg",
+                "big":"assets/images/security/steel-security-doors/plantation/plantation.jpg"
+            }
+        ],
         "bullets":["The Clearview Swinging Screen Door is open design that maximizes visibility and ventilation.","This door comes in standard and custom sizes.","Customize your door today and add a pet door or Solar Screen today!"],
         "tileText":"Call us today and get great pricing on window screen replacements. We specialize in all kinds of window screens and Solar Screens.",
         "productOverview":"Mike's Mobile Screen & Chimney Service offers high quality Swinging Screen doors. The Brighton Swinging Screen Doors offers a 1in. Wide Sculptured 9 Lite marginal grid pattern which combines elegance and openess to this door design. Our prices include installation. Call today to find out more!",
@@ -1078,6 +1211,13 @@
         "category":"Steel Security Doors",
         "type":"products",
         "tileImage":"assets/images/security/steel-security-doors/villa/villa.jpg",
+        "thumbImages":[
+            {
+                "small":"assets/images/security/steel-security-doors/villa/villa.jpg",
+                "medium":"assets/images/security/steel-security-doors/villa/villa.jpg",
+                "big":"assets/images/security/steel-security-doors/villa/villa.jpg"
+            }
+        ],
         "bullets":["The Clearview Swinging Screen Door is open design that maximizes visibility and ventilation.","This door comes in standard and custom sizes.","Customize your door today and add a pet door or Solar Screen today!"],
         "tileText":"Call us today and get great pricing on window screen replacements. We specialize in all kinds of window screens and Solar Screens.",
         "productOverview":"Mike's Mobile Screen & Chimney Service offers high quality Swinging Screen doors. The Brighton Swinging Screen Doors offers a 1in. Wide Sculptured 9 Lite marginal grid pattern which combines elegance and openess to this door design. Our prices include installation. Call today to find out more!",
@@ -1093,6 +1233,13 @@
         "category":"Steel Security Doors",
         "type":"products",
         "tileImage":"assets/images/security/steel-security-doors/santa-fe/santa-fe.jpg",
+        "thumbImages":[
+            {
+                "small":"assets/images/security/steel-security-doors/santa-fe/santa-fe.jpg",
+                "medium":"assets/images/security/steel-security-doors/santa-fe/santa-fe.jpg",
+                "big":"assets/images/security/steel-security-doors/santa-fe/santa-fe.jpg"
+            }
+        ],
         "bullets":["The Clearview Swinging Screen Door is open design that maximizes visibility and ventilation.","This door comes in standard and custom sizes.","Customize your door today and add a pet door or Solar Screen today!"],
         "tileText":"Call us today and get great pricing on window screen replacements. We specialize in all kinds of window screens and Solar Screens.",
         "productOverview":"Mike's Mobile Screen & Chimney Service offers high quality Swinging Screen doors. The Brighton Swinging Screen Doors offers a 1in. Wide Sculptured 9 Lite marginal grid pattern which combines elegance and openess to this door design. Our prices include installation. Call today to find out more!",
@@ -1114,6 +1261,7 @@
         "type":"products",
         "bullets":["The Viewguard looks like a screen door but is actually high tensile strength stainless steel woven into a fine mesh.","Your security screen door will be the first point of protection for keeping your home safe and secure.","It provides secure protection and gives you a clear view of the outdoors without compromising the style or appearance of your home."],
         "tileImage":"/assets/images/security/viewguard/viewguard.jpg",
+        "tileText":"Your security screen door will be the first point of protection for keeping your home safe and secure.",
         "thumbImages":[
             {
                 "small":"/assets/images/security/viewguard/viewguard_main.png",
@@ -1151,6 +1299,7 @@
         "type":"products",
         "bullets":["With the Tru-View you can let the cool breeze in and keep intruders out without compromising the appearance of your home.","Finally you can experience security without resorting to bars or unsightly steel grills.","Stainless steel marine grade mesh screen optimizes airflow, and maximizes security."],
         "tileImage":"/assets/images/security/custom-steel-security-door-paradise-french.png",
+        "tileText":"With the Tru-View you can let the cool breeze in and keep intruders out without compromising the appearance of your home.",
         "thumbImages":[
             {
                 "small":"/assets/images/security/tru-view/1.png",
@@ -1194,8 +1343,8 @@
         "relatedProducts":"<li>Tru Frame</li><li>Tru View</li><li>Steel Security Doors</li><li>Tru Frame Security Sliding Doors</li>",
         "warranty":"All warranties cover materials, manufacturing defects and hardware for the periods listed below but will not cover normal wear and tear of the product. Screen mesh is not covered beyond the initial installation of products. Defective items must be reported within 5 days of receipt for validation. Improper installation of the product will not be covered under the warranties listed. Warranty periods begin from the date of purchase to our dealers.<br/><br/>Contact the factory for details on specific product lines listed below and for any warranty claim.<br/><br/>Maximum liability for R. Lang Company will be limited to replacement of product only.<br/><br/>5 Year Limited Warranty<br/><br/><br/>Security Doors<br/>WARRANTY SERVICE REQUESTS<br/><br/>Warranty periods begin from date of purchase from the R. Lang Company.<br/>All warranty service requests must be submitted by the original dealer/customer for validation purposes. You must provide an original invoice number for verification.<br/>Contact our Customer Service Department at (800) 677-5264 for the Service Request form to be emailed or faxed to you.<br/>R. Lang Company will not accept warranty requests directly from homeowners.<br/>Under no circumstance will R. Lang Company be responsible for repair bills submitted by homeowners or dealers/customers without prior approval from the Sales or Warranty Manager.<br/>Warranty requests received outside of our California service area will be processed by our Warranty Manager for fair resolution. Replacement parts will be sent as necessary to correct a problem or defect. Insulated glass failures/defects can be replaced locally but will require pre-authorization from the Sales Warranty Manager for fair credit amount reimbursement.<br/>Any dealer/customer rework or screen replacement must be pre-approved. We recommend that the product be returned for correction in our facility.<br/>R. Lang Company will cover cost for authorized replacements for material only. Dealer/customer will be responsible for any labor incurred for their shop or field expenses.<br/><br/>GENERAL WARRANTY POLICY<br/>R. Lang Company will repair or provide replacement product, at it’s election, free of charge, any product proven to have a manufacturing defect during the applicable warranty period up to a maximum liability which shall be equal to the cost of replacement of the defective product. R. Lang Company shall in no event be liable for labor charges or other expenses whatsoever in connection with removal or installation of either the original or replacement product. However, in lieu of replacement of repair, R. Lang Company, at it’s sole discretion, reserves the right to refund up to the amount paid by the original purchaser of the product but not including the installation cost. This warranty is intended to cover individual homeowners and does not apply to products installed in commercial construction. In the event of repair or replacement pursuant to terms of this warranty, the original warranty shall apply to the repaired or replacement product and will extend for the balance of the warranty period in effect at the time the product proved defective.",
         "recentInstallImages":[
-            {"img": "/assets/images/security/tru-view/8.png", "thumb":"/assets/images/security/tru-view/8.png", "description":"Something"},
-            {"img": "/assets/images/security/tru-view/9.png", "thumb":"/assets/images/security/tru-view/9.png", "description":"somethiingelse"}
+            {"small": "/assets/images/security/tru-view/8.png", "medium":"/assets/images/security/tru-view/8.png", "big":"/assets/images/security/tru-view/8.png"},
+            {"small": "/assets/images/security/tru-view/9.png", "medium":"/assets/images/security/tru-view/9.png", "big":"/assets/images/security/tru-view/9.png"}
         ],
         "colorSet":["stdColors", "securityDoorColors"]
     },
@@ -1207,6 +1356,7 @@
         "type":"products",
         "bullets":["Tru-Frame security screen doors have all the benefits of a screen door with the added safety of a dead bolted security door.","The Tru-Frame is a security door without the traditional security door look, at a price that won’t break the bank."],
         "tileImage":"/assets/images/security/truframe-red-edit.jpg",
+        "tileText":"Tru-Frame security screen doors have all the benefits of a screen door with the added safety of a dead bolted security door.",
         "thumbImages":[
             {
                 "small":"/assets/images/security/tru-frame/1.png",
@@ -1271,6 +1421,7 @@
         "type":"products",
         "bullets":["Let the cool breeze in while keeping undesirable elements out with TRU-Frame Sliding Security Screen Doors.","Constructed to match the look and performance of our hinged door product line, our NEW Sliding Security Doors will enhance the appearance of your home while providing peace of mind!","Available in the Stainless Steel Mesh style (Similar to Viewguard) and an Amplimesh style (Similar to TRU-Frame) in Single or Double door options."],
         "tileImage":"/assets/images/security/slidingsecuritydoor.jpg",
+        "tileText":"Enjoy the cool night air while sleeping in peace, quiet and safety. These sliding security doors are also pet resistant! No more ripped screens from pets.",
         "thumbImages":[
             {
                 "small":"/assets/images/security/sliding/1.jpg",
@@ -1323,7 +1474,53 @@
         "options":"<li>Amplimesh Grill</li><li>Add Solar Screen</li><li>Stainless Steel Grill</li>",
         "relatedProducts":"<li>Tru Frame</li><li>Tru View</li><li>Steel Security Doors</li><li>Tru Frame Security Sliding Doors</li>",
         "warranty":"All warranties cover materials, manufacturing defects and hardware for the periods listed below but will not cover normal wear and tear of the product. Screen mesh is not covered beyond the initial installation of products. Defective items must be reported within 5 days of receipt for validation. Improper installation of the product will not be covered under the warranties listed. Warranty periods begin from the date of purchase to our dealers.<br/><br/>Contact the factory for details on specific product lines listed below and for any warranty claim.<br/><br/>Maximum liability for R. Lang Company will be limited to replacement of product only.<br/><br/>5 Year Limited Warranty<br/><br/><br/>Security Doors<br/>WARRANTY SERVICE REQUESTS<br/><br/>Warranty periods begin from date of purchase from the R. Lang Company.<br/>All warranty service requests must be submitted by the original dealer/customer for validation purposes. You must provide an original invoice number for verification.<br/>Contact our Customer Service Department at (800) 677-5264 for the Service Request form to be emailed or faxed to you.<br/>R. Lang Company will not accept warranty requests directly from homeowners.<br/>Under no circumstance will R. Lang Company be responsible for repair bills submitted by homeowners or dealers/customers without prior approval from the Sales or Warranty Manager.<br/>Warranty requests received outside of our California service area will be processed by our Warranty Manager for fair resolution. Replacement parts will be sent as necessary to correct a problem or defect. Insulated glass failures/defects can be replaced locally but will require pre-authorization from the Sales Warranty Manager for fair credit amount reimbursement.<br/>Any dealer/customer rework or screen replacement must be pre-approved. We recommend that the product be returned for correction in our facility.<br/>R. Lang Company will cover cost for authorized replacements for material only. Dealer/customer will be responsible for any labor incurred for their shop or field expenses.<br/><br/>GENERAL WARRANTY POLICY<br/>R. Lang Company will repair or provide replacement product, at it’s election, free of charge, any product proven to have a manufacturing defect during the applicable warranty period up to a maximum liability which shall be equal to the cost of replacement of the defective product. R. Lang Company shall in no event be liable for labor charges or other expenses whatsoever in connection with removal or installation of either the original or replacement product. However, in lieu of replacement of repair, R. Lang Company, at it’s sole discretion, reserves the right to refund up to the amount paid by the original purchaser of the product but not including the installation cost. This warranty is intended to cover individual homeowners and does not apply to products installed in commercial construction. In the event of repair or replacement pursuant to terms of this warranty, the original warranty shall apply to the repaired or replacement product and will extend for the balance of the warranty period in effect at the time the product proved defective.",
-        "recentInstallImages":["/assets/images/security/sliding/1.jpg","/assets/images/security/sliding/2.jpg","/assets/images/security/sliding/3.jpg","assets/images/security/sliding/4.jpg","/assets/images/security/sliding/5.jpg","/assets/images/security/sliding/6.jpg","/assets/images/security/sliding/7.jpg","/assets/images/security/sliding/8.jpg","/assets/images/security/sliding/9.jpg"],
+        "recentInstallImages":[
+            {
+                "small":"/assets/images/security/sliding/1.jpg",
+                "medium":"/assets/images/security/sliding/1.jpg",
+                "big":"/assets/images/security/sliding/1.jpg"
+            },
+            {
+                "small":"/assets/images/security/sliding/2.jpg",
+                "medium":"/assets/images/security/sliding/2.jpg",
+                "big":"/assets/images/security/sliding/2.jpg"
+            },
+            {
+                "small":"/assets/images/security/sliding/3.jpg",
+                "medium":"/assets/images/security/sliding/3.jpg",
+                "big":"/assets/images/security/sliding/3.jpg"
+            },
+            {
+                "small":"assets/images/security/sliding/4.jpg",
+                "medium":"assets/images/security/sliding/4.jpg",
+                "big":"assets/images/security/sliding/4.jpg"
+            },
+            {
+                "small":"/assets/images/security/sliding/5.jpg",
+                "medium":"/assets/images/security/sliding/5.jpg",
+                "big":"/assets/images/security/sliding/5.jpg"
+            },
+            {
+                "small":"/assets/images/security/sliding/6.jpg",
+                "medium":"/assets/images/security/sliding/6.jpg",
+                "big":"/assets/images/security/sliding/6.jpg"
+            },
+            {
+                "small":"/assets/images/security/sliding/7.jpg",
+                "medium":"/assets/images/security/sliding/7.jpg",
+                "big":"/assets/images/security/sliding/7.jpg"
+            },
+            {
+                "small":"/assets/images/security/sliding/8.jpg",
+                "medium":"/assets/images/security/sliding/8.jpg",
+                "big":"/assets/images/security/sliding/8.jpg"
+            },
+            {
+                "small":"/assets/images/security/sliding/9.jpg",
+                "medium":"/assets/images/security/sliding/9.jpg",
+                "big":"/assets/images/security/sliding/9.jpg"
+            }
+        ],
         "colorSet":["stdColors", "securityDoorColors"]
     },
     {
@@ -1334,6 +1531,7 @@
         "type":"products",
         "bullets":["Your security window screens will be one of the first points of protection for keeping your home safe and secure.","Our security window screens looks like a normal window screen but is actually high tensile strength stainless steel oven into a fine mesh called 'meshtec'.","It provides secure protection and gives you a clear view of the outdoors without compromising the style or appearance of your home."],
         "tileImage":"/assets/images/security/security-window.jpg",
+        "tileText":"CRL Guarda™ Quick Escape Window Screens have an easy release push mechanism that also acts as a secure, temper resistant device locking the screen closed for peace of mind.",
         "thumbImages":[
             {
                 "small":"/assets/images/security/guarda-escape/1.png",
@@ -1365,6 +1563,7 @@
         "type":"products",
         "bullets":["Your security window screens will be one of the first points of protection for keeping your home safe and secure.","Our security window screens looks like a normal window screen but is actually high tensile strength stainless steel oven into a fine mesh called 'meshtec'.","It provides secure protection and gives you a clear view of the outdoors without compromising the style or appearance of your home."],
         "tileImage":"/assets/images/security/door.jpg",
+        "tileText":"CRL Guarda™ Security Fixed Window Screens are an ideal solution to cover and protect non-opening windows.",
         "thumbImages":[
             {
                 "small":"/assets/images/security/guarda-fixed/1.png",
@@ -1396,6 +1595,7 @@
         "type":"products",
         "bullets":["Your security window screens will be one of the first points of protection for keeping your home safe and secure.","Our security window screens looks like a normal window screen but is actually high tensile strength stainless steel oven into a fine mesh called 'meshtec'.","It provides secure protection and gives you a clear view of the outdoors without compromising the style or appearance of your home."],
         "tileImage":"/assets/images/security/guarda-casement/1.png",
+        "tileText":"Our security window screens looks like a normal window screen but is actually high tensile strength stainless steel woven into a fine mesh",
         "thumbImages":[
             {
                 "small":"/assets/images/security/guarda-casement/1.png",
@@ -1427,9 +1627,9 @@
         "title":"Retractable Patio Awning",
         "slug":"retractable-patio-awning",
         "category":"Awnings",
-        "type":"products",
-        "bullets":[],
+        "type":"services",
         "tileImage":"/assets/images/awnings/folding-arm-awning.jpg",
+        "tileText":"Increase your home’s livable area and create the perfect day with Retractable Patio and Deck Awnings.",
         "thumbImages":[
             {
                 "small":"",
@@ -1437,31 +1637,52 @@
                 "big":""
             }
         ],
-        "video":""
+        "textList":[
+            {
+                "title":"Custom Made Shade For Perfect Days",
+                "description":"Your home’s outdoor areas can easily be transformed into your own personal oasis when you equip your deck or patio with motorized retractable Sunesta awnings. Sunesta Premium Class Retractable Outdoor Awnings can transform, expand and enhance your home’s outdoor living area by letting in sun when you want it but delivering comfortable shade when you need it. Whether your needs are better served by a retractable motorized awnings or a manual Sunesta awning, you’re sure to craft the perfect day in the shade."
+            },
+            {
+                "title":"Sunesta Retractable Awnings for Homes Come with an Array of Standard Features",
+                "description":"Four PVC coated arm cables for superior strength, folding arms for narrow widths to accomplish larger projections. Easy precision retractable outdoor awning pitch adjustments. Protective hardware covers, mounting hardware for wall, ceiling or roof are available"
+            },
+            {
+                "title":"Optional Motorized Retractable Awning Features",
+                "description":"Wireless retractable motorized awning remotes and sensors. Front bar drop valances for low sun protection. One-piece weather sealed hoods. Semi-Cassettes for ultimate fabric protection."
+            }
+        ]
     },
     {
         "title":"Drop Roll Sunscreens",
         "slug":"drop-roll-sunscreens",
         "category":"Awnings",
-        "type":"products",
+        "type":"services",
         "bullets":[],
         "tileImage":"/assets/images/awnings/droproll.jpg",
-        "thumbImages":[
+        "tileText":"The Sunroll Drop Roll Sunscreen provides you with total vertical sun control of your covered outdoor space.",
+        "textList":[
             {
-                "small":"",
-                "medium":"",
-                "big":""
+                "title":"Custom Made Shade For Perfect Days",
+                "description":"Your home’s outdoor areas can easily be transformed into your own personal oasis when you equip your deck or patio with motorized retractable Sunesta awnings. Sunesta Premium Class Retractable Outdoor Awnings can transform, expand and enhance your home’s outdoor living area by letting in sun when you want it but delivering comfortable shade when you need it. Whether your needs are better served by a retractable motorized awnings or a manual Sunesta awning, you’re sure to craft the perfect day in the shade."
+            },
+            {
+                "title":"Sunesta Retractable Awnings for Homes Come with an Array of Standard Features",
+                "description":"Four PVC coated arm cables for superior strength, folding arms for narrow widths to accomplish larger projections. Easy precision retractable outdoor awning pitch adjustments. Protective hardware covers, mounting hardware for wall, ceiling or roof are available"
+            },
+            {
+                "title":"Optional Motorized Retractable Awning Features",
+                "description":"Wireless retractable motorized awning remotes and sensors. Front bar drop valances for low sun protection. One-piece weather sealed hoods. Semi-Cassettes for ultimate fabric protection."
             }
-        ],
-        "video":""
+        ]
     },
     {
         "title":"Door and Window Awnings",
         "slug":"door-and-window-awnings",
         "category":"Awnings",
-        "type":"products",
+        "type":"services",
         "bullets":[],
         "tileImage":"/assets/images/awnings/wet.jpg",
+        "tileText":"Your home is one-of-a-kind, and your window and door awnings should match and compliment it.",
         "thumbImages":[
             {
                 "small":"",
@@ -1469,6 +1690,51 @@
                 "big":""
             }
         ],
-        "video":""
+        "textList":[
+            {
+                "title":"",
+                "description":""
+            },
+            {
+                "title":"",
+                "description":""
+            },
+            {
+                "title":"",
+                "description":""
+            }
+        ]
+    },
+
+
+
+
+
+
+    
+    {
+        "title":"Door and Window Screens",
+        "slug":"door-and-window-screens",
+        "type":"landing"
+        
+    },
+    {
+        "title":"Chimney Services",
+        "slug":"chimney-services",
+        "type":"landing"
+        
+    },
+    {
+        "title":"Security Doors and Windows",
+        "slug":"security-doors-and-windows",
+        "type":"landing"
+        
+    },
+    {
+        "title":"Awnings",
+        "slug":"awnings",
+        "type":"landing"
+        
     }
+
 ]

@@ -14,15 +14,16 @@ import * as $ from 'jquery';
 })
 export class ProductDetailComponent implements OnInit, OnDestroy {
 
-    galleryOptions: NgxGalleryOptions[];
-    galleryImages: NgxGalleryImage[];
+    gallery_options: NgxGalleryOptions[];
+    gallery_images: NgxGalleryImage[];
+    recent_install_images_options: NgxGalleryOptions[];
+    recent_install_images:NgxGalleryImage[];
 
     private req:any;
     private routeSub:any;
 
     slug:string;
     product:ServiceItem;
-    recent_install_images=[]
 
     colorList = ['stdColors', 'colorSetx4', 'colorSetx6', 'swingingDoorColors', 'securityDoorColors'];
 
@@ -86,13 +87,13 @@ export class ProductDetailComponent implements OnInit, OnDestroy {
                     if(item.slug == this.slug){
                         this.product = item as ServiceItem;
                         this.recent_install_images = this.product.recentInstallImages;
-                        this.galleryImages = this.product.thumbImages;
+                        this.gallery_images = this.product.thumbImages;
                     }
                 })
             })
         })
 
-        this.galleryOptions = [
+        this.gallery_options = [
             {
                 width: '550px',
                 height: '450px',
@@ -121,6 +122,37 @@ export class ProductDetailComponent implements OnInit, OnDestroy {
                 preview: false
             }
         ];
+
+        this.recent_install_images_options = [
+            { 
+                width: '600px', 
+                height: '500px', 
+                thumbnailsColumns: 3, 
+                thumbnailsRows: 2, 
+                thumbnailsPercent: 40, 
+                imagePercent: 60, 
+                thumbnailMargin: 2, 
+                thumbnailsMargin: 2, 
+                imageAutoPlay: true, 
+                imageAutoPlayPauseOnHover: true, 
+                previewAutoPlay: true, 
+                previewAutoPlayPauseOnHover: true, 
+                previewCloseOnClick: true, 
+                previewCloseOnEsc: true
+            },
+            { 
+                breakpoint: 500, 
+                width: '300px', 
+                height: '300px', 
+                thumbnailsColumns: 3 
+            },
+            { 
+                breakpoint: 300, 
+                width: '100%', 
+                height: '200px', 
+                thumbnailsColumns: 2 
+            }
+        ]
     }
     ngOnDestroy(){
       this.routeSub.unsubscribe();

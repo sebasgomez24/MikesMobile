@@ -1,11 +1,11 @@
 export class ServiceItem{
     title:string
     slug:string
-    category:string
+    category?:string
     subcategory?:string
     type:string
-    tileImage:string
-    tileText:string
+    tileImage?:string
+    tileText?:string
     images?: string[]
     recentInstallImages?: string[]
     video?:string

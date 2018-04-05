@@ -36,7 +36,7 @@ export class ServicesService {
 	  return this.http.get(endpoint).map(response=>{
 		let data = []
 		let req = response.json().filter(item=>{
-			if (item.title.toLowerCase().indexOf(query.toLowerCase()) >= 0 || item.type.toLowerCase().indexOf(query.toLowerCase()) >= 0 || item.category.toLowerCase().indexOf(query.toLowerCase()) >= 0){
+			if (item.title.toLowerCase().indexOf(query.toLowerCase()) >= 0){
 				data.push(item)
 			}
 		})

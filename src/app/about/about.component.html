@@ -1,25 +1,104 @@
+<app-navigation></app-navigation>
 
-<!--Jumbotron-->
-<div class="jumbotron text-center mb-0">
-  <!--Title-->
-  <h1 class="card-title h2-responsive mt-2"><strong>About Mike's Mobile</strong></h1>
-  <!--Subtitle-->
-  <!-- <p class="blue-text mb-4 font-bold">Powerful and free Material Design UI KIT</p> -->
+<div class="container slideshow" id="slideshow">
+    <!--Carousel Wrapper-->
+    <mdb-carousel #carousel [isControls]="true" class="carousel slide" [animation]="'slide'" [interval]="2500">
+        <!--First slide-->
+        <mdb-slide>
+            <div class="view hm-bluegrey-light">
+                <img class="d-block w-100 img-fluid" src="assets/images/main/red-screen.jpg" alt="First slide">
+                <div class="mask waves-light" mdbRippleRadius></div>
+            </div>
 
-  <!--Text-->
-  <div class="d-flex justify-content-center">
-      <p class="card-text mb-3" style="max-width: 43rem;">Mike’s Mobile started in 2002 and is locally owned and operated. Since then we have collected a staggering amount of experience installing window screens, solar screens, awnings and security doors and repairing and maintaining chimneys and fireplaces.
-          <br/><br/>
-          People love the California weather and they love taking advantage of the crisp morning air. Our window screens, solar screens, screen doors and security doors offer the perfect way to take advantage of the cool air.
-          <br/><br/>
-          Each year in October we start to see a shift to the our chimney side of the business. We are a full service Chimney Sweep company that specializes in masonry repair, chimney sweeps and chimney inspections. Over the years we have come across thousands of chimney issues and solutions. Give us a call today and find out why our customers love us!
-      </p>
-  </div>
-
-  <hr class="my-4">
-
-  <!-- <button type="button" class="btn btn-blue waves-effect">Buy now <span class="fa fa-diamond ml-1"></span></button>
-  <button type="button" class="btn btn-outline-primary waves-effect">Download <i class="fa fa-download ml-1"></i></button> -->
-
+            <div class="carousel-caption text-md-left">
+                <div class="transparent-gray pt-4 pb-1">
+                    <h2 class="h2-responsive px-4">Custom Security Doors</h2>
+                    <ul>
+                        <li>Custom Mount Options</li>
+                        <li>Custom Colors</li>
+                        <li>Custom <i class="orange-text">You</i></li>
+                    </ul>
+                </div>
+                <button type="button" class="btn blue waves-light" mdbRippleRadius>Get Started</button>
+            </div>
+        </mdb-slide>
+        <!--/First slide-->
+        <!--Second slide-->
+        <mdb-slide>
+            <div class="view hm-stylish-light">
+                <img class="d-block w-100 img-fluid" src="assets/images/main/single-chimney.jpg" alt="Second slide">
+                <div class="mask waves-light" mdbRippleRadius></div>
+            </div>
+            <div class="carousel-caption text-md-left">
+                <div class="transparent-gray pt-4 pb-3">
+                    <h2 class="h2-responsive px-4">View our many Chimney Services</h2>
+                    <!-- <p class="px-4">Secondary text</p> -->
+                </div>
+                <button type="button" class="btn blue waves-light" mdbRippleRadius>Learn More</button>
+            </div>
+        </mdb-slide>
+        <!--/Second slide-->
+        <!--Third slide-->
+        <mdb-slide>
+            <div class="view hm-stylish-light">
+                <img class="d-block w-100 img-fluid" src="assets/images/main/gutter0.jpg" alt="Third slide">
+                <div class="mask waves-light" mdbRippleRadius></div>
+            </div>
+            <div class="carousel-caption text-md-left">
+                <div class="transparent-gray pt-4 pb-1">
+                    <h2 class="h2-responsive px-4">Home Improvement</h2>
+                    <p class="px-4">Keep your home in tip-top shape</p>
+                </div>
+                <button type="button" class="btn blue waves-light" (click)="basicModal.show()" mdbRippleRadius>Free Quote</button>
+            </div>
+        </mdb-slide>
+        <!--/Third slide-->
+        <!--Fourth slide-->
+        <mdb-slide>
+            <div class="view hm-stylish-light">
+                <img class="d-block w-100 img-fluid" src="assets/images/main/security-door.jpg" alt="Third slide">
+                <div class="mask waves-light" mdbRippleRadius></div>
+            </div>
+            <div class="carousel-caption text-md-left">
+                <div class="transparent-gray pt-4 pb-1">
+                    <h2 class="h2-responsive px-4">1-877-520-3595</h2>
+                    <p class="px-4">Call us Today!</p>
+                </div>
+                <button type="button" class="btn blue waves-light" href="tel:+1-916-372-8783" mdbRippleRadius>Call Now</button>
+            </div>
+        </mdb-slide>
+        <!--/Fourth slide-->
+    </mdb-carousel>
+    <!--/.Carousel Wrapper-->
 </div>
-<!--Jumbotron-->
+
+<app-action-buttons></app-action-buttons>
+
+<div class="container pt-4">
+    <!--Jumbotron-->
+    <div class="jumbotron text-center mb-0">
+    <!--Title-->
+    <h1 class="card-title h2-responsive mt-2"><strong>About Mike's Mobile</strong></h1>
+    <!--Subtitle-->
+    <!-- <p class="blue-text mb-4 font-bold">Powerful and free Material Design UI KIT</p> -->
+
+    <!--Text-->
+    <div class="d-flex justify-content-center">
+        <p class="card-text mb-3" style="max-width: 43rem;">Mike’s Mobile started in 2002 and is locally owned and operated. Since then we have collected a staggering amount of experience installing window screens, solar screens, awnings and security doors and repairing and maintaining chimneys and fireplaces.
+            <br/><br/>
+            People love the California weather and they love taking advantage of the crisp morning air. Our window screens, solar screens, screen doors and security doors offer the perfect way to take advantage of the cool air.
+            <br/><br/>
+            Each year in October we start to see a shift to the our chimney side of the business. We are a full service Chimney Sweep company that specializes in masonry repair, chimney sweeps and chimney inspections. Over the years we have come across thousands of chimney issues and solutions. Give us a call today and find out why our customers love us!
+        </p>
+    </div>
+
+    <hr class="my-4">
+
+    <!-- <button type="button" class="btn btn-blue waves-effect">Buy now <span class="fa fa-diamond ml-1"></span></button>
+    <button type="button" class="btn btn-outline-primary waves-effect">Download <i class="fa fa-download ml-1"></i></button> -->
+
+    </div>
+    <!--Jumbotron-->
+</div>
+
+<app-footer></app-footer>

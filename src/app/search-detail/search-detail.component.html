@@ -22,29 +22,31 @@
 					<!-- ServiceItem -->
 					<div class="col-6 col-md-4 col-lg-3 my-3">
 						<!-- Flip Card -->
-						<div class="flip-container">
-						  <div class="flipper">
-						    <!-- front content -->
-						    <div class="front">
-						      <!--Card image-->
-						      <div class="view waves-light" mdbRippleRadius>
-						          <img src="{{search.tileImage}}" class="img-fluid" alt="{{search.title}}">
-						      </div>
-						      <!--Title-->
-						      <h4 class="card-title">{{search.title}}</h4>
-						    </div>
-						    <!--/ front content -->
-						    <!-- back content -->
-						    <a routerLink="/{{search.type}}/{{search.slug}}">
-						      <div class="back">
-						        <h4 class="text-center">{{search.title}}</h4>
-						        <div class="divider dropdown-divider pt-0 mt-0"></div>
-						        <p class="p-1 mb-0 text-center">{{search.tileText}}</p>
-						      </div>
-						    </a>
-						    <!--/ back content -->
-						  </div>
-						</div>
+						<ng-container *ngIf="search.tileImage">
+							<div class="flip-container">
+								<div class="flipper">
+									<!-- front content -->
+									<div class="front">
+										<!--Card image-->
+										<div class="view waves-light" mdbRippleRadius>
+												<img src="{{search.tileImage}}" class="img-fluid" alt="{{search.title}}">
+										</div>
+										<!--Title-->
+										<h4 class="card-title">{{search.title}}</h4>
+									</div>
+									<!--/ front content -->
+									<!-- back content -->
+									<a routerLink="/{{search.type}}/{{search.slug}}">
+										<div class="back">
+											<h4 class="text-center">{{search.title}}</h4>
+											<div class="divider dropdown-divider pt-0 mt-0"></div>
+											<p class="p-1 mb-0 text-center">{{search.tileText}}</p>
+										</div>
+									</a>
+									<!--/ back content -->
+								</div>
+							</div>
+						</ng-container>
 						<!-- /Flip Card -->
 					</div>
 					<!-- /ServiceItem -->

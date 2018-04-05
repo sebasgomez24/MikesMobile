@@ -17,7 +17,7 @@
 		        <!--Grid column-->
 		        <div class="col-lg-6 col-xl-6 pr-lg-5 pb-5">
 					<h2 class="pb-3 text-center animated pulse infinite orange-text" (click)="basicModal.show()">Get started today!</h2>
-					<iframe *ngIf="service.video; else tileImg" width="100%" height="300px" [src]="getEmbedUrl(service.video)" frameborder="0" allowfullscreen></iframe>
+					<iframe *ngIf="service.video; else tileImg" width="100%" height="400px" src="https://www.youtube.com/embed/WtENSdKQL5k" frameborder="0" allow="autoplay; encrypted-media" allowfullscreen></iframe>
 					<ng-template #tileImg>
 						<img src="{{service.tileImage}}" alt="project image" class="img-fluid z-depth-2 main-image">
 					</ng-template>
@@ -82,13 +82,22 @@
 						</div>
 					</div>
 
-					<h4 class="p-2" *ngIf="service.slug === 'pet-door' && service.images">Pet Door Frames</h4>
-					<div class="row" *ngIf="service.slug === 'pet-door' && service.images">
-						<div class="col-3" *ngFor="let img of petImages | keys">
-							<img src="{{img.value}}" class="img-fluid" alt="{{img.value}}"/>
-							<p class="text-center">{{img.key}}</p>
+					<ng-container *ngIf="service.slug === 'pet-door'">
+						<h4 class="p-2">Pet Measuring Guide</h4>
+						<div class="row">
+							<div class="col-12">
+								<img src="/assets/images/screens/pet-door/pet-sizes.jpg" class="img-fluid" alt="Pet Door Sizes Measuring Guide"/>
+							</div>
 						</div>
-					</div>
+						<br/>
+						<h4 class="p-2">Pet Door Frames</h4>
+						<div class="row">
+							<div class="col-3" *ngFor="let img of petImages | keys">
+								<img src="{{img.value}}" class="img-fluid" alt="{{img.value}}"/>
+								<p class="text-center">{{img.key}}</p>
+							</div>
+						</div>
+					</ng-container>				
 					
 					<h4 class="p-2" *ngIf="service.extraImages">Informational Graphics</h4>
 					<div class="row" *ngIf="service.extraImages">
@@ -108,10 +117,8 @@
 				<!--Section heading-->
 				<h2 class="text-center pt-3">View some of our recent installs</h2>
 				<hr/>
-				<!--Grid row-->
-				<div class="row features-small pt-4">
-					<ngx-gallery [options]="galleryOptions" [images]="recent_install_images"></ngx-gallery>
-				</div>
+				<!--Grid row-->				
+				<ngx-gallery [options]="gallery_options" [images]="gallery_images"></ngx-gallery>				
 			</section>
 		</div>
 		

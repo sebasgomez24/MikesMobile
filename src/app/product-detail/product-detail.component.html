@@ -6,7 +6,7 @@
     	<!-- Breadcrumb Navigation -->
 		<nav class="breadcrumb mt-md-4 mt-sm-0">
 			<a class="breadcrumb-item" routerLink="/">Home</a>
-			<a class="breadcrumb-item" href="grid/{{product.category}}">{{product.category}}</a>
+			<a class="breadcrumb-item" href="grid/{{product.slug}}">{{product.category}}</a>
 			<span class="breadcrumb-item active">{{product.title}}</span>
 		</nav>
     	<!-- /Breadcrumb Navigation -->
@@ -14,7 +14,60 @@
 		<div class="row">
 			<!-- GALLERY SECTION -->
 			<div class="col-12 col-md-7 pb-3">
-				<ngx-gallery [options]="galleryOptions" [images]="galleryImages"></ngx-gallery>
+				<!-- Gallery for sliding security door -->
+				<ng-container *ngIf="product.slug === 'sliding-security-doors'; else normalGallery">
+					<div class="col-12">					
+						
+						<!-- Nav tabs -->
+						<mdb-tabset #staticTabs [buttonClass]="'nav-tabs tabs-2 blue'" [contentClass]="''">
+							<!--Panel 1-->
+							<mdb-tab heading="Single Amplimesh">
+								<div class="row"> 
+									<div class="col-12">
+										<img src="/assets/images/security/sliding/single-amplimesh.jpg" class="img-fluid"/>
+									</div> 
+								</div>
+							</mdb-tab>
+							<!--Panel 2-->
+							<mdb-tab heading="Double Amplimesh">
+								<div class="row"> 
+									<div class="col-12">
+										<img src="/assets/images/security/sliding/double-amplimesh.jpg" />
+									</div> 
+								</div>
+							</mdb-tab>
+						</mdb-tabset>
+													
+					</div>
+
+					<div class="col-12">
+						<!-- Nav tabs -->
+						<mdb-tabset #staticTabs [buttonClass]="'nav-tabs tabs-2 blue'" [contentClass]="''">
+								<!--Panel 1-->
+								<mdb-tab heading="Single Stainless Steel Mesh">
+									<div class="row"> 
+										<div class="col-12">
+											<img src="/assets/images/security/sliding/single-stainless-mesh.jpg" />
+										</div> 
+									</div>
+								</mdb-tab>
+								<!--Panel 2-->
+								<mdb-tab heading="Double Stainless Steel Mesh">
+									<div class="row"> 
+										<div class="col-12">
+											<img src="/assets/images/security/sliding/double-stainless-mesh.jpg" />
+										</div> 
+									</div>
+								</mdb-tab>
+							</mdb-tabset>
+
+					</div>
+
+				</ng-container>
+				<!-- Normal Gallery for most Product Pages -->
+				<ng-template #normalGallery>
+					<ngx-gallery [options]="gallery_options" [images]="gallery_images"></ngx-gallery>
+				</ng-template>
 			</div>
 			<!-- /GALLERY SECTION -->
 
@@ -61,8 +114,10 @@
 								</div>								
 							</ng-container>
 						</div>
-						<p *ngIf="colors === 'swingingDoorColors' || colors === 'securityDoorColors'" class="orange-text" id="more-colors" (click)="viewMoreColors()"> Click to view more colors &nbsp; <i class="fa fa-angle-down" aria-hidden="true"></i></p>
-						<p *ngIf="colors === 'swingingDoorColors' || colors === 'securityDoorColors'" id="less-colors" (click)="viewLessColors()">Less Colors &nbsp; <i class="fa fa-angle-up" aria-hidden="true"></i></p>
+						<ng-container *ngFor="let colors of product.colorSet">
+							<p *ngIf="colors === 'swingingDoorColors' || colors === 'securityDoorColors'" class="orange-text" id="more-colors" (click)="viewMoreColors()"> Click to view more colors &nbsp; <i class="fa fa-angle-down" aria-hidden="true"></i></p>
+							<p *ngIf="colors === 'swingingDoorColors' || colors === 'securityDoorColors'" id="less-colors" (click)="viewLessColors()">Less Colors &nbsp; <i class="fa fa-angle-up" aria-hidden="true"></i></p>
+						</ng-container>
 					</div>
 				</div>
 			</div>
@@ -102,8 +157,15 @@
 		</div>
 	</div>
 
-	<div class="container" *ngIf="product.recentInstallImages || product.extraImages">
-		<ngx-gallery [options]="galleryOptions" [images]="recent_install_images"></ngx-gallery>
+	<div class="container" *ngIf="product.recentInstallImages">
+		<!--Section: Features v.2-->
+		<section class="section feature-box">
+			<!--Section heading-->
+			<h2 class="text-center pt-3">View some of our recent installs</h2>
+			<hr/>
+			<!--Grid row-->
+			<ngx-gallery [options]="recent_install_images_options" [images]="recent_install_images"></ngx-gallery>
+		</section>
 	</div>
 
 

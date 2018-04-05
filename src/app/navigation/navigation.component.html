@@ -18,7 +18,7 @@
                             <div class="container">
                                 <div class="row">
                                     <div class="col">
-                                        <a class="dropdown-item waves-dark pb-0 mb-0" mdbRippleRadius href="#"><h5>SCREENS</h5></a>
+                                        <a class="dropdown-item waves-dark pb-0 mb-0" mdbRippleRadius [routerLink]="['/about/door-and-window-screens']"><h5>SCREENS</h5></a>
                                         <div class="divider dropdown-divider pt-0 mt-0"></div>
 
                                         <h6 class="pt-1"><strong>DOORS</strong></h6>
@@ -33,7 +33,7 @@
                                         <a class="dropdown-item waves-dark blue-text" mdbRippleRadius [routerLink]="">Screen Hardware</a>
                                     </div>
                                     <div class="col">
-                                        <a class="dropdown-item waves-dark pb-0 mb-0" mdbRippleRadius href="#chimney"><h5>CHIMNEY</h5></a>
+                                        <a class="dropdown-item waves-dark pb-0 mb-0" mdbRippleRadius [routerLink]="['/about/chimney-services']"><h5>CHIMNEY</h5></a>
                                         <div class="divider dropdown-divider pt-0 mt-0"></div>
                                         <a class="dropdown-item waves-dark blue-text" mdbRippleRadius [routerLink]="['/services/inspections']">Inspections</a>
                                         <a class="dropdown-item waves-dark blue-text" mdbRippleRadius [routerLink]="['/services/cleaning']">Cleanings</a>
@@ -41,10 +41,10 @@
                                         <a class="dropdown-item waves-dark blue-text" mdbRippleRadius [routerLink]="['/grid/accessories']">Accessories</a>
                                         <a class="dropdown-item waves-dark blue-text" mdbRippleRadius [routerLink]="['/grid/masonry-services']">Masonry Services</a>
                                         <a class="dropdown-item waves-dark blue-text" mdbRippleRadius [routerLink]="['/services/dryer-vent-cleaning']">Dryer Vent Cleaning</a>
-                                        <!-- <a class="dropdown-item waves-dark blue-text" mdbRippleRadius [routerLink]="['/grid/resources']">Resources</a> -->
+                                        <a class="dropdown-item waves-dark blue-text" mdbRippleRadius [routerLink]="['/grid/resources']">Resources</a>
                                     </div>
                                     <div class="col">
-                                        <a class="dropdown-item waves-dark pb-0 mb-0" mdbRippleRadius href="#"><h5>SECURITY</h5></a>
+                                        <a class="dropdown-item waves-dark pb-0 mb-0" mdbRippleRadius [routerLink]="['/about/security-doors-and-windows']"><h5>SECURITY</h5></a>
                                         <div class="divider dropdown-divider pt-0 mt-0"></div>
 
                                         <h6 class="pt-1">DOORS</h6>
@@ -62,7 +62,7 @@
 
                                     </div>
                                     <div class="col">
-                                        <a class="dropdown-item waves-dark pb-0 mb-0" mdbRippleRadius href="#"><h5>AWNINGS</h5></a>
+                                        <a class="dropdown-item waves-dark pb-0 mb-0" mdbRippleRadius [routerLink]="['/about/awnings']"><h5>AWNINGS</h5></a>
                                         <div class="divider dropdown-divider pt-0 mt-0"></div>
                                         <a class="dropdown-item waves-dark blue-text" mdbRippleRadius [routerLink]="['/services/retractable-patio-awning']">Retractable Patio Awnings</a>
                                         <a class="dropdown-item waves-dark blue-text" mdbRippleRadius [routerLink]="['/services/drop-roll-sunscreens']">Drop Roll Sunscreens</a>
@@ -75,12 +75,12 @@
                 </div>
 
                 <li class="nav-item px-1">
-                    <a class="nav-link waves-dark blue-text nav-text"  [routerLink]="['/']" href="#aboutMM" mdbRippleRadius>
+                    <a class="nav-link waves-dark blue-text nav-text"  [routerLink]="['/about']" href="#aboutMM" mdbRippleRadius>
                         <i class="fa fa-users pr-3" id="desktop-disappear" aria-hidden="true"></i>about<i class="fa fa-angle-right float-right mt-1" id="desktop-disappear" aria-hidden="true"></i>
                     </a>
                 </li>
                 <li class="nav-item px-1">
-                    <a class="nav-link waves-dark blue-text nav-text"  [routerLink]="['/']" href="#contact" mdbRippleRadius>
+                    <a class="nav-link waves-dark blue-text nav-text" [routerLink]="['/']" pageScroll href="#contact" mdbRippleRadius>
                         <i class="fa fa-envelope pr-3" id="desktop-disappear" aria-hidden="true"></i>contact<i class="fa fa-angle-right float-right mt-1" id="desktop-disappear" aria-hidden="true"></i>
                     </a>
                 </li>

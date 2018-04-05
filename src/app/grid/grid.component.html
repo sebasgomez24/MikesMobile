@@ -215,6 +215,63 @@
 		
 		<!-- Switch to next Grid -->
         <ng-container *ngSwitchCase="'accessories'">
+			<div class="container">
+				<!--Projects section v.1-->
+				<section class="section pb-3">
+					<!--Section heading-->
+					<h1 class="section-heading h1 pt-4">{{service.title}}</h1>
+					<!--Section description-->
+					<p class="section-description">{{service.description}}</p>
+					<!--Grid row-->
+					<div class="row text-center">
+						<!--Grid column-->
+						<ng-container *ngFor="let item of serviceList">
+							<ng-container *ngIf="item.category === 'Accessories'">
+								<!-- ServiceItem -->
+								<div class="col-6 col-md-4 col-lg-3 my-3">
+
+									<!-- Flip Card -->
+									<div class="flip-container">
+										<div class="flipper">
+											<!-- front content -->
+											<div class="front">
+											<!--Card image-->
+											<div class="view waves-light" mdbRippleRadius>
+												<img src="{{item.tileImage}}" class="img-fluid" alt="{{item.title}}" id="servicesImages">
+											</div>
+											<!--Title-->
+											<h5 class="card-title px-4 py-2">{{item.title}}</h5>
+											</div>
+											<!--/ front content -->
+	
+											<!-- back content -->
+											<a routerLink="/{{item.type}}/{{item.slug}}">
+											<div class="back">
+												<h4 class="text-center">{{item.title}}</h4>
+												<div class="divider dropdown-divider pt-0 mt-0"></div>
+												<p class="p-1 mb-0 text-center">{{item.tileText}}</p>
+											</div>
+											</a>
+											<!--/ back content -->
+										</div>
+									</div>
+									<!-- /Flip Card -->
+
+								</div>
+								<!-- /ServiceItem -->
+							</ng-container>
+						</ng-container>
+						<!--Grid column-->
+					</div>
+					<!--Grid row-->
+				</section>
+				<!--/Projects section v.1-->
+			</div>
+		</ng-container>
+		<!-- Switch to next Grid -->
+
+		<!-- Switch to next Grid -->
+        <ng-container *ngSwitchCase="'resources'">
 				<div class="container">
 					<!--Projects section v.1-->
 					<section class="section pb-3">
@@ -226,7 +283,7 @@
 						<div class="row text-center">
 							<!--Grid column-->
 							<ng-container *ngFor="let item of serviceList">
-								<ng-container *ngIf="item.category === 'Accessories'">
+								<ng-container *ngIf="item.category === 'Resources'">
 									<!-- ServiceItem -->
 									<div class="col-6 col-md-4 col-lg-3 my-3">
 	
@@ -245,12 +302,12 @@
 												<!--/ front content -->
 		
 												<!-- back content -->
-												<a routerLink="/{{item.type}}/{{item.slug}}">
-												<div class="back">
-													<h4 class="text-center">{{item.title}}</h4>
-													<div class="divider dropdown-divider pt-0 mt-0"></div>
-													<p class="p-1 mb-0 text-center">{{item.tileText}}</p>
-												</div>
+												<a routerLink="">
+													<div class="back">
+														<h4 class="text-center">{{item.title}}</h4>
+														<div class="divider dropdown-divider pt-0 mt-0"></div>
+														<p class="p-1 mb-0 text-center">{{item.tileText}}</p>
+													</div>
 												</a>
 												<!--/ back content -->
 											</div>

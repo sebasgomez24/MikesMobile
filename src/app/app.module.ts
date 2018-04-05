@@ -28,6 +28,7 @@ import { ServiceListComponent } from './service-list/service-list.component';
 import { ServiceDetailComponent } from './service-detail/service-detail.component';
 
 import { KeysPipe } from './utility/keys.pipe';
+import { LandingPageComponent } from './landing-page/landing-page.component';
 
 
 @NgModule({
@@ -51,6 +52,7 @@ import { KeysPipe } from './utility/keys.pipe';
     ServiceDetailComponent,
     // myPipes
     KeysPipe,
+    LandingPageComponent,
   ],
   imports: [
     AppRoutingModule,

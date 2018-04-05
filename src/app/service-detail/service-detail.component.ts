@@ -3,6 +3,7 @@ import { ActivatedRoute } from '@angular/router';
 import { ServiceItem } from '../services/service';
 import { ServicesService } from '../services/service.service';
 import { DomSanitizer } from '@angular/platform-browser';
+import { NgxGalleryOptions, NgxGalleryImage, NgxGalleryAnimation, NgxGalleryImageSize } from 'ngx-gallery';
 
 @Component({
   selector: 'app-service-detail',
@@ -68,57 +69,90 @@ export class ServiceDetailComponent implements OnInit, OnDestroy {
   service:ServiceItem
   
   colorSquares = ['stdColors', 'colorSetx4', 'colorSetx6', 'swingingDoorColors', 'securityDoorColors']
-  recent_install_images=[]
   extra_images=[]
-  info_graphics=[]  
+  info_graphics=[]
   optionsSelect = []
 
   petImages = {}
   
+  gallery_options: NgxGalleryOptions[];
+  gallery_images: NgxGalleryImage[];
+
   constructor(private route: ActivatedRoute, private _service:ServicesService, private sanitizer:DomSanitizer) { }
 
   ngOnInit() {
-      this.optionsSelect = [
-            { value: '1', label: 'Window Screen Repair' },
-            { value: '2', label: 'Solar Screens' },
-            { value: '3', label: 'Sliding Screen Door' },
-            { value: '4', label: 'Swinging Screen Door' },
-            { value: '5', label: 'Retractable Screen Door' },
-            { value: '6', label: 'Screen Doors' },
-            { value: '7', label: 'Pet Doors' },
-            { value: '8', label: 'Chimney Inspection' },
-            { value: '9', label: 'Chimney Cleaning' },
-            { value: '10', label: 'Chimney Repair' },
-            { value: '11', label: 'Chimney Accessories' },
-            { value: '12', label: 'Chimney Resources' },
-            { value: '13', label: 'Masonry Services' },
-            { value: '14', label: 'Steel Security Door' },
-            { value: '15', label: 'Viewguard Security Door' },
-            { value: '16', label: 'TRU-View Security Door' },
-            { value: '17', label: 'TRU-Frame Security Door' },
-            { value: '18', label: 'Sliding Security Doors' },
-            { value: '19', label: 'CRL Guarda™ Quick Escape Window Screen' },
-            { value: '20', label: 'CRL Guarda™ Fixed Window Screen' },
-            { value: '21', label: 'CRL Guarda™ Casement Window Screen' },
-            { value: '22', label: 'Retractable Patio Awnings' },
-            { value: '23', label: 'Drop Roll Sunscreens' },
-            { value: '24', label: 'Door and Window Awnings' },
-            { value: '25', label: 'Dryer Vent Cleaning' }
-        ];
-
     this.routeSub = this.route.params.subscribe(params => {
       this.slug = params['slug']
       this.req = this._service.list().subscribe(data => {
         data.filter(item => {
           if(item.slug == this.slug){
               this.service = item as ServiceItem;
-              this.recent_install_images = this.service.recentInstallImages;
               this.extra_images = this.service.extraImages;
               this.petImages = this.service.images;
+              this.gallery_images = this.service.recentInstallImages;
           }
         })
       })
     })
+    
+    this.gallery_options = [
+        { 
+            width: '600px', 
+            height: '500px', 
+            thumbnailsColumns: 3, 
+            thumbnailsRows: 2, 
+            thumbnailsPercent: 40, 
+            imagePercent: 60, 
+            thumbnailMargin: 2, 
+            thumbnailsMargin: 2, 
+            imageAutoPlay: true, 
+            imageAutoPlayPauseOnHover: true, 
+            previewAutoPlay: true, 
+            previewAutoPlayPauseOnHover: true, 
+            previewCloseOnClick: true, 
+            previewCloseOnEsc: true
+        },
+        { 
+            breakpoint: 500, 
+            width: '300px', 
+            height: '300px', 
+            thumbnailsColumns: 3 
+        },
+        { 
+            breakpoint: 300, 
+            width: '100%', 
+            height: '200px', 
+            thumbnailsColumns: 2 
+        }
+    ];
+
+    this.optionsSelect = [
+        { value: '1', label: 'Window Screen Repair' },
+        { value: '2', label: 'Solar Screens' },
+        { value: '3', label: 'Sliding Screen Door' },
+        { value: '4', label: 'Swinging Screen Door' },
+        { value: '5', label: 'Retractable Screen Door' },
+        { value: '6', label: 'Screen Doors' },
+        { value: '7', label: 'Pet Doors' },
+        { value: '8', label: 'Chimney Inspection' },
+        { value: '9', label: 'Chimney Cleaning' },
+        { value: '10', label: 'Chimney Repair' },
+        { value: '11', label: 'Chimney Accessories' },
+        { value: '12', label: 'Chimney Resources' },
+        { value: '13', label: 'Masonry Services' },
+        { value: '14', label: 'Steel Security Door' },
+        { value: '15', label: 'Viewguard Security Door' },
+        { value: '16', label: 'TRU-View Security Door' },
+        { value: '17', label: 'TRU-Frame Security Door' },
+        { value: '18', label: 'Sliding Security Doors' },
+        { value: '19', label: 'CRL Guarda™ Quick Escape Window Screen' },
+        { value: '20', label: 'CRL Guarda™ Fixed Window Screen' },
+        { value: '21', label: 'CRL Guarda™ Casement Window Screen' },
+        { value: '22', label: 'Retractable Patio Awnings' },
+        { value: '23', label: 'Drop Roll Sunscreens' },
+        { value: '24', label: 'Door and Window Awnings' },
+        { value: '25', label: 'Dryer Vent Cleaning' }
+    ];
   }
 
   ngOnDestroy(){
