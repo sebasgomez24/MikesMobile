@@ -3,6 +3,17 @@
 
 nav
 	background: #ffffff !important
+	.megamenu
+		position: relative
+		z-index: 9999 !important
+		min-width: 960px
+		left: -700px
+		@include breakpoint(md)
+			left: -750px
+		h5
+			padding: 5px 0
+		a
+			padding: 5px
 
 h5
 	font-weight: 900
@@ -32,18 +43,6 @@ li.nav-item .nav-link:hover
 
 .dropdown-menu
 	border-radius: 1px
-
-.megamenu
-	position: relative
-	z-index: 9999
-	min-width: 960px
-	left: -700px
-	@include breakpoint(md)
-		left: -750px
-	h5
-		padding: 5px 0
-	a
-		padding: 5px
 
 #navBtn:hover
 	background: rgba(204,204,204,.25) !important

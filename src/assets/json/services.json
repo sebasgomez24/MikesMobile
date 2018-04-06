@@ -918,7 +918,39 @@
         "type":"grid",
         "description":"Custom Steel Security Doors can take your home to the next level of style and security. All of our Steel Security doors are made to order, ensuring a perfect fit for your home. These doors come in several different mounting styles that let us install them on any home application. (Click on a door to view more)",
         "tileImage":"/assets/images/security/custom-steel-security-door-vineyard.png",
-        "tileText":"Custom Steel Security Doors can take your home to the next level of style and security."
+        "tileText":"Custom Steel Security Doors can take your home to the next level of style and security.",
+        "recentInstallImages":[
+            {
+                "small":"assets/images/security/steel-security-doors/recent-installs/custom-steel-security-door-dakota.png",
+                "medium":"assets/images/security/steel-security-doors/recent-installs/custom-steel-security-door-dakota.png",
+                "big":"assets/images/security/steel-security-doors/recent-installs/custom-steel-security-door-dakota.png"
+            },
+            {
+                "small":"assets/images/security/steel-security-doors/recent-installs/custom-steel-security-door-artisan.png",
+                "medium":"assets/images/security/steel-security-doors/recent-installs/custom-steel-security-door-artisan.png",
+                "big":"assets/images/security/steel-security-doors/recent-installs/custom-steel-security-door-artisan.png"
+            },
+            {
+                "small":"assets/images/security/steel-security-doors/recent-installs/custom-steel-security-door-longevity.png",
+                "medium":"assets/images/security/steel-security-doors/recent-installs/custom-steel-security-door-longevity.png",
+                "big":"assets/images/security/steel-security-doors/recent-installs/custom-steel-security-door-longevity.png"
+            },
+            {
+                "small":"assets/images/security/steel-security-doors/recent-installs/custom-steel-security-door-paradise-french.png",
+                "medium":"assets/images/security/steel-security-doors/recent-installs/custom-steel-security-door-paradise-french.png",
+                "big":"assets/images/security/steel-security-doors/recent-installs/custom-steel-security-door-paradise-french.png"
+            },
+            {
+                "small":"assets/images/security/steel-security-doors/recent-installs/custom-steel-security-door-sunburst.png",
+                "medium":"assets/images/security/steel-security-doors/recent-installs/custom-steel-security-door-sunburst.png",
+                "big":"assets/images/security/steel-security-doors/recent-installs/custom-steel-security-door-sunburst.png"
+            },
+            {
+                "small":"assets/images/security/steel-security-doors/recent-installs/custom-steel-security-door-vineyard.png",
+                "medium":"assets/images/security/steel-security-doors/recent-installs/custom-steel-security-door-vineyard.png",
+                "big":"assets/images/security/steel-security-doors/recent-installs/custom-steel-security-door-vineyard.png"
+            }
+        ]
     },
     {
         "title":"Artisan",
@@ -1041,7 +1073,7 @@
         "category":"Steel Security Doors",
         "type":"products",
         "line":"Signature",
-        "tileImage":"assets/images/security/steel-security-doors/lanai/lanai.jpg",
+        "tileImage":"assets/images/security/steel-security-doors/vino-welcome/vino-welcome.jpg",
         "thumbImages":[
             {
                 "small":"assets/images/security/steel-security-doors/vino-welcome/vino-welcome.jpg",

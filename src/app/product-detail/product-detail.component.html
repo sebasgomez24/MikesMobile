@@ -10,60 +10,53 @@
 			<span class="breadcrumb-item active">{{product.title}}</span>
 		</nav>
     	<!-- /Breadcrumb Navigation -->
-
 		<div class="row">
 			<!-- GALLERY SECTION -->
 			<div class="col-12 col-md-7 pb-3">
 				<!-- Gallery for sliding security door -->
 				<ng-container *ngIf="product.slug === 'sliding-security-doors'; else normalGallery">
-					<div class="col-12">					
-						
-						<!-- Nav tabs -->
-						<mdb-tabset #staticTabs [buttonClass]="'nav-tabs tabs-2 blue'" [contentClass]="''">
-								<!--Panel 1-->
-								<mdb-tab heading="Single Stainless Steel Mesh">
-									<div class="row"> 
-										<div class="col-12">
-											<img src="/assets/images/security/sliding/single-stainless-mesh.jpg" />
-										</div> 
-									</div>
-								</mdb-tab>
-								<!--Panel 2-->
-								<mdb-tab heading="Double Stainless Steel Mesh">
-									<div class="row"> 
-										<div class="col-12">
-											<img src="/assets/images/security/sliding/double-stainless-mesh.jpg" />
-										</div> 
-									</div>
-								</mdb-tab>
-							</mdb-tabset>
-													
-					</div>
-
 					<div class="col-12">
 						<!-- Nav tabs -->
 						<mdb-tabset #staticTabs [buttonClass]="'nav-tabs tabs-2 blue'" [contentClass]="''">
-								<!--Panel 1-->
-								<mdb-tab heading="Single Amplimesh">
-									<div class="row"> 
-										<div class="col-12">
-											<img src="/assets/images/security/sliding/single-amplimesh.jpg" class="img-fluid"/>
-										</div> 
-									</div>
-								</mdb-tab>
-								<!--Panel 2-->
-								<mdb-tab heading="Double Amplimesh">
-									<div class="row"> 
-										<div class="col-12">
-											<img src="/assets/images/security/sliding/double-amplimesh.jpg" />
-										</div> 
-									</div>
-								</mdb-tab>
-							</mdb-tabset>
-						
-
+							<!--Panel 1-->
+							<mdb-tab heading="Single Stainless Steel Mesh">
+								<div class="row"> 
+									<div class="col-12">
+										<img src="/assets/images/security/sliding/single-stainless-mesh.jpg" />
+									</div> 
+								</div>
+							</mdb-tab>
+							<!--Panel 2-->
+							<mdb-tab heading="Double Stainless Steel Mesh">
+								<div class="row"> 
+									<div class="col-12">
+										<img src="/assets/images/security/sliding/double-stainless-mesh.jpg" />
+									</div> 
+								</div>
+							</mdb-tab>
+						</mdb-tabset>											
 					</div>
-
+					<div class="col-12">
+						<!-- Nav tabs -->
+						<mdb-tabset #staticTabs [buttonClass]="'nav-tabs tabs-2 blue'" [contentClass]="''">
+							<!--Panel 1-->
+							<mdb-tab heading="Single Amplimesh">
+								<div class="row"> 
+									<div class="col-12">
+										<img src="/assets/images/security/sliding/single-amplimesh.jpg" class="img-fluid"/>
+									</div> 
+								</div>
+							</mdb-tab>
+							<!--Panel 2-->
+							<mdb-tab heading="Double Amplimesh">
+								<div class="row"> 
+									<div class="col-12">
+										<img src="/assets/images/security/sliding/double-amplimesh.jpg" />
+									</div> 
+								</div>
+							</mdb-tab>
+						</mdb-tabset>
+					</div>
 				</ng-container>
 				<!-- Normal Gallery for most Product Pages -->
 				<ng-template #normalGallery>
