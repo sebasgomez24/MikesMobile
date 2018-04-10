@@ -18,17 +18,18 @@ import { ContactComponent } from './contact/contact.component';
 import { FooterComponent } from './footer/footer.component';
 import { GridComponent } from './grid/grid.component';
 import { HomeComponent } from './home/home.component';
+import { LandingPageComponent } from './landing-page/landing-page.component';
 import { NavigationComponent } from './navigation/navigation.component';
 import { PageNotFoundComponent } from './page-not-found/page-not-found.component';
 import { ProductDetailComponent } from './product-detail/product-detail.component';
 import { QuoteFormComponent } from './quote-form/quote-form.component';
 import { SearchComponent } from './search/search.component';
 import { SearchDetailComponent } from './search-detail/search-detail.component';
+import { SeoLocationLpComponent } from './seo-location-lp/seo-location-lp.component';
 import { ServiceListComponent } from './service-list/service-list.component';
 import { ServiceDetailComponent } from './service-detail/service-detail.component';
 
 import { KeysPipe } from './utility/keys.pipe';
-import { LandingPageComponent } from './landing-page/landing-page.component';
 
 
 @NgModule({
@@ -53,6 +54,7 @@ import { LandingPageComponent } from './landing-page/landing-page.component';
     // myPipes
     KeysPipe,
     LandingPageComponent,
+    SeoLocationLpComponent,
   ],
   imports: [
     AppRoutingModule,

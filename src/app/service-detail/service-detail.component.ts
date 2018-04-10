@@ -87,19 +87,21 @@ export class ServiceDetailComponent implements OnInit, OnDestroy {
   constructor(private route: ActivatedRoute, private _service:ServicesService, private sanitizer:DomSanitizer) { }
 
   ngOnInit() {
-    this.routeSub = this.route.params.subscribe(params => {
-      this.slug = params['slug']
-      this.req = this._service.list().subscribe(data => {
-        data.filter(item => {
-          if(item.slug == this.slug){
-              this.service = item as ServiceItem;
-              this.extra_images = this.service.extraImages;
-              this.petImages = this.service.images;
-              this.gallery_images = this.service.recentInstallImages;
-          }
+    this.routeSub = this.route.params.subscribe(params=>{
+        this.slug = params['slug']
+        this.req = this._service.list().subscribe(data=>{
+            data.filter(item=>{
+                if(item.slug == this.slug){
+                    this.service = item as ServiceItem;
+                    this.extra_images = this.service.extraImages;
+                    this.petImages = this.service.images;
+                    this.gallery_images = this.service.recentInstallImages;
+                }
+            })
         })
-      })
     })
+
+    
     
     this.gallery_options = [
         { 

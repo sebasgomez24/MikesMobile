@@ -12,24 +12,21 @@ export class ServicesService {
   constructor(private http:Http) { }
 
   list(){
-	  return this.http.get(endpoint)
-		  .map(response=>response.json())
-		  .catch(this.handleError)
-  }
-
+		return this.http.get(endpoint).map(response=>response.json()).catch(this.handleError)
+	}
+	
   get(slug){
 	  return this.http.get(endpoint).map(response=>{
 		  let data = response.json().filter(item=>{
-		  if (item.slug == slug){
-			  return item
-		  }
-	  })
-	  if (data.length == 1){
-		  return data[0]
-	  }
-	  return {}
-	})
-	.catch(this.handleError)
+		  	if (item.slug == slug){
+			  	return item
+		  	}
+			})
+			if (data.length == 1){
+		  	return data[0]
+	  	}
+	  	return {}
+		}).catch(this.handleError)
   }
 
   search(query){
