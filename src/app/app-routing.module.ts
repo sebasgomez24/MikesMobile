@@ -14,18 +14,18 @@ import { SearchDetailComponent } 	from './search-detail/search-detail.component'
 import { SeoLocationLpComponent } 	from './seo-location-lp/seo-location-lp.component';
 
 const appRoutes: Routes = [
-  { path: 'about', 				component: AboutComponent },
-  { path: 'blog', 				component: BlogComponent },
-  { path: 'contact', 			component: ContactComponent },
-  { path: 'services', 			component: ServiceListComponent },
-  { path: 'grid/:slug', 		component: GridComponent },
-  { path: 'about/:slug', 		component: LandingPageComponent },
-  { path: 'products/:slug', 	component: ProductDetailComponent },
-  { path: 'services/:slug', 	component: ServiceDetailComponent },
-  { path: 'sem/:slug', 			component: SeoLocationLpComponent },
-  { path: 'search', 			component: SearchDetailComponent },
-  { path: '', 					component: HomeComponent, pathMatch: 'full' },
-  { path: '**', 				component: PageNotFoundComponent }
+  { path: 'about', 				component: AboutComponent, 						data: { title: "About Mike's Mobile" }},
+  { path: 'blog', 				component: BlogComponent, 						data: { title: "" }},
+  { path: 'contact', 			component: ContactComponent,					data: { title: "Contact Mike's Mobile" }},
+//   { path: 'services', 			component: ServiceListComponent, 				data: { title: "Mike's Mobile Products and Services" }},
+  { path: 'grid/:slug', 		component: GridComponent, 						data: { title: "Mike's Mobile Screen and Chimney Service" }},
+  { path: 'about/:slug', 		component: LandingPageComponent, 				data: { title: "Mike's Mobile Screen and Chimney Service" }},
+  { path: 'products/:slug', 	component: ProductDetailComponent, 				data: { title: "Mike's Mobile Screen and Chimney Service" }},
+  { path: 'services/:slug', 	component: ServiceDetailComponent, 				data: { title: "Mike's Mobile Services" }},
+  { path: 'sem/:slug', 			component: SeoLocationLpComponent, 				data: { title: "Mike's Mobile Screen and Chimney Service" }},
+  { path: 'search', 			component: SearchDetailComponent, 				data: { title: "Search Mike's Mobile" }},
+  { path: '', 					component: HomeComponent, pathMatch: 'full', 	data: { title: "Mike's Mobile Screen and Chimney Service" }},
+  { path: '**', 				component: PageNotFoundComponent,				data: { title: "Page Not Found on Mike's Mobile" }}
 ];
 
 @NgModule({
@@ -38,4 +38,5 @@ const appRoutes: Routes = [
     RouterModule
   ]
 })
+
 export class AppRoutingModule {}

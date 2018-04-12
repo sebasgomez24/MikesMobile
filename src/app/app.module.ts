@@ -1,7 +1,7 @@
-import { BrowserModule } from '@angular/platform-browser';
+import { NgModule, NO_ERRORS_SCHEMA } from '@angular/core';
+import { BrowserModule, Title } from '@angular/platform-browser';
 import { FormsModule } from '@angular/forms';
 import { HttpModule } from '@angular/http';
-import { NgModule, NO_ERRORS_SCHEMA } from '@angular/core';
 
 import { MDBBootstrapModules } from 'ng-mdb-pro';
 import { MDBSpinningPreloader } from 'ng-mdb-pro';
@@ -67,6 +67,7 @@ import { KeysPipe } from './utility/keys.pipe';
   ],
   providers: [
       MDBSpinningPreloader,
+      Title,
   ],
   bootstrap: [AppComponent],
   schemas: [ NO_ERRORS_SCHEMA ],

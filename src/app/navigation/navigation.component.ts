@@ -1,6 +1,7 @@
 import { Component, OnInit, OnDestroy } from '@angular/core';
 import { ServiceItem } from '../services/service';
 import { ServicesService } from '../services/service.service';
+import { Title }     									from '@angular/platform-browser';
 
 @Component({
   selector: 'app-navigation',
@@ -17,7 +18,7 @@ export class NavigationComponent implements OnInit {
   private req:any
   serviceList:[ServiceItem]
 
-  constructor(private _service:ServicesService) { }
+  constructor(private _service:ServicesService, private titleService:Title) { }
 
   ngOnInit() {
       this.req = this._service.list().subscribe(data=>{
@@ -41,5 +42,9 @@ export class NavigationComponent implements OnInit {
     var dropdown = document.getElementById('dropdown');
     dropdown.classList.remove('show');
   }
+
+  public setTitle( newTitle: string) {
+		this.titleService.setTitle( newTitle );
+	}
 
 }
