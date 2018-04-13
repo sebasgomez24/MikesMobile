@@ -61,7 +61,8 @@
                 "medium":"/assets/images/screens/retractable/7.jpg",
                 "big":"/assets/images/screens/retractable/7.jpg"
             }
-        ]
+        ],
+        "colorSet":["colorSetx6"]
     },
     {
         "title":"Sliding Screen Door",
@@ -973,7 +974,7 @@
         "options":"<li>Double Door Option</li><li>Hinge Expader or Pre Hung Frame</li><li>Frame Colors Available: Adobe, Almond, Bronze, Weathered Brown, and White</li><li>Solar Screen</li><li>9in. Kick Plate</li>",
         "relatedProducts":"<li>Sliding Screen Doors</li><li>Rollaway Screen Doors</li><li>Window Screens</li><li>Security Doors</li><li>Swinging Screen Doors</li>",
         "warranty":"Warranty covers workmanship of door. This includes hardware not working properly, corners coming apart, handle not functioning, and any other workmanship issues not listed here that are determined to be the fault of the manufacturer. Not covered under the warranty is any damage to the screen (Solar Screen has a warranty, Bugscreen does not.) or intentional damage including tampering with the door, damaged caused by brute, or intentional, force, damage from a pet or any other intentional act not deemed a workmanship flaw.",
-        "colorSet":["securityDoorColors"]
+        "colorSet":["slidingSecurityDoorColors"]
     },
     {
         "title":"Garden",
@@ -996,7 +997,7 @@
         "options":"<li>Double Door Option</li><li>Hinge Expader or Pre Hung Frame</li><li>Frame Colors Available: Adobe, Almond, Bronze, Weathered Brown, and White</li><li>Solar Screen</li><li>9in. Kick Plate</li>",
         "relatedProducts":"<li>Sliding Screen Doors</li><li>Rollaway Screen Doors</li><li>Window Screens</li><li>Security Doors</li><li>Swinging Screen Doors</li>",
         "warranty":"Warranty covers workmanship of door. This includes hardware not working properly, corners coming apart, handle not functioning, and any other workmanship issues not listed here that are determined to be the fault of the manufacturer. Not covered under the warranty is any damage to the screen (Solar Screen has a warranty, Bugscreen does not.) or intentional damage including tampering with the door, damaged caused by brute, or intentional, force, damage from a pet or any other intentional act not deemed a workmanship flaw.",
-        "colorSet":["securityDoorColors"]
+        "colorSet":["slidingSecurityDoorColors"]
     },
     {
         "title":"Artisan View",
@@ -1019,7 +1020,7 @@
         "options":"<li>Double Door Option</li><li>Hinge Expader or Pre Hung Frame</li><li>Frame Colors Available: Adobe, Almond, Bronze, Weathered Brown, and White</li><li>Solar Screen</li><li>9in. Kick Plate</li>",
         "relatedProducts":"<li>Sliding Screen Doors</li><li>Rollaway Screen Doors</li><li>Window Screens</li><li>Security Doors</li><li>Swinging Screen Doors</li>",
         "warranty":"Warranty covers workmanship of door. This includes hardware not working properly, corners coming apart, handle not functioning, and any other workmanship issues not listed here that are determined to be the fault of the manufacturer. Not covered under the warranty is any damage to the screen (Solar Screen has a warranty, Bugscreen does not.) or intentional damage including tampering with the door, damaged caused by brute, or intentional, force, damage from a pet or any other intentional act not deemed a workmanship flaw.",
-        "colorSet":["securityDoorColors"]
+        "colorSet":["slidingSecurityDoorColors"]
     },
     {
         "title":"Vino",
@@ -1042,7 +1043,7 @@
         "options":"<li>Double Door Option</li><li>Hinge Expader or Pre Hung Frame</li><li>Frame Colors Available: Adobe, Almond, Bronze, Weathered Brown, and White</li><li>Solar Screen</li><li>9in. Kick Plate</li>",
         "relatedProducts":"<li>Sliding Screen Doors</li><li>Rollaway Screen Doors</li><li>Window Screens</li><li>Security Doors</li><li>Swinging Screen Doors</li>",
         "warranty":"Warranty covers workmanship of door. This includes hardware not working properly, corners coming apart, handle not functioning, and any other workmanship issues not listed here that are determined to be the fault of the manufacturer. Not covered under the warranty is any damage to the screen (Solar Screen has a warranty, Bugscreen does not.) or intentional damage including tampering with the door, damaged caused by brute, or intentional, force, damage from a pet or any other intentional act not deemed a workmanship flaw.",
-        "colorSet":["securityDoorColors"]
+        "colorSet":["slidingSecurityDoorColors"]
     },
     {
         "title":"Lanai",
@@ -1065,7 +1066,7 @@
         "options":"<li>Double Door Option</li><li>Hinge Expader or Pre Hung Frame</li><li>Frame Colors Available: Adobe, Almond, Bronze, Weathered Brown, and White</li><li>Solar Screen</li><li>9in. Kick Plate</li>",
         "relatedProducts":"<li>Sliding Screen Doors</li><li>Rollaway Screen Doors</li><li>Window Screens</li><li>Security Doors</li><li>Swinging Screen Doors</li>",
         "warranty":"Warranty covers workmanship of door. This includes hardware not working properly, corners coming apart, handle not functioning, and any other workmanship issues not listed here that are determined to be the fault of the manufacturer. Not covered under the warranty is any damage to the screen (Solar Screen has a warranty, Bugscreen does not.) or intentional damage including tampering with the door, damaged caused by brute, or intentional, force, damage from a pet or any other intentional act not deemed a workmanship flaw.",
-        "colorSet":["securityDoorColors"]
+        "colorSet":["slidingSecurityDoorColors"]
     },
     {
         "title":"Vino Welcome",
@@ -1088,7 +1089,7 @@
         "options":"<li>Double Door Option</li><li>Hinge Expader or Pre Hung Frame</li><li>Frame Colors Available: Adobe, Almond, Bronze, Weathered Brown, and White</li><li>Solar Screen</li><li>9in. Kick Plate</li>",
         "relatedProducts":"<li>Sliding Screen Doors</li><li>Rollaway Screen Doors</li><li>Window Screens</li><li>Security Doors</li><li>Swinging Screen Doors</li>",
         "warranty":"Warranty covers workmanship of door. This includes hardware not working properly, corners coming apart, handle not functioning, and any other workmanship issues not listed here that are determined to be the fault of the manufacturer. Not covered under the warranty is any damage to the screen (Solar Screen has a warranty, Bugscreen does not.) or intentional damage including tampering with the door, damaged caused by brute, or intentional, force, damage from a pet or any other intentional act not deemed a workmanship flaw.",
-        "colorSet":["securityDoorColors"]
+        "colorSet":["slidingSecurityDoorColors"]
     },
     {
         "title":"Park Avenue",
@@ -1111,7 +1112,7 @@
         "options":"<li>Double Door Option</li><li>Hinge Expader or Pre Hung Frame</li><li>Frame Colors Available: Adobe, Almond, Bronze, Weathered Brown, and White</li><li>Solar Screen</li><li>9in. Kick Plate</li>",
         "relatedProducts":"<li>Sliding Screen Doors</li><li>Rollaway Screen Doors</li><li>Window Screens</li><li>Security Doors</li><li>Swinging Screen Doors</li>",
         "warranty":"Warranty covers workmanship of door. This includes hardware not working properly, corners coming apart, handle not functioning, and any other workmanship issues not listed here that are determined to be the fault of the manufacturer. Not covered under the warranty is any damage to the screen (Solar Screen has a warranty, Bugscreen does not.) or intentional damage including tampering with the door, damaged caused by brute, or intentional, force, damage from a pet or any other intentional act not deemed a workmanship flaw.",
-        "colorSet":["securityDoorColors"]
+        "colorSet":["slidingSecurityDoorColors"]
     },
     {
         "title":"Sunrise",
@@ -1134,7 +1135,7 @@
         "options":"<li>Double Door Option</li><li>Hinge Expader or Pre Hung Frame</li><li>Frame Colors Available: Adobe, Almond, Bronze, Weathered Brown, and White</li><li>Solar Screen</li><li>9in. Kick Plate</li>",
         "relatedProducts":"<li>Sliding Screen Doors</li><li>Rollaway Screen Doors</li><li>Window Screens</li><li>Security Doors</li><li>Swinging Screen Doors</li>",
         "warranty":"Warranty covers workmanship of door. This includes hardware not working properly, corners coming apart, handle not functioning, and any other workmanship issues not listed here that are determined to be the fault of the manufacturer. Not covered under the warranty is any damage to the screen (Solar Screen has a warranty, Bugscreen does not.) or intentional damage including tampering with the door, damaged caused by brute, or intentional, force, damage from a pet or any other intentional act not deemed a workmanship flaw.",
-        "colorSet":["securityDoorColors"]
+        "colorSet":["slidingSecurityDoorColors"]
     },
     {
         "title":"Arbor",
@@ -1157,7 +1158,7 @@
         "options":"<li>Double Door Option</li><li>Hinge Expader or Pre Hung Frame</li><li>Frame Colors Available: Adobe, Almond, Bronze, Weathered Brown, and White</li><li>Solar Screen</li><li>9in. Kick Plate</li>",
         "relatedProducts":"<li>Sliding Screen Doors</li><li>Rollaway Screen Doors</li><li>Window Screens</li><li>Security Doors</li><li>Swinging Screen Doors</li>",
         "warranty":"Warranty covers workmanship of door. This includes hardware not working properly, corners coming apart, handle not functioning, and any other workmanship issues not listed here that are determined to be the fault of the manufacturer. Not covered under the warranty is any damage to the screen (Solar Screen has a warranty, Bugscreen does not.) or intentional damage including tampering with the door, damaged caused by brute, or intentional, force, damage from a pet or any other intentional act not deemed a workmanship flaw.",
-        "colorSet":["securityDoorColors"]
+        "colorSet":["slidingSecurityDoorColors"]
     },
     {
         "title":"Zen",
@@ -1180,7 +1181,7 @@
         "options":"<li>Double Door Option</li><li>Hinge Expader or Pre Hung Frame</li><li>Frame Colors Available: Adobe, Almond, Bronze, Weathered Brown, and White</li><li>Solar Screen</li><li>9in. Kick Plate</li>",
         "relatedProducts":"<li>Sliding Screen Doors</li><li>Rollaway Screen Doors</li><li>Window Screens</li><li>Security Doors</li><li>Swinging Screen Doors</li>",
         "warranty":"Warranty covers workmanship of door. This includes hardware not working properly, corners coming apart, handle not functioning, and any other workmanship issues not listed here that are determined to be the fault of the manufacturer. Not covered under the warranty is any damage to the screen (Solar Screen has a warranty, Bugscreen does not.) or intentional damage including tampering with the door, damaged caused by brute, or intentional, force, damage from a pet or any other intentional act not deemed a workmanship flaw.",
-        "colorSet":["securityDoorColors"]
+        "colorSet":["slidingSecurityDoorColors"]
     },
     {
         "title":"Palladio",
@@ -1203,7 +1204,7 @@
         "options":"<li>Double Door Option</li><li>Hinge Expader or Pre Hung Frame</li><li>Frame Colors Available: Adobe, Almond, Bronze, Weathered Brown, and White</li><li>Solar Screen</li><li>9in. Kick Plate</li>",
         "relatedProducts":"<li>Sliding Screen Doors</li><li>Rollaway Screen Doors</li><li>Window Screens</li><li>Security Doors</li><li>Swinging Screen Doors</li>",
         "warranty":"Warranty covers workmanship of door. This includes hardware not working properly, corners coming apart, handle not functioning, and any other workmanship issues not listed here that are determined to be the fault of the manufacturer. Not covered under the warranty is any damage to the screen (Solar Screen has a warranty, Bugscreen does not.) or intentional damage including tampering with the door, damaged caused by brute, or intentional, force, damage from a pet or any other intentional act not deemed a workmanship flaw.",
-        "colorSet":["securityDoorColors"]
+        "colorSet":["slidingSecurityDoorColors"]
     },
     {
         "title":"Estate",
@@ -1226,7 +1227,7 @@
         "options":"<li>Double Door Option</li><li>Hinge Expader or Pre Hung Frame</li><li>Frame Colors Available: Adobe, Almond, Bronze, Weathered Brown, and White</li><li>Solar Screen</li><li>9in. Kick Plate</li>",
         "relatedProducts":"<li>Sliding Screen Doors</li><li>Rollaway Screen Doors</li><li>Window Screens</li><li>Security Doors</li><li>Swinging Screen Doors</li>",
         "warranty":"Warranty covers workmanship of door. This includes hardware not working properly, corners coming apart, handle not functioning, and any other workmanship issues not listed here that are determined to be the fault of the manufacturer. Not covered under the warranty is any damage to the screen (Solar Screen has a warranty, Bugscreen does not.) or intentional damage including tampering with the door, damaged caused by brute, or intentional, force, damage from a pet or any other intentional act not deemed a workmanship flaw.",
-        "colorSet":["securityDoorColors"]
+        "colorSet":["slidingSecurityDoorColors"]
     },
     {
         "title":"Plantation",
@@ -1249,7 +1250,7 @@
         "options":"<li>Double Door Option</li><li>Hinge Expader or Pre Hung Frame</li><li>Frame Colors Available: Adobe, Almond, Bronze, Weathered Brown, and White</li><li>Solar Screen</li><li>9in. Kick Plate</li>",
         "relatedProducts":"<li>Sliding Screen Doors</li><li>Rollaway Screen Doors</li><li>Window Screens</li><li>Security Doors</li><li>Swinging Screen Doors</li>",
         "warranty":"Warranty covers workmanship of door. This includes hardware not working properly, corners coming apart, handle not functioning, and any other workmanship issues not listed here that are determined to be the fault of the manufacturer. Not covered under the warranty is any damage to the screen (Solar Screen has a warranty, Bugscreen does not.) or intentional damage including tampering with the door, damaged caused by brute, or intentional, force, damage from a pet or any other intentional act not deemed a workmanship flaw.",
-        "colorSet":["securityDoorColors"]
+        "colorSet":["slidingSecurityDoorColors"]
     },
     {
         "title":"Villa",
@@ -1272,7 +1273,7 @@
         "options":"<li>Double Door Option</li><li>Hinge Expader or Pre Hung Frame</li><li>Frame Colors Available: Adobe, Almond, Bronze, Weathered Brown, and White</li><li>Solar Screen</li><li>9in. Kick Plate</li>",
         "relatedProducts":"<li>Sliding Screen Doors</li><li>Rollaway Screen Doors</li><li>Window Screens</li><li>Security Doors</li><li>Swinging Screen Doors</li>",
         "warranty":"Warranty covers workmanship of door. This includes hardware not working properly, corners coming apart, handle not functioning, and any other workmanship issues not listed here that are determined to be the fault of the manufacturer. Not covered under the warranty is any damage to the screen (Solar Screen has a warranty, Bugscreen does not.) or intentional damage including tampering with the door, damaged caused by brute, or intentional, force, damage from a pet or any other intentional act not deemed a workmanship flaw.",
-        "colorSet":["securityDoorColors"]
+        "colorSet":["slidingSecurityDoorColors"]
     },
     {
         "title":"Santa Fe",
@@ -1295,7 +1296,7 @@
         "options":"<li>Double Door Option</li><li>Hinge Expader or Pre Hung Frame</li><li>Frame Colors Available: Adobe, Almond, Bronze, Weathered Brown, and White</li><li>Solar Screen</li><li>9in. Kick Plate</li>",
         "relatedProducts":"<li>Sliding Screen Doors</li><li>Rollaway Screen Doors</li><li>Window Screens</li><li>Security Doors</li><li>Swinging Screen Doors</li>",
         "warranty":"Warranty covers workmanship of door. This includes hardware not working properly, corners coming apart, handle not functioning, and any other workmanship issues not listed here that are determined to be the fault of the manufacturer. Not covered under the warranty is any damage to the screen (Solar Screen has a warranty, Bugscreen does not.) or intentional damage including tampering with the door, damaged caused by brute, or intentional, force, damage from a pet or any other intentional act not deemed a workmanship flaw.",
-        "colorSet":["securityDoorColors"]
+        "colorSet":["slidingSecurityDoorColors"]
     },
 
 
@@ -1337,7 +1338,7 @@
         "options":"<li>Pneumatic Door Closure: Heavy duty type with 1-1/2in. tube and stop</li><li>Custom Bore spacing: Doors are prepped for a 2-1/8in. lock set hole size to accept a Standard handle and lock set (sold separately). We offer a variety of door handles and dead bolts. Custom bore spacing is available to fit a wider range of handle and lock sets.</li><li>French Set: Complete with locking pins on fixed door. Bores on fixed door for “dummy handle set” are available.</li><li>Threshold Extender: Available in white, bronze, or mill. Threshold extenders are sometimes needed to retrofit your existing door to make the Viewguard bug proof when your threshold is too short.</li><li>Colors (See below)</li><li>Lockset (not included)</li>",
         "relatedProducts":"<li>Tru Frame</li><li>Tru View</li><li>Steel Security Doors</li><li>Tru Frame Security Sliding Doors</li>",
         "warranty":"All warranties cover materials, manufacturing defects and hardware for the periods listed below but will not cover normal wear and tear of the product. Screen mesh is not covered beyond the initial installation of products. Defective items must be reported within 5 days of receipt for validation. Improper installation of the product will not be covered under the warranties listed. Warranty periods begin from the date of purchase to our dealers.<br/><br/>Contact the factory for details on specific product lines listed below and for any warranty claim.<br/><br/>Maximum liability for R. Lang Company will be limited to replacement of product only.<br/><br/>5 Year Limited Warranty<br/><br/><br/>Security Doors<br/>WARRANTY SERVICE REQUESTS<br/><br/>Warranty periods begin from date of purchase from the R. Lang Company.<br/>All warranty service requests must be submitted by the original dealer/customer for validation purposes. You must provide an original invoice number for verification.<br/>Contact our Customer Service Department at (800) 677-5264 for the Service Request form to be emailed or faxed to you.<br/>R. Lang Company will not accept warranty requests directly from homeowners.<br/>Under no circumstance will R. Lang Company be responsible for repair bills submitted by homeowners or dealers/customers without prior approval from the Sales or Warranty Manager.<br/>Warranty requests received outside of our California service area will be processed by our Warranty Manager for fair resolution. Replacement parts will be sent as necessary to correct a problem or defect. Insulated glass failures/defects can be replaced locally but will require pre-authorization from the Sales Warranty Manager for fair credit amount reimbursement.<br/>Any dealer/customer rework or screen replacement must be pre-approved. We recommend that the product be returned for correction in our facility.<br/>R. Lang Company will cover cost for authorized replacements for material only. Dealer/customer will be responsible for any labor incurred for their shop or field expenses.<br/><br/>GENERAL WARRANTY POLICY<br/>R. Lang Company will repair or provide replacement product, at it’s election, free of charge, any product proven to have a manufacturing defect during the applicable warranty period up to a maximum liability which shall be equal to the cost of replacement of the defective product. R. Lang Company shall in no event be liable for labor charges or other expenses whatsoever in connection with removal or installation of either the original or replacement product. However, in lieu of replacement of repair, R. Lang Company, at it’s sole discretion, reserves the right to refund up to the amount paid by the original purchaser of the product but not including the installation cost. This warranty is intended to cover individual homeowners and does not apply to products installed in commercial construction. In the event of repair or replacement pursuant to terms of this warranty, the original warranty shall apply to the repaired or replacement product and will extend for the balance of the warranty period in effect at the time the product proved defective.",
-        "colorSet":["stdColors", "securityDoorColors"]
+        "colorSet":["stdColors", "slidingSecurityDoorColors"]
     },
     {
         "title":"TRU-View Security Doors",
@@ -1394,7 +1395,7 @@
             {"small": "/assets/images/security/tru-view/8.png", "medium":"/assets/images/security/tru-view/8.png", "big":"/assets/images/security/tru-view/8.png"},
             {"small": "/assets/images/security/tru-view/9.png", "medium":"/assets/images/security/tru-view/9.png", "big":"/assets/images/security/tru-view/9.png"}
         ],
-        "colorSet":["stdColors", "securityDoorColors"]
+        "colorSet":["stdColors", "slidingSecurityDoorColors"]
     },
     {
         "title":"TRU-Frame Security Doors",
@@ -1459,7 +1460,7 @@
                 "big":"/assets/images/security/tru-frame/3.jpg"
             }
         ],
-        "colorSet":["stdColors", "securityDoorColors"]
+        "colorSet":["stdColors", "slidingSecurityDoorColors"]
     },
     {
         "title":"Sliding Security Doors",
@@ -1569,7 +1570,7 @@
                 "big":"/assets/images/security/sliding/9.jpg"
             }
         ],
-        "colorSet":["stdColors", "securityDoorColors"]
+        "colorSet":["stdColors", "slidingSecurityDoorColors"]
     },
     {
         "title":"CRL Guarda™ Quick Escape",
@@ -1582,14 +1583,14 @@
         "tileText":"CRL Guarda™ Quick Escape Window Screens have an easy release push mechanism that also acts as a secure, temper resistant device locking the screen closed for peace of mind.",
         "thumbImages":[
             {
-                "small":"/assets/images/security/guarda-escape/1.png",
-                "medium":"/assets/images/security/guarda-escape/1.png",
-                "big":"/assets/images/security/guarda-escape/1.png"
-            },
-            {
                 "small":"/assets/images/security/guarda-escape/2.png",
                 "medium":"/assets/images/security/guarda-escape/2.png",
                 "big":"/assets/images/security/guarda-escape/2.png"
+            },
+            {
+                "small":"/assets/images/security/guarda-escape/1.png",
+                "medium":"/assets/images/security/guarda-escape/1.png",
+                "big":"/assets/images/security/guarda-escape/1.png"
             },
             {
                 "small":"/assets/images/security/guarda-escape/3.png",

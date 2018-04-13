@@ -61,7 +61,7 @@ export class ProductDetailComponent implements OnInit, OnDestroy {
         "Tan":"#AD8166",
         "White":"#ffffff"
     }
-    securityDoorColors = {
+    slidingSecurityDoorColors = {
         "Alabaster":"#FAF9ED",
         "Almond":"#F4EDCA",
         "Autumn Brown":"#3F2823",
@@ -191,6 +191,8 @@ export class ProductDetailComponent implements OnInit, OnDestroy {
                 ello.style.display = 'none';
             }            
         }     
-
     }
+
+    lightboxEffect(){}
+
 }

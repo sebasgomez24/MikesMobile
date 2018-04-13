@@ -1,0 +1,28 @@
+TODO until live
+
+Visual Fixes:
+-------------
+Matching URLs
+Images
+Content
+SolarScreen Frames
+Color Options not all correct
+Mobile galleries a little large
+Fix images in Thumbnails not appropriately sized
+Add correct images to Home Carousel
+Update image for Window Screen Repair (newer truck)
+Include App Information in Chimney Inspection Page
+Quote Form (submit function)
+Click to enlarge InfoGraphics
+*Blog section
+Include Locations in /about/ page
+
+SEO Fixes:
+----------
+ReCaptcha
+Titles
+Meta Tags
+Hidden SEO Location Landing Pages
+Adwords Landing Pages
+Sitemap
+Google Analytics Conversion

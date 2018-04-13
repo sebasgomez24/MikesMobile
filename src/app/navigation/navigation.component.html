@@ -1,106 +1,106 @@
 <nav>
-    <mdb-navbar SideClass="navbar navbar-expand-lg navbar-light" id="backToTop">
-        <logo>
-            <a routerLink="/"><img title="Mike’s Mobile Screen & Chimney Service" alt="Mike’s Mobile Screen & Chimney Service" src="/assets/images/main/logo-black.jpg" style="max-height: 45px;"></a>
-        </logo>
-        <links>
-            <ul class="navbar-nav ml-auto">
-                <div class="m-2" id="desktop-disappear"></div>
-                <li class="nav-item px-1">
-                    <a dropdownToggle type="button" class="nav-link waves-dark blue-text nav-text" (mouseenter)="openDropdown()" (mouseleave)="closeDropdown()" id="navBtn" mdbRippleRadius>
-                        <i class="fa fa-globe pr-3" id="desktop-disappear" aria-hidden="true"></i>services<i class="fa fa-angle-right float-right mt-1" id="desktop-disappear" aria-hidden="true"></i>
-                    </a>
-                </li>
+<mdb-navbar SideClass="navbar navbar-expand-lg navbar-light" id="backToTop">
+    <logo>
+        <a routerLink="/"><img title="Mike’s Mobile Screen & Chimney Service" alt="Mike’s Mobile Screen & Chimney Service" src="/assets/images/main/logo-black.jpg" style="max-height: 45px;"></a>
+    </logo>
+    <links>
+        <ul class="navbar-nav ml-auto">
+            <div class="m-2" id="desktop-disappear"></div>
+            <li class="nav-item px-1">
+                <a dropdownToggle type="button" class="nav-link waves-dark blue-text nav-text" (mouseenter)="openDropdown()" (mouseleave)="closeDropdown()" id="navBtn" mdbRippleRadius>
+                    <i class="fa fa-globe pr-3" id="desktop-disappear" aria-hidden="true"></i>services<i class="fa fa-angle-right float-right mt-1" id="desktop-disappear" aria-hidden="true"></i>
+                </a>
+            </li>
 
-                <div class="btn-group" dropdown>
-                    <div class="p-3 dropdown-menu megamenu" id="dropdown" (mouseenter)="openDropdown()" (mouseleave)="closeDropdown()">
+            <div class="btn-group" dropdown>
+                <div class="p-3 dropdown-menu megamenu" id="dropdown" (mouseenter)="openDropdown()" (mouseleave)="closeDropdown()">
+                    <div class="container">
+                        <div class="row">
+                            <div class="col">
+                                <a class="dropdown-item waves-dark pb-0 mb-0" (click)="setTitle('Window and Door Screens')" mdbRippleRadius [routerLink]="['/about/door-and-window-screens']"><h5>SCREENS</h5></a>
+                                <div class="divider dropdown-divider pt-0 mt-0"></div>
 
-                            <div class="container">
-                                <div class="row">
-                                    <div class="col">
-                                        <a class="dropdown-item waves-dark pb-0 mb-0" (click)="setTitle('Window and Door Screens')" mdbRippleRadius [routerLink]="['/about/door-and-window-screens']"><h5>SCREENS</h5></a>
-                                        <div class="divider dropdown-divider pt-0 mt-0"></div>
+                                <h6 class="pt-1"><strong>DOORS</strong></h6>
+                                <a class="dropdown-item waves-dark blue-text" (click)="setTitle('Retractable Screen Door')" mdbRippleRadius [routerLink]="['/products/retractable-screen-door']">Retractable Screen Door</a>
+                                <a class="dropdown-item waves-dark blue-text" (click)="setTitle('Sliding Screen Door')" mdbRippleRadius [routerLink]="['/products/sliding-screen-door']">Sliding Screen Door</a>
+                                <a class="dropdown-item waves-dark blue-text" (click)="setTitle('Swinging Screen Door')" mdbRippleRadius [routerLink]="['/grid/swinging-screen-doors']">Swinging Screen Door</a>
+                                <a class="dropdown-item waves-dark blue-text" (click)="setTitle('Pet Door')" mdbRippleRadius [routerLink]="['/services/pet-door']">Pet Doors</a>
 
-                                        <h6 class="pt-1"><strong>DOORS</strong></h6>
-                                        <a class="dropdown-item waves-dark blue-text" (click)="setTitle('Retractable Screen Door')" mdbRippleRadius [routerLink]="['/products/retractable-screen-door']">Retractable Screen Door</a>
-                                        <a class="dropdown-item waves-dark blue-text" (click)="setTitle('Sliding Screen Door')" mdbRippleRadius [routerLink]="['/products/sliding-screen-door']">Sliding Screen Door</a>
-                                        <a class="dropdown-item waves-dark blue-text" (click)="setTitle('Swinging Screen Door')" mdbRippleRadius [routerLink]="['/grid/swinging-screen-doors']">Swinging Screen Door</a>
-                                        <a class="dropdown-item waves-dark blue-text" (click)="setTitle('Pet Door')" mdbRippleRadius [routerLink]="['/services/pet-door']">Pet Doors</a>
-
-                                        <h6 class="pt-3">WINDOWS</h6>
-                                        <a class="dropdown-item waves-dark blue-text" (click)="setTitle('Screen Repair')" mdbRippleRadius [routerLink]="['/services/screen-repair']">Screen Repair</a>
-                                        <a class="dropdown-item waves-dark blue-text" (click)="setTitle('Solar Screens')" mdbRippleRadius [routerLink]="['/services/solar-screens']">Solar Screens</a>
-                                        <a class="dropdown-item waves-dark blue-text" (click)="setTitle('Screen Hardware')" mdbRippleRadius [routerLink]="">Screen Hardware</a>
-                                    </div>
-                                    <div class="col">
-                                        <a class="dropdown-item waves-dark pb-0 mb-0" mdbRippleRadius [routerLink]="['/about/chimney-services']"><h5>CHIMNEY</h5></a>
-                                        <div class="divider dropdown-divider pt-0 mt-0"></div>
-                                        <a class="dropdown-item waves-dark blue-text" mdbRippleRadius [routerLink]="['/services/inspections']">Inspections</a>
-                                        <a class="dropdown-item waves-dark blue-text" mdbRippleRadius [routerLink]="['/services/cleaning']">Cleanings</a>
-                                        <a class="dropdown-item waves-dark blue-text" mdbRippleRadius [routerLink]="['/grid/repairs']">Repair</a>
-                                        <a class="dropdown-item waves-dark blue-text" mdbRippleRadius [routerLink]="['/grid/accessories']">Accessories</a>
-                                        <a class="dropdown-item waves-dark blue-text" mdbRippleRadius [routerLink]="['/grid/masonry-services']">Masonry Services</a>
-                                        <a class="dropdown-item waves-dark blue-text" mdbRippleRadius [routerLink]="['/services/dryer-vent-cleaning']">Dryer Vent Cleaning</a>
-                                        <a class="dropdown-item waves-dark blue-text" mdbRippleRadius [routerLink]="['/grid/resources']">Resources</a>
-                                    </div>
-                                    <div class="col">
-                                        <a class="dropdown-item waves-dark pb-0 mb-0" mdbRippleRadius [routerLink]="['/about/security-doors-and-windows']"><h5>SECURITY</h5></a>
-                                        <div class="divider dropdown-divider pt-0 mt-0"></div>
-
-                                        <h6 class="pt-1">DOORS</h6>
-                                        <a class="dropdown-item waves-dark blue-text" mdbRippleRadius [routerLink]="['/grid/steel-security-doors']">Steel Security Doors</a>
-                                        <a class="dropdown-item waves-dark blue-text" mdbRippleRadius [routerLink]="['/products/viewguard-security-doors']">Viewguard Security Door</a>
-                                        <a class="dropdown-item waves-dark blue-text" mdbRippleRadius [routerLink]="['/products/tru-view-security-doors']">TRU-View Security Door</a>
-                                        <a class="dropdown-item waves-dark blue-text" mdbRippleRadius [routerLink]="['/products/tru-frame-security-doors']">TRU-Frame Security Door</a>
-                                        <a class="dropdown-item waves-dark blue-text" mdbRippleRadius [routerLink]="['/products/sliding-security-doors']">Sliding Security Door</a>
-
-                                        <h6 class="pt-3">WINDOWS</h6>
-                                        <a class="dropdown-item waves-dark blue-text" mdbRippleRadius [routerLink]="['/products/crl-guarda-quick-escape']">CRL Guarda™ Quick Escape</a>
-                                        <a class="dropdown-item waves-dark blue-text" mdbRippleRadius [routerLink]="['/products/crl-guarda-fixed']">CRL Guarda™ Fixed</a>
-                                        <a class="dropdown-item waves-dark blue-text" mdbRippleRadius [routerLink]="['/products/crl-guarda-casement']">CRL Guarda™ Casement</a>
-
-
-                                    </div>
-                                    <div class="col">
-                                        <a class="dropdown-item waves-dark pb-0 mb-0" mdbRippleRadius [routerLink]="['/about/awnings']"><h5>AWNINGS</h5></a>
-                                        <div class="divider dropdown-divider pt-0 mt-0"></div>
-                                        <a class="dropdown-item waves-dark blue-text" mdbRippleRadius [routerLink]="['/services/retractable-patio-awning']">Retractable Patio Awnings</a>
-                                        <a class="dropdown-item waves-dark blue-text" mdbRippleRadius [routerLink]="['/services/drop-roll-sunscreens']">Drop Roll Sunscreens</a>
-                                        <a class="dropdown-item waves-dark blue-text" mdbRippleRadius [routerLink]="['/services/door-and-window-awnings']">Door and Window Awnings</a>
-                                    </div>
-                                </div>
+                                <h6 class="pt-3">WINDOWS</h6>
+                                <a class="dropdown-item waves-dark blue-text" (click)="setTitle('Screen Repair')" mdbRippleRadius [routerLink]="['/services/screen-repair']">Screen Repair</a>
+                                <a class="dropdown-item waves-dark blue-text" (click)="setTitle('Solar Screens')" mdbRippleRadius [routerLink]="['/services/solar-screens']">Solar Screens</a>
+                                <a class="dropdown-item waves-dark blue-text" (click)="setTitle('Screen Hardware')" mdbRippleRadius [routerLink]="">Screen Hardware</a>
                             </div>
+                            <div class="col">
+                                <a class="dropdown-item waves-dark pb-0 mb-0" (click)="setTitle('Chimney Services')" mdbRippleRadius [routerLink]="['/about/chimney-services']"><h5>CHIMNEY</h5></a>
+                                <div class="divider dropdown-divider pt-0 mt-0"></div>
+                                <a class="dropdown-item waves-dark blue-text" (click)="setTitle('Inspections')" mdbRippleRadius [routerLink]="['/services/inspections']">Inspections</a>
+                                <a class="dropdown-item waves-dark blue-text" (click)="setTitle('Cleaning')" mdbRippleRadius [routerLink]="['/services/cleaning']">Cleanings</a>
+                                <a class="dropdown-item waves-dark blue-text" (click)="setTitle('Repairs')" mdbRippleRadius [routerLink]="['/grid/repairs']">Repair</a>
+                                <a class="dropdown-item waves-dark blue-text" (click)="setTitle('Accessories')" mdbRippleRadius [routerLink]="['/grid/accessories']">Accessories</a>
+                                <a class="dropdown-item waves-dark blue-text" (click)="setTitle('Masonry Services')" mdbRippleRadius [routerLink]="['/grid/masonry-services']">Masonry Services</a>
+                                <a class="dropdown-item waves-dark blue-text" (click)="setTitle('Dryer Vent Cleaning')" mdbRippleRadius [routerLink]="['/services/dryer-vent-cleaning']">Dryer Vent Cleaning</a>
+                                <a class="dropdown-item waves-dark blue-text" (click)="setTitle('Resources')" mdbRippleRadius [routerLink]="['/grid/resources']">Resources</a>
+                            </div>
+                            <div class="col">
+                                <a class="dropdown-item waves-dark pb-0 mb-0" (click)="setTitle('Security Doors and Windows')" mdbRippleRadius [routerLink]="['/about/security-doors-and-windows']"><h5>SECURITY</h5></a>
+                                <div class="divider dropdown-divider pt-0 mt-0"></div>
 
+                                <h6 class="pt-1">DOORS</h6>
+                                <a class="dropdown-item waves-dark blue-text" (click)="setTitle('Steel Security Doors')" mdbRippleRadius [routerLink]="['/grid/steel-security-doors']">Steel Security Doors</a>
+                                <a class="dropdown-item waves-dark blue-text" (click)="setTitle('Viewguard Security Doors')" mdbRippleRadius [routerLink]="['/products/viewguard-security-doors']">Viewguard Security Door</a>
+                                <a class="dropdown-item waves-dark blue-text" (click)="setTitle('TRU-View Security Doors')" mdbRippleRadius [routerLink]="['/products/tru-view-security-doors']">TRU-View Security Door</a>
+                                <a class="dropdown-item waves-dark blue-text" (click)="setTitle('TRU-Frame Security Doors')" mdbRippleRadius [routerLink]="['/products/tru-frame-security-doors']">TRU-Frame Security Door</a>
+                                <a class="dropdown-item waves-dark blue-text" (click)="setTitle('Sliding Security Doors')" mdbRippleRadius [routerLink]="['/products/sliding-security-doors']">Sliding Security Door</a>
+
+                                <h6 class="pt-3">WINDOWS</h6>
+                                <a class="dropdown-item waves-dark blue-text" (click)="setTitle('CRL Guarda Quick Escape')" mdbRippleRadius [routerLink]="['/products/crl-guarda-quick-escape']">CRL Guarda™ Quick Escape</a>
+                                <a class="dropdown-item waves-dark blue-text" (click)="setTitle('CRL Guarda Fixed')" mdbRippleRadius [routerLink]="['/products/crl-guarda-fixed']">CRL Guarda™ Fixed</a>
+                                <a class="dropdown-item waves-dark blue-text" (click)="setTitle('CRL Guarda Casement')" mdbRippleRadius [routerLink]="['/products/crl-guarda-casement']">CRL Guarda™ Casement</a>
+
+
+                            </div>
+                            <div class="col">
+                                <a class="dropdown-item waves-dark pb-0 mb-0" (click)="setTitle('Awnings')" mdbRippleRadius [routerLink]="['/about/awnings']"><h5>AWNINGS</h5></a>
+                                <div class="divider dropdown-divider pt-0 mt-0"></div>
+                                <a class="dropdown-item waves-dark blue-text" (click)="setTitle('Retractable Patio Awnings')" mdbRippleRadius [routerLink]="['/services/retractable-patio-awning']">Retractable Patio Awnings</a>
+                                <a class="dropdown-item waves-dark blue-text" (click)="setTitle('Drop Roll Sunscreens')" mdbRippleRadius [routerLink]="['/services/drop-roll-sunscreens']">Drop Roll Sunscreens</a>
+                                <a class="dropdown-item waves-dark blue-text" (click)="setTitle('Door and Window Awnings')" mdbRippleRadius [routerLink]="['/services/door-and-window-awnings']">Door and Window Awnings</a>
+                            </div>
+                        </div>
                     </div>
-                </div>
 
-                <li class="nav-item px-1">
-                    <a class="nav-link waves-dark blue-text nav-text"  [routerLink]="['/about']" href="#aboutMM" id="navBtn" mdbRippleRadius>
-                        <i class="fa fa-users pr-3" id="desktop-disappear" aria-hidden="true"></i>about<i class="fa fa-angle-right float-right mt-1" id="desktop-disappear" aria-hidden="true"></i>
-                    </a>
-                </li>
-                <li class="nav-item px-1">
-                    <a class="nav-link waves-dark blue-text nav-text" [routerLink]="['/']" pageScroll href="#contact" id="navBtn" mdbRippleRadius>
-                        <i class="fa fa-envelope pr-3" id="desktop-disappear" aria-hidden="true"></i>contact<i class="fa fa-angle-right float-right mt-1" id="desktop-disappear" aria-hidden="true"></i>
-                    </a>
-                </li>
-                <!-- <li class="nav-item px-1">
-                    <a class="nav-link waves-dark blue-text nav-text" routerLink="/blog" id="navBtn" mdbRippleRadius>
-                        <i class="fa fa-share-alt pr-3" id="desktop-disappear" aria-hidden="true"></i>blog<i class="fa fa-angle-right float-right mt-1" id="desktop-disappear" aria-hidden="true"></i>
-                    </a>
-                </li> -->
-                <!-- <li class="nav-item px-1">
-                    <a class="nav-link waves-dark blue-text nav-text" href="#" (click)="showInfo()" mdbRippleRadius>
-                        <i class="fa fa-shopping-cart pr-3" id="desktop-disappear" aria-hidden="true"></i>store<i class="fa fa-angle-right float-right mt-1" id="desktop-disappear" aria-hidden="true"></i>
-                    </a>
-                </li> -->
-                <!-- <li class="nav-item px-1">
-                    <a class="nav-link waves-dark blue-text nav-text" href="#" (click)="showInfo()" mdbRippleRadius>
-                        <i class="fa fa-search pr-3" aria-hidden="true"></i><i class="fa fa-angle-right float-right mt-1" id="desktop-disappear" aria-hidden="true"></i>
-                    </a>
-                </li> -->
-                <div class="m-1" id="desktop-disappear"></div>
-            </ul>
-        </links>
-    </mdb-navbar>
+                </div>
+            </div>
+
+            <li class="nav-item px-1">
+                <a class="nav-link waves-dark blue-text nav-text"  [routerLink]="['/about']" href="#aboutMM" id="navBtn" mdbRippleRadius>
+                    <i class="fa fa-users pr-3" id="desktop-disappear" aria-hidden="true"></i>about<i class="fa fa-angle-right float-right mt-1" id="desktop-disappear" aria-hidden="true"></i>
+                </a>
+            </li>
+            <li class="nav-item px-1">
+                <a class="nav-link waves-dark blue-text nav-text" [routerLink]="['/']" pageScroll href="#contact" id="navBtn" mdbRippleRadius>
+                    <i class="fa fa-envelope pr-3" id="desktop-disappear" aria-hidden="true"></i>contact<i class="fa fa-angle-right float-right mt-1" id="desktop-disappear" aria-hidden="true"></i>
+                </a>
+            </li>
+            <!-- <li class="nav-item px-1">
+                <a class="nav-link waves-dark blue-text nav-text" routerLink="/blog" id="navBtn" mdbRippleRadius>
+                    <i class="fa fa-share-alt pr-3" id="desktop-disappear" aria-hidden="true"></i>blog<i class="fa fa-angle-right float-right mt-1" id="desktop-disappear" aria-hidden="true"></i>
+                </a>
+            </li> -->
+            <!-- <li class="nav-item px-1">
+                <a class="nav-link waves-dark blue-text nav-text" href="#" (click)="showInfo()" mdbRippleRadius>
+                    <i class="fa fa-shopping-cart pr-3" id="desktop-disappear" aria-hidden="true"></i>store<i class="fa fa-angle-right float-right mt-1" id="desktop-disappear" aria-hidden="true"></i>
+                </a>
+            </li> -->
+            <!-- <li class="nav-item px-1">
+                <a class="nav-link waves-dark blue-text nav-text" href="#" (click)="showInfo()" mdbRippleRadius>
+                    <i class="fa fa-search pr-3" aria-hidden="true"></i><i class="fa fa-angle-right float-right mt-1" id="desktop-disappear" aria-hidden="true"></i>
+                </a>
+            </li> -->
+            <div class="m-1" id="desktop-disappear"></div>
+
+        </ul>
+    </links>
+</mdb-navbar>
 </nav>
