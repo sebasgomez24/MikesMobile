@@ -2,11 +2,11 @@
 
 <div class="container slideshow" id="slideshow">
     <!--Carousel Wrapper-->
-    <mdb-carousel #carousel [isControls]="true" class="carousel slide" [animation]="'slide'" [interval]="2500">
+    <mdb-carousel #carousel [isControls]="true" class="carousel slide" [animation]="'slide'" [interval]="4000">
         <!--First slide-->
         <mdb-slide>
             <div class="view hm-bluegrey-light">
-                <img class="d-block w-100 img-fluid" src="assets/images/main/red-screen.jpg" alt="First slide">
+                <img class="d-block w-100 img-fluid" src="assets/images/main/sliding.jpg" alt="First slide">
                 <div class="mask waves-light" mdbRippleRadius></div>
             </div>
 
@@ -16,10 +16,10 @@
                     <ul>
                         <li>Custom Mount Options</li>
                         <li>Custom Colors</li>
-                        <li>Custom <i class="orange-text">You</i></li>
+                        <li><i class="orange-text">Custom You</i></li>
                     </ul>
                 </div>
-                <button type="button" class="btn blue waves-light" mdbRippleRadius>Get Started</button>
+                <button type="button" class="btn blue waves-light" mdbRippleRadius [routerLink]="['/']" pageScroll href="#services">Get Started</button>
             </div>
         </mdb-slide>
         <!--/First slide-->
@@ -32,9 +32,9 @@
             <div class="carousel-caption text-md-left">
                 <div class="transparent-gray pt-4 pb-3">
                     <h2 class="h2-responsive px-4">View our many Chimney Services</h2>
-                    <!-- <p class="px-4">Secondary text</p> -->
+                    <p class="px-4">We now have our own <span class="blue-text">custom software solutions</span> to give you the best service</p>
                 </div>
-                <button type="button" class="btn blue waves-light" mdbRippleRadius>Learn More</button>
+                <button type="button" class="btn blue waves-light" [routerLink]="['/about/chimney-services']" mdbRippleRadius>Learn More</button>
             </div>
         </mdb-slide>
         <!--/Second slide-->
@@ -49,14 +49,15 @@
                     <h2 class="h2-responsive px-4">Home Improvement</h2>
                     <p class="px-4">Keep your home in tip-top shape</p>
                 </div>
-                <button type="button" class="btn blue waves-light" (click)="basicModal.show()" mdbRippleRadius>Free Quote</button>
+                <button type="button" class="btn blue waves-light" (click)="quoteFormModal.show()" mdbRippleRadius>Free Quote</button>
             </div>
         </mdb-slide>
         <!--/Third slide-->
         <!--Fourth slide-->
         <mdb-slide>
             <div class="view hm-stylish-light">
-                <img class="d-block w-100 img-fluid" src="assets/images/main/security-door.jpg" alt="Third slide">
+                <img class="d-block w-100 img-fluid" id="display-mobile" src="assets/images/main/car-logo-2.jpg" alt="Third slide">
+                <img class="d-block w-100 img-fluid" id="display-desktop" src="assets/images/main/red-screen.jpg" alt="Third slide">                
                 <div class="mask waves-light" mdbRippleRadius></div>
             </div>
             <div class="carousel-caption text-md-left">
@@ -64,7 +65,7 @@
                     <h2 class="h2-responsive px-4">1-877-520-3595</h2>
                     <p class="px-4">Call us Today!</p>
                 </div>
-                <button type="button" class="btn blue waves-light" href="tel:+1-916-372-8783" mdbRippleRadius>Call Now</button>
+                <a href="tel:+1-916-372-8783"><button type="button" class="btn blue waves-light" mdbRippleRadius>Call Now</button></a>
             </div>
         </mdb-slide>
         <!--/Fourth slide-->
@@ -76,6 +77,51 @@
 
 <app-service-list></app-service-list>
 
-<app-quote-modal></app-quote-modal>
-
 <app-footer></app-footer>
+
+<!--QuoteForm Modal-->
+<div class="container">
+    <div mdbModal #quoteFormModal="mdb-modal" class="modal fade" tabindex="-1" role="dialog" aria-labelledby="quoteFormModal" aria-hidden="true">
+        <div class="modal-dialog" role="document">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <button type="button" class="close pull-right" aria-label="Close" (click)="quoteFormModal.hide()">
+                        <span aria-hidden="true">×</span>
+                    </button>
+                    <h4 class="modal-title" id="myModalLabel">Get a Free Quote Now! <br/><span class="orange-text">1-877-520-3595</span></h4>
+                </div>
+                <div class="modal-body">
+                    <div class="md-form form-sm">
+                        <mdb-select [options]="optionsSelect" [multiple]="true" placeholder="What service were you interested in?"></mdb-select>
+                    </div>
+                    <div class="md-form form-sm">
+                        <input mdbActive type="text" id="form1" class="form-control">
+                        <label for="fullName" class="">Full Name</label>
+                    </div>
+                    <div class="md-form form-sm">
+                        <input mdbActive type="text" id="form1" class="form-control">
+                        <label for="city" class="">City</label>
+                    </div>
+                    <div class="md-form form-sm">
+                        <input mdbActive type="text" id="form1" class="form-control">
+                        <label for="phone" class="">Phone</label>
+                    </div>
+                    <div class="md-form form-sm">
+                        <input mdbActive type="text" id="form1" class="form-control">
+                        <label for="email" class="">Email</label>
+                    </div>
+                    <div class="md-form">
+                        <textarea mdbActive type="text" id="form7" class="md-textarea"></textarea>
+                        <label for="form7">How can we help</label>
+                    </div>
+                </div>
+
+                <div class="d-flex flex-row">
+                    <button type="button" class="btn gray waves-light w-100" aria-label="Close" (click)="quoteFormModal.hide()" mdbRippleRadius>Close</button>
+                    <button type="button" class="btn blue relative waves-light w-100" mdbRippleRadius>Save changes</button>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+<!--/QuoteForm Modal-->

@@ -37,3 +37,14 @@
 
 select
     box-shadow: 0
+
+
+#display-mobile
+    display: block !important
+    @include breakpoint(md)
+        display: none !important
+
+#display-desktop
+    display: none !important
+    @include breakpoint(md)
+        display: block !important

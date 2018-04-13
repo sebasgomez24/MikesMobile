@@ -83,6 +83,8 @@ export class ProductDetailComponent implements OnInit, OnDestroy {
         "Statuary Bronze":"#42372F"
     }
 
+
+
     constructor(private route: ActivatedRoute, private _service:ServicesService) { }
     
     ngOnInit() {
@@ -103,6 +105,7 @@ export class ProductDetailComponent implements OnInit, OnDestroy {
             {
                 width: '550px',
                 height: '450px',
+                thumbnailSize: NgxGalleryImageSize.Contain,
                 thumbnailsColumns: 4,
                 thumbnailsRemainingCount: true,
                 imageArrowsAutoHide: true,
@@ -193,6 +196,8 @@ export class ProductDetailComponent implements OnInit, OnDestroy {
         }     
     }
 
-    lightboxEffect(){}
+    moreSteelToggle(){
+        var collapse = document.getElementById('collapseSteelColors').classList.toggle('collapse')
+    }
 
 }

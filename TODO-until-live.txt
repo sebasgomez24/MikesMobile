@@ -2,27 +2,35 @@ TODO until live
 
 Visual Fixes:
 -------------
-Matching URLs
-Images
-Content
-SolarScreen Frames
-Color Options not all correct
-Mobile galleries a little large
-Fix images in Thumbnails not appropriately sized
-Add correct images to Home Carousel
-Update image for Window Screen Repair (newer truck)
-Include App Information in Chimney Inspection Page
-Quote Form (submit function)
-Click to enlarge InfoGraphics
-*Blog section
-Include Locations in /about/ page
+#Matching URLs? --> URL 301 Redirects
+#SolarScreen Frames
+#Color Options not all correct: Modals not fully working + InfoGraphics as modals
+#Images: Fix Pet Door Measuring Guide(photoshop - larger)
+#SecurityDoorColors - add the rest of the colors
+#Mobile galleries height to big ?
+#Fix images in Products Thumbnails Gallery: should not cut out the door
+#Update image for Window Screen Repair: (newer truck)
+#Include correct images to Home Carousel: [Look through notes ..]
+
+
+Carousel Buttons
+Include App Information in Chimney Inspection Page [Review Notes]
+Quote Form (submit function): Sendmail.io
+*Blog section: Simple, keep pre-exisiting format, add a couple posts ==> 3-5 posts
+Include Locations Lists in about page
+Fix Breadcrumb Navbar
+Related Projects Tab in [TabSection] should be hyperlinked
+Content: Chimney Services, Individual Steel Doors [more bullets]
+
 
 SEO Fixes:
 ----------
+#Titles
+
 ReCaptcha
-Titles
 Meta Tags
 Hidden SEO Location Landing Pages
 Adwords Landing Pages
 Sitemap
-Google Analytics Conversion
+Google Analytics Conversions
+Facebook Pixels Tracker

@@ -42,67 +42,162 @@
 						</div>
 					</div>
 
-					<div class="row">
+					<div class="row" *ngIf="service.colorSet">
 						<div class="col-12">
 							<h4>Color Selection</h4>
 							
 							<ng-container *ngFor="let i of service.colorSet">
 								<p class="mb-0 mt-2 ml-1" style="font-weight:bold" *ngIf="i === 'stdColors'">Standard Colors</p>
 								<div class="row no-gutters" *ngIf="i === 'stdColors'">
-
-									
-									<mdb-image-modal [modalImages]="images_basic" type="no-margin"></mdb-image-modal>
-									
-
-									<!-- <div class="col-3 col-md-2" *ngFor="let color of stdColors | keys">
-										<div class="square" mdbTooltip="{{color.key}}" [ngStyle]="{'background': color.value}" placement="bottom"></div>
-										<p id="" class="pl-2 p-colors">{{color.key}}</p>
-									</div> -->
-								</div>
+									<div class="col-3 col-md-2" *ngFor="let color of stdColors | keys">
+										<div class="square" mdbTooltip="{{color.key}}" [ngStyle]="{'background': color.value}" placement="bottom" (click)="stdColorModal.show()"></div>
+										<p id="square-p-{{i}}" class="pl-2 p-colors">{{color.key}}</p>
+										<div mdbModal #stdColorModal="mdb-modal" class="modal fade" tabindex="-1" role="dialog" aria-labelledby="myBasicModalLabel" aria-hidden="true">
+											<div class="modal-dialog modal-sm" role="document">
+												<div class="modal-content">
+													<div class="modal-header">
+														<h4 class="modal-title w-100 text-center" id="myModalLabel">{{color.key}}</h4>
+														<button type="button" class="close" data-dismiss="modal" aria-label="Close" (click)="stdColorModal.hide()">
+															<span aria-hidden="true">×</span>
+														</button>
+													</div>
+													<div class="modal-body">													
+														<div class="square centered-sq" mdbTooltip="{{color.key}}" [ngStyle]="{'background': color.value}" placement="bottom"></div>
+													</div>									
+												</div>
+											</div>
+										</div>
+									</div>
+								</div>						
 							</ng-container>
 							
 							<ng-container *ngFor="let i of service.colorSet">
-								<p class="mb-0 mt-2 ml-1" style="font-weight:bold" *ngIf="i === 'screenFrameColors'">Solar Screen Colors</p>
+								<p class="mb-0 mt-2 ml-1" style="font-weight:bold" *ngIf="i === 'screenFrameColors'">Screen Frame Colors</p>
 								<div class="row no-gutters" *ngIf="i === 'screenFrameColors'">
 									<div class="col-3 col-md-2" *ngFor="let color of screenFrameColors | keys">
-										<div class="square" mdbTooltip="{{color.key}}" placement="bottom">
-											<img src="{{color.value}}" />
+										<!-- <div class="square" mdbTooltip="{{color.key}}" [ngStyle]="{'background': url(color.value)}" placement="bottom" (click)="screenFrameColorsModal.show()"></div> -->
+										<p id="square-p-{{i}}" class="pl-2 p-colors">{{color.key}}</p>
+										<div mdbModal #screenFrameColorsModal="mdb-modal" class="modal fade" tabindex="-1" role="dialog" aria-labelledby="screenFrameModalLabel" aria-hidden="true">
+											<div class="modal-dialog modal-sm" role="document">
+												<div class="modal-content">
+													<div class="modal-header">
+														<h4 class="modal-title w-100 text-center" id="myModalLabel">{{color.key}}</h4>
+														<button type="button" class="close" data-dismiss="modal" aria-label="Close" (click)="screenFrameColorsModal.hide()">
+															<span aria-hidden="true">×</span>
+														</button>
+													</div>
+													<div class="modal-body">													
+														<div class="square-lg centered-sq" mdbTooltip="{{color.key}}" [ngStyle]="{'background': color.value}" placement="bottom"></div>
+													</div>									
+												</div>
+											</div>
 										</div>
-										<p id="" class="pl-2 p-colors">{{color.key}}</p>
 									</div>
 								</div>
 							</ng-container>
 	
-							<p class="mb-0 mt-2 ml-1" style="font-weight:bold">Frame Colors</p>
-							<div class="row no-gutters" *ngFor="let colors of service.colorSet">
-								<ng-container *ngIf="colors === 'colorSetx4'">
-									<div class="col-3 col-md-2" *ngFor="let c of colorSetx4 | keys">
-										<div class="square" mdbTooltip="{{c.key}}" [ngStyle]="{'background': c.value}" placement="bottom"></div>
-										<p id="" class="pl-2 p-colors">{{c.key}}</p>
+							<ng-container *ngFor="let i of service.colorSet">
+								<p class="mb-0 mt-2 ml-1" style="font-weight:bold" *ngIf="i === 'colorSetx4'">Custom Colors</p>
+								<div class="row no-gutters" *ngIf="i === 'colorSetx4'">
+									<div class="col-3 col-md-2" *ngFor="let color of colorSetx4 | keys">
+										<div class="square" mdbTooltip="{{color.key}}" [ngStyle]="{'background': color.value}" placement="bottom" (click)="colorSetx4Modal.show()"></div>
+										<p id="square-p-{{i}}" class="pl-2 p-colors">{{color.key}}</p>
+										<div mdbModal #colorSetx4Modal="mdb-modal" class="modal fade" tabindex="-1" role="dialog" aria-labelledby="myBasicModalLabel" aria-hidden="true">
+											<div class="modal-dialog modal-sm" role="document">
+												<div class="modal-content">
+													<div class="modal-header">
+														<h4 class="modal-title w-100 text-center" id="myModalLabel">{{color.key}}</h4>
+														<button type="button" class="close" data-dismiss="modal" aria-label="Close" (click)="colorSetx4Modal.hide()">
+															<span aria-hidden="true">×</span>
+														</button>
+													</div>
+													<div class="modal-body">													
+														<div class="square-lg centered-sq" mdbTooltip="{{color.key}}" [ngStyle]="{'background': color.value}" placement="bottom"></div>
+													</div>									
+												</div>
+											</div>
+										</div>
 									</div>
-								</ng-container>
-								<ng-container *ngIf="colors === 'colorSetx6'">
-									<div class="col-3 col-md-2" *ngFor="let c of colorSetx6 | keys">
-										<div class="square" mdbTooltip="{{c.key}}" [ngStyle]="{'background': c.value}" placement="bottom"></div>
-										<p id="" class="pl-2 p-colors">{{c.key}}</p>
+								</div>
+							</ng-container>
+	
+							<ng-container *ngFor="let i of service.colorSet">
+								<p class="mb-0 mt-2 ml-1" style="font-weight:bold" *ngIf="i === 'colorSetx6'">Custom Colors</p>
+								<div class="row no-gutters" *ngIf="i === 'colorSetx6'">
+									<div class="col-3 col-md-2" *ngFor="let color of colorSetx6 | keys">
+										<div class="square" mdbTooltip="{{color.key}}" [ngStyle]="{'background': color.value}" placement="bottom" (click)="colorSetx6Modal.show()"></div>
+										<p id="square-p-{{i}}" class="pl-2 p-colors">{{color.key}}</p>
+										<div mdbModal #colorSetx6Modal="mdb-modal" class="modal fade" tabindex="-1" role="dialog" aria-labelledby="myBasicModalLabel" aria-hidden="true">
+											<div class="modal-dialog modal-sm" role="document">
+												<div class="modal-content">
+													<div class="modal-header">
+														<h4 class="modal-title w-100 text-center" id="myModalLabel">{{color.key}}</h4>
+														<button type="button" class="close" data-dismiss="modal" aria-label="Close" (click)="colorSetx6Modal.hide()">
+															<span aria-hidden="true">×</span>
+														</button>
+													</div>
+													<div class="modal-body">													
+														<div class="square-lg centered-sq" mdbTooltip="{{color.key}}" [ngStyle]="{'background': color.value}" placement="bottom"></div>
+													</div>									
+												</div>
+											</div>
+										</div>
 									</div>
-								</ng-container>
-								<ng-container *ngIf="colors === 'swingingDoorColors'">
-									<div class="col-3 col-md-2" *ngFor="let c of swingingDoorColors | keys; index as i">
-										<div class="square hidden-square" id="square-{{i}}" mdbTooltip="{{c.key}}" [ngStyle]="{'background': c.value}" placement="bottom"></div>
-										<p id="square-p-{{i}}" class="pl-2 p-colors hidden-p">{{c.key}}</p>
+								</div>
+							</ng-container>
+	
+							<ng-container *ngFor="let i of service.colorSet">
+								<p class="mb-0 mt-2 ml-1" style="font-weight:bold" *ngIf="i === 'swingingDoorColors'">Custom Colors</p>
+								<div class="row no-gutters" *ngIf="i === 'swingingDoorColors'">
+									<div class="col-3 col-md-2" *ngFor="let color of swingingDoorColors | keys; index as j">
+										<div class="square" id="square-{{j}}" mdbTooltip="{{color.key}}" [ngStyle]="{'background': color.value}" placement="bottom" (click)="swingingDoorColorsModal.show()"></div>
+										<p id="square-p-{{j}}" class="pl-2 p-colors">{{color.key}}</p>
+										<div mdbModal #swingingDoorColorsModal="mdb-modal" class="modal fade" tabindex="-1" role="dialog" aria-labelledby="myBasicModalLabel" aria-hidden="true">
+											<div class="modal-dialog modal-sm" role="document">
+												<div class="modal-content">
+													<div class="modal-header">
+														<h4 class="modal-title w-100 text-center" id="myModalLabel">{{color.key}}</h4>
+														<button type="button" class="close" data-dismiss="modal" aria-label="Close" (click)="swingingDoorColorsModal.hide()">
+															<span aria-hidden="true">×</span>
+														</button>
+													</div>
+													<div class="modal-body">													
+														<div class="square-lg centered-sq" mdbTooltip="{{color.key}}" [ngStyle]="{'background': color.value}" placement="bottom"></div>
+													</div>									
+												</div>
+											</div>
+										</div>
 									</div>
-								</ng-container>
-								<ng-container *ngIf="colors === 'securityDoorColors'">
-									<div class="col-3 col-md-2" *ngFor="let c of securityDoorColors | keys; index as i">
-										<div class="square hidden-square" id="square-{{i}}" mdbTooltip="{{c.key}}" [ngStyle]="{'background': c.value}" placement="bottom"></div>
-										<p id="square-p-{{i}}" class="pl-2 p-colors hidden-p">{{c.key}}</p>
-									</div>								
-								</ng-container>
-							</div>
+								</div>
+							</ng-container>
+	
+							<ng-container *ngFor="let i of service.colorSet">
+								<p class="mb-0 mt-2 ml-1" style="font-weight:bold" *ngIf="i === 'slidingSecurityDoorColors'">Custom Colors</p>
+								<div class="row no-gutters" *ngIf="i === 'slidingSecurityDoorColors'">
+									<div class="col-3 col-md-2" *ngFor="let color of slidingSecurityDoorColors | keys; index as j">
+										<div class="square hidden-square" id="square-{{j}}" mdbTooltip="{{color.key}}" [ngStyle]="{'background': color.value}" placement="bottom" (click)="slidingSecurityDoorColors.show()"></div>
+										<p id="square-p-{{j}}" class="pl-2 p-colors hidden-p">{{color.key}}</p>
+										<div mdbModal #slidingSecurityDoorColorsModal="mdb-modal" class="modal fade" tabindex="-1" role="dialog" aria-labelledby="slidingSecurityDoorColorsModal" aria-hidden="true">
+											<div class="modal-dialog modal-sm" role="document">
+												<div class="modal-content">
+													<div class="modal-header">
+														<h4 class="modal-title w-100 text-center" id="myModalLabel">{{color.key}}</h4>
+														<button type="button" class="close" data-dismiss="modal" aria-label="Close" (click)="slidingSecurityDoorColorsModal.hide()">
+															<span aria-hidden="true">×</span>
+														</button>
+													</div>
+													<div class="modal-body">													
+														<div class="square-lg centered-sq" mdbTooltip="{{color.key}}" [ngStyle]="{'background': color.value}" placement="bottom"></div>
+													</div>									
+												</div>
+											</div>
+										</div>
+									</div>
+								</div>
+							</ng-container>
 							<ng-container *ngFor="let colors of service.colorSet">
-								<p *ngIf="colors === 'swingingDoorColors' || colors === 'securityDoorColors'" class="orange-text" id="more-colors" (click)="viewMoreColors()"> Click to view more colors &nbsp; <i class="fa fa-angle-down" aria-hidden="true"></i></p>
-								<p *ngIf="colors === 'swingingDoorColors' || colors === 'securityDoorColors'" id="less-colors" (click)="viewLessColors()">Less Colors &nbsp; <i class="fa fa-angle-up" aria-hidden="true"></i></p>
+								<p *ngIf="colors === 'swingingDoorColors' || colors === 'slidingSecurityDoorColors'" class="orange-text" id="more-colors" (click)="viewMoreColors()"> Click to view more colors &nbsp; <i class="fa fa-angle-down" aria-hidden="true"></i></p>
+								<p *ngIf="colors === 'swingingDoorColors' || colors === 'slidingSecurityDoorColors'" id="less-colors" (click)="viewLessColors()">Less Colors &nbsp; <i class="fa fa-angle-up" aria-hidden="true"></i></p>
 							</ng-container>
 						</div>
 					</div>
@@ -111,15 +206,50 @@
 						<h4 class="p-2">Pet Measuring Guide</h4>
 						<div class="row">
 							<div class="col-12">
-								<img src="/assets/images/screens/pet-door/pet-sizes.jpg" class="img-fluid" alt="Pet Door Sizes Measuring Guide"/>
+								<img src="/assets/images/screens/pet-door/measuring-guide.png" class="img-fluid" alt="Pet Door Sizes Measuring Guide" (click)="petDoorModal.show()"/>
+
+								<div mdbModal #petDoorModal="mdb-modal" class="modal fade" tabindex="-1" role="dialog" aria-labelledby="petDoorModal" aria-hidden="true">
+									<div class="modal-dialog modal-lg" role="document">
+										<div class="modal-content">
+											<div class="modal-header">
+												<h4 class="modal-title w-100 text-center" id="myModalLabel">Pet Measuring Guide</h4>
+												<button type="button" class="close" data-dismiss="modal" aria-label="Close" (click)="petDoorModal.hide()">
+													<span aria-hidden="true">×</span>
+												</button>
+											</div>
+											<div class="modal-body">
+												<p class="px-2 text-center">Open sliding glass door to the opening measurement of the pet door model nearest to your breed. If the dog can pass through the opening, that’s your size. For pet Safety and Door Durability, Do Not Buy Larger than Necessary</p>					
+											</div>
+											<div class="modal-footer">
+												<img src="/assets/images/screens/pet-door/measuring-guide.png" class="img-fluid w-100" alt="Pet Door Sizes Measuring Guide" />
+											</div>
+										</div>
+									</div>
+								</div>
 							</div>
 						</div>
 						<br/>
 						<h4 class="p-2">Pet Door Frames</h4>
 						<div class="row">
 							<div class="col-3" *ngFor="let img of petImages | keys">
-								<img src="{{img.value}}" class="img-fluid" alt="{{img.value}}"/>
+								<img src="{{img.value}}" class="img-fluid" alt="{{img.value}}" (click)="petFramesModal.show()"/>
 								<p class="text-center">{{img.key}}</p>
+
+								<div mdbModal #petFramesModal="mdb-modal" class="modal fade" tabindex="-1" role="dialog" aria-labelledby="petFramesModal" aria-hidden="true">
+									<div class="modal-dialog" role="document">
+										<div class="modal-content">
+											<div class="modal-header">
+												<h4 class="modal-title w-100 text-center" id="myModalLabel">{{img.key}}</h4>
+												<button type="button" class="close" data-dismiss="modal" aria-label="Close" (click)="petFramesModal.hide()">
+													<span aria-hidden="true">×</span>
+												</button>
+											</div>
+											<div class="modal-body">													
+												<img src="{{img.value}}" class="img-fluid centered-sq" alt="{{img.value}}"/>
+											</div>									
+										</div>
+									</div>
+								</div>
 							</div>
 						</div>
 					</ng-container>				
@@ -127,7 +257,23 @@
 					<h4 class="p-2" *ngIf="service.extraImages">Informational Graphics</h4>
 					<div class="row" *ngIf="service.extraImages">
 						<div class="col-9" *ngFor="let img of extra_images | keys">
-							<img src="{{img.value}}" class="img-fluid" alt="{{img.value}}"/>							
+							<img src="{{img.value}}" class="img-fluid" alt="{{img.value}}" (click)="infoGraphicsModal.show()" />
+							
+							<div mdbModal #infoGraphicsModal="mdb-modal" class="modal fade" tabindex="-1" role="dialog" aria-labelledby="infoGraphicsModal" aria-hidden="true">
+								<div class="modal-dialog" role="document">
+									<div class="modal-content">
+										<div class="modal-header">
+											<h4 class="modal-title w-100 text-center" id="myModalLabel">Beat the Heat!</h4>
+											<button type="button" class="close" data-dismiss="modal" aria-label="Close" (click)="infoGraphicsModal.hide()">
+												<span aria-hidden="true">×</span>
+											</button>
+										</div>
+										<div class="modal-body">													
+											<img src="{{img.value}}" class="img-fluid" alt="{{img.value}}" />
+										</div>									
+									</div>
+								</div>
+							</div>
 						</div>
 					</div>
 		        </div>

@@ -13,10 +13,10 @@ import { NgxGalleryOptions, NgxGalleryImage, NgxGalleryAnimation, NgxGalleryImag
 })
 export class ServiceDetailComponent implements OnInit, OnDestroy {
 
-  stdColors = {
-      "Anodized Bronze":"#2D3017",
-      "White":"#ffffff"
-  }
+    stdColors = {
+        "Anodized Bronze":"#2D3017",
+        "White":"#ffffff"
+    }
     screenFrameColors = {
         Black:"/assets/images/colors/suntex-black.png",
         Brown:"/assets/images/colors/suntex-brown.png",
@@ -168,8 +168,35 @@ export class ServiceDetailComponent implements OnInit, OnDestroy {
     this.req.unsubscribe();
   }
 
-  getEmbedUrl(video){
-      return this.sanitizer.bypassSecurityTrustResourceUrl("https://www.youtube.com/embed/" + video)
-  }
+    viewMoreColors(){
+        var viewMoreBtn = document.getElementById('more-colors').style.display="none";
+        var viewLessBtn = document.getElementById('less-colors').style.display="block";
+
+        for (var i=6; i<19; i++){
+            var el = document.getElementById("square-" + i);            
+            el.style.display = 'block';
+            if (screen.width < 992){
+                var ello = document.getElementById("square-p-" + i);
+                ello.style.display = 'block';
+            }            
+        }
+    }
+    viewLessColors(){
+        var viewLessBtn = document.getElementById('less-colors').style.display="none";
+        var viewMoreBtn = document.getElementById('more-colors').style.display="block";
+
+        for (var i=6; i<19; i++){
+            var el = document.getElementById("square-" + i);            
+            el.style.display = 'none';
+            if (screen.width < 992){
+                var ello = document.getElementById("square-p-" + i);
+                ello.style.display = 'none';
+            }            
+        }     
+    }
+
+    getEmbedUrl(video){
+        return this.sanitizer.bypassSecurityTrustResourceUrl("https://www.youtube.com/embed/" + video)
+    }
 
 }

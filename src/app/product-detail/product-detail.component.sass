@@ -63,6 +63,10 @@ img
         width: 75px
         height: 75px
 
+.square-lg
+    height: 250px
+    width: 250px
+
 .centered-sq
     position: relative
     left: 50%
@@ -72,9 +76,12 @@ img
 #more-colors
     &:hover
         color: $mmblue !important
+        cursor: pointer
 
 #less-colors
     display: none
+    &:hover
+        cursor: pointer
 
 @for $i from 6 through 18
     #square-#{$i}
@@ -123,3 +130,17 @@ ngx-gallery /deep/ .ngx-gallery-arrow
 
 .modal-content
     background: #f2f2f2 !important
+
+.paintchips
+    display: block
+    text-align: -webkit-center
+    height: 300px
+    overflow: auto
+
+.paintchipsModal
+    display: block
+    text-align: -webkit-center
+
+.collapse
+    display: none
+    height: 0

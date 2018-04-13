@@ -35,6 +35,8 @@ import { KeysPipe } from './utility/keys.pipe';
 @NgModule({
   declarations: [
     AppComponent,
+    // myPipes
+    KeysPipe,
     // myComponents
     AboutComponent,
     ActionButtonsComponent,
@@ -51,8 +53,6 @@ import { KeysPipe } from './utility/keys.pipe';
     SearchDetailComponent,
     ServiceListComponent,
     ServiceDetailComponent,
-    // myPipes
-    KeysPipe,
     LandingPageComponent,
     SeoLocationLpComponent,
   ],

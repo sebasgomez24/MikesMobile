@@ -32,11 +32,11 @@ export class ActionButtonsComponent implements OnInit {
             { value: '17', label: 'TRU-Frame Security Door' },
             { value: '18', label: 'Sliding Security Doors' },
             { value: '19', label: 'CRL Guarda™ Quick Escape Window Screen' },
-            { value: '20', label: 'CRL Guarda™ Fixed Window Screen' },
-            { value: '20', label: 'CRL Guarda™ Casement Window Screen' },
-            { value: '20', label: 'Retractable Patio Awnings' },
-            { value: '20', label: 'Drop Roll Sunscreens' },
-            { value: '20', label: 'Door and Window Awnings' },
+            { value: '21', label: 'CRL Guarda™ Fixed Window Screen' },
+            { value: '22', label: 'CRL Guarda™ Casement Window Screen' },
+            { value: '23', label: 'Retractable Patio Awnings' },
+            { value: '24', label: 'Drop Roll Sunscreens' },
+            { value: '25', label: 'Door and Window Awnings' },
         ];
         this.growActionBtns();
 

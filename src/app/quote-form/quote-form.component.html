@@ -1,12 +1,10 @@
-<div (click)="basicModal.show()"></div>
-
 <!--QuoteForm Modal-->
 <div class="container">
-    <div mdbModal #basicModal="mdb-modal" class="modal fade" tabindex="-1" role="dialog" aria-labelledby="myBasicModalLabel" aria-hidden="true">
+    <div mdbModal #quoteFormModal="mdb-modal" class="modal fade" tabindex="-1" role="dialog" aria-labelledby="quoteFormModal" aria-hidden="true">
         <div class="modal-dialog" role="document">
             <div class="modal-content">
                 <div class="modal-header">
-                    <button type="button" class="close pull-right" aria-label="Close" (click)="basicModal.hide()">
+                    <button type="button" class="close pull-right" aria-label="Close" (click)="quoteFormModal.hide()">
                         <span aria-hidden="true">×</span>
                     </button>
                     <h4 class="modal-title" id="myModalLabel">Get a Free Quote Now! <br/><span class="orange-text">1-877-520-3595</span></h4>
@@ -38,7 +36,7 @@
                 </div>
 
                 <div class="d-flex flex-row">
-                    <button type="button" class="btn gray waves-light w-100" aria-label="Close" (click)="basicModal.hide()" mdbRippleRadius>Close</button>
+                    <button type="button" class="btn gray waves-light w-100" aria-label="Close" (click)="quoteFormModal.hide()" mdbRippleRadius>Close</button>
                     <button type="button" class="btn blue relative waves-light w-100" mdbRippleRadius>Save changes</button>
                 </div>
             </div>

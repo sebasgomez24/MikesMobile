@@ -47,3 +47,12 @@ li.nav-item .nav-link:hover
 #navBtn:hover
 	background: rgba(204,204,204,.25) !important
 	
+#display-mobile
+    display: block !important
+    @include breakpoint(md)
+        display: none !important
+
+.display-desktop
+    display: none !important
+    @include breakpoint(md)
+        display: block !important
