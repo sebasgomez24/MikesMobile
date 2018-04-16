@@ -5,7 +5,11 @@
 		<div class="row">
 			<!-- ServiceList Title -->
 			<div class="col-12 pb-2">
-				<h1 class="orange-text text-center py-3">{{category}}</h1>
+				<!-- <h1 id="mobile-disappear" class="orange-text text-center py-3">{{category}}</h1> -->
+				<h1 *ngIf="category === 'Door and Window Screens'" class="text-center py-3"><a class="orange-text" [routerLink]="['/about/door-and-window-screens']">{{category}}</a></h1>
+				<h1 *ngIf="category === 'Chimney Services'" class="text-center py-3"><a class="orange-text" [routerLink]="['/about/chimney-services']">{{category}}</a></h1>
+				<h1 *ngIf="category === 'Security Doors and Windows'" class="text-center py-3"><a class="orange-text" [routerLink]="['/about/security-doors-and-windows']">{{category}}</a></h1>
+				<h1 *ngIf="category === 'Awnings'" class="text-center py-3"><a class="orange-text" [routerLink]="['/about/awnings']">{{category}}</a></h1>
 			</div>
 			<!-- /ServiceList Title -->
 			<!-- Angular For Loop -->
@@ -34,7 +38,7 @@
 						      <div class="back">
 						        <h4 class="text-center">{{service.title}}</h4>
 						        <div class="divider dropdown-divider pt-0 mt-0"></div>
-						        <p class="p-1 mb-0 text-center">{{service.tileText}}</p>
+						        <p class="mb-0 text-center">{{service.tileText}}</p>
 						      </div>
 						    </a>
 						    <!--/ back content -->

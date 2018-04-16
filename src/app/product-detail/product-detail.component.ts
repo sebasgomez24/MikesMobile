@@ -83,8 +83,6 @@ export class ProductDetailComponent implements OnInit, OnDestroy {
         "Statuary Bronze":"#42372F"
     }
 
-
-
     constructor(private route: ActivatedRoute, private _service:ServicesService) { }
     
     ngOnInit() {
@@ -94,8 +92,18 @@ export class ProductDetailComponent implements OnInit, OnDestroy {
                 data.filter(item => {
                     if(item.slug == this.slug){
                         this.product = item as ServiceItem;
-                        this.recent_install_images = this.product.recentInstallImages;
-                        this.gallery_images = this.product.thumbImages;
+                        this.recent_install_images = this.product.recentInstallImages;                        
+                        if (this.product.thumbImages.length > 1){
+                            this.gallery_images = this.product.thumbImages;
+                        } else {
+                            let modalImage = true;
+                            console.log(modalImage)
+                        }
+
+                        if (this.product.bullets.length > 5){
+                            let smallLi = true;
+                            console.log(smallLi)
+                        }
                     }
                 })
             })

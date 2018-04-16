@@ -6,37 +6,39 @@ import { Component, OnInit } from '@angular/core';
   styleUrls: ['./home.component.sass']
 })
 export class HomeComponent implements OnInit {
-    optionsSelect = []
+  groupOptionsSelect = []
 
     constructor() { }
 
     ngOnInit() {
-      this.optionsSelect = [
-        { value: '1', label: 'Window Screen Repair' },
-        { value: '2', label: 'Solar Screens' },
-        { value: '3', label: 'Sliding Screen Door' },
-        { value: '4', label: 'Swinging Screen Door' },
-        { value: '5', label: 'Retractable Screen Door' },
-        { value: '6', label: 'Screen Doors' },
-        { value: '7', label: 'Pet Doors' },
-        { value: '8', label: 'Chimney Inspection' },
-        { value: '9', label: 'Chimney Cleaning' },
-        { value: '10', label: 'Chimney Repair' },
-        { value: '11', label: 'Chimney Accessories' },
-        { value: '12', label: 'Chimney Resources' },
-        { value: '13', label: 'Masonry Services' },
-        { value: '14', label: 'Steel Security Door' },
-        { value: '15', label: 'Viewguard Security Door' },
-        { value: '16', label: 'TRU-View Security Door' },
-        { value: '17', label: 'TRU-Frame Security Door' },
-        { value: '18', label: 'Sliding Security Doors' },
-        { value: '19', label: 'CRL Guarda™ Quick Escape Window Screen' },
-        { value: '20', label: 'CRL Guarda™ Fixed Window Screen' },
-        { value: '21', label: 'CRL Guarda™ Casement Window Screen' },
-        { value: '22', label: 'Retractable Patio Awnings' },
-        { value: '23', label: 'Drop Roll Sunscreens' },
-        { value: '24', label: 'Door and Window Awnings' },
-      ];
+      this.groupOptionsSelect = [
+        { value: '', label: 'DOOR AND WINDOW SCREENS', group: true },
+        { value: '1', label: 'Retractable Screen Doors' },
+        { value: '2', label: 'Sliding Screen Doors' },
+        { value: '3', label: 'Swinging Screen Doors' },
+        { value: '4', label: 'Pet Doors' },
+        { value: '5', label: 'Window Screen Repair' },
+        { value: '6', label: 'Solar Screens' },
+        { value: '', label: 'CHIMNEY SERVICES', group: true },
+        { value: '7', label: 'Chimney Inspection' },
+        { value: '8', label: 'Chimney Cleaning' },
+        { value: '9', label: 'Chimney Repair' },
+        { value: '10', label: 'Masonry Services' },
+        { value: '11', label: 'Dryer Vent Cleaning' },
+        { value: '', label: 'SECURITY DOORS AND WINDOWS', group: true },
+        { value: '12', label: 'Steel Security Doors' },
+        { value: '13', label: 'Viewguard' },
+        { value: '14', label: 'Tru-View' },
+        { value: '15', label: 'Tru-Frame' },
+        { value: '16', label: 'Sliding Security Doors' },
+        { value: '17', label: 'CRL Guarda Quick Escape' },
+        { value: '18', label: 'CRL Guarda Fixed' },
+        { value: '19', label: 'CRL Guarda Casement' },
+        { value: '', label: 'AWNINGS', group: true },
+        { value: '20', label: 'Retractable Pation Awnings' },
+        { value: '21', label: 'Drop Roll Sunscreens' },
+        { value: '22', label: 'Door and Window Awnings' },
+    ];
         this.growSlideshow();
         stateManager.init();
     }

@@ -22,7 +22,8 @@ export class AppComponent {
           ga('set', 'page', event.urlAfterRedirects);
           ga('send', 'pageview');
         }
-      });
+			});
+	
 	}
 	
 	ngOnInit(){
@@ -36,6 +37,14 @@ export class AppComponent {
 			.filter((route) => route.outlet === 'primary')
 			.mergeMap((route) => route.data)
 			.subscribe((event) => this.titleService.setTitle(event['title']));
+
+			this.router.events.subscribe((evt) => {
+				if (!(evt instanceof NavigationEnd)) {
+						return;
+					}
+					window.scrollTo(0, 0)
+			});
+
 	}
 
 }

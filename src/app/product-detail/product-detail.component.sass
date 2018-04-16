@@ -10,8 +10,11 @@
         font-weight: lighter
     ul
         padding-left: 25px
-        li
+        #l1
             padding: 10px 0
+        #l2
+            padding: 5px 0
+
 
 .breadcrumb
     background: none
@@ -29,13 +32,34 @@
     // box-shadow: 1px 1px 7px rgba(0,0,0,0.1)
 
 
-img
+.main-image
+    height: 450px
+    margin-bottom: 0.75em
     position: relative
-    max-height: 400px
     left: 50%
-    transform: translate(-50%,0)
-    @include breakpoint(sm)
-        max-height: 500px
+    transform: translate(-50%, 0)
+    &:hover
+        cursor: pointer
+    img
+        position: relative
+        max-height: 400px
+        left: 50%
+        transform: translate(-50%,0)
+        @include breakpoint(sm)
+            max-height: 500px
+
+.main-image-modal
+    height: 600px
+    position: relative
+    left: 50%
+    transform: translate(-50%, 0)
+    img
+        position: relative
+        max-height: 400px
+        left: 50%
+        transform: translate(-50%,0)
+        @include breakpoint(sm)
+            max-height: 500px
 
 .thumbnails li
       display: inline
@@ -120,6 +144,12 @@ img
     left: 50%
     transform: translate(-50%, 0)
 
+ngx-gallery
+    padding: 10px 0 0 0
+    border: 1px solid #e3e3e3
+    @include breakpoint(md)
+        border: none
+
 ngx-gallery /deep/ .ngx-gallery-arrow
     color: #000000
 
@@ -144,3 +174,17 @@ ngx-gallery /deep/ .ngx-gallery-arrow
 .collapse
     display: none
     height: 0
+
+mdb-tabset
+    position: relative !important
+    z-index: 0 !important
+
+.lower-zindex
+    position: relative !important
+    z-index: 0 !important
+
+#ptr
+    cursor: pointer
+
+.small
+    font-size: .75em

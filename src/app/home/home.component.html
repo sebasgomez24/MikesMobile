@@ -91,8 +91,11 @@
                     <h4 class="modal-title" id="myModalLabel">Get a Free Quote Now! <br/><span class="orange-text">1-877-520-3595</span></h4>
                 </div>
                 <div class="modal-body">
-                    <div class="md-form form-sm">
+                    <!-- <div class="md-form form-sm">
                         <mdb-select [options]="optionsSelect" [multiple]="true" placeholder="What service were you interested in?"></mdb-select>
+                    </div> -->
+                    <div class="md-form form-sm">                        
+                        <mdb-select [options]="groupOptionsSelect" placeholder="Choose your option" class="colorful-select dropdown-primary"></mdb-select>
                     </div>
                     <div class="md-form form-sm">
                         <input mdbActive type="text" id="form1" class="form-control">

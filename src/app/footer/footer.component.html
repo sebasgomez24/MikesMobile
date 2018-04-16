@@ -13,15 +13,17 @@
                 <!--Grid column-->
                 <div class="col-md-6 col-lg-7 text-center text-md-right">
                     <!--Facebook-->
-                    <a class="fb-ic ml-0"><i class="fa fa-facebook white-text mr-2 mr-lg-4"> </i></a>
+                    <a class="fb-ic ml-0" href="https://www.facebook.com/MikesMobileScreenAndChimneyService/"><i class="fa fa-facebook white-text mr-2 mr-lg-4"> </i></a>
                     <!--Twitter-->
-                    <a class="tw-ic"><i class="fa fa-twitter white-text mr-2 mr-lg-4"> </i></a>
+                    <a class="gplus1-ic" href="https://plus.google.com/+MikesMobileScreenChimneyServiceStockton"><i class="fa fa-google-plus-square white-text mr-2 mr-lg-4"> </i></a>
                     <!--Google +-->
-                    <a class="gplus-ic"><i class="fa fa-google-plus white-text mr-2 mr-lg-4"> </i></a>
+                    <a class="gplus-ic" href="https://plus.google.com/+MikesMobileScreenChimneyServiceSacramento"><i class="fa fa-google-plus white-text mr-2 mr-lg-4"> </i></a>
                     <!--Linkedin-->
-                    <a class="li-ic"><i class="fa fa-linkedin white-text mr-2 mr-lg-4"> </i></a>
+                    <a class="li-ic" href="https://www.yelp.com/biz/mikes-mobile-screen-and-chimney-service-sacramento"><i class="fa fa-yelp white-text mr-2 mr-lg-4"> </i></a>
                     <!--Instagram-->
-                    <a class="ins-ic"><i class="fa fa-instagram white-text"> </i></a>
+                    <!-- <a class="ins-ic"><i class="fa fa-instagram white-text"> </i></a> -->
+                    <!--Youtube-->
+                    <a class="ins-ic" href="https://www.youtube.com/channel/UCm9zVDyFkzYydZxzjHMOUdQ"><i class="fa fa-youtube-play white-text"> </i></a>
                 </div>
                 <!--Grid column-->
 
@@ -60,11 +62,10 @@
             <div class="col-6 col-lg-3 col-xl-3 mx-auto mb-4">
                 <h6 class="text-uppercase font-weight-bold"><strong>Our Services</strong></h6>
                 <hr class="blue mb-3 mt-0 d-inline-block mx-auto" style="width: 60px;">
-                <p><a href="#!">Door and Window Screens</a></p>
-                <p><a href="#!">Chimney Services</a></p>
-                <p><a href="#!">Home Security</a></p>
-                <p><a href="#!">Home Improvement</a></p>
-                <p><a href="#!">Awnings</a></p>
+                <p><a [routerLink]="['/about/door-and-window-screens']">Door and Window Screens</a></p>
+                <p><a [routerLink]="['/about/chimney-services']">Chimney Services</a></p>
+                <p><a [routerLink]="['/about/security-doors-and-windows']">Home Security</a></p>
+                <p><a [routerLink]="['/about/awnings']">Awnings</a></p>
             </div>
             <!--/.Second column-->
 
@@ -73,7 +74,7 @@
                 <h6 class="text-uppercase font-weight-bold"><strong>Useful links</strong></h6>
                 <hr class="blue mb-3 mt-0 d-inline-block mx-auto" style="width: 60px;">
                 <p><a (click)="basicModal.show()" class="orange-text" mdbRippleRadius>Get a Free Quote</a></p>
-                <p><a href="#!">About Us</a></p>
+                <p><a [routerLink]="['/about']">About Us</a></p>
                 <p><a href="#!">Contact Us</a></p>
                 <p><a href="#!">SiteMap</a></p>
             </div>
@@ -117,8 +118,11 @@
                     <h4 class="modal-title" id="myModalLabel">Get a Free Quote Now! <br/><span class="orange-text">1-877-520-3595</span></h4>
                 </div>
                 <div class="modal-body">
-                    <div class="md-form form-sm">
+                    <!-- <div class="md-form form-sm">
                         <mdb-select [options]="optionsSelect" [multiple]="true" placeholder="What service were you interested in?"></mdb-select>
+                    </div> -->
+                    <div class="md-form form-sm">                        
+                        <mdb-select [options]="groupOptionsSelect" placeholder="Choose your option" class="colorful-select dropdown-primary"></mdb-select>
                     </div>
                     <div class="md-form form-sm">
                         <input mdbActive type="text" id="form1" class="form-control">

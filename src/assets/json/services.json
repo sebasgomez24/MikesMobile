@@ -2,7 +2,7 @@
     {
         "title":"Retractable Screen Door",
         "slug":"retractable-screen-door",
-        "category":"Screens",
+        "category":"Door and Window Screens",
         "subcategory":"Door",
         "type":"products",
         "tileText":"Disappearing or retractable screen doors are the contemporary alternative to that old wooden swinging screen door you had growing up.",
@@ -33,7 +33,13 @@
         "productOverview":"We are one of the only independent disappearing screen door installers in Northern California. Have outward opening doors? Our door can fit inside your home with minimal intrusion- most people will never know they are there until you use them! We sell our doors with an industry leading 10 Year Warranty <br/><br/> Our Retractable screen doors are an “inside mount” style which offers superior aesthetics and durability when compared to “surface mount” (protrudes 5+ inches outside your door frame) doors which most other manufacturers sell. Our installers have the combined knowledge of thousands of disappearing screen door installations and we would be happy to come out and show you a display of an actual door. We offer color matching all the way around the door (often your threshold is a different color than your door frame) so the finished product blends in seamlessly with your house. <br/><br/> Our door can fit inside your home with minimal intrusion- most people will never know they are there until you use them!we have examined every door on the market and only offer the best. We sell our doors with an industry leading 10 Year Warranty* so it is in our best interest to sell the best door on the market. The door we offer is called the Rollaway, manufactured by the R.Lang Company here in California. <br/><br/> Rollaway doors are completely powder coated and offer springs and rollers on the door slides to ensure a lifetime of trouble free operation.",
         "technicalSpecs":"<li>Concealed Clean Installation Hinge Our installation hinge hides mounting screws</li><li>Low Profile Designer Housing Spring system and impact bumper provide trouble free operation</li><li>Smooth Gliding Roller System Patented spring loaded roller keeps the Roll-Away door in adjustment for a lifetime even in out-of-square openings</li><li>Secure Latch or Magnetic Closure Locking latch provides safety and assurance or full length magnetic closure allows ease of use</li><li>Click here for the parts list of the Rollaway Retractable Screen Door</li><li>Click here for a diagram of the retractable screen door from R. Lang</li>",
         "options":"<li>Choose from 6 popular colors (See below)</li><li>Available in inside and surface mount</li><li>Latch Series</li><li>Magnetic Series</li><li>French Doors</li>",
-        "relatedProducts":"<li>Swinging Screen Doors</li><li>Window Screens</li><li>Sliding Security Doors</li>",
+        "relatedProducts":{
+            "Sliding Screen Doors": "/products/sliding-screen-doors",
+            "Retractable Screen Doors": "/products/retractable-screen-doors",
+            "Door and Window Screens": "/about/door-and-window-screens",
+            "Swinging Screen Doors": "/products/swinging-screen-doors",
+            "Security Door and Windows":"/about/security-doors-and-windows"
+        },
         "warranty":"<strong>10 Year Limited Warranty<br/><br/></strong><p>All warranties cover materials, manufacturing defects and hardware for the periods listed below but will not cover normal wear and tear of the product. Screen mesh is not covered beyond the initial installation of products. Defective items must be reported within 5 days of receipt for validation. Improper installation of the product will not be covered under the warranties listed. Warranty periods begin from the date of purchase.</p>",
         "recentInstallImages":[
             {
@@ -77,7 +83,7 @@
     {
         "title":"Sliding Screen Door",
         "slug":"sliding-screen-door",
-        "category":"Screens",
+        "category":"Door and Window Screens",
         "subcategory":"Door",
         "type":"products",
         "bullets":["Sick and tired of that old, flimsy door with the broken wheels always falling off the track?","Don’t waste your time with a one-size fits all door with plastic wheels from the hardware store.","Every one of our doors is custom made to fit your doorway."],
@@ -118,119 +124,38 @@
         "productOverview":"Our sliding screen door offers an all- metal construction with steel wheels, bearings and a metal lock.  Many of our customers opt for Solar Screen in their doors to take advantage of the added durability it offers, and because of the fact that we sell it with a 10 year warranty.  The doors are built with inside corners and adjustable wheels for a perfect fit. For more information check out the tabs above.",
         "technicalSpecs":"All Metal Construction<br/><br/><li>1-3/4 in. x 1/2 in. Extruded Aluminum Frame</li><li>1-1/4 in. Steel Ball Bearing Rollers</li><li>Extruded aluminum Handle assembly with mortise lock and lever latch</li><li>Non-handed with Handle Centered</li><li>Heavy Duty Diecast Corners with Side Ajustment</li><li>Charcoal Fiberglass Insect Screening</li><li>Extruded Vinyl Bug Seal with Flap & Tear-off Strips</li><li>Assembled & K.D. Widths Available Up to 73in.</li><li>Assembled & K.D. Heights Available Up to 97in. (Specify Handle Height on Doors Over 84in. Tall)</li>",
         "options":"<li>Replacement Tracks</li><li>Upper/Lower Tracks</li><li>Aluminum Tracks</li><li>Snap Bead Vinyl</li><li>Frame Colors Available: See Below</li><li>Solar Screen</li><li>Pet Door Option (S,M,L,XL)</li>",
-        "relatedProducts":"<li>Swinging Screen Doors</li><li>Rollaway Screen Doors</li><li>Window Screens</li><li>Sliding Security Doors</li>",
+        "relatedProducts":{
+            "Sliding Screen Doors": "/products/sliding-screen-doors",
+            "Retractable Screen Doors": "/products/retractable-screen-doors",
+            "Door and Window Screens": "/about/door-and-window-screens",
+            "Swinging Screen Doors": "/products/swinging-screen-doors",
+            "Security Door and Windows":"/about/security-doors-and-windows"
+        },
         "warranty":"Warranty covers workmanship of door. This includes wheels not working properly, corners coming apart, handle not functioning, and any other workmanship issues not listed here that are determined to be the fault of the manufacturer. Not covered under the warranty is any damage to the screen (Solar Screen has a warranty, Bugscreen does not.) or intentional damage including tampering with the door, damaged caused by brute, or intentional, force, damage from a pet or any other intentional act not deemed a workmanship flaw.",
         "colorSet":["colorSetx4"]
     },
     {
         "title":"Swinging Screen Doors",
         "slug":"swinging-screen-doors",
-        "category":"Screens",
+        "category":"Door and Window Screens",
         "subcategory":"Door",
         "type":"grid",
         "tileImage":"/assets/images/screens/swinging-screen-doors/swinging-door.jpg",
         "tileText":"Looking for that old-fashioned simplicity of a swinging screen door? We have many styles and colors to choose from.",
         "description":"Looking for that old-fashioned simplicity of a swinging screen door? We have many styles and colors to choose from. These are the best swinging screen doors on the market and we can fit them to virtually any door!"
-    },
-    {
-        "title":"Brighton",
-        "slug":"brighton-swinging-screen-door",
-        "category":"Swinging Screen Door",
-        "subcategory":"Door",
-        "type":"products",
-        "bullets":["The Brighton style Swinging Screen Door mixes an elegant and open design.","It offers two horizontal bars and two vertical bars inside of the extruded aluminum frame.","Standard and custom sizes are available and comes with charcoal fiberglass bug mesh.","You can add Solar Screen to the door to make even more durable!"],
-        "thumbImages":[
-            {
-                "small":"/assets/images/screens/swinging-screen-doors/brighton/brighton.png",
-                "medium":"/assets/images/screens/swinging-screen-doors/brighton/brighton.png",
-                "big":"/assets/images/screens/swinging-screen-doors/brighton/brighton.png"
-            }
-        ],
-        "tileImage":"/assets/images/screens/swinging-screen-doors/brighton/brighton.png",
-        "tileText":"Call us today and get great pricing on window screen replacements. We specialize in all kinds of window screens and Solar Screens.",
-        "productOverview":"Mike's Mobile Screen & Chimney Service offers high quality Swinging Screen doors. The Brighton Swinging Screen Doors offers a 1in. Wide Sculptured 9 Lite marginal grid pattern which combines elegance and openess to this door design. Our prices include installation. Call today to find out more!",
-        "technicalSpecs":"<li>2-1/8in. x 3/4in. .050 Extruded Aluminum Frame</li><li>Available in Standard Sizes</li><li>2ft 6in. x 6ft 8in. (29-1/4in. x 79-1/4in.)</li><li>2ft 8in. x 6ft 8in. (31-1/4in. x 79-1/4in.)</li><li>3ft 0in x 6ft 8in. (35-1/4in. x 79-1/4in.)</li><li>Custom Widths 24in. - 47in., Heights up to 96in.</li><li>1in. Wide Sculptured 9 Lite Marginal Grid Pattern</li><li>Charcoal Fiberglass Insect Screening</li><li>Standard Push Button Handle</li><li>1-7/8in Side Adjustable .050 Channel with 3 Hinges</li><li>1-7/8in Bottom Adjustment .050 Channel</li><li>Precision SAFEGUARD Packaging - Complete with Hardware.</li>",
-        "options":"<li>Double Door Option</li><li>Hinge Expader or Pre Hung Frame</li><li>Frame Colors Available: Adobe, Almond, Bronze, Weathered Brown, and White</li><li>Solar Screen</li><li>9in. Kick Plate</li>",
-        "relatedProducts":"<li>Sliding Screen Doors</li><li>Rollaway Screen Doors</li><li>Window Screens</li><li>Security Doors</li><li>Swinging Screen Doors</li>",
-        "warranty":"Warranty covers workmanship of door. This includes hardware not working properly, corners coming apart, handle not functioning, and any other workmanship issues not listed here that are determined to be the fault of the manufacturer. Not covered under the warranty is any damage to the screen (Solar Screen has a warranty, Bugscreen does not.) or intentional damage including tampering with the door, damaged caused by brute, or intentional, force, damage from a pet or any other intentional act not deemed a workmanship flaw.",
-        "colorSet":["swingingDoorColors"]
-    },
-    {
-        "title":"Clearview",
-        "slug":"clearview-swinging-screen-door",
-        "category":"Swinging Screen Door",
-        "subcategory":"Door",
-        "type":"products",
-        "bullets":["The Clearview Swinging Screen Door is open design that maximizes visibility and ventilation.","This door comes in Standard and custom sizes.","Customize your door today and add a pet door or Solar Screen today!"],
-        "tileImage":"/assets/images/screens/swinging-screen-doors/clearview/clearview.png",
-        "tileText":"Call us today and get great pricing on window screen replacements. We specialize in all kinds of window screens and Solar Screens.",
-        "thumbImages":[
-            {
-                "small":"/assets/images/screens/swinging-screen-doors/clearview/clearview.png",
-                "medium":"/assets/images/screens/swinging-screen-doors/clearview/clearview.png",
-                "big":"/assets/images/screens/swinging-screen-doors/clearview/clearview.png"
-            }
-        ],
-        "productOverview":"Mike's Mobile Screen & Chimney Service offers high quality Swinging Screen doors. The Brighton Swinging Screen Doors offers a 1in. Wide Sculptured 9 Lite marginal grid pattern which combines elegance and openess to this door design. Our prices include installation. Call today to find out more!",
-        "technicalSpecs":"<li>2-1/8in. x 3/4in. .050 Extruded Aluminum Frame</li><li>Available in Standard Sizes</li><li>2ft 6in. x 6ft 8in. (29-1/4in. x 79-1/4in.)</li><li>2ft 8in. x 6ft 8in. (31-1/4in. x 79-1/4in.)</li><li>3ft 0in x 6ft 8in. (35-1/4in. x 79-1/4in.)</li><li>Custom Widths 24in. - 47in., Heights up to 96in.</li><li>1in. Wide Sculptured 9 Lite Marginal Grid Pattern</li><li>Charcoal Fiberglass Insect Screening</li><li>Standard Push Button Handle</li><li>1-7/8in Side Adjustable .050 Channel with 3 Hinges</li><li>1-7/8in Bottom Adjustment .050 Channel</li><li>Precision SAFEGUARD Packaging - Complete with Hardware.</li>",
-        "options":"<li>Double Door Option</li><li>Hinge Expader or Pre Hung Frame</li><li>Frame Colors Available: Adobe, Almond, Bronze, Weathered Brown, and White</li><li>Solar Screen</li><li>9in. Kick Plate</li>",
-        "relatedProducts":"<li>Sliding Screen Doors</li><li>Rollaway Screen Doors</li><li>Window Screens</li><li>Security Doors</li><li>Swinging Screen Doors</li>",
-        "warranty":"Warranty covers workmanship of door. This includes hardware not working properly, corners coming apart, handle not functioning, and any other workmanship issues not listed here that are determined to be the fault of the manufacturer. Not covered under the warranty is any damage to the screen (Solar Screen has a warranty, Bugscreen does not.) or intentional damage including tampering with the door, damaged caused by brute, or intentional, force, damage from a pet or any other intentional act not deemed a workmanship flaw.",
-        "colorSet":["swingingDoorColors"]
-    },
-    {
-        "title":"Colonade",
-        "slug":"colonade-swinging-screen-door",
-        "category":"Swinging Screen Door",
-        "subcategory":"Door",
-        "type":"products",
-        "bullets":["The Clearview Swinging Screen Door is open design that maximizes visibility and ventilation.","This door comes in Standard and custom sizes.","Customize your door today and add a pet door or Solar Screen today!"],
-        "thumbImages":[
-            {
-                "small":"/assets/images/screens/swinging-screen-doors/colonade/colonade.png",
-                "medium":"/assets/images/screens/swinging-screen-doors/colonade/colonade.png",
-                "big":"/assets/images/screens/swinging-screen-doors/colonade/colonade.png"
-            }
-        ],
-        "tileImage":"/assets/images/screens/swinging-screen-doors/colonade/colonade.png",
-        "tileText":"Call us today and get great pricing on window screen replacements. We specialize in all kinds of window screens and Solar Screens.",
-        "productOverview":"Mike's Mobile Screen & Chimney Service offers high quality Swinging Screen doors. The Brighton Swinging Screen Doors offers a 1in. Wide Sculptured 9 Lite marginal grid pattern which combines elegance and openess to this door design. Our prices include installation. Call today to find out more!",
-        "technicalSpecs":"<li>2-1/8in. x 3/4in. .050 Extruded Aluminum Frame</li><li>Available in Standard Sizes</li><li>2ft 6in. x 6ft 8in. (29-1/4in. x 79-1/4in.)</li><li>2ft 8in. x 6ft 8in. (31-1/4in. x 79-1/4in.)</li><li>3ft 0in x 6ft 8in. (35-1/4in. x 79-1/4in.)</li><li>Custom Widths 24in. - 47in., Heights up to 96in.</li><li>1in. Wide Sculptured 9 Lite Marginal Grid Pattern</li><li>Charcoal Fiberglass Insect Screening</li><li>Standard Push Button Handle</li><li>1-7/8in Side Adjustable .050 Channel with 3 Hinges</li><li>1-7/8in Bottom Adjustment .050 Channel</li><li>Precision SAFEGUARD Packaging - Complete with Hardware.</li>",
-        "options":"<li>Double Door Option</li><li>Hinge Expader or Pre Hung Frame</li><li>Frame Colors Available: Adobe, Almond, Bronze, Weathered Brown, and White</li><li>Solar Screen</li><li>9in. Kick Plate</li>",
-        "relatedProducts":"<li>Sliding Screen Doors</li><li>Rollaway Screen Doors</li><li>Window Screens</li><li>Security Doors</li><li>Swinging Screen Doors</li>",
-        "warranty":"Warranty covers workmanship of door. This includes hardware not working properly, corners coming apart, handle not functioning, and any other workmanship issues not listed here that are determined to be the fault of the manufacturer. Not covered under the warranty is any damage to the screen (Solar Screen has a warranty, Bugscreen does not.) or intentional damage including tampering with the door, damaged caused by brute, or intentional, force, damage from a pet or any other intentional act not deemed a workmanship flaw.",
-        "colorSet":["swingingDoorColors"]
-    },
-    {
-        "title":"Craftsman",
-        "slug":"craftsman-swinging-screen-door",
-        "category":"Swinging Screen Door",
-        "subcategory":"Door",
-        "type":"products",
-        "bullets":["The Clearview Swinging Screen Door is open design that maximizes visibility and ventilation.","This door comes in Standard and custom sizes.","Customize your door today and add a pet door or Solar Screen today!"],
-        "thumbImages":[
-            {
-                "small":"/assets/images/screens/swinging-screen-doors/craftsman/craftsman.png",
-                "medium":"/assets/images/screens/swinging-screen-doors/craftsman/craftsman.png",
-                "big":"/assets/images/screens/swinging-screen-doors/craftsman/craftsman.png"
-            }
-        ],
-        "tileImage":"/assets/images/screens/swinging-screen-doors/craftsman/craftsman.png",
-        "tileText":"Call us today and get great pricing on window screen replacements. We specialize in all kinds of window screens and Solar Screens.",
-        "productOverview":"Mike's Mobile Screen & Chimney Service offers high quality Swinging Screen doors. The Brighton Swinging Screen Doors offers a 1in. Wide Sculptured 9 Lite marginal grid pattern which combines elegance and openess to this door design. Our prices include installation. Call today to find out more!",
-        "technicalSpecs":"<li>2-1/8in. x 3/4in. .050 Extruded Aluminum Frame</li><li>Available in Standard Sizes</li><li>2ft 6in. x 6ft 8in. (29-1/4in. x 79-1/4in.)</li><li>2ft 8in. x 6ft 8in. (31-1/4in. x 79-1/4in.)</li><li>3ft 0in x 6ft 8in. (35-1/4in. x 79-1/4in.)</li><li>Custom Widths 24in. - 47in., Heights up to 96in.</li><li>1in. Wide Sculptured 9 Lite Marginal Grid Pattern</li><li>Charcoal Fiberglass Insect Screening</li><li>Standard Push Button Handle</li><li>1-7/8in Side Adjustable .050 Channel with 3 Hinges</li><li>1-7/8in Bottom Adjustment .050 Channel</li><li>Precision SAFEGUARD Packaging - Complete with Hardware.</li>",
-        "options":"<li>Double Door Option</li><li>Hinge Expader or Pre Hung Frame</li><li>Frame Colors Available: Adobe, Almond, Bronze, Weathered Brown, and White</li><li>Solar Screen</li><li>9in. Kick Plate</li>",
-        "relatedProducts":"<li>Sliding Screen Doors</li><li>Rollaway Screen Doors</li><li>Window Screens</li><li>Security Doors</li><li>Swinging Screen Doors</li>",
-        "warranty":"Warranty covers workmanship of door. This includes hardware not working properly, corners coming apart, handle not functioning, and any other workmanship issues not listed here that are determined to be the fault of the manufacturer. Not covered under the warranty is any damage to the screen (Solar Screen has a warranty, Bugscreen does not.) or intentional damage including tampering with the door, damaged caused by brute, or intentional, force, damage from a pet or any other intentional act not deemed a workmanship flaw.",
-        "colorSet":["swingingDoorColors"]
-    },
+    },    
     {
         "title":"El Dorado",
         "slug":"el-dorado-swinging-screen-door",
         "category":"Swinging Screen Door",
         "subcategory":"Door",
         "type":"products",
-        "bullets":["The Clearview Swinging Screen Door is open design that maximizes visibility and ventilation.","This door comes in Standard and custom sizes.","Customize your door today and add a pet door or Solar Screen today!"],
+        "bullets":[
+            "The El Dorado Swinging Screen Door has a distinct bottom half design that shows to vertical scenes.",
+            "The scenes are made up of tree like designs. The door's bottom half ends with three horizontal grids at the top.",
+            "This door comes in Standard and custom sizes.",
+            "Customize your door today and add a Solar Screen today!"
+        ],
         "thumbImages":[
             {
                 "small":"/assets/images/screens/swinging-screen-doors/el-dorado/el-dorado.png",
@@ -243,7 +168,13 @@
         "productOverview":"Mike's Mobile Screen & Chimney Service offers high quality Swinging Screen doors. The Brighton Swinging Screen Doors offers a 1in. Wide Sculptured 9 Lite marginal grid pattern which combines elegance and openess to this door design. Our prices include installation. Call today to find out more!",
         "technicalSpecs":"<li>2-1/8in. x 3/4in. .050 Extruded Aluminum Frame</li><li>Available in Standard Sizes</li><li>2ft 6in. x 6ft 8in. (29-1/4in. x 79-1/4in.)</li><li>2ft 8in. x 6ft 8in. (31-1/4in. x 79-1/4in.)</li><li>3ft 0in x 6ft 8in. (35-1/4in. x 79-1/4in.)</li><li>Custom Widths 24in. - 47in., Heights up to 96in.</li><li>1in. Wide Sculptured 9 Lite Marginal Grid Pattern</li><li>Charcoal Fiberglass Insect Screening</li><li>Standard Push Button Handle</li><li>1-7/8in Side Adjustable .050 Channel with 3 Hinges</li><li>1-7/8in Bottom Adjustment .050 Channel</li><li>Precision SAFEGUARD Packaging - Complete with Hardware.</li>",
         "options":"<li>Double Door Option</li><li>Hinge Expader or Pre Hung Frame</li><li>Frame Colors Available: Adobe, Almond, Bronze, Weathered Brown, and White</li><li>Solar Screen</li><li>9in. Kick Plate</li>",
-        "relatedProducts":"<li>Sliding Screen Doors</li><li>Rollaway Screen Doors</li><li>Window Screens</li><li>Security Doors</li><li>Swinging Screen Doors</li>",
+        "relatedProducts":{
+            "Sliding Screen Doors": "/products/sliding-screen-doors",
+            "Retractable Screen Doors": "/products/retractable-screen-doors",
+            "Door and Window Screens": "/about/door-and-window-screens",
+            "Swinging Screen Doors": "/products/swinging-screen-doors",
+            "Security Door and Windows":"/about/security-doors-and-windows"
+        },
         "warranty":"Warranty covers workmanship of door. This includes hardware not working properly, corners coming apart, handle not functioning, and any other workmanship issues not listed here that are determined to be the fault of the manufacturer. Not covered under the warranty is any damage to the screen (Solar Screen has a warranty, Bugscreen does not.) or intentional damage including tampering with the door, damaged caused by brute, or intentional, force, damage from a pet or any other intentional act not deemed a workmanship flaw.",
         "colorSet":["swingingDoorColors"]
     },
@@ -253,7 +184,13 @@
         "category":"Swinging Screen Door",
         "subcategory":"Door",
         "type":"products",
-        "bullets":["The Clearview Swinging Screen Door is open design that maximizes visibility and ventilation.","This door comes in Standard and custom sizes.","Customize your door today and add a pet door or Solar Screen today!"],
+        "bullets":[
+            "The Fiesta style Swinging Screen door offers a classic design. On the top half you have an unobstructed view and great ventilation.",
+            "On the bottom half you have an aluminum grille.",
+            "This door comes in Standard and custom sizes.",
+            "The Fiesta Swinging Screen Door comes standard with charcoal fiberglass bug mesh.",
+            "Make it pet resistant by adding Solar Screen!"
+        ],
         "thumbImages":[
             {
                 "small":"/assets/images/screens/swinging-screen-doors/fiesta/fiesta.png",
@@ -266,7 +203,13 @@
         "productOverview":"Mike's Mobile Screen & Chimney Service offers high quality Swinging Screen doors. The Brighton Swinging Screen Doors offers a 1in. Wide Sculptured 9 Lite marginal grid pattern which combines elegance and openess to this door design. Our prices include installation. Call today to find out more!",
         "technicalSpecs":"<li>2-1/8in. x 3/4in. .050 Extruded Aluminum Frame</li><li>Available in Standard Sizes</li><li>2ft 6in. x 6ft 8in. (29-1/4in. x 79-1/4in.)</li><li>2ft 8in. x 6ft 8in. (31-1/4in. x 79-1/4in.)</li><li>3ft 0in x 6ft 8in. (35-1/4in. x 79-1/4in.)</li><li>Custom Widths 24in. - 47in., Heights up to 96in.</li><li>1in. Wide Sculptured 9 Lite Marginal Grid Pattern</li><li>Charcoal Fiberglass Insect Screening</li><li>Standard Push Button Handle</li><li>1-7/8in Side Adjustable .050 Channel with 3 Hinges</li><li>1-7/8in Bottom Adjustment .050 Channel</li><li>Precision SAFEGUARD Packaging - Complete with Hardware.</li>",
         "options":"<li>Double Door Option</li><li>Hinge Expader or Pre Hung Frame</li><li>Frame Colors Available: Adobe, Almond, Bronze, Weathered Brown, and White</li><li>Solar Screen</li><li>9in. Kick Plate</li>",
-        "relatedProducts":"<li>Sliding Screen Doors</li><li>Rollaway Screen Doors</li><li>Window Screens</li><li>Security Doors</li><li>Swinging Screen Doors</li>",
+        "relatedProducts":{
+            "Sliding Screen Doors": "/products/sliding-screen-doors",
+            "Retractable Screen Doors": "/products/retractable-screen-doors",
+            "Door and Window Screens": "/about/door-and-window-screens",
+            "Swinging Screen Doors": "/products/swinging-screen-doors",
+            "Security Door and Windows":"/about/security-doors-and-windows"
+        },
         "warranty":"Warranty covers workmanship of door. This includes hardware not working properly, corners coming apart, handle not functioning, and any other workmanship issues not listed here that are determined to be the fault of the manufacturer. Not covered under the warranty is any damage to the screen (Solar Screen has a warranty, Bugscreen does not.) or intentional damage including tampering with the door, damaged caused by brute, or intentional, force, damage from a pet or any other intentional act not deemed a workmanship flaw.",
         "colorSet":["swingingDoorColors"]
     },
@@ -276,7 +219,11 @@
         "category":"Swinging Screen Door",
         "subcategory":"Door",
         "type":"products",
-        "bullets":["The Clearview Swinging Screen Door is open design that maximizes visibility and ventilation.","This door comes in Standard and custom sizes.","Customize your door today and add a pet door or Solar Screen today!"],
+        "bullets":[
+            "The Safeguard Swinging Screen Door offers another option to customers looking for a bottom half grille.",
+            "This classic design enables you to have maximum visibility and great ventilation.",
+            "The extruded aluminum amplimesh style grille gives you more options."
+        ],
         "thumbImages":[
             {
                 "small":"/assets/images/screens/swinging-screen-doors/safeguard/safeguard.png",
@@ -289,7 +236,13 @@
         "productOverview":"Mike's Mobile Screen & Chimney Service offers high quality Swinging Screen doors. The Brighton Swinging Screen Doors offers a 1in. Wide Sculptured 9 Lite marginal grid pattern which combines elegance and openess to this door design. Our prices include installation. Call today to find out more!",
         "technicalSpecs":"<li>2-1/8in. x 3/4in. .050 Extruded Aluminum Frame</li><li>Available in Standard Sizes</li><li>2ft 6in. x 6ft 8in. (29-1/4in. x 79-1/4in.)</li><li>2ft 8in. x 6ft 8in. (31-1/4in. x 79-1/4in.)</li><li>3ft 0in x 6ft 8in. (35-1/4in. x 79-1/4in.)</li><li>Custom Widths 24in. - 47in., Heights up to 96in.</li><li>1in. Wide Sculptured 9 Lite Marginal Grid Pattern</li><li>Charcoal Fiberglass Insect Screening</li><li>Standard Push Button Handle</li><li>1-7/8in Side Adjustable .050 Channel with 3 Hinges</li><li>1-7/8in Bottom Adjustment .050 Channel</li><li>Precision SAFEGUARD Packaging - Complete with Hardware.</li>",
         "options":"<li>Double Door Option</li><li>Hinge Expader or Pre Hung Frame</li><li>Frame Colors Available: Adobe, Almond, Bronze, Weathered Brown, and White</li><li>Solar Screen</li><li>9in. Kick Plate</li>",
-        "relatedProducts":"<li>Sliding Screen Doors</li><li>Rollaway Screen Doors</li><li>Window Screens</li><li>Security Doors</li><li>Swinging Screen Doors</li>",
+        "relatedProducts":{
+            "Sliding Screen Doors": "/products/sliding-screen-doors",
+            "Retractable Screen Doors": "/products/retractable-screen-doors",
+            "Door and Window Screens": "/about/door-and-window-screens",
+            "Swinging Screen Doors": "/products/swinging-screen-doors",
+            "Security Door and Windows":"/about/security-doors-and-windows"
+        },
         "warranty":"Warranty covers workmanship of door. This includes hardware not working properly, corners coming apart, handle not functioning, and any other workmanship issues not listed here that are determined to be the fault of the manufacturer. Not covered under the warranty is any damage to the screen (Solar Screen has a warranty, Bugscreen does not.) or intentional damage including tampering with the door, damaged caused by brute, or intentional, force, damage from a pet or any other intentional act not deemed a workmanship flaw.",
         "colorSet":["swingingDoorColors"]
     },
@@ -312,18 +265,150 @@
         "productOverview":"Mike's Mobile Screen & Chimney Service offers high quality Swinging Screen doors. The Santa Cruz Swinging Screen Door is another option for customers searching for the perfect screen door. The screen door comes Standard with a charcoal fiberglass bug mesh. Try adding a Pet Door or Solar Screen!",
         "technicalSpecs":"<li>2-1/8in. x 3/4in. .050 Extruded Aluminum Frame</li><li>Standard 12in. Embossed .024 Aluminum Kickplate</li><li>Available in Standard Sizes</li><li>2ft 6in. x 6ft 8in. (29-1/4in. x 79-1/4in.)</li><li>2ft 8in. x 6ft 8in. (31-1/4in. x 79-1/4in.)</li><li>3ft 0in. x 6ft 8in. (35-1/4in. x 79-1/4in.)</li><li>Custom Widths 24in. - 42in., Heights up to 96in.</li><li>Charcoal Fiberglass Insect Screening</li><li>Standard Push Button Handle</li><li>1-7/8in. Side Adjustable .050 Channel with 3 Hinges</li><li>1-7/8in. Bottom Adjustment .050 Channel</li><li>Precision SAFEGUARD Packaging - Complete with Hardware.</li><li>Extruded Amplimesh 3/16in. Aluminum Grille</li><li>NOTE: Grille Turned Sideways on Doors</li><li>Over 35-1/4in. Wide</li>",
         "options":"<li>Double Door Option</li><li>Hinge Expader or Pre Hung Frame</li><li>Frame Colors Available: Available in all colors except Mill</li><li>Solar Screen</li><li>Pet Door</li><li>Kick Plate</li>",
-        "relatedProducts":"<li>Sliding Screen Doors</li><li>Rollaway Screen Doors</li><li>Window Screens</li><li>Security Doors</li><li>Swinging Screen Doors</li>",
+        "relatedProducts":{
+            "Sliding Screen Doors": "/products/sliding-screen-doors",
+            "Retractable Screen Doors": "/products/retractable-screen-doors",
+            "Door and Window Screens": "/about/door-and-window-screens",
+            "Swinging Screen Doors": "/products/swinging-screen-doors",
+            "Security Door and Windows":"/about/security-doors-and-windows"
+        },
+        "warranty":"Warranty covers workmanship of door. This includes hardware not working properly, corners coming apart, handle not functioning, and any other workmanship issues not listed here that are determined to be the fault of the manufacturer. Not covered under the warranty is any damage to the screen (Solar Screen has a warranty, Bugscreen does not.) or intentional damage including tampering with the door, damaged caused by brute, or intentional, force, damage from a pet or any other intentional act not deemed a workmanship flaw.",
+        "colorSet":["swingingDoorColors"]
+    },
+    {
+        "title":"Brighton",
+        "slug":"brighton-swinging-screen-door",
+        "category":"Swinging Screen Door",
+        "subcategory":"Door",
+        "type":"products",
+        "bullets":[
+            "The Brighton style Swinging Screen Door mixes an elegant and open design. It offers two horizontal bars and two vertical bars inside of the extruded aluminum frame.",
+            "This door is not available with push bar or pet door options. Standard and custom sizes are available and comes with charcoal fiberglass bug mesh.",
+            "You can add Solar Screen to the door to make even more durable!"
+        ],
+        "thumbImages":[
+            {
+                "small":"/assets/images/screens/swinging-screen-doors/brighton/brighton.png",
+                "medium":"/assets/images/screens/swinging-screen-doors/brighton/brighton.png",
+                "big":"/assets/images/screens/swinging-screen-doors/brighton/brighton.png"
+            }
+        ],
+        "tileImage":"/assets/images/screens/swinging-screen-doors/brighton/brighton.png",
+        "tileText":"Call us today and get great pricing on window screen replacements. We specialize in all kinds of window screens and Solar Screens.",
+        "productOverview":"Mike's Mobile Screen & Chimney Service offers high quality Swinging Screen doors. The Brighton Swinging Screen Doors offers a 1in. Wide Sculptured 9 Lite marginal grid pattern which combines elegance and openess to this door design. Our prices include installation. Call today to find out more!",
+        "technicalSpecs":"<li>2-1/8in. x 3/4in. .050 Extruded Aluminum Frame</li><li>Available in Standard Sizes</li><li>2ft 6in. x 6ft 8in. (29-1/4in. x 79-1/4in.)</li><li>2ft 8in. x 6ft 8in. (31-1/4in. x 79-1/4in.)</li><li>3ft 0in x 6ft 8in. (35-1/4in. x 79-1/4in.)</li><li>Custom Widths 24in. - 47in., Heights up to 96in.</li><li>1in. Wide Sculptured 9 Lite Marginal Grid Pattern</li><li>Charcoal Fiberglass Insect Screening</li><li>Standard Push Button Handle</li><li>1-7/8in Side Adjustable .050 Channel with 3 Hinges</li><li>1-7/8in Bottom Adjustment .050 Channel</li><li>Precision SAFEGUARD Packaging - Complete with Hardware.</li>",
+        "options":"<li>Double Door Option</li><li>Hinge Expader or Pre Hung Frame</li><li>Frame Colors Available: Adobe, Almond, Bronze, Weathered Brown, and White</li><li>Solar Screen</li><li>9in. Kick Plate</li>",
+        "relatedProducts":{
+            "Sliding Screen Doors": "/products/sliding-screen-doors",
+            "Retractable Screen Doors": "/products/retractable-screen-doors",
+            "Door and Window Screens": "/about/door-and-window-screens",
+            "Swinging Screen Doors": "/products/swinging-screen-doors",
+            "Security Door and Windows":"/about/security-doors-and-windows"
+        },
+        "warranty":"Warranty covers workmanship of door. This includes hardware not working properly, corners coming apart, handle not functioning, and any other workmanship issues not listed here that are determined to be the fault of the manufacturer. Not covered under the warranty is any damage to the screen (Solar Screen has a warranty, Bugscreen does not.) or intentional damage including tampering with the door, damaged caused by brute, or intentional, force, damage from a pet or any other intentional act not deemed a workmanship flaw.",
+        "colorSet":["swingingDoorColors"]
+    },
+    {
+        "title":"Clearview",
+        "slug":"clearview-swinging-screen-door",
+        "category":"Swinging Screen Door",
+        "subcategory":"Door",
+        "type":"products",
+        "bullets":["The Clearview Swinging Screen Door is open design that maximizes visibility and ventilation.","This door comes in Standard and custom sizes.","Customize your door today and add a pet door or Solar Screen today!"],
+        "tileImage":"/assets/images/screens/swinging-screen-doors/clearview/clearview.png",
+        "tileText":"Call us today and get great pricing on window screen replacements. We specialize in all kinds of window screens and Solar Screens.",
+        "thumbImages":[
+            {
+                "small":"/assets/images/screens/swinging-screen-doors/clearview/clearview.png",
+                "medium":"/assets/images/screens/swinging-screen-doors/clearview/clearview.png",
+                "big":"/assets/images/screens/swinging-screen-doors/clearview/clearview.png"
+            }
+        ],
+        "productOverview":"Mike's Mobile Screen & Chimney Service offers high quality Swinging Screen doors. The Brighton Swinging Screen Doors offers a 1in. Wide Sculptured 9 Lite marginal grid pattern which combines elegance and openess to this door design. Our prices include installation. Call today to find out more!",
+        "technicalSpecs":"<li>2-1/8in. x 3/4in. .050 Extruded Aluminum Frame</li><li>Available in Standard Sizes</li><li>2ft 6in. x 6ft 8in. (29-1/4in. x 79-1/4in.)</li><li>2ft 8in. x 6ft 8in. (31-1/4in. x 79-1/4in.)</li><li>3ft 0in x 6ft 8in. (35-1/4in. x 79-1/4in.)</li><li>Custom Widths 24in. - 47in., Heights up to 96in.</li><li>1in. Wide Sculptured 9 Lite Marginal Grid Pattern</li><li>Charcoal Fiberglass Insect Screening</li><li>Standard Push Button Handle</li><li>1-7/8in Side Adjustable .050 Channel with 3 Hinges</li><li>1-7/8in Bottom Adjustment .050 Channel</li><li>Precision SAFEGUARD Packaging - Complete with Hardware.</li>",
+        "options":"<li>Double Door Option</li><li>Hinge Expader or Pre Hung Frame</li><li>Frame Colors Available: Adobe, Almond, Bronze, Weathered Brown, and White</li><li>Solar Screen</li><li>9in. Kick Plate</li>",
+        "relatedProducts":{
+            "Sliding Screen Doors": "/products/sliding-screen-doors",
+            "Retractable Screen Doors": "/products/retractable-screen-doors",
+            "Door and Window Screens": "/about/door-and-window-screens",
+            "Swinging Screen Doors": "/products/swinging-screen-doors",
+            "Security Door and Windows":"/about/security-doors-and-windows"
+        },
+        "warranty":"Warranty covers workmanship of door. This includes hardware not working properly, corners coming apart, handle not functioning, and any other workmanship issues not listed here that are determined to be the fault of the manufacturer. Not covered under the warranty is any damage to the screen (Solar Screen has a warranty, Bugscreen does not.) or intentional damage including tampering with the door, damaged caused by brute, or intentional, force, damage from a pet or any other intentional act not deemed a workmanship flaw.",
+        "colorSet":["swingingDoorColors"]
+    },
+    {
+        "title":"Colonade",
+        "slug":"colonade-swinging-screen-door",
+        "category":"Swinging Screen Door",
+        "subcategory":"Door",
+        "type":"products",
+        "bullets":[
+            "The Colonade Swinging Screen Door is an elegant design of a 15 lite grid pattern that will add character and depth to this screen door.",
+            "This door comes in standard and custom sizes. Customize your door today and add Solar Screen today!"
+        ],
+        "thumbImages":[
+            {
+                "small":"/assets/images/screens/swinging-screen-doors/colonade/colonade.png",
+                "medium":"/assets/images/screens/swinging-screen-doors/colonade/colonade.png",
+                "big":"/assets/images/screens/swinging-screen-doors/colonade/colonade.png"
+            }
+        ],
+        "tileImage":"/assets/images/screens/swinging-screen-doors/colonade/colonade.png",
+        "tileText":"Call us today and get great pricing on window screen replacements. We specialize in all kinds of window screens and Solar Screens.",
+        "productOverview":"Mike's Mobile Screen & Chimney Service offers high quality Swinging Screen doors. The Brighton Swinging Screen Doors offers a 1in. Wide Sculptured 9 Lite marginal grid pattern which combines elegance and openess to this door design. Our prices include installation. Call today to find out more!",
+        "technicalSpecs":"<li>2-1/8in. x 3/4in. .050 Extruded Aluminum Frame</li><li>Available in Standard Sizes</li><li>2ft 6in. x 6ft 8in. (29-1/4in. x 79-1/4in.)</li><li>2ft 8in. x 6ft 8in. (31-1/4in. x 79-1/4in.)</li><li>3ft 0in x 6ft 8in. (35-1/4in. x 79-1/4in.)</li><li>Custom Widths 24in. - 47in., Heights up to 96in.</li><li>1in. Wide Sculptured 9 Lite Marginal Grid Pattern</li><li>Charcoal Fiberglass Insect Screening</li><li>Standard Push Button Handle</li><li>1-7/8in Side Adjustable .050 Channel with 3 Hinges</li><li>1-7/8in Bottom Adjustment .050 Channel</li><li>Precision SAFEGUARD Packaging - Complete with Hardware.</li>",
+        "options":"<li>Double Door Option</li><li>Hinge Expader or Pre Hung Frame</li><li>Frame Colors Available: Adobe, Almond, Bronze, Weathered Brown, and White</li><li>Solar Screen</li><li>9in. Kick Plate</li>",
+        "relatedProducts":{
+            "Sliding Screen Doors": "/products/sliding-screen-doors",
+            "Retractable Screen Doors": "/products/retractable-screen-doors",
+            "Door and Window Screens": "/about/door-and-window-screens",
+            "Swinging Screen Doors": "/products/swinging-screen-doors",
+            "Security Door and Windows":"/about/security-doors-and-windows"
+        },
+        "warranty":"Warranty covers workmanship of door. This includes hardware not working properly, corners coming apart, handle not functioning, and any other workmanship issues not listed here that are determined to be the fault of the manufacturer. Not covered under the warranty is any damage to the screen (Solar Screen has a warranty, Bugscreen does not.) or intentional damage including tampering with the door, damaged caused by brute, or intentional, force, damage from a pet or any other intentional act not deemed a workmanship flaw.",
+        "colorSet":["swingingDoorColors"]
+    },
+    {
+        "title":"Craftsman",
+        "slug":"craftsman-swinging-screen-door",
+        "category":"Swinging Screen Door",
+        "subcategory":"Door",
+        "type":"products",
+        "bullets":[
+            "The Craftsman Swinging Screen Door is an alternative to other doors with bottom half designs.",
+            "This screen door offers three vertical grids and two horizontal grids on the bottom half."    ,
+            "This door comes in standard and custom sizes. Customize your door today and add Solar Screen today!"
+        ],
+        "thumbImages":[
+            {
+                "small":"/assets/images/screens/swinging-screen-doors/craftsman/craftsman.png",
+                "medium":"/assets/images/screens/swinging-screen-doors/craftsman/craftsman.png",
+                "big":"/assets/images/screens/swinging-screen-doors/craftsman/craftsman.png"
+            }
+        ],
+        "tileImage":"/assets/images/screens/swinging-screen-doors/craftsman/craftsman.png",
+        "tileText":"Call us today and get great pricing on window screen replacements. We specialize in all kinds of window screens and Solar Screens.",
+        "productOverview":"Mike's Mobile Screen & Chimney Service offers high quality Swinging Screen doors. The Brighton Swinging Screen Doors offers a 1in. Wide Sculptured 9 Lite marginal grid pattern which combines elegance and openess to this door design. Our prices include installation. Call today to find out more!",
+        "technicalSpecs":"<li>2-1/8in. x 3/4in. .050 Extruded Aluminum Frame</li><li>Available in Standard Sizes</li><li>2ft 6in. x 6ft 8in. (29-1/4in. x 79-1/4in.)</li><li>2ft 8in. x 6ft 8in. (31-1/4in. x 79-1/4in.)</li><li>3ft 0in x 6ft 8in. (35-1/4in. x 79-1/4in.)</li><li>Custom Widths 24in. - 47in., Heights up to 96in.</li><li>1in. Wide Sculptured 9 Lite Marginal Grid Pattern</li><li>Charcoal Fiberglass Insect Screening</li><li>Standard Push Button Handle</li><li>1-7/8in Side Adjustable .050 Channel with 3 Hinges</li><li>1-7/8in Bottom Adjustment .050 Channel</li><li>Precision SAFEGUARD Packaging - Complete with Hardware.</li>",
+        "options":"<li>Double Door Option</li><li>Hinge Expader or Pre Hung Frame</li><li>Frame Colors Available: Adobe, Almond, Bronze, Weathered Brown, and White</li><li>Solar Screen</li><li>9in. Kick Plate</li>",
+        "relatedProducts":{
+            "Sliding Screen Doors": "/products/sliding-screen-doors",
+            "Retractable Screen Doors": "/products/retractable-screen-doors",
+            "Door and Window Screens": "/about/door-and-window-screens",
+            "Swinging Screen Doors": "/products/swinging-screen-doors",
+            "Security Door and Windows":"/about/security-doors-and-windows"
+        },
         "warranty":"Warranty covers workmanship of door. This includes hardware not working properly, corners coming apart, handle not functioning, and any other workmanship issues not listed here that are determined to be the fault of the manufacturer. Not covered under the warranty is any damage to the screen (Solar Screen has a warranty, Bugscreen does not.) or intentional damage including tampering with the door, damaged caused by brute, or intentional, force, damage from a pet or any other intentional act not deemed a workmanship flaw.",
         "colorSet":["swingingDoorColors"]
     },
 
 
 
-
     {
         "title":"Window Screen Repair",
         "slug":"window-screen-repair",
-        "category":"Screens",
+        "category":"Door and Window Screens",
         "subcategory":"Window",
         "type":"services",
         "serviceImgCaption":"Fast, friendly, and affordable window screen & frame replacement!",
@@ -348,7 +433,7 @@
     {
         "title":"Solar Screens",
         "slug":"solar-screens",
-        "category":"Screens",
+        "category":"Door and Window Screens",
         "subcategory":"Window",
         "type":"services",
         "tileImage":"/assets/images/screens/solar-screens/solar-screen2.jpg",
@@ -400,10 +485,10 @@
     {
         "title":"Pet Door",
         "slug":"pet-door",
-        "category":"Screens",
+        "category":"Door and Window Screens",
         "subcategory":"Door",
         "type":"services",
-        "tileImage":"/assets/images/screens/pet-door/pet-door-main.jpg",
+        "tileImage":"/assets/images/screens/pet-door/pet-door-main-small.jpg",
         "tileText":"Not your average pet door! These doors are made to LAST, unlike those flimsy plastic kits from the hardware store that are just going to cause you problems.",
         "images":{
             "Almond":"/assets/images/screens/pet-door/almond-frame.jpg",
@@ -433,10 +518,9 @@
     },
     {
         "title":"Accessories",
-        "slug":"accessories",
-        "category":"Chimney",
+        "slug":"chimney-accessories",
+        "category":"Chimney Services",
         "type":"grid",
-        "bullets":[],
         "tileImage":"/assets/images/chimneys/fireplace-screen.jpg",
         "tileText":"Is your fireplace too plain or not quite working right? Mike’s Mobile offers a wide range of chimney accessories. From caps to keep out rain to grates to help wood more efficiently, we have it all!",
         "thumbImages":[
@@ -454,19 +538,19 @@
         "type":"services",
         "tileImage":"/assets/images/chimneys/accessories/chimney-cap/chimney-cap.jpg",
         "tileText":"Not your average pet door! These doors are made to LAST, unlike those flimsy plastic kits from the hardware store that are just going to cause you problems.",
-        "serviceImgCaption":"Not your average pet door!",
+        "serviceImgCaption":"Keep animals and leaves out of your chimney.",
         "textList":[
             {
-                "title":"Quick Install",
-                "description":"Installs directly into your sliding door- no need for a separate panel. These doors are made to LAST, unlike those flimsy plastic kits from the hardware store that are just going to cause you problems."
+                "title":"Reasons EVERY chimney needs a cap",
+                "description":"Rain Protection – water causes the greatest damage to your chimney of any of the elements. It soaks into the porous bricks, eats away at the mortar, hastens the destruction of the chimney liner, and destroys the chimney crown. A chimney cap does a great job of protecting your chimney from water damage."
             },
             {
-                "title":"Top Quality",
-                "description":"Flexible heavy duty rubber will not crack in winter or warp in summer. Magnets are imbedded into the rubber for energy savings."
+                "title":"Animal Protection",
+                "description":"Animal Protection – one of the great sources of danger to homeowners is the threat of disease from animals like raccoons, swuirrels, birds, and rodents that make their home in their chimneys. A well-made chimney cap will keep those animals out of your home forever. Sturdy mesh, a strong lid and one-piece construction keep even the most determined critters at bay."
             },
             {
-                "title":"Safety First",
-                "description":"The locking cover (not shown) is particle board enameled bright white on one side for greater visibility to the pet. This cover should be used on the same side as the pet. However, It is designed to be breakable as a safety precaution in case the pet crashes into it from the wrong side."
+                "title":"Spark Protection",
+                "description":"Spark Protection – the mesh screen on our caps protects your home from sparks emitted from your chimney. This means less danger of a fire caused by stray sparks from your fireplace or woodstove."
             }
         ]
     },
@@ -477,19 +561,31 @@
         "type":"services",
         "tileImage":"/assets/images/chimneys/accessories/fireplace-grate/1.jpg",
         "tileText":"Not your average pet door! These doors are made to LAST, unlike those flimsy plastic kits from the hardware store that are just going to cause you problems.",
-        "serviceImgCaption":"Not your average pet door!",
+        "serviceImgCaption":"One of the most overlooked chimney parts is a quality fireplace grate. ",
         "textList":[
             {
-                "title":"Quick Install",
-                "description":"Installs directly into your sliding door- no need for a separate panel. These doors are made to LAST, unlike those flimsy plastic kits from the hardware store that are just going to cause you problems."
+                "title":"Better Quality Burn",
+                "description":"Better quality burn – The  fireplace grate lifts wood off of the floor allowing air to be pulled in from underneath the wood, your fire will be supercharged with air making it hotter and more efficient."
             },
             {
-                "title":"Top Quality",
-                "description":"Flexible heavy duty rubber will not crack in winter or warp in summer. Magnets are imbedded into the rubber for energy savings."
+                "title":"More Complete Burn",
+                "description":"More complete burn – Burned pieces of wood fall to the fireplace floor through the spaces in the fireplace grate creating a bed of super hot coals. This allows the wood above to be burned from the bottom up so you don’t need to adjust and move the wood once placed on the fireplace grate."
             },
             {
-                "title":"Safety First",
-                "description":"The locking cover (not shown) is particle board enameled bright white on one side for greater visibility to the pet. This cover should be used on the same side as the pet. However, It is designed to be breakable as a safety precaution in case the pet crashes into it from the wrong side."
+                "title":"Protection of your Fireplace Floor",
+                "description":"Protection of your fireplace floor – The fireplace grate keeps the real heat up off the floor protecting your concrete from the extreme heat of the fire. This will add life to your fireplace."
+            },
+            {
+                "title":"Better Drafting",
+                "description":"Better drafting – When you lift the fire off of the floor you do two things, lift the fire closer to the chimney and allow air to move under the fire. By doing this you not only supercharge your fire but you also help it draft smoke and fumes out the chimney instead of into your home. Sometimes a smoking fireplace can be cured by the use of a fireplace grate."
+            },
+            {
+                "title":"Less Work",
+                "description":"Less work – Most fireplace grates have a front and back that curl up. This helps to cradle your firewood to keep it in one location and also helps to continuously force the wood to the middle of the fireplace grate. Instead of having to move the wood around all the time you simply add more when needed. This can help reduce hot embers from popping out and burning your floor as well."
+            },
+            {
+                "title":"Easier to Light",
+                "description":"Easier to light – Using a fireplace grate allows air to get under the wood making the fire much easier to start."
             }
         ]
     },
@@ -500,19 +596,10 @@
         "type":"services",
         "tileImage":"/assets/images/chimneys/accessories/fireplace-glass-doors/black.png",
         "tileText":"Not your average pet door! These doors are made to LAST, unlike those flimsy plastic kits from the hardware store that are just going to cause you problems.",
-        "serviceImgCaption":"Not your average pet door!",
         "textList":[
             {
-                "title":"Quick Install",
-                "description":"Installs directly into your sliding door- no need for a separate panel. These doors are made to LAST, unlike those flimsy plastic kits from the hardware store that are just going to cause you problems."
-            },
-            {
-                "title":"Top Quality",
-                "description":"Flexible heavy duty rubber will not crack in winter or warp in summer. Magnets are imbedded into the rubber for energy savings."
-            },
-            {
-                "title":"Safety First",
-                "description":"The locking cover (not shown) is particle board enameled bright white on one side for greater visibility to the pet. This cover should be used on the same side as the pet. However, It is designed to be breakable as a safety precaution in case the pet crashes into it from the wrong side."
+                "title":"Masonry Fireplace Glass Door Sets",
+                "description":"We can properly fit your fireplace with a quality, trouble-free glass door set. We have many suppliers and can get custom sets made up for a fraction of the price you may find elsewhere. We run into many cases where glass door sets were improperly installed, usually on zero-clearance chimneys blocking the ventilation holes required to be open to cool the chimney system while burning. This is a serious fire hazard and there are specific regulations concerning how glass door sets must be installed on these units to provide proper airflow and ventilation."
             }
         ]
     },
@@ -523,19 +610,19 @@
         "type":"services",
         "tileImage":"/assets/images/chimneys/accessories/radiant-firebacks/radiant-fireback.jpg",
         "tileText":"Not your average pet door! These doors are made to LAST, unlike those flimsy plastic kits from the hardware store that are just going to cause you problems.",
-        "serviceImgCaption":"Not your average pet door!",
+        "serviceImgCaption":"Keep more of the heat from your fire back in your home",
         "textList":[
             {
-                "title":"Quick Install",
-                "description":"Installs directly into your sliding door- no need for a separate panel. These doors are made to LAST, unlike those flimsy plastic kits from the hardware store that are just going to cause you problems."
+                "title":"Radiant Fireback in a Zero-Clearance fireplace",
+                "description":"Heat from each fire you burn places a lot of strain on your rear refractory panel. In the event that your rear panel starts to crack, you still have time before this crack gets larger. We recommend patching refractory panels with cement patching and installing a radiant fireback to assist in further cracking of the panel. Not only will this repair be less expensive, it will also provide a higher efficiency of heat output with the radiant fireback reflecting more of the heat back into the home. With only sheet metal behind your refractory panels, protecting these panels is of the highest priority when it comes to resisting high temperatures during a fire. Keep your home and your family safe."
             },
             {
-                "title":"Top Quality",
-                "description":"Flexible heavy duty rubber will not crack in winter or warp in summer. Magnets are imbedded into the rubber for energy savings."
+                "title":"Radiant Fireback in an open masonry fireplace",
+                "description":"Approximately 80% of the heat in a firebox gets absorbed in the rear firewall causing heat damage to even the best built masonry fireplace. When installed in conjunction with a professional repair of a rear firewall a fireback can virtually stop this kind of damage. Constructed of 14 gauge, 304-alloy stainless steel, the lightweight radiant fireback will effectively reflect heat back into your room at a fraction of the cost of a traditional cast iron fireback. With open fireplaces being less efficient than a fireplace insert, anything to increase this inefficiency is high recommended! Multiple sizes are available to fit your fireplace."
             },
             {
-                "title":"Safety First",
-                "description":"The locking cover (not shown) is particle board enameled bright white on one side for greater visibility to the pet. This cover should be used on the same side as the pet. However, It is designed to be breakable as a safety precaution in case the pet crashes into it from the wrong side."
+                "title":"Efficiency beyond an open fireplace",
+                "description":"If you are looking for your fireplace to put out more heat in the winter time and serve as a bit more than just decoration, we highly recommend asking us about having a fireplace insert installed in your home. Various rebates are available to make this process more affordable and we work with the best companies to ensure you get the best fireplace insert to fit your needs. Give us a call and we can get you started!"
             }
         ]
     },
@@ -544,8 +631,8 @@
 
     {
         "title":"Cleaning",
-        "slug":"cleaning",
-        "category":"Chimney",
+        "slug":"chimney-cleaning",
+        "category":"Chimney Services",
         "type":"services",
         "tileImage":"/assets/images/chimneys/cleaning/1.jpg",
         "tileText":"Whether you have a masonry open fireplace, zero-clearance, wood-burning insert, freestanding stove or pellet stove, a chimney cleaning will help keep your family safe and your chimney working smoothly.",
@@ -567,8 +654,8 @@
     },
     {
         "title":"Inspections",
-        "slug":"inspections",
-        "category":"Chimney",
+        "slug":"chimney-inspections",
+        "category":"Chimney Services",
         "type":"services",
         "tileImage":"assets/images/chimneys/inspections/inspections.jpg",
         "tileText":"Keep your chimney safe and in great shape. Schedule a certified chimney inspection before you burn.",
@@ -589,8 +676,8 @@
     },
     {
         "title":"Repairs",
-        "slug":"repairs",
-        "category":"Chimney",
+        "slug":"chimney-repairs",
+        "category":"Chimney Services",
         "type":"grid",
         "tileImage":"/assets/images/chimneys/chimney-unsplash.jpg",
         "tileText":"When it comes to chimney repairs, our chimney professionals are your go-to for crown seals, heat damage, masonry repair, chimney liners, refractory panels, chimney de-glazing, and more!"
@@ -716,16 +803,6 @@
         ]
     },
 
-
-
-    {
-        "title":"Resources",
-        "slug":"resources",
-        "category":"Chimney",
-        "type":"grid",
-        "tileImage":"/assets/images/chimneys/resources3.jpg",
-        "tileText":"Take a look at some of our resources for more references."
-    },
     {
         "title":"Chimney Glossary Terms",
         "slug":"chimney-glossary-terms",
@@ -755,7 +832,7 @@
     {
         "title":"Masonry Services",
         "slug":"masonry-services",
-        "category":"Chimney",
+        "category":"Chimney Services",
         "type":"grid",
         "tileImage":"/assets/images/chimneys/masonry.jpeg",
         "tileText":"Masonry is a very popular material that gives home owners and builders flexibility. It is beautiful, versatile, resistant to fires, and earthquakes."
@@ -791,16 +868,16 @@
         "tileText":"Protect your chimney from water damage. Get a crown seal for your chimney now!",
         "textList":[
             {
-                "title":"A chimney crown seal protects the chimney crown from damage over time.",
-                "description":"Your chimney crown is the area that is around the top of the chimney (not to be confused with the chimney cap that is an attachment that is added to the top of the flue pipe). A chimney crown seal protects the chimney crown from damage over time. The chimney crown tops off the masonry walls of the chimney, usually with a wider masonry or cement area. This solid covering stops moisture from filtering down through your brick or stone work in your chimney. The crown is vital to protecting the mortar that holds everything together."
+                "title":"Keep your fireplace looking fresh and clean!",
+                "description":"A fireplace hearth is also a very important part of preventing heat transfer to nearby combustibles. Any severe cracks will allow more heat to be transferred underneath your fireplace hearth which is never a good idea! Chipped bricks, a stained hearth, and years of accumulated soot can turn what should be the focal point of a living room into an eyesore. Replacing a hearth and it's surround makes a big, drastic difference in the way a fireplace looks"
             },
             {
-                "title":"Chimney Lifetime",
-                "description":"There are chimney crown sealants that are able to be applied to a chimney crown that still has structural integrity but needs to be waterproofed. Larger cracks are filled with high bond patching material and then the crown seal is applied over the top of the whole chimney crown. The sealant forms a waterproof membrane between the elements and your chimney.When properly applied, these solutions can add up to 15 years to the life of a chimney crown that has begun to wear."
+                "title":"Take care of your hearth",
+                "description":"The hearth is the space in front of where the fire actually burns in a fireplace. As with the brick of a chimney stack, it must be able to handle both the potential corrosive elements of the burned material and the high heats it can be subjected to. While a chimney cleaning will definitely remove fresh soot, a stained hearth of either many years of neglect or heavy burning will leave you with a stain you can never really get rid of. The only way to permanently remedy this is to replace these stained bricks with fresh new ones!"
             },
             {
-                "title":"Call us today and repair your chimney crown",
-                "description":"If your chimney crown is showing its age, it may be time to replace it with a new concrete chimney cap before it is too late. Some masons will simply use mortar mix to create a new top for the chimney. The problem with that is, mortar mix will crack and leak very quickly and is not a weather resistant material. A cement chimney crown that is properly designed to overhang the outside dimensions of the chimney structure is the best solution. When your chimney crown becomes cracked or has lost pieces of its original shape it no longer is doing the job that it needs to. Once your chimney crown begins deteriorating and falling apart, it won’t be long before serious damage will set in to your entire chimney. It may be worth a visit to your roof once in a while to do your own inspection of the chimney crown. Don’t take our word for it – just take a quick drive around downtown and look up at the older masonry chimneys. Most of them are literally falling apart from the top down. The last thing someone needs is bricks falling down or costly repairs. When we service our customers with their annual inspection and chimney cleaning, the chimney crown is a key area that we look at. If there are any defects at all, we suggest an immediate crown seal to prevent more damage."
+                "title":"Call us today and repair your fireplace",
+                "description":"Just like all of our other masonry services, when we inspect a masonry chimney, we look for all signs of wear and tear that can be potential fire hazards. A fireplace hearth is no different. With age and use, a chimney hearth will start to degrade over time. These bricks however can be replaced so that you can enjoy the look of a fresh new fireplace or change the look of bricks that never appealed to you. With your fireplace hearth being directly in front of the logs you are burning whether you have a fireplace grate or not, these bricks are constantly absorbing heat. While a fireplace grate certainly prolongs the life of a hearth and firebox, if logs were burned previously without one, your fireplace hearth may be taking quite some damage! So be sure to call Mike's Mobile Screen & Chimney Service for any future fireplace repair needs!"
             }
         ]
     },
@@ -813,16 +890,16 @@
         "tileText":"Protect your chimney from water damage. Get a crown seal for your chimney now!",
         "textList":[
             {
-                "title":"A chimney crown seal protects the chimney crown from damage over time.",
-                "description":"Your chimney crown is the area that is around the top of the chimney (not to be confused with the chimney cap that is an attachment that is added to the top of the flue pipe). A chimney crown seal protects the chimney crown from damage over time. The chimney crown tops off the masonry walls of the chimney, usually with a wider masonry or cement area. This solid covering stops moisture from filtering down through your brick or stone work in your chimney. The crown is vital to protecting the mortar that holds everything together."
+                "title":"A neglected chimney stack can be an accident waiting to happen",
+                "description":"A neglected chimney stack can be an accident waiting to happen and usually requires a chimney rebuild. Mortar crumbling, infiltration by water, exposure to the elements, frequent use, time, and lack of preventative maintenance will make a chimney vulnerable, calling for major repairs if not a complete chimney rebuild. Improper chimney repairs are also major causes of chimney rebuilds. A chimney’s lifetime depends on climate, usage, construction, and maintenance."
             },
             {
-                "title":"Chimney Lifetime",
-                "description":"There are chimney crown sealants that are able to be applied to a chimney crown that still has structural integrity but needs to be waterproofed. Larger cracks are filled with high bond patching material and then the crown seal is applied over the top of the whole chimney crown. The sealant forms a waterproof membrane between the elements and your chimney.When properly applied, these solutions can add up to 15 years to the life of a chimney crown that has begun to wear."
+                "title":"It’s usually advisable to get things sorted sooner rather than later",
+                "description":"If your chimney inspection finds a need for a chimney rebuild, it’s usually advisable to get things sorted sooner rather than later. A chimney rebuild removes any question of the stability of your chimney stack and will improve the value of your home compared to a leaning or broken chimney stack. One of more serious problems such as instability, water penetration and even disintegration."
             },
             {
-                "title":"Call us today and repair your chimney crown",
-                "description":"If your chimney crown is showing its age, it may be time to replace it with a new concrete chimney cap before it is too late. Some masons will simply use mortar mix to create a new top for the chimney. The problem with that is, mortar mix will crack and leak very quickly and is not a weather resistant material. A cement chimney crown that is properly designed to overhang the outside dimensions of the chimney structure is the best solution. When your chimney crown becomes cracked or has lost pieces of its original shape it no longer is doing the job that it needs to. Once your chimney crown begins deteriorating and falling apart, it won’t be long before serious damage will set in to your entire chimney. It may be worth a visit to your roof once in a while to do your own inspection of the chimney crown. Don’t take our word for it – just take a quick drive around downtown and look up at the older masonry chimneys. Most of them are literally falling apart from the top down. The last thing someone needs is bricks falling down or costly repairs. When we service our customers with their annual inspection and chimney cleaning, the chimney crown is a key area that we look at. If there are any defects at all, we suggest an immediate crown seal to prevent more damage."
+                "title":"Call us today and get your chimney rebuild",
+                "description":"If you notice your chimney leaning or missing bricks give us a call so we can schedule you an inspection and chimney rebuild estimate. When it comes to chimney repairs, make sure the company you are going with is licensed, bonded, and insured. Without these proper precautions you leave yourself open to spending a lot of money on someone who won't get the job done right and can leave your home as dangerous as it was before the chimney rebuild. Mike's Mobile Screen & Chimney Service is licensed, bonded, and insured. Make sure you get the job done right and give us a call first!"
             }
         ]
     },
@@ -835,16 +912,16 @@
         "tileText":"Protect your chimney from water damage. Get a crown seal for your chimney now!",
         "textList":[
             {
-                "title":"A chimney crown seal protects the chimney crown from damage over time.",
-                "description":"Your chimney crown is the area that is around the top of the chimney (not to be confused with the chimney cap that is an attachment that is added to the top of the flue pipe). A chimney crown seal protects the chimney crown from damage over time. The chimney crown tops off the masonry walls of the chimney, usually with a wider masonry or cement area. This solid covering stops moisture from filtering down through your brick or stone work in your chimney. The crown is vital to protecting the mortar that holds everything together."
+                "title":"Give your backyard a beautiful makeover",
+                "description":"Here at Mike's Mobile we pride ourselves on holding a masterful knowledge of our field, along with a creative understanding of form and function. To you, this means our ability to bring to the table the rare combination of amazing hardscape design along with the actual hands on knowledge of precise and proper construction. One aspect of masonry is the art of bringing the indoors to the outdoors. When designed and built correctly, hardscapes can bring about tranquility and relaxation. Hardscapes not only adds personal enjoyment value but also increases the value of your home tremendously."
             },
             {
-                "title":"Chimney Lifetime",
-                "description":"There are chimney crown sealants that are able to be applied to a chimney crown that still has structural integrity but needs to be waterproofed. Larger cracks are filled with high bond patching material and then the crown seal is applied over the top of the whole chimney crown. The sealant forms a waterproof membrane between the elements and your chimney.When properly applied, these solutions can add up to 15 years to the life of a chimney crown that has begun to wear."
+                "title":"Get a free estimate for all your hardscape needs!",
+                "description":"Mike's Mobile offers complete outdoor living additions (hardscape) to your home: fireplaces, kitchens, bars, decorative and retaining walls, living areas, fire pits, patios, decks, elevated patios, pools, ponds and much more. Stone and brick are just some of the materials used within our detailed designs by our master masons. The list is only limited to your imagination (and ours)!"
             },
             {
-                "title":"Call us today and repair your chimney crown",
-                "description":"If your chimney crown is showing its age, it may be time to replace it with a new concrete chimney cap before it is too late. Some masons will simply use mortar mix to create a new top for the chimney. The problem with that is, mortar mix will crack and leak very quickly and is not a weather resistant material. A cement chimney crown that is properly designed to overhang the outside dimensions of the chimney structure is the best solution. When your chimney crown becomes cracked or has lost pieces of its original shape it no longer is doing the job that it needs to. Once your chimney crown begins deteriorating and falling apart, it won’t be long before serious damage will set in to your entire chimney. It may be worth a visit to your roof once in a while to do your own inspection of the chimney crown. Don’t take our word for it – just take a quick drive around downtown and look up at the older masonry chimneys. Most of them are literally falling apart from the top down. The last thing someone needs is bricks falling down or costly repairs. When we service our customers with their annual inspection and chimney cleaning, the chimney crown is a key area that we look at. If there are any defects at all, we suggest an immediate crown seal to prevent more damage."
+                "title":"Call us today to get started with your makeover",
+                "description":"Our expertise in masonry is not limited solely to the exterior of your home. Interior renovations including floors, walls, fireplaces and basements with the use of brick and stone are a fantastic way to create warmth and a rich ambiance to your indoor living. Our expertise and knowledge in this industry is far reaching giving you full peace of mind in our ability, dedication and fulfillment of your project. True stone and brick masonry designed, created and constructed by true Master Masons. Why settle for anything less? Contact Us!"
             }
         ]
     },
@@ -857,16 +934,16 @@
         "tileText":"Protect your chimney from water damage. Get a crown seal for your chimney now!",
         "textList":[
             {
-                "title":"A chimney crown seal protects the chimney crown from damage over time.",
-                "description":"Your chimney crown is the area that is around the top of the chimney (not to be confused with the chimney cap that is an attachment that is added to the top of the flue pipe). A chimney crown seal protects the chimney crown from damage over time. The chimney crown tops off the masonry walls of the chimney, usually with a wider masonry or cement area. This solid covering stops moisture from filtering down through your brick or stone work in your chimney. The crown is vital to protecting the mortar that holds everything together."
+                "title":"Keep your chimney in tip-top shape",
+                "description":"The mortar joints of a chimney become damaged due to harsh weather conditions, particularly excessive amounts of water. Moisture can even damage rock masonry, when water gets in due to weakened mortar joints. Tuckpointing is a repair process which stops the destructive process and provides numerous benefits."
             },
             {
-                "title":"Chimney Lifetime",
-                "description":"There are chimney crown sealants that are able to be applied to a chimney crown that still has structural integrity but needs to be waterproofed. Larger cracks are filled with high bond patching material and then the crown seal is applied over the top of the whole chimney crown. The sealant forms a waterproof membrane between the elements and your chimney.When properly applied, these solutions can add up to 15 years to the life of a chimney crown that has begun to wear."
+                "title":"Have our professional masons give it the care it needs",
+                "description":"While bricks on a chimney last about a century, mortar has a much shorter lifespan. Depending on how exposed the masonry is to excess water and other harsh conditions, mortar lasts about 25 years. It’s sometimes highly recommended that homeowners install a cricket, which is a compact diversion roof that prevents the chimney from being deluged in rainy weather. The layout of the roof and the position of the chimney affect how much or little water drainage contributes to erosion of the mortar joints."
             },
             {
-                "title":"Call us today and repair your chimney crown",
-                "description":"If your chimney crown is showing its age, it may be time to replace it with a new concrete chimney cap before it is too late. Some masons will simply use mortar mix to create a new top for the chimney. The problem with that is, mortar mix will crack and leak very quickly and is not a weather resistant material. A cement chimney crown that is properly designed to overhang the outside dimensions of the chimney structure is the best solution. When your chimney crown becomes cracked or has lost pieces of its original shape it no longer is doing the job that it needs to. Once your chimney crown begins deteriorating and falling apart, it won’t be long before serious damage will set in to your entire chimney. It may be worth a visit to your roof once in a while to do your own inspection of the chimney crown. Don’t take our word for it – just take a quick drive around downtown and look up at the older masonry chimneys. Most of them are literally falling apart from the top down. The last thing someone needs is bricks falling down or costly repairs. When we service our customers with their annual inspection and chimney cleaning, the chimney crown is a key area that we look at. If there are any defects at all, we suggest an immediate crown seal to prevent more damage."
+                "title":"Call us today to get started",
+                "description":"When mortar joints become damaged, the most cost-effective action that a homeowner can take is to repair affected areas via tuckpointing. The alternative is to allow the mortar joints to deteriorate to the point that the chimney collapses, which makes a complete rebuild necessary – of course, the cost of a rebuild is far greater than the cost for repairs."
             }
         ]
     },
@@ -879,23 +956,27 @@
         "tileText":"Protect your chimney from water damage. Get a crown seal for your chimney now!",
         "textList":[
             {
-                "title":"A chimney crown seal protects the chimney crown from damage over time.",
-                "description":"Your chimney crown is the area that is around the top of the chimney (not to be confused with the chimney cap that is an attachment that is added to the top of the flue pipe). A chimney crown seal protects the chimney crown from damage over time. The chimney crown tops off the masonry walls of the chimney, usually with a wider masonry or cement area. This solid covering stops moisture from filtering down through your brick or stone work in your chimney. The crown is vital to protecting the mortar that holds everything together."
+                "title":"What is Efflorescence?",
+                "description":"Efflorescence comes from a French word meaning “to flower out.” In chemistry, and in the real world, efflorescence is the loss of water (or a solvent) of crystallization from a hydrated or solvated salt to the atmosphere on exposure to air."
             },
             {
-                "title":"Chimney Lifetime",
-                "description":"There are chimney crown sealants that are able to be applied to a chimney crown that still has structural integrity but needs to be waterproofed. Larger cracks are filled with high bond patching material and then the crown seal is applied over the top of the whole chimney crown. The sealant forms a waterproof membrane between the elements and your chimney.When properly applied, these solutions can add up to 15 years to the life of a chimney crown that has begun to wear."
+                "title":"Where does it happen?",
+                "description":"While efflorescence can occur in natural settings it is most commonly seen on built structures. It is especially visible on porous materials like brick. If you do not know what efflorescence is, you may think that it is purely cosmetic. It will appear as a chalky residue on the outside of the brick structure."
             },
             {
-                "title":"Call us today and repair your chimney crown",
-                "description":"If your chimney crown is showing its age, it may be time to replace it with a new concrete chimney cap before it is too late. Some masons will simply use mortar mix to create a new top for the chimney. The problem with that is, mortar mix will crack and leak very quickly and is not a weather resistant material. A cement chimney crown that is properly designed to overhang the outside dimensions of the chimney structure is the best solution. When your chimney crown becomes cracked or has lost pieces of its original shape it no longer is doing the job that it needs to. Once your chimney crown begins deteriorating and falling apart, it won’t be long before serious damage will set in to your entire chimney. It may be worth a visit to your roof once in a while to do your own inspection of the chimney crown. Don’t take our word for it – just take a quick drive around downtown and look up at the older masonry chimneys. Most of them are literally falling apart from the top down. The last thing someone needs is bricks falling down or costly repairs. When we service our customers with their annual inspection and chimney cleaning, the chimney crown is a key area that we look at. If there are any defects at all, we suggest an immediate crown seal to prevent more damage."
+                "title":"What causes efflorescence?",
+                "description":"Simply put, if you see efflorescence you have water intrusion. Once water penetrates the brick it will “flower out,” (remember the French definition?) Once water has entered your structure it will freeze and expand causes the integrity of the structure to come into question."
+            },
+            {
+                "title":"What can you do to protect against efflorescence?",
+                "description":"Although brick is very durable, extreme weather can have an adverse effect on it over time. Waterproofing your brick/veneer structure will help ensure that your brick work lasts as long as possible. Your brick and your home can benefit tremendously from waterproofing. Most sealants are made with siloxane, which chemically bonds to the material and prevents water from passing through it. This type of brick waterproofing sealant is clear, so it does not change the appearance of the building. In fact, rather than staying on the surface of the structure, brick sealant penetrates the material. It will need to be reapplied to older brick structures about every four to seven years, and newer buildings approximately every five to ten years."
             }
         ]
     },
     {
         "title":"Dryer Vent Cleaning",
         "slug":"dryer-vent-cleaning",
-        "category":"Chimney",
+        "category":"Chimney Services",
         "type":"services",
         "tileImage":"/assets/images/home-improvement/dryer-vent.jpg",
         "tileText":"Have your dryer vent system cleaned and inspected yearly by a dryer vent cleaning professional.",
@@ -924,7 +1005,7 @@
     {
         "title":"Steel Security Doors",
         "slug":"steel-security-doors",
-        "category":"Security",
+        "category":"Security Doors and Windows",
         "subcategory":"Door",
         "type":"grid",
         "description":"Custom Steel Security Doors can take your home to the next level of style and security. All of our Steel Security doors are made to order, ensuring a perfect fit for your home. These doors come in several different mounting styles that let us install them on any home application. (Click on a door to view more)",
@@ -969,7 +1050,20 @@
         "category":"Steel Security Doors",
         "type":"products",
         "line":"Signature",
-        "bullets":["The Clearview Swinging Screen Door is open design that maximizes visibility and ventilation.","This door comes in Standard and custom sizes.","Customize your door today and add a pet door or Solar Screen today!"],
+        "bullets":[
+            "This Door Series is Built To Order. Custom Sizes Available.",
+            "4in. 1-Piece Mounting Frame",
+            "1in. sq. x 18 Ga. Steel Door Frame",
+            "5/8in. sq. x 18 Ga. Vertical Pickets",
+            "Decorative Collars on Pickets",
+            "Double Hole Lock-Box w/ 2-1/8in Bore & 2-3/8",
+            "Continuous 1/8in. x 3/4in Lock Side Tamper Guard",
+            "Tamper Proof Hinges",
+            "24 Ga. Perforated Steel Mesh for Extra Security",
+            "Mounting Screws",
+            "Contrasting Color Mesh (as shown)",
+            "Price: $$$"            
+        ],
         "tileImage":"assets/images/security/steel-security-doors/artisan/artisan.jpg",
         "thumbImages":[
             {
@@ -982,7 +1076,13 @@
         "productOverview":"Mike's Mobile Screen & Chimney Service offers high quality Swinging Screen doors. The Brighton Swinging Screen Doors offers a 1in. Wide Sculptured 9 Lite marginal grid pattern which combines elegance and openess to this door design. Our prices include installation. Call today to find out more!",
         "technicalSpecs":"<li>2-1/8in. x 3/4in. .050 Extruded Aluminum Frame</li><li>Available in Standard Sizes</li><li>2ft 6in. x 6ft 8in. (29-1/4in. x 79-1/4in.)</li><li>2ft 8in. x 6ft 8in. (31-1/4in. x 79-1/4in.)</li><li>3ft 0in x 6ft 8in. (35-1/4in. x 79-1/4in.)</li><li>Custom Widths 24in. - 47in., Heights up to 96in.</li><li>1in. Wide Sculptured 9 Lite Marginal Grid Pattern</li><li>Charcoal Fiberglass Insect Screening</li><li>Standard Push Button Handle</li><li>1-7/8in Side Adjustable .050 Channel with 3 Hinges</li><li>1-7/8in Bottom Adjustment .050 Channel</li><li>Precision SAFEGUARD Packaging - Complete with Hardware.</li>",
         "options":"<li>Double Door Option</li><li>Hinge Expader or Pre Hung Frame</li><li>Frame Colors Available: Adobe, Almond, Bronze, Weathered Brown, and White</li><li>Solar Screen</li><li>9in. Kick Plate</li>",
-        "relatedProducts":"<li>Sliding Screen Doors</li><li>Rollaway Screen Doors</li><li>Window Screens</li><li>Security Doors</li><li>Swinging Screen Doors</li>",
+        "relatedProducts":{
+            "Sliding Screen Doors": "/products/sliding-screen-doors",
+            "Retractable Screen Doors": "/products/retractable-screen-doors",
+            "Door and Window Screens": "/about/door-and-window-screens",
+            "Swinging Screen Doors": "/products/swinging-screen-doors",
+            "Security Door and Windows":"/about/security-doors-and-windows"
+        },
         "warranty":"Warranty covers workmanship of door. This includes hardware not working properly, corners coming apart, handle not functioning, and any other workmanship issues not listed here that are determined to be the fault of the manufacturer. Not covered under the warranty is any damage to the screen (Solar Screen has a warranty, Bugscreen does not.) or intentional damage including tampering with the door, damaged caused by brute, or intentional, force, damage from a pet or any other intentional act not deemed a workmanship flaw.",
         "colorSet":["securityDoorColors"]
     },
@@ -992,8 +1092,20 @@
         "category":"Steel Security Doors",
         "type":"products",
         "line":"Signature",
-        "bullets":["The Clearview Swinging Screen Door is open design that maximizes visibility and ventilation.","This door comes in Standard and custom sizes.","Customize your door today and add a pet door or Solar Screen today!"],
-        "tileImage":"assets/images/security/steel-security-doors/garden/garden.jpg",
+        "bullets":[
+            "This Door Series is Built To Order. Custom Sizes Available.",
+            "4in. 1-Piece Mounting Frame",
+            "1in. sq. x 18 Ga. Steel Door Frame",
+            "5/8in. sq. x 18 Ga. Vertical Pickets",
+            "Decorative Collars on Pickets",
+            "Double Hole Lock-Box w/ 2-1/8in Bore & 2-3/8",
+            "Continuous 1/8in. x 3/4in Lock Side Tamper Guard",
+            "Tamper Proof Hinges",
+            "24 Ga. Perforated Steel Mesh for Extra Security",
+            "Mounting Screws",
+            "Contrasting Color Mesh (as shown)",
+            "Price: $$$"            
+        ],
         "thumbImages":[
             {
                 "small":"assets/images/security/steel-security-doors/garden/garden.jpg",
@@ -1001,11 +1113,18 @@
                 "big":"assets/images/security/steel-security-doors/garden/garden.jpg"
             }
         ],
+        "tileImage":"assets/images/security/steel-security-doors/garden/garden.jpg",
         "tileText":"Call us today and get great pricing on window screen replacements. We specialize in all kinds of window screens and Solar Screens.",
         "productOverview":"Mike's Mobile Screen & Chimney Service offers high quality Swinging Screen doors. The Brighton Swinging Screen Doors offers a 1in. Wide Sculptured 9 Lite marginal grid pattern which combines elegance and openess to this door design. Our prices include installation. Call today to find out more!",
         "technicalSpecs":"<li>2-1/8in. x 3/4in. .050 Extruded Aluminum Frame</li><li>Available in Standard Sizes</li><li>2ft 6in. x 6ft 8in. (29-1/4in. x 79-1/4in.)</li><li>2ft 8in. x 6ft 8in. (31-1/4in. x 79-1/4in.)</li><li>3ft 0in x 6ft 8in. (35-1/4in. x 79-1/4in.)</li><li>Custom Widths 24in. - 47in., Heights up to 96in.</li><li>1in. Wide Sculptured 9 Lite Marginal Grid Pattern</li><li>Charcoal Fiberglass Insect Screening</li><li>Standard Push Button Handle</li><li>1-7/8in Side Adjustable .050 Channel with 3 Hinges</li><li>1-7/8in Bottom Adjustment .050 Channel</li><li>Precision SAFEGUARD Packaging - Complete with Hardware.</li>",
         "options":"<li>Double Door Option</li><li>Hinge Expader or Pre Hung Frame</li><li>Frame Colors Available: Adobe, Almond, Bronze, Weathered Brown, and White</li><li>Solar Screen</li><li>9in. Kick Plate</li>",
-        "relatedProducts":"<li>Sliding Screen Doors</li><li>Rollaway Screen Doors</li><li>Window Screens</li><li>Security Doors</li><li>Swinging Screen Doors</li>",
+        "relatedProducts":{
+            "Sliding Screen Doors": "/products/sliding-screen-doors",
+            "Retractable Screen Doors": "/products/retractable-screen-doors",
+            "Door and Window Screens": "/about/door-and-window-screens",
+            "Swinging Screen Doors": "/products/swinging-screen-doors",
+            "Security Door and Windows":"/about/security-doors-and-windows"
+        },
         "warranty":"Warranty covers workmanship of door. This includes hardware not working properly, corners coming apart, handle not functioning, and any other workmanship issues not listed here that are determined to be the fault of the manufacturer. Not covered under the warranty is any damage to the screen (Solar Screen has a warranty, Bugscreen does not.) or intentional damage including tampering with the door, damaged caused by brute, or intentional, force, damage from a pet or any other intentional act not deemed a workmanship flaw.",
         "colorSet":["securityDoorColors"]
     },
@@ -1015,7 +1134,20 @@
         "category":"Steel Security Doors",
         "type":"products",
         "line":"Signature",
-        "bullets":["The Clearview Swinging Screen Door is open design that maximizes visibility and ventilation.","This door comes in Standard and custom sizes.","Customize your door today and add a pet door or Solar Screen today!"],
+        "bullets":[
+            "This Door Series is Built To Order. Custom Sizes Available.",
+            "4in. 1-Piece Mounting Frame",
+            "1-1/4in. sq. x 18 Ga. 1-Piece Mounting Frame",
+            "5/8in. sq. x 18 Ga. Vertical Pickets",
+            "Decorative Collars on Pickets",
+            "Double Hole Lock-Box w/ 2-1/8in Bore & 2-3/8",
+            "Continuous 1/8in. x 3/4in Lock Side Tamper Guard",
+            "Tamper Proof Hinges",
+            "24 Ga. Perforated Steel Mesh for Extra Security",
+            "Mounting Screws",
+            "Contrasting Color Mesh (as shown)",
+            "Price: $$$"            
+        ],
         "tileImage":"assets/images/security/steel-security-doors/artisan-view/artisan-view.jpg",
         "thumbImages":[
             {
@@ -1028,7 +1160,13 @@
         "productOverview":"Mike's Mobile Screen & Chimney Service offers high quality Swinging Screen doors. The Brighton Swinging Screen Doors offers a 1in. Wide Sculptured 9 Lite marginal grid pattern which combines elegance and openess to this door design. Our prices include installation. Call today to find out more!",
         "technicalSpecs":"<li>2-1/8in. x 3/4in. .050 Extruded Aluminum Frame</li><li>Available in Standard Sizes</li><li>2ft 6in. x 6ft 8in. (29-1/4in. x 79-1/4in.)</li><li>2ft 8in. x 6ft 8in. (31-1/4in. x 79-1/4in.)</li><li>3ft 0in x 6ft 8in. (35-1/4in. x 79-1/4in.)</li><li>Custom Widths 24in. - 47in., Heights up to 96in.</li><li>1in. Wide Sculptured 9 Lite Marginal Grid Pattern</li><li>Charcoal Fiberglass Insect Screening</li><li>Standard Push Button Handle</li><li>1-7/8in Side Adjustable .050 Channel with 3 Hinges</li><li>1-7/8in Bottom Adjustment .050 Channel</li><li>Precision SAFEGUARD Packaging - Complete with Hardware.</li>",
         "options":"<li>Double Door Option</li><li>Hinge Expader or Pre Hung Frame</li><li>Frame Colors Available: Adobe, Almond, Bronze, Weathered Brown, and White</li><li>Solar Screen</li><li>9in. Kick Plate</li>",
-        "relatedProducts":"<li>Sliding Screen Doors</li><li>Rollaway Screen Doors</li><li>Window Screens</li><li>Security Doors</li><li>Swinging Screen Doors</li>",
+        "relatedProducts":{
+            "Sliding Screen Doors": "/products/sliding-screen-doors",
+            "Retractable Screen Doors": "/products/retractable-screen-doors",
+            "Door and Window Screens": "/about/door-and-window-screens",
+            "Swinging Screen Doors": "/products/swinging-screen-doors",
+            "Security Door and Windows":"/about/security-doors-and-windows"
+        },
         "warranty":"Warranty covers workmanship of door. This includes hardware not working properly, corners coming apart, handle not functioning, and any other workmanship issues not listed here that are determined to be the fault of the manufacturer. Not covered under the warranty is any damage to the screen (Solar Screen has a warranty, Bugscreen does not.) or intentional damage including tampering with the door, damaged caused by brute, or intentional, force, damage from a pet or any other intentional act not deemed a workmanship flaw.",
         "colorSet":["securityDoorColors"]
     },
@@ -1038,7 +1176,20 @@
         "category":"Steel Security Doors",
         "type":"products",
         "line":"Signature",
-        "bullets":["The Clearview Swinging Screen Door is open design that maximizes visibility and ventilation.","This door comes in Standard and custom sizes.","Customize your door today and add a pet door or Solar Screen today!"],
+        "bullets":[
+            "This Door Series is Built To Order. Custom Sizes Available.",
+            "4in. 1-Piece Mounting Frame",
+            "1-1/4in. sq. x 18 Ga. 1-Piece Mounting Frame",
+            "5/8in. sq. x 18 Ga. Vertical Pickets",
+            "Decorative Collars on Pickets",
+            "Double Hole Lock-Box w/ 2-1/8in Bore & 2-3/8",
+            "Continuous 1/8in. x 3/4in Lock Side Tamper Guard",
+            "Tamper Proof Hinges",
+            "24 Ga. Perforated Steel Mesh for Extra Security",
+            "Mounting Screws",
+            "Contrasting Color Mesh (as shown)",
+            "Price: $$$"            
+        ],
         "tileImage":"assets/images/security/steel-security-doors/vino/vino.jpg",
         "thumbImages":[
             {
@@ -1051,7 +1202,13 @@
         "productOverview":"Mike's Mobile Screen & Chimney Service offers high quality Swinging Screen doors. The Brighton Swinging Screen Doors offers a 1in. Wide Sculptured 9 Lite marginal grid pattern which combines elegance and openess to this door design. Our prices include installation. Call today to find out more!",
         "technicalSpecs":"<li>2-1/8in. x 3/4in. .050 Extruded Aluminum Frame</li><li>Available in Standard Sizes</li><li>2ft 6in. x 6ft 8in. (29-1/4in. x 79-1/4in.)</li><li>2ft 8in. x 6ft 8in. (31-1/4in. x 79-1/4in.)</li><li>3ft 0in x 6ft 8in. (35-1/4in. x 79-1/4in.)</li><li>Custom Widths 24in. - 47in., Heights up to 96in.</li><li>1in. Wide Sculptured 9 Lite Marginal Grid Pattern</li><li>Charcoal Fiberglass Insect Screening</li><li>Standard Push Button Handle</li><li>1-7/8in Side Adjustable .050 Channel with 3 Hinges</li><li>1-7/8in Bottom Adjustment .050 Channel</li><li>Precision SAFEGUARD Packaging - Complete with Hardware.</li>",
         "options":"<li>Double Door Option</li><li>Hinge Expader or Pre Hung Frame</li><li>Frame Colors Available: Adobe, Almond, Bronze, Weathered Brown, and White</li><li>Solar Screen</li><li>9in. Kick Plate</li>",
-        "relatedProducts":"<li>Sliding Screen Doors</li><li>Rollaway Screen Doors</li><li>Window Screens</li><li>Security Doors</li><li>Swinging Screen Doors</li>",
+        "relatedProducts":{
+            "Sliding Screen Doors": "/products/sliding-screen-doors",
+            "Retractable Screen Doors": "/products/retractable-screen-doors",
+            "Door and Window Screens": "/about/door-and-window-screens",
+            "Swinging Screen Doors": "/products/swinging-screen-doors",
+            "Security Door and Windows":"/about/security-doors-and-windows"
+        },
         "warranty":"Warranty covers workmanship of door. This includes hardware not working properly, corners coming apart, handle not functioning, and any other workmanship issues not listed here that are determined to be the fault of the manufacturer. Not covered under the warranty is any damage to the screen (Solar Screen has a warranty, Bugscreen does not.) or intentional damage including tampering with the door, damaged caused by brute, or intentional, force, damage from a pet or any other intentional act not deemed a workmanship flaw.",
         "colorSet":["securityDoorColors"]
     },
@@ -1061,7 +1218,20 @@
         "category":"Steel Security Doors",
         "type":"products",
         "line":"Signature",
-        "bullets":["The Clearview Swinging Screen Door is open design that maximizes visibility and ventilation.","This door comes in Standard and custom sizes.","Customize your door today and add a pet door or Solar Screen today!"],
+        "bullets":[
+            "This Door Series is Built To Order. Custom Sizes Available.",
+            "4in. 1-Piece Mounting Frame",
+            "1in. sq. x 18 Ga. Steel Door Frame",
+            "5/8in. sq. x 18 Ga. Vertical Pickets",
+            "Decorative Collars on Pickets",
+            "Double Hole Lock-Box w/ 2-1/8in Bore & 2-3/8",
+            "Continuous 1/8in. x 3/4in Lock Side Tamper Guard",
+            "Tamper Proof Hinges",
+            "24 Ga. Perforated Steel Mesh for Extra Security",
+            "Mounting Screws",
+            "Contrasting Color Mesh (as shown)",
+            "Price: $$$"            
+        ],
         "tileImage":"assets/images/security/steel-security-doors/lanai/lanai.jpg",
         "thumbImages":[
             {
@@ -1074,7 +1244,13 @@
         "productOverview":"Mike's Mobile Screen & Chimney Service offers high quality Swinging Screen doors. The Brighton Swinging Screen Doors offers a 1in. Wide Sculptured 9 Lite marginal grid pattern which combines elegance and openess to this door design. Our prices include installation. Call today to find out more!",
         "technicalSpecs":"<li>2-1/8in. x 3/4in. .050 Extruded Aluminum Frame</li><li>Available in Standard Sizes</li><li>2ft 6in. x 6ft 8in. (29-1/4in. x 79-1/4in.)</li><li>2ft 8in. x 6ft 8in. (31-1/4in. x 79-1/4in.)</li><li>3ft 0in x 6ft 8in. (35-1/4in. x 79-1/4in.)</li><li>Custom Widths 24in. - 47in., Heights up to 96in.</li><li>1in. Wide Sculptured 9 Lite Marginal Grid Pattern</li><li>Charcoal Fiberglass Insect Screening</li><li>Standard Push Button Handle</li><li>1-7/8in Side Adjustable .050 Channel with 3 Hinges</li><li>1-7/8in Bottom Adjustment .050 Channel</li><li>Precision SAFEGUARD Packaging - Complete with Hardware.</li>",
         "options":"<li>Double Door Option</li><li>Hinge Expader or Pre Hung Frame</li><li>Frame Colors Available: Adobe, Almond, Bronze, Weathered Brown, and White</li><li>Solar Screen</li><li>9in. Kick Plate</li>",
-        "relatedProducts":"<li>Sliding Screen Doors</li><li>Rollaway Screen Doors</li><li>Window Screens</li><li>Security Doors</li><li>Swinging Screen Doors</li>",
+        "relatedProducts":{
+            "Sliding Screen Doors": "/products/sliding-screen-doors",
+            "Retractable Screen Doors": "/products/retractable-screen-doors",
+            "Door and Window Screens": "/about/door-and-window-screens",
+            "Swinging Screen Doors": "/products/swinging-screen-doors",
+            "Security Door and Windows":"/about/security-doors-and-windows"
+        },
         "warranty":"Warranty covers workmanship of door. This includes hardware not working properly, corners coming apart, handle not functioning, and any other workmanship issues not listed here that are determined to be the fault of the manufacturer. Not covered under the warranty is any damage to the screen (Solar Screen has a warranty, Bugscreen does not.) or intentional damage including tampering with the door, damaged caused by brute, or intentional, force, damage from a pet or any other intentional act not deemed a workmanship flaw.",
         "colorSet":["securityDoorColors"]
     },
@@ -1092,12 +1268,31 @@
                 "big":"assets/images/security/steel-security-doors/vino-welcome/vino-welcome.jpg"
             }
         ],
-        "bullets":["The Clearview Swinging Screen Door is open design that maximizes visibility and ventilation.","This door comes in Standard and custom sizes.","Customize your door today and add a pet door or Solar Screen today!"],
+        "bullets":[
+            "This Door Series is Built To Order. Custom Sizes Available.",
+            "4in. 1-Piece Mounting Frame",
+            "1in. sq. x 18 Ga. Steel Door Frame",
+            "5/8in. sq. x 18 Ga. Vertical Pickets",
+            "Decorative Collars on Pickets",
+            "Double Hole Lock-Box w/ 2-1/8in Bore & 2-3/8",
+            "Continuous 1/8in. x 3/4in Lock Side Tamper Guard",
+            "Tamper Proof Hinges",
+            "24 Ga. Perforated Steel Mesh for Extra Security",
+            "Mounting Screws",
+            "Contrasting Color Mesh (as shown)",
+            "Price: $$$"            
+        ],
         "tileText":"Call us today and get great pricing on window screen replacements. We specialize in all kinds of window screens and Solar Screens.",
         "productOverview":"Mike's Mobile Screen & Chimney Service offers high quality Swinging Screen doors. The Brighton Swinging Screen Doors offers a 1in. Wide Sculptured 9 Lite marginal grid pattern which combines elegance and openess to this door design. Our prices include installation. Call today to find out more!",
         "technicalSpecs":"<li>2-1/8in. x 3/4in. .050 Extruded Aluminum Frame</li><li>Available in Standard Sizes</li><li>2ft 6in. x 6ft 8in. (29-1/4in. x 79-1/4in.)</li><li>2ft 8in. x 6ft 8in. (31-1/4in. x 79-1/4in.)</li><li>3ft 0in x 6ft 8in. (35-1/4in. x 79-1/4in.)</li><li>Custom Widths 24in. - 47in., Heights up to 96in.</li><li>1in. Wide Sculptured 9 Lite Marginal Grid Pattern</li><li>Charcoal Fiberglass Insect Screening</li><li>Standard Push Button Handle</li><li>1-7/8in Side Adjustable .050 Channel with 3 Hinges</li><li>1-7/8in Bottom Adjustment .050 Channel</li><li>Precision SAFEGUARD Packaging - Complete with Hardware.</li>",
         "options":"<li>Double Door Option</li><li>Hinge Expader or Pre Hung Frame</li><li>Frame Colors Available: Adobe, Almond, Bronze, Weathered Brown, and White</li><li>Solar Screen</li><li>9in. Kick Plate</li>",
-        "relatedProducts":"<li>Sliding Screen Doors</li><li>Rollaway Screen Doors</li><li>Window Screens</li><li>Security Doors</li><li>Swinging Screen Doors</li>",
+        "relatedProducts":{
+            "Sliding Screen Doors": "/products/sliding-screen-doors",
+            "Retractable Screen Doors": "/products/retractable-screen-doors",
+            "Door and Window Screens": "/about/door-and-window-screens",
+            "Swinging Screen Doors": "/products/swinging-screen-doors",
+            "Security Door and Windows":"/about/security-doors-and-windows"
+        },
         "warranty":"Warranty covers workmanship of door. This includes hardware not working properly, corners coming apart, handle not functioning, and any other workmanship issues not listed here that are determined to be the fault of the manufacturer. Not covered under the warranty is any damage to the screen (Solar Screen has a warranty, Bugscreen does not.) or intentional damage including tampering with the door, damaged caused by brute, or intentional, force, damage from a pet or any other intentional act not deemed a workmanship flaw.",
         "colorSet":["securityDoorColors"]
     },
@@ -1107,7 +1302,21 @@
         "category":"Steel Security Doors",
         "type":"products",
         "line":"Premier",
-        "bullets":["The Clearview Swinging Screen Door is open design that maximizes visibility and ventilation.","This door comes in Standard and custom sizes.","Customize your door today and add a pet door or Solar Screen today!"],
+        "bullets":[
+            "This Door Series is Built To Order. Custom Sizes Available.",
+            "2in. x 1in.  1-Piece Mounting Door Frame",
+            "1-1/4in. x 1-1/4in. Fully welded Door jamb",
+            "1in. sq. x 18 Ga. Steel Door Frame",
+            "5/8in. sq. x 18 Ga. Crescent Picket at Lock-Box",
+            "1/2in. sq. x 18 Ga. Radiant Pickets",
+            "Double Hole Lock-Box w/ 2-1/8in Bore & 2-3/8",
+            "Continuous 1/8in. x 3/4in Lock Side Tamper Guard",
+            "Tamper Proof Hinges",
+            "24 Ga. Perforated Steel Mesh for Extra Security",
+            "Mounting Screws",
+            "Contrasting Color Mesh (2 tone)",
+            "Price: $$"            
+        ],
         "tileImage":"assets/images/security/steel-security-doors/park-avenue/park-avenue.png",
         "thumbImages":[
             {
@@ -1120,7 +1329,13 @@
         "productOverview":"Mike's Mobile Screen & Chimney Service offers high quality Swinging Screen doors. The Brighton Swinging Screen Doors offers a 1in. Wide Sculptured 9 Lite marginal grid pattern which combines elegance and openess to this door design. Our prices include installation. Call today to find out more!",
         "technicalSpecs":"<li>2-1/8in. x 3/4in. .050 Extruded Aluminum Frame</li><li>Available in Standard Sizes</li><li>2ft 6in. x 6ft 8in. (29-1/4in. x 79-1/4in.)</li><li>2ft 8in. x 6ft 8in. (31-1/4in. x 79-1/4in.)</li><li>3ft 0in x 6ft 8in. (35-1/4in. x 79-1/4in.)</li><li>Custom Widths 24in. - 47in., Heights up to 96in.</li><li>1in. Wide Sculptured 9 Lite Marginal Grid Pattern</li><li>Charcoal Fiberglass Insect Screening</li><li>Standard Push Button Handle</li><li>1-7/8in Side Adjustable .050 Channel with 3 Hinges</li><li>1-7/8in Bottom Adjustment .050 Channel</li><li>Precision SAFEGUARD Packaging - Complete with Hardware.</li>",
         "options":"<li>Double Door Option</li><li>Hinge Expader or Pre Hung Frame</li><li>Frame Colors Available: Adobe, Almond, Bronze, Weathered Brown, and White</li><li>Solar Screen</li><li>9in. Kick Plate</li>",
-        "relatedProducts":"<li>Sliding Screen Doors</li><li>Rollaway Screen Doors</li><li>Window Screens</li><li>Security Doors</li><li>Swinging Screen Doors</li>",
+        "relatedProducts":{
+            "Sliding Screen Doors": "/products/sliding-screen-doors",
+            "Retractable Screen Doors": "/products/retractable-screen-doors",
+            "Door and Window Screens": "/about/door-and-window-screens",
+            "Swinging Screen Doors": "/products/swinging-screen-doors",
+            "Security Door and Windows":"/about/security-doors-and-windows"
+        },
         "warranty":"Warranty covers workmanship of door. This includes hardware not working properly, corners coming apart, handle not functioning, and any other workmanship issues not listed here that are determined to be the fault of the manufacturer. Not covered under the warranty is any damage to the screen (Solar Screen has a warranty, Bugscreen does not.) or intentional damage including tampering with the door, damaged caused by brute, or intentional, force, damage from a pet or any other intentional act not deemed a workmanship flaw.",
         "colorSet":["securityDoorColors"]
     },
@@ -1138,12 +1353,31 @@
                 "big":"assets/images/security/steel-security-doors/sunrise/sunrise.jpg"
             }
         ],
-        "bullets":["The Clearview Swinging Screen Door is open design that maximizes visibility and ventilation.","This door comes in Standard and custom sizes.","Customize your door today and add a pet door or Solar Screen today!"],
+        "bullets":[
+            "This Door Series is Built To Order. Custom Sizes Available.",
+            "1-1/4in. sq. x 18 Ga. 1-Piece Mounting Frame",
+            "1in. sq. x 18 Ga. Steel Door Frame",
+            "5/8in. sq. x 18 Ga. Crescent Picket at Lock-Box",
+            "1/2in. sq. x 18 Ga. Radiant Pickets",
+            "Double Hole Lock-Box w/ 2-1/8in Bore & 2-3/8",
+            "Continuous 1/8in. x 3/4in Lock Side Tamper Guard",
+            "Tamper Proof Hinges",
+            "24 Ga. Perforated Steel Mesh for Extra Security",
+            "Mounting Screws",
+            "Contrasting Color Mesh (2 tone)",
+            "Price: $$"            
+        ],
         "tileText":"Call us today and get great pricing on window screen replacements. We specialize in all kinds of window screens and Solar Screens.",
         "productOverview":"Mike's Mobile Screen & Chimney Service offers high quality Swinging Screen doors. The Brighton Swinging Screen Doors offers a 1in. Wide Sculptured 9 Lite marginal grid pattern which combines elegance and openess to this door design. Our prices include installation. Call today to find out more!",
         "technicalSpecs":"<li>2-1/8in. x 3/4in. .050 Extruded Aluminum Frame</li><li>Available in Standard Sizes</li><li>2ft 6in. x 6ft 8in. (29-1/4in. x 79-1/4in.)</li><li>2ft 8in. x 6ft 8in. (31-1/4in. x 79-1/4in.)</li><li>3ft 0in x 6ft 8in. (35-1/4in. x 79-1/4in.)</li><li>Custom Widths 24in. - 47in., Heights up to 96in.</li><li>1in. Wide Sculptured 9 Lite Marginal Grid Pattern</li><li>Charcoal Fiberglass Insect Screening</li><li>Standard Push Button Handle</li><li>1-7/8in Side Adjustable .050 Channel with 3 Hinges</li><li>1-7/8in Bottom Adjustment .050 Channel</li><li>Precision SAFEGUARD Packaging - Complete with Hardware.</li>",
         "options":"<li>Double Door Option</li><li>Hinge Expader or Pre Hung Frame</li><li>Frame Colors Available: Adobe, Almond, Bronze, Weathered Brown, and White</li><li>Solar Screen</li><li>9in. Kick Plate</li>",
-        "relatedProducts":"<li>Sliding Screen Doors</li><li>Rollaway Screen Doors</li><li>Window Screens</li><li>Security Doors</li><li>Swinging Screen Doors</li>",
+        "relatedProducts":{
+            "Sliding Screen Doors": "/products/sliding-screen-doors",
+            "Retractable Screen Doors": "/products/retractable-screen-doors",
+            "Door and Window Screens": "/about/door-and-window-screens",
+            "Swinging Screen Doors": "/products/swinging-screen-doors",
+            "Security Door and Windows":"/about/security-doors-and-windows"
+        },
         "warranty":"Warranty covers workmanship of door. This includes hardware not working properly, corners coming apart, handle not functioning, and any other workmanship issues not listed here that are determined to be the fault of the manufacturer. Not covered under the warranty is any damage to the screen (Solar Screen has a warranty, Bugscreen does not.) or intentional damage including tampering with the door, damaged caused by brute, or intentional, force, damage from a pet or any other intentional act not deemed a workmanship flaw.",
         "colorSet":["securityDoorColors"]
     },
@@ -1161,12 +1395,32 @@
                 "big":"assets/images/security/steel-security-doors/arbor/arbor.jpg"
             }
         ],
-        "bullets":["The Clearview Swinging Screen Door is open design that maximizes visibility and ventilation.","This door comes in Standard and custom sizes.","Customize your door today and add a pet door or Solar Screen today!"],
+        "bullets":[
+            "This Door Series is Built To Order. Custom Sizes Available.",
+            "2in. x 1in.  1-Piece Mounting Door Frame",
+            "1-1/4in. x 1-1/4in. Fully welded Door jamb",
+            "1in. sq. x 18 Ga. Steel Door Frame",
+            "5/8in. sq. x 18 Ga. Crescent Picket at Lock-Box",
+            "1/2in. sq. x 18 Ga. Radiant Pickets",
+            "Double Hole Lock-Box w/ 2-1/8in Bore & 2-3/8",
+            "Continuous 1/8in. x 3/4in Lock Side Tamper Guard",
+            "Tamper Proof Hinges",
+            "24 Ga. Perforated Steel Mesh for Extra Security",
+            "Mounting Screws",
+            "Contrasting Color Mesh (2 tone)",
+            "Price: $$"            
+        ],
         "tileText":"Call us today and get great pricing on window screen replacements. We specialize in all kinds of window screens and Solar Screens.",
         "productOverview":"Mike's Mobile Screen & Chimney Service offers high quality Swinging Screen doors. The Brighton Swinging Screen Doors offers a 1in. Wide Sculptured 9 Lite marginal grid pattern which combines elegance and openess to this door design. Our prices include installation. Call today to find out more!",
         "technicalSpecs":"<li>2-1/8in. x 3/4in. .050 Extruded Aluminum Frame</li><li>Available in Standard Sizes</li><li>2ft 6in. x 6ft 8in. (29-1/4in. x 79-1/4in.)</li><li>2ft 8in. x 6ft 8in. (31-1/4in. x 79-1/4in.)</li><li>3ft 0in x 6ft 8in. (35-1/4in. x 79-1/4in.)</li><li>Custom Widths 24in. - 47in., Heights up to 96in.</li><li>1in. Wide Sculptured 9 Lite Marginal Grid Pattern</li><li>Charcoal Fiberglass Insect Screening</li><li>Standard Push Button Handle</li><li>1-7/8in Side Adjustable .050 Channel with 3 Hinges</li><li>1-7/8in Bottom Adjustment .050 Channel</li><li>Precision SAFEGUARD Packaging - Complete with Hardware.</li>",
         "options":"<li>Double Door Option</li><li>Hinge Expader or Pre Hung Frame</li><li>Frame Colors Available: Adobe, Almond, Bronze, Weathered Brown, and White</li><li>Solar Screen</li><li>9in. Kick Plate</li>",
-        "relatedProducts":"<li>Sliding Screen Doors</li><li>Rollaway Screen Doors</li><li>Window Screens</li><li>Security Doors</li><li>Swinging Screen Doors</li>",
+        "relatedProducts":{
+            "Sliding Screen Doors": "/products/sliding-screen-doors",
+            "Retractable Screen Doors": "/products/retractable-screen-doors",
+            "Door and Window Screens": "/about/door-and-window-screens",
+            "Swinging Screen Doors": "/products/swinging-screen-doors",
+            "Security Door and Windows":"/about/security-doors-and-windows"
+        },
         "warranty":"Warranty covers workmanship of door. This includes hardware not working properly, corners coming apart, handle not functioning, and any other workmanship issues not listed here that are determined to be the fault of the manufacturer. Not covered under the warranty is any damage to the screen (Solar Screen has a warranty, Bugscreen does not.) or intentional damage including tampering with the door, damaged caused by brute, or intentional, force, damage from a pet or any other intentional act not deemed a workmanship flaw.",
         "colorSet":["securityDoorColors"]
     },
@@ -1184,12 +1438,32 @@
                 "big":"assets/images/security/steel-security-doors/zen/zen.jpg"
             }
         ],
-        "bullets":["The Clearview Swinging Screen Door is open design that maximizes visibility and ventilation.","This door comes in Standard and custom sizes.","Customize your door today and add a pet door or Solar Screen today!"],
+        "bullets":[
+            "This Door Series is Built To Order. Custom Sizes Available.",
+            "2in. x 1in.  1-Piece Mounting Door Frame",
+            "1-1/4in. x 1-1/4in. Fully welded Door jamb",
+            "1in. sq. x 18 Ga. Steel Door Frame",
+            "5/8in. sq. x 18 Ga. Crescent Picket at Lock-Box",
+            "1/2in. sq. x 18 Ga. Radiant Pickets",
+            "Double Hole Lock-Box w/ 2-1/8in Bore & 2-3/8",
+            "Continuous 1/8in. x 3/4in Lock Side Tamper Guard",
+            "Tamper Proof Hinges",
+            "24 Ga. Perforated Steel Mesh for Extra Security",
+            "Mounting Screws",
+            "Contrasting Color Mesh (2 tone)",
+            "Price: $$"            
+        ],
         "tileText":"Call us today and get great pricing on window screen replacements. We specialize in all kinds of window screens and Solar Screens.",
         "productOverview":"Mike's Mobile Screen & Chimney Service offers high quality Swinging Screen doors. The Brighton Swinging Screen Doors offers a 1in. Wide Sculptured 9 Lite marginal grid pattern which combines elegance and openess to this door design. Our prices include installation. Call today to find out more!",
         "technicalSpecs":"<li>2-1/8in. x 3/4in. .050 Extruded Aluminum Frame</li><li>Available in Standard Sizes</li><li>2ft 6in. x 6ft 8in. (29-1/4in. x 79-1/4in.)</li><li>2ft 8in. x 6ft 8in. (31-1/4in. x 79-1/4in.)</li><li>3ft 0in x 6ft 8in. (35-1/4in. x 79-1/4in.)</li><li>Custom Widths 24in. - 47in., Heights up to 96in.</li><li>1in. Wide Sculptured 9 Lite Marginal Grid Pattern</li><li>Charcoal Fiberglass Insect Screening</li><li>Standard Push Button Handle</li><li>1-7/8in Side Adjustable .050 Channel with 3 Hinges</li><li>1-7/8in Bottom Adjustment .050 Channel</li><li>Precision SAFEGUARD Packaging - Complete with Hardware.</li>",
         "options":"<li>Double Door Option</li><li>Hinge Expader or Pre Hung Frame</li><li>Frame Colors Available: Adobe, Almond, Bronze, Weathered Brown, and White</li><li>Solar Screen</li><li>9in. Kick Plate</li>",
-        "relatedProducts":"<li>Sliding Screen Doors</li><li>Rollaway Screen Doors</li><li>Window Screens</li><li>Security Doors</li><li>Swinging Screen Doors</li>",
+        "relatedProducts":{
+            "Sliding Screen Doors": "/products/sliding-screen-doors",
+            "Retractable Screen Doors": "/products/retractable-screen-doors",
+            "Door and Window Screens": "/about/door-and-window-screens",
+            "Swinging Screen Doors": "/products/swinging-screen-doors",
+            "Security Door and Windows":"/about/security-doors-and-windows"
+        },
         "warranty":"Warranty covers workmanship of door. This includes hardware not working properly, corners coming apart, handle not functioning, and any other workmanship issues not listed here that are determined to be the fault of the manufacturer. Not covered under the warranty is any damage to the screen (Solar Screen has a warranty, Bugscreen does not.) or intentional damage including tampering with the door, damaged caused by brute, or intentional, force, damage from a pet or any other intentional act not deemed a workmanship flaw.",
         "colorSet":["securityDoorColors"]
     },
@@ -1207,12 +1481,33 @@
                 "big":"assets/images/security/steel-security-doors/palladio/palladio.jpg"
             }
         ],
-        "bullets":["The Clearview Swinging Screen Door is open design that maximizes visibility and ventilation.","This door comes in Standard and custom sizes.","Customize your door today and add a pet door or Solar Screen today!"],
+        "bullets":[
+            "Custom Sizes Available",
+            "1-1/4in. sq. x 18 Ga. 1-Piece Steel Mounting Frame",
+            "1in. sq. x 18 Ga. Steel Door Frame",
+            "5/8in. sq. x 18 Ga. Vertical Steel Pickets",
+            "5/8in. sq. x 18 Ga. Horizontal Steel Pickets",
+            "1/8in. Thick x 1/2in. Wide Steel Scroll Design",
+            "Double Hole Lock-Box w/ 2-1/8in. Bore & 2-3/8in. Backset",
+            "Continuous 1/8in. x 3/4in. Lock Side Tamper Guard",
+            "Tamper Proof Hinges",
+            "24 Ga. Perforated Steel Mesh for Extra Security",
+            "Security Mounting Screws",
+            "Many Powder Coating Colors to Choose From",
+            "Contrasting Color Mesh (as shown)",
+            "Price: $"          
+        ],
         "tileText":"Call us today and get great pricing on window screen replacements. We specialize in all kinds of window screens and Solar Screens.",
         "productOverview":"Mike's Mobile Screen & Chimney Service offers high quality Swinging Screen doors. The Brighton Swinging Screen Doors offers a 1in. Wide Sculptured 9 Lite marginal grid pattern which combines elegance and openess to this door design. Our prices include installation. Call today to find out more!",
         "technicalSpecs":"<li>2-1/8in. x 3/4in. .050 Extruded Aluminum Frame</li><li>Available in Standard Sizes</li><li>2ft 6in. x 6ft 8in. (29-1/4in. x 79-1/4in.)</li><li>2ft 8in. x 6ft 8in. (31-1/4in. x 79-1/4in.)</li><li>3ft 0in x 6ft 8in. (35-1/4in. x 79-1/4in.)</li><li>Custom Widths 24in. - 47in., Heights up to 96in.</li><li>1in. Wide Sculptured 9 Lite Marginal Grid Pattern</li><li>Charcoal Fiberglass Insect Screening</li><li>Standard Push Button Handle</li><li>1-7/8in Side Adjustable .050 Channel with 3 Hinges</li><li>1-7/8in Bottom Adjustment .050 Channel</li><li>Precision SAFEGUARD Packaging - Complete with Hardware.</li>",
         "options":"<li>Double Door Option</li><li>Hinge Expader or Pre Hung Frame</li><li>Frame Colors Available: Adobe, Almond, Bronze, Weathered Brown, and White</li><li>Solar Screen</li><li>9in. Kick Plate</li>",
-        "relatedProducts":"<li>Sliding Screen Doors</li><li>Rollaway Screen Doors</li><li>Window Screens</li><li>Security Doors</li><li>Swinging Screen Doors</li>",
+        "relatedProducts":{
+            "Sliding Screen Doors": "/products/sliding-screen-doors",
+            "Retractable Screen Doors": "/products/retractable-screen-doors",
+            "Door and Window Screens": "/about/door-and-window-screens",
+            "Swinging Screen Doors": "/products/swinging-screen-doors",
+            "Security Door and Windows":"/about/security-doors-and-windows"
+        },
         "warranty":"Warranty covers workmanship of door. This includes hardware not working properly, corners coming apart, handle not functioning, and any other workmanship issues not listed here that are determined to be the fault of the manufacturer. Not covered under the warranty is any damage to the screen (Solar Screen has a warranty, Bugscreen does not.) or intentional damage including tampering with the door, damaged caused by brute, or intentional, force, damage from a pet or any other intentional act not deemed a workmanship flaw.",
         "colorSet":["securityDoorColors"]
     },
@@ -1230,12 +1525,32 @@
                 "big":"assets/images/security/steel-security-doors/estate/estate.jpg"
             }
         ],
-        "bullets":["The Clearview Swinging Screen Door is open design that maximizes visibility and ventilation.","This door comes in Standard and custom sizes.","Customize your door today and add a pet door or Solar Screen today!"],
+        "bullets":[
+            "Custom Sizes Available",
+            "1-1/4in. sq. x 18 Ga. 1-Piece Steel Mounting Frame",
+            "1in. sq. x 18 Ga. Steel Door Frame",
+            "5/8in. sq. x 18 Ga. Vertical Steel Pickets",
+            "5/8in. sq. x 18 Ga. Horizontal Steel Pickets",
+            "Double Hole Lock-Box w/ 2-1/8in. Bore & 2-3/8in. Backset",
+            "Continuous 1/8in. x 3/4in. Lock Side Tamper Guard",
+            "Tamper Proof Hinges",
+            "24 Ga. Perforated Steel Mesh for Extra Security",
+            "Security Mounting Screws",
+            "Many Powder Coating Colors to Choose From",
+            "Contrasting Color Mesh (as shown)",
+            "Price: $"          
+        ],
         "tileText":"Call us today and get great pricing on window screen replacements. We specialize in all kinds of window screens and Solar Screens.",
         "productOverview":"Mike's Mobile Screen & Chimney Service offers high quality Swinging Screen doors. The Brighton Swinging Screen Doors offers a 1in. Wide Sculptured 9 Lite marginal grid pattern which combines elegance and openess to this door design. Our prices include installation. Call today to find out more!",
         "technicalSpecs":"<li>2-1/8in. x 3/4in. .050 Extruded Aluminum Frame</li><li>Available in Standard Sizes</li><li>2ft 6in. x 6ft 8in. (29-1/4in. x 79-1/4in.)</li><li>2ft 8in. x 6ft 8in. (31-1/4in. x 79-1/4in.)</li><li>3ft 0in x 6ft 8in. (35-1/4in. x 79-1/4in.)</li><li>Custom Widths 24in. - 47in., Heights up to 96in.</li><li>1in. Wide Sculptured 9 Lite Marginal Grid Pattern</li><li>Charcoal Fiberglass Insect Screening</li><li>Standard Push Button Handle</li><li>1-7/8in Side Adjustable .050 Channel with 3 Hinges</li><li>1-7/8in Bottom Adjustment .050 Channel</li><li>Precision SAFEGUARD Packaging - Complete with Hardware.</li>",
         "options":"<li>Double Door Option</li><li>Hinge Expader or Pre Hung Frame</li><li>Frame Colors Available: Adobe, Almond, Bronze, Weathered Brown, and White</li><li>Solar Screen</li><li>9in. Kick Plate</li>",
-        "relatedProducts":"<li>Sliding Screen Doors</li><li>Rollaway Screen Doors</li><li>Window Screens</li><li>Security Doors</li><li>Swinging Screen Doors</li>",
+        "relatedProducts":{
+            "Sliding Screen Doors": "/products/sliding-screen-doors",
+            "Retractable Screen Doors": "/products/retractable-screen-doors",
+            "Door and Window Screens": "/about/door-and-window-screens",
+            "Swinging Screen Doors": "/products/swinging-screen-doors",
+            "Security Door and Windows":"/about/security-doors-and-windows"
+        },
         "warranty":"Warranty covers workmanship of door. This includes hardware not working properly, corners coming apart, handle not functioning, and any other workmanship issues not listed here that are determined to be the fault of the manufacturer. Not covered under the warranty is any damage to the screen (Solar Screen has a warranty, Bugscreen does not.) or intentional damage including tampering with the door, damaged caused by brute, or intentional, force, damage from a pet or any other intentional act not deemed a workmanship flaw.",
         "colorSet":["securityDoorColors"]
     },
@@ -1253,12 +1568,33 @@
                 "big":"assets/images/security/steel-security-doors/plantation/plantation.jpg"
             }
         ],
-        "bullets":["The Clearview Swinging Screen Door is open design that maximizes visibility and ventilation.","This door comes in Standard and custom sizes.","Customize your door today and add a pet door or Solar Screen today!"],
+        "bullets":[
+            "Custom Sizes Available",
+            "1-1/4in. sq. x 18 Ga. 1-Piece Steel Mounting Frame",
+            "1in. sq. x 18 Ga. Steel Door Frame",
+            "5/8in. sq. x 18 Ga. Vertical Steel Pickets (2 Twisted - 3 Straight)",
+            "5/8in. sq. x 18 Ga. Horizontal Steel Pickets",
+            "Ten Signature Aluminum Castings",
+            "Double Hole Lock-Box w/ 2-1/8in. Bore & 2-3/8in. Backset",
+            "Continuous 1/8in. x 3/4in. Lock Side Tamper Guard",
+            "Tamper Proof Hinges",
+            "24 Ga. Perforated Steel Mesh for Extra Security",
+            "Security Mounting Screws",
+            "Many Powder Coating Colors to Choose From",
+            "Contrasting Color Mesh (as shown)",
+            "Price: $"          
+        ],
         "tileText":"Call us today and get great pricing on window screen replacements. We specialize in all kinds of window screens and Solar Screens.",
         "productOverview":"Mike's Mobile Screen & Chimney Service offers high quality Swinging Screen doors. The Brighton Swinging Screen Doors offers a 1in. Wide Sculptured 9 Lite marginal grid pattern which combines elegance and openess to this door design. Our prices include installation. Call today to find out more!",
         "technicalSpecs":"<li>2-1/8in. x 3/4in. .050 Extruded Aluminum Frame</li><li>Available in Standard Sizes</li><li>2ft 6in. x 6ft 8in. (29-1/4in. x 79-1/4in.)</li><li>2ft 8in. x 6ft 8in. (31-1/4in. x 79-1/4in.)</li><li>3ft 0in x 6ft 8in. (35-1/4in. x 79-1/4in.)</li><li>Custom Widths 24in. - 47in., Heights up to 96in.</li><li>1in. Wide Sculptured 9 Lite Marginal Grid Pattern</li><li>Charcoal Fiberglass Insect Screening</li><li>Standard Push Button Handle</li><li>1-7/8in Side Adjustable .050 Channel with 3 Hinges</li><li>1-7/8in Bottom Adjustment .050 Channel</li><li>Precision SAFEGUARD Packaging - Complete with Hardware.</li>",
         "options":"<li>Double Door Option</li><li>Hinge Expader or Pre Hung Frame</li><li>Frame Colors Available: Adobe, Almond, Bronze, Weathered Brown, and White</li><li>Solar Screen</li><li>9in. Kick Plate</li>",
-        "relatedProducts":"<li>Sliding Screen Doors</li><li>Rollaway Screen Doors</li><li>Window Screens</li><li>Security Doors</li><li>Swinging Screen Doors</li>",
+        "relatedProducts":{
+            "Sliding Screen Doors": "/products/sliding-screen-doors",
+            "Retractable Screen Doors": "/products/retractable-screen-doors",
+            "Door and Window Screens": "/about/door-and-window-screens",
+            "Swinging Screen Doors": "/products/swinging-screen-doors",
+            "Security Door and Windows":"/about/security-doors-and-windows"
+        },
         "warranty":"Warranty covers workmanship of door. This includes hardware not working properly, corners coming apart, handle not functioning, and any other workmanship issues not listed here that are determined to be the fault of the manufacturer. Not covered under the warranty is any damage to the screen (Solar Screen has a warranty, Bugscreen does not.) or intentional damage including tampering with the door, damaged caused by brute, or intentional, force, damage from a pet or any other intentional act not deemed a workmanship flaw.",
         "colorSet":["securityDoorColors"]
     },
@@ -1276,12 +1612,33 @@
                 "big":"assets/images/security/steel-security-doors/villa/villa.jpg"
             }
         ],
-        "bullets":["The Clearview Swinging Screen Door is open design that maximizes visibility and ventilation.","This door comes in Standard and custom sizes.","Customize your door today and add a pet door or Solar Screen today!"],
+        "bullets":[
+            "Custom Sizes Available",
+            "1-1/4in. sq. x 18 Ga. 1-Piece Steel Mounting Frame",
+            "1in. sq. x 18 Ga. Steel Door Frame",
+            "5/8in. sq. x 18 Ga. Vertical Steel Pickets",
+            "5/8in. sq. x 18 Ga. Horizontal Steel Pickets",
+            "1/8in. Thick x 1/2in. Wide Steel Scroll Design",
+            "Double Hole Lock-Box w/ 2-1/8in. Bore & 2-3/8in. Backset",
+            "Continuous 1/8in. x 3/4in. Lock Side Tamper Guard",
+            "Tamper Proof Hinges",
+            "24 Ga. Perforated Steel Mesh for Extra Security",
+            "Security Mounting Screws",
+            "Many Powder Coating Colors to Choose From",
+            "Contrasting Color Mesh (as shown)",
+            "Price: $"          
+        ],
         "tileText":"Call us today and get great pricing on window screen replacements. We specialize in all kinds of window screens and Solar Screens.",
         "productOverview":"Mike's Mobile Screen & Chimney Service offers high quality Swinging Screen doors. The Brighton Swinging Screen Doors offers a 1in. Wide Sculptured 9 Lite marginal grid pattern which combines elegance and openess to this door design. Our prices include installation. Call today to find out more!",
         "technicalSpecs":"<li>2-1/8in. x 3/4in. .050 Extruded Aluminum Frame</li><li>Available in Standard Sizes</li><li>2ft 6in. x 6ft 8in. (29-1/4in. x 79-1/4in.)</li><li>2ft 8in. x 6ft 8in. (31-1/4in. x 79-1/4in.)</li><li>3ft 0in x 6ft 8in. (35-1/4in. x 79-1/4in.)</li><li>Custom Widths 24in. - 47in., Heights up to 96in.</li><li>1in. Wide Sculptured 9 Lite Marginal Grid Pattern</li><li>Charcoal Fiberglass Insect Screening</li><li>Standard Push Button Handle</li><li>1-7/8in Side Adjustable .050 Channel with 3 Hinges</li><li>1-7/8in Bottom Adjustment .050 Channel</li><li>Precision SAFEGUARD Packaging - Complete with Hardware.</li>",
         "options":"<li>Double Door Option</li><li>Hinge Expader or Pre Hung Frame</li><li>Frame Colors Available: Adobe, Almond, Bronze, Weathered Brown, and White</li><li>Solar Screen</li><li>9in. Kick Plate</li>",
-        "relatedProducts":"<li>Sliding Screen Doors</li><li>Rollaway Screen Doors</li><li>Window Screens</li><li>Security Doors</li><li>Swinging Screen Doors</li>",
+        "relatedProducts":{
+            "Sliding Screen Doors": "/products/sliding-screen-doors",
+            "Retractable Screen Doors": "/products/retractable-screen-doors",
+            "Door and Window Screens": "/about/door-and-window-screens",
+            "Swinging Screen Doors": "/products/swinging-screen-doors",
+            "Security Door and Windows":"/about/security-doors-and-windows"
+        },
         "warranty":"Warranty covers workmanship of door. This includes hardware not working properly, corners coming apart, handle not functioning, and any other workmanship issues not listed here that are determined to be the fault of the manufacturer. Not covered under the warranty is any damage to the screen (Solar Screen has a warranty, Bugscreen does not.) or intentional damage including tampering with the door, damaged caused by brute, or intentional, force, damage from a pet or any other intentional act not deemed a workmanship flaw.",
         "colorSet":["securityDoorColors"]
     },
@@ -1299,12 +1656,35 @@
                 "big":"assets/images/security/steel-security-doors/santa-fe/santa-fe.jpg"
             }
         ],
-        "bullets":["The Clearview Swinging Screen Door is open design that maximizes visibility and ventilation.","This door comes in Standard and custom sizes.","Customize your door today and add a pet door or Solar Screen today!"],
+        "bullets":[
+            "Custom Sizes Available",
+            "1-1/4in. sq. x 18 Ga. 1-Piece Steel Mounting Frame",
+            "1in. sq. x 18 Ga. Steel Door Frame",
+            "1in. sq. x 18 Ga. Steel Horizontal Tubes at Lock-Box, Top, & Bottom",
+            "5/8in. sq. x 18 Ga. Vertical Steel Pickets",
+            "5/8in. sq. x 18 Ga. Horizontal Steel Pickets at Top, Center & Bottom",
+            "1/8in. Thick x 1/2in. Wide Steel Scroll Design",
+            "Double Hole Lock-Box w/ 2-1/8in. Bore & 2-3/8in. Backset",
+            "Continuous 1/8in. x 3/4in. Lock Side Tamper Guard",
+            "11 Ga. Dakota Designs at Top, Center, & Bottom",
+            "Tamper Proof Hinges",
+            "24 Ga. Perforated Steel Mesh for Extra Security",
+            "Security Mounting Screws",
+            "Many Powder Coating Colors to Choose From",
+            "Contrasting Color Mesh (as shown)",
+            "Price: $$"          
+        ],
         "tileText":"Call us today and get great pricing on window screen replacements. We specialize in all kinds of window screens and Solar Screens.",
         "productOverview":"Mike's Mobile Screen & Chimney Service offers high quality Swinging Screen doors. The Brighton Swinging Screen Doors offers a 1in. Wide Sculptured 9 Lite marginal grid pattern which combines elegance and openess to this door design. Our prices include installation. Call today to find out more!",
         "technicalSpecs":"<li>2-1/8in. x 3/4in. .050 Extruded Aluminum Frame</li><li>Available in Standard Sizes</li><li>2ft 6in. x 6ft 8in. (29-1/4in. x 79-1/4in.)</li><li>2ft 8in. x 6ft 8in. (31-1/4in. x 79-1/4in.)</li><li>3ft 0in x 6ft 8in. (35-1/4in. x 79-1/4in.)</li><li>Custom Widths 24in. - 47in., Heights up to 96in.</li><li>1in. Wide Sculptured 9 Lite Marginal Grid Pattern</li><li>Charcoal Fiberglass Insect Screening</li><li>Standard Push Button Handle</li><li>1-7/8in Side Adjustable .050 Channel with 3 Hinges</li><li>1-7/8in Bottom Adjustment .050 Channel</li><li>Precision SAFEGUARD Packaging - Complete with Hardware.</li>",
         "options":"<li>Double Door Option</li><li>Hinge Expader or Pre Hung Frame</li><li>Frame Colors Available: Adobe, Almond, Bronze, Weathered Brown, and White</li><li>Solar Screen</li><li>9in. Kick Plate</li>",
-        "relatedProducts":"<li>Sliding Screen Doors</li><li>Rollaway Screen Doors</li><li>Window Screens</li><li>Security Doors</li><li>Swinging Screen Doors</li>",
+        "relatedProducts":{
+            "Sliding Screen Doors": "/products/sliding-screen-doors",
+            "Retractable Screen Doors": "/products/retractable-screen-doors",
+            "Door and Window Screens": "/about/door-and-window-screens",
+            "Swinging Screen Doors": "/products/swinging-screen-doors",
+            "Security Door and Windows":"/about/security-doors-and-windows"
+        },
         "warranty":"Warranty covers workmanship of door. This includes hardware not working properly, corners coming apart, handle not functioning, and any other workmanship issues not listed here that are determined to be the fault of the manufacturer. Not covered under the warranty is any damage to the screen (Solar Screen has a warranty, Bugscreen does not.) or intentional damage including tampering with the door, damaged caused by brute, or intentional, force, damage from a pet or any other intentional act not deemed a workmanship flaw.",
         "colorSet":["securityDoorColors"]
     },
@@ -1315,7 +1695,7 @@
     {
         "title":"Viewguard Security Doors",
         "slug":"viewguard-security-doors",
-        "category":"Security",
+        "category":"Security Doors and Windows",
         "subcategory":"Door",
         "type":"products",
         "bullets":["The Viewguard looks like a screen door but is actually high tensile strength stainless steel woven into a fine mesh.","Your security screen door will be the first point of protection for keeping your home safe and secure.","It provides secure protection and gives you a clear view of the outdoors without compromising the style or appearance of your home."],
@@ -1346,14 +1726,19 @@
         "productOverview":"REST EASY<br/>Now you can let the cool breeze in and keep intruders out without compromising the appearance of your home. Finally you can experience total security without resorting to bars or unsightly steel grills.<br/><br/>HIGHER SECURITY<br/>Viewguard screens incorporate the latest advances in high tensile strength materials and construction.<br/><br/>LOWER COST<br/>When compared to alternative solutions for security, Viewguard™ security screen doors are built to last and are corrosion resistant.<br/><br/>GREATER AIRFLOW<br/>Stainless steel marine grade mesh screen optimizes airflow, and maximizes security. Strength and beauty in perfect harmony.<br/><br/>SAVE ENERGY - FEEL SAFE<br/>Opening your window in the evening reduces air conditioning costs in hot weather.<br/><br/>SUPERIOR STYLE<br/>Compare our security window screens with anything else on the market today, and we think you'll agree, Guarda has a lock on security and style.<br/><br/>COLORS AVAILABLE<br/>Bronze Anodized or White Paint. Custom special colors are available. Contact the factory for more details.",
         "technicalSpecs":"STANDARD SIZES: 36in. x 80in. - 32in. x 80in. - 30in. x 80in.<br/><br/>SCREENING: 316 Series Stainless Steel, .032 wire diameter woven in a 12 x 12 mesh & epoxy coated for additional corrosion protection.<br/><br/>HARDWARE: Hardware shall be aluminum, stainless steel, or other non-corrosive material compatible with aluminum.<br/><br/>MEASURING GUIDE: Click here<br/><br/>FINISHES: Bronze Anodized, White Paint. Additional color choices are listed below. Note: The stainless steel security mesh can NOT be painted. Call for pricing.<br/><br/>SECURITY DOOR SPECIFICATION:<br/><br/><p class='px-2'>Door Members: Tubular door stile shall be extruded aluminum, and exposed face width shall be at least 4 5/8in. x 1 3/8in. thick with 0.093 nominal walls. Tubular door surround shall be extruded aluminum 1 7/8in. x 1 9/16 with 0.093 nominal walls. The bottom expander expose face width shall be at least 1 3/4in. x 1 1/2in. thick with 0.060 nominal wall thickness.<br/><br/><p class='px-2'>Hardware: The optional heavy duty pneumatic door closer shall have a 1 1/2in. tube diameter and 12 1/8in. between mounting holes.</p>",
         "options":"<li>Pneumatic Door Closure: Heavy duty type with 1-1/2in. tube and stop</li><li>Custom Bore spacing: Doors are prepped for a 2-1/8in. lock set hole size to accept a Standard handle and lock set (sold separately). We offer a variety of door handles and dead bolts. Custom bore spacing is available to fit a wider range of handle and lock sets.</li><li>French Set: Complete with locking pins on fixed door. Bores on fixed door for “dummy handle set” are available.</li><li>Threshold Extender: Available in white, bronze, or mill. Threshold extenders are sometimes needed to retrofit your existing door to make the Viewguard bug proof when your threshold is too short.</li><li>Colors (See below)</li><li>Lockset (not included)</li>",
-        "relatedProducts":"<li>Tru Frame</li><li>Tru View</li><li>Steel Security Doors</li><li>Tru Frame Security Sliding Doors</li>",
+        "relatedProducts":{
+            "Tru Frame Security Doors": "/products/tru-frame-security-doors",
+            "Tru View Security Doors": "/products/tru-view-security-doors",
+            "Steel Security Doors": "/grid/steel-security-doors",
+            "Sliding Security Doors": "/products/sliding-security-doors"
+        },
         "warranty":"All warranties cover materials, manufacturing defects and hardware for the periods listed below but will not cover normal wear and tear of the product. Screen mesh is not covered beyond the initial installation of products. Defective items must be reported within 5 days of receipt for validation. Improper installation of the product will not be covered under the warranties listed. Warranty periods begin from the date of purchase to our dealers.<br/><br/>Contact the factory for details on specific product lines listed below and for any warranty claim.<br/><br/>Maximum liability for R. Lang Company will be limited to replacement of product only.<br/><br/>5 Year Limited Warranty<br/><br/><br/>Security Doors<br/>WARRANTY SERVICE REQUESTS<br/><br/>Warranty periods begin from date of purchase from the R. Lang Company.<br/>All warranty service requests must be submitted by the original dealer/customer for validation purposes. You must provide an original invoice number for verification.<br/>Contact our Customer Service Department at (800) 677-5264 for the Service Request form to be emailed or faxed to you.<br/>R. Lang Company will not accept warranty requests directly from homeowners.<br/>Under no circumstance will R. Lang Company be responsible for repair bills submitted by homeowners or dealers/customers without prior approval from the Sales or Warranty Manager.<br/>Warranty requests received outside of our California service area will be processed by our Warranty Manager for fair resolution. Replacement parts will be sent as necessary to correct a problem or defect. Insulated glass failures/defects can be replaced locally but will require pre-authorization from the Sales Warranty Manager for fair credit amount reimbursement.<br/>Any dealer/customer rework or screen replacement must be pre-approved. We recommend that the product be returned for correction in our facility.<br/>R. Lang Company will cover cost for authorized replacements for material only. Dealer/customer will be responsible for any labor incurred for their shop or field expenses.<br/><br/>GENERAL WARRANTY POLICY<br/>R. Lang Company will repair or provide replacement product, at it’s election, free of charge, any product proven to have a manufacturing defect during the applicable warranty period up to a maximum liability which shall be equal to the cost of replacement of the defective product. R. Lang Company shall in no event be liable for labor charges or other expenses whatsoever in connection with removal or installation of either the original or replacement product. However, in lieu of replacement of repair, R. Lang Company, at it’s sole discretion, reserves the right to refund up to the amount paid by the original purchaser of the product but not including the installation cost. This warranty is intended to cover individual homeowners and does not apply to products installed in commercial construction. In the event of repair or replacement pursuant to terms of this warranty, the original warranty shall apply to the repaired or replacement product and will extend for the balance of the warranty period in effect at the time the product proved defective.",
         "colorSet":["stdColors", "slidingSecurityDoorColors"]
     },
     {
         "title":"TRU-View Security Doors",
         "slug":"tru-view-security-doors",
-        "category":"Security",
+        "category":"Security Doors and Windows",
         "subcategory":"Door",
         "type":"products",
         "bullets":["With the Tru-View you can let the cool breeze in and keep intruders out without compromising the appearance of your home.","Finally you can experience security without resorting to bars or unsightly steel grills.","Stainless steel marine grade mesh screen optimizes airflow, and maximizes security."],
@@ -1399,7 +1784,12 @@
         "productOverview":"Tru-View Security door is an amazing solution for front doors and back doors!<br/><br/>REST EASY<br/>Now you can let the cool breeze in and keep intruders out without compromising the appearance of your home. Finally you can experience total security without resorting to bars or unsightly steel grills.<br/><br/>HIGHER SECURITY<br/>Tru-View security screen doors incorporate the latest advances in high tensile strength materials and construction.<br/><br/>LOWER COST<br/>When compared to alternative solutions for security, Tru-View™ security screen doors are built to last and are corrosion resistant.<br/><br/>GREATER AIRFLOW<br/>Stainless steel marine grade mesh screen optimizes airflow, and maximizes security. Strength and beauty in perfect harmony.<br/><br/>SAVE ENERGY - FEEL SAFE<br/>Opening your door in the evening reduces air conditioning costs in hot weather.<br/><br/>SUPERIOR STYLE<br/>Compare our screen doors with anything else on the market today, and we think you'll agree, Tru-View™ has a lock on security and style.",
         "technicalSpecs":"<li>STANDARD SIZES: 36in. x 80in. - 32in. x 80in. - 30in. x 80in.</li><li>SCREENING: 316 Series Stainless Steel, .032 wire diameter woven in a 12 x 12 mesh & epoxy coated for additional corrosion protection.</li><li>HARDWARE: Hardware shall be aluminum, stainless steel, or other non-corrosive material compatible with aluminum.</li>",
         "options":"FRENCH DOOR OPTION<br/>Tru-View security screen doors are also available with a French Door kit for double doors, and include all installation hardware.<br/><br/>THRESHOLD EXTENDER:<br/>Available in white, bronze, or mill. Threshold extenders are sometimes needed to retrofit your existing door to make the Viewguard bug proof when your threshold is too short.<br/><br/>HINGE EXPANDER DETAIL: Click here<br/><br/>PRE-HUNG DETAIL: Click here<br/><br/>COLORS AVAILABLE<br/>Bronze Anodized or White Paint. Custom special colors are available. See below for samples.<br/><br/>HARDWARE:<br/>Hardware includes deluxe security lock with keyed deadbolt, thumb-turn cylinder, pneumatic closer, wind safety chain and installation screws.",
-        "relatedProducts":"<li>Tru Frame</li><li>Tru View</li><li>Steel Security Doors</li><li>Tru Frame Security Sliding Doors</li>",
+        "relatedProducts":{
+            "Tru Frame Security Doors": "/products/tru-frame-security-doors",
+            "Tru View Security Doors": "/products/tru-view-security-doors",
+            "Steel Security Doors": "/grid/steel-security-doors",
+            "Sliding Security Doors": "/products/sliding-security-doors"
+        },
         "warranty":"All warranties cover materials, manufacturing defects and hardware for the periods listed below but will not cover normal wear and tear of the product. Screen mesh is not covered beyond the initial installation of products. Defective items must be reported within 5 days of receipt for validation. Improper installation of the product will not be covered under the warranties listed. Warranty periods begin from the date of purchase to our dealers.<br/><br/>Contact the factory for details on specific product lines listed below and for any warranty claim.<br/><br/>Maximum liability for R. Lang Company will be limited to replacement of product only.<br/><br/>5 Year Limited Warranty<br/><br/><br/>Security Doors<br/>WARRANTY SERVICE REQUESTS<br/><br/>Warranty periods begin from date of purchase from the R. Lang Company.<br/>All warranty service requests must be submitted by the original dealer/customer for validation purposes. You must provide an original invoice number for verification.<br/>Contact our Customer Service Department at (800) 677-5264 for the Service Request form to be emailed or faxed to you.<br/>R. Lang Company will not accept warranty requests directly from homeowners.<br/>Under no circumstance will R. Lang Company be responsible for repair bills submitted by homeowners or dealers/customers without prior approval from the Sales or Warranty Manager.<br/>Warranty requests received outside of our California service area will be processed by our Warranty Manager for fair resolution. Replacement parts will be sent as necessary to correct a problem or defect. Insulated glass failures/defects can be replaced locally but will require pre-authorization from the Sales Warranty Manager for fair credit amount reimbursement.<br/>Any dealer/customer rework or screen replacement must be pre-approved. We recommend that the product be returned for correction in our facility.<br/>R. Lang Company will cover cost for authorized replacements for material only. Dealer/customer will be responsible for any labor incurred for their shop or field expenses.<br/><br/>GENERAL WARRANTY POLICY<br/>R. Lang Company will repair or provide replacement product, at it’s election, free of charge, any product proven to have a manufacturing defect during the applicable warranty period up to a maximum liability which shall be equal to the cost of replacement of the defective product. R. Lang Company shall in no event be liable for labor charges or other expenses whatsoever in connection with removal or installation of either the original or replacement product. However, in lieu of replacement of repair, R. Lang Company, at it’s sole discretion, reserves the right to refund up to the amount paid by the original purchaser of the product but not including the installation cost. This warranty is intended to cover individual homeowners and does not apply to products installed in commercial construction. In the event of repair or replacement pursuant to terms of this warranty, the original warranty shall apply to the repaired or replacement product and will extend for the balance of the warranty period in effect at the time the product proved defective.",
         "recentInstallImages":[
             {"small": "/assets/images/security/tru-view/8.png", "medium":"/assets/images/security/tru-view/8.png", "big":"/assets/images/security/tru-view/8.png"},
@@ -1410,7 +1800,7 @@
     {
         "title":"TRU-Frame Security Doors",
         "slug":"tru-frame-security-doors",
-        "category":"Security",
+        "category":"Security Doors and Windows",
         "subcategory":"Door",
         "type":"products",
         "bullets":["Tru-Frame security screen doors have all the benefits of a screen door with the added safety of a dead bolted security door.","The Tru-Frame is a security door without the traditional security door look, at a price that won’t break the bank."],
@@ -1451,7 +1841,12 @@
         "productOverview":"Aluminum Frame:<br/>The high tensile strength aluminum construction withstands bending, breaking, smashing, and pulling.<br/><br/>Ventilation and Visibility:<br/>Feel safe and secure leaving your front door open.<br/><br/>Deadbolt Security:<br/>With a poly carbonate sheet to prevent tampering from the outside, the deadbolt lock cannot be pried open by a metal or plastic insert. Even if the face plate and handle are jimmied, the concealed mechanism and main bolt remain in the locked position.<br/><br/>Rust Free:<br/>With a heavy gauge extruded aluminum frame, the Tru-Frame Security Door is resistant to rust and made for lasting durability.",
         "technicalSpecs":"Screening: The Tru-Frame door comes Standard with a charcoal aluminum screen; upgrade to a pet and child proof screen material for added durabilit, privacy, and sun protection.<br/><br/>Hardware: Hardware includes deluxe security lock with keyed deadbolt, thumb-turn cylinder, pneumatic closer, wind safety chain and installation screws. Slim Line Handle set shown right. Click image to enlarge.",
         "options":"THRESHOLD EXTENDER: Available in white, bronze, or mill. Threshold extenders are sometimes needed to retrofit your existing door to make the Viewguard bug proof when your threshold is too short.<br/><br/>HINGE EXPANDER DETAIL: Click here<br/><br/>PRE-HUNG DETAIL: Click here<br/><br/>COLORS AVAILABLE<br/><br/>Bronze Anodized or White Paint. Custom special colors are available. See below for samples.<br/><br/>Solar Screen: See Colors listed below",
-        "relatedProducts":"<li>Tru Frame</li><li>Tru View</li><li>Steel Security Doors</li><li>Tru Frame Security Sliding Doors</li>",
+        "relatedProducts":{
+            "Tru Frame Security Doors": "/products/tru-frame-security-doors",
+            "Tru View Security Doors": "/products/tru-view-security-doors",
+            "Steel Security Doors": "/grid/steel-security-doors",
+            "Sliding Security Doors": "/products/sliding-security-doors"
+        },
         "warranty":"All warranties cover materials, manufacturing defects and hardware for the periods listed below but will not cover normal wear and tear of the product. Screen mesh is not covered beyond the initial installation of products. Defective items must be reported within 5 days of receipt for validation. Improper installation of the product will not be covered under the warranties listed. Warranty periods begin from the date of purchase to our dealers.<br/><br/>Contact the factory for details on specific product lines listed below and for any warranty claim.<br/><br/>Maximum liability for R. Lang Company will be limited to replacement of product only.<br/><br/>5 Year Limited Warranty<br/><br/><br/>Security Doors<br/>WARRANTY SERVICE REQUESTS<br/><br/>Warranty periods begin from date of purchase from the R. Lang Company.<br/>All warranty service requests must be submitted by the original dealer/customer for validation purposes. You must provide an original invoice number for verification.<br/>Contact our Customer Service Department at (800) 677-5264 for the Service Request form to be emailed or faxed to you.<br/>R. Lang Company will not accept warranty requests directly from homeowners.<br/>Under no circumstance will R. Lang Company be responsible for repair bills submitted by homeowners or dealers/customers without prior approval from the Sales or Warranty Manager.<br/>Warranty requests received outside of our California service area will be processed by our Warranty Manager for fair resolution. Replacement parts will be sent as necessary to correct a problem or defect. Insulated glass failures/defects can be replaced locally but will require pre-authorization from the Sales Warranty Manager for fair credit amount reimbursement.<br/>Any dealer/customer rework or screen replacement must be pre-approved. We recommend that the product be returned for correction in our facility.<br/>R. Lang Company will cover cost for authorized replacements for material only. Dealer/customer will be responsible for any labor incurred for their shop or field expenses.<br/><br/>GENERAL WARRANTY POLICY<br/>R. Lang Company will repair or provide replacement product, at it’s election, free of charge, any product proven to have a manufacturing defect during the applicable warranty period up to a maximum liability which shall be equal to the cost of replacement of the defective product. R. Lang Company shall in no event be liable for labor charges or other expenses whatsoever in connection with removal or installation of either the original or replacement product. However, in lieu of replacement of repair, R. Lang Company, at it’s sole discretion, reserves the right to refund up to the amount paid by the original purchaser of the product but not including the installation cost. This warranty is intended to cover individual homeowners and does not apply to products installed in commercial construction. In the event of repair or replacement pursuant to terms of this warranty, the original warranty shall apply to the repaired or replacement product and will extend for the balance of the warranty period in effect at the time the product proved defective.",
         "recentInstallImages":[
             {
@@ -1475,7 +1870,7 @@
     {
         "title":"Sliding Security Doors",
         "slug":"sliding-security-doors",
-        "category":"Security",
+        "category":"Security Doors and Windows",
         "subcategory":"Door",
         "type":"products",
         "bullets":["Let the cool breeze in while keeping undesirable elements out with TRU-Frame Sliding Security Screen Doors.","Constructed to match the look and performance of our hinged door product line, our NEW Sliding Security Doors will enhance the appearance of your home while providing peace of mind!","Available in the Stainless Steel Mesh style (Similar to Viewguard) and an Amplimesh style (Similar to TRU-Frame) in Single or Double door options."],
@@ -1531,7 +1926,12 @@
         "productOverview":"A sliding security door replaces your existing patio screen door. These doors come pre-assembled and tamper resistant. Enjoy the cool night air while sleeping in peace, quiet and safety. These sliding security doors are also pet resistant! No more ripped screens from pets.",
         "technicalSpecs":"<li>Ventilation: Can be locked securely, allowing you to safely and confidently leave your primary door open day or night.</li><li>Visibility: Allows viewing of the outdoors and visitors, and eliminates the confined feeling other security products present.</li><li>Rust Free: Heavy gauge extruded aluminum frame resists rust for lasting durability.</li><li>Secure: The 5-point Locking Hardware and Integrated C enter Retention System mean our sliders can take a beating!</li><li>Pet Proof: The Stainless Steel Mesh option comes pet proof and the Amplimesh style door can be screened with petscreen to become pet proof.</li>",
         "options":"<li>Amplimesh Grill</li><li>Add Solar Screen</li><li>Stainless Steel Grill</li>",
-        "relatedProducts":"<li>Tru Frame</li><li>Tru View</li><li>Steel Security Doors</li><li>Tru Frame Security Sliding Doors</li>",
+        "relatedProducts":{
+            "Tru Frame Security Doors": "/products/tru-frame-security-doors",
+            "Tru View Security Doors": "/products/tru-view-security-doors",
+            "Steel Security Doors": "/grid/steel-security-doors",
+            "Sliding Security Doors": "/products/sliding-security-doors"
+        },
         "warranty":"All warranties cover materials, manufacturing defects and hardware for the periods listed below but will not cover normal wear and tear of the product. Screen mesh is not covered beyond the initial installation of products. Defective items must be reported within 5 days of receipt for validation. Improper installation of the product will not be covered under the warranties listed. Warranty periods begin from the date of purchase to our dealers.<br/><br/>Contact the factory for details on specific product lines listed below and for any warranty claim.<br/><br/>Maximum liability for R. Lang Company will be limited to replacement of product only.<br/><br/>5 Year Limited Warranty<br/><br/><br/>Security Doors<br/>WARRANTY SERVICE REQUESTS<br/><br/>Warranty periods begin from date of purchase from the R. Lang Company.<br/>All warranty service requests must be submitted by the original dealer/customer for validation purposes. You must provide an original invoice number for verification.<br/>Contact our Customer Service Department at (800) 677-5264 for the Service Request form to be emailed or faxed to you.<br/>R. Lang Company will not accept warranty requests directly from homeowners.<br/>Under no circumstance will R. Lang Company be responsible for repair bills submitted by homeowners or dealers/customers without prior approval from the Sales or Warranty Manager.<br/>Warranty requests received outside of our California service area will be processed by our Warranty Manager for fair resolution. Replacement parts will be sent as necessary to correct a problem or defect. Insulated glass failures/defects can be replaced locally but will require pre-authorization from the Sales Warranty Manager for fair credit amount reimbursement.<br/>Any dealer/customer rework or screen replacement must be pre-approved. We recommend that the product be returned for correction in our facility.<br/>R. Lang Company will cover cost for authorized replacements for material only. Dealer/customer will be responsible for any labor incurred for their shop or field expenses.<br/><br/>GENERAL WARRANTY POLICY<br/>R. Lang Company will repair or provide replacement product, at it’s election, free of charge, any product proven to have a manufacturing defect during the applicable warranty period up to a maximum liability which shall be equal to the cost of replacement of the defective product. R. Lang Company shall in no event be liable for labor charges or other expenses whatsoever in connection with removal or installation of either the original or replacement product. However, in lieu of replacement of repair, R. Lang Company, at it’s sole discretion, reserves the right to refund up to the amount paid by the original purchaser of the product but not including the installation cost. This warranty is intended to cover individual homeowners and does not apply to products installed in commercial construction. In the event of repair or replacement pursuant to terms of this warranty, the original warranty shall apply to the repaired or replacement product and will extend for the balance of the warranty period in effect at the time the product proved defective.",
         "recentInstallImages":[
             {
@@ -1585,10 +1985,18 @@
     {
         "title":"CRL Guarda™ Quick Escape",
         "slug":"crl-guarda-quick-escape",
-        "category":"Security",
+        "category":"Security Doors and Windows",
         "subcategory":"Window",
         "type":"products",
-        "bullets":["Your security window screens will be one of the first points of protection for keeping your home safe and secure.","Our security window screens looks like a normal window screen but is actually high tensile strength stainless steel oven into a fine mesh called 'meshtec'.","It provides secure protection and gives you a clear view of the outdoors without compromising the style or appearance of your home."],
+        "bullets":[
+            "CRL Guarda™ Quick Escape Window Screens have an easy release push mechanism that also acts as a secure, temper resistant device locking the screen closed for peace of mind.",
+            "These screens are designed to be an inside mount or surface mount system.",
+            "Our windows features a certified, internationally patented framing system and passes international testing for knife shear, dynamic impact, and salt spray.",
+            "Our screens block out an average of 60% of the sun's harmful ultraviolet rays.",
+            "Your security window screens will be one of the first points of protection for keeping your home safe and secure.",
+            "Our security window screens looks like a normal window screen but is actually high tensile strength stainless steel oven into a fine mesh called 'meshtec'.",
+            "It provides secure protection and gives you a clear view of the outdoors without compromising the style or appearance of your home."
+        ],
         "tileImage":"/assets/images/security/guarda-escape/2.png",
         "tileText":"CRL Guarda™ Quick Escape Window Screens have an easy release push mechanism that also acts as a secure, temper resistant device locking the screen closed for peace of mind.",
         "thumbImages":[
@@ -1611,16 +2019,27 @@
         "productOverview":"REST EASY<br/>Now you can let the cool breeze in and keep intruders out without compromising the appearance of your home. Finally you can experience total security without resorting to bars or unsightly steel grills.<br/><br/>HIGHER SECURITY<br/>Guarda security window screens incorporate the latest advances in high tensile strength materials and construction.<br/><br/>LOWER COST<br/>When compared to alternative solutions for security, our security window screens are built to last and are corrosion resistant.<br/><br/>GREATER AIRFLOW<br/>Stainless steel marine grade mesh screen optimizes airflow, and maximizes security. Strength and beauty in perfect harmony.<br/><br/>SAVE ENERGY - FEEL SAFE<br/>Opening your window in the evening reduces air conditioning costs in hot weather.<br/><br/>SUPERIOR STYLE<br/>Compare our security window screens with anything else on the market today, and we think you'll agree, Guarda has a lock on security and style.<br/><br/>COLORS AVAILABLE<br/>Bronze Anodized or White Paint. Custom special colors are available. Contact the factory for more details.",
         "technicalSpecs":"<li>SCREENING: Certified Meshtec</li><li>HARDWARE: Hardware shall be aluminum, stainless steel, or other non-corrosive material compatible with aluminum.</li><li>FINISHES: Traffic Black, brown, sahara brown metallic, sahara gray metallic, light gray, paper beige, white, silver metallic, and bronze. Note: The stainless steel security mesh can NOT be painted. Call for pricing.</li>",
         "options":"<li>Custom Sizes</li><li>9 Finish Colors</li><li>Two Different Mounting Options</li>",
-        "relatedProducts":"<li>Fixed Security Window Screens</li><li>Casement Security Window Screens</li>",
+        "relatedProducts":{
+            "Fixed Security Window Screens": "/products/crl-guarda-fixed",
+            "Casement Security Window Screens": "/products/crl-guarda-casement"
+        },
         "warranty":"<p>Hardware Warranty* for a period of one year from the date of original installation on all hardware (hinges, door closers, locks, and rollers)<br/>Powder Coating Color Warranty* for a period of 5 years from the date of original installation on mesh and sash panels</p>"
     },
     {
         "title":"CRL Guarda™ Fixed",
         "slug":"crl-guarda-fixed",
-        "category":"Security",
+        "category":"Security Doors and Windows",
         "subcategory":"Window",
         "type":"products",
-        "bullets":["Your security window screens will be one of the first points of protection for keeping your home safe and secure.","Our security window screens looks like a normal window screen but is actually high tensile strength stainless steel oven into a fine mesh called 'meshtec'.","It provides secure protection and gives you a clear view of the outdoors without compromising the style or appearance of your home."],
+        "bullets":[
+            "CRL Guarda™ Security Fixed Window Screens are an ideal solution to cover and protect non-opening windows.",
+            "Our windows can be installed on the interior and exterior and feature a concealed fastening system and blends with any architecture.",
+            "Applications include: Schools, day care centers, psychiatric and detox centers, government buildings, military installations, adult care facilities and residential houses.",
+            "Our window screens offer flexibility for mounting on new and existing structures.",
+            "Your security window screens will be one of the first points of protection for keeping your home safe and secure.",
+            "Our security window screens looks like a normal window screen but is actually high tensile strength stainless steel oven into a fine mesh called 'meshtec'.",
+            "It provides secure protection and gives you a clear view of the outdoors without compromising the style or appearance of your home."
+        ],
         "tileImage":"/assets/images/security/guarda-fixed/2.png",
         "tileText":"CRL Guarda™ Security Fixed Window Screens are an ideal solution to cover and protect non-opening windows.",
         "thumbImages":[
@@ -1643,16 +2062,24 @@
         "productOverview":"REST EASY<br/>Now you can let the cool breeze in and keep intruders out without compromising the appearance of your home. Finally you can experience total security without resorting to bars or unsightly steel grills.<br/><br/>HIGHER SECURITY<br/>Guarda security window screens incorporate the latest advances in high tensile strength materials and construction.<br/><br/>LOWER COST<br/>When compared to alternative solutions for security, our security window screens are built to last and are corrosion resistant.<br/><br/>GREATER AIRFLOW<br/>Stainless steel marine grade mesh screen optimizes airflow, and maximizes security. Strength and beauty in perfect harmony.<br/><br/>SAVE ENERGY - FEEL SAFE<br/>Opening your window in the evening reduces air conditioning costs in hot weather.<br/><br/>SUPERIOR STYLE<br/>Compare our security window screens with anything else on the market today, and we think you'll agree, Guarda has a lock on security and style.<br/><br/>COLORS AVAILABLE<br/>Bronze Anodized or White Paint. Custom special colors are available. Contact the factory for more details.",
         "technicalSpecs":"<li>SCREENING: Certified Meshtec</li><li>HARDWARE: Hardware shall be aluminum, stainless steel, or other non-corrosive material compatible with aluminum.</li><li>FINISHES: Traffic Black, brown, sahara brown metallic, sahara gray metallic, light gray, paper beige, white, silver metallic, and bronze. Note: The stainless steel security mesh can NOT be painted. Call for pricing.</li>",
         "options":"<li>Custom Sizes</li><li>9 Finish Colors</li><li>Two Different Mounting Options</li>",
-        "relatedProducts":"<li>Quick Escape Security Window Screens</li><li>Casement Security Window Screens</li>",
+        "relatedProducts":{
+            "Quick Escape Security Window Screens": "/products/crl-guarda-quick-escape",
+            "Casement Security Window Screens": "/products/crl-guarda-casement"
+        },
         "warranty":"<p>Hardware Warranty* for a period of one year from the date of original installation on all hardware (hinges, door closers, locks, and rollers)<br/>Powder Coating Color Warranty* for a period of 5 years from the date of original installation on mesh and sash panels</p>"
     },
     {
         "title":"CRL Guarda™ Casement",
         "slug":"crl-guarda-casement",
-        "category":"Security",
+        "category":"Security Doors and Windows",
         "subcategory":"Window",
         "type":"products",
-        "bullets":["Your security window screens will be one of the first points of protection for keeping your home safe and secure.","Our security window screens looks like a normal window screen but is actually high tensile strength stainless steel oven into a fine mesh called 'meshtec'.","It provides secure protection and gives you a clear view of the outdoors without compromising the style or appearance of your home."],
+        "bullets":[
+            "CRL Guarda™ Casement Window Screens can be installed on the inside or outside and opened either from the left or right to protect an operable glass window.",
+            "Your security window screens will be one of the first points of protection for keeping your home safe and secure.",
+            "Our security window screens looks like a normal window screen but is actually high tensile strength stainless steel oven into a fine mesh called 'meshtec'.",
+            "It provides secure protection and gives you a clear view of the outdoors without compromising the style or appearance of your home."
+        ],
         "tileImage":"/assets/images/security/guarda-casement/1.png",
         "tileText":"Our security window screens looks like a normal window screen but is actually high tensile strength stainless steel woven into a fine mesh",
         "thumbImages":[
@@ -1675,7 +2102,10 @@
         "productOverview":"REST EASY<br/>Now you can let the cool breeze in and keep intruders out without compromising the appearance of your home. Finally you can experience total security without resorting to bars or unsightly steel grills.<br/><br/>HIGHER SECURITY<br/>Guarda security window screens incorporate the latest advances in high tensile strength materials and construction.<br/><br/>LOWER COST<br/>When compared to alternative solutions for security, our security window screens are built to last and are corrosion resistant.<br/><br/>GREATER AIRFLOW<br/>Stainless steel marine grade mesh screen optimizes airflow, and maximizes security. Strength and beauty in perfect harmony.<br/><br/>SAVE ENERGY - FEEL SAFE<br/>Opening your window in the evening reduces air conditioning costs in hot weather.<br/><br/>SUPERIOR STYLE<br/>Compare our security window screens with anything else on the market today, and we think you'll agree, Guarda has a lock on security and style.<br/><br/>COLORS AVAILABLE<br/>Bronze Anodized or White Paint. Custom special colors are available. Contact the factory for more details.",
         "technicalSpecs":"<li>SCREENING: Certified Meshtec</li><li>HARDWARE: Hardware shall be aluminum, stainless steel, or other non-corrosive material compatible with aluminum.</li><li>FINISHES: Traffic Black, brown, sahara brown metallic, sahara gray metallic, light gray, paper beige, white, silver metallic, and bronze. Note: The stainless steel security mesh can NOT be painted. Call for pricing.</li>",
         "options":"<li>Custom Sizes</li><li>9 Finish Colors</li><li>Two Different Mounting Options</li>",
-        "relatedProducts":"<li>Fixed Security Window Screens</li><li>Casement Security Window Screens</li>",
+        "relatedProducts":{
+            "Fixed Security Window Screens": "/products/crl-guarda-fixed",
+            "Casement Security Window Screens": "/products/crl-guarda-casement"
+        },
         "warranty":"<p>Hardware Warranty* for a period of one year from the date of original installation on all hardware (hinges, door closers, locks, and rollers)<br/>Powder Coating Color Warranty* for a period of 5 years from the date of original installation on mesh and sash panels</p>"
     },
 
@@ -1709,7 +2139,102 @@
                 "title":"Optional Motorized Retractable Awning Features",
                 "description":"Wireless retractable motorized awning remotes and sensors. Front bar drop valances for low sun protection. One-piece weather sealed hoods. Semi-Cassettes for ultimate fabric protection."
             }
-        ]
+        ],
+        "recentInstallImages":[
+            {
+                "small":"/assets/images/awnings/retractable-patio-awnings/1.jpg",
+                "medium":"/assets/images/awnings/retractable-patio-awnings/1.jpg",
+                "big":"/assets/images/awnings/retractable-patio-awnings/1.jpg"
+            },
+            {
+                "small":"/assets/images/awnings/retractable-patio-awnings/2.jpg",
+                "medium":"/assets/images/awnings/retractable-patio-awnings/2.jpg",
+                "big":"/assets/images/awnings/retractable-patio-awnings/2.jpg"
+            },
+            {
+                "small":"/assets/images/awnings/retractable-patio-awnings/3.jpg",
+                "medium":"/assets/images/awnings/retractable-patio-awnings/3.jpg",
+                "big":"/assets/images/awnings/retractable-patio-awnings/3.jpg"
+            },
+            {
+                "small":"/assets/images/awnings/retractable-patio-awnings/4.jpg",
+                "medium":"/assets/images/awnings/retractable-patio-awnings/4.jpg",
+                "big":"/assets/images/awnings/retractable-patio-awnings/4.jpg"
+            },
+            {
+                "small":"/assets/images/awnings/retractable-patio-awnings/5.jpg",
+                "medium":"/assets/images/awnings/retractable-patio-awnings/5.jpg",
+                "big":"/assets/images/awnings/retractable-patio-awnings/5.jpg"
+            },
+            {
+                "small":"/assets/images/awnings/retractable-patio-awnings/6.jpg",
+                "medium":"/assets/images/awnings/retractable-patio-awnings/6.jpg",
+                "big":"/assets/images/awnings/retractable-patio-awnings/6.jpg"
+            },
+            {
+                "small":"/assets/images/awnings/retractable-patio-awnings/7.jpg",
+                "medium":"/assets/images/awnings/retractable-patio-awnings/7.jpg",
+                "big":"/assets/images/awnings/retractable-patio-awnings/7.jpg"
+            },
+            {
+                "small":"/assets/images/awnings/retractable-patio-awnings/8.jpg",
+                "medium":"/assets/images/awnings/retractable-patio-awnings/8.jpg",
+                "big":"/assets/images/awnings/retractable-patio-awnings/8.jpg"
+            },
+            {
+                "small":"/assets/images/awnings/retractable-patio-awnings/9.jpg",
+                "medium":"/assets/images/awnings/retractable-patio-awnings/9.jpg",
+                "big":"/assets/images/awnings/retractable-patio-awnings/9.jpg"
+            },
+            {
+                "small":"/assets/images/awnings/retractable-patio-awnings/10.jpg",
+                "medium":"/assets/images/awnings/retractable-patio-awnings/10.jpg",
+                "big":"/assets/images/awnings/retractable-patio-awnings/10.jpg"
+            },
+            {
+                "small":"/assets/images/awnings/retractable-patio-awnings/11.jpg",
+                "medium":"/assets/images/awnings/retractable-patio-awnings/11.jpg",
+                "big":"/assets/images/awnings/retractable-patio-awnings/11.jpg"
+            },
+            {
+                "small":"/assets/images/awnings/retractable-patio-awnings/12.jpg",
+                "medium":"/assets/images/awnings/retractable-patio-awnings/12.jpg",
+                "big":"/assets/images/awnings/retractable-patio-awnings/12.jpg"
+            },
+            {
+                "small":"/assets/images/awnings/retractable-patio-awnings/13.jpg",
+                "medium":"/assets/images/awnings/retractable-patio-awnings/13.jpg",
+                "big":"/assets/images/awnings/retractable-patio-awnings/13.jpg"
+            },
+            {
+                "small":"/assets/images/awnings/retractable-patio-awnings/14.jpg",
+                "medium":"/assets/images/awnings/retractable-patio-awnings/14.jpg",
+                "big":"/assets/images/awnings/retractable-patio-awnings/14.jpg"
+            },
+            {
+                "small":"/assets/images/awnings/retractable-patio-awnings/15.jpg",
+                "medium":"/assets/images/awnings/retractable-patio-awnings/15.jpg",
+                "big":"/assets/images/awnings/retractable-patio-awnings/15.jpg"
+            },
+            {
+                "small":"/assets/images/awnings/retractable-patio-awnings/16.jpg",
+                "medium":"/assets/images/awnings/retractable-patio-awnings/16.jpg",
+                "big":"/assets/images/awnings/retractable-patio-awnings/16.jpg"
+            },
+            {
+                "small":"/assets/images/awnings/retractable-patio-awnings/17.jpg",
+                "medium":"/assets/images/awnings/retractable-patio-awnings/17.jpg",
+                "big":"/assets/images/awnings/retractable-patio-awnings/17.jpg"
+            },
+            {
+                "small":"/assets/images/awnings/retractable-patio-awnings/18.jpg",
+                "medium":"/assets/images/awnings/retractable-patio-awnings/18.jpg",
+                "big":"/assets/images/awnings/retractable-patio-awnings/18.jpg"
+            }
+        ],
+        "extraImages": {
+            "img":"/assets/images/awnings/retractable-patio-awnings/sunesta-top-half-brochure2.jpg"
+        }
     },
     {
         "title":"Drop Roll Sunscreens",
@@ -1721,8 +2246,8 @@
         "tileText":"The Sunroll Drop Roll Sunscreen provides you with total vertical sun control of your covered outdoor space.",
         "textList":[
             {
-                "title":"Custom Made Shade For Perfect Days",
-                "description":"Your home’s outdoor areas can easily be transformed into your own personal oasis when you equip your deck or patio with motorized retractable Sunesta awnings. Sunesta Premium Class Retractable Outdoor Awnings can transform, expand and enhance your home’s outdoor living area by letting in sun when you want it but delivering comfortable shade when you need it. Whether your needs are better served by a retractable motorized awnings or a manual Sunesta awning, you’re sure to craft the perfect day in the shade."
+                "title":"Retractable Screen to Maximize Sun Control",
+                "description":"The Sunroll Retractable Screen provides you with total vertical sun control of your covered outdoor space. Available in motorized or manual options, the Sunroll can be customized to fit your unique space with widths up to 24′ and heights up to 12′."
             },
             {
                 "title":"Sunesta Retractable Awnings for Homes Come with an Array of Standard Features",
@@ -1731,6 +2256,43 @@
             {
                 "title":"Optional Motorized Retractable Awning Features",
                 "description":"Wireless retractable motorized awning remotes and sensors. Front bar drop valances for low sun protection. One-piece weather sealed hoods. Semi-Cassettes for ultimate fabric protection."
+            }
+        ],
+        "recentInstallImages":[
+            {
+                "small":"/assets/images/awnings/drop-roll-sunscreens/1.jpg",
+                "medium":"/assets/images/awnings/drop-roll-sunscreens/1.jpg",
+                "big":"/assets/images/awnings/drop-roll-sunscreens/1.jpg"
+            },
+            {
+                "small":"/assets/images/awnings/drop-roll-sunscreens/2.jpg",
+                "medium":"/assets/images/awnings/drop-roll-sunscreens/2.jpg",
+                "big":"/assets/images/awnings/drop-roll-sunscreens/2.jpg"
+            },
+            {
+                "small":"/assets/images/awnings/drop-roll-sunscreens/3.jpg",
+                "medium":"/assets/images/awnings/drop-roll-sunscreens/3.jpg",
+                "big":"/assets/images/awnings/drop-roll-sunscreens/3.jpg"
+            },
+            {
+                "small":"/assets/images/awnings/drop-roll-sunscreens/4.jpg",
+                "medium":"/assets/images/awnings/drop-roll-sunscreens/4.jpg",
+                "big":"/assets/images/awnings/drop-roll-sunscreens/4.jpg"
+            },
+            {
+                "small":"/assets/images/awnings/drop-roll-sunscreens/5.jpg",
+                "medium":"/assets/images/awnings/drop-roll-sunscreens/5.jpg",
+                "big":"/assets/images/awnings/drop-roll-sunscreens/5.jpg"
+            },
+            {
+                "small":"/assets/images/awnings/drop-roll-sunscreens/6.jpg",
+                "medium":"/assets/images/awnings/drop-roll-sunscreens/6.jpg",
+                "big":"/assets/images/awnings/drop-roll-sunscreens/6.jpg"
+            },
+            {
+                "small":"/assets/images/awnings/drop-roll-sunscreens/7.jpg",
+                "medium":"/assets/images/awnings/drop-roll-sunscreens/7.jpg",
+                "big":"/assets/images/awnings/drop-roll-sunscreens/7.jpg"
             }
         ]
     },
@@ -1751,18 +2313,17 @@
         ],
         "textList":[
             {
-                "title":"",
-                "description":""
+                "title":"Customized Window & Door Awnings",
+                "description":"Your home is one-of-a-kind, and your window and door awnings should match and compliment it. Sunesta prides itself on offering total customization, and the Sunbrero is available in many shapes and sizes, helping us ensure that each of your Sunbrero Retractable Window and Door Awnings is made to fit your home’s style."
             },
             {
-                "title":"",
-                "description":""
-            },
-            {
-                "title":"",
-                "description":""
+                "title":"Get started today!",
+                "description":"Not only will your window and door awnings match your home, but they will also lower your energy bills, protect you from the weather while you open your door, and improve the appearance of your home. What are you waiting for? Invest in window and door awnings today and you will not be disappointed."
             }
-        ]
+        ],
+        "extraImages": {
+            "img":"/assets/images/awnings/door-and-window-awnings/sunbrero-back-of-brochure-all.jpg"
+        }
     },
 
 

@@ -94,8 +94,82 @@
 
     <hr class="my-4">
 
-    <!-- <button type="button" class="btn btn-blue waves-effect">Buy now <span class="fa fa-diamond ml-1"></span></button>
-    <button type="button" class="btn btn-outline-primary waves-effect">Download <i class="fa fa-download ml-1"></i></button> -->
+    <agm-map [latitude]="map.lat" [longitude]="map.lng" style="height: 300px">
+        <agm-marker [latitude]="map.lat" [longitude]="map.lng"></agm-marker>
+    </agm-map>
+
+    <hr class="my-4">
+
+    <h2 class="section-heading pt-md-3">View some of our locations</h2>
+    <!-- Nav tabs -->
+    <mdb-tabset #staticTabs [buttonClass]="'nav-tabs tabs-4 pills-secondary white margin'" [contentClass]="''">
+        <!--Panel 1-->
+        <mdb-tab heading="Sacramento">
+            <div class="row"> 
+                <div class="col-12">
+                    <br>
+                    <p></p>
+                </div> 
+            </div>
+        </mdb-tab>
+        <!--Panel 2-->
+        <mdb-tab heading="Stockton">
+            <div class="row"> 
+                <div class="col-12">
+                    <br>
+                    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Nihil odit magnam minima, soluta doloribus reiciendis molestiae placeat unde eos molestias. Quisquam aperiam, pariatur. Tempora, placeat ratione porro voluptate odit minima.</p>
+                    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Nihil odit magnam minima, soluta doloribus reiciendis molestiae placeat unde eos molestias. Quisquam aperiam, pariatur. Tempora, placeat ratione porro voluptate odit minima.</p>
+                </div> 
+            </div>
+        </mdb-tab>
+        <!--Panel 3-->
+        <mdb-tab heading="Modesto">
+            <div class="row"> 
+                <div class="col-12">
+                    <br>
+                    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Nihil odit magnam minima, soluta doloribus reiciendis molestiae placeat unde eos molestias. Quisquam aperiam, pariatur. Tempora, placeat ratione porro voluptate odit minima.</p>
+                </div> 
+            </div>
+        </mdb-tab>
+        <!--Panel 4-->
+        <mdb-tab heading="Oakland">
+            <div class="row"> 
+                <div class="col-12">
+                    <br>
+                    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Nihil odit magnam minima, soluta doloribus reiciendis molestiae placeat unde eos molestias. Quisquam aperiam, pariatur. Tempora, placeat ratione porro voluptate odit minima.</p>
+                </div> 
+            </div>
+        </mdb-tab>
+         <!--Panel 4-->
+        <mdb-tab heading="Danville">
+            <div class="row"> 
+                <div class="col-12">
+                    <br>
+                    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Nihil odit magnam minima, soluta doloribus reiciendis molestiae placeat unde eos molestias. Quisquam aperiam, pariatur. Tempora, placeat ratione porro voluptate odit minima.</p>
+                </div> 
+            </div>
+        </mdb-tab>
+         <!--Panel 4-->
+        <mdb-tab heading="Napa">
+            <div class="row"> 
+                <div class="col-12">
+                    <br>
+                    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Nihil odit magnam minima, soluta doloribus reiciendis molestiae placeat unde eos molestias. Quisquam aperiam, pariatur. Tempora, placeat ratione porro voluptate odit minima.</p>
+                </div> 
+            </div>
+        </mdb-tab>
+         <!--Panel 4-->
+        <mdb-tab heading="Vacaville">
+            <div class="row"> 
+                <div class="col-12">
+                    <br>
+                    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Nihil odit magnam minima, soluta doloribus reiciendis molestiae placeat unde eos molestias. Quisquam aperiam, pariatur. Tempora, placeat ratione porro voluptate odit minima.</p>
+                </div> 
+            </div>
+        </mdb-tab>
+
+    </mdb-tabset>
+                                
 
     </div>
     <!--Jumbotron-->

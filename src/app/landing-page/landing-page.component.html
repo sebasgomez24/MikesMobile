@@ -8,9 +8,25 @@
       <p class="p-2">Mike’s Mobile offers a variety of window and door screens from sliding screen doors to security doors to Solar Screens which block out much of the sun’s heat. We even offer screen repair and replacement services. Contact us today so we can help you choose the perfect screen for your home.</p>
       <div class="row">
         <div class="col">
-          <img src="/assets/images/screens/screen-door-chart.png" />
+					<img src="/assets/images/screens/screen-door-chart.png" class="img-fluid" id="mobile-disappear" />
+					<img src="/assets/images/screens/screen-door-chart.png" class="img-fluid" id="desktop-disappear" (click)="categoryImgModal.show()"/>
+					<div mdbModal #categoryImgModal="mdb-modal" class="modal fade" tabindex="-1" role="dialog" aria-labelledby="categoryImgModal" aria-hidden="true">
+						<div class="modal-dialog modal-lg" role="document">
+							<div class="modal-content">
+								<div class="modal-header">
+									<button type="button" class="close pull-right" aria-label="Close" (click)="categoryImgModal.hide()">
+										<span aria-hidden="true">×</span>
+									</button>
+									<h4 class="modal-title w-100 text-center" id="myModalLabel">{{landing.title}}</h4>
+								</div>
+								<div class="modal-body">
+									<img src="/assets/images/screens/screen-door-chart.png" class="img-fluid" id="desktop-disappear" />
+								</div>
+							</div>
+						</div>
+					</div>
         </div>
-        <div class="col-3">
+        <div class="col-md-3">
           <h4 class="p-2 text-center">Screen Doors</h4>
           <div class="d-flex flex-column">
             <button type="button" class="btn orange my-2" mdbRippleRadius [routerLink]="['/products/sliding-screen-door']">Sliding Screens</button>
@@ -39,18 +55,18 @@
           <p class="p-2">Did you know that chimneys need to be cleaned and inspected regularly in order for them to burn safely? Sooty buildup can lead to chimney fires that spread into the home. Even if you do not use your fireplace often, general deterioration or even animal nests can make it unsafe to use. Let Mike’s Mobile Chimney Service help you keep your fireplace safe and your home cozy.</p>
           <div class="row">
             <div class="col">
-              <iframe width="825" height="413" src="https://www.youtube.com/embed/PKxsbx7Z9Po" frameborder="0" allow="autoplay; encrypted-media" allowfullscreen></iframe>
+              <iframe class="img-fluid" width="825" height="413" src="https://www.youtube.com/embed/PKxsbx7Z9Po" frameborder="0" allow="autoplay; encrypted-media" allowfullscreen></iframe>
             </div>
-            <div class="col-3">
+            <div class="col-md-3">
               <h4 class="p-2 text-center">Chimney Services</h4>
               <div class="d-flex flex-column">
-				<button type="button" class="btn orange my-2" mdbRippleRadius [routerLink]="['/services/inspections']">Chimney Inspections</button>
-				<button type="button" class="btn orange my-2" mdbRippleRadius [routerLink]="['/services/cleaning']">Chimney Cleaning</button>                
-                <button type="button" class="btn orange my-2" mdbRippleRadius [routerLink]="['/grid/repair']">Chimney Repair</button>
-				<button type="button" class="btn orange my-2" mdbRippleRadius [routerLink]="['/grid/accessories']">Chimney Accessories</button>
+				<button type="button" class="btn orange my-2" mdbRippleRadius [routerLink]="['/services/chimney-inspections']">Chimney Inspections</button>
+				<button type="button" class="btn orange my-2" mdbRippleRadius [routerLink]="['/services/chimney-cleaning']">Chimney Cleaning</button>                
+                <button type="button" class="btn orange my-2" mdbRippleRadius [routerLink]="['/grid/chimney-repair']">Chimney Repair</button>
+				<button type="button" class="btn orange my-2" mdbRippleRadius [routerLink]="['/grid/chimney-accessories']">Chimney Accessories</button>
 				<button type="button" class="btn orange my-2" mdbRippleRadius [routerLink]="['/grid/masonry-services']">Masonry Services</button>
 				<button type="button" class="btn orange my-2" mdbRippleRadius [routerLink]="['/services/dryer-vent-cleaning']">Dryer Vent Cleaning</button>
-                <button type="button" class="btn orange my-2" mdbRippleRadius [routerLink]="['/grid/resources']">Chimney Resources</button>
+                <!-- <button type="button" class="btn orange my-2" mdbRippleRadius [routerLink]="['/grid/chimney-resources']">Chimney Resources</button> -->
               </div>
             </div>
           </div>
@@ -66,9 +82,26 @@
 		<p class="p-2">Upgrade your style along with security with our high quality security doors. Whether you are looking for a traditional steel security door for safety or our high quality aluminum security doors to protect both your view and your home, Mike’s Mobile Screens has plenty of options for you.</p>
 		<div class="row">
 		<div class="col">
-			<img src="/assets/images/security/security-door-table.png" />
+			<img src="/assets/images/security/security-door-table.png" class="img-fluid" alt="Security Doors Table" id="mobile-disappear"/>
+			<img src="/assets/images/security/security-door-table.png" class="img-fluid" alt="Security Doors Table" id="desktop-disappear" (click)="securityAbtModal.show()"/>
+			
+			<div mdbModal #securityAbtModal="mdb-modal" class="modal fade" tabindex="-1" role="dialog" aria-labelledby="securityAbtModal" aria-hidden="true">
+				<div class="modal-dialog modal-lg" role="document">
+					<div class="modal-content">
+						<div class="modal-header">
+							<button type="button" class="close pull-right" aria-label="Close" (click)="securityAbtModal.hide()">
+								<span aria-hidden="true">×</span>
+							</button>
+							<h4 class="modal-title w-100 text-center" id="myModalLabel">{{landing.title}}</h4>
+						</div>
+						<div class="modal-body">
+								<img src="/assets/images/security/security-door-table.png" class="img-fluid" alt="Security Doors Table" />
+						</div>
+					</div>
+				</div>
+			</div>
 		</div>
-		<div class="col-3">
+		<div class="col-md-3">
 			<h4 class="p-2 text-center">Security Doors</h4>
 			<div class="d-flex flex-column">
 				<button type="button" class="btn blue my-2" mdbRippleRadius [routerLink]="['/grid/steel-security-doors']">Steel Security Door</button>
@@ -102,7 +135,7 @@
 			<div class="col">
 				<img src="/assets/images/awnings/folding-arm-awning.jpg" class="img-fluid"/>
 			</div>
-			<div class="col-3">
+			<div class="col-md-3">
 				<h4 class="p-2 text-center">Awnings</h4>
 				<div class="d-flex flex-column">
 					<button type="button" class="btn blue my-2" mdbRippleRadius [routerLink]="['/services/retractable-patio-awning']">Retractable Patio Awnings</button>

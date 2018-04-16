@@ -8,8 +8,18 @@ import { Component, OnInit } from '@angular/core';
 export class AboutComponent implements OnInit {
 
   constructor() { }
+  public map: any = { lat: 38.577009, lng: -121.324027 };
 
   ngOnInit() {
+    this.growSlideshow()   
   }
+  growSlideshow(){
+    if(screen.width < 992){
+      var slideshow = document.getElementById('slideshow');
+      slideshow.classList.remove('container', 'mt-3');
+      slideshow.classList.add('row');
+    }
+}
+  
 
 }

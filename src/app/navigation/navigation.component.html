@@ -1,5 +1,5 @@
 <nav>
-<mdb-navbar SideClass="navbar navbar-expand-lg navbar-light" id="backToTop">
+<mdb-navbar SideClass="navbar scrolling-navbar fixed-top white navbar-expand-lg navbar-light" id="backToTop">
     <logo>
         <a routerLink="/"><img title="Mike’s Mobile Screen & Chimney Service" alt="Mike’s Mobile Screen & Chimney Service" src="/assets/images/main/logo-black.jpg" style="max-height: 45px;"></a>
     </logo>
@@ -36,13 +36,13 @@
                             <div class="col">
                                 <a class="dropdown-item waves-dark pb-0 mb-0" (click)="setTitle('Chimney Services')" mdbRippleRadius [routerLink]="['/about/chimney-services']"><h5>CHIMNEY</h5></a>
                                 <div class="divider dropdown-divider pt-0 mt-0"></div>
-                                <a class="dropdown-item waves-dark blue-text" (click)="setTitle('Inspections')" mdbRippleRadius [routerLink]="['/services/inspections']">Inspections</a>
-                                <a class="dropdown-item waves-dark blue-text" (click)="setTitle('Cleaning')" mdbRippleRadius [routerLink]="['/services/cleaning']">Cleanings</a>
-                                <a class="dropdown-item waves-dark blue-text" (click)="setTitle('Repairs')" mdbRippleRadius [routerLink]="['/grid/repairs']">Repair</a>
-                                <a class="dropdown-item waves-dark blue-text" (click)="setTitle('Accessories')" mdbRippleRadius [routerLink]="['/grid/accessories']">Accessories</a>
+                                <a class="dropdown-item waves-dark blue-text" (click)="setTitle('Inspections')" mdbRippleRadius [routerLink]="['/services/chimney-inspections']">Inspections</a>
+                                <a class="dropdown-item waves-dark blue-text" (click)="setTitle('Cleaning')" mdbRippleRadius [routerLink]="['/services/chimney-cleaning']">Cleanings</a>
+                                <a class="dropdown-item waves-dark blue-text" (click)="setTitle('Repairs')" mdbRippleRadius [routerLink]="['/grid/chimney-repairs']">Repair</a>
+                                <a class="dropdown-item waves-dark blue-text" (click)="setTitle('Accessories')" mdbRippleRadius [routerLink]="['/grid/chimney-accessories']">Accessories</a>
                                 <a class="dropdown-item waves-dark blue-text" (click)="setTitle('Masonry Services')" mdbRippleRadius [routerLink]="['/grid/masonry-services']">Masonry Services</a>
                                 <a class="dropdown-item waves-dark blue-text" (click)="setTitle('Dryer Vent Cleaning')" mdbRippleRadius [routerLink]="['/services/dryer-vent-cleaning']">Dryer Vent Cleaning</a>
-                                <a class="dropdown-item waves-dark blue-text" (click)="setTitle('Resources')" mdbRippleRadius [routerLink]="['/grid/resources']">Resources</a>
+                                <!-- <a class="dropdown-item waves-dark blue-text" (click)="setTitle('Resources')" mdbRippleRadius [routerLink]="['/grid/chimney-resources']">Resources</a> -->
                             </div>
                             <div class="col">
                                 <a class="dropdown-item waves-dark pb-0 mb-0" (click)="setTitle('Security Doors and Windows')" mdbRippleRadius [routerLink]="['/about/security-doors-and-windows']"><h5>SECURITY</h5></a>
@@ -85,11 +85,11 @@
                     <i class="fa fa-envelope pr-3" id="desktop-disappear" aria-hidden="true"></i>contact<i class="fa fa-angle-right float-right mt-1" id="desktop-disappear" aria-hidden="true"></i>
                 </a>
             </li>
-            <!-- <li class="nav-item px-1">
+            <li class="nav-item px-1">
                 <a class="nav-link waves-dark blue-text nav-text" routerLink="/blog" id="navBtn" mdbRippleRadius>
                     <i class="fa fa-share-alt pr-3" id="desktop-disappear" aria-hidden="true"></i>blog<i class="fa fa-angle-right float-right mt-1" id="desktop-disappear" aria-hidden="true"></i>
                 </a>
-            </li> -->
+            </li>
             <!-- <li class="nav-item px-1">
                 <a class="nav-link waves-dark blue-text nav-text" href="#" (click)="showInfo()" mdbRippleRadius>
                     <i class="fa fa-shopping-cart pr-3" id="desktop-disappear" aria-hidden="true"></i>store<i class="fa fa-angle-right float-right mt-1" id="desktop-disappear" aria-hidden="true"></i>

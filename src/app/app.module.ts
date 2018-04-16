@@ -2,6 +2,7 @@ import { NgModule, NO_ERRORS_SCHEMA } from '@angular/core';
 import { BrowserModule, Title } from '@angular/platform-browser';
 import { FormsModule } from '@angular/forms';
 import { HttpModule } from '@angular/http';
+import { AgmCoreModule } from '@agm/core';
 
 import { MDBBootstrapModules } from 'ng-mdb-pro';
 import { MDBSpinningPreloader } from 'ng-mdb-pro';
@@ -13,7 +14,6 @@ import { AppComponent } from './app.component';
 
 import { AboutComponent } from './about/about.component';
 import { ActionButtonsComponent } from './action-buttons/action-buttons.component';
-import { BlogComponent } from './blog/blog.component';
 import { ContactComponent } from './contact/contact.component';
 import { FooterComponent } from './footer/footer.component';
 import { GridComponent } from './grid/grid.component';
@@ -21,15 +21,17 @@ import { HomeComponent } from './home/home.component';
 import { LandingPageComponent } from './landing-page/landing-page.component';
 import { NavigationComponent } from './navigation/navigation.component';
 import { PageNotFoundComponent } from './page-not-found/page-not-found.component';
+import { PostDetailComponent } from './post-detail/post-detail.component';
+import { PostListComponent } from './post-list/post-list.component';
 import { ProductDetailComponent } from './product-detail/product-detail.component';
-import { QuoteFormComponent } from './quote-form/quote-form.component';
+import { SeoLocationLpComponent } from './seo-location-lp/seo-location-lp.component';
 import { SearchComponent } from './search/search.component';
 import { SearchDetailComponent } from './search-detail/search-detail.component';
-import { SeoLocationLpComponent } from './seo-location-lp/seo-location-lp.component';
 import { ServiceListComponent } from './service-list/service-list.component';
 import { ServiceDetailComponent } from './service-detail/service-detail.component';
 
 import { KeysPipe } from './utility/keys.pipe';
+import { SeoAdwordsLpComponent } from './seo-adwords-lp/seo-adwords-lp.component';
 
 
 @NgModule({
@@ -40,30 +42,34 @@ import { KeysPipe } from './utility/keys.pipe';
     // myComponents
     AboutComponent,
     ActionButtonsComponent,
-    BlogComponent,
     ContactComponent,
     FooterComponent,
     GridComponent,
     HomeComponent,
+    LandingPageComponent,
     NavigationComponent,
     PageNotFoundComponent,
+    PostDetailComponent,
+    PostListComponent,
     ProductDetailComponent,
-    QuoteFormComponent,
+    SeoLocationLpComponent,
     SearchComponent,
     SearchDetailComponent,
     ServiceListComponent,
     ServiceDetailComponent,
-    LandingPageComponent,
-    SeoLocationLpComponent,
+    SeoAdwordsLpComponent,    
   ],
   imports: [
     AppRoutingModule,
     BrowserModule,
     FormsModule,
     HttpModule,
-    MDBBootstrapModules.forRoot(),
     Ng2PageScrollModule,
     NgxGalleryModule,
+    MDBBootstrapModules.forRoot(),
+    AgmCoreModule.forRoot({
+      apiKey: 'AIzaSyA1X0GOfR-xzaHaH6vdPUE7s-I4bLBalFU'
+    }),
   ],
   providers: [
       MDBSpinningPreloader,

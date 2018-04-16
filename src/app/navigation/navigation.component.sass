@@ -2,14 +2,17 @@
 @import '~sass/modules/_variables.sass'
 
 nav
+	margin-bottom: 60px
 	background: #ffffff !important
+	@include breakpoint(md)
+		margin-bottom: 70px
 	.megamenu
 		position: relative
 		z-index: 9999 !important
 		min-width: 960px
 		left: -700px
 		@include breakpoint(md)
-			left: -750px
+			left: -800px
 		h5
 			padding: 5px 0
 		a
@@ -33,6 +36,7 @@ li.nav-item .nav-link:hover
 
 .dropdown-item:active
 	background-color: $mmblue
+	margin: 0 !important
 
 .active
 	a

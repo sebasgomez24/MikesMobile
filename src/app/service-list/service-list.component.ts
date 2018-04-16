@@ -11,7 +11,7 @@ import { ServicesService } from '../services/service.service';
 export class ServiceListComponent implements OnInit, OnDestroy {
 
 	title = 'View Our Top Selling Services'
-	categories = ['Screens', 'Chimney', 'Security', 'Awnings']
+	categories = ['Door and Window Screens', 'Chimney Services', 'Security Doors and Windows', 'Awnings']
 
 	private req:any
 	serviceList:[ServiceItem]

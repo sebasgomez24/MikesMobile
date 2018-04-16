@@ -1,0 +1,45 @@
+<app-navigation></app-navigation>
+<app-action-buttons></app-action-buttons>
+
+<div class="container">
+    <!--Section: Blog v.1-->
+    <section class="section pb-3 text-center text-lg-left">
+      <!--Section heading-->
+      <h1 class="text-center mt-md-4 pt-4 pb-md-4">Blog Posts</h1>
+      <!--Section description-->
+      <p class="section-description px-4">Welcome to Mike's Mobile Blog! Here you will find some of our latest articles, awards and any other news.</p>
+
+      <!--Grid row-->
+      <div class="row" *ngFor="let post of blogPostList">
+
+        <!--Grid column-->
+        <div class="col-lg-4 mb-4">
+            <!--Featured image-->
+            <div class="view overlay hm-white-slight waves-light" mdbRippleRadius>
+                <img src="{{post.images[0]}}" alt="{{post.title}}">
+                <a>
+                    <div class="mask"></div>
+                </a>
+            </div>
+        </div>
+        <!--Grid column-->
+
+        <!--Grid column-->
+        <div class="col-lg-7 mb-4">
+            <!--Excerpt-->
+            <a href="" class="orange-text"><h6 class="pb-1"><i class="fa fa-folder"></i><strong> &nbsp; {{post.category}}</strong></h6></a>
+            <h4 class="mb-4"><strong>{{post.title}}</strong></h4>
+            <p>{{ (post.content[0].length>75)? (post.content[0] | slice:0:75)+'...':(post.content[0]) }}</p>
+            <p>by <a><strong>{{post.user}}</strong></a>, {{post.postdate}}</p>
+            <a class="btn blue waves-light" [routerLink]="[post.slug]" mdbRippleRadius>Read more</a>
+        </div>
+        <!--Grid column-->
+
+        <hr class="hr-width mb-5 mt-5 pb-3">
+
+    </div>
+    <!--Grid row-->
+
+    </section>
+    <!--Section: Blog v.1-->
+</div>

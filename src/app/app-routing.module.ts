@@ -1,12 +1,13 @@
 import { NgModule } 				from '@angular/core';
 import { RouterModule, Routes }		from '@angular/router';
 import { AboutComponent } 			from './about/about.component';
-import { BlogComponent } 			from './blog/blog.component';
 import { ContactComponent } 		from './contact/contact.component';
 import { GridComponent } 			from './grid/grid.component';
 import { HomeComponent } 			from './home/home.component';
 import { LandingPageComponent } 	from './landing-page/landing-page.component';
 import { PageNotFoundComponent } 	from './page-not-found/page-not-found.component';
+import { PostDetailComponent } from './post-detail/post-detail.component';
+import { PostListComponent } from './post-list/post-list.component';
 import { ProductDetailComponent } 	from './product-detail/product-detail.component';
 import { ServiceDetailComponent } 	from './service-detail/service-detail.component';
 import { ServiceListComponent } 	from './service-list/service-list.component';
@@ -15,9 +16,9 @@ import { SeoLocationLpComponent } 	from './seo-location-lp/seo-location-lp.compo
 
 const appRoutes: Routes = [
   { path: 'about', 				component: AboutComponent, 						data: { title: "About Mike's Mobile" }},
-  { path: 'blog', 				component: BlogComponent, 						data: { title: "" }},
+  { path: 'blog', 				component: PostListComponent, 						data: { title: "Mike's Mobile Blog" }},
+  { path: 'blog/:slug',   component:PostDetailComponent,        data:{ title: "Mike's Mobile Blog Post"}},
   { path: 'contact', 			component: ContactComponent,					data: { title: "Contact Mike's Mobile" }},
-//   { path: 'services', 			component: ServiceListComponent, 				data: { title: "Mike's Mobile Products and Services" }},
   { path: 'grid/:slug', 		component: GridComponent, 						data: { title: "Mike's Mobile Screen and Chimney Service" }},
   { path: 'about/:slug', 		component: LandingPageComponent, 				data: { title: "Mike's Mobile Screen and Chimney Service" }},
   { path: 'products/:slug', 	component: ProductDetailComponent, 				data: { title: "Mike's Mobile Screen and Chimney Service" }},

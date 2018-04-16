@@ -23,68 +23,68 @@ export class ServiceDetailComponent implements OnInit, OnDestroy {
         Gray:"/assets/images/colors/suntex-grey.png",
         Stucco:"/assets/images/colors/suntex-stucco.png"
     }
-  colorSetx4 = {
-      "Almond":"#F3E7D3",
-      "Anodized Bronze":"#2D3017",
-      "Mill":"#999AA3",
-      "White":"#ffffff"
-  }
-  colorSetx6 = {
-      "Black":"#000000",
-      "Bronze":"#473428",
-      "Champagne":"#A69882",
-      "Desert Sand":"#F4EBD4",
-      "Mill":"#999AA3",
-      "White":"#ffffff"
-  }
-  swingingDoorColors = {
-      "Adobe":"#E0B17D",
-      "Almond":"#F3E7D3",
-      "Black":"#000000",
-      "Anodized Bronze":"#2D3017",
-      "Mill":"#999AA3",
-      "Anodized Satin":"#E1E2E8",
-      "Tan":"#AD8166",
-      "White":"#ffffff"
-  }
-  securityDoorColors = {
-      "Alabaster":"#FAF9ED",
-      "Almond":"#F4EDCA",
-      "Autumn Brown":"#3F2823",
-      "Bear Green":"#103427",
-      "Champagne Beige":"#928A6F",
-      "Charcoal Grey":"#535353",
-      "Country Blue":"#6C99B6",
-      "Desert Sand":"#E5E0B5",
-      "Flat Black":"#121412",
-      "New England Grey":"#B0BBB7",
-      "Post Office Blue":"#182F4D",
-      "Terra Cotta":"#671218",
-      "Chrome":"#EFEFEF",
-      "Evening Blue":"#1F4769",
-      "Forest Green":"#0E251B",
-      "Green Patina":"#435E57",
-      "New Bronze":"#40372D",
-      "Pacific Granite":"#707070",
-      "Statuary Bronze":"#42372F"
-  }
-  private req:any;
-  private routeSub:any;
+    colorSetx4 = {
+        "Almond":"#F3E7D3",
+        "Anodized Bronze":"#2D3017",
+        "Mill":"#999AA3",
+        "White":"#ffffff"
+    }
+    colorSetx6 = {
+        "Black":"#000000",
+        "Bronze":"#473428",
+        "Champagne":"#A69882",
+        "Desert Sand":"#F4EBD4",
+        "Mill":"#999AA3",
+        "White":"#ffffff"
+    }
+    swingingDoorColors = {
+        "Adobe":"#E0B17D",
+        "Almond":"#F3E7D3",
+        "Black":"#000000",
+        "Anodized Bronze":"#2D3017",
+        "Mill":"#999AA3",
+        "Anodized Satin":"#E1E2E8",
+        "Tan":"#AD8166",
+        "White":"#ffffff"
+    }
+    securityDoorColors = {
+        "Alabaster":"#FAF9ED",
+        "Almond":"#F4EDCA",
+        "Autumn Brown":"#3F2823",
+        "Bear Green":"#103427",
+        "Champagne Beige":"#928A6F",
+        "Charcoal Grey":"#535353",
+        "Country Blue":"#6C99B6",
+        "Desert Sand":"#E5E0B5",
+        "Flat Black":"#121412",
+        "New England Grey":"#B0BBB7",
+        "Post Office Blue":"#182F4D",
+        "Terra Cotta":"#671218",
+        "Chrome":"#EFEFEF",
+        "Evening Blue":"#1F4769",
+        "Forest Green":"#0E251B",
+        "Green Patina":"#435E57",
+        "New Bronze":"#40372D",
+        "Pacific Granite":"#707070",
+        "Statuary Bronze":"#42372F"
+    }
+    private req:any;
+    private routeSub:any;
 
-  slug:string
-  service:ServiceItem
+    slug:string
+    service:ServiceItem
+
+    colorSquares = ['stdColors', 'colorSetx4', 'colorSetx6', 'swingingDoorColors', 'securityDoorColors']
+    extra_images=[]
+    info_graphics=[]
+    groupOptionsSelect=[]
+
+    petImages = {}
   
-  colorSquares = ['stdColors', 'colorSetx4', 'colorSetx6', 'swingingDoorColors', 'securityDoorColors']
-  extra_images=[]
-  info_graphics=[]
-  optionsSelect = []
+    gallery_options: NgxGalleryOptions[];
+    gallery_images: NgxGalleryImage[];
 
-  petImages = {}
-  
-  gallery_options: NgxGalleryOptions[];
-  gallery_images: NgxGalleryImage[];
-
-  constructor(private route: ActivatedRoute, private _service:ServicesService, private sanitizer:DomSanitizer) { }
+    constructor(private route: ActivatedRoute, private _service:ServicesService, private sanitizer:DomSanitizer) { }
 
   ngOnInit() {
     this.routeSub = this.route.params.subscribe(params=>{
@@ -134,32 +134,33 @@ export class ServiceDetailComponent implements OnInit, OnDestroy {
         }
     ];
 
-    this.optionsSelect = [
-        { value: '1', label: 'Window Screen Repair' },
-        { value: '2', label: 'Solar Screens' },
-        { value: '3', label: 'Sliding Screen Door' },
-        { value: '4', label: 'Swinging Screen Door' },
-        { value: '5', label: 'Retractable Screen Door' },
-        { value: '6', label: 'Screen Doors' },
-        { value: '7', label: 'Pet Doors' },
-        { value: '8', label: 'Chimney Inspection' },
-        { value: '9', label: 'Chimney Cleaning' },
-        { value: '10', label: 'Chimney Repair' },
-        { value: '11', label: 'Chimney Accessories' },
-        { value: '12', label: 'Chimney Resources' },
-        { value: '13', label: 'Masonry Services' },
-        { value: '14', label: 'Steel Security Door' },
-        { value: '15', label: 'Viewguard Security Door' },
-        { value: '16', label: 'TRU-View Security Door' },
-        { value: '17', label: 'TRU-Frame Security Door' },
-        { value: '18', label: 'Sliding Security Doors' },
-        { value: '19', label: 'CRL Guarda™ Quick Escape Window Screen' },
-        { value: '20', label: 'CRL Guarda™ Fixed Window Screen' },
-        { value: '21', label: 'CRL Guarda™ Casement Window Screen' },
-        { value: '22', label: 'Retractable Patio Awnings' },
-        { value: '23', label: 'Drop Roll Sunscreens' },
-        { value: '24', label: 'Door and Window Awnings' },
-        { value: '25', label: 'Dryer Vent Cleaning' }
+    this.groupOptionsSelect = [
+        { value: '', label: 'DOOR AND WINDOW SCREENS', group: true },
+        { value: '1', label: 'Retractable Screen Doors' },
+        { value: '2', label: 'Sliding Screen Doors' },
+        { value: '3', label: 'Swinging Screen Doors' },
+        { value: '4', label: 'Pet Doors' },
+        { value: '5', label: 'Window Screen Repair' },
+        { value: '6', label: 'Solar Screens' },
+        { value: '', label: 'CHIMNEY SERVICES', group: true },
+        { value: '7', label: 'Chimney Inspection' },
+        { value: '8', label: 'Chimney Cleaning' },
+        { value: '9', label: 'Chimney Repair' },
+        { value: '10', label: 'Masonry Services' },
+        { value: '11', label: 'Dryer Vent Cleaning' },
+        { value: '', label: 'SECURITY DOORS AND WINDOWS', group: true },
+        { value: '12', label: 'Steel Security Doors' },
+        { value: '13', label: 'Viewguard' },
+        { value: '14', label: 'Tru-View' },
+        { value: '15', label: 'Tru-Frame' },
+        { value: '16', label: 'Sliding Security Doors' },
+        { value: '17', label: 'CRL Guarda Quick Escape' },
+        { value: '18', label: 'CRL Guarda Fixed' },
+        { value: '19', label: 'CRL Guarda Casement' },
+        { value: '', label: 'AWNINGS', group: true },
+        { value: '20', label: 'Retractable Pation Awnings' },
+        { value: '21', label: 'Drop Roll Sunscreens' },
+        { value: '22', label: 'Door and Window Awnings' },
     ];
   }
 
