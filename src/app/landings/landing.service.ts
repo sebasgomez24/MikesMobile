@@ -4,8 +4,8 @@ import { Http } from '@angular/http';
 import 'rxjs/add/operator/map';
 import 'rxjs/add/operator/catch';
 
-const seolocations = '/assets/json/seolocations.json'
-const adwordsLandingPages = '/assets/json/adwordslps.json'
+const seolocations = 'static/ang/assets/json/seolocations.json'
+const adwordsLandingPages = 'static/ang/assets/json/adwordslps.json'
 
 @Injectable()
 export class LandingService {

@@ -6,7 +6,7 @@
         <!--First slide-->
         <mdb-slide>
             <div class="view hm-bluegrey-light">
-                <img class="d-block w-100 img-fluid" src="assets/images/main/red-screen.jpg" alt="First slide">
+                <img class="d-block w-100 img-fluid" src="static/ang/assets/images/main/red-screen.jpg" alt="First slide">
                 <div class="mask waves-light" mdbRippleRadius></div>
             </div>
 
@@ -19,14 +19,14 @@
                         <li>Custom <i class="orange-text">You</i></li>
                     </ul>
                 </div>
-                <button type="button" class="btn blue waves-light" mdbRippleRadius>Get Started</button>
+                <button type="button" class="btn blue waves-light" mdbRippleRadius [routerLink]="['/']" pageScroll href="#services">Get Started</button>
             </div>
         </mdb-slide>
         <!--/First slide-->
         <!--Second slide-->
         <mdb-slide>
             <div class="view hm-stylish-light">
-                <img class="d-block w-100 img-fluid" src="assets/images/main/single-chimney.jpg" alt="Second slide">
+                <img class="d-block w-100 img-fluid" src="static/ang/assets/images/main/single-chimney.jpg" alt="Second slide">
                 <div class="mask waves-light" mdbRippleRadius></div>
             </div>
             <div class="carousel-caption text-md-left">
@@ -34,14 +34,14 @@
                     <h2 class="h2-responsive px-4">View our many Chimney Services</h2>
                     <!-- <p class="px-4">Secondary text</p> -->
                 </div>
-                <button type="button" class="btn blue waves-light" mdbRippleRadius>Learn More</button>
+                <button type="button" class="btn blue waves-light" [routerLink]="['/about/chimney-services']" mdbRippleRadius>Learn More</button>
             </div>
         </mdb-slide>
         <!--/Second slide-->
         <!--Third slide-->
         <mdb-slide>
             <div class="view hm-stylish-light">
-                <img class="d-block w-100 img-fluid" src="assets/images/main/gutter0.jpg" alt="Third slide">
+                <img class="d-block w-100 img-fluid" src="static/ang/assets/images/main/gutter0.jpg" alt="Third slide">
                 <div class="mask waves-light" mdbRippleRadius></div>
             </div>
             <div class="carousel-caption text-md-left">
@@ -49,14 +49,14 @@
                     <h2 class="h2-responsive px-4">Home Improvement</h2>
                     <p class="px-4">Keep your home in tip-top shape</p>
                 </div>
-                <button type="button" class="btn blue waves-light" (click)="basicModal.show()" mdbRippleRadius>Free Quote</button>
+                <a href="tel:+1-916-372-8783"><button type="button" class="btn blue waves-light" mdbRippleRadius>Call Now</button></a>
             </div>
         </mdb-slide>
         <!--/Third slide-->
         <!--Fourth slide-->
         <mdb-slide>
             <div class="view hm-stylish-light">
-                <img class="d-block w-100 img-fluid" src="assets/images/main/security-door.jpg" alt="Third slide">
+                <img class="d-block w-100 img-fluid" src="static/ang/assets/images/main/security-door.jpg" alt="Third slide">
                 <div class="mask waves-light" mdbRippleRadius></div>
             </div>
             <div class="carousel-caption text-md-left">
@@ -64,7 +64,7 @@
                     <h2 class="h2-responsive px-4">1-877-520-3595</h2>
                     <p class="px-4">Call us Today!</p>
                 </div>
-                <button type="button" class="btn blue waves-light" href="tel:+1-916-372-8783" mdbRippleRadius>Call Now</button>
+                <a href="tel:+1-916-372-8783"><button type="button" class="btn blue waves-light" mdbRippleRadius>Call Now</button></a>
             </div>
         </mdb-slide>
         <!--/Fourth slide-->
@@ -74,7 +74,7 @@
 
 <app-action-buttons></app-action-buttons>
 
-<div class="container pt-4">
+<div class="container pt-md-4">
     <!--Jumbotron-->
     <div class="jumbotron text-center mb-0">
     <!--Title-->

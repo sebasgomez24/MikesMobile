@@ -4,7 +4,7 @@ import { Http } from '@angular/http';
 import 'rxjs/add/operator/map';
 import 'rxjs/add/operator/catch';
 
-const endpoint = '/assets/json/blogposts.json';
+const endpoint = 'static/ang/assets/json/blogposts.json';
 
 @Injectable()
 export class PostService {

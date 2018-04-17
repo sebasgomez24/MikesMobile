@@ -19,6 +19,8 @@ export class ProductDetailComponent implements OnInit, OnDestroy {
     recent_install_images_options: NgxGalleryOptions[];
     recent_install_images:NgxGalleryImage[];
 
+    groupOptionsSelect=[]
+
     private req:any;
     private routeSub:any;
 
@@ -30,12 +32,6 @@ export class ProductDetailComponent implements OnInit, OnDestroy {
     stdColors = {
         "Anodized Bronze":"#2D3017",
         "White":"#ffffff"
-    }
-    screenFrameColors = {
-        black:"/assets/images/colors/suntex-black.png",
-        brown:"/assets/images/colors/suntex-brown.png",
-        gray:"/assets/images/colors/suntex-gray.png",
-        stucco:"/assets/images/colors/suntex-stucco.png"
     }
     colorSetx4 = {
         "Almond":"#F3E7D3",
@@ -107,6 +103,35 @@ export class ProductDetailComponent implements OnInit, OnDestroy {
                 })
             })
         })
+
+        this.groupOptionsSelect = [
+            { value: '', label: 'DOOR AND WINDOW SCREENS', group: true },
+            { value: '1', label: 'Retractable Screen Doors' },
+            { value: '2', label: 'Sliding Screen Doors' },
+            { value: '3', label: 'Swinging Screen Doors' },
+            { value: '4', label: 'Pet Doors' },
+            { value: '5', label: 'Window Screen Repair' },
+            { value: '6', label: 'Solar Screens' },
+            { value: '', label: 'CHIMNEY SERVICES', group: true },
+            { value: '7', label: 'Chimney Inspection' },
+            { value: '8', label: 'Chimney Cleaning' },
+            { value: '9', label: 'Chimney Repair' },
+            { value: '10', label: 'Masonry Services' },
+            { value: '11', label: 'Dryer Vent Cleaning' },
+            { value: '', label: 'SECURITY DOORS AND WINDOWS', group: true },
+            { value: '12', label: 'Steel Security Doors' },
+            { value: '13', label: 'Viewguard' },
+            { value: '14', label: 'Tru-View' },
+            { value: '15', label: 'Tru-Frame' },
+            { value: '16', label: 'Sliding Security Doors' },
+            { value: '17', label: 'CRL Guarda Quick Escape' },
+            { value: '18', label: 'CRL Guarda Fixed' },
+            { value: '19', label: 'CRL Guarda Casement' },
+            { value: '', label: 'AWNINGS', group: true },
+            { value: '20', label: 'Retractable Pation Awnings' },
+            { value: '21', label: 'Drop Roll Sunscreens' },
+            { value: '22', label: 'Door and Window Awnings' },
+        ];
 
         this.gallery_options = [
             {

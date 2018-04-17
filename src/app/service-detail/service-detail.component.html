@@ -27,7 +27,7 @@
 					<iframe *ngIf="service.video; else tileImg" width="100%" height="400px" src="https://www.youtube.com/embed/WtENSdKQL5k" frameborder="0" allow="autoplay; encrypted-media" allowfullscreen></iframe>
 					<ng-template #tileImg>
 						<img *ngIf="service.slug !== 'pet-door' " src="{{service.tileImage}}" alt="project image" class="img-fluid z-depth-2 main-image">
-						<img *ngIf="service.slug === 'pet-door'" src="/assets/images/screens/pet-door/pet-door-main.jpg" class="img-fluid z-depth-2 main-image" />
+						<img *ngIf="service.slug === 'pet-door'" src="static/ang/assets/images/screens/pet-door/pet-door-main.jpg" class="img-fluid z-depth-2 main-image" />
 					</ng-template>
 					<h4 *ngIf="service.serviceImgCaption" class="p-2 text-center light-gray-text">{{service.serviceImgCaption}}</h4>
 		        </div>
@@ -54,23 +54,23 @@
 						<h3 class="py-2 light-gray-text">Here are some of the colors we offer</h3>
 						<div class="row">							
 							<div class="col-md-4">
-								<img src="/assets/images/chimneys/accessories/fireplace-glass-doors/black.png" class="img-fluid" alt="fireplace-glass-doors" />
+								<img src="static/ang/assets/images/chimneys/accessories/fireplace-glass-doors/black.png" class="img-fluid" alt="fireplace-glass-doors" />
 								<p class="text-center">Black</p>
 							</div>
 							<div class="col-md-4">
-								<img src="/assets/images/chimneys/accessories/fireplace-glass-doors/black-nickel.png" class="img-fluid" alt="fireplace-glass-doors" />
+								<img src="static/ang/assets/images/chimneys/accessories/fireplace-glass-doors/black-nickel.png" class="img-fluid" alt="fireplace-glass-doors" />
 								<p class="text-center">Black Nickel</p>
 							</div>
 							<div class="col-md-4">
-								<img src="/assets/images/chimneys/accessories/fireplace-glass-doors/brass.png" class="img-fluid" alt="fireplace-glass-doors" />
+								<img src="static/ang/assets/images/chimneys/accessories/fireplace-glass-doors/brass.png" class="img-fluid" alt="fireplace-glass-doors" />
 								<p class="text-center">Brass</p>
 							</div>
 							<div class="col-md-4">
-								<img src="/assets/images/chimneys/accessories/fireplace-glass-doors/gun-metal.png" class="img-fluid" alt="fireplace-glass-doors" />
+								<img src="static/ang/assets/images/chimneys/accessories/fireplace-glass-doors/gun-metal.png" class="img-fluid" alt="fireplace-glass-doors" />
 								<p class="text-center">Gun Metal</p>
 							</div>
 							<div class="col-md-4">
-								<img src="/assets/images/chimneys/accessories/fireplace-glass-doors/nickel.png" class="img-fluid" alt="fireplace-glass-doors" />
+								<img src="static/ang/assets/images/chimneys/accessories/fireplace-glass-doors/nickel.png" class="img-fluid" alt="fireplace-glass-doors" />
 								<p class="text-center">Nickel</p>
 							</div>
 						</div>
@@ -241,7 +241,7 @@
 						<h4 class="p-2">Pet Measuring Guide <small>(click to enlarge)</small></h4>
 						<div class="row">
 							<div class="col-12">
-								<img src="/assets/images/screens/pet-door/measuring-guide.png" class="img-fluid" alt="Pet Door Sizes Measuring Guide" (click)="petDoorModal.show()"/>
+								<img src="static/ang/assets/images/screens/pet-door/measuring-guide.png" class="img-fluid" alt="Pet Door Sizes Measuring Guide" (click)="petDoorModal.show()"/>
 
 								<div mdbModal #petDoorModal="mdb-modal" class="modal fade" tabindex="-1" role="dialog" aria-labelledby="petDoorModal" aria-hidden="true">
 									<div class="modal-dialog modal-lg" role="document">
@@ -256,7 +256,7 @@
 												<p class="px-2 text-center">Open sliding glass door to the opening measurement of the pet door model nearest to your breed. If the dog can pass through the opening, that’s your size. For pet Safety and Door Durability, Do Not Buy Larger than Necessary</p>					
 											</div>
 											<div class="modal-footer">
-												<img src="/assets/images/screens/pet-door/measuring-guide.png" class="img-fluid w-100" alt="Pet Door Sizes Measuring Guide" />
+												<img src="static/ang/assets/images/screens/pet-door/measuring-guide.png" class="img-fluid w-100" alt="Pet Door Sizes Measuring Guide" />
 											</div>
 										</div>
 									</div>
@@ -332,7 +332,7 @@
 			
 					<!--Grid column-->
 					<div class="col-md-3 mb-r">
-						<img src="/assets/images/chimneys/accessories/chimney-cap/1.png" class="img-fluid"/>
+						<img src="static/ang/assets/images/chimneys/accessories/chimney-cap/1.png" class="img-fluid"/>
 						<h5 class="feature-title">Masonry Chimney Caps</h5>
 						<p class="light-gray-text p-2">Masonry Chimney caps connect to the top of your brick/masonry chimney. We sell black galvanized chimney caps that have a spark arrestor build in. You'll get 2 for the price of one with this cap. Fits all standard chimney flue sizes: 8" x 8", 8" x 13", 8" x 17", 13" x 13", 13" x 17" - We can also order custom size chimney caps. Contact us today and find out how!</p>
 					</div>
@@ -340,7 +340,7 @@
 			
 					<!--Grid column-->
 					<div class="col-md-3 mb-r">
-						<img src="/assets/images/chimneys/accessories/chimney-cap/2.png" class="img-fluid"/>
+						<img src="static/ang/assets/images/chimneys/accessories/chimney-cap/2.png" class="img-fluid"/>
 						<h5 class="feature-title">Prefab/Zero Clearance Chimney Cap</h5>
 						<p class="light-gray-text p-2">We offer prefab or Zero Clearance chimney caps for sizes: 6", 8", and 10". All sizes are available in Solid pack and Air Cooled options. Contact us today for custom sizes. We can do it!</p>
 					</div>
@@ -348,7 +348,7 @@
 			
 					<!--Grid column-->
 					<div class="col-md-3 mb-r">
-						<img src="/assets/images/chimneys/accessories/chimney-cap/3.png" class="img-fluid"/>
+						<img src="static/ang/assets/images/chimneys/accessories/chimney-cap/3.png" class="img-fluid"/>
 						<h5 class="feature-title">Lock Top Damper</h5>
 						<p class="light-gray-text p-2">If you are tired of that old masonry throat damper or you are looking to become more efficient and save some money on your energy bill, you can invest in a Lock Top Damper. This top mount damper seals shut with a rubber seal and keeps the cold air out of your chimney and out of your home.</p>
 					</div>
@@ -356,7 +356,7 @@
 					
 					<!--Grid column-->
 					<div class="col-md-3 mb-r">
-						<img src="/assets/images/chimneys/accessories/chimney-cap/4.png" class="img-fluid"/>
+						<img src="static/ang/assets/images/chimneys/accessories/chimney-cap/4.png" class="img-fluid"/>
 						<h5 class="feature-title">Flue Extender Caps</h5>
 						<p class="light-gray-text p-2">Many masonry chimneys do not meet minimum code-height requirements and have the potential to be a serious fire hazard. Also, many draft issues can be attributed to a chimney being too short. These caps keep sparks off your roof and assist in a strong chimney draft.</p>
 					</div>

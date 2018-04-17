@@ -7,27 +7,27 @@
         "type":"products",
         "tileText":"Disappearing or retractable screen doors are the contemporary alternative to that old wooden swinging screen door you had growing up.",
         "bullets":["Disappearing or retractable screen doors are the contemporary alternative to that old wooden swinging screen door you had growing up.","The retractable screen door we offer is called the Rollaway and is manufactured by the R. Lang Company right here in California.","Imagine a screen door that’s only there when you need it! The Rollaway mounts inside the door frame for minimal intrusion and most people don’t notice it until you are using it!"],
-        "tileImage":"/assets/images/screens/retractable/retractable.jpg",
+        "tileImage":"/static/ang/assets/images/screens/retractable/retractable.jpg",
         "thumbImages":[
             {
-                "small":"/assets/images/screens/retractable/1.png",
-                "medium":"/assets/images/screens/retractable/1.png",
-                "big":"/assets/images/screens/retractable/1.png"
+                "small":"/static/ang/assets/images/screens/retractable/1.png",
+                "medium":"/static/ang/assets/images/screens/retractable/1.png",
+                "big":"/static/ang/assets/images/screens/retractable/1.png"
             },
             {
-                "small":"/assets/images/screens/retractable/2.png",
-                "medium":"/assets/images/screens/retractable/2.png",
-                "big":"/assets/images/screens/retractable/2.png"
+                "small":"/static/ang/assets/images/screens/retractable/2.png",
+                "medium":"/static/ang/assets/images/screens/retractable/2.png",
+                "big":"/static/ang/assets/images/screens/retractable/2.png"
             },
             {
-                "small":"/assets/images/screens/retractable/5.jpg",
-                "medium":"/assets/images/screens/retractable/5.jpg",
-                "big":"/assets/images/screens/retractable/5.jpg"
+                "small":"/static/ang/assets/images/screens/retractable/5.jpg",
+                "medium":"/static/ang/assets/images/screens/retractable/5.jpg",
+                "big":"/static/ang/assets/images/screens/retractable/5.jpg"
             },
             {
-                "small":"/assets/images/screens/retractable/retractable.jpg",
-                "medium":"/assets/images/screens/retractable/retractable.jpg",
-                "big":"/assets/images/screens/retractable/retractable.jpg"
+                "small":"/static/ang/assets/images/screens/retractable/retractable.jpg",
+                "medium":"/static/ang/assets/images/screens/retractable/retractable.jpg",
+                "big":"/static/ang/assets/images/screens/retractable/retractable.jpg"
             }
         ],
         "productOverview":"We are one of the only independent disappearing screen door installers in Northern California. Have outward opening doors? Our door can fit inside your home with minimal intrusion- most people will never know they are there until you use them! We sell our doors with an industry leading 10 Year Warranty <br/><br/> Our Retractable screen doors are an “inside mount” style which offers superior aesthetics and durability when compared to “surface mount” (protrudes 5+ inches outside your door frame) doors which most other manufacturers sell. Our installers have the combined knowledge of thousands of disappearing screen door installations and we would be happy to come out and show you a display of an actual door. We offer color matching all the way around the door (often your threshold is a different color than your door frame) so the finished product blends in seamlessly with your house. <br/><br/> Our door can fit inside your home with minimal intrusion- most people will never know they are there until you use them!we have examined every door on the market and only offer the best. We sell our doors with an industry leading 10 Year Warranty* so it is in our best interest to sell the best door on the market. The door we offer is called the Rollaway, manufactured by the R.Lang Company here in California. <br/><br/> Rollaway doors are completely powder coated and offer springs and rollers on the door slides to ensure a lifetime of trouble free operation.",
@@ -43,39 +43,39 @@
         "warranty":"<strong>10 Year Limited Warranty<br/><br/></strong><p>All warranties cover materials, manufacturing defects and hardware for the periods listed below but will not cover normal wear and tear of the product. Screen mesh is not covered beyond the initial installation of products. Defective items must be reported within 5 days of receipt for validation. Improper installation of the product will not be covered under the warranties listed. Warranty periods begin from the date of purchase.</p>",
         "recentInstallImages":[
             {
-                "small":"/assets/images/screens/retractable/1.jpg",
-                "medium":"/assets/images/screens/retractable/1.jpg",
-                "big":"/assets/images/screens/retractable/1.jpg"
+                "small":"/static/ang/assets/images/screens/retractable/1.jpg",
+                "medium":"/static/ang/assets/images/screens/retractable/1.jpg",
+                "big":"/static/ang/assets/images/screens/retractable/1.jpg"
             },
             {
-                "small":"/assets/images/screens/retractable/2.jpg",
-                "medium":"/assets/images/screens/retractable/2.jpg",
-                "big":"/assets/images/screens/retractable/2.jpg"
+                "small":"/static/ang/assets/images/screens/retractable/2.jpg",
+                "medium":"/static/ang/assets/images/screens/retractable/2.jpg",
+                "big":"/static/ang/assets/images/screens/retractable/2.jpg"
             },
             {
-                "small":"/assets/images/screens/retractable/3.jpg",
-                "medium":"/assets/images/screens/retractable/3.jpg",
-                "big":"/assets/images/screens/retractable/3.jpg"
+                "small":"/static/ang/assets/images/screens/retractable/3.jpg",
+                "medium":"/static/ang/assets/images/screens/retractable/3.jpg",
+                "big":"/static/ang/assets/images/screens/retractable/3.jpg"
             },
             {
-                "small":"/assets/images/screens/retractable/4.jpg",
-                "medium":"/assets/images/screens/retractable/4.jpg",
-                "big":"/assets/images/screens/retractable/4.jpg"
+                "small":"/static/ang/assets/images/screens/retractable/4.jpg",
+                "medium":"/static/ang/assets/images/screens/retractable/4.jpg",
+                "big":"/static/ang/assets/images/screens/retractable/4.jpg"
             },
             {
-                "small":"/assets/images/screens/retractable/5.jpg",
-                "medium":"/assets/images/screens/retractable/5.jpg",
-                "big":"/assets/images/screens/retractable/5.jpg"
+                "small":"/static/ang/assets/images/screens/retractable/5.jpg",
+                "medium":"/static/ang/assets/images/screens/retractable/5.jpg",
+                "big":"/static/ang/assets/images/screens/retractable/5.jpg"
             },
             {
-                "small":"/assets/images/screens/retractable/6.jpg",
-                "medium":"/assets/images/screens/retractable/6.jpg",
-                "big":"/assets/images/screens/retractable/6.jpg"
+                "small":"/static/ang/assets/images/screens/retractable/6.jpg",
+                "medium":"/static/ang/assets/images/screens/retractable/6.jpg",
+                "big":"/static/ang/assets/images/screens/retractable/6.jpg"
             },
             {
-                "small":"/assets/images/screens/retractable/7.jpg",
-                "medium":"/assets/images/screens/retractable/7.jpg",
-                "big":"/assets/images/screens/retractable/7.jpg"
+                "small":"/static/ang/assets/images/screens/retractable/7.jpg",
+                "medium":"/static/ang/assets/images/screens/retractable/7.jpg",
+                "big":"/static/ang/assets/images/screens/retractable/7.jpg"
             }
         ],
         "colorSet":["colorSetx6"]
@@ -87,38 +87,38 @@
         "subcategory":"Door",
         "type":"products",
         "bullets":["Sick and tired of that old, flimsy door with the broken wheels always falling off the track?","Don’t waste your time with a one-size fits all door with plastic wheels from the hardware store.","Every one of our doors is custom made to fit your doorway."],
-        "tileImage":"/assets/images/screens/sliding/sliding-screen2.jpg",
+        "tileImage":"/static/ang/assets/images/screens/sliding/sliding-screen2.jpg",
         "tileText":"Don’t waste your time with a one-size fits all door with plastic wheels from the hardware store. Every one of our doors is custom made to fit your doorway.",
         "thumbImages":[
             {
-                "small": "/assets/images/screens/sliding/4.png",
-                "medium":"/assets/images/screens/sliding/4.png",
-                "big":"/assets/images/screens/sliding/4.png"
+                "small": "/static/ang/assets/images/screens/sliding/4.png",
+                "medium":"/static/ang/assets/images/screens/sliding/4.png",
+                "big":"/static/ang/assets/images/screens/sliding/4.png"
             },
             {
-                "small":"/assets/images/screens/sliding/1.png",
-                "medium":"/assets/images/screens/sliding/1.png",
-                "big":"/assets/images/screens/sliding/1.png"
+                "small":"/static/ang/assets/images/screens/sliding/1.png",
+                "medium":"/static/ang/assets/images/screens/sliding/1.png",
+                "big":"/static/ang/assets/images/screens/sliding/1.png"
             },
             {
-                "small":"/assets/images/screens/sliding/2.png",
-                "medium":"/assets/images/screens/sliding/2.png",
-                "big":"/assets/images/screens/sliding/2.png"
+                "small":"/static/ang/assets/images/screens/sliding/2.png",
+                "medium":"/static/ang/assets/images/screens/sliding/2.png",
+                "big":"/static/ang/assets/images/screens/sliding/2.png"
             },
             {
-                "small": "/assets/images/screens/sliding/3.png",
-                "medium":"/assets/images/screens/sliding/3.png",
-                "big":"/assets/images/screens/sliding/3.png"
+                "small": "/static/ang/assets/images/screens/sliding/3.png",
+                "medium":"/static/ang/assets/images/screens/sliding/3.png",
+                "big":"/static/ang/assets/images/screens/sliding/3.png"
             },            
             {
-                "small":"/assets/images/screens/sliding/5.png",
-                "medium":"/assets/images/screens/sliding/5.png",
-                "big":"/assets/images/screens/sliding/5.png"
+                "small":"/static/ang/assets/images/screens/sliding/5.png",
+                "medium":"/static/ang/assets/images/screens/sliding/5.png",
+                "big":"/static/ang/assets/images/screens/sliding/5.png"
             },
             {
-                "small":"/assets/images/screens/sliding/6.png",
-                "medium":"/assets/images/screens/sliding/6.png",
-                "big":"/assets/images/screens/sliding/6.png"
+                "small":"/static/ang/assets/images/screens/sliding/6.png",
+                "medium":"/static/ang/assets/images/screens/sliding/6.png",
+                "big":"/static/ang/assets/images/screens/sliding/6.png"
             }
         ],
         "productOverview":"Our sliding screen door offers an all- metal construction with steel wheels, bearings and a metal lock.  Many of our customers opt for Solar Screen in their doors to take advantage of the added durability it offers, and because of the fact that we sell it with a 10 year warranty.  The doors are built with inside corners and adjustable wheels for a perfect fit. For more information check out the tabs above.",
@@ -140,7 +140,7 @@
         "category":"Door and Window Screens",
         "subcategory":"Door",
         "type":"grid",
-        "tileImage":"/assets/images/screens/swinging-screen-doors/swinging-door.jpg",
+        "tileImage":"/static/ang/assets/images/screens/swinging-screen-doors/swinging-door.jpg",
         "tileText":"Looking for that old-fashioned simplicity of a swinging screen door? We have many styles and colors to choose from.",
         "description":"Looking for that old-fashioned simplicity of a swinging screen door? We have many styles and colors to choose from. These are the best swinging screen doors on the market and we can fit them to virtually any door!"
     },    
@@ -158,12 +158,12 @@
         ],
         "thumbImages":[
             {
-                "small":"/assets/images/screens/swinging-screen-doors/el-dorado/el-dorado.png",
-                "medium":"/assets/images/screens/swinging-screen-doors/el-dorado/el-dorado.png",
-                "big":"/assets/images/screens/swinging-screen-doors/el-dorado/el-dorado.png"
+                "small":"/static/ang/assets/images/screens/swinging-screen-doors/el-dorado/el-dorado.png",
+                "medium":"/static/ang/assets/images/screens/swinging-screen-doors/el-dorado/el-dorado.png",
+                "big":"/static/ang/assets/images/screens/swinging-screen-doors/el-dorado/el-dorado.png"
             }
         ],
-        "tileImage":"/assets/images/screens/swinging-screen-doors/el-dorado/el-dorado.png",
+        "tileImage":"/static/ang/assets/images/screens/swinging-screen-doors/el-dorado/el-dorado.png",
         "tileText":"Call us today and get great pricing on window screen replacements. We specialize in all kinds of window screens and Solar Screens.",
         "productOverview":"Mike's Mobile Screen & Chimney Service offers high quality Swinging Screen doors. The Brighton Swinging Screen Doors offers a 1in. Wide Sculptured 9 Lite marginal grid pattern which combines elegance and openess to this door design. Our prices include installation. Call today to find out more!",
         "technicalSpecs":"<li>2-1/8in. x 3/4in. .050 Extruded Aluminum Frame</li><li>Available in Standard Sizes</li><li>2ft 6in. x 6ft 8in. (29-1/4in. x 79-1/4in.)</li><li>2ft 8in. x 6ft 8in. (31-1/4in. x 79-1/4in.)</li><li>3ft 0in x 6ft 8in. (35-1/4in. x 79-1/4in.)</li><li>Custom Widths 24in. - 47in., Heights up to 96in.</li><li>1in. Wide Sculptured 9 Lite Marginal Grid Pattern</li><li>Charcoal Fiberglass Insect Screening</li><li>Standard Push Button Handle</li><li>1-7/8in Side Adjustable .050 Channel with 3 Hinges</li><li>1-7/8in Bottom Adjustment .050 Channel</li><li>Precision SAFEGUARD Packaging - Complete with Hardware.</li>",
@@ -193,12 +193,12 @@
         ],
         "thumbImages":[
             {
-                "small":"/assets/images/screens/swinging-screen-doors/fiesta/fiesta.png",
-                "medium":"/assets/images/screens/swinging-screen-doors/fiesta/fiesta.png",
-                "big":"/assets/images/screens/swinging-screen-doors/fiesta/fiesta.png"
+                "small":"/static/ang/assets/images/screens/swinging-screen-doors/fiesta/fiesta.png",
+                "medium":"/static/ang/assets/images/screens/swinging-screen-doors/fiesta/fiesta.png",
+                "big":"/static/ang/assets/images/screens/swinging-screen-doors/fiesta/fiesta.png"
             }
         ],
-        "tileImage":"/assets/images/screens/swinging-screen-doors/fiesta/fiesta.png",
+        "tileImage":"/static/ang/assets/images/screens/swinging-screen-doors/fiesta/fiesta.png",
         "tileText":"Call us today and get great pricing on window screen replacements. We specialize in all kinds of window screens and Solar Screens.",
         "productOverview":"Mike's Mobile Screen & Chimney Service offers high quality Swinging Screen doors. The Brighton Swinging Screen Doors offers a 1in. Wide Sculptured 9 Lite marginal grid pattern which combines elegance and openess to this door design. Our prices include installation. Call today to find out more!",
         "technicalSpecs":"<li>2-1/8in. x 3/4in. .050 Extruded Aluminum Frame</li><li>Available in Standard Sizes</li><li>2ft 6in. x 6ft 8in. (29-1/4in. x 79-1/4in.)</li><li>2ft 8in. x 6ft 8in. (31-1/4in. x 79-1/4in.)</li><li>3ft 0in x 6ft 8in. (35-1/4in. x 79-1/4in.)</li><li>Custom Widths 24in. - 47in., Heights up to 96in.</li><li>1in. Wide Sculptured 9 Lite Marginal Grid Pattern</li><li>Charcoal Fiberglass Insect Screening</li><li>Standard Push Button Handle</li><li>1-7/8in Side Adjustable .050 Channel with 3 Hinges</li><li>1-7/8in Bottom Adjustment .050 Channel</li><li>Precision SAFEGUARD Packaging - Complete with Hardware.</li>",
@@ -226,12 +226,12 @@
         ],
         "thumbImages":[
             {
-                "small":"/assets/images/screens/swinging-screen-doors/safeguard/safeguard.png",
-                "medium":"/assets/images/screens/swinging-screen-doors/safeguard/safeguard.png",
-                "big":"/assets/images/screens/swinging-screen-doors/safeguard/safeguard.png"
+                "small":"/static/ang/assets/images/screens/swinging-screen-doors/safeguard/safeguard.png",
+                "medium":"/static/ang/assets/images/screens/swinging-screen-doors/safeguard/safeguard.png",
+                "big":"/static/ang/assets/images/screens/swinging-screen-doors/safeguard/safeguard.png"
             }
         ],
-        "tileImage":"/assets/images/screens/swinging-screen-doors/safeguard/safeguard.png",
+        "tileImage":"/static/ang/assets/images/screens/swinging-screen-doors/safeguard/safeguard.png",
         "tileText":"Call us today and get great pricing on window screen replacements. We specialize in all kinds of window screens and Solar Screens.",
         "productOverview":"Mike's Mobile Screen & Chimney Service offers high quality Swinging Screen doors. The Brighton Swinging Screen Doors offers a 1in. Wide Sculptured 9 Lite marginal grid pattern which combines elegance and openess to this door design. Our prices include installation. Call today to find out more!",
         "technicalSpecs":"<li>2-1/8in. x 3/4in. .050 Extruded Aluminum Frame</li><li>Available in Standard Sizes</li><li>2ft 6in. x 6ft 8in. (29-1/4in. x 79-1/4in.)</li><li>2ft 8in. x 6ft 8in. (31-1/4in. x 79-1/4in.)</li><li>3ft 0in x 6ft 8in. (35-1/4in. x 79-1/4in.)</li><li>Custom Widths 24in. - 47in., Heights up to 96in.</li><li>1in. Wide Sculptured 9 Lite Marginal Grid Pattern</li><li>Charcoal Fiberglass Insect Screening</li><li>Standard Push Button Handle</li><li>1-7/8in Side Adjustable .050 Channel with 3 Hinges</li><li>1-7/8in Bottom Adjustment .050 Channel</li><li>Precision SAFEGUARD Packaging - Complete with Hardware.</li>",
@@ -255,12 +255,12 @@
         "bullets":["The Santa Cruz Swinging Screen Door is a classic style screen door with a bottom half grille.","This grille is an extruded aluminum amplimesh style grille that adds character and charm to this awesome screen door.","This door comes in Standard and custom sizes. Customize your door today and add a pet door!"],
         "thumbImages":[
             {
-                "small":"/assets/images/screens/swinging-screen-doors/santa-cruz/santa-cruz.png",
-                "medium":"/assets/images/screens/swinging-screen-doors/santa-cruz/santa-cruz.png",
-                "big":"/assets/images/screens/swinging-screen-doors/santa-cruz/santa-cruz.png"
+                "small":"/static/ang/assets/images/screens/swinging-screen-doors/santa-cruz/santa-cruz.png",
+                "medium":"/static/ang/assets/images/screens/swinging-screen-doors/santa-cruz/santa-cruz.png",
+                "big":"/static/ang/assets/images/screens/swinging-screen-doors/santa-cruz/santa-cruz.png"
             }
         ],
-        "tileImage":"/assets/images/screens/swinging-screen-doors/santa-cruz/santa-cruz.png",
+        "tileImage":"/static/ang/assets/images/screens/swinging-screen-doors/santa-cruz/santa-cruz.png",
         "tileText":"Looking for that old-fashioned simplicity of a swinging screen door? We have many styles and colors to choose from.",
         "productOverview":"Mike's Mobile Screen & Chimney Service offers high quality Swinging Screen doors. The Santa Cruz Swinging Screen Door is another option for customers searching for the perfect screen door. The screen door comes Standard with a charcoal fiberglass bug mesh. Try adding a Pet Door or Solar Screen!",
         "technicalSpecs":"<li>2-1/8in. x 3/4in. .050 Extruded Aluminum Frame</li><li>Standard 12in. Embossed .024 Aluminum Kickplate</li><li>Available in Standard Sizes</li><li>2ft 6in. x 6ft 8in. (29-1/4in. x 79-1/4in.)</li><li>2ft 8in. x 6ft 8in. (31-1/4in. x 79-1/4in.)</li><li>3ft 0in. x 6ft 8in. (35-1/4in. x 79-1/4in.)</li><li>Custom Widths 24in. - 42in., Heights up to 96in.</li><li>Charcoal Fiberglass Insect Screening</li><li>Standard Push Button Handle</li><li>1-7/8in. Side Adjustable .050 Channel with 3 Hinges</li><li>1-7/8in. Bottom Adjustment .050 Channel</li><li>Precision SAFEGUARD Packaging - Complete with Hardware.</li><li>Extruded Amplimesh 3/16in. Aluminum Grille</li><li>NOTE: Grille Turned Sideways on Doors</li><li>Over 35-1/4in. Wide</li>",
@@ -288,12 +288,12 @@
         ],
         "thumbImages":[
             {
-                "small":"/assets/images/screens/swinging-screen-doors/brighton/brighton.png",
-                "medium":"/assets/images/screens/swinging-screen-doors/brighton/brighton.png",
-                "big":"/assets/images/screens/swinging-screen-doors/brighton/brighton.png"
+                "small":"/static/ang/assets/images/screens/swinging-screen-doors/brighton/brighton.png",
+                "medium":"/static/ang/assets/images/screens/swinging-screen-doors/brighton/brighton.png",
+                "big":"/static/ang/assets/images/screens/swinging-screen-doors/brighton/brighton.png"
             }
         ],
-        "tileImage":"/assets/images/screens/swinging-screen-doors/brighton/brighton.png",
+        "tileImage":"/static/ang/assets/images/screens/swinging-screen-doors/brighton/brighton.png",
         "tileText":"Call us today and get great pricing on window screen replacements. We specialize in all kinds of window screens and Solar Screens.",
         "productOverview":"Mike's Mobile Screen & Chimney Service offers high quality Swinging Screen doors. The Brighton Swinging Screen Doors offers a 1in. Wide Sculptured 9 Lite marginal grid pattern which combines elegance and openess to this door design. Our prices include installation. Call today to find out more!",
         "technicalSpecs":"<li>2-1/8in. x 3/4in. .050 Extruded Aluminum Frame</li><li>Available in Standard Sizes</li><li>2ft 6in. x 6ft 8in. (29-1/4in. x 79-1/4in.)</li><li>2ft 8in. x 6ft 8in. (31-1/4in. x 79-1/4in.)</li><li>3ft 0in x 6ft 8in. (35-1/4in. x 79-1/4in.)</li><li>Custom Widths 24in. - 47in., Heights up to 96in.</li><li>1in. Wide Sculptured 9 Lite Marginal Grid Pattern</li><li>Charcoal Fiberglass Insect Screening</li><li>Standard Push Button Handle</li><li>1-7/8in Side Adjustable .050 Channel with 3 Hinges</li><li>1-7/8in Bottom Adjustment .050 Channel</li><li>Precision SAFEGUARD Packaging - Complete with Hardware.</li>",
@@ -315,13 +315,13 @@
         "subcategory":"Door",
         "type":"products",
         "bullets":["The Clearview Swinging Screen Door is open design that maximizes visibility and ventilation.","This door comes in Standard and custom sizes.","Customize your door today and add a pet door or Solar Screen today!"],
-        "tileImage":"/assets/images/screens/swinging-screen-doors/clearview/clearview.png",
+        "tileImage":"/static/ang/assets/images/screens/swinging-screen-doors/clearview/clearview.png",
         "tileText":"Call us today and get great pricing on window screen replacements. We specialize in all kinds of window screens and Solar Screens.",
         "thumbImages":[
             {
-                "small":"/assets/images/screens/swinging-screen-doors/clearview/clearview.png",
-                "medium":"/assets/images/screens/swinging-screen-doors/clearview/clearview.png",
-                "big":"/assets/images/screens/swinging-screen-doors/clearview/clearview.png"
+                "small":"/static/ang/assets/images/screens/swinging-screen-doors/clearview/clearview.png",
+                "medium":"/static/ang/assets/images/screens/swinging-screen-doors/clearview/clearview.png",
+                "big":"/static/ang/assets/images/screens/swinging-screen-doors/clearview/clearview.png"
             }
         ],
         "productOverview":"Mike's Mobile Screen & Chimney Service offers high quality Swinging Screen doors. The Brighton Swinging Screen Doors offers a 1in. Wide Sculptured 9 Lite marginal grid pattern which combines elegance and openess to this door design. Our prices include installation. Call today to find out more!",
@@ -349,12 +349,12 @@
         ],
         "thumbImages":[
             {
-                "small":"/assets/images/screens/swinging-screen-doors/colonade/colonade.png",
-                "medium":"/assets/images/screens/swinging-screen-doors/colonade/colonade.png",
-                "big":"/assets/images/screens/swinging-screen-doors/colonade/colonade.png"
+                "small":"/static/ang/assets/images/screens/swinging-screen-doors/colonade/colonade.png",
+                "medium":"/static/ang/assets/images/screens/swinging-screen-doors/colonade/colonade.png",
+                "big":"/static/ang/assets/images/screens/swinging-screen-doors/colonade/colonade.png"
             }
         ],
-        "tileImage":"/assets/images/screens/swinging-screen-doors/colonade/colonade.png",
+        "tileImage":"/static/ang/assets/images/screens/swinging-screen-doors/colonade/colonade.png",
         "tileText":"Call us today and get great pricing on window screen replacements. We specialize in all kinds of window screens and Solar Screens.",
         "productOverview":"Mike's Mobile Screen & Chimney Service offers high quality Swinging Screen doors. The Brighton Swinging Screen Doors offers a 1in. Wide Sculptured 9 Lite marginal grid pattern which combines elegance and openess to this door design. Our prices include installation. Call today to find out more!",
         "technicalSpecs":"<li>2-1/8in. x 3/4in. .050 Extruded Aluminum Frame</li><li>Available in Standard Sizes</li><li>2ft 6in. x 6ft 8in. (29-1/4in. x 79-1/4in.)</li><li>2ft 8in. x 6ft 8in. (31-1/4in. x 79-1/4in.)</li><li>3ft 0in x 6ft 8in. (35-1/4in. x 79-1/4in.)</li><li>Custom Widths 24in. - 47in., Heights up to 96in.</li><li>1in. Wide Sculptured 9 Lite Marginal Grid Pattern</li><li>Charcoal Fiberglass Insect Screening</li><li>Standard Push Button Handle</li><li>1-7/8in Side Adjustable .050 Channel with 3 Hinges</li><li>1-7/8in Bottom Adjustment .050 Channel</li><li>Precision SAFEGUARD Packaging - Complete with Hardware.</li>",
@@ -382,12 +382,12 @@
         ],
         "thumbImages":[
             {
-                "small":"/assets/images/screens/swinging-screen-doors/craftsman/craftsman.png",
-                "medium":"/assets/images/screens/swinging-screen-doors/craftsman/craftsman.png",
-                "big":"/assets/images/screens/swinging-screen-doors/craftsman/craftsman.png"
+                "small":"/static/ang/assets/images/screens/swinging-screen-doors/craftsman/craftsman.png",
+                "medium":"/static/ang/assets/images/screens/swinging-screen-doors/craftsman/craftsman.png",
+                "big":"/static/ang/assets/images/screens/swinging-screen-doors/craftsman/craftsman.png"
             }
         ],
-        "tileImage":"/assets/images/screens/swinging-screen-doors/craftsman/craftsman.png",
+        "tileImage":"/static/ang/assets/images/screens/swinging-screen-doors/craftsman/craftsman.png",
         "tileText":"Call us today and get great pricing on window screen replacements. We specialize in all kinds of window screens and Solar Screens.",
         "productOverview":"Mike's Mobile Screen & Chimney Service offers high quality Swinging Screen doors. The Brighton Swinging Screen Doors offers a 1in. Wide Sculptured 9 Lite marginal grid pattern which combines elegance and openess to this door design. Our prices include installation. Call today to find out more!",
         "technicalSpecs":"<li>2-1/8in. x 3/4in. .050 Extruded Aluminum Frame</li><li>Available in Standard Sizes</li><li>2ft 6in. x 6ft 8in. (29-1/4in. x 79-1/4in.)</li><li>2ft 8in. x 6ft 8in. (31-1/4in. x 79-1/4in.)</li><li>3ft 0in x 6ft 8in. (35-1/4in. x 79-1/4in.)</li><li>Custom Widths 24in. - 47in., Heights up to 96in.</li><li>1in. Wide Sculptured 9 Lite Marginal Grid Pattern</li><li>Charcoal Fiberglass Insect Screening</li><li>Standard Push Button Handle</li><li>1-7/8in Side Adjustable .050 Channel with 3 Hinges</li><li>1-7/8in Bottom Adjustment .050 Channel</li><li>Precision SAFEGUARD Packaging - Complete with Hardware.</li>",
@@ -426,7 +426,7 @@
                 "description":"We also do replacement window screen frames! Our custom window screen frames are all-aluminum constructed with mitered inside corners- no cheap plastic corners like the other guys use along with pull tabs and springs."
             }
         ],
-        "tileImage":"/assets/images/screens/window-screen-repair/car-logo-2.jpg",
+        "tileImage":"/static/ang/assets/images/screens/window-screen-repair/car-logo-2.jpg",
         "tileText":"We are a mobile screen company dedicated to providing our customers with a fast and affordable way to have their screens replaced.",
         "video":""
     },
@@ -436,7 +436,7 @@
         "category":"Door and Window Screens",
         "subcategory":"Window",
         "type":"services",
-        "tileImage":"/assets/images/screens/solar-screens/solar-screen2.jpg",
+        "tileImage":"/static/ang/assets/images/screens/solar-screens/solar-screen2.jpg",
         "tileText":"Suntex Solar Screen is a unique, heavy-duty woven mesh that blocks 80-90% of the sun’s hot rays before they enter your windows and doors.",
         "serviceImgCaption":"Suntex Solar Screen is a unique, heavy-duty woven mesh that blocks 80-90% of the sun’s hot rays before they enter your windows and doors.",
         "video":"WtENSdKQL5k",
@@ -456,30 +456,30 @@
             }
         ],
         "extraImages": {
-            "img":"/assets/images/screens/solar-screens/solar-screens-infographic.png"
+            "img":"/static/ang/assets/images/screens/solar-screens/solar-screens-infographic.png"
         },
         "recentInstallImages":[
-            {"small":"/assets/images/screens/solar-screens/1.jpg","medium":"/assets/images/screens/solar-screens/1.jpg","big":"/assets/images/screens/solar-screens/1.jpg"},
-            {"small":"/assets/images/screens/solar-screens/2.jpg","medium":"/assets/images/screens/solar-screens/2.jpg","big":"/assets/images/screens/solar-screens/2.jpg"},
-            {"small":"/assets/images/screens/solar-screens/3.jpg","medium":"/assets/images/screens/solar-screens/3.jpg","big":"/assets/images/screens/solar-screens/3.jpg"},
-            {"small":"/assets/images/screens/solar-screens/4.jpg","medium":"/assets/images/screens/solar-screens/4.jpg","big":"/assets/images/screens/solar-screens/4.jpg"},
-            {"small":"/assets/images/screens/solar-screens/5.jpg","medium":"/assets/images/screens/solar-screens/5.jpg","big":"/assets/images/screens/solar-screens/5.jpg"},
-            {"small":"/assets/images/screens/solar-screens/6.jpg","medium":"/assets/images/screens/solar-screens/6.jpg","big":"/assets/images/screens/solar-screens/6.jpg"},
-            {"small":"/assets/images/screens/solar-screens/7.jpg","medium":"/assets/images/screens/solar-screens/7.jpg","big":"/assets/images/screens/solar-screens/7.jpg"},
-            {"small":"/assets/images/screens/solar-screens/8.jpg","medium":"/assets/images/screens/solar-screens/8.jpg","big":"/assets/images/screens/solar-screens/8.jpg"},
-            {"small":"/assets/images/screens/solar-screens/9.jpg","medium":"/assets/images/screens/solar-screens/9.jpg","big":"/assets/images/screens/solar-screens/9.jpg"},
-            {"small":"/assets/images/screens/solar-screens/10.jpg","medium":"/assets/images/screens/solar-screens/10.jpg","big":"/assets/images/screens/solar-screens/10.jpg"},
-            {"small":"/assets/images/screens/solar-screens/11.jpg","medium":"/assets/images/screens/solar-screens/11.jpg","big":"/assets/images/screens/solar-screens/11.jpg"},
-            {"small":"/assets/images/screens/solar-screens/12.jpg","medium":"/assets/images/screens/solar-screens/12.jpg","big":"/assets/images/screens/solar-screens/12.jpg"},
-            {"small":"/assets/images/screens/solar-screens/13.jpg","medium":"/assets/images/screens/solar-screens/13.jpg","big":"/assets/images/screens/solar-screens/13.jpg"},
-            {"small":"/assets/images/screens/solar-screens/14.jpg","medium":"/assets/images/screens/solar-screens/14.jpg","big":"/assets/images/screens/solar-screens/14.jpg"},
-            {"small":"/assets/images/screens/solar-screens/15.jpg","medium":"/assets/images/screens/solar-screens/15.jpg","big":"/assets/images/screens/solar-screens/15.jpg"},
-            {"small":"/assets/images/screens/solar-screens/16.jpg","medium":"/assets/images/screens/solar-screens/16.jpg","big":"/assets/images/screens/solar-screens/16.jpg"},
-            {"small":"/assets/images/screens/solar-screens/17.jpg","medium":"/assets/images/screens/solar-screens/17.jpg","big":"/assets/images/screens/solar-screens/17.jpg"},
-            {"small":"/assets/images/screens/solar-screens/18.jpg","medium":"/assets/images/screens/solar-screens/18.jpg","big":"/assets/images/screens/solar-screens/18.jpg"},
-            {"small":"/assets/images/screens/solar-screens/19.jpg","medium":"/assets/images/screens/solar-screens/19.jpg","big":"/assets/images/screens/solar-screens/19.jpg"},
-            {"small":"/assets/images/screens/solar-screens/20.jpg","medium":"/assets/images/screens/solar-screens/20.jpg","big":"/assets/images/screens/solar-screens/20.jpg"},
-            {"small":"/assets/images/screens/solar-screens/21.jpg","medium":"/assets/images/screens/solar-screens/21.jpg","big":"/assets/images/screens/solar-screens/21.jpg"}
+            {"small":"/static/ang/assets/images/screens/solar-screens/1.jpg","medium":"/static/ang/assets/images/screens/solar-screens/1.jpg","big":"/static/ang/assets/images/screens/solar-screens/1.jpg"},
+            {"small":"/static/ang/assets/images/screens/solar-screens/2.jpg","medium":"/static/ang/assets/images/screens/solar-screens/2.jpg","big":"/static/ang/assets/images/screens/solar-screens/2.jpg"},
+            {"small":"/static/ang/assets/images/screens/solar-screens/3.jpg","medium":"/static/ang/assets/images/screens/solar-screens/3.jpg","big":"/static/ang/assets/images/screens/solar-screens/3.jpg"},
+            {"small":"/static/ang/assets/images/screens/solar-screens/4.jpg","medium":"/static/ang/assets/images/screens/solar-screens/4.jpg","big":"/static/ang/assets/images/screens/solar-screens/4.jpg"},
+            {"small":"/static/ang/assets/images/screens/solar-screens/5.jpg","medium":"/static/ang/assets/images/screens/solar-screens/5.jpg","big":"/static/ang/assets/images/screens/solar-screens/5.jpg"},
+            {"small":"/static/ang/assets/images/screens/solar-screens/6.jpg","medium":"/static/ang/assets/images/screens/solar-screens/6.jpg","big":"/static/ang/assets/images/screens/solar-screens/6.jpg"},
+            {"small":"/static/ang/assets/images/screens/solar-screens/7.jpg","medium":"/static/ang/assets/images/screens/solar-screens/7.jpg","big":"/static/ang/assets/images/screens/solar-screens/7.jpg"},
+            {"small":"/static/ang/assets/images/screens/solar-screens/8.jpg","medium":"/static/ang/assets/images/screens/solar-screens/8.jpg","big":"/static/ang/assets/images/screens/solar-screens/8.jpg"},
+            {"small":"/static/ang/assets/images/screens/solar-screens/9.jpg","medium":"/static/ang/assets/images/screens/solar-screens/9.jpg","big":"/static/ang/assets/images/screens/solar-screens/9.jpg"},
+            {"small":"/static/ang/assets/images/screens/solar-screens/10.jpg","medium":"/static/ang/assets/images/screens/solar-screens/10.jpg","big":"/static/ang/assets/images/screens/solar-screens/10.jpg"},
+            {"small":"/static/ang/assets/images/screens/solar-screens/11.jpg","medium":"/static/ang/assets/images/screens/solar-screens/11.jpg","big":"/static/ang/assets/images/screens/solar-screens/11.jpg"},
+            {"small":"/static/ang/assets/images/screens/solar-screens/12.jpg","medium":"/static/ang/assets/images/screens/solar-screens/12.jpg","big":"/static/ang/assets/images/screens/solar-screens/12.jpg"},
+            {"small":"/static/ang/assets/images/screens/solar-screens/13.jpg","medium":"/static/ang/assets/images/screens/solar-screens/13.jpg","big":"/static/ang/assets/images/screens/solar-screens/13.jpg"},
+            {"small":"/static/ang/assets/images/screens/solar-screens/14.jpg","medium":"/static/ang/assets/images/screens/solar-screens/14.jpg","big":"/static/ang/assets/images/screens/solar-screens/14.jpg"},
+            {"small":"/static/ang/assets/images/screens/solar-screens/15.jpg","medium":"/static/ang/assets/images/screens/solar-screens/15.jpg","big":"/static/ang/assets/images/screens/solar-screens/15.jpg"},
+            {"small":"/static/ang/assets/images/screens/solar-screens/16.jpg","medium":"/static/ang/assets/images/screens/solar-screens/16.jpg","big":"/static/ang/assets/images/screens/solar-screens/16.jpg"},
+            {"small":"/static/ang/assets/images/screens/solar-screens/17.jpg","medium":"/static/ang/assets/images/screens/solar-screens/17.jpg","big":"/static/ang/assets/images/screens/solar-screens/17.jpg"},
+            {"small":"/static/ang/assets/images/screens/solar-screens/18.jpg","medium":"/static/ang/assets/images/screens/solar-screens/18.jpg","big":"/static/ang/assets/images/screens/solar-screens/18.jpg"},
+            {"small":"/static/ang/assets/images/screens/solar-screens/19.jpg","medium":"/static/ang/assets/images/screens/solar-screens/19.jpg","big":"/static/ang/assets/images/screens/solar-screens/19.jpg"},
+            {"small":"/static/ang/assets/images/screens/solar-screens/20.jpg","medium":"/static/ang/assets/images/screens/solar-screens/20.jpg","big":"/static/ang/assets/images/screens/solar-screens/20.jpg"},
+            {"small":"/static/ang/assets/images/screens/solar-screens/21.jpg","medium":"/static/ang/assets/images/screens/solar-screens/21.jpg","big":"/static/ang/assets/images/screens/solar-screens/21.jpg"}
         ]
     },
     {
@@ -488,13 +488,13 @@
         "category":"Door and Window Screens",
         "subcategory":"Door",
         "type":"services",
-        "tileImage":"/assets/images/screens/pet-door/pet-door-main-small.jpg",
+        "tileImage":"/static/ang/assets/images/screens/pet-door/pet-door-main-small.jpg",
         "tileText":"Not your average pet door! These doors are made to LAST, unlike those flimsy plastic kits from the hardware store that are just going to cause you problems.",
         "images":{
-            "Almond":"/assets/images/screens/pet-door/almond-frame.jpg",
-            "Bronze":"/assets/images/screens/pet-door/bronze-frame.jpg",
-            "Mill":"/assets/images/screens/pet-door/mill-frame.jpg",
-            "White":"/assets/images/screens/pet-door/white-frame.jpg"
+            "Almond":"/static/ang/assets/images/screens/pet-door/almond-frame.jpg",
+            "Bronze":"/static/ang/assets/images/screens/pet-door/bronze-frame.jpg",
+            "Mill":"/static/ang/assets/images/screens/pet-door/mill-frame.jpg",
+            "White":"/static/ang/assets/images/screens/pet-door/white-frame.jpg"
         },
         "serviceImgCaption":"Not your average pet door!",
         "textList":[
@@ -521,7 +521,7 @@
         "slug":"chimney-accessories",
         "category":"Chimney Services",
         "type":"grid",
-        "tileImage":"/assets/images/chimneys/fireplace-screen.jpg",
+        "tileImage":"/static/ang/assets/images/chimneys/fireplace-screen.jpg",
         "tileText":"Is your fireplace too plain or not quite working right? Mike’s Mobile offers a wide range of chimney accessories. From caps to keep out rain to grates to help wood more efficiently, we have it all!",
         "thumbImages":[
             {
@@ -536,7 +536,7 @@
         "slug":"chimney-caps-and-spark-arrestor",
         "category":"Accessories",
         "type":"services",
-        "tileImage":"/assets/images/chimneys/accessories/chimney-cap/chimney-cap.jpg",
+        "tileImage":"/static/ang/assets/images/chimneys/accessories/chimney-cap/chimney-cap.jpg",
         "tileText":"Not your average pet door! These doors are made to LAST, unlike those flimsy plastic kits from the hardware store that are just going to cause you problems.",
         "serviceImgCaption":"Keep animals and leaves out of your chimney.",
         "textList":[
@@ -559,7 +559,7 @@
         "slug":"fireplace-grate",
         "category":"Accessories",
         "type":"services",
-        "tileImage":"/assets/images/chimneys/accessories/fireplace-grate/1.jpg",
+        "tileImage":"/static/ang/assets/images/chimneys/accessories/fireplace-grate/1.jpg",
         "tileText":"Not your average pet door! These doors are made to LAST, unlike those flimsy plastic kits from the hardware store that are just going to cause you problems.",
         "serviceImgCaption":"One of the most overlooked chimney parts is a quality fireplace grate. ",
         "textList":[
@@ -594,7 +594,7 @@
         "slug":"fireplace-glass-doors",
         "category":"Accessories",
         "type":"services",
-        "tileImage":"/assets/images/chimneys/accessories/fireplace-glass-doors/black.png",
+        "tileImage":"/static/ang/assets/images/chimneys/accessories/fireplace-glass-doors/black.png",
         "tileText":"Not your average pet door! These doors are made to LAST, unlike those flimsy plastic kits from the hardware store that are just going to cause you problems.",
         "textList":[
             {
@@ -608,7 +608,7 @@
         "slug":"radiant-fireback",
         "category":"Accessories",
         "type":"services",
-        "tileImage":"/assets/images/chimneys/accessories/radiant-firebacks/radiant-fireback.jpg",
+        "tileImage":"/static/ang/assets/images/chimneys/accessories/radiant-firebacks/radiant-fireback.jpg",
         "tileText":"Not your average pet door! These doors are made to LAST, unlike those flimsy plastic kits from the hardware store that are just going to cause you problems.",
         "serviceImgCaption":"Keep more of the heat from your fire back in your home",
         "textList":[
@@ -634,7 +634,7 @@
         "slug":"chimney-cleaning",
         "category":"Chimney Services",
         "type":"services",
-        "tileImage":"/assets/images/chimneys/cleaning/1.jpg",
+        "tileImage":"/static/ang/assets/images/chimneys/cleaning/1.jpg",
         "tileText":"Whether you have a masonry open fireplace, zero-clearance, wood-burning insert, freestanding stove or pellet stove, a chimney cleaning will help keep your family safe and your chimney working smoothly.",
         "serviceImgCaption":"Have our chimney professionals clean and inspect your chimney.",
         "textList":[
@@ -657,7 +657,7 @@
         "slug":"chimney-inspections",
         "category":"Chimney Services",
         "type":"services",
-        "tileImage":"assets/images/chimneys/inspections/inspections.jpg",
+        "tileImage":"/static/ang/assets/images/chimneys/inspections/inspections.jpg",
         "tileText":"Keep your chimney safe and in great shape. Schedule a certified chimney inspection before you burn.",
         "textList":[
             {
@@ -679,7 +679,7 @@
         "slug":"chimney-repairs",
         "category":"Chimney Services",
         "type":"grid",
-        "tileImage":"/assets/images/chimneys/chimney-unsplash.jpg",
+        "tileImage":"/static/ang/assets/images/chimneys/chimney-unsplash.jpg",
         "tileText":"When it comes to chimney repairs, our chimney professionals are your go-to for crown seals, heat damage, masonry repair, chimney liners, refractory panels, chimney de-glazing, and more!"
     },
     {
@@ -834,7 +834,7 @@
         "slug":"masonry-services",
         "category":"Chimney Services",
         "type":"grid",
-        "tileImage":"/assets/images/chimneys/masonry.jpeg",
+        "tileImage":"/static/ang/assets/images/chimneys/masonry.jpeg",
         "tileText":"Masonry is a very popular material that gives home owners and builders flexibility. It is beautiful, versatile, resistant to fires, and earthquakes."
     },
     {
@@ -978,7 +978,7 @@
         "slug":"dryer-vent-cleaning",
         "category":"Chimney Services",
         "type":"services",
-        "tileImage":"/assets/images/home-improvement/dryer-vent.jpg",
+        "tileImage":"/static/ang/assets/images/home-improvement/dryer-vent.jpg",
         "tileText":"Have your dryer vent system cleaned and inspected yearly by a dryer vent cleaning professional.",
         "textList":[
             {
@@ -1009,38 +1009,38 @@
         "subcategory":"Door",
         "type":"grid",
         "description":"Custom Steel Security Doors can take your home to the next level of style and security. All of our Steel Security doors are made to order, ensuring a perfect fit for your home. These doors come in several different mounting styles that let us install them on any home application. (Click on a door to view more)",
-        "tileImage":"/assets/images/security/steel-security-doors/tileImage.png",
+        "tileImage":"/static/ang/assets/images/security/steel-security-doors/tileImage.png",
         "tileText":"Custom Steel Security Doors can take your home to the next level of style and security.",
         "recentInstallImages":[
             {
-                "small":"assets/images/security/steel-security-doors/recent-installs/custom-steel-security-door-dakota.png",
-                "medium":"assets/images/security/steel-security-doors/recent-installs/custom-steel-security-door-dakota.png",
-                "big":"assets/images/security/steel-security-doors/recent-installs/custom-steel-security-door-dakota.png"
+                "small":"/static/ang/assets/images/security/steel-security-doors/recent-installs/custom-steel-security-door-dakota.png",
+                "medium":"/static/ang/assets/images/security/steel-security-doors/recent-installs/custom-steel-security-door-dakota.png",
+                "big":"/static/ang/assets/images/security/steel-security-doors/recent-installs/custom-steel-security-door-dakota.png"
             },
             {
-                "small":"assets/images/security/steel-security-doors/recent-installs/custom-steel-security-door-artisan.png",
-                "medium":"assets/images/security/steel-security-doors/recent-installs/custom-steel-security-door-artisan.png",
-                "big":"assets/images/security/steel-security-doors/recent-installs/custom-steel-security-door-artisan.png"
+                "small":"/static/ang/assets/images/security/steel-security-doors/recent-installs/custom-steel-security-door-artisan.png",
+                "medium":"/static/ang/assets/images/security/steel-security-doors/recent-installs/custom-steel-security-door-artisan.png",
+                "big":"/static/ang/assets/images/security/steel-security-doors/recent-installs/custom-steel-security-door-artisan.png"
             },
             {
-                "small":"assets/images/security/steel-security-doors/recent-installs/custom-steel-security-door-longevity.png",
-                "medium":"assets/images/security/steel-security-doors/recent-installs/custom-steel-security-door-longevity.png",
-                "big":"assets/images/security/steel-security-doors/recent-installs/custom-steel-security-door-longevity.png"
+                "small":"/static/ang/assets/images/security/steel-security-doors/recent-installs/custom-steel-security-door-longevity.png",
+                "medium":"/static/ang/assets/images/security/steel-security-doors/recent-installs/custom-steel-security-door-longevity.png",
+                "big":"/static/ang/assets/images/security/steel-security-doors/recent-installs/custom-steel-security-door-longevity.png"
             },
             {
-                "small":"assets/images/security/steel-security-doors/recent-installs/custom-steel-security-door-paradise-french.png",
-                "medium":"assets/images/security/steel-security-doors/recent-installs/custom-steel-security-door-paradise-french.png",
-                "big":"assets/images/security/steel-security-doors/recent-installs/custom-steel-security-door-paradise-french.png"
+                "small":"/static/ang/assets/images/security/steel-security-doors/recent-installs/custom-steel-security-door-paradise-french.png",
+                "medium":"/static/ang/assets/images/security/steel-security-doors/recent-installs/custom-steel-security-door-paradise-french.png",
+                "big":"/static/ang/assets/images/security/steel-security-doors/recent-installs/custom-steel-security-door-paradise-french.png"
             },
             {
-                "small":"assets/images/security/steel-security-doors/recent-installs/custom-steel-security-door-sunburst.png",
-                "medium":"assets/images/security/steel-security-doors/recent-installs/custom-steel-security-door-sunburst.png",
-                "big":"assets/images/security/steel-security-doors/recent-installs/custom-steel-security-door-sunburst.png"
+                "small":"/static/ang/assets/images/security/steel-security-doors/recent-installs/custom-steel-security-door-sunburst.png",
+                "medium":"/static/ang/assets/images/security/steel-security-doors/recent-installs/custom-steel-security-door-sunburst.png",
+                "big":"/static/ang/assets/images/security/steel-security-doors/recent-installs/custom-steel-security-door-sunburst.png"
             },
             {
-                "small":"assets/images/security/steel-security-doors/recent-installs/custom-steel-security-door-vineyard.png",
-                "medium":"assets/images/security/steel-security-doors/recent-installs/custom-steel-security-door-vineyard.png",
-                "big":"assets/images/security/steel-security-doors/recent-installs/custom-steel-security-door-vineyard.png"
+                "small":"/static/ang/assets/images/security/steel-security-doors/recent-installs/custom-steel-security-door-vineyard.png",
+                "medium":"/static/ang/assets/images/security/steel-security-doors/recent-installs/custom-steel-security-door-vineyard.png",
+                "big":"/static/ang/assets/images/security/steel-security-doors/recent-installs/custom-steel-security-door-vineyard.png"
             }
         ]
     },
@@ -1064,12 +1064,12 @@
             "Contrasting Color Mesh (as shown)",
             "Price: $$$"            
         ],
-        "tileImage":"assets/images/security/steel-security-doors/artisan/artisan.jpg",
+        "tileImage":"/static/ang/assets/images/security/steel-security-doors/artisan/artisan.jpg",
         "thumbImages":[
             {
-                "small":"assets/images/security/steel-security-doors/artisan/artisan.jpg",
-                "medium":"assets/images/security/steel-security-doors/artisan/artisan.jpg",
-                "big":"assets/images/security/steel-security-doors/artisan/artisan.jpg"
+                "small":"/static/ang/assets/images/security/steel-security-doors/artisan/artisan.jpg",
+                "medium":"/static/ang/assets/images/security/steel-security-doors/artisan/artisan.jpg",
+                "big":"/static/ang/assets/images/security/steel-security-doors/artisan/artisan.jpg"
             }
         ],
         "tileText":"Call us today and get great pricing on window screen replacements. We specialize in all kinds of window screens and Solar Screens.",
@@ -1108,12 +1108,12 @@
         ],
         "thumbImages":[
             {
-                "small":"assets/images/security/steel-security-doors/garden/garden.jpg",
-                "medium":"assets/images/security/steel-security-doors/garden/garden.jpg",
-                "big":"assets/images/security/steel-security-doors/garden/garden.jpg"
+                "small":"/static/ang/assets/images/security/steel-security-doors/garden/garden.jpg",
+                "medium":"/static/ang/assets/images/security/steel-security-doors/garden/garden.jpg",
+                "big":"/static/ang/assets/images/security/steel-security-doors/garden/garden.jpg"
             }
         ],
-        "tileImage":"assets/images/security/steel-security-doors/garden/garden.jpg",
+        "tileImage":"/static/ang/assets/images/security/steel-security-doors/garden/garden.jpg",
         "tileText":"Call us today and get great pricing on window screen replacements. We specialize in all kinds of window screens and Solar Screens.",
         "productOverview":"Mike's Mobile Screen & Chimney Service offers high quality Swinging Screen doors. The Brighton Swinging Screen Doors offers a 1in. Wide Sculptured 9 Lite marginal grid pattern which combines elegance and openess to this door design. Our prices include installation. Call today to find out more!",
         "technicalSpecs":"<li>2-1/8in. x 3/4in. .050 Extruded Aluminum Frame</li><li>Available in Standard Sizes</li><li>2ft 6in. x 6ft 8in. (29-1/4in. x 79-1/4in.)</li><li>2ft 8in. x 6ft 8in. (31-1/4in. x 79-1/4in.)</li><li>3ft 0in x 6ft 8in. (35-1/4in. x 79-1/4in.)</li><li>Custom Widths 24in. - 47in., Heights up to 96in.</li><li>1in. Wide Sculptured 9 Lite Marginal Grid Pattern</li><li>Charcoal Fiberglass Insect Screening</li><li>Standard Push Button Handle</li><li>1-7/8in Side Adjustable .050 Channel with 3 Hinges</li><li>1-7/8in Bottom Adjustment .050 Channel</li><li>Precision SAFEGUARD Packaging - Complete with Hardware.</li>",
@@ -1148,12 +1148,12 @@
             "Contrasting Color Mesh (as shown)",
             "Price: $$$"            
         ],
-        "tileImage":"assets/images/security/steel-security-doors/artisan-view/artisan-view.jpg",
+        "tileImage":"/static/ang/assets/images/security/steel-security-doors/artisan-view/artisan-view.jpg",
         "thumbImages":[
             {
-                "small":"assets/images/security/steel-security-doors/artisan-view/artisan-view.jpg",
-                "medium":"assets/images/security/steel-security-doors/artisan-view/artisan-view.jpg",
-                "big":"assets/images/security/steel-security-doors/artisan-view/artisan-view.jpg"
+                "small":"/static/ang/assets/images/security/steel-security-doors/artisan-view/artisan-view.jpg",
+                "medium":"/static/ang/assets/images/security/steel-security-doors/artisan-view/artisan-view.jpg",
+                "big":"/static/ang/assets/images/security/steel-security-doors/artisan-view/artisan-view.jpg"
             }
         ],
         "tileText":"Call us today and get great pricing on window screen replacements. We specialize in all kinds of window screens and Solar Screens.",
@@ -1190,12 +1190,12 @@
             "Contrasting Color Mesh (as shown)",
             "Price: $$$"            
         ],
-        "tileImage":"assets/images/security/steel-security-doors/vino/vino.jpg",
+        "tileImage":"/static/ang/assets/images/security/steel-security-doors/vino/vino.jpg",
         "thumbImages":[
             {
-                "small":"assets/images/security/steel-security-doors/vino/vino.jpg",
-                "medium":"assets/images/security/steel-security-doors/vino/vino.jpg",
-                "big":"assets/images/security/steel-security-doors/vino/vino.jpg"
+                "small":"/static/ang/assets/images/security/steel-security-doors/vino/vino.jpg",
+                "medium":"/static/ang/assets/images/security/steel-security-doors/vino/vino.jpg",
+                "big":"/static/ang/assets/images/security/steel-security-doors/vino/vino.jpg"
             }
         ],
         "tileText":"Call us today and get great pricing on window screen replacements. We specialize in all kinds of window screens and Solar Screens.",
@@ -1232,12 +1232,12 @@
             "Contrasting Color Mesh (as shown)",
             "Price: $$$"            
         ],
-        "tileImage":"assets/images/security/steel-security-doors/lanai/lanai.jpg",
+        "tileImage":"/static/ang/assets/images/security/steel-security-doors/lanai/lanai.jpg",
         "thumbImages":[
             {
-                "small":"assets/images/security/steel-security-doors/lanai/lanai.jpg",
-                "medium":"assets/images/security/steel-security-doors/lanai/lanai.jpg",
-                "big":"assets/images/security/steel-security-doors/lanai/lanai.jpg"
+                "small":"/static/ang/assets/images/security/steel-security-doors/lanai/lanai.jpg",
+                "medium":"/static/ang/assets/images/security/steel-security-doors/lanai/lanai.jpg",
+                "big":"/static/ang/assets/images/security/steel-security-doors/lanai/lanai.jpg"
             }
         ],
         "tileText":"Call us today and get great pricing on window screen replacements. We specialize in all kinds of window screens and Solar Screens.",
@@ -1260,12 +1260,12 @@
         "category":"Steel Security Doors",
         "type":"products",
         "line":"Signature",
-        "tileImage":"assets/images/security/steel-security-doors/vino-welcome/vino-welcome.jpg",
+        "tileImage":"/static/ang/assets/images/security/steel-security-doors/vino-welcome/vino-welcome.jpg",
         "thumbImages":[
             {
-                "small":"assets/images/security/steel-security-doors/vino-welcome/vino-welcome.jpg",
-                "medium":"assets/images/security/steel-security-doors/vino-welcome/vino-welcome.jpg",
-                "big":"assets/images/security/steel-security-doors/vino-welcome/vino-welcome.jpg"
+                "small":"/static/ang/assets/images/security/steel-security-doors/vino-welcome/vino-welcome.jpg",
+                "medium":"/static/ang/assets/images/security/steel-security-doors/vino-welcome/vino-welcome.jpg",
+                "big":"/static/ang/assets/images/security/steel-security-doors/vino-welcome/vino-welcome.jpg"
             }
         ],
         "bullets":[
@@ -1317,12 +1317,12 @@
             "Contrasting Color Mesh (2 tone)",
             "Price: $$"            
         ],
-        "tileImage":"assets/images/security/steel-security-doors/park-avenue/park-avenue.png",
+        "tileImage":"/static/ang/assets/images/security/steel-security-doors/park-avenue/park-avenue.png",
         "thumbImages":[
             {
-                "small":"assets/images/security/steel-security-doors/park-avenue/park-avenue.png",
-                "medium":"assets/images/security/steel-security-doors/park-avenue/park-avenue.png",
-                "big":"assets/images/security/steel-security-doors/park-avenue/park-avenue.png"
+                "small":"/static/ang/assets/images/security/steel-security-doors/park-avenue/park-avenue.png",
+                "medium":"/static/ang/assets/images/security/steel-security-doors/park-avenue/park-avenue.png",
+                "big":"/static/ang/assets/images/security/steel-security-doors/park-avenue/park-avenue.png"
             }
         ],
         "tileText":"Call us today and get great pricing on window screen replacements. We specialize in all kinds of window screens and Solar Screens.",
@@ -1345,12 +1345,12 @@
         "category":"Steel Security Doors",
         "type":"products",
         "line":"Premier",
-        "tileImage":"assets/images/security/steel-security-doors/sunrise/sunrise.jpg",
+        "tileImage":"/static/ang/assets/images/security/steel-security-doors/sunrise/sunrise.jpg",
         "thumbImages":[
             {
-                "small":"assets/images/security/steel-security-doors/sunrise/sunrise.jpg",
-                "medium":"assets/images/security/steel-security-doors/sunrise/sunrise.jpg",
-                "big":"assets/images/security/steel-security-doors/sunrise/sunrise.jpg"
+                "small":"/static/ang/assets/images/security/steel-security-doors/sunrise/sunrise.jpg",
+                "medium":"/static/ang/assets/images/security/steel-security-doors/sunrise/sunrise.jpg",
+                "big":"/static/ang/assets/images/security/steel-security-doors/sunrise/sunrise.jpg"
             }
         ],
         "bullets":[
@@ -1387,12 +1387,12 @@
         "category":"Steel Security Doors",
         "type":"products",
         "line":"Premier",
-        "tileImage":"assets/images/security/steel-security-doors/arbor/arbor.jpg",
+        "tileImage":"/static/ang/assets/images/security/steel-security-doors/arbor/arbor.jpg",
         "thumbImages":[
             {
-                "small":"assets/images/security/steel-security-doors/arbor/arbor.jpg",
-                "medium":"assets/images/security/steel-security-doors/arbor/arbor.jpg",
-                "big":"assets/images/security/steel-security-doors/arbor/arbor.jpg"
+                "small":"/static/ang/assets/images/security/steel-security-doors/arbor/arbor.jpg",
+                "medium":"/static/ang/assets/images/security/steel-security-doors/arbor/arbor.jpg",
+                "big":"/static/ang/assets/images/security/steel-security-doors/arbor/arbor.jpg"
             }
         ],
         "bullets":[
@@ -1430,12 +1430,12 @@
         "category":"Steel Security Doors",
         "type":"products",
         "line":"Premier",
-        "tileImage":"assets/images/security/steel-security-doors/zen/zen.jpg",
+        "tileImage":"/static/ang/assets/images/security/steel-security-doors/zen/zen.jpg",
         "thumbImages":[
             {
-                "small":"assets/images/security/steel-security-doors/zen/zen.jpg",
-                "medium":"assets/images/security/steel-security-doors/zen/zen.jpg",
-                "big":"assets/images/security/steel-security-doors/zen/zen.jpg"
+                "small":"/static/ang/assets/images/security/steel-security-doors/zen/zen.jpg",
+                "medium":"/static/ang/assets/images/security/steel-security-doors/zen/zen.jpg",
+                "big":"/static/ang/assets/images/security/steel-security-doors/zen/zen.jpg"
             }
         ],
         "bullets":[
@@ -1473,12 +1473,12 @@
         "category":"Steel Security Doors",
         "type":"products",
         "line":"Standard",
-        "tileImage":"assets/images/security/steel-security-doors/palladio/palladio.jpg",
+        "tileImage":"/static/ang/assets/images/security/steel-security-doors/palladio/palladio.jpg",
         "thumbImages":[
             {
-                "small":"assets/images/security/steel-security-doors/palladio/palladio.jpg",
-                "medium":"assets/images/security/steel-security-doors/palladio/palladio.jpg",
-                "big":"assets/images/security/steel-security-doors/palladio/palladio.jpg"
+                "small":"/static/ang/assets/images/security/steel-security-doors/palladio/palladio.jpg",
+                "medium":"/static/ang/assets/images/security/steel-security-doors/palladio/palladio.jpg",
+                "big":"/static/ang/assets/images/security/steel-security-doors/palladio/palladio.jpg"
             }
         ],
         "bullets":[
@@ -1517,12 +1517,12 @@
         "category":"Steel Security Doors",
         "type":"products",
         "line":"Standard",
-        "tileImage":"assets/images/security/steel-security-doors/estate/estate.jpg",
+        "tileImage":"/static/ang/assets/images/security/steel-security-doors/estate/estate.jpg",
         "thumbImages":[
             {
-                "small":"assets/images/security/steel-security-doors/estate/estate.jpg",
-                "medium":"assets/images/security/steel-security-doors/estate/estate.jpg",
-                "big":"assets/images/security/steel-security-doors/estate/estate.jpg"
+                "small":"/static/ang/assets/images/security/steel-security-doors/estate/estate.jpg",
+                "medium":"/static/ang/assets/images/security/steel-security-doors/estate/estate.jpg",
+                "big":"/static/ang/assets/images/security/steel-security-doors/estate/estate.jpg"
             }
         ],
         "bullets":[
@@ -1560,12 +1560,12 @@
         "category":"Steel Security Doors",
         "type":"products",
         "line":"Standard",
-        "tileImage":"assets/images/security/steel-security-doors/plantation/plantation.jpg",
+        "tileImage":"/static/ang/assets/images/security/steel-security-doors/plantation/plantation.jpg",
         "thumbImages":[
             {
-                "small":"assets/images/security/steel-security-doors/plantation/plantation.jpg",
-                "medium":"assets/images/security/steel-security-doors/plantation/plantation.jpg",
-                "big":"assets/images/security/steel-security-doors/plantation/plantation.jpg"
+                "small":"/static/ang/assets/images/security/steel-security-doors/plantation/plantation.jpg",
+                "medium":"/static/ang/assets/images/security/steel-security-doors/plantation/plantation.jpg",
+                "big":"/static/ang/assets/images/security/steel-security-doors/plantation/plantation.jpg"
             }
         ],
         "bullets":[
@@ -1604,12 +1604,12 @@
         "category":"Steel Security Doors",
         "type":"products",
         "line":"Standard",
-        "tileImage":"assets/images/security/steel-security-doors/villa/villa.jpg",
+        "tileImage":"/static/ang/assets/images/security/steel-security-doors/villa/villa.jpg",
         "thumbImages":[
             {
-                "small":"assets/images/security/steel-security-doors/villa/villa.jpg",
-                "medium":"assets/images/security/steel-security-doors/villa/villa.jpg",
-                "big":"assets/images/security/steel-security-doors/villa/villa.jpg"
+                "small":"/static/ang/assets/images/security/steel-security-doors/villa/villa.jpg",
+                "medium":"/static/ang/assets/images/security/steel-security-doors/villa/villa.jpg",
+                "big":"/static/ang/assets/images/security/steel-security-doors/villa/villa.jpg"
             }
         ],
         "bullets":[
@@ -1648,12 +1648,12 @@
         "category":"Steel Security Doors",
         "type":"products",
         "line":"Standard",
-        "tileImage":"assets/images/security/steel-security-doors/santa-fe/santa-fe.jpg",
+        "tileImage":"/static/ang/assets/images/security/steel-security-doors/santa-fe/santa-fe.jpg",
         "thumbImages":[
             {
-                "small":"assets/images/security/steel-security-doors/santa-fe/santa-fe.jpg",
-                "medium":"assets/images/security/steel-security-doors/santa-fe/santa-fe.jpg",
-                "big":"assets/images/security/steel-security-doors/santa-fe/santa-fe.jpg"
+                "small":"/static/ang/assets/images/security/steel-security-doors/santa-fe/santa-fe.jpg",
+                "medium":"/static/ang/assets/images/security/steel-security-doors/santa-fe/santa-fe.jpg",
+                "big":"/static/ang/assets/images/security/steel-security-doors/santa-fe/santa-fe.jpg"
             }
         ],
         "bullets":[
@@ -1699,28 +1699,28 @@
         "subcategory":"Door",
         "type":"products",
         "bullets":["The Viewguard looks like a screen door but is actually high tensile strength stainless steel woven into a fine mesh.","Your security screen door will be the first point of protection for keeping your home safe and secure.","It provides secure protection and gives you a clear view of the outdoors without compromising the style or appearance of your home."],
-        "tileImage":"/assets/images/security/viewguard/viewguard.jpg",
+        "tileImage":"/static/ang/assets/images/security/viewguard/viewguard.jpg",
         "tileText":"Your security screen door will be the first point of protection for keeping your home safe and secure.",
         "thumbImages":[
             {
-                "small":"/assets/images/security/viewguard/viewguard_main.png",
-                "medium":"/assets/images/security/viewguard/viewguard_main.png",
-                "big":"/assets/images/security/viewguard/viewguard_main.png"
+                "small":"/static/ang/assets/images/security/viewguard/viewguard_main.png",
+                "medium":"/static/ang/assets/images/security/viewguard/viewguard_main.png",
+                "big":"/static/ang/assets/images/security/viewguard/viewguard_main.png"
             },
             {
-                "small":"/assets/images/security/viewguard/viewguard-diagram-medium.png",
-                "medium":"/assets/images/security/viewguard/viewguard-diagram-medium.png",
-                "big":"/assets/images/security/viewguard/viewguard-diagram-medium.png"
+                "small":"/static/ang/assets/images/security/viewguard/viewguard-diagram-medium.png",
+                "medium":"/static/ang/assets/images/security/viewguard/viewguard-diagram-medium.png",
+                "big":"/static/ang/assets/images/security/viewguard/viewguard-diagram-medium.png"
             },
             {
-                "small":"/assets/images/security/viewguard/viewguard-bottom-medium.png",
-                "medium":"/assets/images/security/viewguard/viewguard-bottom-medium.png",
-                "big":"/assets/images/security/viewguard/viewguard-bottom-medium.png"
+                "small":"/static/ang/assets/images/security/viewguard/viewguard-bottom-medium.png",
+                "medium":"/static/ang/assets/images/security/viewguard/viewguard-bottom-medium.png",
+                "big":"/static/ang/assets/images/security/viewguard/viewguard-bottom-medium.png"
             },
             {
-                "small":"/assets/images/security/viewguard/viewguard-height-guide-medium.png",
-                "medium":"/assets/images/security/viewguard/viewguard-height-guide-medium.png",
-                "big":"/assets/images/security/viewguard/viewguard-height-guide-medium.png"
+                "small":"/static/ang/assets/images/security/viewguard/viewguard-height-guide-medium.png",
+                "medium":"/static/ang/assets/images/security/viewguard/viewguard-height-guide-medium.png",
+                "big":"/static/ang/assets/images/security/viewguard/viewguard-height-guide-medium.png"
             }
         ],
         "productOverview":"REST EASY<br/>Now you can let the cool breeze in and keep intruders out without compromising the appearance of your home. Finally you can experience total security without resorting to bars or unsightly steel grills.<br/><br/>HIGHER SECURITY<br/>Viewguard screens incorporate the latest advances in high tensile strength materials and construction.<br/><br/>LOWER COST<br/>When compared to alternative solutions for security, Viewguard™ security screen doors are built to last and are corrosion resistant.<br/><br/>GREATER AIRFLOW<br/>Stainless steel marine grade mesh screen optimizes airflow, and maximizes security. Strength and beauty in perfect harmony.<br/><br/>SAVE ENERGY - FEEL SAFE<br/>Opening your window in the evening reduces air conditioning costs in hot weather.<br/><br/>SUPERIOR STYLE<br/>Compare our security window screens with anything else on the market today, and we think you'll agree, Guarda has a lock on security and style.<br/><br/>COLORS AVAILABLE<br/>Bronze Anodized or White Paint. Custom special colors are available. Contact the factory for more details.",
@@ -1742,43 +1742,43 @@
         "subcategory":"Door",
         "type":"products",
         "bullets":["With the Tru-View you can let the cool breeze in and keep intruders out without compromising the appearance of your home.","Finally you can experience security without resorting to bars or unsightly steel grills.","Stainless steel marine grade mesh screen optimizes airflow, and maximizes security."],
-        "tileImage":"/assets/images/security/tru-view/tru-view.jpg",
+        "tileImage":"/static/ang/assets/images/security/tru-view/tru-view.jpg",
         "tileText":"With the Tru-View you can let the cool breeze in and keep intruders out without compromising the appearance of your home.",
         "thumbImages":[
             {
-                "small":"/assets/images/security/tru-view/1.png",
-                "medium":"/assets/images/security/tru-view/1.png",
-                "big":"/assets/images/security/tru-view/1.png"
+                "small":"/static/ang/assets/images/security/tru-view/1.png",
+                "medium":"/static/ang/assets/images/security/tru-view/1.png",
+                "big":"/static/ang/assets/images/security/tru-view/1.png"
             },
             {
-                "small":"/assets/images/security/tru-view/2.png",
-                "medium":"/assets/images/security/tru-view/2.png",
-                "big":"/assets/images/security/tru-view/2.png"
+                "small":"/static/ang/assets/images/security/tru-view/2.png",
+                "medium":"/static/ang/assets/images/security/tru-view/2.png",
+                "big":"/static/ang/assets/images/security/tru-view/2.png"
             },
             {
-                "small":"/assets/images/security/tru-view/3.png",
-                "medium":"/assets/images/security/tru-view/3.png",
-                "big":"/assets/images/security/tru-view/3.png"
+                "small":"/static/ang/assets/images/security/tru-view/3.png",
+                "medium":"/static/ang/assets/images/security/tru-view/3.png",
+                "big":"/static/ang/assets/images/security/tru-view/3.png"
             },
             {
-                "small":"/assets/images/security/tru-view/4.png",
-                "medium":"/assets/images/security/tru-view/4.png",
-                "big":"/assets/images/security/tru-view/4.png"
+                "small":"/static/ang/assets/images/security/tru-view/4.png",
+                "medium":"/static/ang/assets/images/security/tru-view/4.png",
+                "big":"/static/ang/assets/images/security/tru-view/4.png"
             },
             {
-                "small":"/assets/images/security/tru-view/5.png",
-                "medium":"/assets/images/security/tru-view/5.png",
-                "big":"/assets/images/security/tru-view/5.png"
+                "small":"/static/ang/assets/images/security/tru-view/5.png",
+                "medium":"/static/ang/assets/images/security/tru-view/5.png",
+                "big":"/static/ang/assets/images/security/tru-view/5.png"
             },
             {
-                "small":"/assets/images/security/tru-view/6.png",
-                "medium":"/assets/images/security/tru-view/6.png",
-                "big":"/assets/images/security/tru-view/6.png"
+                "small":"/static/ang/assets/images/security/tru-view/6.png",
+                "medium":"/static/ang/assets/images/security/tru-view/6.png",
+                "big":"/static/ang/assets/images/security/tru-view/6.png"
             },
             {
-                "small":"/assets/images/security/tru-view/7.png",
-                "medium":"/assets/images/security/tru-view/7.png",
-                "big":"/assets/images/security/tru-view/7.png"
+                "small":"/static/ang/assets/images/security/tru-view/7.png",
+                "medium":"/static/ang/assets/images/security/tru-view/7.png",
+                "big":"/static/ang/assets/images/security/tru-view/7.png"
             }
         ],
         "productOverview":"Tru-View Security door is an amazing solution for front doors and back doors!<br/><br/>REST EASY<br/>Now you can let the cool breeze in and keep intruders out without compromising the appearance of your home. Finally you can experience total security without resorting to bars or unsightly steel grills.<br/><br/>HIGHER SECURITY<br/>Tru-View security screen doors incorporate the latest advances in high tensile strength materials and construction.<br/><br/>LOWER COST<br/>When compared to alternative solutions for security, Tru-View™ security screen doors are built to last and are corrosion resistant.<br/><br/>GREATER AIRFLOW<br/>Stainless steel marine grade mesh screen optimizes airflow, and maximizes security. Strength and beauty in perfect harmony.<br/><br/>SAVE ENERGY - FEEL SAFE<br/>Opening your door in the evening reduces air conditioning costs in hot weather.<br/><br/>SUPERIOR STYLE<br/>Compare our screen doors with anything else on the market today, and we think you'll agree, Tru-View™ has a lock on security and style.",
@@ -1792,8 +1792,8 @@
         },
         "warranty":"All warranties cover materials, manufacturing defects and hardware for the periods listed below but will not cover normal wear and tear of the product. Screen mesh is not covered beyond the initial installation of products. Defective items must be reported within 5 days of receipt for validation. Improper installation of the product will not be covered under the warranties listed. Warranty periods begin from the date of purchase to our dealers.<br/><br/>Contact the factory for details on specific product lines listed below and for any warranty claim.<br/><br/>Maximum liability for R. Lang Company will be limited to replacement of product only.<br/><br/>5 Year Limited Warranty<br/><br/><br/>Security Doors<br/>WARRANTY SERVICE REQUESTS<br/><br/>Warranty periods begin from date of purchase from the R. Lang Company.<br/>All warranty service requests must be submitted by the original dealer/customer for validation purposes. You must provide an original invoice number for verification.<br/>Contact our Customer Service Department at (800) 677-5264 for the Service Request form to be emailed or faxed to you.<br/>R. Lang Company will not accept warranty requests directly from homeowners.<br/>Under no circumstance will R. Lang Company be responsible for repair bills submitted by homeowners or dealers/customers without prior approval from the Sales or Warranty Manager.<br/>Warranty requests received outside of our California service area will be processed by our Warranty Manager for fair resolution. Replacement parts will be sent as necessary to correct a problem or defect. Insulated glass failures/defects can be replaced locally but will require pre-authorization from the Sales Warranty Manager for fair credit amount reimbursement.<br/>Any dealer/customer rework or screen replacement must be pre-approved. We recommend that the product be returned for correction in our facility.<br/>R. Lang Company will cover cost for authorized replacements for material only. Dealer/customer will be responsible for any labor incurred for their shop or field expenses.<br/><br/>GENERAL WARRANTY POLICY<br/>R. Lang Company will repair or provide replacement product, at it’s election, free of charge, any product proven to have a manufacturing defect during the applicable warranty period up to a maximum liability which shall be equal to the cost of replacement of the defective product. R. Lang Company shall in no event be liable for labor charges or other expenses whatsoever in connection with removal or installation of either the original or replacement product. However, in lieu of replacement of repair, R. Lang Company, at it’s sole discretion, reserves the right to refund up to the amount paid by the original purchaser of the product but not including the installation cost. This warranty is intended to cover individual homeowners and does not apply to products installed in commercial construction. In the event of repair or replacement pursuant to terms of this warranty, the original warranty shall apply to the repaired or replacement product and will extend for the balance of the warranty period in effect at the time the product proved defective.",
         "recentInstallImages":[
-            {"small": "/assets/images/security/tru-view/8.png", "medium":"/assets/images/security/tru-view/8.png", "big":"/assets/images/security/tru-view/8.png"},
-            {"small": "/assets/images/security/tru-view/9.png", "medium":"/assets/images/security/tru-view/9.png", "big":"/assets/images/security/tru-view/9.png"}
+            {"small": "/static/ang/assets/images/security/tru-view/8.png", "medium":"/static/ang/assets/images/security/tru-view/8.png", "big":"/static/ang/assets/images/security/tru-view/8.png"},
+            {"small": "/static/ang/assets/images/security/tru-view/9.png", "medium":"/static/ang/assets/images/security/tru-view/9.png", "big":"/static/ang/assets/images/security/tru-view/9.png"}
         ],
         "colorSet":["stdColors", "slidingSecurityDoorColors"]
     },
@@ -1804,38 +1804,38 @@
         "subcategory":"Door",
         "type":"products",
         "bullets":["Tru-Frame security screen doors have all the benefits of a screen door with the added safety of a dead bolted security door.","The Tru-Frame is a security door without the traditional security door look, at a price that won’t break the bank."],
-        "tileImage":"/assets/images/security/tru-frame/1.jpg",
+        "tileImage":"/static/ang/assets/images/security/tru-frame/1.jpg",
         "tileText":"Tru-Frame security screen doors have all the benefits of a screen door with the added safety of a dead bolted security door.",
         "thumbImages":[
             {
-                "small":"/assets/images/security/tru-frame/1.png",
-                "medium":"/assets/images/security/tru-frame/1.png",
-                "big":"/assets/images/security/tru-frame/1.png"
+                "small":"/static/ang/assets/images/security/tru-frame/1.png",
+                "medium":"/static/ang/assets/images/security/tru-frame/1.png",
+                "big":"/static/ang/assets/images/security/tru-frame/1.png"
             },
             {
-                "small":"/assets/images/security/tru-frame/2.png",
-                "medium":"/assets/images/security/tru-frame/2.png",
-                "big":"/assets/images/security/tru-frame/2.png"
+                "small":"/static/ang/assets/images/security/tru-frame/2.png",
+                "medium":"/static/ang/assets/images/security/tru-frame/2.png",
+                "big":"/static/ang/assets/images/security/tru-frame/2.png"
             },
             {
-                "small":"/assets/images/security/tru-frame/3.png",
-                "medium":"/assets/images/security/tru-frame/3.png",
-                "big":"/assets/images/security/tru-frame/3.png"
+                "small":"/static/ang/assets/images/security/tru-frame/3.png",
+                "medium":"/static/ang/assets/images/security/tru-frame/3.png",
+                "big":"/static/ang/assets/images/security/tru-frame/3.png"
             },
             {
-                "small":"/assets/images/security/tru-frame/4.png",
-                "medium":"/assets/images/security/tru-frame/4.png",
-                "big":"/assets/images/security/tru-frame/4.png"
+                "small":"/static/ang/assets/images/security/tru-frame/4.png",
+                "medium":"/static/ang/assets/images/security/tru-frame/4.png",
+                "big":"/static/ang/assets/images/security/tru-frame/4.png"
             },
             {
-                "small":"/assets/images/security/tru-frame/5.png",
-                "medium":"/assets/images/security/tru-frame/5.png",
-                "big":"/assets/images/security/tru-frame/5.png"
+                "small":"/static/ang/assets/images/security/tru-frame/5.png",
+                "medium":"/static/ang/assets/images/security/tru-frame/5.png",
+                "big":"/static/ang/assets/images/security/tru-frame/5.png"
             },
             {
-                "small":"/assets/images/security/tru-frame/6.png",
-                "medium":"/assets/images/security/tru-frame/6.png",
-                "big":"/assets/images/security/tru-frame/6.png"
+                "small":"/static/ang/assets/images/security/tru-frame/6.png",
+                "medium":"/static/ang/assets/images/security/tru-frame/6.png",
+                "big":"/static/ang/assets/images/security/tru-frame/6.png"
             }
         ],
         "productOverview":"Aluminum Frame:<br/>The high tensile strength aluminum construction withstands bending, breaking, smashing, and pulling.<br/><br/>Ventilation and Visibility:<br/>Feel safe and secure leaving your front door open.<br/><br/>Deadbolt Security:<br/>With a poly carbonate sheet to prevent tampering from the outside, the deadbolt lock cannot be pried open by a metal or plastic insert. Even if the face plate and handle are jimmied, the concealed mechanism and main bolt remain in the locked position.<br/><br/>Rust Free:<br/>With a heavy gauge extruded aluminum frame, the Tru-Frame Security Door is resistant to rust and made for lasting durability.",
@@ -1850,19 +1850,19 @@
         "warranty":"All warranties cover materials, manufacturing defects and hardware for the periods listed below but will not cover normal wear and tear of the product. Screen mesh is not covered beyond the initial installation of products. Defective items must be reported within 5 days of receipt for validation. Improper installation of the product will not be covered under the warranties listed. Warranty periods begin from the date of purchase to our dealers.<br/><br/>Contact the factory for details on specific product lines listed below and for any warranty claim.<br/><br/>Maximum liability for R. Lang Company will be limited to replacement of product only.<br/><br/>5 Year Limited Warranty<br/><br/><br/>Security Doors<br/>WARRANTY SERVICE REQUESTS<br/><br/>Warranty periods begin from date of purchase from the R. Lang Company.<br/>All warranty service requests must be submitted by the original dealer/customer for validation purposes. You must provide an original invoice number for verification.<br/>Contact our Customer Service Department at (800) 677-5264 for the Service Request form to be emailed or faxed to you.<br/>R. Lang Company will not accept warranty requests directly from homeowners.<br/>Under no circumstance will R. Lang Company be responsible for repair bills submitted by homeowners or dealers/customers without prior approval from the Sales or Warranty Manager.<br/>Warranty requests received outside of our California service area will be processed by our Warranty Manager for fair resolution. Replacement parts will be sent as necessary to correct a problem or defect. Insulated glass failures/defects can be replaced locally but will require pre-authorization from the Sales Warranty Manager for fair credit amount reimbursement.<br/>Any dealer/customer rework or screen replacement must be pre-approved. We recommend that the product be returned for correction in our facility.<br/>R. Lang Company will cover cost for authorized replacements for material only. Dealer/customer will be responsible for any labor incurred for their shop or field expenses.<br/><br/>GENERAL WARRANTY POLICY<br/>R. Lang Company will repair or provide replacement product, at it’s election, free of charge, any product proven to have a manufacturing defect during the applicable warranty period up to a maximum liability which shall be equal to the cost of replacement of the defective product. R. Lang Company shall in no event be liable for labor charges or other expenses whatsoever in connection with removal or installation of either the original or replacement product. However, in lieu of replacement of repair, R. Lang Company, at it’s sole discretion, reserves the right to refund up to the amount paid by the original purchaser of the product but not including the installation cost. This warranty is intended to cover individual homeowners and does not apply to products installed in commercial construction. In the event of repair or replacement pursuant to terms of this warranty, the original warranty shall apply to the repaired or replacement product and will extend for the balance of the warranty period in effect at the time the product proved defective.",
         "recentInstallImages":[
             {
-                "small":"/assets/images/security/tru-frame/1.jpg",
-                "medium":"/assets/images/security/tru-frame/1.jpg",
-                "big":"/assets/images/security/tru-frame/1.jpg"
+                "small":"/static/ang/assets/images/security/tru-frame/1.jpg",
+                "medium":"/static/ang/assets/images/security/tru-frame/1.jpg",
+                "big":"/static/ang/assets/images/security/tru-frame/1.jpg"
             },
             {
-                "small":"/assets/images/security/tru-frame/2.jpg",
-                "medium":"/assets/images/security/tru-frame/2.jpg",
-                "big":"/assets/images/security/tru-frame/2.jpg"
+                "small":"/static/ang/assets/images/security/tru-frame/2.jpg",
+                "medium":"/static/ang/assets/images/security/tru-frame/2.jpg",
+                "big":"/static/ang/assets/images/security/tru-frame/2.jpg"
             },
             {
-                "small":"/assets/images/security/tru-frame/3.jpg",
-                "medium":"/assets/images/security/tru-frame/3.jpg",
-                "big":"/assets/images/security/tru-frame/3.jpg"
+                "small":"/static/ang/assets/images/security/tru-frame/3.jpg",
+                "medium":"/static/ang/assets/images/security/tru-frame/3.jpg",
+                "big":"/static/ang/assets/images/security/tru-frame/3.jpg"
             }
         ],
         "colorSet":["stdColors", "slidingSecurityDoorColors"]
@@ -1874,53 +1874,53 @@
         "subcategory":"Door",
         "type":"products",
         "bullets":["Let the cool breeze in while keeping undesirable elements out with TRU-Frame Sliding Security Screen Doors.","Constructed to match the look and performance of our hinged door product line, our NEW Sliding Security Doors will enhance the appearance of your home while providing peace of mind!","Available in the Stainless Steel Mesh style (Similar to Viewguard) and an Amplimesh style (Similar to TRU-Frame) in Single or Double door options."],
-        "tileImage":"/assets/images/security/sliding/2.jpg",
+        "tileImage":"/static/ang/assets/images/security/sliding/2.jpg",
         "tileText":"Enjoy the cool night air while sleeping in peace, quiet and safety. These sliding security doors are also pet resistant! No more ripped screens from pets.",
         "thumbImages":[
             {
-                "small":"/assets/images/security/sliding/1.jpg",
-                "medium":"/assets/images/security/sliding/1.jpg",
-                "big":"/assets/images/security/sliding/1.jpg"
+                "small":"/static/ang/assets/images/security/sliding/1.jpg",
+                "medium":"/static/ang/assets/images/security/sliding/1.jpg",
+                "big":"/static/ang/assets/images/security/sliding/1.jpg"
             },
             {
-                "small":"/assets/images/security/sliding/2.jpg",
-                "medium":"/assets/images/security/sliding/2.jpg",
-                "big":"/assets/images/security/sliding/2.jpg"
+                "small":"/static/ang/assets/images/security/sliding/2.jpg",
+                "medium":"/static/ang/assets/images/security/sliding/2.jpg",
+                "big":"/static/ang/assets/images/security/sliding/2.jpg"
             },
             {
-                "small":"/assets/images/security/sliding/3.jpg",
-                "medium":"/assets/images/security/sliding/3.jpg",
-                "big":"/assets/images/security/sliding/3.jpg"
+                "small":"/static/ang/assets/images/security/sliding/3.jpg",
+                "medium":"/static/ang/assets/images/security/sliding/3.jpg",
+                "big":"/static/ang/assets/images/security/sliding/3.jpg"
             },
             {
-                "small":"/assets/images/security/sliding/4.jpg",
-                "medium":"/assets/images/security/sliding/4.jpg",
-                "big":"/assets/images/security/sliding/4.jpg"
+                "small":"/static/ang/assets/images/security/sliding/4.jpg",
+                "medium":"/static/ang/assets/images/security/sliding/4.jpg",
+                "big":"/static/ang/assets/images/security/sliding/4.jpg"
             },
             {
-                "small":"/assets/images/security/sliding/5.jpg",
-                "medium":"/assets/images/security/sliding/5.jpg",
-                "big":"/assets/images/security/sliding/5.jpg"
+                "small":"/static/ang/assets/images/security/sliding/5.jpg",
+                "medium":"/static/ang/assets/images/security/sliding/5.jpg",
+                "big":"/static/ang/assets/images/security/sliding/5.jpg"
             },
             {
-                "small":"/assets/images/security/sliding/6.jpg",
-                "medium":"/assets/images/security/sliding/6.jpg",
-                "big":"/assets/images/security/sliding/6.jpg"
+                "small":"/static/ang/assets/images/security/sliding/6.jpg",
+                "medium":"/static/ang/assets/images/security/sliding/6.jpg",
+                "big":"/static/ang/assets/images/security/sliding/6.jpg"
             },
             {
-                "small":"/assets/images/security/sliding/7.jpg",
-                "medium":"/assets/images/security/sliding/7.jpg",
-                "big":"/assets/images/security/sliding/7.jpg"
+                "small":"/static/ang/assets/images/security/sliding/7.jpg",
+                "medium":"/static/ang/assets/images/security/sliding/7.jpg",
+                "big":"/static/ang/assets/images/security/sliding/7.jpg"
             },
             {
-                "small":"/assets/images/security/sliding/8.jpg",
-                "medium":"/assets/images/security/sliding/8.jpg",
-                "big":"/assets/images/security/sliding/8.jpg"
+                "small":"/static/ang/assets/images/security/sliding/8.jpg",
+                "medium":"/static/ang/assets/images/security/sliding/8.jpg",
+                "big":"/static/ang/assets/images/security/sliding/8.jpg"
             },
             {
-                "small":"/assets/images/security/sliding/9.jpg",
-                "medium":"/assets/images/security/sliding/9.jpg",
-                "big":"/assets/images/security/sliding/9.jpg"
+                "small":"/static/ang/assets/images/security/sliding/9.jpg",
+                "medium":"/static/ang/assets/images/security/sliding/9.jpg",
+                "big":"/static/ang/assets/images/security/sliding/9.jpg"
             }
         ],
         "productOverview":"A sliding security door replaces your existing patio screen door. These doors come pre-assembled and tamper resistant. Enjoy the cool night air while sleeping in peace, quiet and safety. These sliding security doors are also pet resistant! No more ripped screens from pets.",
@@ -1935,19 +1935,19 @@
         "warranty":"All warranties cover materials, manufacturing defects and hardware for the periods listed below but will not cover normal wear and tear of the product. Screen mesh is not covered beyond the initial installation of products. Defective items must be reported within 5 days of receipt for validation. Improper installation of the product will not be covered under the warranties listed. Warranty periods begin from the date of purchase to our dealers.<br/><br/>Contact the factory for details on specific product lines listed below and for any warranty claim.<br/><br/>Maximum liability for R. Lang Company will be limited to replacement of product only.<br/><br/>5 Year Limited Warranty<br/><br/><br/>Security Doors<br/>WARRANTY SERVICE REQUESTS<br/><br/>Warranty periods begin from date of purchase from the R. Lang Company.<br/>All warranty service requests must be submitted by the original dealer/customer for validation purposes. You must provide an original invoice number for verification.<br/>Contact our Customer Service Department at (800) 677-5264 for the Service Request form to be emailed or faxed to you.<br/>R. Lang Company will not accept warranty requests directly from homeowners.<br/>Under no circumstance will R. Lang Company be responsible for repair bills submitted by homeowners or dealers/customers without prior approval from the Sales or Warranty Manager.<br/>Warranty requests received outside of our California service area will be processed by our Warranty Manager for fair resolution. Replacement parts will be sent as necessary to correct a problem or defect. Insulated glass failures/defects can be replaced locally but will require pre-authorization from the Sales Warranty Manager for fair credit amount reimbursement.<br/>Any dealer/customer rework or screen replacement must be pre-approved. We recommend that the product be returned for correction in our facility.<br/>R. Lang Company will cover cost for authorized replacements for material only. Dealer/customer will be responsible for any labor incurred for their shop or field expenses.<br/><br/>GENERAL WARRANTY POLICY<br/>R. Lang Company will repair or provide replacement product, at it’s election, free of charge, any product proven to have a manufacturing defect during the applicable warranty period up to a maximum liability which shall be equal to the cost of replacement of the defective product. R. Lang Company shall in no event be liable for labor charges or other expenses whatsoever in connection with removal or installation of either the original or replacement product. However, in lieu of replacement of repair, R. Lang Company, at it’s sole discretion, reserves the right to refund up to the amount paid by the original purchaser of the product but not including the installation cost. This warranty is intended to cover individual homeowners and does not apply to products installed in commercial construction. In the event of repair or replacement pursuant to terms of this warranty, the original warranty shall apply to the repaired or replacement product and will extend for the balance of the warranty period in effect at the time the product proved defective.",
         "recentInstallImages":[
             {
-                "small":"/assets/images/security/sliding/1.jpg",
-                "medium":"/assets/images/security/sliding/1.jpg",
-                "big":"/assets/images/security/sliding/1.jpg"
+                "small":"/static/ang/assets/images/security/sliding/1.jpg",
+                "medium":"/static/ang/assets/images/security/sliding/1.jpg",
+                "big":"/static/ang/assets/images/security/sliding/1.jpg"
             },
             {
-                "small":"/assets/images/security/sliding/2.jpg",
-                "medium":"/assets/images/security/sliding/2.jpg",
-                "big":"/assets/images/security/sliding/2.jpg"
+                "small":"/static/ang/assets/images/security/sliding/2.jpg",
+                "medium":"/static/ang/assets/images/security/sliding/2.jpg",
+                "big":"/static/ang/assets/images/security/sliding/2.jpg"
             },
             {
-                "small":"/assets/images/security/sliding/3.jpg",
-                "medium":"/assets/images/security/sliding/3.jpg",
-                "big":"/assets/images/security/sliding/3.jpg"
+                "small":"/static/ang/assets/images/security/sliding/3.jpg",
+                "medium":"/static/ang/assets/images/security/sliding/3.jpg",
+                "big":"/static/ang/assets/images/security/sliding/3.jpg"
             },
             {
                 "small":"assets/images/security/sliding/4.jpg",
@@ -1955,29 +1955,29 @@
                 "big":"assets/images/security/sliding/4.jpg"
             },
             {
-                "small":"/assets/images/security/sliding/5.jpg",
-                "medium":"/assets/images/security/sliding/5.jpg",
-                "big":"/assets/images/security/sliding/5.jpg"
+                "small":"/static/ang/assets/images/security/sliding/5.jpg",
+                "medium":"/static/ang/assets/images/security/sliding/5.jpg",
+                "big":"/static/ang/assets/images/security/sliding/5.jpg"
             },
             {
-                "small":"/assets/images/security/sliding/6.jpg",
-                "medium":"/assets/images/security/sliding/6.jpg",
-                "big":"/assets/images/security/sliding/6.jpg"
+                "small":"/static/ang/assets/images/security/sliding/6.jpg",
+                "medium":"/static/ang/assets/images/security/sliding/6.jpg",
+                "big":"/static/ang/assets/images/security/sliding/6.jpg"
             },
             {
-                "small":"/assets/images/security/sliding/7.jpg",
-                "medium":"/assets/images/security/sliding/7.jpg",
-                "big":"/assets/images/security/sliding/7.jpg"
+                "small":"/static/ang/assets/images/security/sliding/7.jpg",
+                "medium":"/static/ang/assets/images/security/sliding/7.jpg",
+                "big":"/static/ang/assets/images/security/sliding/7.jpg"
             },
             {
-                "small":"/assets/images/security/sliding/8.jpg",
-                "medium":"/assets/images/security/sliding/8.jpg",
-                "big":"/assets/images/security/sliding/8.jpg"
+                "small":"/static/ang/assets/images/security/sliding/8.jpg",
+                "medium":"/static/ang/assets/images/security/sliding/8.jpg",
+                "big":"/static/ang/assets/images/security/sliding/8.jpg"
             },
             {
-                "small":"/assets/images/security/sliding/9.jpg",
-                "medium":"/assets/images/security/sliding/9.jpg",
-                "big":"/assets/images/security/sliding/9.jpg"
+                "small":"/static/ang/assets/images/security/sliding/9.jpg",
+                "medium":"/static/ang/assets/images/security/sliding/9.jpg",
+                "big":"/static/ang/assets/images/security/sliding/9.jpg"
             }
         ],
         "colorSet":["stdColors", "slidingSecurityDoorColors"]
@@ -1997,23 +1997,23 @@
             "Our security window screens looks like a normal window screen but is actually high tensile strength stainless steel oven into a fine mesh called 'meshtec'.",
             "It provides secure protection and gives you a clear view of the outdoors without compromising the style or appearance of your home."
         ],
-        "tileImage":"/assets/images/security/guarda-escape/2.png",
+        "tileImage":"/static/ang/assets/images/security/guarda-escape/2.png",
         "tileText":"CRL Guarda™ Quick Escape Window Screens have an easy release push mechanism that also acts as a secure, temper resistant device locking the screen closed for peace of mind.",
         "thumbImages":[
             {
-                "small":"/assets/images/security/guarda-escape/2.png",
-                "medium":"/assets/images/security/guarda-escape/2.png",
-                "big":"/assets/images/security/guarda-escape/2.png"
+                "small":"/static/ang/assets/images/security/guarda-escape/2.png",
+                "medium":"/static/ang/assets/images/security/guarda-escape/2.png",
+                "big":"/static/ang/assets/images/security/guarda-escape/2.png"
             },
             {
-                "small":"/assets/images/security/guarda-escape/1.png",
-                "medium":"/assets/images/security/guarda-escape/1.png",
-                "big":"/assets/images/security/guarda-escape/1.png"
+                "small":"/static/ang/assets/images/security/guarda-escape/1.png",
+                "medium":"/static/ang/assets/images/security/guarda-escape/1.png",
+                "big":"/static/ang/assets/images/security/guarda-escape/1.png"
             },
             {
-                "small":"/assets/images/security/guarda-escape/3.png",
-                "medium":"/assets/images/security/guarda-escape/3.png",
-                "big":"/assets/images/security/guarda-escape/3.png"
+                "small":"/static/ang/assets/images/security/guarda-escape/3.png",
+                "medium":"/static/ang/assets/images/security/guarda-escape/3.png",
+                "big":"/static/ang/assets/images/security/guarda-escape/3.png"
             }
         ],
         "productOverview":"REST EASY<br/>Now you can let the cool breeze in and keep intruders out without compromising the appearance of your home. Finally you can experience total security without resorting to bars or unsightly steel grills.<br/><br/>HIGHER SECURITY<br/>Guarda security window screens incorporate the latest advances in high tensile strength materials and construction.<br/><br/>LOWER COST<br/>When compared to alternative solutions for security, our security window screens are built to last and are corrosion resistant.<br/><br/>GREATER AIRFLOW<br/>Stainless steel marine grade mesh screen optimizes airflow, and maximizes security. Strength and beauty in perfect harmony.<br/><br/>SAVE ENERGY - FEEL SAFE<br/>Opening your window in the evening reduces air conditioning costs in hot weather.<br/><br/>SUPERIOR STYLE<br/>Compare our security window screens with anything else on the market today, and we think you'll agree, Guarda has a lock on security and style.<br/><br/>COLORS AVAILABLE<br/>Bronze Anodized or White Paint. Custom special colors are available. Contact the factory for more details.",
@@ -2040,23 +2040,23 @@
             "Our security window screens looks like a normal window screen but is actually high tensile strength stainless steel oven into a fine mesh called 'meshtec'.",
             "It provides secure protection and gives you a clear view of the outdoors without compromising the style or appearance of your home."
         ],
-        "tileImage":"/assets/images/security/guarda-fixed/2.png",
+        "tileImage":"/static/ang/assets/images/security/guarda-fixed/2.png",
         "tileText":"CRL Guarda™ Security Fixed Window Screens are an ideal solution to cover and protect non-opening windows.",
         "thumbImages":[
             {
-                "small":"/assets/images/security/guarda-fixed/1.png",
-                "medium":"/assets/images/security/guarda-fixed/1.png",
-                "big":"/assets/images/security/guarda-fixed/1.png"
+                "small":"/static/ang/assets/images/security/guarda-fixed/1.png",
+                "medium":"/static/ang/assets/images/security/guarda-fixed/1.png",
+                "big":"/static/ang/assets/images/security/guarda-fixed/1.png"
             },
             {
-                "small":"/assets/images/security/guarda-fixed/2.png",
-                "medium":"/assets/images/security/guarda-fixed/2.png",
-                "big":"/assets/images/security/guarda-fixed/2.png"
+                "small":"/static/ang/assets/images/security/guarda-fixed/2.png",
+                "medium":"/static/ang/assets/images/security/guarda-fixed/2.png",
+                "big":"/static/ang/assets/images/security/guarda-fixed/2.png"
             },
             {
-                "small":"/assets/images/security/guarda-fixed/3.png",
-                "medium":"/assets/images/security/guarda-fixed/3.png",
-                "big":"/assets/images/security/guarda-fixed/3.png"
+                "small":"/static/ang/assets/images/security/guarda-fixed/3.png",
+                "medium":"/static/ang/assets/images/security/guarda-fixed/3.png",
+                "big":"/static/ang/assets/images/security/guarda-fixed/3.png"
             }
         ],
         "productOverview":"REST EASY<br/>Now you can let the cool breeze in and keep intruders out without compromising the appearance of your home. Finally you can experience total security without resorting to bars or unsightly steel grills.<br/><br/>HIGHER SECURITY<br/>Guarda security window screens incorporate the latest advances in high tensile strength materials and construction.<br/><br/>LOWER COST<br/>When compared to alternative solutions for security, our security window screens are built to last and are corrosion resistant.<br/><br/>GREATER AIRFLOW<br/>Stainless steel marine grade mesh screen optimizes airflow, and maximizes security. Strength and beauty in perfect harmony.<br/><br/>SAVE ENERGY - FEEL SAFE<br/>Opening your window in the evening reduces air conditioning costs in hot weather.<br/><br/>SUPERIOR STYLE<br/>Compare our security window screens with anything else on the market today, and we think you'll agree, Guarda has a lock on security and style.<br/><br/>COLORS AVAILABLE<br/>Bronze Anodized or White Paint. Custom special colors are available. Contact the factory for more details.",
@@ -2080,23 +2080,23 @@
             "Our security window screens looks like a normal window screen but is actually high tensile strength stainless steel oven into a fine mesh called 'meshtec'.",
             "It provides secure protection and gives you a clear view of the outdoors without compromising the style or appearance of your home."
         ],
-        "tileImage":"/assets/images/security/guarda-casement/1.png",
+        "tileImage":"/static/ang/assets/images/security/guarda-casement/1.png",
         "tileText":"Our security window screens looks like a normal window screen but is actually high tensile strength stainless steel woven into a fine mesh",
         "thumbImages":[
             {
-                "small":"/assets/images/security/guarda-casement/1.png",
-                "medium":"/assets/images/security/guarda-casement/1.png",
-                "big":"/assets/images/security/guarda-casement/1.png"
+                "small":"/static/ang/assets/images/security/guarda-casement/1.png",
+                "medium":"/static/ang/assets/images/security/guarda-casement/1.png",
+                "big":"/static/ang/assets/images/security/guarda-casement/1.png"
             },
             {
-                "small":"/assets/images/security/guarda-casement/2.png",
-                "medium":"/assets/images/security/guarda-casement/2.png",
-                "big":"/assets/images/security/guarda-casement/2.png"
+                "small":"/static/ang/assets/images/security/guarda-casement/2.png",
+                "medium":"/static/ang/assets/images/security/guarda-casement/2.png",
+                "big":"/static/ang/assets/images/security/guarda-casement/2.png"
             },
             {
-                "small":"/assets/images/security/guarda-casement/3.png",
-                "medium":"/assets/images/security/guarda-casement/3.png",
-                "big":"/assets/images/security/guarda-casement/3.png"
+                "small":"/static/ang/assets/images/security/guarda-casement/3.png",
+                "medium":"/static/ang/assets/images/security/guarda-casement/3.png",
+                "big":"/static/ang/assets/images/security/guarda-casement/3.png"
             }
         ],
         "productOverview":"REST EASY<br/>Now you can let the cool breeze in and keep intruders out without compromising the appearance of your home. Finally you can experience total security without resorting to bars or unsightly steel grills.<br/><br/>HIGHER SECURITY<br/>Guarda security window screens incorporate the latest advances in high tensile strength materials and construction.<br/><br/>LOWER COST<br/>When compared to alternative solutions for security, our security window screens are built to last and are corrosion resistant.<br/><br/>GREATER AIRFLOW<br/>Stainless steel marine grade mesh screen optimizes airflow, and maximizes security. Strength and beauty in perfect harmony.<br/><br/>SAVE ENERGY - FEEL SAFE<br/>Opening your window in the evening reduces air conditioning costs in hot weather.<br/><br/>SUPERIOR STYLE<br/>Compare our security window screens with anything else on the market today, and we think you'll agree, Guarda has a lock on security and style.<br/><br/>COLORS AVAILABLE<br/>Bronze Anodized or White Paint. Custom special colors are available. Contact the factory for more details.",
@@ -2117,7 +2117,7 @@
         "slug":"retractable-patio-awning",
         "category":"Awnings",
         "type":"services",
-        "tileImage":"/assets/images/awnings/folding-arm-awning.jpg",
+        "tileImage":"/static/ang/assets/images/awnings/folding-arm-awning.jpg",
         "tileText":"Increase your home’s livable area and create the perfect day with Retractable Patio and Deck Awnings.",
         "thumbImages":[
             {
@@ -2142,98 +2142,98 @@
         ],
         "recentInstallImages":[
             {
-                "small":"/assets/images/awnings/retractable-patio-awnings/1.jpg",
-                "medium":"/assets/images/awnings/retractable-patio-awnings/1.jpg",
-                "big":"/assets/images/awnings/retractable-patio-awnings/1.jpg"
+                "small":"/static/ang/assets/images/awnings/retractable-patio-awnings/1.jpg",
+                "medium":"/static/ang/assets/images/awnings/retractable-patio-awnings/1.jpg",
+                "big":"/static/ang/assets/images/awnings/retractable-patio-awnings/1.jpg"
             },
             {
-                "small":"/assets/images/awnings/retractable-patio-awnings/2.jpg",
-                "medium":"/assets/images/awnings/retractable-patio-awnings/2.jpg",
-                "big":"/assets/images/awnings/retractable-patio-awnings/2.jpg"
+                "small":"/static/ang/assets/images/awnings/retractable-patio-awnings/2.jpg",
+                "medium":"/static/ang/assets/images/awnings/retractable-patio-awnings/2.jpg",
+                "big":"/static/ang/assets/images/awnings/retractable-patio-awnings/2.jpg"
             },
             {
-                "small":"/assets/images/awnings/retractable-patio-awnings/3.jpg",
-                "medium":"/assets/images/awnings/retractable-patio-awnings/3.jpg",
-                "big":"/assets/images/awnings/retractable-patio-awnings/3.jpg"
+                "small":"/static/ang/assets/images/awnings/retractable-patio-awnings/3.jpg",
+                "medium":"/static/ang/assets/images/awnings/retractable-patio-awnings/3.jpg",
+                "big":"/static/ang/assets/images/awnings/retractable-patio-awnings/3.jpg"
             },
             {
-                "small":"/assets/images/awnings/retractable-patio-awnings/4.jpg",
-                "medium":"/assets/images/awnings/retractable-patio-awnings/4.jpg",
-                "big":"/assets/images/awnings/retractable-patio-awnings/4.jpg"
+                "small":"/static/ang/assets/images/awnings/retractable-patio-awnings/4.jpg",
+                "medium":"/static/ang/assets/images/awnings/retractable-patio-awnings/4.jpg",
+                "big":"/static/ang/assets/images/awnings/retractable-patio-awnings/4.jpg"
             },
             {
-                "small":"/assets/images/awnings/retractable-patio-awnings/5.jpg",
-                "medium":"/assets/images/awnings/retractable-patio-awnings/5.jpg",
-                "big":"/assets/images/awnings/retractable-patio-awnings/5.jpg"
+                "small":"/static/ang/assets/images/awnings/retractable-patio-awnings/5.jpg",
+                "medium":"/static/ang/assets/images/awnings/retractable-patio-awnings/5.jpg",
+                "big":"/static/ang/assets/images/awnings/retractable-patio-awnings/5.jpg"
             },
             {
-                "small":"/assets/images/awnings/retractable-patio-awnings/6.jpg",
-                "medium":"/assets/images/awnings/retractable-patio-awnings/6.jpg",
-                "big":"/assets/images/awnings/retractable-patio-awnings/6.jpg"
+                "small":"/static/ang/assets/images/awnings/retractable-patio-awnings/6.jpg",
+                "medium":"/static/ang/assets/images/awnings/retractable-patio-awnings/6.jpg",
+                "big":"/static/ang/assets/images/awnings/retractable-patio-awnings/6.jpg"
             },
             {
-                "small":"/assets/images/awnings/retractable-patio-awnings/7.jpg",
-                "medium":"/assets/images/awnings/retractable-patio-awnings/7.jpg",
-                "big":"/assets/images/awnings/retractable-patio-awnings/7.jpg"
+                "small":"/static/ang/assets/images/awnings/retractable-patio-awnings/7.jpg",
+                "medium":"/static/ang/assets/images/awnings/retractable-patio-awnings/7.jpg",
+                "big":"/static/ang/assets/images/awnings/retractable-patio-awnings/7.jpg"
             },
             {
-                "small":"/assets/images/awnings/retractable-patio-awnings/8.jpg",
-                "medium":"/assets/images/awnings/retractable-patio-awnings/8.jpg",
-                "big":"/assets/images/awnings/retractable-patio-awnings/8.jpg"
+                "small":"/static/ang/assets/images/awnings/retractable-patio-awnings/8.jpg",
+                "medium":"/static/ang/assets/images/awnings/retractable-patio-awnings/8.jpg",
+                "big":"/static/ang/assets/images/awnings/retractable-patio-awnings/8.jpg"
             },
             {
-                "small":"/assets/images/awnings/retractable-patio-awnings/9.jpg",
-                "medium":"/assets/images/awnings/retractable-patio-awnings/9.jpg",
-                "big":"/assets/images/awnings/retractable-patio-awnings/9.jpg"
+                "small":"/static/ang/assets/images/awnings/retractable-patio-awnings/9.jpg",
+                "medium":"/static/ang/assets/images/awnings/retractable-patio-awnings/9.jpg",
+                "big":"/static/ang/assets/images/awnings/retractable-patio-awnings/9.jpg"
             },
             {
-                "small":"/assets/images/awnings/retractable-patio-awnings/10.jpg",
-                "medium":"/assets/images/awnings/retractable-patio-awnings/10.jpg",
-                "big":"/assets/images/awnings/retractable-patio-awnings/10.jpg"
+                "small":"/static/ang/assets/images/awnings/retractable-patio-awnings/10.jpg",
+                "medium":"/static/ang/assets/images/awnings/retractable-patio-awnings/10.jpg",
+                "big":"/static/ang/assets/images/awnings/retractable-patio-awnings/10.jpg"
             },
             {
-                "small":"/assets/images/awnings/retractable-patio-awnings/11.jpg",
-                "medium":"/assets/images/awnings/retractable-patio-awnings/11.jpg",
-                "big":"/assets/images/awnings/retractable-patio-awnings/11.jpg"
+                "small":"/static/ang/assets/images/awnings/retractable-patio-awnings/11.jpg",
+                "medium":"/static/ang/assets/images/awnings/retractable-patio-awnings/11.jpg",
+                "big":"/static/ang/assets/images/awnings/retractable-patio-awnings/11.jpg"
             },
             {
-                "small":"/assets/images/awnings/retractable-patio-awnings/12.jpg",
-                "medium":"/assets/images/awnings/retractable-patio-awnings/12.jpg",
-                "big":"/assets/images/awnings/retractable-patio-awnings/12.jpg"
+                "small":"/static/ang/assets/images/awnings/retractable-patio-awnings/12.jpg",
+                "medium":"/static/ang/assets/images/awnings/retractable-patio-awnings/12.jpg",
+                "big":"/static/ang/assets/images/awnings/retractable-patio-awnings/12.jpg"
             },
             {
-                "small":"/assets/images/awnings/retractable-patio-awnings/13.jpg",
-                "medium":"/assets/images/awnings/retractable-patio-awnings/13.jpg",
-                "big":"/assets/images/awnings/retractable-patio-awnings/13.jpg"
+                "small":"/static/ang/assets/images/awnings/retractable-patio-awnings/13.jpg",
+                "medium":"/static/ang/assets/images/awnings/retractable-patio-awnings/13.jpg",
+                "big":"/static/ang/assets/images/awnings/retractable-patio-awnings/13.jpg"
             },
             {
-                "small":"/assets/images/awnings/retractable-patio-awnings/14.jpg",
-                "medium":"/assets/images/awnings/retractable-patio-awnings/14.jpg",
-                "big":"/assets/images/awnings/retractable-patio-awnings/14.jpg"
+                "small":"/static/ang/assets/images/awnings/retractable-patio-awnings/14.jpg",
+                "medium":"/static/ang/assets/images/awnings/retractable-patio-awnings/14.jpg",
+                "big":"/static/ang/assets/images/awnings/retractable-patio-awnings/14.jpg"
             },
             {
-                "small":"/assets/images/awnings/retractable-patio-awnings/15.jpg",
-                "medium":"/assets/images/awnings/retractable-patio-awnings/15.jpg",
-                "big":"/assets/images/awnings/retractable-patio-awnings/15.jpg"
+                "small":"/static/ang/assets/images/awnings/retractable-patio-awnings/15.jpg",
+                "medium":"/static/ang/assets/images/awnings/retractable-patio-awnings/15.jpg",
+                "big":"/static/ang/assets/images/awnings/retractable-patio-awnings/15.jpg"
             },
             {
-                "small":"/assets/images/awnings/retractable-patio-awnings/16.jpg",
-                "medium":"/assets/images/awnings/retractable-patio-awnings/16.jpg",
-                "big":"/assets/images/awnings/retractable-patio-awnings/16.jpg"
+                "small":"/static/ang/assets/images/awnings/retractable-patio-awnings/16.jpg",
+                "medium":"/static/ang/assets/images/awnings/retractable-patio-awnings/16.jpg",
+                "big":"/static/ang/assets/images/awnings/retractable-patio-awnings/16.jpg"
             },
             {
-                "small":"/assets/images/awnings/retractable-patio-awnings/17.jpg",
-                "medium":"/assets/images/awnings/retractable-patio-awnings/17.jpg",
-                "big":"/assets/images/awnings/retractable-patio-awnings/17.jpg"
+                "small":"/static/ang/assets/images/awnings/retractable-patio-awnings/17.jpg",
+                "medium":"/static/ang/assets/images/awnings/retractable-patio-awnings/17.jpg",
+                "big":"/static/ang/assets/images/awnings/retractable-patio-awnings/17.jpg"
             },
             {
-                "small":"/assets/images/awnings/retractable-patio-awnings/18.jpg",
-                "medium":"/assets/images/awnings/retractable-patio-awnings/18.jpg",
-                "big":"/assets/images/awnings/retractable-patio-awnings/18.jpg"
+                "small":"/static/ang/assets/images/awnings/retractable-patio-awnings/18.jpg",
+                "medium":"/static/ang/assets/images/awnings/retractable-patio-awnings/18.jpg",
+                "big":"/static/ang/assets/images/awnings/retractable-patio-awnings/18.jpg"
             }
         ],
         "extraImages": {
-            "img":"/assets/images/awnings/retractable-patio-awnings/sunesta-top-half-brochure2.jpg"
+            "img":"/static/ang/assets/images/awnings/retractable-patio-awnings/sunesta-top-half-brochure2.jpg"
         }
     },
     {
@@ -2242,7 +2242,7 @@
         "category":"Awnings",
         "type":"services",
         "bullets":[],
-        "tileImage":"/assets/images/awnings/droproll.jpg",
+        "tileImage":"/static/ang/assets/images/awnings/droproll.jpg",
         "tileText":"The Sunroll Drop Roll Sunscreen provides you with total vertical sun control of your covered outdoor space.",
         "textList":[
             {
@@ -2260,39 +2260,39 @@
         ],
         "recentInstallImages":[
             {
-                "small":"/assets/images/awnings/drop-roll-sunscreens/1.jpg",
-                "medium":"/assets/images/awnings/drop-roll-sunscreens/1.jpg",
-                "big":"/assets/images/awnings/drop-roll-sunscreens/1.jpg"
+                "small":"/static/ang/assets/images/awnings/drop-roll-sunscreens/1.jpg",
+                "medium":"/static/ang/assets/images/awnings/drop-roll-sunscreens/1.jpg",
+                "big":"/static/ang/assets/images/awnings/drop-roll-sunscreens/1.jpg"
             },
             {
-                "small":"/assets/images/awnings/drop-roll-sunscreens/2.jpg",
-                "medium":"/assets/images/awnings/drop-roll-sunscreens/2.jpg",
-                "big":"/assets/images/awnings/drop-roll-sunscreens/2.jpg"
+                "small":"/static/ang/assets/images/awnings/drop-roll-sunscreens/2.jpg",
+                "medium":"/static/ang/assets/images/awnings/drop-roll-sunscreens/2.jpg",
+                "big":"/static/ang/assets/images/awnings/drop-roll-sunscreens/2.jpg"
             },
             {
-                "small":"/assets/images/awnings/drop-roll-sunscreens/3.jpg",
-                "medium":"/assets/images/awnings/drop-roll-sunscreens/3.jpg",
-                "big":"/assets/images/awnings/drop-roll-sunscreens/3.jpg"
+                "small":"/static/ang/assets/images/awnings/drop-roll-sunscreens/3.jpg",
+                "medium":"/static/ang/assets/images/awnings/drop-roll-sunscreens/3.jpg",
+                "big":"/static/ang/assets/images/awnings/drop-roll-sunscreens/3.jpg"
             },
             {
-                "small":"/assets/images/awnings/drop-roll-sunscreens/4.jpg",
-                "medium":"/assets/images/awnings/drop-roll-sunscreens/4.jpg",
-                "big":"/assets/images/awnings/drop-roll-sunscreens/4.jpg"
+                "small":"/static/ang/assets/images/awnings/drop-roll-sunscreens/4.jpg",
+                "medium":"/static/ang/assets/images/awnings/drop-roll-sunscreens/4.jpg",
+                "big":"/static/ang/assets/images/awnings/drop-roll-sunscreens/4.jpg"
             },
             {
-                "small":"/assets/images/awnings/drop-roll-sunscreens/5.jpg",
-                "medium":"/assets/images/awnings/drop-roll-sunscreens/5.jpg",
-                "big":"/assets/images/awnings/drop-roll-sunscreens/5.jpg"
+                "small":"/static/ang/assets/images/awnings/drop-roll-sunscreens/5.jpg",
+                "medium":"/static/ang/assets/images/awnings/drop-roll-sunscreens/5.jpg",
+                "big":"/static/ang/assets/images/awnings/drop-roll-sunscreens/5.jpg"
             },
             {
-                "small":"/assets/images/awnings/drop-roll-sunscreens/6.jpg",
-                "medium":"/assets/images/awnings/drop-roll-sunscreens/6.jpg",
-                "big":"/assets/images/awnings/drop-roll-sunscreens/6.jpg"
+                "small":"/static/ang/assets/images/awnings/drop-roll-sunscreens/6.jpg",
+                "medium":"/static/ang/assets/images/awnings/drop-roll-sunscreens/6.jpg",
+                "big":"/static/ang/assets/images/awnings/drop-roll-sunscreens/6.jpg"
             },
             {
-                "small":"/assets/images/awnings/drop-roll-sunscreens/7.jpg",
-                "medium":"/assets/images/awnings/drop-roll-sunscreens/7.jpg",
-                "big":"/assets/images/awnings/drop-roll-sunscreens/7.jpg"
+                "small":"/static/ang/assets/images/awnings/drop-roll-sunscreens/7.jpg",
+                "medium":"/static/ang/assets/images/awnings/drop-roll-sunscreens/7.jpg",
+                "big":"/static/ang/assets/images/awnings/drop-roll-sunscreens/7.jpg"
             }
         ]
     },
@@ -2302,7 +2302,7 @@
         "category":"Awnings",
         "type":"services",
         "bullets":[],
-        "tileImage":"/assets/images/awnings/wet.jpg",
+        "tileImage":"/static/ang/assets/images/awnings/wet.jpg",
         "tileText":"Your home is one-of-a-kind, and your window and door awnings should match and compliment it.",
         "thumbImages":[
             {
@@ -2322,7 +2322,7 @@
             }
         ],
         "extraImages": {
-            "img":"/assets/images/awnings/door-and-window-awnings/sunbrero-back-of-brochure-all.jpg"
+            "img":"/static/ang/assets/images/awnings/door-and-window-awnings/sunbrero-back-of-brochure-all.jpg"
         }
     },
 

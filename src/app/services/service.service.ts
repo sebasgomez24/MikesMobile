@@ -4,7 +4,8 @@ import { Http } from '@angular/http';
 import 'rxjs/add/operator/map';
 import 'rxjs/add/operator/catch';
 
-const endpoint = '/assets/json/services.json'
+const endpoint = 'static/ang/assets/json/services.json'
+// const endpoint = 'assets/json/services.json'
 
 @Injectable()
 export class ServicesService {

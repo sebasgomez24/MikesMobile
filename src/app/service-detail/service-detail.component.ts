@@ -18,10 +18,10 @@ export class ServiceDetailComponent implements OnInit, OnDestroy {
         "White":"#ffffff"
     }
     screenFrameColors = {
-        Black:"/assets/images/colors/suntex-black.png",
-        Brown:"/assets/images/colors/suntex-brown.png",
-        Gray:"/assets/images/colors/suntex-grey.png",
-        Stucco:"/assets/images/colors/suntex-stucco.png"
+        Black:"/static/ang/assets/images/colors/suntex-black.png",
+        Brown:"/static/ang/assets/images/colors/suntex-brown.png",
+        Gray:"/static/ang/assets/images/colors/suntex-grey.png",
+        Stucco:"/static/ang/assets/images/colors/suntex-stucco.png"
     }
     colorSetx4 = {
         "Almond":"#F3E7D3",
