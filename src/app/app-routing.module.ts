@@ -12,17 +12,19 @@ import { ProductDetailComponent } 	from './product-detail/product-detail.compone
 import { ServiceDetailComponent } 	from './service-detail/service-detail.component';
 import { ServiceListComponent } 	from './service-list/service-list.component';
 import { SearchDetailComponent } 	from './search-detail/search-detail.component';
+import { SeoAdwordsLpComponent } from './seo-adwords-lp/seo-adwords-lp.component';
 import { SeoLocationLpComponent } 	from './seo-location-lp/seo-location-lp.component';
 
 const appRoutes: Routes = [
   { path: 'about', 				component: AboutComponent, 						data: { title: "About Mike's Mobile" }},
+  { path: 'about/:slug', 		component: LandingPageComponent, 				data: { title: "Mike's Mobile Screen and Chimney Service" }},
   { path: 'blog', 				component: PostListComponent, 						data: { title: "Mike's Mobile Blog" }},
   { path: 'blog/:slug',   component:PostDetailComponent,        data:{ title: "Mike's Mobile Blog Post"}},
   { path: 'contact', 			component: ContactComponent,					data: { title: "Contact Mike's Mobile" }},
   { path: 'grid/:slug', 		component: GridComponent, 						data: { title: "Mike's Mobile Screen and Chimney Service" }},
-  { path: 'about/:slug', 		component: LandingPageComponent, 				data: { title: "Mike's Mobile Screen and Chimney Service" }},
   { path: 'products/:slug', 	component: ProductDetailComponent, 				data: { title: "Mike's Mobile Screen and Chimney Service" }},
   { path: 'services/:slug', 	component: ServiceDetailComponent, 				data: { title: "Mike's Mobile Services" }},
+  { path: 'landingpages/:slug',   component: SeoAdwordsLpComponent,     data: { title: "Mike's Mobile Adwords Landing Pages"}},
   { path: 'sem/:slug', 			component: SeoLocationLpComponent, 				data: { title: "Mike's Mobile Screen and Chimney Service" }},
   { path: 'search', 			component: SearchDetailComponent, 				data: { title: "Search Mike's Mobile" }},
   { path: '', 					component: HomeComponent, pathMatch: 'full', 	data: { title: "Mike's Mobile Screen and Chimney Service" }},

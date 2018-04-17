@@ -28,7 +28,7 @@
 								<mdb-tab heading="Single Stainless Steel Mesh">
 									<div class="row"> 
 										<div class="col-12">
-											<img src="/assets/images/security/sliding/single-stainless-mesh.jpg" />
+											<img src="/assets/images/security/sliding/single-stainless-mesh.jpg" class="img-fluid centered-sq"/>
 										</div> 
 									</div>
 								</mdb-tab>
@@ -36,7 +36,7 @@
 								<mdb-tab heading="Double Stainless Steel Mesh">
 									<div class="row"> 
 										<div class="col-12">
-											<img src="/assets/images/security/sliding/double-stainless-mesh.jpg" />
+											<img src="/assets/images/security/sliding/double-stainless-mesh.jpg" class="img-fluid centered-sq"/>
 										</div> 
 									</div>
 								</mdb-tab>
@@ -50,7 +50,7 @@
 							<mdb-tab heading="Single Amplimesh">
 								<div class="row"> 
 									<div class="col-12">
-										<img src="/assets/images/security/sliding/single-amplimesh.jpg" class="img-fluid"/>
+										<img src="/assets/images/security/sliding/single-amplimesh.jpg" class="img-fluid centered-sq"/>
 									</div> 
 								</div>
 							</mdb-tab>
@@ -58,7 +58,7 @@
 							<mdb-tab heading="Double Amplimesh">
 								<div class="row"> 
 									<div class="col-12">
-										<img src="/assets/images/security/sliding/double-amplimesh.jpg" />
+										<img src="/assets/images/security/sliding/double-amplimesh.jpg" class="img-fluid centered-sq"/>
 									</div> 
 								</div>
 							</mdb-tab>
@@ -88,10 +88,9 @@
 				</ng-container>
 
 				<!-- Normal Gallery for most Product Pages -->					
-				<ng-container *ngIf="gallery_images">
+				<ng-container *ngIf="product.slug !== 'sliding-security-doors' && gallery_images">
 					<ngx-gallery [options]="gallery_options" [images]="gallery_images"></ngx-gallery>
 				</ng-container>
-				
 			</div>
 			<!-- /GALLERY SECTION -->
 

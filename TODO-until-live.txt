@@ -26,12 +26,10 @@ Visual Fixes:
 #*Blog section: Simple, keep pre-exisiting format, add a couple posts ==> 3-5 posts
 #Page Not Found Component
 #Images: Individual Steel Doors, Swing Doors [more bullets] ==> Go through every page*
+#Include Locations Lists in about page: missing actual locations from drive
+#Content: Chimney Services, Grid Pages, Individual Steel Doors [more bullets] ==> Go through every page*
 
-//Include Locations Lists in about page: missing actual locations from drive
 //Include App Information in Chimney Inspection Page [Review Notes]: Tablet Image photoshop
-
-//Content: Chimney Services, Grid Pages, Individual Steel Doors [more bullets] ==> Go through every page*
-
 Quote Form (submit function): emailjs redirect on submitFomr
 Thank You page redirect after Quote form is completed
 
@@ -47,3 +45,7 @@ Adwords Landing Pages
 Sitemap
 ? Google Analytics Conversions
 ? Facebook Pixels Tracker
+
+
+
+IMAGES @ http://reyesmasonrycontractor.com

@@ -23,7 +23,7 @@ export class SeoLocationLpComponent implements OnInit {
 	ngOnInit() {
 		this.routeSub = this.route.params.subscribe(params=>{
 			this.slug = params['slug']
-			this.req = this._service.list().subscribe(data=>{
+			this.req = this._service.listLocations().subscribe(data=>{
 				data.filter(item=>{
 					if(item.slug == this.slug){
 						this.landingPage = item as LandingItem

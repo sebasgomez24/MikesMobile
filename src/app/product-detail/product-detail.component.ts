@@ -93,16 +93,15 @@ export class ProductDetailComponent implements OnInit, OnDestroy {
                     if(item.slug == this.slug){
                         this.product = item as ServiceItem;
                         this.recent_install_images = this.product.recentInstallImages;                        
-                        if (this.product.thumbImages.length > 1){
+                        if (this.product.thumbImages && this.product.thumbImages.length > 1){
                             this.gallery_images = this.product.thumbImages;
+                            let galleryImages = true;
                         } else {
                             let modalImage = true;
-                            console.log(modalImage)
                         }
 
                         if (this.product.bullets.length > 5){
                             let smallLi = true;
-                            console.log(smallLi)
                         }
                     }
                 })

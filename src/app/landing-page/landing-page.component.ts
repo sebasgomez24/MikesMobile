@@ -25,7 +25,7 @@ export class LandingPageComponent implements OnInit, OnDestroy {
       this.req = this._service.list().subscribe(data => {
         data.filter(item => {
           if(item.slug == this.slug){
-              this.landing = item as ServiceItem;
+            this.landing = item as ServiceItem;
           }
         })
       })
