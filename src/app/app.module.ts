@@ -1,7 +1,7 @@
 import { NgModule, NO_ERRORS_SCHEMA } from '@angular/core';
 import { BrowserModule, Title } from '@angular/platform-browser';
-import { FormsModule } from '@angular/forms';
-import { HttpModule } from '@angular/http';
+import { FormsModule, ReactiveFormsModule } from '@angular/forms';
+import { HttpClientModule } from '@angular/common/http';
 import { AgmCoreModule } from '@agm/core';
 
 import { MDBBootstrapModules } from 'ng-mdb-pro';
@@ -57,13 +57,14 @@ import { SeoAdwordsLpComponent } from './seo-adwords-lp/seo-adwords-lp.component
     SearchDetailComponent,
     ServiceListComponent,
     ServiceDetailComponent,
-    SeoAdwordsLpComponent,    
+    SeoAdwordsLpComponent,
   ],
   imports: [
     AppRoutingModule,
     BrowserModule,
     FormsModule,
-    HttpModule,
+    ReactiveFormsModule,
+    HttpClientModule,
     Ng2PageScrollModule,
     NgxGalleryModule,
     MDBBootstrapModules.forRoot(),

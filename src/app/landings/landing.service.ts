@@ -1,23 +1,26 @@
 import { Injectable } from '@angular/core';
-import { Http } from '@angular/http';
+import { HttpClient, HttpHeaders } from '@angular/common/http';
 
+import { Observable } from 'rxjs/Observable';
 import 'rxjs/add/operator/map';
 import 'rxjs/add/operator/catch';
 
-const seolocations = 'static/ang/assets/json/seolocations.json'
-const adwordsLandingPages = 'static/ang/assets/json/adwordslps.json'
+// const seolocations = 'static/ang/assets/json/seolocations.json'
+// const adwordsLandingPages = 'static/ang/assets/json/adwordslps.json'
+const seolocations = 'assets/json/og_seolocations.json'
+const adwordsLandingPages = 'assets/json/og_adwordslps.json'
 
 @Injectable()
 export class LandingService {
 
-  constructor(private http:Http) { }
+  constructor(private http:HttpClient) { }
 
-  listLocations(){
-		return this.http.get(seolocations).map(response=>response.json()).catch(this.handleError)
+  listLocations():Observable<any>{
+		return this.http.get(seolocations).catch(this.handleError)
   }
 
-  listAdwordsLPs(){
-    return this.http.get(adwordsLandingPages).map(response=>response.json()).catch(this.handleError)
+  listAdwordsLPs():Observable<any>{
+    return this.http.get(adwordsLandingPages).catch(this.handleError)
   }
 
   // search(query){
@@ -31,7 +34,7 @@ export class LandingService {
   //     return data
   //   }).catch(this.handleError)
   // }
-  
+
   private handleError(error:any, caught:any):any{
     console.log(error, caught)
   }
